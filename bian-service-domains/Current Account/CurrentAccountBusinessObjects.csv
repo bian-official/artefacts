@@ -11,7 +11,7 @@ Process deposits and withdrawals
 Handle standing orders and direct debits
 Process fees and apply interest charges
 Provide balance/statements and reports"
-"Functional Pattern"	Fulfill
+"Functional Pattern"	Fulfill Testing
 "Asset Type"	CurrentAccount
 "Generic Artifact"	Facility
 "Control Record"	CurrentAccountArrangement
