@@ -133,4 +133,4 @@ BQ,BQ Interest Instance Record,Transaction Interest Charge,The derived interest 
 BQ,BQ Interest Instance Record,Interest Accrual Amount,Record of accrued interest,
 BQ,BQ Interest Instance Record,Interest Accrual Type,The interest type being tracked,
 BQ,BQ Interest Instance Record,Interest Accrual Charge,The accrued amount of applied interest,
-BQ,TCS Test,TCS Test,TCS Test,
+BQ,BQ Interest Instance Record,Interest Accural Option,Accured charges option,
