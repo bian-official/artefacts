@@ -1,135 +1,136 @@
-"Control Record Model for: "	Current Account
-"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
-"BQ"	BQ Service Fees Instance Record	""	""	""
-"BQ"	BQ Service Fees Instance Record	Service Fees Instance Record	"Applies service fees and penalties to the account"	
-"BQ"	BQ Service Fees Instance Record	Fee Configuration Profile	"The profile of applicable fees and penalties"	
-"BQ"	BQ Service Fees Instance Record	Fee Definition	"Definition of the fee or penalty including when and how to apply"	
-"BQ"	BQ Service Fees Instance Record	Fee Type	"The fee or penalty type applied"	
-"BQ"	BQ Service Fees Instance Record	Fee Application Record	"The record of applied fees and penalties including transactions and accrued amounts"	
-"BQ"	BQ Service Fees Instance Record	Fee Transaction	"A record of an applied fee or penalty"	
-"BQ"	BQ Service Fees Instance Record	Transaction Description	"General description of the fee or penalty transaction"	
-"BQ"	BQ Service Fees Instance Record	Transaction Fee Type	"The fee or penalty type applied"	
-"BQ"	BQ Service Fees Instance Record	Transaction Fee Charge	"The derived fee or penalty amount applied"	
-"BQ"	BQ Service Fees Instance Record	Fee Projections and Commitments	"A record of projected fees and penalties"	
-"BQ"	BQ Service Fees Instance Record	Projected Transaction Description	"General description of the projected fee or penalty"	
-"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Type	"The fee or penalty type"	
-"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Charge	"The anticipated fee or penalty amount"	
-"BQ"	BQ Service Fees Instance Record	Fee Accrual Amount	"Tracking of accumulated fees and penalties"	
-"BQ"	BQ Service Fees Instance Record	Accrual Fee Type	"The fee or penalty type being tracked"	
-"BQ"	BQ Service Fees Instance Record	Accrual Fee Charge	"The accrued amount of fees and penalties"	
-"BQ"	BQ Account Lien Instance Record	""	""	""
-"BQ"	BQ Account Lien Instance Record	Account Lien Instance Record	"Handles liens placed against the account"	
-"BQ"	BQ Account Lien Instance Record	Lien Type	"The type of lien (e.g. final, pending)"	
-"BQ"	BQ Account Lien Instance Record	Lien Definition	"Definition of the type of lien including processing guidelines"	
-"BQ"	BQ Account Lien Instance Record	Lien Processing Option	"The processing option applied to the lien"	
-"BQ"	BQ Account Lien Instance Record	Lien Record	"The collection of applicable rates"	
-"BQ"	BQ Account Lien Instance Record	Lien Originator	"The party requesting the lien"	
-"BQ"	BQ Account Lien Instance Record	Lien Purpose	"The purpose or associated facility linked to the lien"	
-"BQ"	BQ Account Lien Instance Record	Lien Amount	"The amount being blocked"	
-"BQ"	BQ Account Lien Instance Record	Lien Start Date	"The date the lien is enforced"	
-"BQ"	BQ Account Lien Instance Record	Lien Expiry Date	"The date the lien is removed"	
-"BQ"	BQ Account Lien Instance Record	Lien Status	"The status on the lien"	
-"CR"	CR Current Account Arrangement Instance Record	""	""	""
-"CR"	CR Current Account Arrangement Instance Record	Current Account Arrangement Instance Record	"The control record maintains all details for a current account product instance"	
-"CR"	CR Current Account Arrangement Instance Record	Product Instance Reference	"Reference to the current account product instance"	
-"CR"	CR Current Account Arrangement Instance Record	Current Account Number	"The associated account number in any suitable format (e.g. IBAN)"	AccountIdentification
-"CR"	CR Current Account Arrangement Instance Record	Customer Reference	"Reference to the account primary party/owner"	AccountInvolvement
-"CR"	CR Current Account Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the account for booking purposes"	
-"CR"	CR Current Account Arrangement Instance Record	Account Type	"The type of current account (e.g. checking, student, small business)"	AccountType
-"CR"	CR Current Account Arrangement Instance Record	Account Currency	"The primary account currency"	AccountCurrency
-"CR"	CR Current Account Arrangement Instance Record	Tax Reference	"Reference identifier linking the account to appropriate tax handling"	
-"CR"	CR Current Account Arrangement Instance Record	Entitlement Option Definition	"The definition of an applicable entitlement option"	
-"CR"	CR Current Account Arrangement Instance Record	Entitlement Option Setting	"The setting for the entitlement option"	
-"CR"	CR Current Account Arrangement Instance Record	Restriction Option Definition	"The definition of an applicable restriction option"	
-"CR"	CR Current Account Arrangement Instance Record	Restriction Option Setting	"The setting for the restriction option"	
-"CR"	CR Current Account Arrangement Instance Record	Associations	"Definition of the associations to the account"	
-"CR"	CR Current Account Arrangement Instance Record	Association Type	"The type of association (e.g. guarantor, co-signer)"	
-"CR"	CR Current Account Arrangement Instance Record	Association Obligation/Entitlement	"Description of the role, obligations or entitlements of the associated party"	
-"CR"	CR Current Account Arrangement Instance Record	Association Reference	"Reference to the associated party"	
-"CR"	CR Current Account Arrangement Instance Record	Linked Accounts	"Definition of the associations to the account"	Account
-"CR"	CR Current Account Arrangement Instance Record	Link Type	"The type and purpose for the link"	Text
-"CR"	CR Current Account Arrangement Instance Record	Account Details	"Details of the linked account"	
-"CR"	CR Current Account Arrangement Instance Record	Position Limits	"Position limits that are maintained by the account"	
-"CR"	CR Current Account Arrangement Instance Record	Position Limit Type	"The type of position maintained for the account (e.g. transaction credit/debit, netting, position)"	
-"CR"	CR Current Account Arrangement Instance Record	Position Limit Settings	"The position definition, associated limit settings and rules"	
-"CR"	CR Current Account Arrangement Instance Record	Position Limit Value	"The current calculated position"	
-"CR"	CR Current Account Arrangement Instance Record	Date Type	"Key dates associated with the account (e.g. opening date, closing date)"	
-"CR"	CR Current Account Arrangement Instance Record	Date	"Value of the date type"	AccountDate
-"BQ"	BQ Account Sweep Instance Record	""	""	""
-"BQ"	BQ Account Sweep Instance Record	Account Sweep Instance Record	"Handles sweeping arrangements linked to the account"	
-"BQ"	BQ Account Sweep Instance Record	Account Sweep Type	"The type of sweep (e.g. periodic, threshold)"	
-"BQ"	BQ Account Sweep Instance Record	Account Sweep Definition	"Definition of the type of sweep"	
-"BQ"	BQ Account Sweep Instance Record	Account Sweep Application Schedule	"Sweep processing guidelines and scheduling rules"	
-"BQ"	BQ Account Sweep Instance Record	Account Sweep Configuration	"The set-up of the sweep facility"	
-"BQ"	BQ Account Sweep Instance Record	Target Account	"The facility that the sweep is made to/from"	
-"BQ"	BQ Account Sweep Instance Record	Sweep Mandate	"Confirmation that the sweep processing is sanctioned as necessary"	
-"BQ"	BQ Account Sweep Instance Record	Sweep Processing Schedule	"Timing and or triggers for initiating sweep transaction"	
-"BQ"	BQ Account Sweep Instance Record	Sweep Application Record	"The transaction record for an applied sweep"	
-"BQ"	BQ Account Sweep Instance Record	Account Sweep Target Account	"The facility that the sweep is made to/from"	
-"BQ"	BQ Account Sweep Instance Record	Account Sweep Amount	"The amount transferred to or from the account"	
-"BQ"	BQ Account Sweep Instance Record	Account Sweep Execution Date	"The date and time the sweep is initiated"	
-"BQ"	BQ Issued Device Instance Record	""	""	""
-"BQ"	BQ Issued Device Instance Record	Issued Inventory Instance Record	"Handles the administration of issued device/inventory (e.g. checkbooks, cards, fobs)"	
-"BQ"	BQ Issued Device Instance Record	Issued Inventory Type	"A property of the issued device/inventory (e.g. card, checkbook, pay-in slip)"	
-"BQ"	BQ Issued Device Instance Record	Issued Inventory Description	"Definition of the inventory item, including processing and handling guidelines and rules"	
-"BQ"	BQ Issued Device Instance Record	Issued Inventory Option Definition	"Definition of the processing option and impact (e.g. lost check handling)"	
-"BQ"	BQ Issued Device Instance Record	Issued Inventory Option Setting	"The processing option setting"	
-"BQ"	BQ Issued Device Instance Record	Issued Inventory Property Type	"Tracked property of the issued device/inventory (e.g. issued check numbers)"	
-"BQ"	BQ Issued Device Instance Record	Issued Inventory Property Value	"The tracked values associated with an issued device/inventory item"	
-"BQ"	BQ Issued Device Instance Record	Issued Inventory Status	"The tracked status of the device/inventory item (e.g. active, suspended, cancelled)"	
-"BQ"	BQ Payments Instance Record	""	""	""
-"BQ"	BQ Payments Instance Record	Payments Instance Record	"Handles different payment handling requirements"	
-"BQ"	BQ Payments Instance Record	Payment Type	"The type of payment transaction (e.g. customer payment, standing order, direct debit, bill pay)"	
-"BQ"	BQ Payments Instance Record	Payment Definition	"Definition of the type of payment including processing rules and guidelines"	
-"BQ"	BQ Payments Instance Record	Payment Processinng Option Definition	"Definition of the processing option and impact (e.g. frequency and cumulative amount constraints)"	
-"BQ"	BQ Payments Instance Record	Payment Processing Option Setting	"The option setting"	
-"BQ"	BQ Payments Instance Record	Payment Configuration	"Configuration setting for various payment transaction types"	
-"BQ"	BQ Payments Instance Record	Payment Schedule	"Processing schedule for repeating payments for standing orders (e.g. start date, end, period, number/cycles). Note this triggers an internal execution call as necessary"	
-"BQ"	BQ Payments Instance Record	Direct Debit Mandate Reference	"Reference to the applicable mandate for direct debits"	
-"BQ"	BQ Payments Instance Record	Direct Debit Mandate Settings	"Processing settings governing direct debits"	
-"BQ"	BQ Payments Instance Record	Bill Pay Mandate Reference	"Reference to the applicable mandate for bill pay transactions"	
-"BQ"	BQ Payments Instance Record	Bil Pay Mandate Settings	"Processing settings governing bill pay transactions"	
-"BQ"	BQ Payments Instance Record	Payment Transaction	"The general payment transaction with all major attributes - some optional depending on type"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Type	"The type of payment transaction (e.g. customer payment, standing order, direct debit, bill pay)"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Payee Reference	"Reference to the party to whom the payment is made"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Payee Account Reference	"Reference to the account to which the payment is made"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Payee Bank Reference	"Reference to the bank where the payee account is held"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Amount	"The amount (and currency if applicable) of the payment"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Fee Type	"The fee type applied to the payment transaction"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Fee Charge	"The fee charge applied to the transaction"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Date	"The various key dates and times associated with the payment transaction"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Payment Mechanism	"Requested payment mechanism (e.g. Wire, ACH)"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Payment Purpose	"Description of the purpose including any external reference to the transaction"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Bank Branch/Location Reference	"Reference to the location the payment transaction is initiated from"	
-"BQ"	BQ Payments Instance Record	Payment Transaction Status	"The processing status of the transaction (e.g. captured, approved, initiated, confirmed, settled)"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	""	""	""
-"BQ"	BQ Deposits and Withdrawals Instance Record	Deposits And Withdrawals Instance Record	"Processes deposits and withdrawals against the account"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Deposit Type	"The type of deposit transaction that can be applied to the account (e.g. customer deposit, internal credit)"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Withdrawal Type	"The type of withdrawal transaction that can be applied to the account (e.g. customer withdrawal, internal service charge, disbursement)"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Account Limit Breach Response	"The handling options if a withdrawal results in a breach of an account limit"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Deposit Transaction	"Details of the deposit transaction"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Deposit Transaction Source Reference	"Identifies the source of the deposit"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Deposit Transaction Deposit Type	"The type of deposit made with the transaction"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Deposit Transaction Description	"Any necessary details describing the purpose or reference properties of the deposit"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Deposit Transaction Amount	"The deposited amount"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Deposit Transaction Date	"The date and time the deposit was initiated"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Withdrawal Transaction	"Details of the withdrawal transaction"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Withdrawal Transaction Source Reference	"Identifies the target for the withdrawal"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Withdrawal Transaction Withdrawal Type	"The type of withdrawal made with the transaction"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Withdrawal Transaction Description	"Any necessary details describing the purpose or reference properties of the withdrawal"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Wihdrawal Transaction Amount	"The withdrawn amount"	
-"BQ"	BQ Deposits and Withdrawals Instance Record	Withdrawal Transaction Date	"The date and time the withdrawal was initiated"	
-"BQ"	BQ Interest Instance Record	""	""	""
-"BQ"	BQ Interest Instance Record	Interest Instance Record	"Applies interest to the account"	
-"BQ"	BQ Interest Instance Record	Interest Rate Type	"Applicable rate type"	
-"BQ"	BQ Interest Instance Record	Interest Rate Application Schedule	"The processing schedule for applying interest rates to the account"	
-"BQ"	BQ Interest Instance Record	Interest Rate Configuration	"The collection of applicable rates"	
-"BQ"	BQ Interest Instance Record	Interest Rate	"The rate value to be applied"	
-"BQ"	BQ Interest Instance Record	Interest Application Record	"The record of applied interest"	
-"BQ"	BQ Interest Instance Record	Interest Transaction	"A record of applied interest"	
-"BQ"	BQ Interest Instance Record	Transaction Description	"General description of the interest transaction"	
-"BQ"	BQ Interest Instance Record	Transaction Rate Type	"Applicable rate type"	
-"BQ"	BQ Interest Instance Record	Transaction Interest Charge	"The derived interest amount to be applied"	
-"BQ"	BQ Interest Instance Record	Interest Accrual Amount	"Record of accrued interest"	
-"BQ"	BQ Interest Instance Record	Interest Accrual Type	"The interest type being tracked"	
-"BQ"	BQ Interest Instance Record	Interest Accrual Charge	"The accrued amount of applied interest"	
+Control Record Model for: ,Current Account,,,
+Record Type,Instance Record,Attribute,Description,Data Type
+BQ,BQ Service Fees Instance Record,,,
+BQ,BQ Service Fees Instance Record,Service Fees Instance Record,Applies service fees and penalties to the account,
+BQ,BQ Service Fees Instance Record,Fee Configuration Profile,The profile of applicable fees and penalties,
+BQ,BQ Service Fees Instance Record,Fee Definition,Definition of the fee or penalty including when and how to apply,
+BQ,BQ Service Fees Instance Record,Fee Type,The fee or penalty type applied,
+BQ,BQ Service Fees Instance Record,Fee Application Record,The record of applied fees and penalties including transactions and accrued amounts,
+BQ,BQ Service Fees Instance Record,Fee Transaction,A record of an applied fee or penalty,
+BQ,BQ Service Fees Instance Record,Transaction Description,General description of the fee or penalty transaction,
+BQ,BQ Service Fees Instance Record,Transaction Fee Type,The fee or penalty type applied,
+BQ,BQ Service Fees Instance Record,Transaction Fee Charge,The derived fee or penalty amount applied,
+BQ,BQ Service Fees Instance Record,Fee Projections and Commitments,A record of projected fees and penalties,
+BQ,BQ Service Fees Instance Record,Projected Transaction Description,General description of the projected fee or penalty,
+BQ,BQ Service Fees Instance Record,Projected Transaction Fee Type,The fee or penalty type,
+BQ,BQ Service Fees Instance Record,Projected Transaction Fee Charge,The anticipated fee or penalty amount,
+BQ,BQ Service Fees Instance Record,Fee Accrual Amount,Tracking of accumulated fees and penalties,
+BQ,BQ Service Fees Instance Record,Accrual Fee Type,The fee or penalty type being tracked,
+BQ,BQ Service Fees Instance Record,Accrual Fee Charge,The accrued amount of fees and penalties,
+BQ,BQ Account Lien Instance Record,,,
+BQ,BQ Account Lien Instance Record,Account Lien Instance Record,Handles liens placed against the account,
+BQ,BQ Account Lien Instance Record,Lien Type,"The type of lien (e.g. final, pending)",
+BQ,BQ Account Lien Instance Record,Lien Definition,Definition of the type of lien including processing guidelines,
+BQ,BQ Account Lien Instance Record,Lien Processing Option,The processing option applied to the lien,
+BQ,BQ Account Lien Instance Record,Lien Record,The collection of applicable rates,
+BQ,BQ Account Lien Instance Record,Lien Originator,The party requesting the lien,
+BQ,BQ Account Lien Instance Record,Lien Purpose,The purpose or associated facility linked to the lien,
+BQ,BQ Account Lien Instance Record,Lien Amount,The amount being blocked,
+BQ,BQ Account Lien Instance Record,Lien Start Date,The date the lien is enforced,
+BQ,BQ Account Lien Instance Record,Lien Expiry Date,The date the lien is removed,
+BQ,BQ Account Lien Instance Record,Lien Status,The status on the lien,
+CR,CR Current Account Arrangement Instance Record,,,
+CR,CR Current Account Arrangement Instance Record,Current Account Arrangement Instance Record,The control record maintains all details for a current account product instance,
+CR,CR Current Account Arrangement Instance Record,Product Instance Reference,Reference to the current account product instance,
+CR,CR Current Account Arrangement Instance Record,Current Account Number,The associated account number in any suitable format (e.g. IBAN),AccountIdentification
+CR,CR Current Account Arrangement Instance Record,Customer Reference,Reference to the account primary party/owner,AccountInvolvement
+CR,CR Current Account Arrangement Instance Record,Bank Branch/Location Reference,Bank branch associated with the account for booking purposes,
+CR,CR Current Account Arrangement Instance Record,Account Type,"The type of current account (e.g. checking, student, small business)",AccountType
+CR,CR Current Account Arrangement Instance Record,Account Currency,The primary account currency,AccountCurrency
+CR,CR Current Account Arrangement Instance Record,Tax Reference,Reference identifier linking the account to appropriate tax handling,
+CR,CR Current Account Arrangement Instance Record,Entitlement Option Definition,The definition of an applicable entitlement option,
+CR,CR Current Account Arrangement Instance Record,Entitlement Option Setting,The setting for the entitlement option,
+CR,CR Current Account Arrangement Instance Record,Restriction Option Definition,The definition of an applicable restriction option,
+CR,CR Current Account Arrangement Instance Record,Restriction Option Setting,The setting for the restriction option,
+CR,CR Current Account Arrangement Instance Record,Associations,Definition of the associations to the account,
+CR,CR Current Account Arrangement Instance Record,Association Type,"The type of association (e.g. guarantor, co-signer)",
+CR,CR Current Account Arrangement Instance Record,Association Obligation/Entitlement,"Description of the role, obligations or entitlements of the associated party",
+CR,CR Current Account Arrangement Instance Record,Association Reference,Reference to the associated party,
+CR,CR Current Account Arrangement Instance Record,Linked Accounts,Definition of the associations to the account,Account
+CR,CR Current Account Arrangement Instance Record,Link Type,The type and purpose for the link,Text
+CR,CR Current Account Arrangement Instance Record,Account Details,Details of the linked account,
+CR,CR Current Account Arrangement Instance Record,Position Limits,Position limits that are maintained by the account,
+CR,CR Current Account Arrangement Instance Record,Position Limit Type,"The type of position maintained for the account (e.g. transaction credit/debit, netting, position)",
+CR,CR Current Account Arrangement Instance Record,Position Limit Settings,"The position definition, associated limit settings and rules",
+CR,CR Current Account Arrangement Instance Record,Position Limit Value,The current calculated position,
+CR,CR Current Account Arrangement Instance Record,Date Type,"Key dates associated with the account (e.g. opening date, closing date)",
+CR,CR Current Account Arrangement Instance Record,Date,Value of the date type,AccountDate
+BQ,BQ Account Sweep Instance Record,,,
+BQ,BQ Account Sweep Instance Record,Account Sweep Instance Record,Handles sweeping arrangements linked to the account,
+BQ,BQ Account Sweep Instance Record,Account Sweep Type,"The type of sweep (e.g. periodic, threshold)",
+BQ,BQ Account Sweep Instance Record,Account Sweep Definition,Definition of the type of sweep,
+BQ,BQ Account Sweep Instance Record,Account Sweep Application Schedule,Sweep processing guidelines and scheduling rules,
+BQ,BQ Account Sweep Instance Record,Account Sweep Configuration,The set-up of the sweep facility,
+BQ,BQ Account Sweep Instance Record,Target Account,The facility that the sweep is made to/from,
+BQ,BQ Account Sweep Instance Record,Sweep Mandate,Confirmation that the sweep processing is sanctioned as necessary,
+BQ,BQ Account Sweep Instance Record,Sweep Processing Schedule,Timing and or triggers for initiating sweep transaction,
+BQ,BQ Account Sweep Instance Record,Sweep Application Record,The transaction record for an applied sweep,
+BQ,BQ Account Sweep Instance Record,Account Sweep Target Account,The facility that the sweep is made to/from,
+BQ,BQ Account Sweep Instance Record,Account Sweep Amount,The amount transferred to or from the account,
+BQ,BQ Account Sweep Instance Record,Account Sweep Execution Date,The date and time the sweep is initiated,
+BQ,BQ Issued Device Instance Record,,,
+BQ,BQ Issued Device Instance Record,Issued Inventory Instance Record,"Handles the administration of issued device/inventory (e.g. checkbooks, cards, fobs)",
+BQ,BQ Issued Device Instance Record,Issued Inventory Type,"A property of the issued device/inventory (e.g. card, checkbook, pay-in slip)",
+BQ,BQ Issued Device Instance Record,Issued Inventory Description,"Definition of the inventory item, including processing and handling guidelines and rules",
+BQ,BQ Issued Device Instance Record,Issued Inventory Option Definition,Definition of the processing option and impact (e.g. lost check handling),
+BQ,BQ Issued Device Instance Record,Issued Inventory Option Setting,The processing option setting,
+BQ,BQ Issued Device Instance Record,Issued Inventory Property Type,Tracked property of the issued device/inventory (e.g. issued check numbers),
+BQ,BQ Issued Device Instance Record,Issued Inventory Property Value,The tracked values associated with an issued device/inventory item,
+BQ,BQ Issued Device Instance Record,Issued Inventory Status,"The tracked status of the device/inventory item (e.g. active, suspended, cancelled)",
+BQ,BQ Payments Instance Record,,,
+BQ,BQ Payments Instance Record,Payments Instance Record,Handles different payment handling requirements,
+BQ,BQ Payments Instance Record,Payment Type,"The type of payment transaction (e.g. customer payment, standing order, direct debit, bill pay)",
+BQ,BQ Payments Instance Record,Payment Definition,Definition of the type of payment including processing rules and guidelines,
+BQ,BQ Payments Instance Record,Payment Processinng Option Definition,Definition of the processing option and impact (e.g. frequency and cumulative amount constraints),
+BQ,BQ Payments Instance Record,Payment Processing Option Setting,The option setting,
+BQ,BQ Payments Instance Record,Payment Configuration,Configuration setting for various payment transaction types,
+BQ,BQ Payments Instance Record,Payment Schedule,"Processing schedule for repeating payments for standing orders (e.g. start date, end, period, number/cycles). Note this triggers an internal execution call as necessary",
+BQ,BQ Payments Instance Record,Direct Debit Mandate Reference,Reference to the applicable mandate for direct debits,
+BQ,BQ Payments Instance Record,Direct Debit Mandate Settings,Processing settings governing direct debits,
+BQ,BQ Payments Instance Record,Bill Pay Mandate Reference,Reference to the applicable mandate for bill pay transactions,
+BQ,BQ Payments Instance Record,Bil Pay Mandate Settings,Processing settings governing bill pay transactions,
+BQ,BQ Payments Instance Record,Payment Transaction,The general payment transaction with all major attributes - some optional depending on type,
+BQ,BQ Payments Instance Record,Payment Transaction Type,"The type of payment transaction (e.g. customer payment, standing order, direct debit, bill pay)",
+BQ,BQ Payments Instance Record,Payment Transaction Payee Reference,Reference to the party to whom the payment is made,
+BQ,BQ Payments Instance Record,Payment Transaction Payee Account Reference,Reference to the account to which the payment is made,
+BQ,BQ Payments Instance Record,Payment Transaction Payee Bank Reference,Reference to the bank where the payee account is held,
+BQ,BQ Payments Instance Record,Payment Transaction Amount,The amount (and currency if applicable) of the payment,
+BQ,BQ Payments Instance Record,Payment Transaction Fee Type,The fee type applied to the payment transaction,
+BQ,BQ Payments Instance Record,Payment Transaction Fee Charge,The fee charge applied to the transaction,
+BQ,BQ Payments Instance Record,Payment Transaction Date,The various key dates and times associated with the payment transaction,
+BQ,BQ Payments Instance Record,Payment Transaction Payment Mechanism,"Requested payment mechanism (e.g. Wire, ACH)",
+BQ,BQ Payments Instance Record,Payment Transaction Payment Purpose,Description of the purpose including any external reference to the transaction,
+BQ,BQ Payments Instance Record,Payment Transaction Bank Branch/Location Reference,Reference to the location the payment transaction is initiated from,
+BQ,BQ Payments Instance Record,Payment Transaction Status,"The processing status of the transaction (e.g. captured, approved, initiated, confirmed, settled)",
+BQ,BQ Deposits and Withdrawals Instance Record,,,
+BQ,BQ Deposits and Withdrawals Instance Record,Deposits And Withdrawals Instance Record,Processes deposits and withdrawals against the account,
+BQ,BQ Deposits and Withdrawals Instance Record,Deposit Type,"The type of deposit transaction that can be applied to the account (e.g. customer deposit, internal credit)",
+BQ,BQ Deposits and Withdrawals Instance Record,Withdrawal Type,"The type of withdrawal transaction that can be applied to the account (e.g. customer withdrawal, internal service charge, disbursement)",
+BQ,BQ Deposits and Withdrawals Instance Record,Account Limit Breach Response,The handling options if a withdrawal results in a breach of an account limit,
+BQ,BQ Deposits and Withdrawals Instance Record,Deposit Transaction,Details of the deposit transaction,
+BQ,BQ Deposits and Withdrawals Instance Record,Deposit Transaction Source Reference,Identifies the source of the deposit,
+BQ,BQ Deposits and Withdrawals Instance Record,Deposit Transaction Deposit Type,The type of deposit made with the transaction,
+BQ,BQ Deposits and Withdrawals Instance Record,Deposit Transaction Description,Any necessary details describing the purpose or reference properties of the deposit,
+BQ,BQ Deposits and Withdrawals Instance Record,Deposit Transaction Amount,The deposited amount,
+BQ,BQ Deposits and Withdrawals Instance Record,Deposit Transaction Date,The date and time the deposit was initiated,
+BQ,BQ Deposits and Withdrawals Instance Record,Withdrawal Transaction,Details of the withdrawal transaction,
+BQ,BQ Deposits and Withdrawals Instance Record,Withdrawal Transaction Source Reference,Identifies the target for the withdrawal,
+BQ,BQ Deposits and Withdrawals Instance Record,Withdrawal Transaction Withdrawal Type,The type of withdrawal made with the transaction,
+BQ,BQ Deposits and Withdrawals Instance Record,Withdrawal Transaction Description,Any necessary details describing the purpose or reference properties of the withdrawal,
+BQ,BQ Deposits and Withdrawals Instance Record,Wihdrawal Transaction Amount,The withdrawn amount,
+BQ,BQ Deposits and Withdrawals Instance Record,Withdrawal Transaction Date,The date and time the withdrawal was initiated,
+BQ,BQ Interest Instance Record,,,
+BQ,BQ Interest Instance Record,Interest Instance Record,Applies interest to the account,
+BQ,BQ Interest Instance Record,Interest Rate Type,Applicable rate type,
+BQ,BQ Interest Instance Record,Interest Rate Application Schedule,The processing schedule for applying interest rates to the account,
+BQ,BQ Interest Instance Record,Interest Rate Configuration,The collection of applicable rates,
+BQ,BQ Interest Instance Record,Interest Rate,The rate value to be applied,
+BQ,BQ Interest Instance Record,Interest Application Record,The record of applied interest,
+BQ,BQ Interest Instance Record,Interest Transaction,A record of applied interest,
+BQ,BQ Interest Instance Record,Transaction Description,General description of the interest transaction,
+BQ,BQ Interest Instance Record,Transaction Rate Type,Applicable rate type,
+BQ,BQ Interest Instance Record,Transaction Interest Charge,The derived interest amount to be applied,
+BQ,BQ Interest Instance Record,Interest Accrual Amount,Record of accrued interest,
+BQ,BQ Interest Instance Record,Interest Accrual Type,The interest type being tracked,
+BQ,BQ Interest Instance Record,Interest Accrual Fees,The accrued fees of applied interest,
+BQ,BQ Interest Instance Record,Interest Accrual Penalty,The accrued penalty on the applied interest,
