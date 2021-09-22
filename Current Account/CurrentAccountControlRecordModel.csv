@@ -134,3 +134,4 @@ BQ,BQ Interest Instance Record,Interest Accrual Amount,Record of accrued interes
 BQ,BQ Interest Instance Record,Interest Accrual Type,The interest type being tracked,
 BQ,BQ Interest Instance Record,Interest Accrual Fees,The accrued fees of applied interest,
 BQ,BQ Interest Instance Record,Interest Accrual Penalty,The accrued penalty on the applied interest,
+BQ,BQ Interest Instance Record,Interest Accural Tax,The accured tax on the applied amount,
