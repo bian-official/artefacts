@@ -1,0 +1,5 @@
+"Service Operations for: "	Business Unit Financial Operations
+"Control Record Model for Business Unit Financial Operations is not defined"
+"POST"	"/business-unit-financial-operations/activation"
+"PUT"	"/business-unit-financial-operations/{sd-reference-id}/configuration"
+"PUT"	"/business-unit-financial-operations/{sd-reference-id}/feedback"

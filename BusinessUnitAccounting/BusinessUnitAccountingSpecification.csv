@@ -1,0 +1,13 @@
+"Service Domain specification for Business Unit Accounting"
+"Business Area"	Resource Management
+"Business Domain"	Unit Management
+"Service Domain"	Business Unit Accounting
+"Role Definition"	"Maintain business unit accounting records"
+"Example of use"	"Business unit expenses, profits and losses are tracked on a journal (and periodically posted to the associated sub ledger) for accounting purposes"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Track
+"Asset Type"	BusinessUnitAccounting
+"Generic Artifact"	Log
+"Control Record"	BusinessUnitAccountingLog
+"Registration Status"	Registered

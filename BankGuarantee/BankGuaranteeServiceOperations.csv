@@ -1,0 +1,5 @@
+"Service Operations for: "	Bank Guarantee
+"Control Record Model for Bank Guarantee is not defined"
+"POST"	"/bank-guarantee/activation"
+"PUT"	"/bank-guarantee/{sd-reference-id}/configuration"
+"PUT"	"/bank-guarantee/{sd-reference-id}/feedback"

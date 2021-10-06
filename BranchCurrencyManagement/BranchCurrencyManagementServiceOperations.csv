@@ -1,0 +1,173 @@
+"Service Operations for: "	Branch Currency Management
+""
+"POST"	"/branch-currency-management/activation"
+"PUT"	"/branch-currency-management/{sd-reference-id}/configuration"
+"PUT"	"/branch-currency-management/{sd-reference-id}/feedback"
+""
+"Put"	"/branch-currency-management/{sd-identifier}/inventory-allocation/{crbq-identifier}/capture"
+""	1	"inout"	"Inventory Allocation Preconditions"	"BQ Inventory Allocation Instance Record"	String
+""	2	"inout"	"Inventory Allocation Allocation Schedule"	"BQ Inventory Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Allocation"	"BQ Inventory Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Allocation Service Type"	"BQ Inventory Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Allocation Service Description"	"BQ Inventory Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Allocation Service Inputs and Ouputs"	"BQ Inventory Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Allocation Service Work Product"	"BQ Inventory Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Allocation Service Name"	"BQ Inventory Allocation Instance Record"	String
+""
+"Put"	"/branch-currency-management/{sd-identifier}/branch-cash-allocation/{crbq-identifier}/capture"
+""	1	"inout"	"Branch Cash Allocation Parameter Type"	"CR Branch Cash Allocation Instance Record"	String
+""	2	"inout"	"Branch Cash Allocation Selected Option"	"CR Branch Cash Allocation Instance Record"	String
+""	3	"in"	"Branch Cash Allocation <Subject Area> Type"	"CR Branch Cash Allocation Instance Record"	String
+""	4	"in"	"Branch Cash Allocation Description"	"CR Branch Cash Allocation Instance Record"	String
+""	5	"inout"	"Branch Cash Allocation Request"	"CR Branch Cash Allocation Instance Record"	String
+""	6	"inout"	"Branch Cash Allocation Schedule"	"CR Branch Cash Allocation Instance Record"	String
+""	7	"inout"	"Branch Cash Allocation Status"	"CR Branch Cash Allocation Instance Record"	String
+""	8	"in"	"Branch Cash Allocation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	9	"inout"	"Branch Cash Allocation Customer Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	10	"in"	"Branch Cash Allocation Currency"	"CR Branch Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Branch Cash Allocation Regulation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	12	"in"	"Branch Cash Allocation Regulation Type"	"CR Branch Cash Allocation Instance Record"	String
+""	13	"in"	"Branch Cash Allocation Jurisdiction"	"CR Branch Cash Allocation Instance Record"	String
+""	14	"in"	"Branch Cash Allocation Booking Location"	"CR Branch Cash Allocation Instance Record"	String
+""	15	"in"	"Branch Cash Allocation Account Type"	"CR Branch Cash Allocation Instance Record"	String
+""	16	"in"	"Branch Cash Allocation Account Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""
+"Put"	"/branch-currency-management/{sd-identifier}/inventory-allocation/{crbq-identifier}/control"
+""	1	"inout"	"Inventory Allocation Preconditions"	"BQ Inventory Allocation Instance Record"	String
+""	2	"inout"	"Inventory Allocation Allocation Schedule"	"BQ Inventory Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Allocation"	"BQ Inventory Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Allocation Service Type"	"BQ Inventory Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Allocation Service Description"	"BQ Inventory Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Allocation Service Inputs and Ouputs"	"BQ Inventory Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Allocation Service Work Product"	"BQ Inventory Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Allocation Service Name"	"BQ Inventory Allocation Instance Record"	String
+""
+"Put"	"/branch-currency-management/{sd-identifier}/branch-cash-allocation/{crbq-identifier}/control"
+""	1	"inout"	"Branch Cash Allocation Parameter Type"	"CR Branch Cash Allocation Instance Record"	String
+""	2	"inout"	"Branch Cash Allocation Selected Option"	"CR Branch Cash Allocation Instance Record"	String
+""	3	"in"	"Branch Cash Allocation <Subject Area> Type"	"CR Branch Cash Allocation Instance Record"	String
+""	4	"in"	"Branch Cash Allocation Description"	"CR Branch Cash Allocation Instance Record"	String
+""	5	"inout"	"Branch Cash Allocation Request"	"CR Branch Cash Allocation Instance Record"	String
+""	6	"inout"	"Branch Cash Allocation Schedule"	"CR Branch Cash Allocation Instance Record"	String
+""	7	"inout"	"Branch Cash Allocation Status"	"CR Branch Cash Allocation Instance Record"	String
+""	8	"in"	"Branch Cash Allocation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	9	"inout"	"Branch Cash Allocation Customer Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	10	"in"	"Branch Cash Allocation Currency"	"CR Branch Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Branch Cash Allocation Regulation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	12	"in"	"Branch Cash Allocation Regulation Type"	"CR Branch Cash Allocation Instance Record"	String
+""	13	"in"	"Branch Cash Allocation Jurisdiction"	"CR Branch Cash Allocation Instance Record"	String
+""	14	"in"	"Branch Cash Allocation Booking Location"	"CR Branch Cash Allocation Instance Record"	String
+""	15	"in"	"Branch Cash Allocation Account Type"	"CR Branch Cash Allocation Instance Record"	String
+""	16	"in"	"Branch Cash Allocation Account Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""
+"Put"	"/branch-currency-management/{sd-identifier}/inventory-allocation/{crbq-identifier}/exchange"
+""	1	"inout"	"Inventory Allocation Preconditions"	"BQ Inventory Allocation Instance Record"	String
+""	2	"inout"	"Inventory Allocation Allocation Schedule"	"BQ Inventory Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Allocation"	"BQ Inventory Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Allocation Service Type"	"BQ Inventory Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Allocation Service Description"	"BQ Inventory Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Allocation Service Inputs and Ouputs"	"BQ Inventory Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Allocation Service Work Product"	"BQ Inventory Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Allocation Service Name"	"BQ Inventory Allocation Instance Record"	String
+""
+"Put"	"/branch-currency-management/{sd-identifier}/branch-cash-allocation/{crbq-identifier}/exchange"
+""	1	"inout"	"Branch Cash Allocation Parameter Type"	"CR Branch Cash Allocation Instance Record"	String
+""	2	"inout"	"Branch Cash Allocation Selected Option"	"CR Branch Cash Allocation Instance Record"	String
+""	3	"in"	"Branch Cash Allocation <Subject Area> Type"	"CR Branch Cash Allocation Instance Record"	String
+""	4	"in"	"Branch Cash Allocation Description"	"CR Branch Cash Allocation Instance Record"	String
+""	5	"inout"	"Branch Cash Allocation Request"	"CR Branch Cash Allocation Instance Record"	String
+""	6	"inout"	"Branch Cash Allocation Schedule"	"CR Branch Cash Allocation Instance Record"	String
+""	7	"inout"	"Branch Cash Allocation Status"	"CR Branch Cash Allocation Instance Record"	String
+""	8	"in"	"Branch Cash Allocation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	9	"inout"	"Branch Cash Allocation Customer Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	10	"in"	"Branch Cash Allocation Currency"	"CR Branch Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Branch Cash Allocation Regulation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	12	"in"	"Branch Cash Allocation Regulation Type"	"CR Branch Cash Allocation Instance Record"	String
+""	13	"in"	"Branch Cash Allocation Jurisdiction"	"CR Branch Cash Allocation Instance Record"	String
+""	14	"in"	"Branch Cash Allocation Booking Location"	"CR Branch Cash Allocation Instance Record"	String
+""	15	"in"	"Branch Cash Allocation Account Type"	"CR Branch Cash Allocation Instance Record"	String
+""	16	"in"	"Branch Cash Allocation Account Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""
+"Post"	"/branch-currency-management/{sd-identifier}/inventory-allocation/{crbq-identifier}/initiation"
+""	1	"inout"	"Inventory Allocation Preconditions"	"BQ Inventory Allocation Instance Record"	String
+""	2	"inout"	"Inventory Allocation Allocation Schedule"	"BQ Inventory Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Allocation"	"BQ Inventory Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Allocation Service Type"	"BQ Inventory Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Allocation Service Description"	"BQ Inventory Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Allocation Service Inputs and Ouputs"	"BQ Inventory Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Allocation Service Work Product"	"BQ Inventory Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Allocation Service Name"	"BQ Inventory Allocation Instance Record"	String
+""
+"Post"	"/branch-currency-management/{sd-identifier}/branch-cash-allocation/{crbq-identifier}/initiation"
+""	1	"inout"	"Branch Cash Allocation Parameter Type"	"CR Branch Cash Allocation Instance Record"	String
+""	2	"inout"	"Branch Cash Allocation Selected Option"	"CR Branch Cash Allocation Instance Record"	String
+""	3	"in"	"Branch Cash Allocation <Subject Area> Type"	"CR Branch Cash Allocation Instance Record"	String
+""	4	"in"	"Branch Cash Allocation Description"	"CR Branch Cash Allocation Instance Record"	String
+""	5	"inout"	"Branch Cash Allocation Request"	"CR Branch Cash Allocation Instance Record"	String
+""	6	"inout"	"Branch Cash Allocation Schedule"	"CR Branch Cash Allocation Instance Record"	String
+""	7	"inout"	"Branch Cash Allocation Status"	"CR Branch Cash Allocation Instance Record"	String
+""	8	"in"	"Branch Cash Allocation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	9	"inout"	"Branch Cash Allocation Customer Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	10	"in"	"Branch Cash Allocation Currency"	"CR Branch Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Branch Cash Allocation Regulation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	12	"in"	"Branch Cash Allocation Regulation Type"	"CR Branch Cash Allocation Instance Record"	String
+""	13	"in"	"Branch Cash Allocation Jurisdiction"	"CR Branch Cash Allocation Instance Record"	String
+""	14	"in"	"Branch Cash Allocation Booking Location"	"CR Branch Cash Allocation Instance Record"	String
+""	15	"in"	"Branch Cash Allocation Account Type"	"CR Branch Cash Allocation Instance Record"	String
+""	16	"in"	"Branch Cash Allocation Account Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""
+"Get"	"/branch-currency-management/{sd-identifier}/inventory-allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Inventory Allocation Preconditions"	"BQ Inventory Allocation Instance Record"	String
+""	2	"out"	"Inventory Allocation Allocation Schedule"	"BQ Inventory Allocation Instance Record"	String
+""	3	"out"	"Cash Inventory Allocation"	"BQ Inventory Allocation Instance Record"	Business Service
+""	4	"out"	"Cash Inventory Allocation Service Type"	"BQ Inventory Allocation Instance Record"	String
+""	5	"out"	"Cash Inventory Allocation Service Description"	"BQ Inventory Allocation Instance Record"	String
+""	6	"out"	"Cash Inventory Allocation Service Inputs and Ouputs"	"BQ Inventory Allocation Instance Record"	String
+""	7	"out"	"Cash Inventory Allocation Service Work Product"	"BQ Inventory Allocation Instance Record"	String
+""	8	"out"	"Cash Inventory Allocation Service Name"	"BQ Inventory Allocation Instance Record"	String
+""
+"Get"	"/branch-currency-management/{sd-identifier}/branch-cash-allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Branch Cash Allocation Parameter Type"	"CR Branch Cash Allocation Instance Record"	String
+""	2	"out"	"Branch Cash Allocation Selected Option"	"CR Branch Cash Allocation Instance Record"	String
+""	3	"out"	"Branch Cash Allocation <Subject Area> Type"	"CR Branch Cash Allocation Instance Record"	String
+""	4	"out"	"Branch Cash Allocation Description"	"CR Branch Cash Allocation Instance Record"	String
+""	5	"out"	"Branch Cash Allocation Request"	"CR Branch Cash Allocation Instance Record"	String
+""	6	"out"	"Branch Cash Allocation Schedule"	"CR Branch Cash Allocation Instance Record"	String
+""	7	"out"	"Branch Cash Allocation Status"	"CR Branch Cash Allocation Instance Record"	String
+""	8	"out"	"Branch Cash Allocation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	9	"out"	"Branch Cash Allocation Customer Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	10	"out"	"Branch Cash Allocation Currency"	"CR Branch Cash Allocation Instance Record"	CurrencyCode
+""	11	"out"	"Branch Cash Allocation Regulation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	12	"out"	"Branch Cash Allocation Regulation Type"	"CR Branch Cash Allocation Instance Record"	String
+""	13	"out"	"Branch Cash Allocation Jurisdiction"	"CR Branch Cash Allocation Instance Record"	String
+""	14	"out"	"Branch Cash Allocation Booking Location"	"CR Branch Cash Allocation Instance Record"	String
+""	15	"out"	"Branch Cash Allocation Account Type"	"CR Branch Cash Allocation Instance Record"	String
+""	16	"out"	"Branch Cash Allocation Account Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""
+"Put"	"/branch-currency-management/{sd-identifier}/inventory-allocation/{crbq-identifier}/update"
+""	1	"inout"	"Inventory Allocation Preconditions"	"BQ Inventory Allocation Instance Record"	String
+""	2	"inout"	"Inventory Allocation Allocation Schedule"	"BQ Inventory Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Allocation"	"BQ Inventory Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Allocation Service Type"	"BQ Inventory Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Allocation Service Description"	"BQ Inventory Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Allocation Service Inputs and Ouputs"	"BQ Inventory Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Allocation Service Work Product"	"BQ Inventory Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Allocation Service Name"	"BQ Inventory Allocation Instance Record"	String
+""
+"Put"	"/branch-currency-management/{sd-identifier}/branch-cash-allocation/{crbq-identifier}/update"
+""	1	"inout"	"Branch Cash Allocation Parameter Type"	"CR Branch Cash Allocation Instance Record"	String
+""	2	"inout"	"Branch Cash Allocation Selected Option"	"CR Branch Cash Allocation Instance Record"	String
+""	3	"in"	"Branch Cash Allocation <Subject Area> Type"	"CR Branch Cash Allocation Instance Record"	String
+""	4	"in"	"Branch Cash Allocation Description"	"CR Branch Cash Allocation Instance Record"	String
+""	5	"inout"	"Branch Cash Allocation Request"	"CR Branch Cash Allocation Instance Record"	String
+""	6	"inout"	"Branch Cash Allocation Schedule"	"CR Branch Cash Allocation Instance Record"	String
+""	7	"inout"	"Branch Cash Allocation Status"	"CR Branch Cash Allocation Instance Record"	String
+""	8	"in"	"Branch Cash Allocation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	9	"inout"	"Branch Cash Allocation Customer Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	10	"in"	"Branch Cash Allocation Currency"	"CR Branch Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Branch Cash Allocation Regulation Reference"	"CR Branch Cash Allocation Instance Record"	Object
+""	12	"in"	"Branch Cash Allocation Regulation Type"	"CR Branch Cash Allocation Instance Record"	String
+""	13	"in"	"Branch Cash Allocation Jurisdiction"	"CR Branch Cash Allocation Instance Record"	String
+""	14	"in"	"Branch Cash Allocation Booking Location"	"CR Branch Cash Allocation Instance Record"	String
+""	15	"in"	"Branch Cash Allocation Account Type"	"CR Branch Cash Allocation Instance Record"	String
+""	16	"in"	"Branch Cash Allocation Account Reference"	"CR Branch Cash Allocation Instance Record"	Object

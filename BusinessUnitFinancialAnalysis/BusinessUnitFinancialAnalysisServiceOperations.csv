@@ -1,0 +1,5 @@
+"Service Operations for: "	Business Unit Financial Analysis
+"Control Record Model for Business Unit Financial Analysis is not defined"
+"POST"	"/business-unit-financial-analysis/activation"
+"PUT"	"/business-unit-financial-analysis/{sd-reference-id}/configuration"
+"PUT"	"/business-unit-financial-analysis/{sd-reference-id}/feedback"

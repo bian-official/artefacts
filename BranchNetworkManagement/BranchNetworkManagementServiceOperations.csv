@@ -1,0 +1,5 @@
+"Service Operations for: "	Branch Network Management
+"Control Record Model for Branch Network Management is not defined"
+"POST"	"/branch-network-management/activation"
+"PUT"	"/branch-network-management/{sd-reference-id}/configuration"
+"PUT"	"/branch-network-management/{sd-reference-id}/feedback"

@@ -1,0 +1,5 @@
+"Service Operations for: "	Bank Drafts And Travelers Checks
+"Control Record Model for Bank Drafts And Travelers Checks is not defined"
+"POST"	"/bank-drafts-and-travelers-checks/activation"
+"PUT"	"/bank-drafts-and-travelers-checks/{sd-reference-id}/configuration"
+"PUT"	"/bank-drafts-and-travelers-checks/{sd-reference-id}/feedback"

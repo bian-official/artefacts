@@ -1,0 +1,292 @@
+"Service Operations for: "	Branch Location Management
+""
+"POST"	"/branch-location-management/activation"
+"PUT"	"/branch-location-management/{sd-reference-id}/configuration"
+"PUT"	"/branch-location-management/{sd-reference-id}/feedback"
+""
+"Put"	"/branch-location-management/{sd-identifier}/customer-liaison/{crbq-identifier}/capture"
+""	1	"inout"	"Customer Liaison Preconditions"	"BQ Customer Liaison Instance Record"	String
+""	2	"inout"	"Customer Liaison Business Unit/Employee Reference"	"BQ Customer Liaison Instance Record"	Object
+""	3	"inout"	"Customer Liaison Work Schedule"	"BQ Customer Liaison Instance Record"	String
+""	4	"inout"	"Customer Liaison Postconditions"	"BQ Customer Liaison Instance Record"	String
+""	5	"inout"	"Customer Liaison Customer Liaison Service Type"	"BQ Customer Liaison Instance Record"	String
+""	6	"inout"	"Customer Liaison Customer Liaison Service Description"	"BQ Customer Liaison Instance Record"	String
+""	7	"inout"	"Customer Liaison Customer Liaison Service Inputs and Ouputs"	"BQ Customer Liaison Instance Record"	String
+""	8	"inout"	"Customer Liaison Customer Liaison Service Work Product"	"BQ Customer Liaison Instance Record"	String
+""	9	"inout"	"Customer Liaison Customer Liaison Service Name"	"BQ Customer Liaison Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/product-and--service-planning/{crbq-identifier}/capture"
+""	1	"inout"	"Product and  Service Planning Preconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	2	"inout"	"Product and  Service Planning Business Unit/Employee Reference"	"BQ Product and  Service Planning Instance Record"	Object
+""	3	"inout"	"Product and  Service Planning Work Schedule"	"BQ Product and  Service Planning Instance Record"	String
+""	4	"inout"	"Product and Service Planning"	"BQ Product and  Service Planning Instance Record"	Business Service
+""	5	"inout"	"Product and  Service Planning Postconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	6	"inout"	"Product and  Service Planning Product and Service Planning Service Type"	"BQ Product and  Service Planning Instance Record"	String
+""	7	"inout"	"Product and  Service Planning Product and Service Planning Service Description"	"BQ Product and  Service Planning Instance Record"	String
+""	8	"inout"	"Product and  Service Planning Product and Service Planning Service Inputs and Ouputs"	"BQ Product and  Service Planning Instance Record"	String
+""	9	"inout"	"Product and  Service Planning Product and Service Planning Service Work Product"	"BQ Product and  Service Planning Instance Record"	String
+""	10	"inout"	"Product and  Service Planning Product and Service Planning Service Name"	"BQ Product and  Service Planning Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/staff-and--location-planning/{crbq-identifier}/capture"
+""	1	"inout"	"Staff and  Location Planning Preconditions"	"BQ Staff and  Location Planning Instance Record"	String
+""	2	"inout"	"Staff and  Location Planning Business Unit/Employee Reference"	"BQ Staff and  Location Planning Instance Record"	Object
+""	3	"inout"	"Staff and  Location Planning Work Schedule"	"BQ Staff and  Location Planning Instance Record"	String
+""	4	"inout"	"Staff and Location Planning"	"BQ Staff and  Location Planning Instance Record"	Business Service
+""	5	"inout"	"Staff and  Location Planning Postconditions"	"BQ Staff and  Location Planning Instance Record"	String
+""	6	"inout"	"Staff and  Location Planning Staff and Location Planning Service Type"	"BQ Staff and  Location Planning Instance Record"	String
+""	7	"inout"	"Staff and  Location Planning Staff and Location Planning Service Description"	"BQ Staff and  Location Planning Instance Record"	String
+""	8	"inout"	"Staff and  Location Planning Staff and Location Planning Service Inputs and Ouputs"	"BQ Staff and  Location Planning Instance Record"	String
+""	9	"inout"	"Staff and  Location Planning Staff and Location Planning Service Work Product"	"BQ Staff and  Location Planning Instance Record"	String
+""	10	"inout"	"Staff and  Location Planning Staff and Location Planning Service Name"	"BQ Staff and  Location Planning Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/troubleshooting/{crbq-identifier}/capture"
+""	1	"inout"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	Object
+""	3	"inout"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Troubleshooting Instance Record"	Business Service
+""	5	"inout"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"inout"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/branch-location-management-plan/{crbq-identifier}/capture"
+""	1	"in"	"Branch Location Management Plan Type"	"CR Branch Location Management Plan Instance Record"	String
+""	2	"in"	"Branch Location Management Plan Reference"	"CR Branch Location Management Plan Instance Record"	Object
+""	3	"inout"	"Branch Location Management Plan Budget Type"	"CR Branch Location Management Plan Instance Record"	String
+""	4	"inout"	"Branch Location Management Plan Assignment"	"CR Branch Location Management Plan Instance Record"	String
+""	5	"inout"	"Branch Location Management Plan Plan"	"CR Branch Location Management Plan Instance Record"	String
+""	6	"in"	"Branch Location Management Plan Description"	"CR Branch Location Management Plan Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/product-and--service-planning/{crbq-identifier}/control"
+""	1	"inout"	"Product and  Service Planning Preconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	2	"inout"	"Product and  Service Planning Business Unit/Employee Reference"	"BQ Product and  Service Planning Instance Record"	Object
+""	3	"inout"	"Product and  Service Planning Work Schedule"	"BQ Product and  Service Planning Instance Record"	String
+""	4	"inout"	"Product and Service Planning"	"BQ Product and  Service Planning Instance Record"	Business Service
+""	5	"inout"	"Product and  Service Planning Postconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	6	"inout"	"Product and  Service Planning Product and Service Planning Service Type"	"BQ Product and  Service Planning Instance Record"	String
+""	7	"inout"	"Product and  Service Planning Product and Service Planning Service Description"	"BQ Product and  Service Planning Instance Record"	String
+""	8	"inout"	"Product and  Service Planning Product and Service Planning Service Inputs and Ouputs"	"BQ Product and  Service Planning Instance Record"	String
+""	9	"inout"	"Product and  Service Planning Product and Service Planning Service Work Product"	"BQ Product and  Service Planning Instance Record"	String
+""	10	"inout"	"Product and  Service Planning Product and Service Planning Service Name"	"BQ Product and  Service Planning Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/branch-location-management-plan/{crbq-identifier}/control"
+""	1	"in"	"Branch Location Management Plan Type"	"CR Branch Location Management Plan Instance Record"	String
+""	2	"in"	"Branch Location Management Plan Reference"	"CR Branch Location Management Plan Instance Record"	Object
+""	3	"inout"	"Branch Location Management Plan Budget Type"	"CR Branch Location Management Plan Instance Record"	String
+""	4	"inout"	"Branch Location Management Plan Assignment"	"CR Branch Location Management Plan Instance Record"	String
+""	5	"inout"	"Branch Location Management Plan Plan"	"CR Branch Location Management Plan Instance Record"	String
+""	6	"in"	"Branch Location Management Plan Description"	"CR Branch Location Management Plan Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/branch-location-management-plan/{crbq-identifier}/exchange"
+""	1	"in"	"Branch Location Management Plan Type"	"CR Branch Location Management Plan Instance Record"	String
+""	2	"in"	"Branch Location Management Plan Reference"	"CR Branch Location Management Plan Instance Record"	Object
+""	3	"inout"	"Branch Location Management Plan Budget Type"	"CR Branch Location Management Plan Instance Record"	String
+""	4	"inout"	"Branch Location Management Plan Assignment"	"CR Branch Location Management Plan Instance Record"	String
+""	5	"inout"	"Branch Location Management Plan Plan"	"CR Branch Location Management Plan Instance Record"	String
+""	6	"in"	"Branch Location Management Plan Description"	"CR Branch Location Management Plan Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/branch-location-management-plan/{crbq-identifier}/grant"
+""	1	"in"	"Branch Location Management Plan Type"	"CR Branch Location Management Plan Instance Record"	String
+""	2	"in"	"Branch Location Management Plan Reference"	"CR Branch Location Management Plan Instance Record"	Object
+""	3	"inout"	"Branch Location Management Plan Budget Type"	"CR Branch Location Management Plan Instance Record"	String
+""	4	"inout"	"Branch Location Management Plan Assignment"	"CR Branch Location Management Plan Instance Record"	String
+""	5	"inout"	"Branch Location Management Plan Plan"	"CR Branch Location Management Plan Instance Record"	String
+""	6	"in"	"Branch Location Management Plan Description"	"CR Branch Location Management Plan Instance Record"	String
+""
+"Post"	"/branch-location-management/{sd-identifier}/customer-liaison/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Liaison Preconditions"	"BQ Customer Liaison Instance Record"	String
+""	2	"inout"	"Customer Liaison Business Unit/Employee Reference"	"BQ Customer Liaison Instance Record"	Object
+""	3	"inout"	"Customer Liaison Work Schedule"	"BQ Customer Liaison Instance Record"	String
+""	4	"inout"	"Customer Liaison Postconditions"	"BQ Customer Liaison Instance Record"	String
+""	5	"inout"	"Customer Liaison Customer Liaison Service Type"	"BQ Customer Liaison Instance Record"	String
+""	6	"inout"	"Customer Liaison Customer Liaison Service Description"	"BQ Customer Liaison Instance Record"	String
+""	7	"inout"	"Customer Liaison Customer Liaison Service Inputs and Ouputs"	"BQ Customer Liaison Instance Record"	String
+""	8	"inout"	"Customer Liaison Customer Liaison Service Work Product"	"BQ Customer Liaison Instance Record"	String
+""	9	"inout"	"Customer Liaison Customer Liaison Service Name"	"BQ Customer Liaison Instance Record"	String
+""
+"Post"	"/branch-location-management/{sd-identifier}/troubleshooting/{crbq-identifier}/initiation"
+""	1	"inout"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	Object
+""	3	"inout"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Troubleshooting Instance Record"	Business Service
+""	5	"inout"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"inout"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Post"	"/branch-location-management/{sd-identifier}/branch-location-management-plan/{crbq-identifier}/initiation"
+""	1	"in"	"Branch Location Management Plan Type"	"CR Branch Location Management Plan Instance Record"	String
+""	2	"in"	"Branch Location Management Plan Reference"	"CR Branch Location Management Plan Instance Record"	Object
+""	3	"inout"	"Branch Location Management Plan Budget Type"	"CR Branch Location Management Plan Instance Record"	String
+""	4	"inout"	"Branch Location Management Plan Assignment"	"CR Branch Location Management Plan Instance Record"	String
+""	5	"inout"	"Branch Location Management Plan Plan"	"CR Branch Location Management Plan Instance Record"	String
+""	6	"in"	"Branch Location Management Plan Description"	"CR Branch Location Management Plan Instance Record"	String
+""
+"Get"	"/branch-location-management/{sd-identifier}/customer-liaison/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Liaison Preconditions"	"BQ Customer Liaison Instance Record"	String
+""	2	"out"	"Customer Liaison Business Unit/Employee Reference"	"BQ Customer Liaison Instance Record"	Object
+""	3	"out"	"Customer Liaison Work Schedule"	"BQ Customer Liaison Instance Record"	String
+""	4	"out"	"Customer Liaison Postconditions"	"BQ Customer Liaison Instance Record"	String
+""	5	"out"	"Customer Liaison Customer Liaison Service Type"	"BQ Customer Liaison Instance Record"	String
+""	6	"out"	"Customer Liaison Customer Liaison Service Description"	"BQ Customer Liaison Instance Record"	String
+""	7	"out"	"Customer Liaison Customer Liaison Service Inputs and Ouputs"	"BQ Customer Liaison Instance Record"	String
+""	8	"out"	"Customer Liaison Customer Liaison Service Work Product"	"BQ Customer Liaison Instance Record"	String
+""	9	"out"	"Customer Liaison Customer Liaison Service Name"	"BQ Customer Liaison Instance Record"	String
+""
+"Get"	"/branch-location-management/{sd-identifier}/product-and--service-planning/{crbq-identifier}/retrieval"
+""	1	"out"	"Product and  Service Planning Preconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	2	"out"	"Product and  Service Planning Business Unit/Employee Reference"	"BQ Product and  Service Planning Instance Record"	Object
+""	3	"out"	"Product and  Service Planning Work Schedule"	"BQ Product and  Service Planning Instance Record"	String
+""	4	"out"	"Product and Service Planning"	"BQ Product and  Service Planning Instance Record"	Business Service
+""	5	"out"	"Product and  Service Planning Postconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	6	"out"	"Product and  Service Planning Product and Service Planning Service Type"	"BQ Product and  Service Planning Instance Record"	String
+""	7	"out"	"Product and  Service Planning Product and Service Planning Service Description"	"BQ Product and  Service Planning Instance Record"	String
+""	8	"out"	"Product and  Service Planning Product and Service Planning Service Inputs and Ouputs"	"BQ Product and  Service Planning Instance Record"	String
+""	9	"out"	"Product and  Service Planning Product and Service Planning Service Work Product"	"BQ Product and  Service Planning Instance Record"	String
+""	10	"out"	"Product and  Service Planning Product and Service Planning Service Name"	"BQ Product and  Service Planning Instance Record"	String
+""
+"Get"	"/branch-location-management/{sd-identifier}/staff-and--location-planning/{crbq-identifier}/retrieval"
+""	1	"out"	"Staff and  Location Planning Preconditions"	"BQ Staff and  Location Planning Instance Record"	String
+""	2	"out"	"Staff and  Location Planning Business Unit/Employee Reference"	"BQ Staff and  Location Planning Instance Record"	Object
+""	3	"out"	"Staff and  Location Planning Work Schedule"	"BQ Staff and  Location Planning Instance Record"	String
+""	4	"out"	"Staff and Location Planning"	"BQ Staff and  Location Planning Instance Record"	Business Service
+""	5	"out"	"Staff and  Location Planning Postconditions"	"BQ Staff and  Location Planning Instance Record"	String
+""	6	"out"	"Staff and  Location Planning Staff and Location Planning Service Type"	"BQ Staff and  Location Planning Instance Record"	String
+""	7	"out"	"Staff and  Location Planning Staff and Location Planning Service Description"	"BQ Staff and  Location Planning Instance Record"	String
+""	8	"out"	"Staff and  Location Planning Staff and Location Planning Service Inputs and Ouputs"	"BQ Staff and  Location Planning Instance Record"	String
+""	9	"out"	"Staff and  Location Planning Staff and Location Planning Service Work Product"	"BQ Staff and  Location Planning Instance Record"	String
+""	10	"out"	"Staff and  Location Planning Staff and Location Planning Service Name"	"BQ Staff and  Location Planning Instance Record"	String
+""
+"Get"	"/branch-location-management/{sd-identifier}/troubleshooting/{crbq-identifier}/retrieval"
+""	1	"out"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"out"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	Object
+""	3	"out"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Troubleshooting Instance Record"	Business Service
+""	5	"out"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"out"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"out"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"out"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"out"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"out"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Get"	"/branch-location-management/{sd-identifier}/branch-location-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Branch Location Management Plan Type"	"CR Branch Location Management Plan Instance Record"	String
+""	2	"out"	"Branch Location Management Plan Reference"	"CR Branch Location Management Plan Instance Record"	Object
+""	3	"out"	"Branch Location Management Plan Budget Type"	"CR Branch Location Management Plan Instance Record"	String
+""	4	"out"	"Branch Location Management Plan Assignment"	"CR Branch Location Management Plan Instance Record"	String
+""	5	"out"	"Branch Location Management Plan Plan"	"CR Branch Location Management Plan Instance Record"	String
+""	6	"out"	"Branch Location Management Plan Description"	"CR Branch Location Management Plan Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/customer-liaison/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Liaison Preconditions"	"BQ Customer Liaison Instance Record"	String
+""	2	"inout"	"Customer Liaison Business Unit/Employee Reference"	"BQ Customer Liaison Instance Record"	Object
+""	3	"inout"	"Customer Liaison Work Schedule"	"BQ Customer Liaison Instance Record"	String
+""	4	"inout"	"Customer Liaison Postconditions"	"BQ Customer Liaison Instance Record"	String
+""	5	"inout"	"Customer Liaison Customer Liaison Service Type"	"BQ Customer Liaison Instance Record"	String
+""	6	"inout"	"Customer Liaison Customer Liaison Service Description"	"BQ Customer Liaison Instance Record"	String
+""	7	"inout"	"Customer Liaison Customer Liaison Service Inputs and Ouputs"	"BQ Customer Liaison Instance Record"	String
+""	8	"inout"	"Customer Liaison Customer Liaison Service Work Product"	"BQ Customer Liaison Instance Record"	String
+""	9	"inout"	"Customer Liaison Customer Liaison Service Name"	"BQ Customer Liaison Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/product-and--service-planning/{crbq-identifier}/requisition"
+""	1	"inout"	"Product and  Service Planning Preconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	2	"inout"	"Product and  Service Planning Business Unit/Employee Reference"	"BQ Product and  Service Planning Instance Record"	Object
+""	3	"inout"	"Product and  Service Planning Work Schedule"	"BQ Product and  Service Planning Instance Record"	String
+""	4	"inout"	"Product and Service Planning"	"BQ Product and  Service Planning Instance Record"	Business Service
+""	5	"inout"	"Product and  Service Planning Postconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	6	"inout"	"Product and  Service Planning Product and Service Planning Service Type"	"BQ Product and  Service Planning Instance Record"	String
+""	7	"inout"	"Product and  Service Planning Product and Service Planning Service Description"	"BQ Product and  Service Planning Instance Record"	String
+""	8	"inout"	"Product and  Service Planning Product and Service Planning Service Inputs and Ouputs"	"BQ Product and  Service Planning Instance Record"	String
+""	9	"inout"	"Product and  Service Planning Product and Service Planning Service Work Product"	"BQ Product and  Service Planning Instance Record"	String
+""	10	"inout"	"Product and  Service Planning Product and Service Planning Service Name"	"BQ Product and  Service Planning Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/staff-and--location-planning/{crbq-identifier}/requisition"
+""	1	"inout"	"Staff and  Location Planning Preconditions"	"BQ Staff and  Location Planning Instance Record"	String
+""	2	"inout"	"Staff and  Location Planning Business Unit/Employee Reference"	"BQ Staff and  Location Planning Instance Record"	Object
+""	3	"inout"	"Staff and  Location Planning Work Schedule"	"BQ Staff and  Location Planning Instance Record"	String
+""	4	"inout"	"Staff and Location Planning"	"BQ Staff and  Location Planning Instance Record"	Business Service
+""	5	"inout"	"Staff and  Location Planning Postconditions"	"BQ Staff and  Location Planning Instance Record"	String
+""	6	"inout"	"Staff and  Location Planning Staff and Location Planning Service Type"	"BQ Staff and  Location Planning Instance Record"	String
+""	7	"inout"	"Staff and  Location Planning Staff and Location Planning Service Description"	"BQ Staff and  Location Planning Instance Record"	String
+""	8	"inout"	"Staff and  Location Planning Staff and Location Planning Service Inputs and Ouputs"	"BQ Staff and  Location Planning Instance Record"	String
+""	9	"inout"	"Staff and  Location Planning Staff and Location Planning Service Work Product"	"BQ Staff and  Location Planning Instance Record"	String
+""	10	"inout"	"Staff and  Location Planning Staff and Location Planning Service Name"	"BQ Staff and  Location Planning Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/troubleshooting/{crbq-identifier}/requisition"
+""	1	"inout"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	Object
+""	3	"inout"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Troubleshooting Instance Record"	Business Service
+""	5	"inout"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"inout"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/branch-location-management-plan/{crbq-identifier}/requisition"
+""	1	"in"	"Branch Location Management Plan Type"	"CR Branch Location Management Plan Instance Record"	String
+""	2	"in"	"Branch Location Management Plan Reference"	"CR Branch Location Management Plan Instance Record"	Object
+""	3	"inout"	"Branch Location Management Plan Budget Type"	"CR Branch Location Management Plan Instance Record"	String
+""	4	"inout"	"Branch Location Management Plan Assignment"	"CR Branch Location Management Plan Instance Record"	String
+""	5	"inout"	"Branch Location Management Plan Plan"	"CR Branch Location Management Plan Instance Record"	String
+""	6	"in"	"Branch Location Management Plan Description"	"CR Branch Location Management Plan Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/customer-liaison/{crbq-identifier}/update"
+""	1	"inout"	"Customer Liaison Preconditions"	"BQ Customer Liaison Instance Record"	String
+""	2	"inout"	"Customer Liaison Business Unit/Employee Reference"	"BQ Customer Liaison Instance Record"	Object
+""	3	"inout"	"Customer Liaison Work Schedule"	"BQ Customer Liaison Instance Record"	String
+""	4	"inout"	"Customer Liaison Postconditions"	"BQ Customer Liaison Instance Record"	String
+""	5	"inout"	"Customer Liaison Customer Liaison Service Type"	"BQ Customer Liaison Instance Record"	String
+""	6	"inout"	"Customer Liaison Customer Liaison Service Description"	"BQ Customer Liaison Instance Record"	String
+""	7	"inout"	"Customer Liaison Customer Liaison Service Inputs and Ouputs"	"BQ Customer Liaison Instance Record"	String
+""	8	"inout"	"Customer Liaison Customer Liaison Service Work Product"	"BQ Customer Liaison Instance Record"	String
+""	9	"inout"	"Customer Liaison Customer Liaison Service Name"	"BQ Customer Liaison Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/product-and--service-planning/{crbq-identifier}/update"
+""	1	"inout"	"Product and  Service Planning Preconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	2	"inout"	"Product and  Service Planning Business Unit/Employee Reference"	"BQ Product and  Service Planning Instance Record"	Object
+""	3	"inout"	"Product and  Service Planning Work Schedule"	"BQ Product and  Service Planning Instance Record"	String
+""	4	"inout"	"Product and Service Planning"	"BQ Product and  Service Planning Instance Record"	Business Service
+""	5	"inout"	"Product and  Service Planning Postconditions"	"BQ Product and  Service Planning Instance Record"	String
+""	6	"inout"	"Product and  Service Planning Product and Service Planning Service Type"	"BQ Product and  Service Planning Instance Record"	String
+""	7	"inout"	"Product and  Service Planning Product and Service Planning Service Description"	"BQ Product and  Service Planning Instance Record"	String
+""	8	"inout"	"Product and  Service Planning Product and Service Planning Service Inputs and Ouputs"	"BQ Product and  Service Planning Instance Record"	String
+""	9	"inout"	"Product and  Service Planning Product and Service Planning Service Work Product"	"BQ Product and  Service Planning Instance Record"	String
+""	10	"inout"	"Product and  Service Planning Product and Service Planning Service Name"	"BQ Product and  Service Planning Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/staff-and--location-planning/{crbq-identifier}/update"
+""	1	"inout"	"Staff and  Location Planning Preconditions"	"BQ Staff and  Location Planning Instance Record"	String
+""	2	"inout"	"Staff and  Location Planning Business Unit/Employee Reference"	"BQ Staff and  Location Planning Instance Record"	Object
+""	3	"inout"	"Staff and  Location Planning Work Schedule"	"BQ Staff and  Location Planning Instance Record"	String
+""	4	"inout"	"Staff and Location Planning"	"BQ Staff and  Location Planning Instance Record"	Business Service
+""	5	"inout"	"Staff and  Location Planning Postconditions"	"BQ Staff and  Location Planning Instance Record"	String
+""	6	"inout"	"Staff and  Location Planning Staff and Location Planning Service Type"	"BQ Staff and  Location Planning Instance Record"	String
+""	7	"inout"	"Staff and  Location Planning Staff and Location Planning Service Description"	"BQ Staff and  Location Planning Instance Record"	String
+""	8	"inout"	"Staff and  Location Planning Staff and Location Planning Service Inputs and Ouputs"	"BQ Staff and  Location Planning Instance Record"	String
+""	9	"inout"	"Staff and  Location Planning Staff and Location Planning Service Work Product"	"BQ Staff and  Location Planning Instance Record"	String
+""	10	"inout"	"Staff and  Location Planning Staff and Location Planning Service Name"	"BQ Staff and  Location Planning Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/troubleshooting/{crbq-identifier}/update"
+""	1	"inout"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	Object
+""	3	"inout"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Troubleshooting Instance Record"	Business Service
+""	5	"inout"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"inout"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/branch-location-management/{sd-identifier}/branch-location-management-plan/{crbq-identifier}/update"
+""	1	"in"	"Branch Location Management Plan Type"	"CR Branch Location Management Plan Instance Record"	String
+""	2	"in"	"Branch Location Management Plan Reference"	"CR Branch Location Management Plan Instance Record"	Object
+""	3	"inout"	"Branch Location Management Plan Budget Type"	"CR Branch Location Management Plan Instance Record"	String
+""	4	"inout"	"Branch Location Management Plan Assignment"	"CR Branch Location Management Plan Instance Record"	String
+""	5	"inout"	"Branch Location Management Plan Plan"	"CR Branch Location Management Plan Instance Record"	String
+""	6	"in"	"Branch Location Management Plan Description"	"CR Branch Location Management Plan Instance Record"	String

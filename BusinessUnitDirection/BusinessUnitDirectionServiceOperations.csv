@@ -1,0 +1,5 @@
+"Service Operations for: "	Business Unit Direction
+"Control Record Model for Business Unit Direction is not defined"
+"POST"	"/business-unit-direction/activation"
+"PUT"	"/business-unit-direction/{sd-reference-id}/configuration"
+"PUT"	"/business-unit-direction/{sd-reference-id}/feedback"

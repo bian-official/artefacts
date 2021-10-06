@@ -1,0 +1,13 @@
+"Service Domain specification for Branch Portfolio"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Branch Portfolio
+"Role Definition"	"Evaluate coverage and relative performance of branches. Optimize product allocation and marketing activity across the available branch network."
+"Example of use"	"Business strategists assemble and review the distribution and relative product performance across the network and adjust the allocation accordingly"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	BranchNetwork
+"Generic Artifact"	Analysis
+"Control Record"	BranchNetworkAnalysis
+"Registration Status"	Registered

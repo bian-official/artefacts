@@ -1,0 +1,279 @@
+"Service Operations for: "	Business Architecture
+""
+"POST"	"/business-architecture/activation"
+"PUT"	"/business-architecture/{sd-reference-id}/configuration"
+"PUT"	"/business-architecture/{sd-reference-id}/feedback"
+""
+"Put"	"/business-architecture/{sd-identifier}/application-architecture/{crbq-identifier}/capture"
+""	1	"inout"	"Application Architecture Preconditions"	"BQ Application Architecture Instance Record"	String
+""	2	"inout"	"Application Architecture Specification Schedule"	"BQ Application Architecture Instance Record"	String
+""	3	"inout"	"Application Architecture Version Number"	"BQ Application Architecture Instance Record"	String
+""	4	"inout"	"Application Architecture Service Type"	"BQ Application Architecture Instance Record"	String
+""	5	"inout"	"Application Architecture Service Description"	"BQ Application Architecture Instance Record"	String
+""	6	"inout"	"Application Architecture Service Inputs and Ouputs"	"BQ Application Architecture Instance Record"	String
+""	7	"inout"	"Application Architecture Service Work Product"	"BQ Application Architecture Instance Record"	String
+""	8	"inout"	"Application Architecture Service Name"	"BQ Application Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/business-architecture/{crbq-identifier}/capture"
+""	1	"inout"	"Business Architecture Preconditions"	"BQ Business Architecture Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Schedule"	"BQ Business Architecture Instance Record"	String
+""	3	"inout"	"Business Architecture Version Number"	"BQ Business Architecture Instance Record"	String
+""	4	"inout"	"Business Architecture Service Type"	"BQ Business Architecture Instance Record"	String
+""	5	"inout"	"Business Architecture Service Description"	"BQ Business Architecture Instance Record"	String
+""	6	"inout"	"Business Architecture Service Inputs and Ouputs"	"BQ Business Architecture Instance Record"	String
+""	7	"inout"	"Business Architecture Service Work Product"	"BQ Business Architecture Instance Record"	String
+""	8	"inout"	"Business Architecture Service Name"	"BQ Business Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/information-architecture/{crbq-identifier}/capture"
+""	1	"inout"	"Information Architecture Preconditions"	"BQ Information Architecture Instance Record"	String
+""	2	"inout"	"Information Architecture Specification Schedule"	"BQ Information Architecture Instance Record"	String
+""	3	"inout"	"Information Architecture Version Number"	"BQ Information Architecture Instance Record"	String
+""	4	"inout"	"Information Architecture Service Type"	"BQ Information Architecture Instance Record"	String
+""	5	"inout"	"Information Architecture Service Description"	"BQ Information Architecture Instance Record"	String
+""	6	"inout"	"Information Architecture Service Inputs and Ouputs"	"BQ Information Architecture Instance Record"	String
+""	7	"inout"	"Information Architecture Service Work Product"	"BQ Information Architecture Instance Record"	String
+""	8	"inout"	"Information Architecture Service Name"	"BQ Information Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/organization/{crbq-identifier}/capture"
+""	1	"inout"	"Organization Preconditions"	"BQ Organization Instance Record"	String
+""	2	"inout"	"Organization Specification Schedule"	"BQ Organization Instance Record"	String
+""	3	"inout"	"Organization Version Number"	"BQ Organization Instance Record"	String
+""	4	"inout"	"Organizational Model"	"BQ Organization Instance Record"	Business Service
+""	5	"inout"	"Organizational Model Service Type"	"BQ Organization Instance Record"	String
+""	6	"inout"	"Organizational Model Service Description"	"BQ Organization Instance Record"	String
+""	7	"inout"	"Organizational Model Service Inputs and Ouputs"	"BQ Organization Instance Record"	String
+""	8	"inout"	"Organizational Model Service Work Product"	"BQ Organization Instance Record"	String
+""	9	"inout"	"Organizational Model Service Name"	"BQ Organization Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/technology-infrastructure/{crbq-identifier}/capture"
+""	1	"inout"	"Technology Infrastructure Preconditions"	"BQ Technology Infrastructure Instance Record"	String
+""	2	"inout"	"Technology Infrastructure Specification Schedule"	"BQ Technology Infrastructure Instance Record"	String
+""	3	"inout"	"Technology Infrastructure Version Number"	"BQ Technology Infrastructure Instance Record"	String
+""	4	"inout"	"Technology Infrastructure Service Type"	"BQ Technology Infrastructure Instance Record"	String
+""	5	"inout"	"Technology Infrastructure Service Description"	"BQ Technology Infrastructure Instance Record"	String
+""	6	"inout"	"Technology Infrastructure Service Inputs and Ouputs"	"BQ Technology Infrastructure Instance Record"	String
+""	7	"inout"	"Technology Infrastructure Service Work Product"	"BQ Technology Infrastructure Instance Record"	String
+""	8	"inout"	"Technology Infrastructure Service Name"	"BQ Technology Infrastructure Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/business-architecture-specification/{crbq-identifier}/capture"
+""	1	"inout"	"Business Architecture Specification Parameter Type"	"CR Business Architecture Specification Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Selected Option"	"CR Business Architecture Specification Instance Record"	String
+""	3	"in"	"Business Architecture Specification Description"	"CR Business Architecture Specification Instance Record"	String
+""	4	"inout"	"Business Architecture Specification Version"	"CR Business Architecture Specification Instance Record"	String
+""	5	"inout"	"Business Architecture Specification Status"	"CR Business Architecture Specification Instance Record"	String
+""	6	"inout"	"Business Architecture Specification Usage Log"	"CR Business Architecture Specification Instance Record"	String
+""	7	"inout"	"Business Architecture Specification Feedback"	"CR Business Architecture Specification Instance Record"	String
+""	8	"in"	"Business Architecture Specification ServiceProvider Reference"	"CR Business Architecture Specification Instance Record"	Object
+""
+"Put"	"/business-architecture/{sd-identifier}/business-architecture-specification/{crbq-identifier}/control"
+""	1	"inout"	"Business Architecture Specification Parameter Type"	"CR Business Architecture Specification Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Selected Option"	"CR Business Architecture Specification Instance Record"	String
+""	3	"in"	"Business Architecture Specification Description"	"CR Business Architecture Specification Instance Record"	String
+""	4	"inout"	"Business Architecture Specification Version"	"CR Business Architecture Specification Instance Record"	String
+""	5	"inout"	"Business Architecture Specification Status"	"CR Business Architecture Specification Instance Record"	String
+""	6	"inout"	"Business Architecture Specification Usage Log"	"CR Business Architecture Specification Instance Record"	String
+""	7	"inout"	"Business Architecture Specification Feedback"	"CR Business Architecture Specification Instance Record"	String
+""	8	"in"	"Business Architecture Specification ServiceProvider Reference"	"CR Business Architecture Specification Instance Record"	Object
+""
+"Put"	"/business-architecture/{sd-identifier}/business-architecture-specification/{crbq-identifier}/exchange"
+""	1	"inout"	"Business Architecture Specification Parameter Type"	"CR Business Architecture Specification Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Selected Option"	"CR Business Architecture Specification Instance Record"	String
+""	3	"in"	"Business Architecture Specification Description"	"CR Business Architecture Specification Instance Record"	String
+""	4	"inout"	"Business Architecture Specification Version"	"CR Business Architecture Specification Instance Record"	String
+""	5	"inout"	"Business Architecture Specification Status"	"CR Business Architecture Specification Instance Record"	String
+""	6	"inout"	"Business Architecture Specification Usage Log"	"CR Business Architecture Specification Instance Record"	String
+""	7	"inout"	"Business Architecture Specification Feedback"	"CR Business Architecture Specification Instance Record"	String
+""	8	"in"	"Business Architecture Specification ServiceProvider Reference"	"CR Business Architecture Specification Instance Record"	Object
+""
+"Post"	"/business-architecture/{sd-identifier}/business-architecture-specification/{crbq-identifier}/initiation"
+""	1	"inout"	"Business Architecture Specification Parameter Type"	"CR Business Architecture Specification Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Selected Option"	"CR Business Architecture Specification Instance Record"	String
+""	3	"in"	"Business Architecture Specification Description"	"CR Business Architecture Specification Instance Record"	String
+""	4	"inout"	"Business Architecture Specification Version"	"CR Business Architecture Specification Instance Record"	String
+""	5	"inout"	"Business Architecture Specification Status"	"CR Business Architecture Specification Instance Record"	String
+""	6	"inout"	"Business Architecture Specification Usage Log"	"CR Business Architecture Specification Instance Record"	String
+""	7	"inout"	"Business Architecture Specification Feedback"	"CR Business Architecture Specification Instance Record"	String
+""	8	"in"	"Business Architecture Specification ServiceProvider Reference"	"CR Business Architecture Specification Instance Record"	Object
+""
+"Get"	"/business-architecture/{sd-identifier}/application-architecture/{crbq-identifier}/retrieval"
+""	1	"out"	"Application Architecture Preconditions"	"BQ Application Architecture Instance Record"	String
+""	2	"out"	"Application Architecture Specification Schedule"	"BQ Application Architecture Instance Record"	String
+""	3	"out"	"Application Architecture Version Number"	"BQ Application Architecture Instance Record"	String
+""	4	"out"	"Application Architecture Service Type"	"BQ Application Architecture Instance Record"	String
+""	5	"out"	"Application Architecture Service Description"	"BQ Application Architecture Instance Record"	String
+""	6	"out"	"Application Architecture Service Inputs and Ouputs"	"BQ Application Architecture Instance Record"	String
+""	7	"out"	"Application Architecture Service Work Product"	"BQ Application Architecture Instance Record"	String
+""	8	"out"	"Application Architecture Service Name"	"BQ Application Architecture Instance Record"	String
+""
+"Get"	"/business-architecture/{sd-identifier}/business-architecture/{crbq-identifier}/retrieval"
+""	1	"out"	"Business Architecture Preconditions"	"BQ Business Architecture Instance Record"	String
+""	2	"out"	"Business Architecture Specification Schedule"	"BQ Business Architecture Instance Record"	String
+""	3	"out"	"Business Architecture Version Number"	"BQ Business Architecture Instance Record"	String
+""	4	"out"	"Business Architecture Service Type"	"BQ Business Architecture Instance Record"	String
+""	5	"out"	"Business Architecture Service Description"	"BQ Business Architecture Instance Record"	String
+""	6	"out"	"Business Architecture Service Inputs and Ouputs"	"BQ Business Architecture Instance Record"	String
+""	7	"out"	"Business Architecture Service Work Product"	"BQ Business Architecture Instance Record"	String
+""	8	"out"	"Business Architecture Service Name"	"BQ Business Architecture Instance Record"	String
+""
+"Get"	"/business-architecture/{sd-identifier}/information-architecture/{crbq-identifier}/retrieval"
+""	1	"out"	"Information Architecture Preconditions"	"BQ Information Architecture Instance Record"	String
+""	2	"out"	"Information Architecture Specification Schedule"	"BQ Information Architecture Instance Record"	String
+""	3	"out"	"Information Architecture Version Number"	"BQ Information Architecture Instance Record"	String
+""	4	"out"	"Information Architecture Service Type"	"BQ Information Architecture Instance Record"	String
+""	5	"out"	"Information Architecture Service Description"	"BQ Information Architecture Instance Record"	String
+""	6	"out"	"Information Architecture Service Inputs and Ouputs"	"BQ Information Architecture Instance Record"	String
+""	7	"out"	"Information Architecture Service Work Product"	"BQ Information Architecture Instance Record"	String
+""	8	"out"	"Information Architecture Service Name"	"BQ Information Architecture Instance Record"	String
+""
+"Get"	"/business-architecture/{sd-identifier}/organization/{crbq-identifier}/retrieval"
+""	1	"out"	"Organization Preconditions"	"BQ Organization Instance Record"	String
+""	2	"out"	"Organization Specification Schedule"	"BQ Organization Instance Record"	String
+""	3	"out"	"Organization Version Number"	"BQ Organization Instance Record"	String
+""	4	"out"	"Organizational Model"	"BQ Organization Instance Record"	Business Service
+""	5	"out"	"Organizational Model Service Type"	"BQ Organization Instance Record"	String
+""	6	"out"	"Organizational Model Service Description"	"BQ Organization Instance Record"	String
+""	7	"out"	"Organizational Model Service Inputs and Ouputs"	"BQ Organization Instance Record"	String
+""	8	"out"	"Organizational Model Service Work Product"	"BQ Organization Instance Record"	String
+""	9	"out"	"Organizational Model Service Name"	"BQ Organization Instance Record"	String
+""
+"Get"	"/business-architecture/{sd-identifier}/technology-infrastructure/{crbq-identifier}/retrieval"
+""	1	"out"	"Technology Infrastructure Preconditions"	"BQ Technology Infrastructure Instance Record"	String
+""	2	"out"	"Technology Infrastructure Specification Schedule"	"BQ Technology Infrastructure Instance Record"	String
+""	3	"out"	"Technology Infrastructure Version Number"	"BQ Technology Infrastructure Instance Record"	String
+""	4	"out"	"Technology Infrastructure Service Type"	"BQ Technology Infrastructure Instance Record"	String
+""	5	"out"	"Technology Infrastructure Service Description"	"BQ Technology Infrastructure Instance Record"	String
+""	6	"out"	"Technology Infrastructure Service Inputs and Ouputs"	"BQ Technology Infrastructure Instance Record"	String
+""	7	"out"	"Technology Infrastructure Service Work Product"	"BQ Technology Infrastructure Instance Record"	String
+""	8	"out"	"Technology Infrastructure Service Name"	"BQ Technology Infrastructure Instance Record"	String
+""
+"Get"	"/business-architecture/{sd-identifier}/business-architecture-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"Business Architecture Specification Parameter Type"	"CR Business Architecture Specification Instance Record"	String
+""	2	"out"	"Business Architecture Specification Selected Option"	"CR Business Architecture Specification Instance Record"	String
+""	3	"out"	"Business Architecture Specification Description"	"CR Business Architecture Specification Instance Record"	String
+""	4	"out"	"Business Architecture Specification Version"	"CR Business Architecture Specification Instance Record"	String
+""	5	"out"	"Business Architecture Specification Status"	"CR Business Architecture Specification Instance Record"	String
+""	6	"out"	"Business Architecture Specification Usage Log"	"CR Business Architecture Specification Instance Record"	String
+""	7	"out"	"Business Architecture Specification Feedback"	"CR Business Architecture Specification Instance Record"	String
+""	8	"out"	"Business Architecture Specification ServiceProvider Reference"	"CR Business Architecture Specification Instance Record"	Object
+""
+"Put"	"/business-architecture/{sd-identifier}/application-architecture/{crbq-identifier}/requisition"
+""	1	"inout"	"Application Architecture Preconditions"	"BQ Application Architecture Instance Record"	String
+""	2	"inout"	"Application Architecture Specification Schedule"	"BQ Application Architecture Instance Record"	String
+""	3	"inout"	"Application Architecture Version Number"	"BQ Application Architecture Instance Record"	String
+""	4	"inout"	"Application Architecture Service Type"	"BQ Application Architecture Instance Record"	String
+""	5	"inout"	"Application Architecture Service Description"	"BQ Application Architecture Instance Record"	String
+""	6	"inout"	"Application Architecture Service Inputs and Ouputs"	"BQ Application Architecture Instance Record"	String
+""	7	"inout"	"Application Architecture Service Work Product"	"BQ Application Architecture Instance Record"	String
+""	8	"inout"	"Application Architecture Service Name"	"BQ Application Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/business-architecture/{crbq-identifier}/requisition"
+""	1	"inout"	"Business Architecture Preconditions"	"BQ Business Architecture Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Schedule"	"BQ Business Architecture Instance Record"	String
+""	3	"inout"	"Business Architecture Version Number"	"BQ Business Architecture Instance Record"	String
+""	4	"inout"	"Business Architecture Service Type"	"BQ Business Architecture Instance Record"	String
+""	5	"inout"	"Business Architecture Service Description"	"BQ Business Architecture Instance Record"	String
+""	6	"inout"	"Business Architecture Service Inputs and Ouputs"	"BQ Business Architecture Instance Record"	String
+""	7	"inout"	"Business Architecture Service Work Product"	"BQ Business Architecture Instance Record"	String
+""	8	"inout"	"Business Architecture Service Name"	"BQ Business Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/information-architecture/{crbq-identifier}/requisition"
+""	1	"inout"	"Information Architecture Preconditions"	"BQ Information Architecture Instance Record"	String
+""	2	"inout"	"Information Architecture Specification Schedule"	"BQ Information Architecture Instance Record"	String
+""	3	"inout"	"Information Architecture Version Number"	"BQ Information Architecture Instance Record"	String
+""	4	"inout"	"Information Architecture Service Type"	"BQ Information Architecture Instance Record"	String
+""	5	"inout"	"Information Architecture Service Description"	"BQ Information Architecture Instance Record"	String
+""	6	"inout"	"Information Architecture Service Inputs and Ouputs"	"BQ Information Architecture Instance Record"	String
+""	7	"inout"	"Information Architecture Service Work Product"	"BQ Information Architecture Instance Record"	String
+""	8	"inout"	"Information Architecture Service Name"	"BQ Information Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/organization/{crbq-identifier}/requisition"
+""	1	"inout"	"Organization Preconditions"	"BQ Organization Instance Record"	String
+""	2	"inout"	"Organization Specification Schedule"	"BQ Organization Instance Record"	String
+""	3	"inout"	"Organization Version Number"	"BQ Organization Instance Record"	String
+""	4	"inout"	"Organizational Model"	"BQ Organization Instance Record"	Business Service
+""	5	"inout"	"Organizational Model Service Type"	"BQ Organization Instance Record"	String
+""	6	"inout"	"Organizational Model Service Description"	"BQ Organization Instance Record"	String
+""	7	"inout"	"Organizational Model Service Inputs and Ouputs"	"BQ Organization Instance Record"	String
+""	8	"inout"	"Organizational Model Service Work Product"	"BQ Organization Instance Record"	String
+""	9	"inout"	"Organizational Model Service Name"	"BQ Organization Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/technology-infrastructure/{crbq-identifier}/requisition"
+""	1	"inout"	"Technology Infrastructure Preconditions"	"BQ Technology Infrastructure Instance Record"	String
+""	2	"inout"	"Technology Infrastructure Specification Schedule"	"BQ Technology Infrastructure Instance Record"	String
+""	3	"inout"	"Technology Infrastructure Version Number"	"BQ Technology Infrastructure Instance Record"	String
+""	4	"inout"	"Technology Infrastructure Service Type"	"BQ Technology Infrastructure Instance Record"	String
+""	5	"inout"	"Technology Infrastructure Service Description"	"BQ Technology Infrastructure Instance Record"	String
+""	6	"inout"	"Technology Infrastructure Service Inputs and Ouputs"	"BQ Technology Infrastructure Instance Record"	String
+""	7	"inout"	"Technology Infrastructure Service Work Product"	"BQ Technology Infrastructure Instance Record"	String
+""	8	"inout"	"Technology Infrastructure Service Name"	"BQ Technology Infrastructure Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/business-architecture-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Business Architecture Specification Parameter Type"	"CR Business Architecture Specification Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Selected Option"	"CR Business Architecture Specification Instance Record"	String
+""	3	"in"	"Business Architecture Specification Description"	"CR Business Architecture Specification Instance Record"	String
+""	4	"inout"	"Business Architecture Specification Version"	"CR Business Architecture Specification Instance Record"	String
+""	5	"inout"	"Business Architecture Specification Status"	"CR Business Architecture Specification Instance Record"	String
+""	6	"inout"	"Business Architecture Specification Usage Log"	"CR Business Architecture Specification Instance Record"	String
+""	7	"inout"	"Business Architecture Specification Feedback"	"CR Business Architecture Specification Instance Record"	String
+""	8	"in"	"Business Architecture Specification ServiceProvider Reference"	"CR Business Architecture Specification Instance Record"	Object
+""
+"Put"	"/business-architecture/{sd-identifier}/application-architecture/{crbq-identifier}/update"
+""	1	"inout"	"Application Architecture Preconditions"	"BQ Application Architecture Instance Record"	String
+""	2	"inout"	"Application Architecture Specification Schedule"	"BQ Application Architecture Instance Record"	String
+""	3	"inout"	"Application Architecture Version Number"	"BQ Application Architecture Instance Record"	String
+""	4	"inout"	"Application Architecture Service Type"	"BQ Application Architecture Instance Record"	String
+""	5	"inout"	"Application Architecture Service Description"	"BQ Application Architecture Instance Record"	String
+""	6	"inout"	"Application Architecture Service Inputs and Ouputs"	"BQ Application Architecture Instance Record"	String
+""	7	"inout"	"Application Architecture Service Work Product"	"BQ Application Architecture Instance Record"	String
+""	8	"inout"	"Application Architecture Service Name"	"BQ Application Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/business-architecture/{crbq-identifier}/update"
+""	1	"inout"	"Business Architecture Preconditions"	"BQ Business Architecture Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Schedule"	"BQ Business Architecture Instance Record"	String
+""	3	"inout"	"Business Architecture Version Number"	"BQ Business Architecture Instance Record"	String
+""	4	"inout"	"Business Architecture Service Type"	"BQ Business Architecture Instance Record"	String
+""	5	"inout"	"Business Architecture Service Description"	"BQ Business Architecture Instance Record"	String
+""	6	"inout"	"Business Architecture Service Inputs and Ouputs"	"BQ Business Architecture Instance Record"	String
+""	7	"inout"	"Business Architecture Service Work Product"	"BQ Business Architecture Instance Record"	String
+""	8	"inout"	"Business Architecture Service Name"	"BQ Business Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/information-architecture/{crbq-identifier}/update"
+""	1	"inout"	"Information Architecture Preconditions"	"BQ Information Architecture Instance Record"	String
+""	2	"inout"	"Information Architecture Specification Schedule"	"BQ Information Architecture Instance Record"	String
+""	3	"inout"	"Information Architecture Version Number"	"BQ Information Architecture Instance Record"	String
+""	4	"inout"	"Information Architecture Service Type"	"BQ Information Architecture Instance Record"	String
+""	5	"inout"	"Information Architecture Service Description"	"BQ Information Architecture Instance Record"	String
+""	6	"inout"	"Information Architecture Service Inputs and Ouputs"	"BQ Information Architecture Instance Record"	String
+""	7	"inout"	"Information Architecture Service Work Product"	"BQ Information Architecture Instance Record"	String
+""	8	"inout"	"Information Architecture Service Name"	"BQ Information Architecture Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/organization/{crbq-identifier}/update"
+""	1	"inout"	"Organization Preconditions"	"BQ Organization Instance Record"	String
+""	2	"inout"	"Organization Specification Schedule"	"BQ Organization Instance Record"	String
+""	3	"inout"	"Organization Version Number"	"BQ Organization Instance Record"	String
+""	4	"inout"	"Organizational Model"	"BQ Organization Instance Record"	Business Service
+""	5	"inout"	"Organizational Model Service Type"	"BQ Organization Instance Record"	String
+""	6	"inout"	"Organizational Model Service Description"	"BQ Organization Instance Record"	String
+""	7	"inout"	"Organizational Model Service Inputs and Ouputs"	"BQ Organization Instance Record"	String
+""	8	"inout"	"Organizational Model Service Work Product"	"BQ Organization Instance Record"	String
+""	9	"inout"	"Organizational Model Service Name"	"BQ Organization Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/technology-infrastructure/{crbq-identifier}/update"
+""	1	"inout"	"Technology Infrastructure Preconditions"	"BQ Technology Infrastructure Instance Record"	String
+""	2	"inout"	"Technology Infrastructure Specification Schedule"	"BQ Technology Infrastructure Instance Record"	String
+""	3	"inout"	"Technology Infrastructure Version Number"	"BQ Technology Infrastructure Instance Record"	String
+""	4	"inout"	"Technology Infrastructure Service Type"	"BQ Technology Infrastructure Instance Record"	String
+""	5	"inout"	"Technology Infrastructure Service Description"	"BQ Technology Infrastructure Instance Record"	String
+""	6	"inout"	"Technology Infrastructure Service Inputs and Ouputs"	"BQ Technology Infrastructure Instance Record"	String
+""	7	"inout"	"Technology Infrastructure Service Work Product"	"BQ Technology Infrastructure Instance Record"	String
+""	8	"inout"	"Technology Infrastructure Service Name"	"BQ Technology Infrastructure Instance Record"	String
+""
+"Put"	"/business-architecture/{sd-identifier}/business-architecture-specification/{crbq-identifier}/update"
+""	1	"inout"	"Business Architecture Specification Parameter Type"	"CR Business Architecture Specification Instance Record"	String
+""	2	"inout"	"Business Architecture Specification Selected Option"	"CR Business Architecture Specification Instance Record"	String
+""	3	"in"	"Business Architecture Specification Description"	"CR Business Architecture Specification Instance Record"	String
+""	4	"inout"	"Business Architecture Specification Version"	"CR Business Architecture Specification Instance Record"	String
+""	5	"inout"	"Business Architecture Specification Status"	"CR Business Architecture Specification Instance Record"	String
+""	6	"inout"	"Business Architecture Specification Usage Log"	"CR Business Architecture Specification Instance Record"	String
+""	7	"inout"	"Business Architecture Specification Feedback"	"CR Business Architecture Specification Instance Record"	String
+""	8	"in"	"Business Architecture Specification ServiceProvider Reference"	"CR Business Architecture Specification Instance Record"	Object

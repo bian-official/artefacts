@@ -1,0 +1,5 @@
+"Service Operations for: "	Branch Portfolio
+"Control Record Model for Branch Portfolio is not defined"
+"POST"	"/branch-portfolio/activation"
+"PUT"	"/branch-portfolio/{sd-reference-id}/configuration"
+"PUT"	"/branch-portfolio/{sd-reference-id}/feedback"

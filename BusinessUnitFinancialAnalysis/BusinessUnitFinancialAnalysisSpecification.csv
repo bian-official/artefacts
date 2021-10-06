@@ -1,0 +1,13 @@
+"Service Domain specification for Business Unit Financial Analysis"
+"Business Area"	Resource Management
+"Business Domain"	Unit Management
+"Service Domain"	Business Unit Financial Analysis
+"Role Definition"	"Track and assess the financial performance of the business unit against projected performance and respond as appropriate"
+"Example of use"	"Business unit management analyze the activity and business performance of the unit to rebalance or direct activity as necessary"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	BusinessUnitFinance
+"Generic Artifact"	Analysis
+"Control Record"	BusinessUnitFinanceAnalysis
+"Registration Status"	Registered

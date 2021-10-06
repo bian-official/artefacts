@@ -1,0 +1,13 @@
+"Service Domain specification for Building Maintenance"
+"Business Area"	Resource Management
+"Business Domain"	Buildings And Equipment
+"Service Domain"	Building Maintenance
+"Role Definition"	"Administer and execute site and utility maintenance and repair activities (building refit and decoration etc.)"
+"Example of use"	"Building and repair work is scheduled and undertaken using contractors at a bank branch location"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Maintain
+"Asset Type"	Building
+"Generic Artifact"	MaintenanceArrangement
+"Control Record"	BuildingMaintenanceAgreement
+"Registration Status"	Registered

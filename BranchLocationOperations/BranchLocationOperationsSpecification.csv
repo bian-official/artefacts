@@ -1,0 +1,13 @@
+"Service Domain specification for Branch Location Operations"
+"Business Area"	Channels
+"Business Domain"	Channel Specific
+"Service Domain"	Branch Location Operations
+"Role Definition"	"Administer the day to day activity within the branch - allocating tellers and customer relationship managers to positions and tracking availability/performance, ensuring cash floats and product consumables are on hand and that all facilities are in working order"
+"Example of use"	"A day in the life of a busy branch where all managers and tellers are not available and cash and product inventory reserves fall low"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	BranchLocation
+"Generic Artifact"	AdministrativePlan
+"Control Record"	BranchLocationAdministrativePlan
+"Registration Status"	Registered

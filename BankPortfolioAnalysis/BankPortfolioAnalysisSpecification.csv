@@ -1,0 +1,13 @@
+"Service Domain specification for Bank Portfolio Analysis"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Group Treasury
+"Service Domain"	Bank Portfolio Analysis
+"Role Definition"	"Define and maintain a broad collection of analytical views and ad-hoc analyses into the consolidated book of business for the enterprise. Develop and refine analyses in response to events and detected trends"
+"Example of use"	"A financial analysis of the bank's consolidated activity is assembled for consideration by the bank's asset and liability policy unit"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	AssetAndLiabilityPortfolio
+"Generic Artifact"	Analysis
+"Control Record"	AssetAndLiabilityPortfolioAnalysis
+"Registration Status"	Registered

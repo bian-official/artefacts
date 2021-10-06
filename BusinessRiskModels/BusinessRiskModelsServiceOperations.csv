@@ -1,0 +1,5 @@
+"Service Operations for: "	Business Risk Models
+"Control Record Model for Business Risk Models is not defined"
+"POST"	"/business-risk-models/activation"
+"PUT"	"/business-risk-models/{sd-reference-id}/configuration"
+"PUT"	"/business-risk-models/{sd-reference-id}/feedback"

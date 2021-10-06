@@ -1,0 +1,13 @@
+"Service Domain specification for Branch Network Management"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Branch Network Management
+"Role Definition"	"Configure the available services and products (ATM, office/table and teller assignments) for the branch locations across the overall branch portfolio. (Note an ATM is treated as a specific type of branch location in the BIAN model)"
+"Example of use"	"The branch network is re-configured to accommodate a new or amended product that is targeting a specific customer segment (e.g. student loans at on campus branches)"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	BranchNetwork
+"Generic Artifact"	ManagementPlan
+"Control Record"	BranchNetworkManagementPlan
+"Registration Status"	Registered

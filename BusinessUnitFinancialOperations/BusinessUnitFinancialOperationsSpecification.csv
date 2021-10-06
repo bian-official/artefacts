@@ -1,0 +1,13 @@
+"Service Domain specification for Business Unit Financial Operations"
+"Business Area"	Resource Management
+"Business Domain"	Unit Management
+"Service Domain"	Business Unit Financial Operations
+"Role Definition"	"Authorize and book payments and receipts against the unit's financial transaction account"
+"Example of use"	"Business unit costs and revenues are checked and booked against the business unit budget"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	BusinesUnitBudegt
+"Generic Artifact"	AdministrativePlan
+"Control Record"	BusinesUnitBudegtAdministrativePlan
+"Registration Status"	Registered

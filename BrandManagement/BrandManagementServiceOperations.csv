@@ -1,0 +1,99 @@
+"Service Operations for: "	Brand Management
+""
+"POST"	"/brand-management/activation"
+"PUT"	"/brand-management/{sd-reference-id}/configuration"
+"PUT"	"/brand-management/{sd-reference-id}/feedback"
+""
+"Put"	"/brand-management/{sd-identifier}/brand-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Brand Definition"	"CR Brand Management Plan Instance Record"	String
+""	2	"inout"	"Brand Value Assessment"	"CR Brand Management Plan Instance Record"	String
+""	3	"inout"	"Brand Usage"	"CR Brand Management Plan Instance Record"	String
+""	4	"inout"	"Brand Development Schedule"	"CR Brand Management Plan Instance Record"	String
+""
+"Put"	"/brand-management/{sd-identifier}/brand-management-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Brand Definition"	"CR Brand Management Plan Instance Record"	String
+""	2	"inout"	"Brand Value Assessment"	"CR Brand Management Plan Instance Record"	String
+""	3	"inout"	"Brand Usage"	"CR Brand Management Plan Instance Record"	String
+""	4	"inout"	"Brand Development Schedule"	"CR Brand Management Plan Instance Record"	String
+""
+"Put"	"/brand-management/{sd-identifier}/brand-management-plan/{crbq-identifier}/grant"
+""
+"Get"	"/brand-management/{sd-identifier}/brand-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Brand Definition"	"CR Brand Management Plan Instance Record"	String
+""	2	"out"	"Brand Value Assessment"	"CR Brand Management Plan Instance Record"	String
+""	3	"out"	"Brand Usage"	"CR Brand Management Plan Instance Record"	String
+""	4	"out"	"Brand Development Schedule"	"CR Brand Management Plan Instance Record"	String
+""
+"Post"	"/brand-management/{sd-identifier}/brand-advice/{crbq-identifier}/creation"
+""	1	"inout"	"Brand Definition"	"CR Brand Management Plan Instance Record"	String
+""	2	"inout"	"Brand Value Assessment"	"CR Brand Management Plan Instance Record"	String
+""	3	"inout"	"Brand Usage"	"CR Brand Management Plan Instance Record"	String
+""	4	"inout"	"Brand Development Schedule"	"CR Brand Management Plan Instance Record"	String
+""	5	"inout"	"Brand Advice Work Task Type"	"BQ Brand Advice Instance Record"	String
+""	6	"out"	"Brand Advice Work Task Work Products"	"BQ Brand Advice Instance Record"	String
+""	7	"out"	"Brand Advice Work Task Result"	"BQ Brand Advice Instance Record"	String
+""	8	"inout"	"Brand Advice Work Task Date-Time"	"BQ Brand Advice Instance Record"	Date
+""
+"Put"	"/brand-management/{sd-identifier}/brand-advice/{crbq-identifier}/update"
+""	1	"inout"	"Brand Advice Work Task Type"	"BQ Brand Advice Instance Record"	String
+""	2	"inout"	"Brand Advice Work Task Work Products"	"BQ Brand Advice Instance Record"	String
+""	3	"inout"	"Brand Advice Work Task Result"	"BQ Brand Advice Instance Record"	String
+""	4	"inout"	"Brand Advice Work Task Date-Time"	"BQ Brand Advice Instance Record"	Date
+""
+"Put"	"/brand-management/{sd-identifier}/brand-advice/{crbq-identifier}/exchange"
+""
+"Put"	"/brand-management/{sd-identifier}/brand-advice/{crbq-identifier}/requisition"
+""	1	"inout"	"Brand Advice Work Task Type"	"BQ Brand Advice Instance Record"	String
+""	2	"out"	"Brand Advice Work Task Work Products"	"BQ Brand Advice Instance Record"	String
+""	3	"out"	"Brand Advice Work Task Result"	"BQ Brand Advice Instance Record"	String
+""	4	"inout"	"Brand Advice Work Task Date-Time"	"BQ Brand Advice Instance Record"	Date
+""
+"Get"	"/brand-management/{sd-identifier}/brand-advice/{crbq-identifier}/retrieval"
+""	1	"out"	"Brand Advice Work Task Type"	"BQ Brand Advice Instance Record"	String
+""	2	"out"	"Brand Advice Work Task Work Products"	"BQ Brand Advice Instance Record"	String
+""	3	"out"	"Brand Advice Work Task Result"	"BQ Brand Advice Instance Record"	String
+""	4	"out"	"Brand Advice Work Task Date-Time"	"BQ Brand Advice Instance Record"	Date
+""
+"Post"	"/brand-management/{sd-identifier}/troubleshooting/{crbq-identifier}/creation"
+""	1	"inout"	"Brand Definition"	"CR Brand Management Plan Instance Record"	String
+""	2	"inout"	"Brand Value Assessment"	"CR Brand Management Plan Instance Record"	String
+""	3	"inout"	"Brand Usage"	"CR Brand Management Plan Instance Record"	String
+""	4	"inout"	"Brand Development Schedule"	"CR Brand Management Plan Instance Record"	String
+""	5	"inout"	"Brand Impact Event Type"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Brand Impact Troubleshooting Task"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Brand Impact Event Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Brand Impact Event Response Schedule"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Brand Impact Event Response Action"	"BQ Troubleshooting Instance Record"	String
+""	10	"out"	"Brand Impact Event Work Products"	"BQ Troubleshooting Instance Record"	String
+""	11	"out"	"Brand Impact Event Work Task Result"	"BQ Troubleshooting Instance Record"	String
+""	12	"inout"	"Brand Impact Event Work Task Date-Time"	"BQ Troubleshooting Instance Record"	Date
+""
+"Put"	"/brand-management/{sd-identifier}/troubleshooting/{crbq-identifier}/update"
+""	1	"inout"	"Brand Impact Event Type"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Brand Impact Troubleshooting Task"	"BQ Troubleshooting Instance Record"	String
+""	3	"inout"	"Brand Impact Event Description"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Brand Impact Event Response Schedule"	"BQ Troubleshooting Instance Record"	String
+""	5	"inout"	"Brand Impact Event Response Action"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Brand Impact Event Work Products"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Brand Impact Event Work Task Result"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Brand Impact Event Work Task Date-Time"	"BQ Troubleshooting Instance Record"	Date
+""
+"Put"	"/brand-management/{sd-identifier}/troubleshooting/{crbq-identifier}/requisition"
+""	1	"inout"	"Brand Impact Event Type"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Brand Impact Troubleshooting Task"	"BQ Troubleshooting Instance Record"	String
+""	3	"inout"	"Brand Impact Event Description"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Brand Impact Event Response Schedule"	"BQ Troubleshooting Instance Record"	String
+""	5	"inout"	"Brand Impact Event Response Action"	"BQ Troubleshooting Instance Record"	String
+""	6	"out"	"Brand Impact Event Work Products"	"BQ Troubleshooting Instance Record"	String
+""	7	"out"	"Brand Impact Event Work Task Result"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Brand Impact Event Work Task Date-Time"	"BQ Troubleshooting Instance Record"	Date
+""
+"Get"	"/brand-management/{sd-identifier}/troubleshooting/{crbq-identifier}/retrieval"
+""	1	"out"	"Brand Impact Event Type"	"BQ Troubleshooting Instance Record"	String
+""	2	"out"	"Brand Impact Troubleshooting Task"	"BQ Troubleshooting Instance Record"	String
+""	3	"out"	"Brand Impact Event Description"	"BQ Troubleshooting Instance Record"	String
+""	4	"out"	"Brand Impact Event Response Schedule"	"BQ Troubleshooting Instance Record"	String
+""	5	"out"	"Brand Impact Event Response Action"	"BQ Troubleshooting Instance Record"	String
+""	6	"out"	"Brand Impact Event Work Products"	"BQ Troubleshooting Instance Record"	String
+""	7	"out"	"Brand Impact Event Work Task Result"	"BQ Troubleshooting Instance Record"	String
+""	8	"out"	"Brand Impact Event Work Task Date-Time"	"BQ Troubleshooting Instance Record"	Date

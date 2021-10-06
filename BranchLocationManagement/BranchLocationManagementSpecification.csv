@@ -1,0 +1,13 @@
+"Service Domain specification for Branch Location Management"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Branch Location Management
+"Role Definition"	"This service domain oversees/manages the day to day bank branch location activity, maintaining branch plans and budgets, assigning responsibilities, determining the optimum coverage of products and services and reporting on branch activity and performance"
+"Example of use"	"Example of use:. A branch manager reviews product and service performance at their location and adjusts business development staffing priorities to target high-value business opportunities"
+"Executive Summary"	"Manage and oversee branch activity, assign resources to optimize branch performance"
+"Key Features"	"Develop and implement branch business plans. Allocate customer management resources to optimize product/service coverage. Assess and report on branch performance. Customer liaison and troubleshooting"
+"Functional Pattern"	Manage
+"Asset Type"	BranchLocation
+"Generic Artifact"	ManagementPlan
+"Control Record"	BranchLocationManagementPlan
+"Registration Status"	Registered

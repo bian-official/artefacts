@@ -1,0 +1,13 @@
+"Service Domain specification for Business Risk Models"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Operational Risk
+"Service Domain"	Business Risk Models
+"Role Definition"	"Develop and maintain models that assess commercial/business exposures"
+"Example of use"	"Financial engineers develop and deploy a collection of business risk models that can run against different failure scenarios to assess exposure and determine mitigation needs"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	BusinessOperationRiskModel
+"Generic Artifact"	Specification
+"Control Record"	BusinessOperationRiskModelSpecification
+"Registration Status"	Registered

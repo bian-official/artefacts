@@ -1,0 +1,13 @@
+"Service Domain specification for Bank Guarantee"
+"Business Area"	Products
+"Business Domain"	Trade Banking
+"Service Domain"	Bank Guarantee
+"Role Definition"	"Orchestrate the pricing, issuance and subsequent fulfillment activities for Bank Guarantees as used in corporate/correspondent trade and project finance activity"
+"Example of use"	"A bank guarantee is provided to a corporate client to cover international trade finance deal"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	BankGuarantee
+"Generic Artifact"	Facility (rename)
+"Control Record"	BankGuaranteeArrangement
+"Registration Status"	Registered

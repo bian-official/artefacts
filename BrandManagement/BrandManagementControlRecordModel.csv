@@ -1,0 +1,22 @@
+"Control Record Model for: "	Brand Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Troubleshooting Instance Record	""	""	""
+"BQ"	BQ Troubleshooting Instance Record	Brand Impact Event Type	"The type of event that threatens the brand (e.g. production issue, legal issue, employee action, marketing conflict)"	String
+"BQ"	BQ Troubleshooting Instance Record	Brand Impact Troubleshooting Task	"The structured task/work plan followed to address the issue"	String
+"BQ"	BQ Troubleshooting Instance Record	Brand Impact Event Description	"Detailed description of the event and situation leading to the brand exposure"	String
+"BQ"	BQ Troubleshooting Instance Record	Brand Impact Event Response Schedule	"Schedule of actions taken to mitigate the event (plan and actual)"	String
+"BQ"	BQ Troubleshooting Instance Record	Brand Impact Event Response Action	"Actions taken to mitigate the event (e.g. press release, other communications, corrective/compensatory actions"	String
+"BQ"	BQ Troubleshooting Instance Record	Brand Impact Event Work Products	"File of consolidated notes, assessments, interview notes etc. and recommendations arising from the work"	String
+"BQ"	BQ Troubleshooting Instance Record	Brand Impact Event Work Task Result	"Details of the outcome or result of the work task - assessing any lasting impact and evaluating the effectiveness of any mitigating actions"	String
+"BQ"	BQ Troubleshooting Instance Record	Brand Impact Event Work Task Date-Time	"Key dates associated with the troubleshooting activity"	Date
+"CR"	CR Brand Management Plan Instance Record	""	""	""
+"CR"	CR Brand Management Plan Instance Record	Brand Definition	"Definition of the brand, including how it is to be represented in different media and contexts"	String
+"CR"	CR Brand Management Plan Instance Record	Brand Value Assessment	"An analysis of the brand value based on comparative market research"	String
+"CR"	CR Brand Management Plan Instance Record	Brand Usage	"An inventory of situations where the brand is incorporated or exposed in business development activity - these situations may require on-going exposure monitoring or assessment"	String
+"CR"	CR Brand Management Plan Instance Record	Brand Development Schedule	"Schedule of any brand development related activities, includes usage and exposure tracking and impact analysis activities"	String
+"BQ"	BQ Brand Advice Instance Record	""	""	""
+"BQ"	BQ Brand Advice Instance Record	Brand Advice Work Task Type	"The type of work task (e.g. assess brand exposure, incorporate brand in design)"	String
+"BQ"	BQ Brand Advice Instance Record	Brand Advice Work Task	"The make-up of the advice task performed, includes schedule of meetings/working sessions and provision of guidance materials"	String
+"BQ"	BQ Brand Advice Instance Record	Brand Advice Work Task Work Products	"File of consolidated notes, evaluations and recommendations for the work task"	String
+"BQ"	BQ Brand Advice Instance Record	Brand Advice Work Task Result	"Details of the outcome or result of the work task - capturing any use of brand that might requires tracking"	String
+"BQ"	BQ Brand Advice Instance Record	Brand Advice Work Task Date-Time	"The date-time associated with the delivery of brand advice task"	Date

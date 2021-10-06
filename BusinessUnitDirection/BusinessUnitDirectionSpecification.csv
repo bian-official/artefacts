@@ -1,0 +1,13 @@
+"Service Domain specification for Business Unit Direction"
+"Business Area"	Resource Management
+"Business Domain"	Unit Management
+"Service Domain"	Business Unit Direction
+"Role Definition"	"Define and orchestrate business unit activity against the unit business strategy and operating plan"
+"Example of use"	"Business unit management direct business unit resources to meet the operating plan commitments"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Direct
+"Asset Type"	BusinessUnit
+"Generic Artifact"	Strategy
+"Control Record"	BusinessUnitStrategy
+"Registration Status"	Registered

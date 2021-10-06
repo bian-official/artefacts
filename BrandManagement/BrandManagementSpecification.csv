@@ -1,0 +1,13 @@
+"Service Domain specification for Brand Management"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Brand Management
+"Role Definition"	"Define and develop the enterprise brand, including providing advice and guidance to marketing and product/service development activities that leverage the brand. Respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness"
+"Example of use"	"Product design seeks input from the brand management unit to factor the brand into the product marketing materials and ensure alignment"
+"Executive Summary"	"Respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness"
+"Key Features"	"Brand definition. Review business development impact and leverage of the brand. Troubleshoot production issues that might impact the brand"
+"Functional Pattern"	Manage
+"Asset Type"	Brand
+"Generic Artifact"	ManagementPlan
+"Control Record"	BrandManagementPlan
+"Registration Status"	Registered

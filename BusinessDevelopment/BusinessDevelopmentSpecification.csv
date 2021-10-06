@@ -1,0 +1,13 @@
+"Service Domain specification for Business Development"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Business Development
+"Role Definition"	"Define, implement, track and assess the new business development plans for the enterprise or specific business divisions. This can cover business activities such as new market segment entry, product coverage and product specification development, brand development, new customer acquisition and existing customer, cross-sell/up-sell and retention."
+"Example of use"	"Corporate strategy develops targets for new business acquisition in selected market segments"
+"Executive Summary"	"Define, implement, track and assess the new business development plans"
+"Key Features"	"Define governing policies and guidelines. Define business goals. Define supporting business development strategies. Track progress towards goals and direct activity"
+"Functional Pattern"	Direct
+"Asset Type"	BusinessDevelopment
+"Generic Artifact"	Strategy
+"Control Record"	BusinessDevelopmentStrategy
+"Registration Status"	Registered

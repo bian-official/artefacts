@@ -1,0 +1,93 @@
+"Service Operations for: "	Business Unit Management
+""
+"POST"	"/business-unit-management/activation"
+"PUT"	"/business-unit-management/{sd-reference-id}/configuration"
+"PUT"	"/business-unit-management/{sd-reference-id}/feedback"
+""
+"Post"	"/business-unit-management/{sd-identifier}/business-unit-management-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Business Unit Management Plan Period"	"CR Business Unit Management Plan Instance Record"	String
+""	2	"inout"	"Business Unit Usage Policies & Guidelines"	"CR Business Unit Management Plan Instance Record"	String
+""	3	"inout"	"Business Unit Performance Goals"	"CR Business Unit Management Plan Instance Record"	String
+""	4	"inout"	"Business Unit Operating Schedule"	"CR Business Unit Management Plan Instance Record"	String
+""	5	"inout"	"Business Unit Operating Organization"	"CR Business Unit Management Plan Instance Record"	String
+""	6	"inout"	"Business Unit Resource Plan"	"CR Business Unit Management Plan Instance Record"	String
+""	7	"inout"	"Business Unit Training Plan"	"CR Business Unit Management Plan Instance Record"	String
+""
+"Put"	"/business-unit-management/{sd-identifier}/business-unit-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Business Unit Management Plan Period"	"CR Business Unit Management Plan Instance Record"	String
+""	2	"inout"	"Business Unit Usage Policies & Guidelines"	"CR Business Unit Management Plan Instance Record"	String
+""	3	"inout"	"Business Unit Performance Goals"	"CR Business Unit Management Plan Instance Record"	String
+""	4	"inout"	"Business Unit Operating Schedule"	"CR Business Unit Management Plan Instance Record"	String
+""	5	"inout"	"Business Unit Operating Organization"	"CR Business Unit Management Plan Instance Record"	String
+""	6	"inout"	"Business Unit Resource Plan"	"CR Business Unit Management Plan Instance Record"	String
+""	7	"inout"	"Business Unit Training Plan"	"CR Business Unit Management Plan Instance Record"	String
+""
+"Put"	"/business-unit-management/{sd-identifier}/business-unit-management-plan/{crbq-identifier}/exchange"
+""
+"Put"	"/business-unit-management/{sd-identifier}/business-unit-management-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Business Unit Management Plan Period"	"CR Business Unit Management Plan Instance Record"	String
+""	2	"inout"	"Business Unit Usage Policies & Guidelines"	"CR Business Unit Management Plan Instance Record"	String
+""	3	"inout"	"Business Unit Performance Goals"	"CR Business Unit Management Plan Instance Record"	String
+""	4	"inout"	"Business Unit Operating Schedule"	"CR Business Unit Management Plan Instance Record"	String
+""	5	"inout"	"Business Unit Operating Organization"	"CR Business Unit Management Plan Instance Record"	String
+""	6	"inout"	"Business Unit Resource Plan"	"CR Business Unit Management Plan Instance Record"	String
+""	7	"inout"	"Business Unit Training Plan"	"CR Business Unit Management Plan Instance Record"	String
+""
+"Get"	"/business-unit-management/{sd-identifier}/business-unit-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Business Unit Management Plan Period"	"CR Business Unit Management Plan Instance Record"	String
+""	2	"out"	"Business Unit Usage Policies & Guidelines"	"CR Business Unit Management Plan Instance Record"	String
+""	3	"out"	"Business Unit Performance Goals"	"CR Business Unit Management Plan Instance Record"	String
+""	4	"out"	"Business Unit Operating Schedule"	"CR Business Unit Management Plan Instance Record"	String
+""	5	"out"	"Business Unit Operating Organization"	"CR Business Unit Management Plan Instance Record"	String
+""	6	"out"	"Business Unit Resource Plan"	"CR Business Unit Management Plan Instance Record"	String
+""	7	"out"	"Business Unit Training Plan"	"CR Business Unit Management Plan Instance Record"	String
+""
+"Put"	"/business-unit-management/{sd-identifier}/performance/{crbq-identifier}/update"
+""	1	"inout"	"Business Unit Resource Utilization"	"BQ Performance Instance Record"	String
+""	2	"inout"	"Business Unit Output/Work Projections"	"BQ Performance Instance Record"	String
+""	3	"inout"	"Business Unit Performance Statistics"	"BQ Performance Instance Record"	String
+""	4	"inout"	"Business Unit Performance Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"inout"	"Business Unit Performance Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"inout"	"Business Unit Performance Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"inout"	"Business Unit Performance Statistic Recommendation"	"BQ Performance Instance Record"	String
+""
+"Put"	"/business-unit-management/{sd-identifier}/performance/{crbq-identifier}/requisition"
+""	1	"inout"	"Business Unit Resource Utilization"	"BQ Performance Instance Record"	String
+""	2	"inout"	"Business Unit Output/Work Projections"	"BQ Performance Instance Record"	String
+""	3	"inout"	"Business Unit Performance Statistics"	"BQ Performance Instance Record"	String
+""	4	"inout"	"Business Unit Performance Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"inout"	"Business Unit Performance Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"inout"	"Business Unit Performance Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"inout"	"Business Unit Performance Statistic Recommendation"	"BQ Performance Instance Record"	String
+""
+"Get"	"/business-unit-management/{sd-identifier}/performance/{crbq-identifier}/retrieval"
+""	1	"out"	"Business Unit Resource Utilization"	"BQ Performance Instance Record"	String
+""	2	"out"	"Business Unit Output/Work Projections"	"BQ Performance Instance Record"	String
+""	3	"out"	"Business Unit Performance Statistics"	"BQ Performance Instance Record"	String
+""	4	"out"	"Business Unit Performance Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"out"	"Business Unit Performance Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"out"	"Business Unit Performance Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"out"	"Business Unit Performance Statistic Recommendation"	"BQ Performance Instance Record"	String
+""
+"Post"	"/business-unit-management/{sd-identifier}/troubleshooting/{crbq-identifier}/creation"
+""	1	"inout"	"Business Unit Management Plan Period"	"CR Business Unit Management Plan Instance Record"	String
+""	2	"inout"	"Business Unit Usage Policies & Guidelines"	"CR Business Unit Management Plan Instance Record"	String
+""	3	"inout"	"Business Unit Performance Goals"	"CR Business Unit Management Plan Instance Record"	String
+""	4	"inout"	"Business Unit Operating Schedule"	"CR Business Unit Management Plan Instance Record"	String
+""	5	"inout"	"Business Unit Operating Organization"	"CR Business Unit Management Plan Instance Record"	String
+""	6	"inout"	"Business Unit Resource Plan"	"CR Business Unit Management Plan Instance Record"	String
+""	7	"inout"	"Business Unit Training Plan"	"CR Business Unit Management Plan Instance Record"	String
+""	8	"inout"	"Business Unit Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Business Unit Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/business-unit-management/{sd-identifier}/troubleshooting/{crbq-identifier}/update"
+""	1	"inout"	"Business Unit Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Business Unit Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/business-unit-management/{sd-identifier}/troubleshooting/{crbq-identifier}/requisition"
+""	1	"inout"	"Business Unit Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Business Unit Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Get"	"/business-unit-management/{sd-identifier}/troubleshooting/{crbq-identifier}/retrieval"
+""	1	"out"	"Business Unit Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"out"	"Business Unit Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String

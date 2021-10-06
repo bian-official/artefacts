@@ -1,0 +1,13 @@
+"Service Domain specification for Business Architecture"
+"Business Area"	Business Development
+"Business Domain"	Intelectual Property And Knowledge
+"Service Domain"	Business Architecture
+"Role Definition"	"Develop and maintain a comprehensive array of business architectural designs and blueprints that reflect the corporate strategy, plan and operational configuration of the enterprise. Support the adoption of the business architecture throughout all procedure and systems development and deployment activities"
+"Example of use"	"Example of use:. Business planning specialists define target business blueprints for staffing and information system/application support for the enterprise"
+"Executive Summary"	"Define and maintain comprehensive business architectural definitions/blueprints to help organize/direct the business"
+"Key Features"	"Support the interpretation and adoption of enterprise business architecture. Define information system blueprints. Define organizational blueprints. Define market segmentation and business performance measures. Define business legal entity and geographic distribution models"
+"Functional Pattern"	Design
+"Asset Type"	BusinessArchitecture
+"Generic Artifact"	Specification
+"Control Record"	BusinessArchitectureSpecification
+"Registration Status"	Registered

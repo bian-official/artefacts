@@ -1,0 +1,5 @@
+"Service Operations for: "	Business Unit Accounting
+"Control Record Model for Business Unit Accounting is not defined"
+"POST"	"/business-unit-accounting/activation"
+"PUT"	"/business-unit-accounting/{sd-reference-id}/configuration"
+"PUT"	"/business-unit-accounting/{sd-reference-id}/feedback"

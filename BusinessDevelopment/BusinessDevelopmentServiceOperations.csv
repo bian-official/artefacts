@@ -1,0 +1,130 @@
+"Service Operations for: "	Business Development
+""
+"POST"	"/business-development/activation"
+"PUT"	"/business-development/{sd-reference-id}/configuration"
+"PUT"	"/business-development/{sd-reference-id}/feedback"
+""
+"Post"	"/business-development/{sd-identifier}/business-development-strategy/{crbq-identifier}/creation"
+""	1	"inout"	"Business Development Strategy Period"	"CR Business Development Strategy Instance Record"	String
+""	2	"inout"	"Business Development Strategy Policies & Guidelines"	"CR Business Development Strategy Instance Record"	String
+""	3	"inout"	"Business Development Strategy Organization"	"CR Business Development Strategy Instance Record"	String
+""	4	"inout"	"Business Development Strategy Budget"	"CR Business Development Strategy Instance Record"	String
+""	5	"inout"	"Business Development Strategy Schedule"	"CR Business Development Strategy Instance Record"	String
+""	6	"inout"	"Business Development Goal Record"	"CR Business Development Strategy Instance Record"	String
+""	7	"inout"	"Business Development Goal Type"	"CR Business Development Strategy Instance Record"	String
+""	8	"inout"	"Business Development Goal Definition"	"CR Business Development Strategy Instance Record"	String
+""	9	"inout"	"Business Development Goal Organization"	"CR Business Development Strategy Instance Record"	String
+""	10	"out"	"Business Development Goal Result"	"CR Business Development Strategy Instance Record"	String
+""
+"Put"	"/business-development/{sd-identifier}/business-development-strategy/{crbq-identifier}/update"
+""	1	"inout"	"Business Development Strategy Period"	"CR Business Development Strategy Instance Record"	String
+""	2	"inout"	"Business Development Strategy Policies & Guidelines"	"CR Business Development Strategy Instance Record"	String
+""	3	"inout"	"Business Development Strategy Organization"	"CR Business Development Strategy Instance Record"	String
+""	4	"inout"	"Business Development Strategy Budget"	"CR Business Development Strategy Instance Record"	String
+""	5	"inout"	"Business Development Strategy Schedule"	"CR Business Development Strategy Instance Record"	String
+""	6	"inout"	"Business Development Goal Record"	"CR Business Development Strategy Instance Record"	String
+""	7	"inout"	"Business Development Goal Type"	"CR Business Development Strategy Instance Record"	String
+""	8	"inout"	"Business Development Goal Definition"	"CR Business Development Strategy Instance Record"	String
+""	9	"inout"	"Business Development Goal Organization"	"CR Business Development Strategy Instance Record"	String
+""	10	"inout"	"Business Development Goal Result"	"CR Business Development Strategy Instance Record"	String
+""
+"Put"	"/business-development/{sd-identifier}/business-development-strategy/{crbq-identifier}/exchange"
+""
+"Put"	"/business-development/{sd-identifier}/business-development-strategy/{crbq-identifier}/capture"
+""	1	"inout"	"Business Development Strategy Organization"	"CR Business Development Strategy Instance Record"	String
+""	2	"inout"	"Business Development Strategy Budget"	"CR Business Development Strategy Instance Record"	String
+""	3	"inout"	"Business Development Strategy Schedule"	"CR Business Development Strategy Instance Record"	String
+""	4	"inout"	"Business Development Goal Record"	"CR Business Development Strategy Instance Record"	String
+""	5	"inout"	"Business Development Goal Type"	"CR Business Development Strategy Instance Record"	String
+""	6	"inout"	"Business Development Goal Definition"	"CR Business Development Strategy Instance Record"	String
+""	7	"inout"	"Business Development Goal Organization"	"CR Business Development Strategy Instance Record"	String
+""	8	"inout"	"Business Development Goal Result"	"CR Business Development Strategy Instance Record"	String
+""
+"Put"	"/business-development/{sd-identifier}/business-development-strategy/{crbq-identifier}/requisition"
+""	1	"inout"	"Business Development Strategy Period"	"CR Business Development Strategy Instance Record"	String
+""	2	"inout"	"Business Development Strategy Policies & Guidelines"	"CR Business Development Strategy Instance Record"	String
+""	3	"inout"	"Business Development Strategy Organization"	"CR Business Development Strategy Instance Record"	String
+""	4	"inout"	"Business Development Strategy Budget"	"CR Business Development Strategy Instance Record"	String
+""	5	"inout"	"Business Development Strategy Schedule"	"CR Business Development Strategy Instance Record"	String
+""	6	"inout"	"Business Development Goal Record"	"CR Business Development Strategy Instance Record"	String
+""	7	"inout"	"Business Development Goal Type"	"CR Business Development Strategy Instance Record"	String
+""	8	"inout"	"Business Development Goal Definition"	"CR Business Development Strategy Instance Record"	String
+""	9	"inout"	"Business Development Goal Organization"	"CR Business Development Strategy Instance Record"	String
+""	10	"inout"	"Business Development Goal Result"	"CR Business Development Strategy Instance Record"	String
+""
+"Put"	"/business-development/{sd-identifier}/business-development-strategy/{crbq-identifier}/grant"
+""
+"Get"	"/business-development/{sd-identifier}/business-development-strategy/{crbq-identifier}/retrieval"
+""	1	"out"	"Business Development Strategy Period"	"CR Business Development Strategy Instance Record"	String
+""	2	"out"	"Business Development Strategy Policies & Guidelines"	"CR Business Development Strategy Instance Record"	String
+""	3	"out"	"Business Development Strategy Organization"	"CR Business Development Strategy Instance Record"	String
+""	4	"out"	"Business Development Strategy Budget"	"CR Business Development Strategy Instance Record"	String
+""	5	"out"	"Business Development Strategy Schedule"	"CR Business Development Strategy Instance Record"	String
+""	6	"out"	"Business Development Goal Record"	"CR Business Development Strategy Instance Record"	String
+""	7	"out"	"Business Development Goal Type"	"CR Business Development Strategy Instance Record"	String
+""	8	"out"	"Business Development Goal Definition"	"CR Business Development Strategy Instance Record"	String
+""	9	"out"	"Business Development Goal Organization"	"CR Business Development Strategy Instance Record"	String
+""	10	"out"	"Business Development Goal Result"	"CR Business Development Strategy Instance Record"	String
+""
+"Post"	"/business-development/{sd-identifier}/initiative/{crbq-identifier}/creation"
+""	1	"inout"	"Business Development Strategy Period"	"CR Business Development Strategy Instance Record"	String
+""	2	"inout"	"Business Development Strategy Policies & Guidelines"	"CR Business Development Strategy Instance Record"	String
+""	3	"inout"	"Business Development Strategy Organization"	"CR Business Development Strategy Instance Record"	String
+""	4	"inout"	"Business Development Strategy Budget"	"CR Business Development Strategy Instance Record"	String
+""	5	"inout"	"Business Development Strategy Schedule"	"CR Business Development Strategy Instance Record"	String
+""	6	"inout"	"Business Development Goal Record"	"CR Business Development Strategy Instance Record"	String
+""	7	"inout"	"Business Development Goal Type"	"CR Business Development Strategy Instance Record"	String
+""	8	"inout"	"Business Development Goal Definition"	"CR Business Development Strategy Instance Record"	String
+""	9	"inout"	"Business Development Goal Organization"	"CR Business Development Strategy Instance Record"	String
+""	10	"inout"	"Business Development Goal Result"	"CR Business Development Strategy Instance Record"	String
+""	11	"inout"	"Business Development Initiative Business Unit Reference"	"BQ Initiative Instance Record"	Object
+""	12	"inout"	"Business Development Initiative Type"	"BQ Initiative Instance Record"	String
+""	13	"inout"	"Business Development Initiative Description"	"BQ Initiative Instance Record"	String
+""	14	"inout"	"Business Development Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	15	"out"	"Business Development Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	16	"out"	"Business Development Initiative Result"	"BQ Initiative Instance Record"	String
+""	17	"out"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	18	"out"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	19	"inout"	"Date Type"	"BQ Initiative Instance Record"	String
+""
+"Put"	"/business-development/{sd-identifier}/initiative/{crbq-identifier}/update"
+""	1	"inout"	"Business Development Initiative Business Unit Reference"	"BQ Initiative Instance Record"	Object
+""	2	"inout"	"Business Development Initiative Type"	"BQ Initiative Instance Record"	String
+""	3	"inout"	"Business Development Initiative Description"	"BQ Initiative Instance Record"	String
+""	4	"inout"	"Business Development Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	5	"inout"	"Business Development Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	6	"inout"	"Business Development Initiative Result"	"BQ Initiative Instance Record"	String
+""	7	"inout"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	8	"inout"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	9	"inout"	"Date Type"	"BQ Initiative Instance Record"	String
+""
+"Put"	"/business-development/{sd-identifier}/initiative/{crbq-identifier}/exchange"
+""
+"Put"	"/business-development/{sd-identifier}/initiative/{crbq-identifier}/capture"
+""	1	"inout"	"Business Development Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	2	"inout"	"Business Development Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	4	"inout"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	5	"inout"	"Date Type"	"BQ Initiative Instance Record"	String
+""
+"Put"	"/business-development/{sd-identifier}/initiative/{crbq-identifier}/requisition"
+""	1	"inout"	"Business Development Initiative Business Unit Reference"	"BQ Initiative Instance Record"	Object
+""	2	"inout"	"Business Development Initiative Type"	"BQ Initiative Instance Record"	String
+""	3	"inout"	"Business Development Initiative Description"	"BQ Initiative Instance Record"	String
+""	4	"inout"	"Business Development Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	5	"inout"	"Business Development Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	6	"inout"	"Business Development Initiative Result"	"BQ Initiative Instance Record"	String
+""	7	"inout"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	8	"inout"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	9	"inout"	"Date Type"	"BQ Initiative Instance Record"	String
+""
+"Get"	"/business-development/{sd-identifier}/initiative/{crbq-identifier}/retrieval"
+""	1	"out"	"Business Development Initiative Business Unit Reference"	"BQ Initiative Instance Record"	Object
+""	2	"out"	"Business Development Initiative Type"	"BQ Initiative Instance Record"	String
+""	3	"out"	"Business Development Initiative Description"	"BQ Initiative Instance Record"	String
+""	4	"out"	"Business Development Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	5	"out"	"Business Development Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	6	"out"	"Business Development Initiative Result"	"BQ Initiative Instance Record"	String
+""	7	"out"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	8	"out"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	9	"out"	"Date Type"	"BQ Initiative Instance Record"	String

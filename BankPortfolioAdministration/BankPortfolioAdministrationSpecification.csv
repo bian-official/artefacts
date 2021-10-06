@@ -1,0 +1,13 @@
+"Service Domain specification for Bank Portfolio Administration"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Group Treasury
+"Service Domain"	Bank Portfolio Administration
+"Role Definition"	"Consolidate, ratify, correct and present timely transaction information to support the analysis of the bank's consolidated 'book of business'"
+"Example of use"	"The consolidated view of bank activity covering its asset and liability activity is assembled and ratified for analysis"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	AssetAndLiabilityPortfolio
+"Generic Artifact"	AdministrativePlan
+"Control Record"	AssetAndLiabilityPortfolioAdministrativePlan
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Bank Portfolio Analysis
+"Control Record Model for Bank Portfolio Analysis is not defined"
+"POST"	"/bank-portfolio-analysis/activation"
+"PUT"	"/bank-portfolio-analysis/{sd-reference-id}/configuration"
+"PUT"	"/bank-portfolio-analysis/{sd-reference-id}/feedback"

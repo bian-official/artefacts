@@ -1,0 +1,5 @@
+"Service Operations for: "	Building Maintenance
+"Control Record Model for Building Maintenance is not defined"
+"POST"	"/building-maintenance/activation"
+"PUT"	"/building-maintenance/{sd-reference-id}/configuration"
+"PUT"	"/building-maintenance/{sd-reference-id}/feedback"

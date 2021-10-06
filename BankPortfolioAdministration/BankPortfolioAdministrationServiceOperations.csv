@@ -1,0 +1,5 @@
+"Service Operations for: "	Bank Portfolio Administration
+"Control Record Model for Bank Portfolio Administration is not defined"
+"POST"	"/bank-portfolio-administration/activation"
+"PUT"	"/bank-portfolio-administration/{sd-reference-id}/configuration"
+"PUT"	"/bank-portfolio-administration/{sd-reference-id}/feedback"

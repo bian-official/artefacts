@@ -1,0 +1,60 @@
+"Control Record Model for: "	Branch Location Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Branch Location Management Plan Instance Record	""	"Oversee the working of a business unit, assign work, manage against a plan and troubleshoot issues  within Branch Location Management.. Example: Manage the day to day activities at a bank branch location."	""
+"CR"	CR Branch Location Management Plan Instance Record	Branch Location Management Plan Type	"The type of Branch Location Management Plan"	String
+"CR"	CR Branch Location Management Plan Instance Record	Branch Location Management Plan Reference	"Reference to Branch Location Management Plan"	Object
+"CR"	CR Branch Location Management Plan Instance Record	Branch Location Management Plan Budget Type	"A Classification value that distinguishes between Budgets within Branch Location Management Plan according to the type of resource and/or activity that is budgetted"	String
+"CR"	CR Branch Location Management Plan Instance Record	Branch Location Management Plan Budget	"An estimate of costs, revenues, and resources  over a specified period which is defined for Branch Location Management Plan"	String
+"CR"	CR Branch Location Management Plan Instance Record	Branch Location Management Plan Assignment	"The allocation of someone or something which is specified for Branch Location Management Plan"	String
+"CR"	CR Branch Location Management Plan Instance Record	Branch Location Management Plan Plan	"Reference to  Branch Location Management Plan "	String
+"CR"	CR Branch Location Management Plan Instance Record	Branch Location Management Plan Description	"Documentation of Branch Location Management Plan"	String
+"BQ"	BQ Product and  Service Planning Instance Record	""	"Oversee the working of a business unit, assign work, manage against a plan and troubleshoot issues  within Branch Location Management.. Example: Manage the day to day activities at a bank branch location."	""
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Preconditions	"The required status/situation before the duty/obligation can be met"	String
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Business Unit/Employee Reference	"The operating unit/employee responsible for undertaking the duty"	Object
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Work Schedule	"The timing and key actions/milestones involved in fulfilling the duty"	String
+"BQ"	BQ Product and  Service Planning Instance Record	Product and Service Planning	"The Branch Location Management Plan specific Business Service"	Business Service
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Postconditions	"The completion status once the duty has been complied with (note the need to fulfill a duty may recur frequently)"	String
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Product and Service Planning Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Product and Service Planning Service Description	"Description of the performed business service"	String
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Product and Service Planning Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Product and Service Planning Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Product and  Service Planning Instance Record	Product and  Service Planning Product and Service Planning Service Name	""	String
+"BQ"	BQ Customer Liaison Instance Record	""	"Oversee the working of a business unit, assign work, manage against a plan and troubleshoot issues  within Branch Location Management.. Example: Manage the day to day activities at a bank branch location."	""
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Preconditions	"The required status/situation before the duty/obligation can be met"	String
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Business Unit/Employee Reference	"The operating unit/employee responsible for undertaking the duty"	Object
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Work Schedule	"The timing and key actions/milestones involved in fulfilling the duty"	String
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison	"The Branch Location Management Plan specific Business Service"	Business Service
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Postconditions	"The completion status once the duty has been complied with (note the need to fulfill a duty may recur frequently)"	String
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Customer Liaison Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Customer Liaison Service Description	"Description of the performed business service"	String
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Customer Liaison Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Customer Liaison Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Customer Liaison Instance Record	Customer Liaison Customer Liaison Service Name	""	String
+"BQ"	BQ Troubleshooting Instance Record	""	"Oversee the working of a business unit, assign work, manage against a plan and troubleshoot issues  within Branch Location Management.. Example: Manage the day to day activities at a bank branch location."	""
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Preconditions	"The required status/situation before the duty/obligation can be met"	String
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Business Unit/Employee Reference	"The operating unit/employee responsible for undertaking the duty"	Object
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Work Schedule	"The timing and key actions/milestones involved in fulfilling the duty"	String
+"BQ"	BQ Troubleshooting Instance Record	Business Service	"The Branch Location Management Plan specific Business Service"	Business Service
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Postconditions	"The completion status once the duty has been complied with (note the need to fulfill a duty may recur frequently)"	String
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Service Description	"Description of the performed business service"	String
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Troubleshooting Instance Record	Troubleshooting Service Name	""	String
+"BQ"	BQ Staff and  Location Planning Instance Record	""	"Oversee the working of a business unit, assign work, manage against a plan and troubleshoot issues  within Branch Location Management.. Example: Manage the day to day activities at a bank branch location."	""
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Preconditions	"The required status/situation before the duty/obligation can be met"	String
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Business Unit/Employee Reference	"The operating unit/employee responsible for undertaking the duty"	Object
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Work Schedule	"The timing and key actions/milestones involved in fulfilling the duty"	String
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and Location Planning	"The Branch Location Management Plan specific Business Service"	Business Service
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Postconditions	"The completion status once the duty has been complied with (note the need to fulfill a duty may recur frequently)"	String
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Staff and Location Planning Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Staff and Location Planning Service Description	"Description of the performed business service"	String
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Staff and Location Planning Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Staff and Location Planning Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Staff and  Location Planning Instance Record	Staff and  Location Planning Staff and Location Planning Service Name	""	String
+"BQ"	BQ Branch Location Management Outcome Instance Record	""	""	""
+"BQ"	BQ Branch Location Management Outcome Instance Record	Branch Location Management Performance Analysis	""	String
+"BQ"	BQ Branch Location Management Outcome Instance Record	Branch Location Management Activity Analysis	""	String
+"BQ"	BQ Branch Location Management Outcome Instance Record	Branch Location Management Charter	""	String
+"BQ"	BQ Branch Location Management Outcome Instance Record	Branch Location Management Task	""	String
+"BQ"	BQ Branch Location Management Outcome Instance Record	Branch Location Management Project	""	String

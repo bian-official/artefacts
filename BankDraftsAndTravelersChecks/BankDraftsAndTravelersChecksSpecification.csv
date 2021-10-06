@@ -1,0 +1,13 @@
+"Service Domain specification for Bank Drafts And Travelers Checks"
+"Business Area"	Products
+"Business Domain"	Trade Banking
+"Service Domain"	Bank Drafts And Travelers Checks
+"Role Definition"	"Administer the pricing, recording and generation of Bank Drafts and T.Checks"
+"Example of use"	"A customer acquires a number of travelers checks"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Transact
+"Asset Type"	BearerDocument
+"Generic Artifact"	Transaction
+"Control Record"	BearerDocumentTransaction
+"Registration Status"	Registered

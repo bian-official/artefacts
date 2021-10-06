@@ -1,0 +1,13 @@
+"Service Domain specification for Brokered Product"
+"Business Area"	Products
+"Business Domain"	Consumer Banking
+"Service Domain"	Brokered Product
+"Role Definition"	"Administer any 3rd party coordination with brokered products and service supplied through any bank channel"
+"Example of use"	"Access to insurance brokers for branch customer is administered by teller and relationship management personnel"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	BrokeredProduct
+"Generic Artifact"	ManagementPlan
+"Control Record"	BrokeredProductManagementPlan
+"Registration Status"	Registered

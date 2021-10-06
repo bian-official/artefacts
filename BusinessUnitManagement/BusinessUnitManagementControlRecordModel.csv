@@ -1,0 +1,21 @@
+"Control Record Model for: "	Business Unit Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Performance Instance Record	""	""	""
+"BQ"	BQ Performance Instance Record	Business Unit Resource Utilization	"Record of the business unit employee target and actual utilization/productivity"	String
+"BQ"	BQ Performance Instance Record	Business Unit Output/Work Projections	"Estimated projected business unit product/service delivery and work volume targets as appropriate for the type of unit"	String
+"BQ"	BQ Performance Instance Record	Business Unit Performance Statistics	"Tracked business unit activity and performance statistics used to manage the business unit"	String
+"BQ"	BQ Performance Instance Record	Business Unit Performance Statistic Type	"The type of activity that is tracked and analyzed (e.g. delivery rate, utilization)"	String
+"BQ"	BQ Performance Instance Record	Business Unit Performance Statistic Value	"The statistical analysis that can include historical and trended views of the activity"	String
+"BQ"	BQ Performance Instance Record	Business Unit Performance Statistic Interpretation	"Narrative that might explain any divergence from expected performance/delivery"	String
+"BQ"	BQ Performance Instance Record	Business Unit Performance Statistic Recommendation	"Proposed operational changes/recommendations arising from the performance tracking and analysis"	String
+"CR"	CR Business Unit Management Plan Instance Record	""	""	""
+"CR"	CR Business Unit Management Plan Instance Record	Business Unit Management Plan Period	"The time period addressed by the management plan (typically this will include setting the default daily operating goals and arrangements for the business unit that is periodically updated)"	String
+"CR"	CR Business Unit Management Plan Instance Record	Business Unit Usage Policies And Guidelines	"The policies and guidelines for business unit employees and service users"	String
+"CR"	CR Business Unit Management Plan Instance Record	Business Unit Performance Goals	"The target and actual business unit performance goals that are tracked by business unit management"	String
+"CR"	CR Business Unit Management Plan Instance Record	Business Unit Operating Schedule	"The target and actual business unit operating schedule - recording planned and actual business activity"	String
+"CR"	CR Business Unit Management Plan Instance Record	Business Unit Operating Organization	"The assigned roles and responsibilities and associated work/delivery responsibilities for the staff making up the business unit"	String
+"CR"	CR Business Unit Management Plan Instance Record	Business Unit Resource Plan	"Details the number and skill profile of the business unit staff (target and actual)"	String
+"CR"	CR Business Unit Management Plan Instance Record	Business Unit Training Plan	"Details of staff training and certification as appropriate"	String
+"BQ"	BQ Troubleshooting Instance Record	""	""	""
+"BQ"	BQ Troubleshooting Instance Record	Business Unit Production Issue Record	"A record of any production issues arising during the session (see Advanced Voice Channel Operations for detailed content)"	String
+"BQ"	BQ Troubleshooting Instance Record	Business Unit Issue Analysis And Recommended Response	"A record of the root cause analysis for recurring issues and suggested remedial action that can be internal to the unit or recommended to service providers and subscribers as appropriate"	String

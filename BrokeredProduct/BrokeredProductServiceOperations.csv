@@ -1,0 +1,5 @@
+"Service Operations for: "	Brokered Product
+"Control Record Model for Brokered Product is not defined"
+"POST"	"/brokered-product/activation"
+"PUT"	"/brokered-product/{sd-reference-id}/configuration"
+"PUT"	"/brokered-product/{sd-reference-id}/feedback"

@@ -1,0 +1,13 @@
+"Service Domain specification for Branch Currency Distribution"
+"Business Area"	Channels
+"Business Domain"	Distribution
+"Service Domain"	Branch Currency Distribution
+"Role Definition"	"This service domain handles the scheduling and secure distribution of currency throughout the branch network (for bank branches and remote ATM locations). It ensures the required float is maintained at locations and undertakes the movement into and out of central currency holding facilities as necessary to ensure cash availability"
+"Example of use"	"Example of use:. ATMs at a branch location are stocked with currency in response to anticipated customer demand"
+"Executive Summary"	"Schedule and coordinate the secure distribution of cash inventory across the branch and ATM networks."
+"Key Features"	"Distribution vehicle fleet administration. Distribution planning and scheduling. Distribution activity monitoring and control. Central cash access coordination"
+"Functional Pattern"	Process
+"Asset Type"	CashDistribution
+"Generic Artifact"	Procedure
+"Control Record"	CashDistributionProcedure
+"Registration Status"	Registered

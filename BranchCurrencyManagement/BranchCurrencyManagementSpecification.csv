@@ -1,0 +1,13 @@
+"Service Domain specification for Branch Currency Management"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Branch Currency Management
+"Role Definition"	"This service domain is responsible for tracking the available cash (currency) inventory held and distributed within the Branch location to teller and ATM positions, to ensure adequate float is always available at all positions. Also to check balances and see that excess cash is transferred to secure central storage as appropriate. If necessary specific criteria can be selected to refine the allocation"
+"Example of use"	"Example of use:. The branch management reviews the available float and confirms end of day balances at the teller positions"
+"Executive Summary"	"Track cash inventory, project demand and ensure all cash is accounted for within the branch"
+"Key Features"	"Cash inventory usage and availability tracking. Branch cash inventory requirements evaluation and planning. Oversight of cash availability and movements within the branch"
+"Functional Pattern"	Allocate
+"Asset Type"	BranchCash
+"Generic Artifact"	Allocation
+"Control Record"	BranchCashAllocation
+"Registration Status"	Registered

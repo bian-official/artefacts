@@ -1,0 +1,5 @@
+"Service Operations for: "	Branch Location Operations
+"Control Record Model for Branch Location Operations is not defined"
+"POST"	"/branch-location-operations/activation"
+"PUT"	"/branch-location-operations/{sd-reference-id}/configuration"
+"PUT"	"/branch-location-operations/{sd-reference-id}/feedback"

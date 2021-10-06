@@ -1,0 +1,13 @@
+"Service Domain specification for Business Unit Management"
+"Business Area"	Resource Management
+"Business Domain"	Unit Management
+"Service Domain"	Business Unit Management
+"Role Definition"	"Handles the oversight and management of a general organizational business unit. This includes the definition and implementation of the management plan, overseeing ongoing activity and performance assessments and troubleshooting issues that might arise"
+"Example of use"	"A business unit consolidates activity and performance details for periodic internal management reporting"
+"Executive Summary"	"Track and report on business unit activity and financial performance"
+"Key Features"	"Determine the unit management plan (includes roles and responsibilities, assigned activities, deliverables and budgetary aspects). Monitor resource utilization and re-focus activity and assignments to remain on plan. Track and assess unit performance and troubleshoot major operational issues"
+"Functional Pattern"	Manage
+"Asset Type"	BusinessUnit
+"Generic Artifact"	ManagementPlan
+"Control Record"	BusinessUnitManagementPlan
+"Registration Status"	Registered
