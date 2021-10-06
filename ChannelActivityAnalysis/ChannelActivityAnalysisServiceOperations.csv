@@ -1,0 +1,169 @@
+"Service Operations for: "	Channel Activity Analysis
+""
+"POST"	"/channel-activity-analysis/activation"
+"PUT"	"/channel-activity-analysis/{sd-reference-id}/configuration"
+"PUT"	"/channel-activity-analysis/{sd-reference-id}/feedback"
+""
+"Post"	"/channel-activity-analysis/{sd-identifier}/channel-activity-analysis/{crbq-identifier}/evaluation"
+""	1	"inout"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"inout"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"inout"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""
+"Put"	"/channel-activity-analysis/{sd-identifier}/channel-activity-analysis/{crbq-identifier}/exchange"
+""	1	"inout"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"inout"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"inout"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""
+"Put"	"/channel-activity-analysis/{sd-identifier}/channel-activity-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"inout"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"inout"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""
+"Get"	"/channel-activity-analysis/{sd-identifier}/channel-activity-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"out"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"out"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"out"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""
+"Put"	"/channel-activity-analysis/{sd-identifier}/customer-fraud/{crbq-identifier}/execution"
+""	1	"in"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"in"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"in"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"inout"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"inout"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"inout"	"Channel Activity Customer Fraud Analysis Algorithm Specification"	"BQ Customer Fraud Instance Record"	String
+""	8	"out"	"Channel Activity Customer Fraud Analysis Reference"	"BQ Customer Fraud Instance Record"	Object
+""	9	"out"	"Channel Activity Customer Fraud Analysis Result"	"BQ Customer Fraud Instance Record"	String
+""
+"Get"	"/channel-activity-analysis/{sd-identifier}/customer-fraud/{crbq-identifier}/retrieval"
+""	1	"out"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"out"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"out"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"out"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"out"	"Channel Activity Customer Fraud Analysis Algorithm Specification"	"BQ Customer Fraud Instance Record"	String
+""	8	"out"	"Channel Activity Customer Fraud Analysis Reference"	"BQ Customer Fraud Instance Record"	Object
+""	9	"out"	"Channel Activity Customer Fraud Analysis Result"	"BQ Customer Fraud Instance Record"	String
+""
+"Put"	"/channel-activity-analysis/{sd-identifier}/merchant-fraud/{crbq-identifier}/execution"
+""	1	"in"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"in"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"in"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"inout"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"inout"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"inout"	"Channel Activity Merchant Fraud Analysis Algorithm Specification"	"BQ Merchant Fraud Instance Record"	String
+""	8	"out"	"Channel Activity Merchant Fraud Analysis Reference"	"BQ Merchant Fraud Instance Record"	Object
+""	9	"out"	"Channel Activity Merchant Fraud Analysis Result"	"BQ Merchant Fraud Instance Record"	String
+""
+"Get"	"/channel-activity-analysis/{sd-identifier}/merchant-fraud/{crbq-identifier}/retrieval"
+""	1	"out"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"out"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"out"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"out"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"out"	"Channel Activity Merchant Fraud Analysis Algorithm Specification"	"BQ Merchant Fraud Instance Record"	String
+""	8	"out"	"Channel Activity Merchant Fraud Analysis Reference"	"BQ Merchant Fraud Instance Record"	Object
+""	9	"out"	"Channel Activity Merchant Fraud Analysis Result"	"BQ Merchant Fraud Instance Record"	String
+""
+"Put"	"/channel-activity-analysis/{sd-identifier}/customer-behavior/{crbq-identifier}/execution"
+""	1	"in"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"in"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"in"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"inout"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"inout"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"inout"	"Channel Activity Customer Behavior Analysis Algorithm Specification"	"BQ Customer Behavior Instance Record"	String
+""	8	"out"	"Channel Activity Customer Behavior Analysis Reference"	"BQ Customer Behavior Instance Record"	Object
+""	9	"out"	"Channel Activity Customer Behavior Analysis Result"	"BQ Customer Behavior Instance Record"	String
+""
+"Get"	"/channel-activity-analysis/{sd-identifier}/customer-behavior/{crbq-identifier}/retrieval"
+""	1	"out"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"out"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"out"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"out"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"out"	"Channel Activity Customer Behavior Analysis Algorithm Specification"	"BQ Customer Behavior Instance Record"	String
+""	8	"out"	"Channel Activity Customer Behavior Analysis Reference"	"BQ Customer Behavior Instance Record"	Object
+""	9	"out"	"Channel Activity Customer Behavior Analysis Result"	"BQ Customer Behavior Instance Record"	String
+""
+"Put"	"/channel-activity-analysis/{sd-identifier}/merchant-behavior/{crbq-identifier}/execution"
+""	1	"in"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"in"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"in"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"inout"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"inout"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"inout"	"Channel Activity Merchant Behavior Analysis Algorithm Specification"	"BQ Merchant Behavior Instance Record"	String
+""	8	"out"	"Channel Activity Merchant Behavior Analysis Reference"	"BQ Merchant Behavior Instance Record"	Object
+""	9	"out"	"Channel Activity Merchant Behavior Analysis Result"	"BQ Merchant Behavior Instance Record"	String
+""
+"Get"	"/channel-activity-analysis/{sd-identifier}/merchant-behavior/{crbq-identifier}/retrieval"
+""	1	"out"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"out"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"out"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"out"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"out"	"Channel Activity Merchant Behavior Analysis Algorithm Specification"	"BQ Merchant Behavior Instance Record"	String
+""	8	"out"	"Channel Activity Merchant Behavior Analysis Reference"	"BQ Merchant Behavior Instance Record"	Object
+""	9	"out"	"Channel Activity Merchant Behavior Analysis Result"	"BQ Merchant Behavior Instance Record"	String
+""
+"Put"	"/channel-activity-analysis/{sd-identifier}/bot/{crbq-identifier}/execution"
+""	1	"in"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"in"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"in"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"inout"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"inout"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"inout"	"Channel Activity Bot Detection Analysis Algorithm Specification"	"BQ Bot Instance Record"	String
+""	8	"out"	"Channel Activity Bot Detection Analysis Reference"	"BQ Bot Instance Record"	Object
+""	9	"out"	"Channel Activity Bot Detection Analysis Result"	"BQ Bot Instance Record"	String
+""
+"Get"	"/channel-activity-analysis/{sd-identifier}/bot/{crbq-identifier}/retrieval"
+""	1	"out"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"out"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"out"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"out"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"out"	"Channel Activity Bot Detection Analysis Algorithm Specification"	"BQ Bot Instance Record"	String
+""	8	"out"	"Channel Activity Bot Detection Analysis Reference"	"BQ Bot Instance Record"	Object
+""	9	"out"	"Channel Activity Bot Detection Analysis Result"	"BQ Bot Instance Record"	String
+""
+"Put"	"/channel-activity-analysis/{sd-identifier}/device-error/{crbq-identifier}/execution"
+""	1	"in"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"in"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"in"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"inout"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"inout"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"in"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"inout"	"Channel Activity Device Error Detection Analysis Algorithm Specification"	"BQ Device Error Instance Record"	String
+""	8	"out"	"Channel Activity Device Error Detection Analysis Reference"	"BQ Device Error Instance Record"	Object
+""	9	"out"	"Channel Activity Device Error Detection Analysis Result"	"BQ Device Error Instance Record"	String
+""
+"Get"	"/channel-activity-analysis/{sd-identifier}/device-error/{crbq-identifier}/retrieval"
+""	1	"out"	"Channel Type"	"CR Channel Activity Analysis Instance Record"	String
+""	2	"out"	"Channel Activity Analysis Period"	"CR Channel Activity Analysis Instance Record"	String
+""	3	"out"	"Channel Activity Analysis Type"	"CR Channel Activity Analysis Instance Record"	String
+""	4	"out"	"Channel Activity Analysis Result"	"CR Channel Activity Analysis Instance Record"	String
+""	5	"out"	"Channel Activity Analysis Record"	"CR Channel Activity Analysis Instance Record"	String
+""	6	"out"	"Channel Activity History Report"	"CR Channel Activity Analysis Instance Record"	String
+""	7	"out"	"Channel Activity Device Error Detection Analysis Algorithm Specification"	"BQ Device Error Instance Record"	String
+""	8	"out"	"Channel Activity Device Error Detection Analysis Reference"	"BQ Device Error Instance Record"	Object
+""	9	"out"	"Channel Activity Device Error Detection Analysis Result"	"BQ Device Error Instance Record"	String

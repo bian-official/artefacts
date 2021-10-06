@@ -1,0 +1,18 @@
+"Control Record Model for: "	Card Terminal Administration
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Card POS Device Allocation Instance Record	""	""	""
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Device Reference	"Reference identification for the POS device"	Object
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Device Identifier	"Any unique identification properties (e.g. serial number)"	String
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Device Type	"The specific make and type of device"	String
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Device Software Type	"The type of software running on the device"	String
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Device Software Version	"The version of the software on the device"	String
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Device Acquired Date	"Date device first obtained, used for maintenance and amortization"	Date
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Repair Record	"Record of the maintenance/repair history of the device"	String
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Repair Details	"Description of the repair or maintenance work done (includes costs as appropriate)"	String
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Repair Dates	"Key dates and times relating to the repair (e.g. reported, scheduled, effort, returned to service)"	Date
+"CR"	CR Card POS Device Allocation Instance Record	Card POS Device Status	"The status of the POS device (e.g. testing, in production, help inventory, under repair, replaced/terminated)"	String
+"BQ"	BQ Allocation Instance Record	""	""	""
+"BQ"	BQ Allocation Instance Record	Merchant Reference	"Reference to the Card merchant registered with the device"	Object
+"BQ"	BQ Allocation Instance Record	Merchant Type	"The type of merchant (e.g. retailer, hotel)"	String
+"BQ"	BQ Allocation Instance Record	Merchant Location	"The physical location/address of the retailer and the device"	String
+"BQ"	BQ Allocation Instance Record	Card POS Device Configuration	"The configuration defines its operational characteristics/capabilities e.g. (PIN pad, transaction capture, tip handling, transaction descriptive, manual entry, security keys, balancing, receipt options/text, communication options, card types, currencies, etc.)"	String

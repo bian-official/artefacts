@@ -1,0 +1,13 @@
+"Service Domain specification for Card Terminal Operation"
+"Business Area"	Channels
+"Business Domain"	Channel Specific
+"Service Domain"	Card Terminal Operation
+"Role Definition"	"This service domain maintains a record of the transactions received from each Point of Sale Terminal or Authorization Link used by the Merchants to submit card charges and is used to help the merchant reconcile the transactions at the end of day or shift. Transactions are forwarded to the Card Clearing service domain when the terminal batches are closed by the merchant. The service domain also monitors the operating status of the terminals and handles terminal replacement."
+"Example of use"	"Charge transactions that are submitted by a Merchant through Point of Sale Terminals or Authorization Links are recorded by the Acquiring Bank as they are received and are held until the Merchant reconciles and closes a batch on the Terminal or Cash Register at the end of the day or shift. Transactions contained in batches that are closed by the Merchant are then sent for clearing."
+"Executive Summary"	"This service domain handle POS operations including processing, capture and tracking of the transactions originating at the Point of Sale devices."
+"Key Features"	"Card transaction capture and authorization. Merchant transaction reconciliation. Transaction batch closing and submission. Terminal/device status tracking"
+"Functional Pattern"	Operate
+"Asset Type"	CardPOSNetwork
+"Generic Artifact"	OperatingSession
+"Control Record"	CardPOSNetworkOperatingSession
+"Registration Status"	Registered

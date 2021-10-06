@@ -1,0 +1,13 @@
+"Service Domain specification for Collections"
+"Business Area"	Operations
+"Business Domain"	Custody, Collateral And Documents
+"Service Domain"	Collections
+"Role Definition"	"Administer the recovery and/or liquidation of collateral against problem accounts"
+"Example of use"	"Example of use:. Collateral held against a failed account is valued and submitted for liquidation to recover losses"
+"Executive Summary"	"Handles the liquidation of assets to offset the losses for problem accounts"
+"Key Features"	"Assess account status and determine collections approach. Collateral title and valuation assessment. Collateral Liquidation. Account/debt factoring"
+"Functional Pattern"	Process
+"Asset Type"	CollateralAssetLiquidation
+"Generic Artifact"	Procedure
+"Control Record"	CollateralAssetLiquidationProcedure
+"Registration Status"	Registered

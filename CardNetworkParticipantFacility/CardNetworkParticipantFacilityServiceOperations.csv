@@ -1,0 +1,116 @@
+"Service Operations for: "	Card Network Participant Facility
+""
+"POST"	"/card-network-participant-facility/activation"
+"PUT"	"/card-network-participant-facility/{sd-reference-id}/configuration"
+"PUT"	"/card-network-participant-facility/{sd-reference-id}/feedback"
+""
+"Post"	"/card-network-participant-facility/{sd-identifier}/card-network-participant-facility-arrangement/{crbq-identifier}/initiation"
+""	1	"in"	"Product/Service Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	3	"in"	"Party Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	4	"inout"	"Facility Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	5	"in"	"Participant Acquirer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	6	"inout"	"Participant Acquirer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	7	"inout"	"Participant Acquirer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	8	"in"	"Participant Issuer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	9	"inout"	"Participant Issuer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	10	"inout"	"Participant Issuer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""
+"Put"	"/card-network-participant-facility/{sd-identifier}/card-network-participant-facility-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	3	"inout"	"Party Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	4	"inout"	"Facility Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	5	"inout"	"Participant Acquirer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	6	"inout"	"Participant Acquirer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	7	"inout"	"Participant Acquirer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	8	"inout"	"Participant Issuer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	9	"inout"	"Participant Issuer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	10	"inout"	"Participant Issuer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""
+"Put"	"/card-network-participant-facility/{sd-identifier}/card-network-participant-facility-arrangement/{crbq-identifier}/control"
+""
+"Get"	"/card-network-participant-facility/{sd-identifier}/card-network-participant-facility-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	4	"out"	"Facility Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	5	"out"	"Participant Acquirer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	6	"out"	"Participant Acquirer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	7	"out"	"Participant Acquirer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	8	"out"	"Participant Issuer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	9	"out"	"Participant Issuer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	10	"out"	"Participant Issuer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""
+"Put"	"/card-network-participant-facility/{sd-identifier}/participant-account/{crbq-identifier}/update"
+""	1	"inout"	"Participant Account Posting Transaction"	"BQ Participant Account Instance Record"	String
+""	2	"inout"	"Network Participant Facility Account Posting Purpose"	"BQ Participant Account Instance Record"	String
+""	3	"inout"	"Network Participant Facility Account Posting Amount"	"BQ Participant Account Instance Record"	Amount
+""	4	"inout"	"Network Participant Facility Account Posting Value Date"	"BQ Participant Account Instance Record"	Date
+""	5	"inout"	"Network Participant Facility Account Posting Result"	"BQ Participant Account Instance Record"	String
+""
+"Put"	"/card-network-participant-facility/{sd-identifier}/participant-account/{crbq-identifier}/execution"
+""	1	"inout"	"Participant Account Posting Transaction"	"BQ Participant Account Instance Record"	String
+""	2	"in"	"Network Participant Facility Account Posting Purpose"	"BQ Participant Account Instance Record"	String
+""	3	"in"	"Network Participant Facility Account Posting Amount"	"BQ Participant Account Instance Record"	Amount
+""	4	"inout"	"Network Participant Facility Account Posting Value Date"	"BQ Participant Account Instance Record"	Date
+""	5	"out"	"Network Participant Facility Account Posting Result"	"BQ Participant Account Instance Record"	String
+""
+"Get"	"/card-network-participant-facility/{sd-identifier}/participant-account/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	4	"out"	"Facility Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	5	"out"	"Participant Acquirer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	6	"out"	"Participant Acquirer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	7	"out"	"Participant Acquirer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	8	"out"	"Participant Issuer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	9	"out"	"Participant Issuer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	10	"out"	"Participant Issuer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	11	"out"	"Participant Account Posting Transaction"	"BQ Participant Account Instance Record"	String
+""	12	"out"	"Network Participant Facility Account Posting Purpose"	"BQ Participant Account Instance Record"	String
+""	13	"out"	"Network Participant Facility Account Posting Amount"	"BQ Participant Account Instance Record"	Amount
+""	14	"out"	"Network Participant Facility Account Posting Value Date"	"BQ Participant Account Instance Record"	Date
+""	15	"out"	"Network Participant Facility Account Posting Result"	"BQ Participant Account Instance Record"	String
+""
+"Put"	"/card-network-participant-facility/{sd-identifier}/participant-service/{crbq-identifier}/update"
+""	1	"inout"	"Participant Service Record"	"BQ Participant Service Instance Record"	String
+""	2	"inout"	"Network Participant Service Type"	"BQ Participant Service Instance Record"	String
+""	3	"inout"	"Network Participant Service Charge"	"BQ Participant Service Instance Record"	String
+""	4	"inout"	"Network Participant Service Date/Time"	"BQ Participant Service Instance Record"	Date
+""	5	"inout"	"Network Participant Network Service Request Work Product"	"BQ Participant Service Instance Record"	String
+""	6	"inout"	"Network Participant Network Service Request Result"	"BQ Participant Service Instance Record"	String
+""
+"Put"	"/card-network-participant-facility/{sd-identifier}/participant-service/{crbq-identifier}/execution"
+""	1	"inout"	"Participant Service Record"	"BQ Participant Service Instance Record"	String
+""	2	"in"	"Network Participant Service Type"	"BQ Participant Service Instance Record"	String
+""	3	"out"	"Network Participant Service Charge"	"BQ Participant Service Instance Record"	String
+""	4	"inout"	"Network Participant Service Date/Time"	"BQ Participant Service Instance Record"	Date
+""	5	"out"	"Network Participant Network Service Request Work Product"	"BQ Participant Service Instance Record"	String
+""	6	"out"	"Network Participant Network Service Request Result"	"BQ Participant Service Instance Record"	String
+""
+"Put"	"/card-network-participant-facility/{sd-identifier}/participant-service/{crbq-identifier}/requisition"
+""	1	"inout"	"Participant Service Record"	"BQ Participant Service Instance Record"	String
+""	2	"in"	"Network Participant Service Type"	"BQ Participant Service Instance Record"	String
+""	3	"out"	"Network Participant Service Charge"	"BQ Participant Service Instance Record"	String
+""	4	"inout"	"Network Participant Service Date/Time"	"BQ Participant Service Instance Record"	Date
+""	5	"out"	"Network Participant Network Service Request Work Product"	"BQ Participant Service Instance Record"	String
+""	6	"out"	"Network Participant Network Service Request Result"	"BQ Participant Service Instance Record"	String
+""
+"Get"	"/card-network-participant-facility/{sd-identifier}/participant-service/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	4	"out"	"Facility Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	5	"out"	"Participant Acquirer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	6	"out"	"Participant Acquirer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	7	"out"	"Participant Acquirer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	8	"out"	"Participant Issuer Bank Reference"	"CR Card Network Participant Facility Arrangement Instance Record"	Object
+""	9	"out"	"Participant Issuer Bank Clearing and Settlement Terms"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	10	"out"	"Participant Issuer Bank Service Schedule"	"CR Card Network Participant Facility Arrangement Instance Record"	String
+""	11	"out"	"Participant Service Record"	"BQ Participant Service Instance Record"	String
+""	12	"out"	"Network Participant Service Type"	"BQ Participant Service Instance Record"	String
+""	13	"out"	"Network Participant Service Charge"	"BQ Participant Service Instance Record"	String
+""	14	"out"	"Network Participant Service Date/Time"	"BQ Participant Service Instance Record"	Date
+""	15	"out"	"Network Participant Network Service Request Work Product"	"BQ Participant Service Instance Record"	String
+""	16	"out"	"Network Participant Network Service Request Result"	"BQ Participant Service Instance Record"	String

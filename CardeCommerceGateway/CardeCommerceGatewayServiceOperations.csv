@@ -1,0 +1,207 @@
+"Service Operations for: "	Card eCommerce Gateway
+""
+"POST"	"/card-ecommerce-gateway/activation"
+"PUT"	"/card-ecommerce-gateway/{sd-reference-id}/configuration"
+"PUT"	"/card-ecommerce-gateway/{sd-reference-id}/feedback"
+""
+"Put"	"/card-ecommerce-gateway/{sd-identifier}/ecommerce-gateway-operating-session/{crbq-identifier}/control"
+""
+"Get"	"/card-ecommerce-gateway/{sd-identifier}/ecommerce-gateway-operating-session/{crbq-identifier}/retrieval"
+""
+"Post"	"/card-ecommerce-gateway/{sd-identifier}/card-transaction/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"in"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"in"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"in"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"in"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"in"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"in"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"in"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"in"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"in"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"in"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"in"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"in"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""
+"Put"	"/card-ecommerce-gateway/{sd-identifier}/card-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"inout"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"inout"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"inout"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"inout"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"inout"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"inout"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"inout"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"inout"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"inout"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"inout"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"inout"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""
+"Get"	"/card-ecommerce-gateway/{sd-identifier}/card-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"out"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"out"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"out"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"out"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"out"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"out"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"out"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"out"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"out"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"out"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"out"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"out"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""
+"Put"	"/card-ecommerce-gateway/{sd-identifier}/transaction-batch/{crbq-identifier}/update"
+""	1	"in"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"in"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"in"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"in"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"in"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"in"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"in"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"in"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"in"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"in"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"in"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"in"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"in"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"in"	"eCommerce Batch Transaction Date/Time"	"BQ Transaction Batch Instance Record"	Date
+""	15	"in"	"eCommerce Batch Transaction Record"	"BQ Transaction Batch Instance Record"	String
+""
+"Post"	"/card-ecommerce-gateway/{sd-identifier}/transaction-batch/{crbq-identifier}/initiation"
+""	1	"inout"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"inout"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"inout"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"inout"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"inout"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"inout"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"inout"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"inout"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"inout"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"inout"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"inout"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"inout"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"inout"	"eCommerce Batch Transaction Date/Time"	"BQ Transaction Batch Instance Record"	Date
+""	15	"inout"	"eCommerce Batch Transaction Record"	"BQ Transaction Batch Instance Record"	String
+""
+"Get"	"/card-ecommerce-gateway/{sd-identifier}/transaction-batch/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"out"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"out"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"out"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"out"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"out"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"out"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"out"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"out"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"out"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"out"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"out"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"out"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"out"	"eCommerce Batch Transaction Date/Time"	"BQ Transaction Batch Instance Record"	Date
+""	15	"out"	"eCommerce Batch Transaction Record"	"BQ Transaction Batch Instance Record"	String
+""
+"Post"	"/card-ecommerce-gateway/{sd-identifier}/card-authentication/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"in"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"in"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"in"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"in"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"in"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"in"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"in"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"in"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"in"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"in"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"in"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"in"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"in"	"eCommerce Transaction Instance Reference"	"BQ Card Authentication Instance Record"	Object
+""	15	"in"	"eCommerce Transaction Authentication Response"	"BQ Card Authentication Instance Record"	String
+""
+"Put"	"/card-ecommerce-gateway/{sd-identifier}/card-authentication/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"inout"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"inout"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"inout"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"inout"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"inout"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"inout"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"inout"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"inout"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"inout"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"inout"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"inout"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"inout"	"eCommerce Transaction Instance Reference"	"BQ Card Authentication Instance Record"	Object
+""	15	"inout"	"eCommerce Transaction Authentication Response"	"BQ Card Authentication Instance Record"	String
+""
+"Get"	"/card-ecommerce-gateway/{sd-identifier}/card-authentication/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"out"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"out"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"out"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"out"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"out"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"out"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"out"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"out"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"out"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"out"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"out"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"out"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"out"	"eCommerce Transaction Instance Reference"	"BQ Card Authentication Instance Record"	Object
+""	15	"out"	"eCommerce Transaction Authentication Response"	"BQ Card Authentication Instance Record"	String
+""
+"Post"	"/card-ecommerce-gateway/{sd-identifier}/transaction-authorization/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"in"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"in"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"in"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"in"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"in"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"in"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"in"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"in"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"in"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"in"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"in"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"in"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"in"	"eCommerce Transaction Instance Reference"	"BQ Transaction Authorization Instance Record"	Object
+""	15	"in"	"eCommerce Transaction Authorization Response"	"BQ Transaction Authorization Instance Record"	String
+""
+"Put"	"/card-ecommerce-gateway/{sd-identifier}/transaction-authorization/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"inout"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"inout"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"inout"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"inout"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"inout"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"inout"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"inout"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"inout"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"inout"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"inout"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"inout"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"inout"	"eCommerce Transaction Instance Reference"	"BQ Transaction Authorization Instance Record"	Object
+""	15	"inout"	"eCommerce Transaction Authorization Response"	"BQ Transaction Authorization Instance Record"	String
+""
+"Get"	"/card-ecommerce-gateway/{sd-identifier}/transaction-authorization/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"out"	"Customer Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"out"	"Card expiration date"	"BQ Card Transaction Instance Record"	Date
+""	4	"out"	"Card CVV"	"BQ Card Transaction Instance Record"	String
+""	5	"out"	"Card Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"out"	"Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"out"	"eCommerce Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	8	"out"	"eCommerce Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	9	"out"	"eCommerce Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	10	"out"	"eCommerce Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"out"	"eCommerce Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"out"	"eCommerce Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"out"	"eCommerce Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	14	"out"	"eCommerce Transaction Instance Reference"	"BQ Transaction Authorization Instance Record"	Object
+""	15	"out"	"eCommerce Transaction Authorization Response"	"BQ Transaction Authorization Instance Record"	String

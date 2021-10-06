@@ -1,0 +1,233 @@
+"Service Operations for: "	Central Cash Handling
+""
+"POST"	"/central-cash-handling/activation"
+"PUT"	"/central-cash-handling/{sd-reference-id}/configuration"
+"PUT"	"/central-cash-handling/{sd-reference-id}/feedback"
+""
+"Put"	"/central-cash-handling/{sd-identifier}/projection-and--allocation/{crbq-identifier}/capture"
+""	1	"inout"	"Projection and  Allocation Preconditions"	"BQ Projection and  Allocation Instance Record"	String
+""	2	"inout"	"Projection and  Allocation Allocation Schedule"	"BQ Projection and  Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Projection"	"BQ Projection and  Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Projection Service Type"	"BQ Projection and  Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Projection Service Description"	"BQ Projection and  Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Projection Service Inputs and Ouputs"	"BQ Projection and  Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Projection Service Work Product"	"BQ Projection and  Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Projection Service Name"	"BQ Projection and  Allocation Instance Record"	String
+""
+"Put"	"/central-cash-handling/{sd-identifier}/tracking-and--allocation/{crbq-identifier}/capture"
+""	1	"inout"	"Tracking and  Allocation Preconditions"	"BQ Tracking and  Allocation Instance Record"	String
+""	2	"inout"	"Tracking and  Allocation Allocation Schedule"	"BQ Tracking and  Allocation Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Tracking and  Allocation Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Tracking and  Allocation Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Tracking and  Allocation Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Tracking and  Allocation Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Tracking and  Allocation Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Tracking and  Allocation Instance Record"	String
+""
+"Put"	"/central-cash-handling/{sd-identifier}/central-cash-allocation/{crbq-identifier}/capture"
+""	1	"inout"	"Central Cash Allocation Parameter Type"	"CR Central Cash Allocation Instance Record"	String
+""	2	"inout"	"Central Cash Allocation Selected Option"	"CR Central Cash Allocation Instance Record"	String
+""	3	"in"	"Central Cash Allocation <Subject Area> Type"	"CR Central Cash Allocation Instance Record"	String
+""	4	"in"	"Central Cash Allocation Description"	"CR Central Cash Allocation Instance Record"	String
+""	5	"inout"	"Central Cash Allocation Request"	"CR Central Cash Allocation Instance Record"	String
+""	6	"inout"	"Central Cash Allocation Schedule"	"CR Central Cash Allocation Instance Record"	String
+""	7	"inout"	"Central Cash Allocation Status"	"CR Central Cash Allocation Instance Record"	String
+""	8	"in"	"Central Cash Allocation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	9	"inout"	"Central Cash Allocation Customer Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	10	"in"	"Central Cash Allocation Currency"	"CR Central Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Central Cash Allocation Regulation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	12	"in"	"Central Cash Allocation Regulation Type"	"CR Central Cash Allocation Instance Record"	String
+""	13	"in"	"Central Cash Allocation Jurisdiction"	"CR Central Cash Allocation Instance Record"	String
+""	14	"in"	"Central Cash Allocation Booking Location"	"CR Central Cash Allocation Instance Record"	String
+""	15	"in"	"Central Cash Allocation Account Type"	"CR Central Cash Allocation Instance Record"	String
+""	16	"in"	"Central Cash Allocation Account Reference"	"CR Central Cash Allocation Instance Record"	Object
+""
+"Put"	"/central-cash-handling/{sd-identifier}/projection-and--allocation/{crbq-identifier}/control"
+""	1	"inout"	"Projection and  Allocation Preconditions"	"BQ Projection and  Allocation Instance Record"	String
+""	2	"inout"	"Projection and  Allocation Allocation Schedule"	"BQ Projection and  Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Projection"	"BQ Projection and  Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Projection Service Type"	"BQ Projection and  Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Projection Service Description"	"BQ Projection and  Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Projection Service Inputs and Ouputs"	"BQ Projection and  Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Projection Service Work Product"	"BQ Projection and  Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Projection Service Name"	"BQ Projection and  Allocation Instance Record"	String
+""
+"Put"	"/central-cash-handling/{sd-identifier}/tracking-and--allocation/{crbq-identifier}/control"
+""	1	"inout"	"Tracking and  Allocation Preconditions"	"BQ Tracking and  Allocation Instance Record"	String
+""	2	"inout"	"Tracking and  Allocation Allocation Schedule"	"BQ Tracking and  Allocation Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Tracking and  Allocation Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Tracking and  Allocation Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Tracking and  Allocation Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Tracking and  Allocation Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Tracking and  Allocation Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Tracking and  Allocation Instance Record"	String
+""
+"Put"	"/central-cash-handling/{sd-identifier}/central-cash-allocation/{crbq-identifier}/control"
+""	1	"inout"	"Central Cash Allocation Parameter Type"	"CR Central Cash Allocation Instance Record"	String
+""	2	"inout"	"Central Cash Allocation Selected Option"	"CR Central Cash Allocation Instance Record"	String
+""	3	"in"	"Central Cash Allocation <Subject Area> Type"	"CR Central Cash Allocation Instance Record"	String
+""	4	"in"	"Central Cash Allocation Description"	"CR Central Cash Allocation Instance Record"	String
+""	5	"inout"	"Central Cash Allocation Request"	"CR Central Cash Allocation Instance Record"	String
+""	6	"inout"	"Central Cash Allocation Schedule"	"CR Central Cash Allocation Instance Record"	String
+""	7	"inout"	"Central Cash Allocation Status"	"CR Central Cash Allocation Instance Record"	String
+""	8	"in"	"Central Cash Allocation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	9	"inout"	"Central Cash Allocation Customer Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	10	"in"	"Central Cash Allocation Currency"	"CR Central Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Central Cash Allocation Regulation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	12	"in"	"Central Cash Allocation Regulation Type"	"CR Central Cash Allocation Instance Record"	String
+""	13	"in"	"Central Cash Allocation Jurisdiction"	"CR Central Cash Allocation Instance Record"	String
+""	14	"in"	"Central Cash Allocation Booking Location"	"CR Central Cash Allocation Instance Record"	String
+""	15	"in"	"Central Cash Allocation Account Type"	"CR Central Cash Allocation Instance Record"	String
+""	16	"in"	"Central Cash Allocation Account Reference"	"CR Central Cash Allocation Instance Record"	Object
+""
+"Put"	"/central-cash-handling/{sd-identifier}/projection-and--allocation/{crbq-identifier}/exchange"
+""	1	"inout"	"Projection and  Allocation Preconditions"	"BQ Projection and  Allocation Instance Record"	String
+""	2	"inout"	"Projection and  Allocation Allocation Schedule"	"BQ Projection and  Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Projection"	"BQ Projection and  Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Projection Service Type"	"BQ Projection and  Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Projection Service Description"	"BQ Projection and  Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Projection Service Inputs and Ouputs"	"BQ Projection and  Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Projection Service Work Product"	"BQ Projection and  Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Projection Service Name"	"BQ Projection and  Allocation Instance Record"	String
+""
+"Put"	"/central-cash-handling/{sd-identifier}/tracking-and--allocation/{crbq-identifier}/exchange"
+""	1	"inout"	"Tracking and  Allocation Preconditions"	"BQ Tracking and  Allocation Instance Record"	String
+""	2	"inout"	"Tracking and  Allocation Allocation Schedule"	"BQ Tracking and  Allocation Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Tracking and  Allocation Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Tracking and  Allocation Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Tracking and  Allocation Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Tracking and  Allocation Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Tracking and  Allocation Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Tracking and  Allocation Instance Record"	String
+""
+"Put"	"/central-cash-handling/{sd-identifier}/central-cash-allocation/{crbq-identifier}/exchange"
+""	1	"inout"	"Central Cash Allocation Parameter Type"	"CR Central Cash Allocation Instance Record"	String
+""	2	"inout"	"Central Cash Allocation Selected Option"	"CR Central Cash Allocation Instance Record"	String
+""	3	"in"	"Central Cash Allocation <Subject Area> Type"	"CR Central Cash Allocation Instance Record"	String
+""	4	"in"	"Central Cash Allocation Description"	"CR Central Cash Allocation Instance Record"	String
+""	5	"inout"	"Central Cash Allocation Request"	"CR Central Cash Allocation Instance Record"	String
+""	6	"inout"	"Central Cash Allocation Schedule"	"CR Central Cash Allocation Instance Record"	String
+""	7	"inout"	"Central Cash Allocation Status"	"CR Central Cash Allocation Instance Record"	String
+""	8	"in"	"Central Cash Allocation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	9	"inout"	"Central Cash Allocation Customer Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	10	"in"	"Central Cash Allocation Currency"	"CR Central Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Central Cash Allocation Regulation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	12	"in"	"Central Cash Allocation Regulation Type"	"CR Central Cash Allocation Instance Record"	String
+""	13	"in"	"Central Cash Allocation Jurisdiction"	"CR Central Cash Allocation Instance Record"	String
+""	14	"in"	"Central Cash Allocation Booking Location"	"CR Central Cash Allocation Instance Record"	String
+""	15	"in"	"Central Cash Allocation Account Type"	"CR Central Cash Allocation Instance Record"	String
+""	16	"in"	"Central Cash Allocation Account Reference"	"CR Central Cash Allocation Instance Record"	Object
+""
+"Post"	"/central-cash-handling/{sd-identifier}/projection-and--allocation/{crbq-identifier}/initiation"
+""	1	"inout"	"Projection and  Allocation Preconditions"	"BQ Projection and  Allocation Instance Record"	String
+""	2	"inout"	"Projection and  Allocation Allocation Schedule"	"BQ Projection and  Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Projection"	"BQ Projection and  Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Projection Service Type"	"BQ Projection and  Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Projection Service Description"	"BQ Projection and  Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Projection Service Inputs and Ouputs"	"BQ Projection and  Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Projection Service Work Product"	"BQ Projection and  Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Projection Service Name"	"BQ Projection and  Allocation Instance Record"	String
+""
+"Post"	"/central-cash-handling/{sd-identifier}/tracking-and--allocation/{crbq-identifier}/initiation"
+""	1	"inout"	"Tracking and  Allocation Preconditions"	"BQ Tracking and  Allocation Instance Record"	String
+""	2	"inout"	"Tracking and  Allocation Allocation Schedule"	"BQ Tracking and  Allocation Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Tracking and  Allocation Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Tracking and  Allocation Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Tracking and  Allocation Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Tracking and  Allocation Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Tracking and  Allocation Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Tracking and  Allocation Instance Record"	String
+""
+"Post"	"/central-cash-handling/{sd-identifier}/central-cash-allocation/{crbq-identifier}/initiation"
+""	1	"inout"	"Central Cash Allocation Parameter Type"	"CR Central Cash Allocation Instance Record"	String
+""	2	"inout"	"Central Cash Allocation Selected Option"	"CR Central Cash Allocation Instance Record"	String
+""	3	"in"	"Central Cash Allocation <Subject Area> Type"	"CR Central Cash Allocation Instance Record"	String
+""	4	"in"	"Central Cash Allocation Description"	"CR Central Cash Allocation Instance Record"	String
+""	5	"inout"	"Central Cash Allocation Request"	"CR Central Cash Allocation Instance Record"	String
+""	6	"inout"	"Central Cash Allocation Schedule"	"CR Central Cash Allocation Instance Record"	String
+""	7	"inout"	"Central Cash Allocation Status"	"CR Central Cash Allocation Instance Record"	String
+""	8	"in"	"Central Cash Allocation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	9	"inout"	"Central Cash Allocation Customer Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	10	"in"	"Central Cash Allocation Currency"	"CR Central Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Central Cash Allocation Regulation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	12	"in"	"Central Cash Allocation Regulation Type"	"CR Central Cash Allocation Instance Record"	String
+""	13	"in"	"Central Cash Allocation Jurisdiction"	"CR Central Cash Allocation Instance Record"	String
+""	14	"in"	"Central Cash Allocation Booking Location"	"CR Central Cash Allocation Instance Record"	String
+""	15	"in"	"Central Cash Allocation Account Type"	"CR Central Cash Allocation Instance Record"	String
+""	16	"in"	"Central Cash Allocation Account Reference"	"CR Central Cash Allocation Instance Record"	Object
+""
+"Get"	"/central-cash-handling/{sd-identifier}/projection-and--allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Projection and  Allocation Preconditions"	"BQ Projection and  Allocation Instance Record"	String
+""	2	"out"	"Projection and  Allocation Allocation Schedule"	"BQ Projection and  Allocation Instance Record"	String
+""	3	"out"	"Cash Inventory Projection"	"BQ Projection and  Allocation Instance Record"	Business Service
+""	4	"out"	"Cash Inventory Projection Service Type"	"BQ Projection and  Allocation Instance Record"	String
+""	5	"out"	"Cash Inventory Projection Service Description"	"BQ Projection and  Allocation Instance Record"	String
+""	6	"out"	"Cash Inventory Projection Service Inputs and Ouputs"	"BQ Projection and  Allocation Instance Record"	String
+""	7	"out"	"Cash Inventory Projection Service Work Product"	"BQ Projection and  Allocation Instance Record"	String
+""	8	"out"	"Cash Inventory Projection Service Name"	"BQ Projection and  Allocation Instance Record"	String
+""
+"Get"	"/central-cash-handling/{sd-identifier}/tracking-and--allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Tracking and  Allocation Preconditions"	"BQ Tracking and  Allocation Instance Record"	String
+""	2	"out"	"Tracking and  Allocation Allocation Schedule"	"BQ Tracking and  Allocation Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Tracking and  Allocation Instance Record"	Business Service
+""	4	"out"	" Service Type"	"BQ Tracking and  Allocation Instance Record"	String
+""	5	"out"	" Service Description"	"BQ Tracking and  Allocation Instance Record"	String
+""	6	"out"	" Service Inputs and Ouputs"	"BQ Tracking and  Allocation Instance Record"	String
+""	7	"out"	" Service Work Product"	"BQ Tracking and  Allocation Instance Record"	String
+""	8	"out"	" Service Name"	"BQ Tracking and  Allocation Instance Record"	String
+""
+"Get"	"/central-cash-handling/{sd-identifier}/central-cash-allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Central Cash Allocation Parameter Type"	"CR Central Cash Allocation Instance Record"	String
+""	2	"out"	"Central Cash Allocation Selected Option"	"CR Central Cash Allocation Instance Record"	String
+""	3	"out"	"Central Cash Allocation <Subject Area> Type"	"CR Central Cash Allocation Instance Record"	String
+""	4	"out"	"Central Cash Allocation Description"	"CR Central Cash Allocation Instance Record"	String
+""	5	"out"	"Central Cash Allocation Request"	"CR Central Cash Allocation Instance Record"	String
+""	6	"out"	"Central Cash Allocation Schedule"	"CR Central Cash Allocation Instance Record"	String
+""	7	"out"	"Central Cash Allocation Status"	"CR Central Cash Allocation Instance Record"	String
+""	8	"out"	"Central Cash Allocation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	9	"out"	"Central Cash Allocation Customer Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	10	"out"	"Central Cash Allocation Currency"	"CR Central Cash Allocation Instance Record"	CurrencyCode
+""	11	"out"	"Central Cash Allocation Regulation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	12	"out"	"Central Cash Allocation Regulation Type"	"CR Central Cash Allocation Instance Record"	String
+""	13	"out"	"Central Cash Allocation Jurisdiction"	"CR Central Cash Allocation Instance Record"	String
+""	14	"out"	"Central Cash Allocation Booking Location"	"CR Central Cash Allocation Instance Record"	String
+""	15	"out"	"Central Cash Allocation Account Type"	"CR Central Cash Allocation Instance Record"	String
+""	16	"out"	"Central Cash Allocation Account Reference"	"CR Central Cash Allocation Instance Record"	Object
+""
+"Put"	"/central-cash-handling/{sd-identifier}/projection-and--allocation/{crbq-identifier}/update"
+""	1	"inout"	"Projection and  Allocation Preconditions"	"BQ Projection and  Allocation Instance Record"	String
+""	2	"inout"	"Projection and  Allocation Allocation Schedule"	"BQ Projection and  Allocation Instance Record"	String
+""	3	"inout"	"Cash Inventory Projection"	"BQ Projection and  Allocation Instance Record"	Business Service
+""	4	"inout"	"Cash Inventory Projection Service Type"	"BQ Projection and  Allocation Instance Record"	String
+""	5	"inout"	"Cash Inventory Projection Service Description"	"BQ Projection and  Allocation Instance Record"	String
+""	6	"inout"	"Cash Inventory Projection Service Inputs and Ouputs"	"BQ Projection and  Allocation Instance Record"	String
+""	7	"inout"	"Cash Inventory Projection Service Work Product"	"BQ Projection and  Allocation Instance Record"	String
+""	8	"inout"	"Cash Inventory Projection Service Name"	"BQ Projection and  Allocation Instance Record"	String
+""
+"Put"	"/central-cash-handling/{sd-identifier}/tracking-and--allocation/{crbq-identifier}/update"
+""	1	"inout"	"Tracking and  Allocation Preconditions"	"BQ Tracking and  Allocation Instance Record"	String
+""	2	"inout"	"Tracking and  Allocation Allocation Schedule"	"BQ Tracking and  Allocation Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Tracking and  Allocation Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Tracking and  Allocation Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Tracking and  Allocation Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Tracking and  Allocation Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Tracking and  Allocation Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Tracking and  Allocation Instance Record"	String
+""
+"Put"	"/central-cash-handling/{sd-identifier}/central-cash-allocation/{crbq-identifier}/update"
+""	1	"inout"	"Central Cash Allocation Parameter Type"	"CR Central Cash Allocation Instance Record"	String
+""	2	"inout"	"Central Cash Allocation Selected Option"	"CR Central Cash Allocation Instance Record"	String
+""	3	"in"	"Central Cash Allocation <Subject Area> Type"	"CR Central Cash Allocation Instance Record"	String
+""	4	"in"	"Central Cash Allocation Description"	"CR Central Cash Allocation Instance Record"	String
+""	5	"inout"	"Central Cash Allocation Request"	"CR Central Cash Allocation Instance Record"	String
+""	6	"inout"	"Central Cash Allocation Schedule"	"CR Central Cash Allocation Instance Record"	String
+""	7	"inout"	"Central Cash Allocation Status"	"CR Central Cash Allocation Instance Record"	String
+""	8	"in"	"Central Cash Allocation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	9	"inout"	"Central Cash Allocation Customer Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	10	"in"	"Central Cash Allocation Currency"	"CR Central Cash Allocation Instance Record"	CurrencyCode
+""	11	"in"	"Central Cash Allocation Regulation Reference"	"CR Central Cash Allocation Instance Record"	Object
+""	12	"in"	"Central Cash Allocation Regulation Type"	"CR Central Cash Allocation Instance Record"	String
+""	13	"in"	"Central Cash Allocation Jurisdiction"	"CR Central Cash Allocation Instance Record"	String
+""	14	"in"	"Central Cash Allocation Booking Location"	"CR Central Cash Allocation Instance Record"	String
+""	15	"in"	"Central Cash Allocation Account Type"	"CR Central Cash Allocation Instance Record"	String
+""	16	"in"	"Central Cash Allocation Account Reference"	"CR Central Cash Allocation Instance Record"	Object

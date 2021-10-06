@@ -1,0 +1,219 @@
+"Service Operations for: "	Card Capture
+""
+"POST"	"/card-capture/activation"
+"PUT"	"/card-capture/{sd-reference-id}/configuration"
+"PUT"	"/card-capture/{sd-reference-id}/feedback"
+""
+"Put"	"/card-capture/{sd-identifier}/transaction-consolidation/{crbq-identifier}/control"
+""	1	"inout"	"Transaction Consolidation Preconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	2	"inout"	"Transaction Consolidation Task Schedule"	"BQ Transaction Consolidation Instance Record"	String
+""	3	"inout"	"Card Transaction Consolidation"	"BQ Transaction Consolidation Instance Record"	Business Service
+""	4	"inout"	"Transaction Consolidation Postconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	5	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Type"	"BQ Transaction Consolidation Instance Record"	String
+""	6	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Description"	"BQ Transaction Consolidation Instance Record"	String
+""	7	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Inputs and Ouputs"	"BQ Transaction Consolidation Instance Record"	String
+""	8	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Work Product"	"BQ Transaction Consolidation Instance Record"	String
+""	9	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Name"	"BQ Transaction Consolidation Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/credit-charge-card-financial-capture-transaction/{crbq-identifier}/control"
+""	1	"inout"	"Credit/Charge Card Financial Capture Transaction Parameter Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	2	"inout"	"Credit/Charge Card Financial Capture Transaction Selected Option"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	3	"inout"	"Credit/Charge Card Financial Capture Transaction Status"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	4	"in"	"Credit/Charge Card Financial Capture Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	5	"in"	"Credit/Charge Card Financial Capture Transaction Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/transaction-consolidation/{crbq-identifier}/exchange"
+""	1	"inout"	"Transaction Consolidation Preconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	2	"inout"	"Transaction Consolidation Task Schedule"	"BQ Transaction Consolidation Instance Record"	String
+""	3	"inout"	"Card Transaction Consolidation"	"BQ Transaction Consolidation Instance Record"	Business Service
+""	4	"inout"	"Transaction Consolidation Postconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	5	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Type"	"BQ Transaction Consolidation Instance Record"	String
+""	6	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Description"	"BQ Transaction Consolidation Instance Record"	String
+""	7	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Inputs and Ouputs"	"BQ Transaction Consolidation Instance Record"	String
+""	8	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Work Product"	"BQ Transaction Consolidation Instance Record"	String
+""	9	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Name"	"BQ Transaction Consolidation Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/credit-charge-card-financial-capture-transaction/{crbq-identifier}/exchange"
+""	1	"inout"	"Credit/Charge Card Financial Capture Transaction Parameter Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	2	"inout"	"Credit/Charge Card Financial Capture Transaction Selected Option"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	3	"inout"	"Credit/Charge Card Financial Capture Transaction Status"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	4	"in"	"Credit/Charge Card Financial Capture Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	5	"in"	"Credit/Charge Card Financial Capture Transaction Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/transaction-consolidation/{crbq-identifier}/execution"
+""	1	"inout"	"Transaction Consolidation Preconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	2	"inout"	"Transaction Consolidation Task Schedule"	"BQ Transaction Consolidation Instance Record"	String
+""	3	"inout"	"Card Transaction Consolidation"	"BQ Transaction Consolidation Instance Record"	Business Service
+""	4	"inout"	"Transaction Consolidation Postconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	5	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Type"	"BQ Transaction Consolidation Instance Record"	String
+""	6	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Description"	"BQ Transaction Consolidation Instance Record"	String
+""	7	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Inputs and Ouputs"	"BQ Transaction Consolidation Instance Record"	String
+""	8	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Work Product"	"BQ Transaction Consolidation Instance Record"	String
+""	9	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Name"	"BQ Transaction Consolidation Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/credit-charge-card-financial-capture-transaction/{crbq-identifier}/execution"
+""	1	"inout"	"Credit/Charge Card Financial Capture Transaction Parameter Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	2	"inout"	"Credit/Charge Card Financial Capture Transaction Selected Option"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	3	"inout"	"Credit/Charge Card Financial Capture Transaction Status"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	4	"in"	"Credit/Charge Card Financial Capture Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	5	"in"	"Credit/Charge Card Financial Capture Transaction Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""
+"Post"	"/card-capture/{sd-identifier}/transaction-authorization/{crbq-identifier}/initiation"
+""	1	"inout"	"Transaction Authorization Preconditions"	"BQ Transaction Authorization Instance Record"	String
+""	2	"inout"	"Transaction Authorization Task Schedule"	"BQ Transaction Authorization Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Transaction Authorization Instance Record"	Business Service
+""	4	"inout"	"Transaction Authorization Postconditions"	"BQ Transaction Authorization Instance Record"	String
+""	5	"inout"	"Transaction Authorization Service Type"	"BQ Transaction Authorization Instance Record"	String
+""	6	"inout"	"Transaction Authorization Service Description"	"BQ Transaction Authorization Instance Record"	String
+""	7	"inout"	"Transaction Authorization Service Inputs and Ouputs"	"BQ Transaction Authorization Instance Record"	String
+""	8	"inout"	"Transaction Authorization Service Work Product"	"BQ Transaction Authorization Instance Record"	String
+""	9	"inout"	"Transaction Authorization Service Name"	"BQ Transaction Authorization Instance Record"	String
+""
+"Post"	"/card-capture/{sd-identifier}/transaction-capture/{crbq-identifier}/initiation"
+""	1	"inout"	"Transaction Capture Preconditions"	"BQ Transaction Capture Instance Record"	String
+""	2	"inout"	"Transaction Capture Task Schedule"	"BQ Transaction Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Transaction Capture Instance Record"	Business Service
+""	4	"inout"	"Transaction Capture Postconditions"	"BQ Transaction Capture Instance Record"	String
+""	5	"inout"	"Transaction Capture Service Type"	"BQ Transaction Capture Instance Record"	String
+""	6	"inout"	"Transaction Capture Service Description"	"BQ Transaction Capture Instance Record"	String
+""	7	"inout"	"Transaction Capture Service Inputs and Ouputs"	"BQ Transaction Capture Instance Record"	String
+""	8	"inout"	"Transaction Capture Service Work Product"	"BQ Transaction Capture Instance Record"	String
+""	9	"inout"	"Transaction Capture Service Name"	"BQ Transaction Capture Instance Record"	String
+""
+"Post"	"/card-capture/{sd-identifier}/transaction-consolidation/{crbq-identifier}/initiation"
+""	1	"inout"	"Transaction Consolidation Preconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	2	"inout"	"Transaction Consolidation Task Schedule"	"BQ Transaction Consolidation Instance Record"	String
+""	3	"inout"	"Card Transaction Consolidation"	"BQ Transaction Consolidation Instance Record"	Business Service
+""	4	"inout"	"Transaction Consolidation Postconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	5	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Type"	"BQ Transaction Consolidation Instance Record"	String
+""	6	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Description"	"BQ Transaction Consolidation Instance Record"	String
+""	7	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Inputs and Ouputs"	"BQ Transaction Consolidation Instance Record"	String
+""	8	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Work Product"	"BQ Transaction Consolidation Instance Record"	String
+""	9	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Name"	"BQ Transaction Consolidation Instance Record"	String
+""
+"Post"	"/card-capture/{sd-identifier}/transaction-reversal/{crbq-identifier}/initiation"
+""	1	"inout"	"Transaction Reversal Preconditions"	"BQ Transaction Reversal Instance Record"	String
+""	2	"inout"	"Transaction Reversal Task Schedule"	"BQ Transaction Reversal Instance Record"	String
+""	3	"inout"	"Card Transaction Reversal"	"BQ Transaction Reversal Instance Record"	Business Service
+""	4	"inout"	"Transaction Reversal Postconditions"	"BQ Transaction Reversal Instance Record"	String
+""	5	"inout"	"Transaction Reversal Card Transaction Reversal Service Type"	"BQ Transaction Reversal Instance Record"	String
+""	6	"inout"	"Transaction Reversal Card Transaction Reversal Service Description"	"BQ Transaction Reversal Instance Record"	String
+""	7	"inout"	"Transaction Reversal Card Transaction Reversal Service Inputs and Ouputs"	"BQ Transaction Reversal Instance Record"	String
+""	8	"inout"	"Transaction Reversal Card Transaction Reversal Service Work Product"	"BQ Transaction Reversal Instance Record"	String
+""	9	"inout"	"Transaction Reversal Card Transaction Reversal Service Name"	"BQ Transaction Reversal Instance Record"	String
+""
+"Post"	"/card-capture/{sd-identifier}/credit-charge-card-financial-capture-transaction/{crbq-identifier}/initiation"
+""	1	"inout"	"Credit/Charge Card Financial Capture Transaction Parameter Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	2	"inout"	"Credit/Charge Card Financial Capture Transaction Selected Option"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	3	"inout"	"Credit/Charge Card Financial Capture Transaction Status"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	4	"in"	"Credit/Charge Card Financial Capture Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	5	"in"	"Credit/Charge Card Financial Capture Transaction Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""
+"Get"	"/card-capture/{sd-identifier}/transaction-authorization/{crbq-identifier}/retrieval"
+""	1	"out"	"Transaction Authorization Preconditions"	"BQ Transaction Authorization Instance Record"	String
+""	2	"out"	"Transaction Authorization Task Schedule"	"BQ Transaction Authorization Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Transaction Authorization Instance Record"	Business Service
+""	4	"out"	"Transaction Authorization Postconditions"	"BQ Transaction Authorization Instance Record"	String
+""	5	"out"	"Transaction Authorization Service Type"	"BQ Transaction Authorization Instance Record"	String
+""	6	"out"	"Transaction Authorization Service Description"	"BQ Transaction Authorization Instance Record"	String
+""	7	"out"	"Transaction Authorization Service Inputs and Ouputs"	"BQ Transaction Authorization Instance Record"	String
+""	8	"out"	"Transaction Authorization Service Work Product"	"BQ Transaction Authorization Instance Record"	String
+""	9	"out"	"Transaction Authorization Service Name"	"BQ Transaction Authorization Instance Record"	String
+""
+"Get"	"/card-capture/{sd-identifier}/transaction-capture/{crbq-identifier}/retrieval"
+""	1	"out"	"Transaction Capture Preconditions"	"BQ Transaction Capture Instance Record"	String
+""	2	"out"	"Transaction Capture Task Schedule"	"BQ Transaction Capture Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Transaction Capture Instance Record"	Business Service
+""	4	"out"	"Transaction Capture Postconditions"	"BQ Transaction Capture Instance Record"	String
+""	5	"out"	"Transaction Capture Service Type"	"BQ Transaction Capture Instance Record"	String
+""	6	"out"	"Transaction Capture Service Description"	"BQ Transaction Capture Instance Record"	String
+""	7	"out"	"Transaction Capture Service Inputs and Ouputs"	"BQ Transaction Capture Instance Record"	String
+""	8	"out"	"Transaction Capture Service Work Product"	"BQ Transaction Capture Instance Record"	String
+""	9	"out"	"Transaction Capture Service Name"	"BQ Transaction Capture Instance Record"	String
+""
+"Get"	"/card-capture/{sd-identifier}/transaction-consolidation/{crbq-identifier}/retrieval"
+""	1	"out"	"Transaction Consolidation Preconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	2	"out"	"Transaction Consolidation Task Schedule"	"BQ Transaction Consolidation Instance Record"	String
+""	3	"out"	"Card Transaction Consolidation"	"BQ Transaction Consolidation Instance Record"	Business Service
+""	4	"out"	"Transaction Consolidation Postconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	5	"out"	"Transaction Consolidation Card Transaction Consolidation Service Type"	"BQ Transaction Consolidation Instance Record"	String
+""	6	"out"	"Transaction Consolidation Card Transaction Consolidation Service Description"	"BQ Transaction Consolidation Instance Record"	String
+""	7	"out"	"Transaction Consolidation Card Transaction Consolidation Service Inputs and Ouputs"	"BQ Transaction Consolidation Instance Record"	String
+""	8	"out"	"Transaction Consolidation Card Transaction Consolidation Service Work Product"	"BQ Transaction Consolidation Instance Record"	String
+""	9	"out"	"Transaction Consolidation Card Transaction Consolidation Service Name"	"BQ Transaction Consolidation Instance Record"	String
+""
+"Get"	"/card-capture/{sd-identifier}/transaction-reversal/{crbq-identifier}/retrieval"
+""	1	"out"	"Transaction Reversal Preconditions"	"BQ Transaction Reversal Instance Record"	String
+""	2	"out"	"Transaction Reversal Task Schedule"	"BQ Transaction Reversal Instance Record"	String
+""	3	"out"	"Card Transaction Reversal"	"BQ Transaction Reversal Instance Record"	Business Service
+""	4	"out"	"Transaction Reversal Postconditions"	"BQ Transaction Reversal Instance Record"	String
+""	5	"out"	"Transaction Reversal Card Transaction Reversal Service Type"	"BQ Transaction Reversal Instance Record"	String
+""	6	"out"	"Transaction Reversal Card Transaction Reversal Service Description"	"BQ Transaction Reversal Instance Record"	String
+""	7	"out"	"Transaction Reversal Card Transaction Reversal Service Inputs and Ouputs"	"BQ Transaction Reversal Instance Record"	String
+""	8	"out"	"Transaction Reversal Card Transaction Reversal Service Work Product"	"BQ Transaction Reversal Instance Record"	String
+""	9	"out"	"Transaction Reversal Card Transaction Reversal Service Name"	"BQ Transaction Reversal Instance Record"	String
+""
+"Get"	"/card-capture/{sd-identifier}/credit-charge-card-financial-capture-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Credit/Charge Card Financial Capture Transaction Parameter Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	2	"out"	"Credit/Charge Card Financial Capture Transaction Selected Option"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	3	"out"	"Credit/Charge Card Financial Capture Transaction Status"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	4	"out"	"Credit/Charge Card Financial Capture Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	5	"out"	"Credit/Charge Card Financial Capture Transaction Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/credit-charge-card-financial-capture-transaction/{crbq-identifier}/requisition"
+""	1	"inout"	"Credit/Charge Card Financial Capture Transaction Parameter Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	2	"inout"	"Credit/Charge Card Financial Capture Transaction Selected Option"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	3	"inout"	"Credit/Charge Card Financial Capture Transaction Status"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	4	"in"	"Credit/Charge Card Financial Capture Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	5	"in"	"Credit/Charge Card Financial Capture Transaction Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/transaction-authorization/{crbq-identifier}/update"
+""	1	"inout"	"Transaction Authorization Preconditions"	"BQ Transaction Authorization Instance Record"	String
+""	2	"inout"	"Transaction Authorization Task Schedule"	"BQ Transaction Authorization Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Transaction Authorization Instance Record"	Business Service
+""	4	"inout"	"Transaction Authorization Postconditions"	"BQ Transaction Authorization Instance Record"	String
+""	5	"inout"	"Transaction Authorization Service Type"	"BQ Transaction Authorization Instance Record"	String
+""	6	"inout"	"Transaction Authorization Service Description"	"BQ Transaction Authorization Instance Record"	String
+""	7	"inout"	"Transaction Authorization Service Inputs and Ouputs"	"BQ Transaction Authorization Instance Record"	String
+""	8	"inout"	"Transaction Authorization Service Work Product"	"BQ Transaction Authorization Instance Record"	String
+""	9	"inout"	"Transaction Authorization Service Name"	"BQ Transaction Authorization Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/transaction-capture/{crbq-identifier}/update"
+""	1	"inout"	"Transaction Capture Preconditions"	"BQ Transaction Capture Instance Record"	String
+""	2	"inout"	"Transaction Capture Task Schedule"	"BQ Transaction Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Transaction Capture Instance Record"	Business Service
+""	4	"inout"	"Transaction Capture Postconditions"	"BQ Transaction Capture Instance Record"	String
+""	5	"inout"	"Transaction Capture Service Type"	"BQ Transaction Capture Instance Record"	String
+""	6	"inout"	"Transaction Capture Service Description"	"BQ Transaction Capture Instance Record"	String
+""	7	"inout"	"Transaction Capture Service Inputs and Ouputs"	"BQ Transaction Capture Instance Record"	String
+""	8	"inout"	"Transaction Capture Service Work Product"	"BQ Transaction Capture Instance Record"	String
+""	9	"inout"	"Transaction Capture Service Name"	"BQ Transaction Capture Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/transaction-consolidation/{crbq-identifier}/update"
+""	1	"inout"	"Transaction Consolidation Preconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	2	"inout"	"Transaction Consolidation Task Schedule"	"BQ Transaction Consolidation Instance Record"	String
+""	3	"inout"	"Card Transaction Consolidation"	"BQ Transaction Consolidation Instance Record"	Business Service
+""	4	"inout"	"Transaction Consolidation Postconditions"	"BQ Transaction Consolidation Instance Record"	String
+""	5	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Type"	"BQ Transaction Consolidation Instance Record"	String
+""	6	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Description"	"BQ Transaction Consolidation Instance Record"	String
+""	7	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Inputs and Ouputs"	"BQ Transaction Consolidation Instance Record"	String
+""	8	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Work Product"	"BQ Transaction Consolidation Instance Record"	String
+""	9	"inout"	"Transaction Consolidation Card Transaction Consolidation Service Name"	"BQ Transaction Consolidation Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/transaction-reversal/{crbq-identifier}/update"
+""	1	"inout"	"Transaction Reversal Preconditions"	"BQ Transaction Reversal Instance Record"	String
+""	2	"inout"	"Transaction Reversal Task Schedule"	"BQ Transaction Reversal Instance Record"	String
+""	3	"inout"	"Card Transaction Reversal"	"BQ Transaction Reversal Instance Record"	Business Service
+""	4	"inout"	"Transaction Reversal Postconditions"	"BQ Transaction Reversal Instance Record"	String
+""	5	"inout"	"Transaction Reversal Card Transaction Reversal Service Type"	"BQ Transaction Reversal Instance Record"	String
+""	6	"inout"	"Transaction Reversal Card Transaction Reversal Service Description"	"BQ Transaction Reversal Instance Record"	String
+""	7	"inout"	"Transaction Reversal Card Transaction Reversal Service Inputs and Ouputs"	"BQ Transaction Reversal Instance Record"	String
+""	8	"inout"	"Transaction Reversal Card Transaction Reversal Service Work Product"	"BQ Transaction Reversal Instance Record"	String
+""	9	"inout"	"Transaction Reversal Card Transaction Reversal Service Name"	"BQ Transaction Reversal Instance Record"	String
+""
+"Put"	"/card-capture/{sd-identifier}/credit-charge-card-financial-capture-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Credit/Charge Card Financial Capture Transaction Parameter Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	2	"inout"	"Credit/Charge Card Financial Capture Transaction Selected Option"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	3	"inout"	"Credit/Charge Card Financial Capture Transaction Status"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	4	"in"	"Credit/Charge Card Financial Capture Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String
+""	5	"in"	"Credit/Charge Card Financial Capture Transaction Transaction Type"	"CR Credit Charge Card Financial Capture Transaction Instance Record"	String

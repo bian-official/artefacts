@@ -1,0 +1,42 @@
+"Control Record Model for: "	Cheque Processing
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Cheque Processing Operating Session Instance Record	""	"Operate equipment and/or a largely automated facility  within Cheque Processing. . Example: Operate the bank's internal intranet facility."	""
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session Schedule	"The timetable of Cheque Processing Operating Session"	String
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session Status	"The status of Cheque Processing Operating Session"	String
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session Usage Log	"Reference to the log of (usage) ativities/events  of Cheque Processing Operating Session"	String
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session Reference	"Reference to the party who is involved in Cheque Processing Operating Session"	Object
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session ServiceProvider Reference	"Reference to the party who provides the services of Cheque Processing Operating Session "	Object
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session Type	"A Classification value that distinguishes between the type of operations within Cheque Processing Operating Session "	String
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session Service Provider Schedule	"The schedule according to which the service provider will operate the Cheque Processing Operating Session"	String
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session Service Type	"A Classification value that distinguishes between the type of services within Cheque Processing Operating Session "	String
+"CR"	CR Cheque Processing Operating Session Instance Record	Cheque Processing Operating Session Service Configuration	"The configuration of Cheque Processing Operating Session"	String
+"BQ"	BQ Cancelled Cheque Handling Instance Record	""	"Operate equipment and/or a largely automated facility  within Cheque Processing. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Cancelled Cheque Handling Instance Record	Cancelled Cheque Handling Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Cancelled Cheque Handling Instance Record	Cancelled Cheque Handling Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Cancelled Cheque Handling Instance Record	Cancelled Cheque Handling	"The Cheque Processing Operating Session specific Business Service"	Business Service
+"BQ"	BQ Cancelled Cheque Handling Instance Record	Cancelled Cheque Handling Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Cancelled Cheque Handling Instance Record	Cancelled Cheque Handling Service Description	"Description of the performed business service"	String
+"BQ"	BQ Cancelled Cheque Handling Instance Record	Cancelled Cheque Handling Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Cancelled Cheque Handling Instance Record	Cancelled Cheque Handling Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Cancelled Cheque Handling Instance Record	Cancelled Cheque Handling Service Name	""	String
+"BQ"	BQ Cheque Processing Outcome Instance Record	""	""	""
+"BQ"	BQ Cheque Processing Outcome Instance Record	Cheque Processing Incident	""	String
+"BQ"	BQ Cheque Processing Outcome Instance Record	Cheque Processing Provision	""	String
+"BQ"	BQ Cheque Extraction Instance Record	""	"Operate equipment and/or a largely automated facility  within Cheque Processing. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Cheque Extraction Instance Record	Cheque Extraction Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Cheque Extraction Instance Record	Cheque Extraction Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Cheque Extraction Instance Record	Cheque Extraction	"The Cheque Processing Operating Session specific Business Service"	Business Service
+"BQ"	BQ Cheque Extraction Instance Record	Cheque Extraction Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Cheque Extraction Instance Record	Cheque Extraction Service Description	"Description of the performed business service"	String
+"BQ"	BQ Cheque Extraction Instance Record	Cheque Extraction Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Cheque Extraction Instance Record	Cheque Extraction Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Cheque Extraction Instance Record	Cheque Extraction Service Name	""	String
+"BQ"	BQ Financial Transaction Initiation Instance Record	""	"Operate equipment and/or a largely automated facility  within Cheque Processing. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Financial Transaction Initiation Instance Record	Financial Transaction Initiation Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Financial Transaction Initiation Instance Record	Financial Transaction Initiation Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Financial Transaction Initiation Instance Record	Financial Transaction Initiation	"The Cheque Processing Operating Session specific Business Service"	Business Service
+"BQ"	BQ Financial Transaction Initiation Instance Record	Financial Transaction Initiation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Financial Transaction Initiation Instance Record	Financial Transaction Initiation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Financial Transaction Initiation Instance Record	Financial Transaction Initiation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Financial Transaction Initiation Instance Record	Financial Transaction Initiation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Financial Transaction Initiation Instance Record	Financial Transaction Initiation Service Name	""	String

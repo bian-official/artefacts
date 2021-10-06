@@ -1,0 +1,13 @@
+"Service Domain specification for Channel Activity Analysis"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Channel Activity Analysis
+"Role Definition"	"Channel activity analysis provides a range of analytical insights into channel use to support access controls, relationship sales and development approaches and to help detect possible fraudulent activity"
+"Example of use"	"A customer attempts to self-serve a product sale but gives up. Later they call the contact center and their recent attempt is used to route the contact to a sales rep who is prompted to continue the product application"
+"Executive Summary"	"This service domain tracks and analyzes channel activity to support relationship development, to detect unwanted behavior, possible fraud, and to constrain channel use as necessary (for example tracking usage frequency and cumulative transaction amounts within a period)"
+"Key Features"	"Analyze activity for potential customer fraud. Analyze activity for potential merchant fraud. Analyze activity for relationship development. Detect device errors and 'bot' access attempts"
+"Functional Pattern"	Analyze
+"Asset Type"	ChannelActivity
+"Generic Artifact"	Analysis
+"Control Record"	ChannelActivityAnalysis
+"Registration Status"	Registered

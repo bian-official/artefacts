@@ -1,0 +1,117 @@
+"Service Operations for: "	Collateral Allocation Management
+""
+"POST"	"/collateral-allocation-management/activation"
+"PUT"	"/collateral-allocation-management/{sd-reference-id}/configuration"
+"PUT"	"/collateral-allocation-management/{sd-reference-id}/feedback"
+""
+"Post"	"/collateral-allocation-management/{sd-identifier}/collateral-asset-allocation/{crbq-identifier}/provisioning"
+""	1	"in"	"Customer Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	2	"in"	"Collateral Asset Type"	"CR Collateral Asset Allocation Instance Record"	String
+""	3	"in"	"Collateral Asset Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	4	"in"	"Collateral Asset Description"	"CR Collateral Asset Allocation Instance Record"	String
+""	5	"out"	"Collateral Asset Administration Instance Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	6	"in"	"Collateral Asset Status"	"CR Collateral Asset Allocation Instance Record"	String
+""	7	"in"	"Collateral Asset Valuation"	"CR Collateral Asset Allocation Instance Record"	String
+""	8	"in"	"Collateral Asset Allocation Profile"	"CR Collateral Asset Allocation Instance Record"	String
+""	9	"in"	"Collateral Asset Valuation Date"	"CR Collateral Asset Allocation Instance Record"	Date
+""	10	"in"	"Collateral Asset Loan to Value Ratio"	"CR Collateral Asset Allocation Instance Record"	String
+""
+"Put"	"/collateral-allocation-management/{sd-identifier}/collateral-asset-allocation/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	2	"inout"	"Collateral Asset Type"	"CR Collateral Asset Allocation Instance Record"	String
+""	3	"inout"	"Collateral Asset Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	4	"inout"	"Collateral Asset Description"	"CR Collateral Asset Allocation Instance Record"	String
+""	5	"inout"	"Collateral Asset Administration Instance Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	6	"inout"	"Collateral Asset Status"	"CR Collateral Asset Allocation Instance Record"	String
+""	7	"inout"	"Collateral Asset Valuation"	"CR Collateral Asset Allocation Instance Record"	String
+""	8	"inout"	"Collateral Asset Allocation Profile"	"CR Collateral Asset Allocation Instance Record"	String
+""	9	"inout"	"Collateral Asset Valuation Date"	"CR Collateral Asset Allocation Instance Record"	Date
+""	10	"inout"	"Collateral Asset Loan to Value Ratio"	"CR Collateral Asset Allocation Instance Record"	String
+""
+"Get"	"/collateral-allocation-management/{sd-identifier}/collateral-asset-allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	2	"out"	"Collateral Asset Type"	"CR Collateral Asset Allocation Instance Record"	String
+""	3	"out"	"Collateral Asset Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	4	"out"	"Collateral Asset Description"	"CR Collateral Asset Allocation Instance Record"	String
+""	5	"out"	"Collateral Asset Administration Instance Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	6	"out"	"Collateral Asset Status"	"CR Collateral Asset Allocation Instance Record"	String
+""	7	"out"	"Collateral Asset Valuation"	"CR Collateral Asset Allocation Instance Record"	String
+""	8	"out"	"Collateral Asset Allocation Profile"	"CR Collateral Asset Allocation Instance Record"	String
+""	9	"out"	"Collateral Asset Valuation Date"	"CR Collateral Asset Allocation Instance Record"	Date
+""	10	"out"	"Collateral Asset Loan to Value Ratio"	"CR Collateral Asset Allocation Instance Record"	String
+""
+"Post"	"/collateral-allocation-management/{sd-identifier}/allocation/{crbq-identifier}/provisioning"
+""	1	"in"	"Customer Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	2	"in"	"Collateral Asset Type"	"CR Collateral Asset Allocation Instance Record"	String
+""	3	"in"	"Collateral Asset Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	4	"in"	"Collateral Asset Description"	"CR Collateral Asset Allocation Instance Record"	String
+""	5	"out"	"Collateral Asset Administration Instance Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	6	"in"	"Collateral Asset Status"	"CR Collateral Asset Allocation Instance Record"	String
+""	7	"in"	"Collateral Asset Valuation"	"CR Collateral Asset Allocation Instance Record"	String
+""	8	"in"	"Collateral Asset Allocation Profile"	"CR Collateral Asset Allocation Instance Record"	String
+""	9	"in"	"Collateral Asset Valuation Date"	"CR Collateral Asset Allocation Instance Record"	Date
+""	10	"in"	"Collateral Asset Loan to Value Ratio"	"CR Collateral Asset Allocation Instance Record"	String
+""	11	"in"	"Requested Allocation Request Type"	"BQ Allocation Instance Record"	String
+""	12	"in"	"Product Instance Reference"	"BQ Allocation Instance Record"	Object
+""	13	"in"	"Customer Offer Reference"	"BQ Allocation Instance Record"	Object
+""	14	"in"	"Collateral Earmark Amount"	"BQ Allocation Instance Record"	Amount
+""	15	"in"	"Collateral Earmark Duration"	"BQ Allocation Instance Record"	String
+""	16	"in"	"Collateral Allocation Amount"	"BQ Allocation Instance Record"	Amount
+""	17	"in"	"Collateral Allocation Duration"	"BQ Allocation Instance Record"	String
+""	18	"in"	"Collateral Allocation Recall Amount"	"BQ Allocation Instance Record"	Amount
+""	19	"in"	"Collateral Allocation Recall Timetable"	"BQ Allocation Instance Record"	String
+""	20	"out"	"Collateral Allocation Recall Result"	"BQ Allocation Instance Record"	String
+""	21	"inout"	"Collateral Asset Allocation State"	"BQ Allocation Instance Record"	String
+""	22	"out"	"Collateral Allocation Request Result"	"BQ Allocation Instance Record"	String
+""
+"Put"	"/collateral-allocation-management/{sd-identifier}/allocation/{crbq-identifier}/update"
+""	1	"inout"	"Requested Allocation Request Type"	"BQ Allocation Instance Record"	String
+""	2	"inout"	"Product Instance Reference"	"BQ Allocation Instance Record"	Object
+""	3	"inout"	"Customer Offer Reference"	"BQ Allocation Instance Record"	Object
+""	4	"inout"	"Collateral Earmark Amount"	"BQ Allocation Instance Record"	Amount
+""	5	"inout"	"Collateral Earmark Duration"	"BQ Allocation Instance Record"	String
+""	6	"inout"	"Collateral Allocation Amount"	"BQ Allocation Instance Record"	Amount
+""	7	"inout"	"Collateral Allocation Duration"	"BQ Allocation Instance Record"	String
+""	8	"inout"	"Collateral Allocation Recall Amount"	"BQ Allocation Instance Record"	Amount
+""	9	"inout"	"Collateral Allocation Recall Timetable"	"BQ Allocation Instance Record"	String
+""	10	"inout"	"Collateral Allocation Recall Result"	"BQ Allocation Instance Record"	String
+""	11	"inout"	"Collateral Asset Allocation State"	"BQ Allocation Instance Record"	String
+""	12	"inout"	"Collateral Allocation Request Result"	"BQ Allocation Instance Record"	String
+""
+"Put"	"/collateral-allocation-management/{sd-identifier}/allocation/{crbq-identifier}/control"
+""
+"Put"	"/collateral-allocation-management/{sd-identifier}/allocation/{crbq-identifier}/exchange"
+""
+"Put"	"/collateral-allocation-management/{sd-identifier}/allocation/{crbq-identifier}/capture"
+""	1	"inout"	"Collateral Allocation Amount"	"BQ Allocation Instance Record"	Amount
+""	2	"inout"	"Collateral Allocation Duration"	"BQ Allocation Instance Record"	String
+""	3	"inout"	"Collateral Allocation Recall Amount"	"BQ Allocation Instance Record"	Amount
+""	4	"inout"	"Collateral Allocation Recall Timetable"	"BQ Allocation Instance Record"	String
+""	5	"inout"	"Collateral Allocation Recall Result"	"BQ Allocation Instance Record"	String
+""	6	"inout"	"Collateral Asset Allocation State"	"BQ Allocation Instance Record"	String
+""
+"Put"	"/collateral-allocation-management/{sd-identifier}/allocation/{crbq-identifier}/grant"
+""
+"Get"	"/collateral-allocation-management/{sd-identifier}/allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	2	"out"	"Collateral Asset Type"	"CR Collateral Asset Allocation Instance Record"	String
+""	3	"out"	"Collateral Asset Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	4	"out"	"Collateral Asset Description"	"CR Collateral Asset Allocation Instance Record"	String
+""	5	"out"	"Collateral Asset Administration Instance Reference"	"CR Collateral Asset Allocation Instance Record"	Object
+""	6	"out"	"Collateral Asset Status"	"CR Collateral Asset Allocation Instance Record"	String
+""	7	"out"	"Collateral Asset Valuation"	"CR Collateral Asset Allocation Instance Record"	String
+""	8	"out"	"Collateral Asset Allocation Profile"	"CR Collateral Asset Allocation Instance Record"	String
+""	9	"out"	"Collateral Asset Valuation Date"	"CR Collateral Asset Allocation Instance Record"	Date
+""	10	"out"	"Collateral Asset Loan to Value Ratio"	"CR Collateral Asset Allocation Instance Record"	String
+""	11	"out"	"Requested Allocation Request Type"	"BQ Allocation Instance Record"	String
+""	12	"out"	"Product Instance Reference"	"BQ Allocation Instance Record"	Object
+""	13	"out"	"Customer Offer Reference"	"BQ Allocation Instance Record"	Object
+""	14	"out"	"Collateral Earmark Amount"	"BQ Allocation Instance Record"	Amount
+""	15	"out"	"Collateral Earmark Duration"	"BQ Allocation Instance Record"	String
+""	16	"out"	"Collateral Allocation Amount"	"BQ Allocation Instance Record"	Amount
+""	17	"out"	"Collateral Allocation Duration"	"BQ Allocation Instance Record"	String
+""	18	"out"	"Collateral Allocation Recall Amount"	"BQ Allocation Instance Record"	Amount
+""	19	"out"	"Collateral Allocation Recall Timetable"	"BQ Allocation Instance Record"	String
+""	20	"out"	"Collateral Allocation Recall Result"	"BQ Allocation Instance Record"	String
+""	21	"out"	"Collateral Asset Allocation State"	"BQ Allocation Instance Record"	String
+""	22	"out"	"Collateral Allocation Request Result"	"BQ Allocation Instance Record"	String

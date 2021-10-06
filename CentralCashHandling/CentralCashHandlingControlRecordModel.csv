@@ -1,0 +1,41 @@
+"Control Record Model for: "	Central Cash Handling
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Central Cash Allocation Instance Record	""	"Maintain an inventory or holding of some resource and make assignments/allocations as requested  within Central Cash Handling. . Example: Track the inventory and administer the distribution of central cash holdings throughout the branch & ATM network."	""
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Parameter Type	"A Classification value that distinguishes between allocation Options according to the optional business services defined within Central Cash Allocation"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Selected Option	"A selected optional business service for which resources are allocated"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation <Subject Area> Type	"A Classification value, that distinguishes between the the type of resource allocated withing the Central Cash Allocation"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Description	"Documentation of Central Cash Allocation"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Request	"Request to allocate CentralCash"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Schedule	"Timetable to allocate CentralCash"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Status	"The status of Central Cash Allocation"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Reference	"Reference to the party who is involved in Central Cash Allocation"	Object
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Customer Reference	"Reference to the customer who is involved in Central Cash Allocation"	Object
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Currency	"The curreny which is arranged/used for Central Cash Allocation"	CurrencyCode
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Regulation Reference	"Reference to the regulation which is defined for Central Cash Allocation"	Object
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Regulation Type	"A Classification that distinguishes between the regularity domains of Central Cash Allocation"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Jurisdiction	"Reference to the jurisdiction that is assigned to Central Cash Allocation in case of legal dispute."	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Booking Location	"The financial accounting unit into which the financial events, with regard to the origination and fulfillment of the agreement, are entered."	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Account Type	"The type of account which is linked to Central Cash Allocation"	String
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Account Reference	"Reference to the account which is linked to Central Cash Allocation"	Object
+"CR"	CR Central Cash Allocation Instance Record	Central Cash Allocation Instance	"Reference to Central Cash Allocation Instance"	String
+"BQ"	BQ Projection and  Allocation Instance Record	""	"Maintain an inventory or holding of some resource and make assignments/allocations as requested  within Central Cash Handling. . Example: Track the inventory and administer the distribution of central cash holdings throughout the branch & ATM network."	""
+"BQ"	BQ Projection and  Allocation Instance Record	Projection and  Allocation Preconditions	"The required status/situation before the allocation can be made"	String
+"BQ"	BQ Projection and  Allocation Instance Record	Projection and  Allocation Allocation Schedule	"The schedule and timing of allocation decisions"	String
+"BQ"	BQ Projection and  Allocation Instance Record	Cash Inventory Projection	"The Central Cash Allocation specific  Business Service"	Business Service
+"BQ"	BQ Projection and  Allocation Instance Record	Cash Inventory Projection Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Projection and  Allocation Instance Record	Cash Inventory Projection Service Description	"Description of the performed business service"	String
+"BQ"	BQ Projection and  Allocation Instance Record	Cash Inventory Projection Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Projection and  Allocation Instance Record	Cash Inventory Projection Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Projection and  Allocation Instance Record	Cash Inventory Projection Service Name	""	String
+"BQ"	BQ Tracking and  Allocation Instance Record	""	"Maintain an inventory or holding of some resource and make assignments/allocations as requested  within Central Cash Handling. . Example: Track the inventory and administer the distribution of central cash holdings throughout the branch & ATM network."	""
+"BQ"	BQ Tracking and  Allocation Instance Record	Tracking and  Allocation Preconditions	"The required status/situation before the allocation can be made"	String
+"BQ"	BQ Tracking and  Allocation Instance Record	Tracking and  Allocation Allocation Schedule	"The schedule and timing of allocation decisions"	String
+"BQ"	BQ Tracking and  Allocation Instance Record	Business Service	"The Central Cash Allocation specific  Business Service"	Business Service
+"BQ"	BQ Tracking and  Allocation Instance Record	Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Tracking and  Allocation Instance Record	Service Description	"Description of the performed business service"	String
+"BQ"	BQ Tracking and  Allocation Instance Record	Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Tracking and  Allocation Instance Record	Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Tracking and  Allocation Instance Record	Service Name	""	String
+"BQ"	BQ Central Cash Handling Outcome Instance Record	""	""	""
+"BQ"	BQ Central Cash Handling Outcome Instance Record	Central Cash Handling Allocation	""	String
+"BQ"	BQ Central Cash Handling Outcome Instance Record	Central Cash Handling Work Product	""	String

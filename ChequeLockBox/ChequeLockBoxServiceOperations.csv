@@ -1,0 +1,5 @@
+"Service Operations for: "	Cheque Lock Box
+"Control Record Model for Cheque Lock Box is not defined"
+"POST"	"/cheque-lock-box/activation"
+"PUT"	"/cheque-lock-box/{sd-reference-id}/configuration"
+"PUT"	"/cheque-lock-box/{sd-reference-id}/feedback"

@@ -1,0 +1,127 @@
+"Service Operations for: "	Card Financial Settlement
+""
+"POST"	"/card-financial-settlement/activation"
+"PUT"	"/card-financial-settlement/{sd-reference-id}/configuration"
+"PUT"	"/card-financial-settlement/{sd-reference-id}/feedback"
+""
+"Post"	"/card-financial-settlement/{sd-identifier}/card-financial-settlement-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Network Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	2	"in"	"Card Financial Settlement Process Type"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	3	"out"	"Card Financial Settlement Process Date/Time"	"CR Card Financial Settlement Procedure Instance Record"	Date
+""	4	"inout"	"Card Financial Settlement Service Schedule"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	5	"in"	"Participant Acquirer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	6	"in"	"Participant Issuer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""
+"Put"	"/card-financial-settlement/{sd-identifier}/card-financial-settlement-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Card Financial Settlement Process Type"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	2	"inout"	"Card Financial Settlement Process Date/Time"	"CR Card Financial Settlement Procedure Instance Record"	Date
+""	3	"inout"	"Card Financial Settlement Service Schedule"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	4	"inout"	"Participant Acquirer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	5	"inout"	"Participant Issuer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""
+"Get"	"/card-financial-settlement/{sd-identifier}/card-financial-settlement-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Network Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	2	"out"	"Card Financial Settlement Process Type"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	3	"out"	"Card Financial Settlement Process Date/Time"	"CR Card Financial Settlement Procedure Instance Record"	Date
+""	4	"out"	"Card Financial Settlement Service Schedule"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	5	"out"	"Participant Acquirer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	6	"out"	"Participant Issuer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""
+"Put"	"/card-financial-settlement/{sd-identifier}/consolidation/{crbq-identifier}/update"
+""	1	"inout"	"Card Transaction Record Reference"	"BQ Consolidation Instance Record"	Object
+""	2	"inout"	"Card Transaction Product Instance Reference"	"BQ Consolidation Instance Record"	Object
+""	3	"inout"	"Card Transaction Issuing Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	4	"inout"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	5	"inout"	"Card Transaction Type"	"BQ Consolidation Instance Record"	String
+""	6	"inout"	"Card Transaction Currency"	"BQ Consolidation Instance Record"	CurrencyCode
+""	7	"inout"	"Card Transaction Amount Type"	"BQ Consolidation Instance Record"	String
+""	8	"inout"	"Card Transaction Merchant Reference"	"BQ Consolidation Instance Record"	Object
+""	9	"inout"	"Card Transaction Location Reference"	"BQ Consolidation Instance Record"	Object
+""	10	"inout"	"Card Transaction Product/Service Reference"	"BQ Consolidation Instance Record"	Object
+""	11	"inout"	"Card Transaction Date/Time"	"BQ Consolidation Instance Record"	Date
+""
+"Get"	"/card-financial-settlement/{sd-identifier}/consolidation/{crbq-identifier}/retrieval"
+""	1	"out"	"Card Financial Settlement Service Schedule"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	2	"out"	"Participant Acquirer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	3	"out"	"Participant Issuer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	4	"out"	"Card Transaction Record Reference"	"BQ Consolidation Instance Record"	Object
+""	5	"out"	"Card Transaction Product Instance Reference"	"BQ Consolidation Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Consolidation Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Consolidation Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Consolidation Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Consolidation Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Consolidation Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Consolidation Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Consolidation Instance Record"	Date
+""
+"Put"	"/card-financial-settlement/{sd-identifier}/processing/{crbq-identifier}/update"
+""	1	"inout"	"Participant Acquirer Bank Settlement Terms"	"BQ Processing Instance Record"	String
+""	2	"inout"	"Participant Issuer Bank Settlement Terms"	"BQ Processing Instance Record"	String
+""
+"Get"	"/card-financial-settlement/{sd-identifier}/processing/{crbq-identifier}/retrieval"
+""	1	"out"	"Card Financial Settlement Service Schedule"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	2	"out"	"Participant Acquirer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	3	"out"	"Participant Issuer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	4	"out"	"Card Transaction Record Reference"	"BQ Consolidation Instance Record"	Object
+""	5	"out"	"Card Transaction Product Instance Reference"	"BQ Consolidation Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Consolidation Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Consolidation Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Consolidation Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Consolidation Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Consolidation Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Consolidation Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Consolidation Instance Record"	Date
+""	15	"out"	"Participant Acquirer Bank Settlement Terms"	"BQ Processing Instance Record"	String
+""	16	"out"	"Participant Issuer Bank Settlement Terms"	"BQ Processing Instance Record"	String
+""
+"Put"	"/card-financial-settlement/{sd-identifier}/instruction/{crbq-identifier}/update"
+""	1	"inout"	"Participant Acquirer Bank Settlement Account Statement"	"BQ Instruction Instance Record"	String
+""	2	"inout"	"Participant Issuer Bank Settlement Account Statement"	"BQ Instruction Instance Record"	String
+""
+"Get"	"/card-financial-settlement/{sd-identifier}/instruction/{crbq-identifier}/retrieval"
+""	1	"out"	"Card Financial Settlement Service Schedule"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	2	"out"	"Participant Acquirer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	3	"out"	"Participant Issuer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	4	"out"	"Card Transaction Record Reference"	"BQ Consolidation Instance Record"	Object
+""	5	"out"	"Card Transaction Product Instance Reference"	"BQ Consolidation Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Consolidation Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Consolidation Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Consolidation Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Consolidation Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Consolidation Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Consolidation Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Consolidation Instance Record"	Date
+""	15	"out"	"Participant Acquirer Bank Settlement Terms"	"BQ Processing Instance Record"	String
+""	16	"out"	"Participant Issuer Bank Settlement Terms"	"BQ Processing Instance Record"	String
+""	17	"out"	"Participant Acquirer Bank Settlement Account Statement"	"BQ Instruction Instance Record"	String
+""	18	"out"	"Participant Issuer Bank Settlement Account Statement"	"BQ Instruction Instance Record"	String
+""
+"Put"	"/card-financial-settlement/{sd-identifier}/payment/{crbq-identifier}/update"
+""	1	"inout"	"Participant Payment Transaction"	"BQ Payment Instance Record"	String
+""
+"Get"	"/card-financial-settlement/{sd-identifier}/payment/{crbq-identifier}/retrieval"
+""	1	"out"	"Card Financial Settlement Service Schedule"	"CR Card Financial Settlement Procedure Instance Record"	String
+""	2	"out"	"Participant Acquirer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	3	"out"	"Participant Issuer Bank Reference"	"CR Card Financial Settlement Procedure Instance Record"	Object
+""	4	"out"	"Card Transaction Record Reference"	"BQ Consolidation Instance Record"	Object
+""	5	"out"	"Card Transaction Product Instance Reference"	"BQ Consolidation Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Consolidation Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Consolidation Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Consolidation Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Consolidation Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Consolidation Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Consolidation Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Consolidation Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Consolidation Instance Record"	Date
+""	15	"out"	"Participant Acquirer Bank Settlement Terms"	"BQ Processing Instance Record"	String
+""	16	"out"	"Participant Issuer Bank Settlement Terms"	"BQ Processing Instance Record"	String
+""	17	"out"	"Participant Acquirer Bank Settlement Account Statement"	"BQ Instruction Instance Record"	String
+""	18	"out"	"Participant Issuer Bank Settlement Account Statement"	"BQ Instruction Instance Record"	String
+""	19	"out"	"Participant Payment Transaction"	"BQ Payment Instance Record"	String

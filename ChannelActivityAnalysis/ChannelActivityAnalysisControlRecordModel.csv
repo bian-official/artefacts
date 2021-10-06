@@ -1,0 +1,33 @@
+"Control Record Model for: "	Channel Activity Analysis
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Channel Activity Analysis Instance Record	""	""	""
+"CR"	CR Channel Activity Analysis Instance Record	Channel Type	"The type of channel for which the analysis is performed"	String
+"CR"	CR Channel Activity Analysis Instance Record	Channel Activity Analysis Period	"The period covered by the analysis (from to date time)"	String
+"CR"	CR Channel Activity Analysis Instance Record	Channel Activity Analysis Type	"The type of analysis, can combine multiple (e.g. customer fraud, merchant fraud)"	String
+"CR"	CR Channel Activity Analysis Instance Record	Channel Activity Analysis Result	"The result of the analysis"	String
+"CR"	CR Channel Activity Analysis Instance Record	Channel Activity Analysis Record	"A report combining the results of the analysis in a consumable format"	String
+"CR"	CR Channel Activity Analysis Instance Record	Channel Activity History Report	"The raw data used in the analysis (retrieved from Channel Activity History)"	String
+"BQ"	BQ Bot Instance Record	""	""	""
+"BQ"	BQ Bot Instance Record	Channel Activity Bot Detection Analysis Algorithm Specification	"Defines the intended analytical insights and required input data and outputs"	String
+"BQ"	BQ Bot Instance Record	Channel Activity Bot Detection Analysis Reference	"Reference to output from the applied algorithm"	Object
+"BQ"	BQ Bot Instance Record	Channel Activity Bot Detection Analysis Result	"The output record from the analysis"	String
+"BQ"	BQ Customer Fraud Instance Record	""	""	""
+"BQ"	BQ Customer Fraud Instance Record	Channel Activity Customer Fraud Analysis Algorithm Specification	"Defines the intended analytical insights and required input data and outputs"	String
+"BQ"	BQ Customer Fraud Instance Record	Channel Activity Customer Fraud Analysis Reference	"Reference to output from the applied algorithm"	Object
+"BQ"	BQ Customer Fraud Instance Record	Channel Activity Customer Fraud Analysis Result	"The output record from the analysis"	String
+"BQ"	BQ Merchant Behavior Instance Record	""	""	""
+"BQ"	BQ Merchant Behavior Instance Record	Channel Activity Merchant Behavior Analysis Algorithm Specification	"Defines the intended analytical insights and required input data and outputs"	String
+"BQ"	BQ Merchant Behavior Instance Record	Channel Activity Merchant Behavior Analysis Reference	"Reference to output from the applied algorithm"	Object
+"BQ"	BQ Merchant Behavior Instance Record	Channel Activity Merchant Behavior Analysis Result	"The output record from the analysis"	String
+"BQ"	BQ Customer Behavior Instance Record	""	""	""
+"BQ"	BQ Customer Behavior Instance Record	Channel Activity Customer Behavior Analysis Algorithm Specification	"Defines the intended analytical insights and required input data and outputs"	String
+"BQ"	BQ Customer Behavior Instance Record	Channel Activity Customer Behavior Analysis Reference	"Reference to output from the applied algorithm"	Object
+"BQ"	BQ Customer Behavior Instance Record	Channel Activity Customer Behavior Analysis Result	"The output record from the analysis"	String
+"BQ"	BQ Merchant Fraud Instance Record	""	""	""
+"BQ"	BQ Merchant Fraud Instance Record	Channel Activity Merchant Fraud Analysis Algorithm Specification	"Defines the intended analytical insights and required input data and outputs"	String
+"BQ"	BQ Merchant Fraud Instance Record	Channel Activity Merchant Fraud Analysis Reference	"Reference to output from the applied algorithm"	Object
+"BQ"	BQ Merchant Fraud Instance Record	Channel Activity Merchant Fraud Analysis Result	"The output record from the analysis"	String
+"BQ"	BQ Device Error Instance Record	""	""	""
+"BQ"	BQ Device Error Instance Record	Channel Activity Device Error Detection Analysis Algorithm Specification	"Defines the intended analytical insights and required input data and outputs"	String
+"BQ"	BQ Device Error Instance Record	Channel Activity Device Error Detection Analysis Reference	"Reference to output from the applied algorithm"	Object
+"BQ"	BQ Device Error Instance Record	Channel Activity Device Error Detection Analysis Result	"The output record from the analysis"	String

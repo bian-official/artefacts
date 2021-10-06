@@ -1,0 +1,13 @@
+"Service Domain specification for Case Root Cause Analysis"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Case Root Cause Analysis
+"Role Definition"	"Analyze customer servicing case resolution records for root cause insights. Analysis can be focused for more specific analysis including: problematic product and service features that can be refined; possible operational weaknesses that might require improved training/guidelines; and, to detect possible credit/fraud patterns"
+"Example of use"	"Example of use:. Contact center case resolution records are reviewed to identify recurring issues that can be resolved with improved servicing representative training and guidelines"
+"Executive Summary"	"Root cause analysis business function reviews case reports to identify possible improvements to eliminate/mitigate servicing issues"
+"Key Features"	"Product and service feature related issue analysis. Servicing and operational performance issue analysis. Credit and fraudulent behavior analysis"
+"Functional Pattern"	Analyze
+"Asset Type"	CustomerCaseRootCause
+"Generic Artifact"	Analysis
+"Control Record"	CustomerCaseRootCauseAnalysis
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Cash Concentration"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Cash Concentration
+"Role Definition"	"Cash Concentration is a cash management service aimed at moving a balance, or part of a balance of an account to a different account. This can be done periodically and ad-hoc. Objectives could be to zero a specific account (e.g. during each EOD) or to replenish a particular account (e.g. in case of insufficient balance for a payment order). In the latter case it is necessary to define the sequence in which balances from other accounts are moved to the destination account.. "
+"Example of use"	"A customer has an agreement with the bank for a certain (current) account which states that if the available balance of the account is insufficent to do a credit transfer or allow a direct debit, etc. the balance can be replenished from other accounts of the same or a different customer. The moving of funds is done until the first account holds sufficient balance or also the other accounts have no more available balance. This balance sweeping requires sequencing of the the accounts from which funds are being moved."
+"Executive Summary"	"Cash Concentration is a cash management service aimed at moving a balance, or part of a balance of an account to a different account."
+"Key Features"	"- Record and maintain the list of accounts participating in the sweeping agreement. - Orchestrate the handling of a request for balance sweeping."
+"Functional Pattern"	Fulfill
+"Asset Type"	CashConcentration
+"Generic Artifact"	Facility (rename)
+"Control Record"	CashConcentrationArrangement
+"Registration Status"	Provisional

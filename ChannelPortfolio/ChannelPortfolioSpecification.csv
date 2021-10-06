@@ -1,0 +1,13 @@
+"Service Domain specification for Channel Portfolio"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Channel Portfolio
+"Role Definition"	"Evaluate the coverage and relative performance of different channels with respect to the blend of service and product activity. Optimize channel use to minimize costs and enhance customer experience"
+"Example of use"	"Product designers review the performance of products over different channels and channel combinations to refine product designs and delivery"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	ChannelPortfolio
+"Generic Artifact"	Analysis
+"Control Record"	ChannelPortfolioAnalysis
+"Registration Status"	Registered

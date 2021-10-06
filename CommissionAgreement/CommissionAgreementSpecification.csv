@@ -1,0 +1,13 @@
+"Service Domain specification for Commission Agreement"
+"Business Area"	Operations
+"Business Domain"	External Agency
+"Service Domain"	Commission Agreement
+"Role Definition"	"This service domain sets up and maintains the terms for applying commissions to transactions assigned to employees and representative service brokers or intermediaries"
+"Example of use"	"Example of use:. An employee's commission agreement is established once they have qualified to undertake sales activity in the contact center"
+"Executive Summary"	"Maintain and administer the terms and transactions for employee and broker commissions"
+"Key Features"	"Capture employee commission terms. Interpret applicability of terms to transactions"
+"Functional Pattern"	Agree Terms
+"Asset Type"	EmployeeCommission
+"Generic Artifact"	Agreement
+"Control Record"	EmployeeCommissionAgreement
+"Registration Status"	Registered

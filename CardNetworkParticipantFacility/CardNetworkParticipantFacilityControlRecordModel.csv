@@ -1,0 +1,26 @@
+"Control Record Model for: "	Card Network Participant Facility
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Participant Service Instance Record	""	""	""
+"BQ"	BQ Participant Service Instance Record	Participant Service Record	"Reference to the service request made by the network participant"	String
+"BQ"	BQ Participant Service Instance Record	Network Participant Service Type	"The type of request  (e.g. merchant alert, chargeback arbitration, chargeback reduction)"	String
+"BQ"	BQ Participant Service Instance Record	Network Participant Service Charge	"Details of service charge levied against the Network Participant Facility"	String
+"BQ"	BQ Participant Service Instance Record	Network Participant Service Date/Time	"Key dates and times associated with the provision of the service (e.g. initiation of service fulfillment)"	Date
+"BQ"	BQ Participant Service Instance Record	Network Participant Network Service Request Work Product	"Work documentation, forms and schedules produced and referenced during the network service delivery (includes charges, service activity log and results etc.)"	String
+"BQ"	BQ Participant Service Instance Record	Network Participant Network Service Request Result	"The result of the request in whatever form appropriate"	String
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	""	""	""
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	ProductandService Reference	"Reference to the participant facility product instance"	Object
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Customer Reference	"Reference to the participant primary party/owner"	Object
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Party Reference	"Reference to the legal entity (typically the customer)"	Object
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Facility Terms	"The operational configuration terms/options that govern the participant facility arrangement"	String
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Participant Acquirer Bank Reference	"Reference to the Acquiring bank for which the Network orchestrates clearing and settlement processing"	Object
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Participant Acquirer Bank Clearing and Settlement Terms	"Defines the card clearing fees/terms in force"	String
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Participant Acquirer Bank Service Schedule	"Defines the tasks and processing schedule for the participant"	String
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Participant Issuer Bank Reference	"Reference to the Issuing bank for which the Network orchestrates clearing and settlement processing"	Object
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Participant Issuer Bank Clearing and Settlement Terms	"Defines the card clearing fees/terms in force"	String
+"CR"	CR Card Network Participant Facility Arrangement Instance Record	Participant Issuer Bank Service Schedule	"Defines the tasks and processing schedule for the participant)"	String
+"BQ"	BQ Participant Account Instance Record	""	""	""
+"BQ"	BQ Participant Account Instance Record	Participant Account Posting Transaction	"Reference to the posting transaction against the network participant account"	String
+"BQ"	BQ Participant Account Instance Record	Network Participant Facility Account Posting Purpose	"Annotation of the reason for the positing (e.g. posting for fees, chargebacks, settlement)"	String
+"BQ"	BQ Participant Account Instance Record	Network Participant Facility Account Posting Amount	"Posted amount  (probably captured as a credit/debit pair)"	Amount
+"BQ"	BQ Participant Account Instance Record	Network Participant Facility Account Posting Value Date	"The value date for the posting"	Date
+"BQ"	BQ Participant Account Instance Record	Network Participant Facility Account Posting Result	"Confirmation of the posting action"	String

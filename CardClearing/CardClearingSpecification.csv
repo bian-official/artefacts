@@ -1,0 +1,13 @@
+"Service Domain specification for Card Clearing"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Card Clearing
+"Role Definition"	"The behavior varies depending on the role of the participant bank/network. A card acquiring Bank consolidates all incoming transactions from Merchants, determining their routing, and transmitting to the respective Card Networks. For the Card Networks it receives and consolidates the transactions from all Acquiring Banks and to distribute and route them to the respective Card Issuing Banks. For the Card Issuing Banks it receives their cardholder transactions from the Card Networks and routes them to the instance of the Credit/Charge Card service domain which is responsible for the card used in the transaction. The transactions may include charges, refunds, and chargebacks."
+"Example of use"	"An Acquiring Bank receives charge transactions submitted by Merchants through Point of Sale Terminals or batch submission for recurring billing and forwards these transactions to the respective Card Issuing Banks through the Card Network (e.g. Visa, MC, AMEX, Diners, etc.). This process may take place multiple times during the day. . "
+"Executive Summary"	"This service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as POS Network, E-Commerce Gateway, ATM Network, or Card Case Management. It also handles the clearing of the transactions from the Acquirers to the Issuers through the Card Networks"
+"Key Features"	"Card transaction capture and addressing. FX conversion and fee handling. Transaction matching and reconciliation. Transaction routing"
+"Functional Pattern"	Process
+"Asset Type"	CardClearing
+"Generic Artifact"	Procedure
+"Control Record"	CardClearingProcedure
+"Registration Status"	Registered

@@ -1,0 +1,61 @@
+"Control Record Model for: "	Card Capture
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Credit Charge Card Financial Capture Transaction Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Card Capture. . Example: Execute a payment transaction."	""
+"CR"	CR Credit Charge Card Financial Capture Transaction Instance Record	Credit Charge Card Financial Capture Transaction Parameter Type	"A Classification value that distinguishes between business service transaction within Credit/Charge Card Financial Capture Transaction"	String
+"CR"	CR Credit Charge Card Financial Capture Transaction Instance Record	Credit Charge Card Financial Capture Transaction Selected Option	"A selected optional business service as subject matter of Credit/Charge Card Financial Capture Transaction"	String
+"CR"	CR Credit Charge Card Financial Capture Transaction Instance Record	Credit Charge Card Financial Capture Transaction Status	"The status of Credit/Charge Card Financial Capture Transaction"	String
+"CR"	CR Credit Charge Card Financial Capture Transaction Instance Record	Credit Charge Card Financial Capture Transaction Type	"A Classification value that specifies type of business action for this  Credit/Charge Card Financial Capture Transaction"	String
+"CR"	CR Credit Charge Card Financial Capture Transaction Instance Record	Credit Charge Card Financial Capture Transaction Transaction Type	"A Classification value that specifies type of transaction for this  Credit/Charge Card Financial Capture Transaction"	String
+"CR"	CR Credit Charge Card Financial Capture Transaction Instance Record	Credit Charge Card Financial Capture Transaction Transaction	"Reference to Credit/Charge Card Financial Capture Transaction"	String
+"BQ"	BQ Card Capture Outcome Instance Record	""	""	""
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Calendar	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Counterparty	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Dividend	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Fees	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Interest	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Margining	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Notional Principal	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Options	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Rates	""	Rate
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Settlement	""	String
+"BQ"	BQ Card Capture Outcome Instance Record	Card Capture Work Product	""	String
+"BQ"	BQ Transaction Capture Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Card Capture. . Example: Execute a payment transaction."	""
+"BQ"	BQ Transaction Capture Instance Record	Transaction Capture Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Transaction Capture Instance Record	Transaction Capture Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Transaction Capture Instance Record	Business Service	"The Credit/Charge Card Financial Capture Transaction specific Business Service"	Business Service
+"BQ"	BQ Transaction Capture Instance Record	Transaction Capture Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Transaction Capture Instance Record	Transaction Capture Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Transaction Capture Instance Record	Transaction Capture Service Description	"Description of the performed business service"	String
+"BQ"	BQ Transaction Capture Instance Record	Transaction Capture Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Transaction Capture Instance Record	Transaction Capture Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Transaction Capture Instance Record	Transaction Capture Service Name	""	String
+"BQ"	BQ Transaction Consolidation Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Card Capture. . Example: Execute a payment transaction."	""
+"BQ"	BQ Transaction Consolidation Instance Record	Transaction Consolidation Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Transaction Consolidation Instance Record	Transaction Consolidation Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Transaction Consolidation Instance Record	Card Transaction Consolidation	"The Credit/Charge Card Financial Capture Transaction specific Business Service"	Business Service
+"BQ"	BQ Transaction Consolidation Instance Record	Transaction Consolidation Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Transaction Consolidation Instance Record	Transaction Consolidation Card Transaction Consolidation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Transaction Consolidation Instance Record	Transaction Consolidation Card Transaction Consolidation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Transaction Consolidation Instance Record	Transaction Consolidation Card Transaction Consolidation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Transaction Consolidation Instance Record	Transaction Consolidation Card Transaction Consolidation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Transaction Consolidation Instance Record	Transaction Consolidation Card Transaction Consolidation Service Name	""	String
+"BQ"	BQ Transaction Authorization Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Card Capture. . Example: Execute a payment transaction."	""
+"BQ"	BQ Transaction Authorization Instance Record	Transaction Authorization Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Transaction Authorization Instance Record	Transaction Authorization Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Transaction Authorization Instance Record	Business Service	"The Credit/Charge Card Financial Capture Transaction specific Business Service"	Business Service
+"BQ"	BQ Transaction Authorization Instance Record	Transaction Authorization Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Transaction Authorization Instance Record	Transaction Authorization Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Transaction Authorization Instance Record	Transaction Authorization Service Description	"Description of the performed business service"	String
+"BQ"	BQ Transaction Authorization Instance Record	Transaction Authorization Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Transaction Authorization Instance Record	Transaction Authorization Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Transaction Authorization Instance Record	Transaction Authorization Service Name	""	String
+"BQ"	BQ Transaction Reversal Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Card Capture. . Example: Execute a payment transaction."	""
+"BQ"	BQ Transaction Reversal Instance Record	Transaction Reversal Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Transaction Reversal Instance Record	Transaction Reversal Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Transaction Reversal Instance Record	Card Transaction Reversal	"The Credit/Charge Card Financial Capture Transaction specific Business Service"	Business Service
+"BQ"	BQ Transaction Reversal Instance Record	Transaction Reversal Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Transaction Reversal Instance Record	Transaction Reversal Card Transaction Reversal Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Transaction Reversal Instance Record	Transaction Reversal Card Transaction Reversal Service Description	"Description of the performed business service"	String
+"BQ"	BQ Transaction Reversal Instance Record	Transaction Reversal Card Transaction Reversal Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Transaction Reversal Instance Record	Transaction Reversal Card Transaction Reversal Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Transaction Reversal Instance Record	Transaction Reversal Card Transaction Reversal Service Name	""	String

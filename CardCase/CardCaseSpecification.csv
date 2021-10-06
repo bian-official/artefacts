@@ -1,0 +1,13 @@
+"Service Domain specification for Card Case"
+"Business Area"	Customers
+"Business Domain"	Customer Care
+"Service Domain"	Card Case
+"Role Definition"	"Capture, track, resolve and report on card related transactional disputes, handling all the dispute resolution messages between the Issuer, the Card Network and the Acquirer."
+"Example of use"	"A card holder reports a payment dispute to the contact center and a case is initiated. The account is credited and documentation requested from the merchant. The case is finally judged when the documents are available for review and all interested parties are notified of the resolution"
+"Executive Summary"	"This service domain handles the processing of a customer card case, typically a disputed charge"
+"Key Features"	"Consolidation of transaction details. Chargeback processing. Case decisioning and arbitration. Case resolution"
+"Functional Pattern"	Process
+"Asset Type"	CardCase
+"Generic Artifact"	Procedure
+"Control Record"	CardCaseProcedure
+"Registration Status"	Registered

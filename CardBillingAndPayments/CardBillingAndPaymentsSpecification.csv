@@ -1,0 +1,13 @@
+"Service Domain specification for Card Billing And Payments"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Card Billing And Payments
+"Role Definition"	"Process card customer statement issuance and billing and payments processing"
+"Example of use"	"At the cycle time a collection of card customer accounts a accessed and billing details determine and sent out. Payments are tracked and the facility status updated accordingly"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Transact
+"Asset Type"	CreditCardBilling
+"Generic Artifact"	Transaction
+"Control Record"	CreditCardBillingTransaction
+"Registration Status"	Registered

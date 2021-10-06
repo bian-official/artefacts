@@ -1,0 +1,176 @@
+"Service Operations for: "	Card Collections
+""
+"POST"	"/card-collections/activation"
+"PUT"	"/card-collections/{sd-reference-id}/configuration"
+"PUT"	"/card-collections/{sd-reference-id}/feedback"
+""
+"Post"	"/card-collections/{sd-identifier}/card-collections-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	2	"in"	"Product/Service Type"	"CR Card Collections Procedure Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	4	"in"	"Card Type"	"CR Card Collections Procedure Instance Record"	String
+""	5	"in"	"Card Account Status"	"CR Card Collections Procedure Instance Record"	String
+""	6	"in"	"Card Account Limits"	"CR Card Collections Procedure Instance Record"	String
+""	7	"in"	"Configuration/Options"	"CR Card Collections Procedure Instance Record"	String
+""	8	"in"	"Tax Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	9	"in"	"Billing Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	10	"in"	"Billing Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	11	"in"	"Payment Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	12	"in"	"Payment Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	13	"in"	"Product Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	14	"in"	"Product Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	15	"in"	"Statements"	"CR Card Collections Procedure Instance Record"	String
+""	16	"in"	"Statements Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	17	"inout"	"Card Collections Processing Schedule"	"CR Card Collections Procedure Instance Record"	String
+""
+"Put"	"/card-collections/{sd-identifier}/card-collections-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	2	"inout"	"Product/Service Type"	"CR Card Collections Procedure Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	4	"inout"	"Card Type"	"CR Card Collections Procedure Instance Record"	String
+""	5	"inout"	"Card Account Status"	"CR Card Collections Procedure Instance Record"	String
+""	6	"inout"	"Card Account Limits"	"CR Card Collections Procedure Instance Record"	String
+""	7	"inout"	"Configuration/Options"	"CR Card Collections Procedure Instance Record"	String
+""	8	"inout"	"Tax Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	9	"inout"	"Billing Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	10	"inout"	"Billing Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	11	"inout"	"Payment Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	12	"inout"	"Payment Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	13	"inout"	"Product Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	14	"inout"	"Product Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	15	"inout"	"Statements"	"CR Card Collections Procedure Instance Record"	String
+""	16	"inout"	"Statements Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	17	"inout"	"Card Collections Processing Schedule"	"CR Card Collections Procedure Instance Record"	String
+""
+"Put"	"/card-collections/{sd-identifier}/card-collections-procedure/{crbq-identifier}/control"
+""
+"Put"	"/card-collections/{sd-identifier}/card-collections-procedure/{crbq-identifier}/execution"
+""
+"Put"	"/card-collections/{sd-identifier}/card-collections-procedure/{crbq-identifier}/requisition"
+""
+"Get"	"/card-collections/{sd-identifier}/card-collections-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	2	"out"	"Product/Service Type"	"CR Card Collections Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	4	"out"	"Card Type"	"CR Card Collections Procedure Instance Record"	String
+""	5	"out"	"Card Account Status"	"CR Card Collections Procedure Instance Record"	String
+""	6	"out"	"Card Account Limits"	"CR Card Collections Procedure Instance Record"	String
+""	7	"out"	"Configuration/Options"	"CR Card Collections Procedure Instance Record"	String
+""	8	"out"	"Tax Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	9	"out"	"Billing Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	10	"out"	"Billing Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	11	"out"	"Payment Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	12	"out"	"Payment Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	13	"out"	"Product Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	14	"out"	"Product Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	15	"out"	"Statements"	"CR Card Collections Procedure Instance Record"	String
+""	16	"out"	"Statements Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	17	"out"	"Card Collections Processing Schedule"	"CR Card Collections Procedure Instance Record"	String
+""
+"Get"	"/card-collections/{sd-identifier}/assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	2	"out"	"Product/Service Type"	"CR Card Collections Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	4	"out"	"Card Type"	"CR Card Collections Procedure Instance Record"	String
+""	5	"out"	"Card Account Status"	"CR Card Collections Procedure Instance Record"	String
+""	6	"out"	"Card Account Limits"	"CR Card Collections Procedure Instance Record"	String
+""	7	"out"	"Configuration/Options"	"CR Card Collections Procedure Instance Record"	String
+""	8	"out"	"Tax Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	9	"out"	"Billing Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	10	"out"	"Billing Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	11	"out"	"Payment Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	12	"out"	"Payment Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	13	"out"	"Product Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	14	"out"	"Product Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	15	"out"	"Statements"	"CR Card Collections Procedure Instance Record"	String
+""	16	"out"	"Statements Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	17	"out"	"Card Collections Processing Schedule"	"CR Card Collections Procedure Instance Record"	String
+""	18	"out"	"Customer Credit Rating Assessment Instance Reference"	"BQ Assignment Instance Record"	Object
+""	19	"out"	"Collection Agency Reference"	"BQ Assignment Instance Record"	Object
+""	20	"out"	"Collection Agency Agreement"	"BQ Assignment Instance Record"	String
+""	21	"out"	"Card Collections Assignment Decision"	"BQ Assignment Instance Record"	String
+""	22	"out"	"Card Collections Assignment Work Product"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/card-collections/{sd-identifier}/payment-terms/{crbq-identifier}/exchange"
+""
+"Get"	"/card-collections/{sd-identifier}/payment-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	2	"out"	"Product/Service Type"	"CR Card Collections Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	4	"out"	"Card Type"	"CR Card Collections Procedure Instance Record"	String
+""	5	"out"	"Card Account Status"	"CR Card Collections Procedure Instance Record"	String
+""	6	"out"	"Card Account Limits"	"CR Card Collections Procedure Instance Record"	String
+""	7	"out"	"Configuration/Options"	"CR Card Collections Procedure Instance Record"	String
+""	8	"out"	"Tax Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	9	"out"	"Billing Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	10	"out"	"Billing Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	11	"out"	"Payment Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	12	"out"	"Payment Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	13	"out"	"Product Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	14	"out"	"Product Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	15	"out"	"Statements"	"CR Card Collections Procedure Instance Record"	String
+""	16	"out"	"Statements Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	17	"out"	"Card Collections Processing Schedule"	"CR Card Collections Procedure Instance Record"	String
+""	18	"out"	"Card Collections Payment Terms Contact Record"	"BQ Payment Terms Instance Record"	String
+""	19	"out"	"Contact Message"	"BQ Payment Terms Instance Record"	String
+""	20	"out"	"Contact Date"	"BQ Payment Terms Instance Record"	Date
+""	21	"out"	"Contact Result"	"BQ Payment Terms Instance Record"	String
+""	22	"out"	"Document Directory Entry Instance Reference"	"BQ Payment Terms Instance Record"	Object
+""	23	"out"	"Document Content"	"BQ Payment Terms Instance Record"	String
+""	24	"out"	"Correspondence Instance Reference"	"BQ Payment Terms Instance Record"	Object
+""	25	"out"	"Correspondence Content"	"BQ Payment Terms Instance Record"	String
+""	26	"out"	"Card Collections Payment Terms Renegotiation Decision"	"BQ Payment Terms Instance Record"	String
+""	27	"out"	"Card Collections Payment Terms Work Product"	"BQ Payment Terms Instance Record"	String
+""
+"Post"	"/card-collections/{sd-identifier}/payment/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	2	"in"	"Product/Service Type"	"CR Card Collections Procedure Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	4	"in"	"Card Type"	"CR Card Collections Procedure Instance Record"	String
+""	5	"in"	"Card Account Status"	"CR Card Collections Procedure Instance Record"	String
+""	6	"in"	"Payment Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	7	"in"	"Payment Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	8	"inout"	"Card Collections Processing Schedule"	"CR Card Collections Procedure Instance Record"	String
+""	9	"in"	"Card Collections Payment Notification Record"	"BQ Payment Instance Record"	String
+""
+"Put"	"/card-collections/{sd-identifier}/payment/{crbq-identifier}/update"
+""	1	"inout"	"Payment Transaction Reference"	"BQ Payment Instance Record"	Object
+""	2	"inout"	"Card Collections Payment Notification Record"	"BQ Payment Instance Record"	String
+""
+"Put"	"/card-collections/{sd-identifier}/payment/{crbq-identifier}/exchange"
+""
+"Get"	"/card-collections/{sd-identifier}/payment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	2	"out"	"Product/Service Type"	"CR Card Collections Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	4	"out"	"Card Type"	"CR Card Collections Procedure Instance Record"	String
+""	5	"out"	"Card Account Status"	"CR Card Collections Procedure Instance Record"	String
+""	6	"out"	"Payment Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	7	"out"	"Payment Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	8	"out"	"Card Collections Processing Schedule"	"CR Card Collections Procedure Instance Record"	String
+""	9	"out"	"Card Collections Payment Notification Record"	"BQ Payment Instance Record"	String
+""
+"Put"	"/card-collections/{sd-identifier}/resolution/{crbq-identifier}/update"
+""	1	"inout"	"Card Collections Resolution Decision"	"BQ Resolution Instance Record"	String
+""	2	"inout"	"Card Collections Resolution Work Product"	"BQ Resolution Instance Record"	String
+""
+"Get"	"/card-collections/{sd-identifier}/resolution/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	2	"out"	"Product/Service Type"	"CR Card Collections Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	4	"out"	"Card Type"	"CR Card Collections Procedure Instance Record"	String
+""	5	"out"	"Card Account Status"	"CR Card Collections Procedure Instance Record"	String
+""	6	"out"	"Card Account Limits"	"CR Card Collections Procedure Instance Record"	String
+""	7	"out"	"Configuration/Options"	"CR Card Collections Procedure Instance Record"	String
+""	8	"out"	"Tax Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	9	"out"	"Billing Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	10	"out"	"Billing Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	11	"out"	"Payment Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	12	"out"	"Payment Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	13	"out"	"Product Transactions"	"CR Card Collections Procedure Instance Record"	String
+""	14	"out"	"Product Transaction Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	15	"out"	"Statements"	"CR Card Collections Procedure Instance Record"	String
+""	16	"out"	"Statements Reference"	"CR Card Collections Procedure Instance Record"	Object
+""	17	"out"	"Card Collections Processing Schedule"	"CR Card Collections Procedure Instance Record"	String
+""	18	"out"	"Card Collections Resolution Decision"	"BQ Resolution Instance Record"	String
+""	19	"out"	"Card Collections Resolution Work Product"	"BQ Resolution Instance Record"	String

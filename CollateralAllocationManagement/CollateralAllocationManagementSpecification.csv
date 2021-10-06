@@ -1,0 +1,13 @@
+"Service Domain specification for Collateral Allocation Management"
+"Business Area"	Operations
+"Business Domain"	Custody, Collateral And Documents
+"Service Domain"	Collateral Allocation Management
+"Role Definition"	"This service domain manages the collateral holdings for a customer, tracking and authorizing the allocation of collateral to different financial facilities. The service domain oversees periodic valuations and collateral asset maintenance activity as needed. The service domain also provides reports on overall collateral usage which can include applying specific analytical assessments to support general risk management (e.g. exposure to property value fluctuations based on prevailing market conditions)"
+"Example of use"	"A corporate applies for a new facility and the available collateral is checked to see if there is sufficient collateral on hand to allocate to the loan"
+"Executive Summary"	"This service domain manages the holding, valuation and allocation of a customer's collateral assets to products on behalf of a customer"
+"Key Features"	"Oversee the valuation and maintenance of collateral assets. Allocate and track the availability of collateral assets. Report on the value and allocation of collateral"
+"Functional Pattern"	Allocate
+"Asset Type"	CollateralAsset
+"Generic Artifact"	Allocation
+"Control Record"	CollateralAssetAllocation
+"Registration Status"	Registered

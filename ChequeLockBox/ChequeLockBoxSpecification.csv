@@ -1,0 +1,13 @@
+"Service Domain specification for Cheque Lock Box"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Cheque Lock Box
+"Role Definition"	"Consolidation of retail checks for a corporation (could be classified as another Cash Management service)"
+"Example of use"	"A batch of checks are processed for a corporate customer with a lock box payment facility"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	LockBox
+"Generic Artifact"	Facility (rename)
+"Control Record"	LockBoxArrangement
+"Registration Status"	Registered

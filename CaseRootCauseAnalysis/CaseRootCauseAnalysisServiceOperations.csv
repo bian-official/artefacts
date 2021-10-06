@@ -1,0 +1,215 @@
+"Service Operations for: "	Case Root Cause Analysis
+""
+"POST"	"/case-root-cause-analysis/activation"
+"PUT"	"/case-root-cause-analysis/{sd-reference-id}/configuration"
+"PUT"	"/case-root-cause-analysis/{sd-reference-id}/feedback"
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/credit-and--fraud-related-issue-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Credit and  Fraud Related Issue Analysis Preconditions"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	2	"inout"	"Credit and  Fraud Related Issue Analysis Analysis Schedule"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	3	"inout"	"Credit and  Fraud Related Issue Analysis Version Number"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	4	"inout"	"Credit and Fraud Related Issue Analysis"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Credit and Fraud Related Issue Analysis Service Type"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	6	"inout"	"Credit and Fraud Related Issue Analysis Service Description"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	7	"inout"	"Credit and Fraud Related Issue Analysis Service Inputs and Ouputs"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	8	"inout"	"Credit and Fraud Related Issue Analysis Service Work Product"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	9	"inout"	"Credit and Fraud Related Issue Analysis Service Name"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/operations-and--servicing-issue-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"inout"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"inout"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"inout"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"inout"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"inout"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"inout"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"inout"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/product-and--service-issue-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"inout"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"inout"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"inout"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"inout"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"inout"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"inout"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"inout"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/customer-case-root-cause-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Case Root Cause Analysis Parameter Type"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Customer Case Root Cause Analysis Selected Option"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Customer Case Root Cause Analysis Request"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	4	"in"	"Customer Case Root Cause Analysis Schedule"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	5	"inout"	"Customer Case Root Cause Analysis Status"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	6	"inout"	"Customer Case Root Cause Analysis Usage Log"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	7	"in"	"Customer Case Root Cause Analysis Requester Reference"	"CR Customer Case Root Cause Analysis Instance Record"	Object
+""
+"Post"	"/case-root-cause-analysis/{sd-identifier}/credit-and--fraud-related-issue-analysis/{crbq-identifier}/initiation"
+""	1	"inout"	"Credit and  Fraud Related Issue Analysis Preconditions"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	2	"inout"	"Credit and  Fraud Related Issue Analysis Analysis Schedule"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	3	"inout"	"Credit and  Fraud Related Issue Analysis Version Number"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	4	"inout"	"Credit and Fraud Related Issue Analysis"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Credit and Fraud Related Issue Analysis Service Type"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	6	"inout"	"Credit and Fraud Related Issue Analysis Service Description"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	7	"inout"	"Credit and Fraud Related Issue Analysis Service Inputs and Ouputs"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	8	"inout"	"Credit and Fraud Related Issue Analysis Service Work Product"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	9	"inout"	"Credit and Fraud Related Issue Analysis Service Name"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""
+"Post"	"/case-root-cause-analysis/{sd-identifier}/operations-and--servicing-issue-analysis/{crbq-identifier}/initiation"
+""	1	"inout"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"inout"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"inout"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"inout"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"inout"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"inout"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"inout"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"inout"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Post"	"/case-root-cause-analysis/{sd-identifier}/product-and--service-issue-analysis/{crbq-identifier}/initiation"
+""	1	"inout"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"inout"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"inout"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"inout"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"inout"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"inout"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"inout"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"inout"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Post"	"/case-root-cause-analysis/{sd-identifier}/customer-case-root-cause-analysis/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Case Root Cause Analysis Parameter Type"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Customer Case Root Cause Analysis Selected Option"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Customer Case Root Cause Analysis Request"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	4	"in"	"Customer Case Root Cause Analysis Schedule"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	5	"inout"	"Customer Case Root Cause Analysis Status"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	6	"inout"	"Customer Case Root Cause Analysis Usage Log"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	7	"in"	"Customer Case Root Cause Analysis Requester Reference"	"CR Customer Case Root Cause Analysis Instance Record"	Object
+""
+"Get"	"/case-root-cause-analysis/{sd-identifier}/credit-and--fraud-related-issue-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Credit and  Fraud Related Issue Analysis Preconditions"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	2	"out"	"Credit and  Fraud Related Issue Analysis Analysis Schedule"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	3	"out"	"Credit and  Fraud Related Issue Analysis Version Number"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	4	"out"	"Credit and Fraud Related Issue Analysis"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	Business Service
+""	5	"out"	"Credit and Fraud Related Issue Analysis Service Type"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	6	"out"	"Credit and Fraud Related Issue Analysis Service Description"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	7	"out"	"Credit and Fraud Related Issue Analysis Service Inputs and Ouputs"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	8	"out"	"Credit and Fraud Related Issue Analysis Service Work Product"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	9	"out"	"Credit and Fraud Related Issue Analysis Service Name"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""
+"Get"	"/case-root-cause-analysis/{sd-identifier}/operations-and--servicing-issue-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"out"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"out"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"out"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"out"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"out"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"out"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"out"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"out"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Get"	"/case-root-cause-analysis/{sd-identifier}/product-and--service-issue-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"out"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"out"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"out"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"out"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"out"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"out"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"out"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"out"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Get"	"/case-root-cause-analysis/{sd-identifier}/customer-case-root-cause-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Case Root Cause Analysis Parameter Type"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	2	"out"	"Customer Case Root Cause Analysis Selected Option"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	3	"out"	"Customer Case Root Cause Analysis Request"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	4	"out"	"Customer Case Root Cause Analysis Schedule"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	5	"out"	"Customer Case Root Cause Analysis Status"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	6	"out"	"Customer Case Root Cause Analysis Usage Log"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	7	"out"	"Customer Case Root Cause Analysis Requester Reference"	"CR Customer Case Root Cause Analysis Instance Record"	Object
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/credit-and--fraud-related-issue-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Credit and  Fraud Related Issue Analysis Preconditions"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	2	"inout"	"Credit and  Fraud Related Issue Analysis Analysis Schedule"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	3	"inout"	"Credit and  Fraud Related Issue Analysis Version Number"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	4	"inout"	"Credit and Fraud Related Issue Analysis"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Credit and Fraud Related Issue Analysis Service Type"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	6	"inout"	"Credit and Fraud Related Issue Analysis Service Description"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	7	"inout"	"Credit and Fraud Related Issue Analysis Service Inputs and Ouputs"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	8	"inout"	"Credit and Fraud Related Issue Analysis Service Work Product"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	9	"inout"	"Credit and Fraud Related Issue Analysis Service Name"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/operations-and--servicing-issue-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"inout"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"inout"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"inout"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"inout"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"inout"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"inout"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"inout"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/product-and--service-issue-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"inout"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"inout"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"inout"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"inout"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"inout"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"inout"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"inout"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/customer-case-root-cause-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Case Root Cause Analysis Parameter Type"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Customer Case Root Cause Analysis Selected Option"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Customer Case Root Cause Analysis Request"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	4	"in"	"Customer Case Root Cause Analysis Schedule"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	5	"inout"	"Customer Case Root Cause Analysis Status"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	6	"inout"	"Customer Case Root Cause Analysis Usage Log"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	7	"in"	"Customer Case Root Cause Analysis Requester Reference"	"CR Customer Case Root Cause Analysis Instance Record"	Object
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/credit-and--fraud-related-issue-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Credit and  Fraud Related Issue Analysis Preconditions"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	2	"inout"	"Credit and  Fraud Related Issue Analysis Analysis Schedule"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	3	"inout"	"Credit and  Fraud Related Issue Analysis Version Number"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	4	"inout"	"Credit and Fraud Related Issue Analysis"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Credit and Fraud Related Issue Analysis Service Type"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	6	"inout"	"Credit and Fraud Related Issue Analysis Service Description"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	7	"inout"	"Credit and Fraud Related Issue Analysis Service Inputs and Ouputs"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	8	"inout"	"Credit and Fraud Related Issue Analysis Service Work Product"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""	9	"inout"	"Credit and Fraud Related Issue Analysis Service Name"	"BQ Credit and  Fraud Related Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/operations-and--servicing-issue-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"inout"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"inout"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"inout"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"inout"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"inout"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"inout"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"inout"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/product-and--service-issue-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Operations and  Servicing Issue Analysis Preconditions"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	2	"inout"	"Operations and  Servicing Issue Analysis Analysis Schedule"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	3	"inout"	"Operations and  Servicing Issue Analysis Version Number"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	4	"inout"	"Operations and Servicing Issue Analysis"	"BQ Operations and  Servicing Issue Analysis Instance Record"	Business Service
+""	5	"inout"	"Operations and Servicing Issue Analysis Service Type"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	6	"inout"	"Operations and Servicing Issue Analysis Service Description"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	7	"inout"	"Operations and Servicing Issue Analysis Service Inputs and Ouputs"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	8	"inout"	"Operations and Servicing Issue Analysis Service Work Product"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""	9	"inout"	"Operations and Servicing Issue Analysis Service Name"	"BQ Operations and  Servicing Issue Analysis Instance Record"	String
+""
+"Put"	"/case-root-cause-analysis/{sd-identifier}/customer-case-root-cause-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Customer Case Root Cause Analysis Parameter Type"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Customer Case Root Cause Analysis Selected Option"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Customer Case Root Cause Analysis Request"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	4	"in"	"Customer Case Root Cause Analysis Schedule"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	5	"inout"	"Customer Case Root Cause Analysis Status"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	6	"inout"	"Customer Case Root Cause Analysis Usage Log"	"CR Customer Case Root Cause Analysis Instance Record"	String
+""	7	"in"	"Customer Case Root Cause Analysis Requester Reference"	"CR Customer Case Root Cause Analysis Instance Record"	Object

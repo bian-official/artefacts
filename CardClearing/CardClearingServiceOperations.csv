@@ -1,0 +1,187 @@
+"Service Operations for: "	Card Clearing
+""
+"POST"	"/card-clearing/activation"
+"PUT"	"/card-clearing/{sd-reference-id}/configuration"
+"PUT"	"/card-clearing/{sd-reference-id}/feedback"
+""
+"Post"	"/card-clearing/{sd-identifier}/card-clearing-procedure/{crbq-identifier}/initiation"
+""	1	"inout"	"Network Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"in"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Participant Acquirer Bank Clearing and Settlement Terms"	"CR Card Clearing Procedure Instance Record"	String
+""	4	"in"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	5	"out"	"Participant Issuer Bank Clearing and Settlement Terms"	"CR Card Clearing Procedure Instance Record"	String
+""	6	"in"	"Card Clearing Process Type"	"CR Card Clearing Procedure Instance Record"	String
+""	7	"inout"	"Card Clearing Process Date/Time"	"CR Card Clearing Procedure Instance Record"	Date
+""	8	"inout"	"Card Clearing Service Schedule"	"CR Card Clearing Procedure Instance Record"	String
+""
+"Put"	"/card-clearing/{sd-identifier}/card-clearing-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Network Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"inout"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"inout"	"Participant Acquirer Bank Clearing and Settlement Terms"	"CR Card Clearing Procedure Instance Record"	String
+""	4	"inout"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	5	"inout"	"Participant Issuer Bank Clearing and Settlement Terms"	"CR Card Clearing Procedure Instance Record"	String
+""	6	"inout"	"Card Clearing Process Type"	"CR Card Clearing Procedure Instance Record"	String
+""	7	"inout"	"Card Clearing Process Date/Time"	"CR Card Clearing Procedure Instance Record"	Date
+""	8	"inout"	"Card Clearing Service Schedule"	"CR Card Clearing Procedure Instance Record"	String
+""
+"Get"	"/card-clearing/{sd-identifier}/card-clearing-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Network Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"out"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Participant Acquirer Bank Clearing and Settlement Terms"	"CR Card Clearing Procedure Instance Record"	String
+""	4	"out"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	5	"out"	"Participant Issuer Bank Clearing and Settlement Terms"	"CR Card Clearing Procedure Instance Record"	String
+""	6	"out"	"Card Clearing Process Type"	"CR Card Clearing Procedure Instance Record"	String
+""	7	"out"	"Card Clearing Process Date/Time"	"CR Card Clearing Procedure Instance Record"	Date
+""	8	"out"	"Card Clearing Service Schedule"	"CR Card Clearing Procedure Instance Record"	String
+""
+"Put"	"/card-clearing/{sd-identifier}/capture/{crbq-identifier}/update"
+""	1	"inout"	"Card Transaction Record Reference"	"BQ Capture Instance Record"	Object
+""	2	"inout"	"Card Transaction Product Instance Reference"	"BQ Capture Instance Record"	Object
+""	3	"inout"	"Card Transaction Network Reference"	"BQ Capture Instance Record"	Object
+""	4	"inout"	"Card Transaction Issuing Bank Reference"	"BQ Capture Instance Record"	Object
+""	5	"inout"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Capture Instance Record"	Object
+""	6	"inout"	"Card Transaction Type"	"BQ Capture Instance Record"	String
+""	7	"inout"	"Card Transaction Currency"	"BQ Capture Instance Record"	CurrencyCode
+""	8	"inout"	"Card Transaction Amount Type"	"BQ Capture Instance Record"	String
+""	9	"inout"	"Card Transaction Merchant Reference"	"BQ Capture Instance Record"	Object
+""	10	"inout"	"Card Transaction Location Reference"	"BQ Capture Instance Record"	Object
+""	11	"inout"	"Card Transaction Product/Service Reference"	"BQ Capture Instance Record"	Object
+""	12	"inout"	"Card Transaction Date/Time"	"BQ Capture Instance Record"	Date
+""	13	"inout"	"Card Transaction FX Conversion Charge"	"BQ Capture Instance Record"	String
+""	14	"inout"	"Card Transaction Intercharge Fee"	"BQ Capture Instance Record"	String
+""	15	"inout"	"Card Transaction Authorization Record"	"BQ Capture Instance Record"	String
+""
+"Get"	"/card-clearing/{sd-identifier}/capture/{crbq-identifier}/retrieval"
+""	1	"out"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"out"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Card Transaction Record Reference"	"BQ Capture Instance Record"	Object
+""	4	"out"	"Card Transaction Product Instance Reference"	"BQ Capture Instance Record"	Object
+""	5	"out"	"Card Transaction Network Reference"	"BQ Capture Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Capture Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Capture Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Capture Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Capture Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Capture Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Capture Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Capture Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Capture Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Capture Instance Record"	Date
+""	15	"out"	"Card Transaction FX Conversion Charge"	"BQ Capture Instance Record"	String
+""	16	"out"	"Card Transaction Intercharge Fee"	"BQ Capture Instance Record"	String
+""	17	"out"	"Card Transaction Authorization Record"	"BQ Capture Instance Record"	String
+""
+"Get"	"/card-clearing/{sd-identifier}/addressing/{crbq-identifier}/retrieval"
+""	1	"out"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"out"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Card Transaction Record Reference"	"BQ Capture Instance Record"	Object
+""	4	"out"	"Card Transaction Product Instance Reference"	"BQ Capture Instance Record"	Object
+""	5	"out"	"Card Transaction Network Reference"	"BQ Capture Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Capture Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Capture Instance Record"	Object
+""	8	"out"	"Addressing Task Result"	"BQ Addressing Instance Record"	String
+""
+"Get"	"/card-clearing/{sd-identifier}/fx-conversion/{crbq-identifier}/retrieval"
+""	1	"out"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"out"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Card Transaction Record Reference"	"BQ Capture Instance Record"	Object
+""	4	"out"	"Card Transaction Product Instance Reference"	"BQ Capture Instance Record"	Object
+""	5	"out"	"Card Transaction Network Reference"	"BQ Capture Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Capture Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Capture Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Capture Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Capture Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Capture Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Capture Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Capture Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Capture Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Capture Instance Record"	Date
+""	15	"out"	"Card Transaction FX Conversion Charge"	"BQ Capture Instance Record"	String
+""	16	"out"	"Card Transaction Intercharge Fee"	"BQ Capture Instance Record"	String
+""	17	"out"	"Card Transaction Authorization Record"	"BQ Capture Instance Record"	String
+""	18	"out"	"FX Conversion Rates and Fees"	"BQ FX Conversion Instance Record"	Rate
+""	19	"out"	"FX Conversion Task Result"	"BQ FX Conversion Instance Record"	String
+""
+"Put"	"/card-clearing/{sd-identifier}/fees/{crbq-identifier}/update"
+""	1	"inout"	"Intercharge Fees"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fee Task Result"	"BQ Fees Instance Record"	String
+""
+"Get"	"/card-clearing/{sd-identifier}/fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"out"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Card Transaction Record Reference"	"BQ Capture Instance Record"	Object
+""	4	"out"	"Card Transaction Product Instance Reference"	"BQ Capture Instance Record"	Object
+""	5	"out"	"Card Transaction Network Reference"	"BQ Capture Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Capture Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Capture Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Capture Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Capture Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Capture Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Capture Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Capture Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Capture Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Capture Instance Record"	Date
+""	15	"out"	"Card Transaction FX Conversion Charge"	"BQ Capture Instance Record"	String
+""	16	"out"	"Card Transaction Intercharge Fee"	"BQ Capture Instance Record"	String
+""	17	"out"	"Card Transaction Authorization Record"	"BQ Capture Instance Record"	String
+""	18	"out"	"Intercharge Fees"	"BQ Fees Instance Record"	String
+""	19	"out"	"Fee Task Result"	"BQ Fees Instance Record"	String
+""
+"Get"	"/card-clearing/{sd-identifier}/matching/{crbq-identifier}/retrieval"
+""	1	"out"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"out"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Card Transaction Record Reference"	"BQ Capture Instance Record"	Object
+""	4	"out"	"Card Transaction Product Instance Reference"	"BQ Capture Instance Record"	Object
+""	5	"out"	"Card Transaction Network Reference"	"BQ Capture Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Capture Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Capture Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Capture Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Capture Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Capture Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Capture Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Capture Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Capture Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Capture Instance Record"	Date
+""	15	"out"	"Card Transaction FX Conversion Charge"	"BQ Capture Instance Record"	String
+""	16	"out"	"Card Transaction Intercharge Fee"	"BQ Capture Instance Record"	String
+""	17	"out"	"Card Transaction Authorization Record"	"BQ Capture Instance Record"	String
+""	18	"out"	"Matching Task Result"	"BQ Matching Instance Record"	String
+""
+"Get"	"/card-clearing/{sd-identifier}/reconciliation/{crbq-identifier}/retrieval"
+""	1	"out"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"out"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Card Transaction Record Reference"	"BQ Capture Instance Record"	Object
+""	4	"out"	"Card Transaction Product Instance Reference"	"BQ Capture Instance Record"	Object
+""	5	"out"	"Card Transaction Network Reference"	"BQ Capture Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Capture Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Capture Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Capture Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Capture Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Capture Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Capture Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Capture Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Capture Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Capture Instance Record"	Date
+""	15	"out"	"Card Transaction FX Conversion Charge"	"BQ Capture Instance Record"	String
+""	16	"out"	"Card Transaction Intercharge Fee"	"BQ Capture Instance Record"	String
+""	17	"out"	"Card Transaction Authorization Record"	"BQ Capture Instance Record"	String
+""	18	"out"	"Reconciliation Task Result"	"BQ Reconciliation Instance Record"	String
+""
+"Get"	"/card-clearing/{sd-identifier}/routing/{crbq-identifier}/retrieval"
+""	1	"out"	"Participant Acquirer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	2	"out"	"Participant Issuer Bank Reference"	"CR Card Clearing Procedure Instance Record"	Object
+""	3	"out"	"Card Transaction Record Reference"	"BQ Capture Instance Record"	Object
+""	4	"out"	"Card Transaction Product Instance Reference"	"BQ Capture Instance Record"	Object
+""	5	"out"	"Card Transaction Network Reference"	"BQ Capture Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Capture Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Capture Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Capture Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Capture Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Capture Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Capture Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Capture Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Capture Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Capture Instance Record"	Date
+""	15	"out"	"Card Transaction FX Conversion Charge"	"BQ Capture Instance Record"	String
+""	16	"out"	"Card Transaction Intercharge Fee"	"BQ Capture Instance Record"	String
+""	17	"out"	"Card Transaction Authorization Record"	"BQ Capture Instance Record"	String
+""	18	"out"	"Routing Task Result"	"BQ Routing Instance Record"	String

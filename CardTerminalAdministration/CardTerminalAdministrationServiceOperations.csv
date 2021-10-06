@@ -1,0 +1,84 @@
+"Service Operations for: "	Card Terminal Administration
+""
+"POST"	"/card-terminal-administration/activation"
+"PUT"	"/card-terminal-administration/{sd-reference-id}/configuration"
+"PUT"	"/card-terminal-administration/{sd-reference-id}/feedback"
+""
+"Post"	"/card-terminal-administration/{sd-identifier}/card-pos-device-allocation/{crbq-identifier}/provisioning"
+""	1	"in"	"Card POS Device Reference"	"CR Card POS Device Allocation Instance Record"	Object
+""	2	"in"	"Card POS Device Identifier"	"CR Card POS Device Allocation Instance Record"	String
+""	3	"in"	"Card POS Device Type"	"CR Card POS Device Allocation Instance Record"	String
+""	4	"in"	"Card POS Device Software Type"	"CR Card POS Device Allocation Instance Record"	String
+""	5	"in"	"Card POS Device Software Version"	"CR Card POS Device Allocation Instance Record"	String
+""	6	"in"	"Card POS Device Acquired Date"	"CR Card POS Device Allocation Instance Record"	Date
+""	7	"in"	"Card POS Repair Record"	"CR Card POS Device Allocation Instance Record"	String
+""	8	"in"	"Card POS Repair Details"	"CR Card POS Device Allocation Instance Record"	String
+""	9	"in"	"Card POS Repair Dates"	"CR Card POS Device Allocation Instance Record"	Date
+""	10	"inout"	"Card POS Device Status"	"CR Card POS Device Allocation Instance Record"	String
+""
+"Put"	"/card-terminal-administration/{sd-identifier}/card-pos-device-allocation/{crbq-identifier}/update"
+""	1	"inout"	"Card POS Device Reference"	"CR Card POS Device Allocation Instance Record"	Object
+""	2	"inout"	"Card POS Device Identifier"	"CR Card POS Device Allocation Instance Record"	String
+""	3	"inout"	"Card POS Device Type"	"CR Card POS Device Allocation Instance Record"	String
+""	4	"inout"	"Card POS Device Software Type"	"CR Card POS Device Allocation Instance Record"	String
+""	5	"inout"	"Card POS Device Software Version"	"CR Card POS Device Allocation Instance Record"	String
+""	6	"inout"	"Card POS Device Acquired Date"	"CR Card POS Device Allocation Instance Record"	Date
+""	7	"inout"	"Card POS Repair Record"	"CR Card POS Device Allocation Instance Record"	String
+""	8	"inout"	"Card POS Repair Details"	"CR Card POS Device Allocation Instance Record"	String
+""	9	"inout"	"Card POS Repair Dates"	"CR Card POS Device Allocation Instance Record"	Date
+""	10	"inout"	"Card POS Device Status"	"CR Card POS Device Allocation Instance Record"	String
+""
+"Put"	"/card-terminal-administration/{sd-identifier}/card-pos-device-allocation/{crbq-identifier}/requisition"
+""
+"Get"	"/card-terminal-administration/{sd-identifier}/card-pos-device-allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Card POS Device Reference"	"CR Card POS Device Allocation Instance Record"	Object
+""	2	"out"	"Card POS Device Identifier"	"CR Card POS Device Allocation Instance Record"	String
+""	3	"out"	"Card POS Device Type"	"CR Card POS Device Allocation Instance Record"	String
+""	4	"out"	"Card POS Device Software Type"	"CR Card POS Device Allocation Instance Record"	String
+""	5	"out"	"Card POS Device Software Version"	"CR Card POS Device Allocation Instance Record"	String
+""	6	"out"	"Card POS Device Acquired Date"	"CR Card POS Device Allocation Instance Record"	Date
+""	7	"out"	"Card POS Repair Record"	"CR Card POS Device Allocation Instance Record"	String
+""	8	"out"	"Card POS Repair Details"	"CR Card POS Device Allocation Instance Record"	String
+""	9	"out"	"Card POS Repair Dates"	"CR Card POS Device Allocation Instance Record"	Date
+""	10	"out"	"Card POS Device Status"	"CR Card POS Device Allocation Instance Record"	String
+""
+"Post"	"/card-terminal-administration/{sd-identifier}/allocation/{crbq-identifier}/provisioning"
+""	1	"in"	"Card POS Device Reference"	"CR Card POS Device Allocation Instance Record"	Object
+""	2	"in"	"Card POS Device Identifier"	"CR Card POS Device Allocation Instance Record"	String
+""	3	"in"	"Card POS Device Type"	"CR Card POS Device Allocation Instance Record"	String
+""	4	"in"	"Card POS Device Software Type"	"CR Card POS Device Allocation Instance Record"	String
+""	5	"in"	"Card POS Device Software Version"	"CR Card POS Device Allocation Instance Record"	String
+""	6	"inout"	"Card POS Device Status"	"CR Card POS Device Allocation Instance Record"	String
+""	7	"in"	"Merchant Reference"	"BQ Allocation Instance Record"	Object
+""	8	"in"	"Merchant Type"	"BQ Allocation Instance Record"	String
+""	9	"in"	"Merchant Location"	"BQ Allocation Instance Record"	String
+""	10	"in"	"Card POS Device Configuration"	"BQ Allocation Instance Record"	String
+""
+"Put"	"/card-terminal-administration/{sd-identifier}/allocation/{crbq-identifier}/update"
+""	1	"inout"	"Merchant Reference"	"BQ Allocation Instance Record"	Object
+""	2	"inout"	"Merchant Type"	"BQ Allocation Instance Record"	String
+""	3	"inout"	"Merchant Location"	"BQ Allocation Instance Record"	String
+""	4	"inout"	"Card POS Device Configuration"	"BQ Allocation Instance Record"	String
+""
+"Put"	"/card-terminal-administration/{sd-identifier}/allocation/{crbq-identifier}/control"
+""
+"Put"	"/card-terminal-administration/{sd-identifier}/allocation/{crbq-identifier}/exchange"
+""
+"Put"	"/card-terminal-administration/{sd-identifier}/allocation/{crbq-identifier}/capture"
+""	1	"inout"	"Card POS Device Status"	"CR Card POS Device Allocation Instance Record"	String
+""
+"Put"	"/card-terminal-administration/{sd-identifier}/allocation/{crbq-identifier}/grant"
+""	1	"in"	"Card POS Device Reference"	"CR Card POS Device Allocation Instance Record"	Object
+""	2	"in"	"Card POS Device Identifier"	"CR Card POS Device Allocation Instance Record"	String
+""
+"Get"	"/card-terminal-administration/{sd-identifier}/allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Card POS Device Reference"	"CR Card POS Device Allocation Instance Record"	Object
+""	2	"out"	"Card POS Device Identifier"	"CR Card POS Device Allocation Instance Record"	String
+""	3	"out"	"Card POS Device Type"	"CR Card POS Device Allocation Instance Record"	String
+""	4	"out"	"Card POS Device Software Type"	"CR Card POS Device Allocation Instance Record"	String
+""	5	"out"	"Card POS Device Software Version"	"CR Card POS Device Allocation Instance Record"	String
+""	6	"out"	"Card POS Device Status"	"CR Card POS Device Allocation Instance Record"	String
+""	7	"out"	"Merchant Reference"	"BQ Allocation Instance Record"	Object
+""	8	"out"	"Merchant Type"	"BQ Allocation Instance Record"	String
+""	9	"out"	"Merchant Location"	"BQ Allocation Instance Record"	String
+""	10	"out"	"Card POS Device Configuration"	"BQ Allocation Instance Record"	String

@@ -1,0 +1,81 @@
+"Control Record Model for: "	Collections
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Collections. . Example: Process the evaluation and completion of customer offers."	""
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Parameter Type	"A Classification value that distinguishes between Procedures according to the type of business services and/or type of concern defined within Collateral Asset Liquidation Procedure"	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Selected Option	"A selected optional business service as subject matter of Collateral Asset Liquidation Procedure"	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Request	"Request to process CollateralAssetLiquidation"	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Schedule	"Timetable to process CollateralAssetLiquidation"	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Status	"The status of Collateral Asset Liquidation Procedure"	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Reference	"Reference to the party who is involved in Collateral Asset Liquidation Procedure"	Object
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Business Unit Reference	"Reference to the business unit which is involved in Collateral Asset Liquidation Procedure"	Object
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure ServiceProvider Reference	"Reference to the party who is the service provider of Collateral Asset Liquidation Procedure"	Object
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Financial Facility Reference	"Reference to the Financial Facility related to  Collateral Asset Liquidation Procedure "	Object
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Employee Reference	"Reference to the employee who is involved in Collateral Asset Liquidation Procedure"	Object
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Customer Reference	"Reference to the customer who is involved in Collateral Asset Liquidation Procedure"	Object
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Type	"A Classification value that distinguishes between the type of process undertaken within Collateral Asset Liquidation Procedure"	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Service Provider Schedule	"The schedule according to which the service provider will process the Collateral Asset Liquidation Procedure"	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Service Type	"A Classification value that distinguishes between the type of services in Collateral Asset Liquidation Procedure "	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure ProductandService Type	"A Classification value that distinguishes between the type of products/services related to Collateral Asset Liquidation Procedure "	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure ProductandService Instance	"Reference to the product or service that is related to  Collateral Asset Liquidation Procedure"	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Transaction Type	"A Classification value that distinguishes between the type of transactions in Collateral Asset Liquidation Procedure "	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Transaction	"Reference to the transaction that is related to  Collateral Asset Liquidation Procedure "	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Financial Transaction Arrangement	"Reference to the Financial Transaction Arrangement that is related to  Collateral Asset Liquidation Procedure "	String
+"CR"	CR Collateral Asset Liquidation Procedure Instance Record	Collateral Asset Liquidation Procedure Customer Agreement Reference	"Reference to the Customer Agreement that is related to  Collateral Asset Liquidation Procedure "	Object
+"BQ"	BQ Collections Account Update Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Collections. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update	"The Collateral Asset Liquidation Procedure specific Business Service"	Business Service
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Collections Account Update Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Collections Account Update Service Description	"Description of the performed business service"	String
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Collections Account Update Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Collections Account Update Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Collections Account Update Instance Record	Collections Account Update Collections Account Update Service Name	""	String
+"BQ"	BQ Debt Factoring Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Collections. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Debt Factoring Instance Record	Factoring	"The Collateral Asset Liquidation Procedure specific Business Service"	Business Service
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Factoring Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Factoring Service Description	"Description of the performed business service"	String
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Factoring Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Factoring Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Debt Factoring Instance Record	Debt Factoring Factoring Service Name	""	String
+"BQ"	BQ Collateral Liquidation Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Collections. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation	"The Collateral Asset Liquidation Procedure specific Business Service"	Business Service
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Collateral Liquidation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Collateral Liquidation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Collateral Liquidation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Collateral Liquidation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Collateral Liquidation Instance Record	Collateral Liquidation Collateral Liquidation Service Name	""	String
+"BQ"	BQ Collections Assessment Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Collections. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment	"The Collateral Asset Liquidation Procedure specific Business Service"	Business Service
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Collections Assessment Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Collections Assessment Service Description	"Description of the performed business service"	String
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Collections Assessment Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Collections Assessment Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Collections Assessment Instance Record	Collections Assessment Collections Assessment Service Name	""	String
+"BQ"	BQ Collateral Valuation Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Collections. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation	"The Collateral Asset Liquidation Procedure specific Business Service"	Business Service
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Collateral Valuation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Collateral Valuation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Collateral Valuation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Collateral Valuation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Collateral Valuation Instance Record	Collateral Valuation Collateral Valuation Service Name	""	String
+"BQ"	BQ Collections Outcome Instance Record	""	""	""
+"BQ"	BQ Collections Outcome Instance Record	Collections Work Product	""	String
+"BQ"	BQ Collections Outcome Instance Record	Collections Procedure	""	String

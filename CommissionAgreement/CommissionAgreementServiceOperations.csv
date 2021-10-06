@@ -1,0 +1,180 @@
+"Service Operations for: "	Commission Agreement
+""
+"POST"	"/commission-agreement/activation"
+"PUT"	"/commission-agreement/{sd-reference-id}/configuration"
+"PUT"	"/commission-agreement/{sd-reference-id}/feedback"
+""
+"Put"	"/commission-agreement/{sd-identifier}/commission-terms/{crbq-identifier}/control"
+""	1	"inout"	"Commission Terms Preconditions"	"BQ Commission Terms Instance Record"	String
+""	2	"inout"	"Commission Terms Term Schedule"	"BQ Commission Terms Instance Record"	String
+""	3	"inout"	"Commission Terms Service Type"	"BQ Commission Terms Instance Record"	String
+""	4	"inout"	"Commission Terms Service Description"	"BQ Commission Terms Instance Record"	String
+""	5	"inout"	"Commission Terms Service Inputs and Ouputs"	"BQ Commission Terms Instance Record"	String
+""	6	"inout"	"Commission Terms Service Work Product"	"BQ Commission Terms Instance Record"	String
+""	7	"inout"	"Commission Terms Service Name"	"BQ Commission Terms Instance Record"	String
+""
+"Put"	"/commission-agreement/{sd-identifier}/employee-commission-agreement/{crbq-identifier}/control"
+""	1	"in"	"Employee Commission Agreement Parameter Type"	"CR Employee Commission Agreement Instance Record"	String
+""	2	"in"	"Employee Commission Agreement Selected Option"	"CR Employee Commission Agreement Instance Record"	String
+""	3	"in"	"Employee Commission Agreement Type"	"CR Employee Commission Agreement Instance Record"	String
+""	4	"in"	"Employee Commission Agreement Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	5	"inout"	"Employee Commission Agreement Request"	"CR Employee Commission Agreement Instance Record"	String
+""	6	"inout"	"Employee Commission Agreement Schedule"	"CR Employee Commission Agreement Instance Record"	String
+""	7	"inout"	"Employee Commission Agreement Status"	"CR Employee Commission Agreement Instance Record"	String
+""	8	"in"	"Employee Commission Agreement Customer Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	9	"in"	"Employee Commission Agreement Obligation"	"CR Employee Commission Agreement Instance Record"	String
+""	10	"in"	"Employee Commission Agreement Entitlement"	"CR Employee Commission Agreement Instance Record"	String
+""	11	"in"	"Employee Commission Agreement Regulation Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	12	"in"	"Employee Commission Agreement Regulation Type"	"CR Employee Commission Agreement Instance Record"	String
+""	13	"in"	"Employee Commission Agreement Jurisdiction"	"CR Employee Commission Agreement Instance Record"	String
+""	14	"in"	"Employee Commission Agreement Account Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""
+"Put"	"/commission-agreement/{sd-identifier}/commission-terms/{crbq-identifier}/exchange"
+""	1	"inout"	"Commission Terms Preconditions"	"BQ Commission Terms Instance Record"	String
+""	2	"inout"	"Commission Terms Term Schedule"	"BQ Commission Terms Instance Record"	String
+""	3	"inout"	"Commission Terms Service Type"	"BQ Commission Terms Instance Record"	String
+""	4	"inout"	"Commission Terms Service Description"	"BQ Commission Terms Instance Record"	String
+""	5	"inout"	"Commission Terms Service Inputs and Ouputs"	"BQ Commission Terms Instance Record"	String
+""	6	"inout"	"Commission Terms Service Work Product"	"BQ Commission Terms Instance Record"	String
+""	7	"inout"	"Commission Terms Service Name"	"BQ Commission Terms Instance Record"	String
+""
+"Put"	"/commission-agreement/{sd-identifier}/employee-commission-agreement/{crbq-identifier}/exchange"
+""	1	"in"	"Employee Commission Agreement Parameter Type"	"CR Employee Commission Agreement Instance Record"	String
+""	2	"in"	"Employee Commission Agreement Selected Option"	"CR Employee Commission Agreement Instance Record"	String
+""	3	"in"	"Employee Commission Agreement Type"	"CR Employee Commission Agreement Instance Record"	String
+""	4	"in"	"Employee Commission Agreement Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	5	"inout"	"Employee Commission Agreement Request"	"CR Employee Commission Agreement Instance Record"	String
+""	6	"inout"	"Employee Commission Agreement Schedule"	"CR Employee Commission Agreement Instance Record"	String
+""	7	"inout"	"Employee Commission Agreement Status"	"CR Employee Commission Agreement Instance Record"	String
+""	8	"in"	"Employee Commission Agreement Customer Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	9	"in"	"Employee Commission Agreement Obligation"	"CR Employee Commission Agreement Instance Record"	String
+""	10	"in"	"Employee Commission Agreement Entitlement"	"CR Employee Commission Agreement Instance Record"	String
+""	11	"in"	"Employee Commission Agreement Regulation Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	12	"in"	"Employee Commission Agreement Regulation Type"	"CR Employee Commission Agreement Instance Record"	String
+""	13	"in"	"Employee Commission Agreement Jurisdiction"	"CR Employee Commission Agreement Instance Record"	String
+""	14	"in"	"Employee Commission Agreement Account Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""
+"Put"	"/commission-agreement/{sd-identifier}/commission-terms/{crbq-identifier}/grant"
+""	1	"inout"	"Commission Terms Preconditions"	"BQ Commission Terms Instance Record"	String
+""	2	"inout"	"Commission Terms Term Schedule"	"BQ Commission Terms Instance Record"	String
+""	3	"inout"	"Commission Terms Service Type"	"BQ Commission Terms Instance Record"	String
+""	4	"inout"	"Commission Terms Service Description"	"BQ Commission Terms Instance Record"	String
+""	5	"inout"	"Commission Terms Service Inputs and Ouputs"	"BQ Commission Terms Instance Record"	String
+""	6	"inout"	"Commission Terms Service Work Product"	"BQ Commission Terms Instance Record"	String
+""	7	"inout"	"Commission Terms Service Name"	"BQ Commission Terms Instance Record"	String
+""
+"Put"	"/commission-agreement/{sd-identifier}/employee-commission-agreement/{crbq-identifier}/grant"
+""	1	"in"	"Employee Commission Agreement Parameter Type"	"CR Employee Commission Agreement Instance Record"	String
+""	2	"in"	"Employee Commission Agreement Selected Option"	"CR Employee Commission Agreement Instance Record"	String
+""	3	"in"	"Employee Commission Agreement Type"	"CR Employee Commission Agreement Instance Record"	String
+""	4	"in"	"Employee Commission Agreement Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	5	"inout"	"Employee Commission Agreement Request"	"CR Employee Commission Agreement Instance Record"	String
+""	6	"inout"	"Employee Commission Agreement Schedule"	"CR Employee Commission Agreement Instance Record"	String
+""	7	"inout"	"Employee Commission Agreement Status"	"CR Employee Commission Agreement Instance Record"	String
+""	8	"in"	"Employee Commission Agreement Customer Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	9	"in"	"Employee Commission Agreement Obligation"	"CR Employee Commission Agreement Instance Record"	String
+""	10	"in"	"Employee Commission Agreement Entitlement"	"CR Employee Commission Agreement Instance Record"	String
+""	11	"in"	"Employee Commission Agreement Regulation Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	12	"in"	"Employee Commission Agreement Regulation Type"	"CR Employee Commission Agreement Instance Record"	String
+""	13	"in"	"Employee Commission Agreement Jurisdiction"	"CR Employee Commission Agreement Instance Record"	String
+""	14	"in"	"Employee Commission Agreement Account Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""
+"Post"	"/commission-agreement/{sd-identifier}/commission-terms/{crbq-identifier}/initiation"
+""	1	"inout"	"Commission Terms Preconditions"	"BQ Commission Terms Instance Record"	String
+""	2	"inout"	"Commission Terms Term Schedule"	"BQ Commission Terms Instance Record"	String
+""	3	"inout"	"Commission Terms Service Type"	"BQ Commission Terms Instance Record"	String
+""	4	"inout"	"Commission Terms Service Description"	"BQ Commission Terms Instance Record"	String
+""	5	"inout"	"Commission Terms Service Inputs and Ouputs"	"BQ Commission Terms Instance Record"	String
+""	6	"inout"	"Commission Terms Service Work Product"	"BQ Commission Terms Instance Record"	String
+""	7	"inout"	"Commission Terms Service Name"	"BQ Commission Terms Instance Record"	String
+""
+"Post"	"/commission-agreement/{sd-identifier}/employee-commission-agreement/{crbq-identifier}/initiation"
+""	1	"in"	"Employee Commission Agreement Parameter Type"	"CR Employee Commission Agreement Instance Record"	String
+""	2	"in"	"Employee Commission Agreement Selected Option"	"CR Employee Commission Agreement Instance Record"	String
+""	3	"in"	"Employee Commission Agreement Type"	"CR Employee Commission Agreement Instance Record"	String
+""	4	"in"	"Employee Commission Agreement Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	5	"inout"	"Employee Commission Agreement Request"	"CR Employee Commission Agreement Instance Record"	String
+""	6	"inout"	"Employee Commission Agreement Schedule"	"CR Employee Commission Agreement Instance Record"	String
+""	7	"inout"	"Employee Commission Agreement Status"	"CR Employee Commission Agreement Instance Record"	String
+""	8	"in"	"Employee Commission Agreement Customer Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	9	"in"	"Employee Commission Agreement Obligation"	"CR Employee Commission Agreement Instance Record"	String
+""	10	"in"	"Employee Commission Agreement Entitlement"	"CR Employee Commission Agreement Instance Record"	String
+""	11	"in"	"Employee Commission Agreement Regulation Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	12	"in"	"Employee Commission Agreement Regulation Type"	"CR Employee Commission Agreement Instance Record"	String
+""	13	"in"	"Employee Commission Agreement Jurisdiction"	"CR Employee Commission Agreement Instance Record"	String
+""	14	"in"	"Employee Commission Agreement Account Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""
+"Get"	"/commission-agreement/{sd-identifier}/commission-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Commission Terms Preconditions"	"BQ Commission Terms Instance Record"	String
+""	2	"out"	"Commission Terms Term Schedule"	"BQ Commission Terms Instance Record"	String
+""	3	"out"	"Commission Terms Service Type"	"BQ Commission Terms Instance Record"	String
+""	4	"out"	"Commission Terms Service Description"	"BQ Commission Terms Instance Record"	String
+""	5	"out"	"Commission Terms Service Inputs and Ouputs"	"BQ Commission Terms Instance Record"	String
+""	6	"out"	"Commission Terms Service Work Product"	"BQ Commission Terms Instance Record"	String
+""	7	"out"	"Commission Terms Service Name"	"BQ Commission Terms Instance Record"	String
+""
+"Get"	"/commission-agreement/{sd-identifier}/employee-commission-agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Employee Commission Agreement Parameter Type"	"CR Employee Commission Agreement Instance Record"	String
+""	2	"out"	"Employee Commission Agreement Selected Option"	"CR Employee Commission Agreement Instance Record"	String
+""	3	"out"	"Employee Commission Agreement Type"	"CR Employee Commission Agreement Instance Record"	String
+""	4	"out"	"Employee Commission Agreement Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	5	"out"	"Employee Commission Agreement Request"	"CR Employee Commission Agreement Instance Record"	String
+""	6	"out"	"Employee Commission Agreement Schedule"	"CR Employee Commission Agreement Instance Record"	String
+""	7	"out"	"Employee Commission Agreement Status"	"CR Employee Commission Agreement Instance Record"	String
+""	8	"out"	"Employee Commission Agreement Customer Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	9	"out"	"Employee Commission Agreement Obligation"	"CR Employee Commission Agreement Instance Record"	String
+""	10	"out"	"Employee Commission Agreement Entitlement"	"CR Employee Commission Agreement Instance Record"	String
+""	11	"out"	"Employee Commission Agreement Regulation Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	12	"out"	"Employee Commission Agreement Regulation Type"	"CR Employee Commission Agreement Instance Record"	String
+""	13	"out"	"Employee Commission Agreement Jurisdiction"	"CR Employee Commission Agreement Instance Record"	String
+""	14	"out"	"Employee Commission Agreement Account Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""
+"Put"	"/commission-agreement/{sd-identifier}/commission-terms/{crbq-identifier}/requisition"
+""	1	"inout"	"Commission Terms Preconditions"	"BQ Commission Terms Instance Record"	String
+""	2	"inout"	"Commission Terms Term Schedule"	"BQ Commission Terms Instance Record"	String
+""	3	"inout"	"Commission Terms Service Type"	"BQ Commission Terms Instance Record"	String
+""	4	"inout"	"Commission Terms Service Description"	"BQ Commission Terms Instance Record"	String
+""	5	"inout"	"Commission Terms Service Inputs and Ouputs"	"BQ Commission Terms Instance Record"	String
+""	6	"inout"	"Commission Terms Service Work Product"	"BQ Commission Terms Instance Record"	String
+""	7	"inout"	"Commission Terms Service Name"	"BQ Commission Terms Instance Record"	String
+""
+"Put"	"/commission-agreement/{sd-identifier}/employee-commission-agreement/{crbq-identifier}/requisition"
+""	1	"in"	"Employee Commission Agreement Parameter Type"	"CR Employee Commission Agreement Instance Record"	String
+""	2	"in"	"Employee Commission Agreement Selected Option"	"CR Employee Commission Agreement Instance Record"	String
+""	3	"in"	"Employee Commission Agreement Type"	"CR Employee Commission Agreement Instance Record"	String
+""	4	"in"	"Employee Commission Agreement Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	5	"inout"	"Employee Commission Agreement Request"	"CR Employee Commission Agreement Instance Record"	String
+""	6	"inout"	"Employee Commission Agreement Schedule"	"CR Employee Commission Agreement Instance Record"	String
+""	7	"inout"	"Employee Commission Agreement Status"	"CR Employee Commission Agreement Instance Record"	String
+""	8	"in"	"Employee Commission Agreement Customer Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	9	"in"	"Employee Commission Agreement Obligation"	"CR Employee Commission Agreement Instance Record"	String
+""	10	"in"	"Employee Commission Agreement Entitlement"	"CR Employee Commission Agreement Instance Record"	String
+""	11	"in"	"Employee Commission Agreement Regulation Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	12	"in"	"Employee Commission Agreement Regulation Type"	"CR Employee Commission Agreement Instance Record"	String
+""	13	"in"	"Employee Commission Agreement Jurisdiction"	"CR Employee Commission Agreement Instance Record"	String
+""	14	"in"	"Employee Commission Agreement Account Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""
+"Put"	"/commission-agreement/{sd-identifier}/commission-terms/{crbq-identifier}/update"
+""	1	"inout"	"Commission Terms Preconditions"	"BQ Commission Terms Instance Record"	String
+""	2	"inout"	"Commission Terms Term Schedule"	"BQ Commission Terms Instance Record"	String
+""	3	"inout"	"Commission Terms Service Type"	"BQ Commission Terms Instance Record"	String
+""	4	"inout"	"Commission Terms Service Description"	"BQ Commission Terms Instance Record"	String
+""	5	"inout"	"Commission Terms Service Inputs and Ouputs"	"BQ Commission Terms Instance Record"	String
+""	6	"inout"	"Commission Terms Service Work Product"	"BQ Commission Terms Instance Record"	String
+""	7	"inout"	"Commission Terms Service Name"	"BQ Commission Terms Instance Record"	String
+""
+"Put"	"/commission-agreement/{sd-identifier}/employee-commission-agreement/{crbq-identifier}/update"
+""	1	"in"	"Employee Commission Agreement Parameter Type"	"CR Employee Commission Agreement Instance Record"	String
+""	2	"in"	"Employee Commission Agreement Selected Option"	"CR Employee Commission Agreement Instance Record"	String
+""	3	"in"	"Employee Commission Agreement Type"	"CR Employee Commission Agreement Instance Record"	String
+""	4	"in"	"Employee Commission Agreement Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	5	"inout"	"Employee Commission Agreement Request"	"CR Employee Commission Agreement Instance Record"	String
+""	6	"inout"	"Employee Commission Agreement Schedule"	"CR Employee Commission Agreement Instance Record"	String
+""	7	"inout"	"Employee Commission Agreement Status"	"CR Employee Commission Agreement Instance Record"	String
+""	8	"in"	"Employee Commission Agreement Customer Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	9	"in"	"Employee Commission Agreement Obligation"	"CR Employee Commission Agreement Instance Record"	String
+""	10	"in"	"Employee Commission Agreement Entitlement"	"CR Employee Commission Agreement Instance Record"	String
+""	11	"in"	"Employee Commission Agreement Regulation Reference"	"CR Employee Commission Agreement Instance Record"	Object
+""	12	"in"	"Employee Commission Agreement Regulation Type"	"CR Employee Commission Agreement Instance Record"	String
+""	13	"in"	"Employee Commission Agreement Jurisdiction"	"CR Employee Commission Agreement Instance Record"	String
+""	14	"in"	"Employee Commission Agreement Account Reference"	"CR Employee Commission Agreement Instance Record"	Object

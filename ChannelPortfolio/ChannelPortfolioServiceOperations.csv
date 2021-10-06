@@ -1,0 +1,5 @@
+"Service Operations for: "	Channel Portfolio
+"Control Record Model for Channel Portfolio is not defined"
+"POST"	"/channel-portfolio/activation"
+"PUT"	"/channel-portfolio/{sd-reference-id}/configuration"
+"PUT"	"/channel-portfolio/{sd-reference-id}/feedback"

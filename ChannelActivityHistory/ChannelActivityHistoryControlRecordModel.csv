@@ -1,0 +1,30 @@
+"Control Record Model for: "	Channel Activity History
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Event Instance Record	""	""	""
+"BQ"	BQ Event Instance Record	Employee Reference	"The servicing resource for assisted customer exchanges"	Object
+"BQ"	BQ Event Instance Record	Product Reference	"The type of product involved"	Object
+"BQ"	BQ Event Instance Record	Product Instance Reference	"Reference to the specific product accessed by the proposed transaction"	Object
+"BQ"	BQ Event Instance Record	Customer Contact Record Reference	"Reference to the contact record for the active contact where the transaction is sourced"	Object
+"BQ"	BQ Event Instance Record	Customer Contact Record	"The contact record consolidates all aspects of the contact that is cross-referenced by all  contact functions and called servicing sessions that make up the contact"	String
+"BQ"	BQ Event Instance Record	Customer Contact Record Customer Reference	"The customer reference as provided by the contacting party and verified by the authentication function"	Object
+"BQ"	BQ Event Instance Record	Customer Contact Record Contact Device	"The contact device can be determined by the channel operations facilities (e.g. URL/ANI-phone number)"	String
+"BQ"	BQ Event Instance Record	Customer Contact Record Authentication Status	"The contact authentication level is determined by the authentication function and can be updated during the contact"	String
+"BQ"	BQ Event Instance Record	Customer Contact Record Routing Selection Status	"The routing selections made through the contact"	String
+"BQ"	BQ Event Instance Record	Customer Contact Record Menu Selection	"The requested service from a menu option can be indicated by the customer when initiating or during contact"	String
+"BQ"	BQ Event Instance Record	Customer Contact Record Servicing Request	"The customer may provide details of servicing resource request when initiating or during contact"	String
+"BQ"	BQ Event Instance Record	Customer Contact Record Servicing Event History	"Contact Handler can reference recent servicing activity for routing, security and servicing purposes (obtained from Service Domain Channel Activity History)"	String
+"BQ"	BQ Event Instance Record	Customer Contact Record Servicing Position Reference	"Reference to the servicing position - can be where an inbound contact is routed, or the source of an outbound contact request"	Object
+"BQ"	BQ Event Instance Record	Customer Contact Record Servicing Resource Reference	"Reference to the servicing resource - can be to handle an inbound contact or the source of an outbound contact request"	Object
+"BQ"	BQ Event Instance Record	Customer Contact Record Activity Record	"Records the actions performed during contact, including all dialogue sessions"	String
+"BQ"	BQ Event Instance Record	Customer Session Dialogue Reference	"Reference to any contact session dialogue records created during the contact - there can be several"	Object
+"BQ"	BQ Event Instance Record	Customer Session Dialogue Record	"The session dialogue log of actions is returned to SD-Contact Handler and added to the contact record"	String
+"BQ"	BQ Event Instance Record	Customer Contact Record Duration	"Records the start and end date times for the contact"	String
+"BQ"	BQ Event Instance Record	Customer Contact Activity Record	"Description of all actions performed during the contact, including all sessions"	String
+"BQ"	BQ Event Instance Record	Customer Contact Result	"The interim result of the contact (subject to transaction approval)"	String
+"BQ"	BQ Event Instance Record	Channel Activity History Report Reference	"Reference to a channel activity report extracted for the customer"	Object
+"BQ"	BQ Event Instance Record	Channel Activity History Report From/to	"The period for the channel activity report"	String
+"BQ"	BQ Event Instance Record	Channel Activity History Report	"The content of the report extracting recent channel activity records to support the transaction authorization decision"	String
+"BQ"	BQ Event Instance Record	Transaction Authorization Result	"Indicates success or failure or required increased authentication level to be acquired for authorization"	String
+"CR"	CR Channel Activity Log Instance Record	""	""	""
+"CR"	CR Channel Activity Log Instance Record	Customer Reference	"Reference to the customer being logged"	Object
+"CR"	CR Channel Activity Log Instance Record	Date	"Key dates associated with the log (e.g. start time)"	String

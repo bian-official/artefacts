@@ -1,0 +1,13 @@
+"Service Domain specification for Card Authorization"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Card Authorization
+"Role Definition"	"The proposed card transaction is requested by a merchant and routed through the Acquirer and Card Network to the Issuer. The authorization decision is automated and can be extremely complex. Transactions may be passed for manual checks by on-line service representatives for out of pattern purchases. Note that authorized transaction amounts may vary from the actual final amount (e.g. pre authorized hotel/car hire and charged meals excluding tips) and in cases there will be no financial transaction for an authorized transaction if the customer chooses to pay using a different card/cash. While this function is primarily performed by the Issuer, Acquirers and Card Networks may perform Stand-in Authorization and forward the results to the Issuer for recording."
+"Example of use"	"A credit card customer makes a large purchase, the card authorization triggers a verbal check of the customer details for security and the authorization is given"
+"Executive Summary"	"This service domain is responsible for the real time card authorization decisions for credit/charge cards."
+"Key Features"	"Card device verification checks. Card member identity verification. Credit checks. Fraud detection checks"
+"Functional Pattern"	Assess
+"Asset Type"	CreditCardAuthorization
+"Generic Artifact"	Assessment
+"Control Record"	CreditCardAuthorizationAssessment
+"Registration Status"	Registered

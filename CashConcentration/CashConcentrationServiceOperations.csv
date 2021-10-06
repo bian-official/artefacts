@@ -1,0 +1,5 @@
+"Service Operations for: "	Cash Concentration
+""
+"POST"	"/cash-concentration/activation"
+"PUT"	"/cash-concentration/{sd-reference-id}/configuration"
+"PUT"	"/cash-concentration/{sd-reference-id}/feedback"

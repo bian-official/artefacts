@@ -1,0 +1,184 @@
+"Service Operations for: "	Collateral Asset Administration
+""
+"POST"	"/collateral-asset-administration/activation"
+"PUT"	"/collateral-asset-administration/{sd-reference-id}/configuration"
+"PUT"	"/collateral-asset-administration/{sd-reference-id}/feedback"
+""
+"Post"	"/collateral-asset-administration/{sd-identifier}/collateral-asset-administrative-plan/{crbq-identifier}/creation"
+""	1	"out"	"Collateral Asset Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	2	"inout"	"Collateral Asset Record"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	3	"in"	"Collateral Asset Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	4	"in"	"Collateral Asset Properties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	5	"in"	"Collateral Asset Description"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	6	"in"	"Collateral Asset Title"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	7	"in"	"Collateral Asset Ownership"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	8	"in"	"Collateral Asset Interested Parties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	9	"in"	"Collateral Asset Location"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	10	"in"	"Collateral Asset Jurisdiction"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	11	"out"	"Collateral Asset Document Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	12	"in"	"Collateral Asset Document Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	13	"in"	"Collateral Asset Insurance Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	14	"in"	"Collateral Asset Pledged Date"	"CR Collateral Asset Administrative Plan Instance Record"	Date
+""	15	"out"	"Collateral Asset Valuation History"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	16	"in"	"Collateral Asset Valuation Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	17	"in"	"Collateral Asset Maintenance Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	18	"inout"	"Collateral Asset Status"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""
+"Put"	"/collateral-asset-administration/{sd-identifier}/collateral-asset-administrative-plan/{crbq-identifier}/update"
+""	1	"inout"	"Collateral Asset Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	2	"inout"	"Collateral Asset Record"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	3	"inout"	"Collateral Asset Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	4	"inout"	"Collateral Asset Properties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	5	"inout"	"Collateral Asset Description"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	6	"inout"	"Collateral Asset Title"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	7	"inout"	"Collateral Asset Ownership"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	8	"inout"	"Collateral Asset Interested Parties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	9	"inout"	"Collateral Asset Location"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	10	"inout"	"Collateral Asset Jurisdiction"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	11	"inout"	"Collateral Asset Document Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	12	"inout"	"Collateral Asset Document Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	13	"inout"	"Collateral Asset Insurance Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	14	"inout"	"Collateral Asset Pledged Date"	"CR Collateral Asset Administrative Plan Instance Record"	Date
+""	15	"inout"	"Collateral Asset Valuation History"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	16	"inout"	"Collateral Asset Valuation Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	17	"inout"	"Collateral Asset Maintenance Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	18	"inout"	"Collateral Asset Status"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""
+"Get"	"/collateral-asset-administration/{sd-identifier}/collateral-asset-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Collateral Asset Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	2	"out"	"Collateral Asset Record"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	3	"out"	"Collateral Asset Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	4	"out"	"Collateral Asset Properties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	5	"out"	"Collateral Asset Description"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	6	"out"	"Collateral Asset Title"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	7	"out"	"Collateral Asset Ownership"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	8	"out"	"Collateral Asset Interested Parties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	9	"out"	"Collateral Asset Location"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	10	"out"	"Collateral Asset Jurisdiction"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	11	"out"	"Collateral Asset Document Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	12	"out"	"Collateral Asset Document Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	13	"out"	"Collateral Asset Insurance Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	14	"out"	"Collateral Asset Pledged Date"	"CR Collateral Asset Administrative Plan Instance Record"	Date
+""	15	"out"	"Collateral Asset Valuation History"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	16	"out"	"Collateral Asset Valuation Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	17	"out"	"Collateral Asset Maintenance Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	18	"out"	"Collateral Asset Status"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""
+"Post"	"/collateral-asset-administration/{sd-identifier}/valuation/{crbq-identifier}/creation"
+""	1	"in"	"Collateral Asset Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	2	"in"	"Collateral Asset Record"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	3	"in"	"Collateral Asset Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	4	"in"	"Collateral Asset Properties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	5	"in"	"Collateral Asset Description"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	6	"in"	"Collateral Asset Title"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	7	"in"	"Collateral Asset Ownership"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	8	"in"	"Collateral Asset Interested Parties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	9	"in"	"Collateral Asset Location"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	10	"in"	"Collateral Asset Jurisdiction"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	11	"in"	"Collateral Asset Document Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	12	"in"	"Collateral Asset Document Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	13	"in"	"Collateral Asset Insurance Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	14	"in"	"Collateral Asset Pledged Date"	"CR Collateral Asset Administrative Plan Instance Record"	Date
+""	15	"in"	"Collateral Asset Valuation History"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	16	"in"	"Collateral Asset Valuation Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	17	"in"	"Collateral Asset Status"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	18	"in"	"Collateral Asset Valuation Type"	"BQ Valuation Instance Record"	String
+""	19	"in"	"Collateral Asset Valuation Service Reference"	"BQ Valuation Instance Record"	Object
+""	20	"in"	"Collateral Asset Loan to Value Ratio"	"BQ Valuation Instance Record"	String
+""	21	"out"	"Collateral Asset Valuation Date"	"BQ Valuation Instance Record"	Date
+""
+"Put"	"/collateral-asset-administration/{sd-identifier}/valuation/{crbq-identifier}/update"
+""	1	"inout"	"Collateral Asset Valuation Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	2	"inout"	"Collateral Asset Valuation Type"	"BQ Valuation Instance Record"	String
+""	3	"inout"	"Collateral Asset Valuation Service Reference"	"BQ Valuation Instance Record"	Object
+""	4	"inout"	"Collateral Asset Loan to Value Ratio"	"BQ Valuation Instance Record"	String
+""
+"Put"	"/collateral-asset-administration/{sd-identifier}/valuation/{crbq-identifier}/requisition"
+""	1	"in"	"Collateral Asset Valuation Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	2	"in"	"Collateral Asset Valuation Type"	"BQ Valuation Instance Record"	String
+""	3	"in"	"Collateral Asset Valuation Service Reference"	"BQ Valuation Instance Record"	Object
+""	4	"in"	"Collateral Asset Loan to Value Ratio"	"BQ Valuation Instance Record"	String
+""	5	"out"	"Collateral Asset Valuation Date"	"BQ Valuation Instance Record"	Date
+""
+"Get"	"/collateral-asset-administration/{sd-identifier}/valuation/{crbq-identifier}/retrieval"
+""	1	"out"	"Collateral Asset Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	2	"out"	"Collateral Asset Record"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	3	"out"	"Collateral Asset Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	4	"out"	"Collateral Asset Properties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	5	"out"	"Collateral Asset Description"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	6	"out"	"Collateral Asset Title"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	7	"out"	"Collateral Asset Ownership"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	8	"out"	"Collateral Asset Interested Parties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	9	"out"	"Collateral Asset Location"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	10	"out"	"Collateral Asset Jurisdiction"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	11	"out"	"Collateral Asset Document Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	12	"out"	"Collateral Asset Document Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	13	"out"	"Collateral Asset Insurance Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	14	"out"	"Collateral Asset Pledged Date"	"CR Collateral Asset Administrative Plan Instance Record"	Date
+""	15	"out"	"Collateral Asset Valuation History"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	16	"out"	"Collateral Asset Valuation Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	17	"out"	"Collateral Asset Status"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	18	"out"	"Collateral Asset Valuation Type"	"BQ Valuation Instance Record"	String
+""	19	"out"	"Collateral Asset Valuation Service Reference"	"BQ Valuation Instance Record"	Object
+""	20	"out"	"Collateral Asset Loan to Value Ratio"	"BQ Valuation Instance Record"	String
+""	21	"out"	"Collateral Asset Valuation Date"	"BQ Valuation Instance Record"	Date
+""
+"Post"	"/collateral-asset-administration/{sd-identifier}/maintenance/{crbq-identifier}/creation"
+""	1	"in"	"Collateral Asset Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	2	"in"	"Collateral Asset Record"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	3	"in"	"Collateral Asset Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	4	"in"	"Collateral Asset Properties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	5	"in"	"Collateral Asset Description"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	6	"in"	"Collateral Asset Title"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	7	"in"	"Collateral Asset Ownership"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	8	"in"	"Collateral Asset Interested Parties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	9	"in"	"Collateral Asset Location"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	10	"in"	"Collateral Asset Jurisdiction"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	11	"in"	"Collateral Asset Document Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	12	"in"	"Collateral Asset Document Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	13	"in"	"Collateral Asset Insurance Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	14	"in"	"Collateral Asset Pledged Date"	"CR Collateral Asset Administrative Plan Instance Record"	Date
+""	15	"in"	"Collateral Asset Valuation History"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	16	"in"	"Collateral Asset Maintenance Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	17	"in"	"Collateral Asset Status"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	18	"in"	"Collateral Asset Maintenance Task Type"	"BQ Maintenance Instance Record"	String
+""	19	"in"	"Collateral Asset Maintenance Service Provider Reference (3rd party service provider)"	"BQ Maintenance Instance Record"	Object
+""	20	"out"	"Collateral Asset Verification and Compliance Record"	"BQ Maintenance Instance Record"	String
+""	21	"out"	"Collateral Asset Maintenance/Safekeeping Fees"	"BQ Maintenance Instance Record"	String
+""
+"Put"	"/collateral-asset-administration/{sd-identifier}/maintenance/{crbq-identifier}/update"
+""	1	"inout"	"Collateral Asset Maintenance Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	2	"inout"	"Collateral Asset Maintenance Task Type"	"BQ Maintenance Instance Record"	String
+""	3	"inout"	"Collateral Asset Maintenance Service Provider Reference (3rd party service provider)"	"BQ Maintenance Instance Record"	Object
+""
+"Put"	"/collateral-asset-administration/{sd-identifier}/maintenance/{crbq-identifier}/exchange"
+""
+"Put"	"/collateral-asset-administration/{sd-identifier}/maintenance/{crbq-identifier}/requisition"
+""	1	"inout"	"Collateral Asset Maintenance Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	2	"in"	"Collateral Asset Maintenance Task Type"	"BQ Maintenance Instance Record"	String
+""	3	"in"	"Collateral Asset Maintenance Service Provider Reference (3rd party service provider)"	"BQ Maintenance Instance Record"	Object
+""	4	"out"	"Collateral Asset Verification and Compliance Record"	"BQ Maintenance Instance Record"	String
+""	5	"out"	"Collateral Asset Maintenance/Safekeeping Fees"	"BQ Maintenance Instance Record"	String
+""
+"Get"	"/collateral-asset-administration/{sd-identifier}/maintenance/{crbq-identifier}/retrieval"
+""	1	"out"	"Collateral Asset Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	2	"out"	"Collateral Asset Record"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	3	"out"	"Collateral Asset Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	4	"out"	"Collateral Asset Properties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	5	"out"	"Collateral Asset Description"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	6	"out"	"Collateral Asset Title"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	7	"out"	"Collateral Asset Ownership"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	8	"out"	"Collateral Asset Interested Parties"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	9	"out"	"Collateral Asset Location"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	10	"out"	"Collateral Asset Jurisdiction"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	11	"out"	"Collateral Asset Document Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	12	"out"	"Collateral Asset Document Type"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	13	"out"	"Collateral Asset Insurance Reference"	"CR Collateral Asset Administrative Plan Instance Record"	Object
+""	14	"out"	"Collateral Asset Pledged Date"	"CR Collateral Asset Administrative Plan Instance Record"	Date
+""	15	"out"	"Collateral Asset Valuation History"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	16	"out"	"Collateral Asset Maintenance Schedule"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	17	"out"	"Collateral Asset Status"	"CR Collateral Asset Administrative Plan Instance Record"	String
+""	18	"out"	"Collateral Asset Maintenance Task Type"	"BQ Maintenance Instance Record"	String
+""	19	"out"	"Collateral Asset Maintenance Service Provider Reference (3rd party service provider)"	"BQ Maintenance Instance Record"	Object
+""	20	"out"	"Collateral Asset Verification and Compliance Record"	"BQ Maintenance Instance Record"	String
+""	21	"out"	"Collateral Asset Maintenance/Safekeeping Fees"	"BQ Maintenance Instance Record"	String

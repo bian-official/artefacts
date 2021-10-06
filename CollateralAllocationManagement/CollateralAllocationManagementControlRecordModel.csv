@@ -1,0 +1,26 @@
+"Control Record Model for: "	Collateral Allocation Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Allocation Instance Record	""	""	""
+"BQ"	BQ Allocation Instance Record	Requested Allocation Request Type	"Defines  the requested action (e.g. earmark for future allocation, allocate or recall an allocation of a collateral asset)"	String
+"BQ"	BQ Allocation Instance Record	Product Instance Reference	"Reference to the product to which the collateral is allocated"	Object
+"BQ"	BQ Allocation Instance Record	Customer Offer Reference	"Reference to a offer process during which the collateral allocation is defined and agreed"	Object
+"BQ"	BQ Allocation Instance Record	Collateral Earmark Amount	"Applies for initial earmarking of collateral during an offer process"	Amount
+"BQ"	BQ Allocation Instance Record	Collateral Earmark Duration	"Time for which the earmarking is enforced"	String
+"BQ"	BQ Allocation Instance Record	Collateral Allocation Amount	"The amount of the overall asset value that is allocated in this instance"	Amount
+"BQ"	BQ Allocation Instance Record	Collateral Allocation Duration	"The intended duration of the allocation (can be finite or open ended)"	String
+"BQ"	BQ Allocation Instance Record	Collateral Allocation Recall Amount	"Applies when part or all of the allocation is recalled (e.g. due to revaluation of the asset)"	Amount
+"BQ"	BQ Allocation Instance Record	Collateral Allocation Recall Timetable	"The schedule for processing allocation recall"	String
+"BQ"	BQ Allocation Instance Record	Collateral Allocation Recall Result	"The result of the allocation recall"	String
+"BQ"	BQ Allocation Instance Record	Collateral Asset Allocation State	"State of the allocation as there can be different states for the allocation of a single asset to several products"	String
+"BQ"	BQ Allocation Instance Record	Collateral Allocation Request Result	"Record of the workstep and result of the allocation process"	String
+"CR"	CR Collateral Asset Allocation Instance Record	""	""	""
+"CR"	CR Collateral Asset Allocation Instance Record	Customer Reference	"Reference to the title owner of the collateral asset"	Object
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Type	"The type of asset (e.g. building, machinery, inventory, financial instrument, art)"	String
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Reference	"Reference to the collateral item (e.g. address, account reference)"	Object
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Description	"Description of significant details and properties of the asset"	String
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Administration Instance Reference	"Reference to the administration record of the asset item"	Object
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Status	"A general status indicator for the asset (can cover multiple properties as needed)"	String
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Valuation	"The current and historical valuation of the asset"	String
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Allocation Profile	"A record of past and current allocations of the collateral asset"	String
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Valuation Date	"The date of the last valuation (and next planned valuation)"	Date
+"CR"	CR Collateral Asset Allocation Instance Record	Collateral Asset Loan to Value Ratio	"The ratio of the valuation that can be used as collateral (depends on liquidity, title, etc.)"	String

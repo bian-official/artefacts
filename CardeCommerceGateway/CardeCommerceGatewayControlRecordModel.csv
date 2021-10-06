@@ -1,0 +1,28 @@
+"Control Record Model for: "	Card eCommerce Gateway
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Card Authentication Instance Record	""	""	""
+"BQ"	BQ Card Authentication Instance Record	eCommerce Transaction Instance Reference	"Refers to the card transaction that is being authenticated - note all fields may not be required"	Object
+"BQ"	BQ Card Authentication Instance Record	eCommerce Transaction Authentication Response	"The result of the card authentication request"	String
+"BQ"	BQ Transaction Authorization Instance Record	""	""	""
+"BQ"	BQ Transaction Authorization Instance Record	eCommerce Transaction Instance Reference	"Refers to the card transaction that is being authorized - note all fields may not be required"	Object
+"BQ"	BQ Transaction Authorization Instance Record	eCommerce Transaction Authorization Response	"The result of the transaction authorization request"	String
+"BQ"	BQ Card Transaction Instance Record	""	""	""
+"BQ"	BQ Card Transaction Instance Record	Product Instance Reference	"Reference to the card product identifier/number"	Object
+"BQ"	BQ Card Transaction Instance Record	Customer Reference	"The card holder as detailed on the plastic"	Object
+"BQ"	BQ Card Transaction Instance Record	Card expiration date	"As detailed on the plastic/token"	Date
+"BQ"	BQ Card Transaction Instance Record	Card CVV	"As detailed on the plastic/token"	String
+"BQ"	BQ Card Transaction Instance Record	Card Issuing Bank Reference	"Refers to the card holder's issuing bank"	Object
+"BQ"	BQ Card Transaction Instance Record	Merchant Acquiring Bank Reference	"Refers to the merchant's acquiring bank"	Object
+"BQ"	BQ Card Transaction Instance Record	eCommerce Transaction Type	"The type of transaction (purchase, cash advance, etc.)"	String
+"BQ"	BQ Card Transaction Instance Record	eCommerce Transaction Currency	"The currency that the transaction is made in"	CurrencyCode
+"BQ"	BQ Card Transaction Instance Record	eCommerce Transaction Amount Type	"Type of amount (e.g. original amount, billing currency amount, conversion rate, FX Mark-up)"	String
+"BQ"	BQ Card Transaction Instance Record	eCommerce Transaction Amount	"The amount corresponding to the type"	Amount
+"BQ"	BQ Card Transaction Instance Record	eCommerce Transaction Merchant Reference	"Refers to the merchant initiating the transaction"	Object
+"BQ"	BQ Card Transaction Instance Record	eCommerce Transaction Location Reference	"Refers to the point of sale location"	Object
+"BQ"	BQ Card Transaction Instance Record	eCommerce Transaction ProductandService Reference	"Details of the transaction (e.g. purchased service/product, purpose)"	Object
+"BQ"	BQ Card Transaction Instance Record	eCommerce Transaction Date/Time	"Significant dates and times associated with the transaction"	Date
+"BQ"	BQ Transaction Batch Instance Record	""	""	""
+"BQ"	BQ Transaction Batch Instance Record	eCommerce Batch Transaction Date/Time	"Significant dates and times associated with the batch transaction"	Date
+"BQ"	BQ Transaction Batch Instance Record	Transaction Merchant Reference	"Refers to the merchant initiating the batch"	Object
+"BQ"	BQ Transaction Batch Instance Record	eCommerce Batch Transaction Record	"Batch record contains multiple Card Transactions"	String
+"CR"	CR eCommerce Gateway Operating Session Instance Record	""	""	""

@@ -1,0 +1,47 @@
+"Control Record Model for: "	Card Authorization
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Credit Card Authorization Assessment Instance Record	""	""	""
+"CR"	CR Credit Card Authorization Assessment Instance Record	Network Reference	"Reference to the network the authentication is processed through"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Participant Acquirer Bank Reference	"Reference to the Acquiring bank requesting authorization"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Participant Issuer Bank Reference	"Reference to the Issuing bank providing authorization"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Record	"The card transaction submitted for authorization by the merchant"	String
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Product Instance Reference	"The account number associated with the card transaction"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Holder Reference	"The identity of the account holder submitting the transaction"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Issued Device Reference	"Reference to the issued device submitted to authorize the transaction (e.g. card number)"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Network Reference	"Reference to the network the card transaction is handled by as recorded with the transaction"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Issuing Bank Reference	"Refers to the card holder's issuing bank as recorded with the transaction"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Merchant Acquiring Bank Reference	"Refers to the merchant's acquiring bank as recorded with the transaction"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Type	"The type of transaction (purchase, cash advance, etc.)"	String
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Currency	"The currency that the transaction is made in"	CurrencyCode
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Amount Type	"Type of amount (e.g. original amount, billing currency amount, conversion rate, FX Mark-up)"	String
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Amount	"The amount corresponding to the type"	Amount
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Merchant Reference	"Refers to the merchant initiating settlement"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Location Reference	"Refers to the point of sale location"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction ProductandService Reference	"Details of the transaction (e.g. purchased service/product, purpose)"	Object
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Date/Time	"Significant dates and times associated with the transaction"	Date
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction FX Conversion Charge	"The applied currency conversion charge"	String
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Intercharge Fee	"The applied intercharge fee"	String
+"CR"	CR Credit Card Authorization Assessment Instance Record	Card Transaction Authorization Record	"Details the reference, amount, timestamp of the transaction authorization"	String
+"BQ"	BQ Device Check Instance Record	""	""	""
+"BQ"	BQ Device Check Instance Record	Issued Device Security Code	"The security code associated with the issued device"	String
+"BQ"	BQ Device Check Instance Record	Issued Device Cryptogram	"The cryptogram associated with issued device"	String
+"BQ"	BQ Device Check Instance Record	Issued Device CVV	"The CVV number is a further mechanism for authenticating the device"	String
+"BQ"	BQ Device Check Instance Record	Issued Device BIN	"The Bank Identification Number (BIN) is verified to be valid"	String
+"BQ"	BQ Device Check Instance Record	Issued Device Check Digit	"A property of the device checked using a specific algorithm (e.g. the Luhn algorithm)"	String
+"BQ"	BQ Device Check Instance Record	Issued Device Valid Through	"A check of the expiry date"	String
+"BQ"	BQ Device Check Instance Record	Issued Device Check Result	"The result of the device properties check"	String
+"BQ"	BQ Credit Check Instance Record	""	""	""
+"BQ"	BQ Credit Check Instance Record	Card Account available balance check result	"The returned available balance is used to perform credit check - uses product instance reference to identify account"	String
+"BQ"	BQ Fraud Check Instance Record	""	""	""
+"BQ"	BQ Fraud Check Instance Record	Fraud Check Result	"Result of the fraud check"	String
+"BQ"	BQ Authentication Instance Record	""	""	""
+"BQ"	BQ Authentication Instance Record	Card Transaction Product Instance Reference	"The card account number/identification associated with the card transaction - matched to Issuer's card account instance"	Object
+"BQ"	BQ Authentication Instance Record	Card Holder Account Password	"The password may be held at the customer or account level"	String
+"BQ"	BQ Authentication Instance Record	Issued Device PIN	"The PIN may be held at device or customer level"	String
+"BQ"	BQ Authentication Instance Record	Authentication Secret Question Reference	"Use if customer details/questions used to verify identity"	Object
+"BQ"	BQ Authentication Instance Record	Authentication Secret Question Template	"Question text and expected customer response - given value is compared"	String
+"BQ"	BQ Authentication Instance Record	Authentication Secret Question Value	"Provided value is compared to expected response"	String
+"BQ"	BQ Authentication Instance Record	Authentication Check Result	"The result of the card holder's authentication check"	String
+"BQ"	BQ Stand In Instance Record	""	""	""
+"BQ"	BQ Stand In Instance Record	Negative File Reference	"Refers to the file where lost/stolen card details are maintained. This is a file accessed using external service access"	Object
+"BQ"	BQ Stand In Instance Record	Card Account StandIn Authorization Result	"The result of the stand in authorization check"	String

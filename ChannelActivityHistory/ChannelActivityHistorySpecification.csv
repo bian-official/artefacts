@@ -1,0 +1,13 @@
+"Service Domain specification for Channel Activity History"
+"Business Area"	Channels
+"Business Domain"	Cross Channel
+"Service Domain"	Channel Activity History
+"Role Definition"	"This service domain captures transaction activity across multiple channels/devices to provide recent activity details (such as an attempt at a self-service product application) to influence/inform service routing. The history is also used for access control and as a source of activity data for more detailed channel usage analysis"
+"Example of use"	"Channel Activity Analysis draws on channel activity history data to support channel usage analysis to detect out of pattern behavior for customers"
+"Executive Summary"	"This service domains consolidates and captures customer channel usage activity to support channel activity analysis and also can be referenced for customer access authorization and routing decisions"
+"Key Features"	"Log customer channel usage. Provide recent activity records"
+"Functional Pattern"	Track
+"Asset Type"	ChannelActivity
+"Generic Artifact"	Log
+"Control Record"	ChannelActivityLog
+"Registration Status"	Registered

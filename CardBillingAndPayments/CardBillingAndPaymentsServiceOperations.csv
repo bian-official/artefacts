@@ -1,0 +1,5 @@
+"Service Operations for: "	Card Billing And Payments
+"Control Record Model for Card Billing And Payments is not defined"
+"POST"	"/card-billing-and-payments/activation"
+"PUT"	"/card-billing-and-payments/{sd-reference-id}/configuration"
+"PUT"	"/card-billing-and-payments/{sd-reference-id}/feedback"

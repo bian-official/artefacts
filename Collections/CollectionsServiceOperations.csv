@@ -1,0 +1,339 @@
+"Service Operations for: "	Collections
+""
+"POST"	"/collections/activation"
+"PUT"	"/collections/{sd-reference-id}/configuration"
+"PUT"	"/collections/{sd-reference-id}/feedback"
+""
+"Put"	"/collections/{sd-identifier}/collateral-asset-liquidation-procedure/{crbq-identifier}/control"
+""	1	"inout"	"Collateral Asset Liquidation Procedure Parameter Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	2	"inout"	"Collateral Asset Liquidation Procedure Selected Option"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	3	"inout"	"Collateral Asset Liquidation Procedure Request"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	4	"inout"	"Collateral Asset Liquidation Procedure Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	5	"inout"	"Collateral Asset Liquidation Procedure Status"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	6	"in"	"Collateral Asset Liquidation Procedure Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	7	"in"	"Collateral Asset Liquidation Procedure Business Unit Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	8	"in"	"Collateral Asset Liquidation Procedure ServiceProvider Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	9	"in"	"Collateral Asset Liquidation Procedure Financial Facility Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	10	"in"	"Collateral Asset Liquidation Procedure Employee Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	11	"in"	"Collateral Asset Liquidation Procedure Customer Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	12	"in"	"Collateral Asset Liquidation Procedure Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	13	"in"	"Collateral Asset Liquidation Procedure Service Provider Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	14	"in"	"Collateral Asset Liquidation Procedure Service Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	15	"in"	"Collateral Asset Liquidation Procedure ProductandService Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	16	"in"	"Collateral Asset Liquidation Procedure ProductandService Instance"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	17	"in"	"Collateral Asset Liquidation Procedure Transaction Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	18	"in"	"Collateral Asset Liquidation Procedure Financial Transaction Arrangement"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	19	"in"	"Collateral Asset Liquidation Procedure Customer Agreement Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""
+"Put"	"/collections/{sd-identifier}/collateral-liquidation/{crbq-identifier}/exchange"
+""	1	"inout"	"Collateral Liquidation Preconditions"	"BQ Collateral Liquidation Instance Record"	String
+""	2	"inout"	"Collateral Liquidation Business Unit/Employee Reference"	"BQ Collateral Liquidation Instance Record"	Object
+""	3	"inout"	"Collateral Liquidation Work Schedule"	"BQ Collateral Liquidation Instance Record"	String
+""	4	"inout"	"Collateral Liquidation Postconditions"	"BQ Collateral Liquidation Instance Record"	String
+""	5	"inout"	"Collateral Liquidation Collateral Liquidation Service Type"	"BQ Collateral Liquidation Instance Record"	String
+""	6	"inout"	"Collateral Liquidation Collateral Liquidation Service Description"	"BQ Collateral Liquidation Instance Record"	String
+""	7	"inout"	"Collateral Liquidation Collateral Liquidation Service Inputs and Ouputs"	"BQ Collateral Liquidation Instance Record"	String
+""	8	"inout"	"Collateral Liquidation Collateral Liquidation Service Work Product"	"BQ Collateral Liquidation Instance Record"	String
+""	9	"inout"	"Collateral Liquidation Collateral Liquidation Service Name"	"BQ Collateral Liquidation Instance Record"	String
+""
+"Put"	"/collections/{sd-identifier}/collateral-valuation/{crbq-identifier}/exchange"
+""	1	"inout"	"Collateral Valuation Preconditions"	"BQ Collateral Valuation Instance Record"	String
+""	2	"inout"	"Collateral Valuation Business Unit/Employee Reference"	"BQ Collateral Valuation Instance Record"	Object
+""	3	"inout"	"Collateral Valuation Work Schedule"	"BQ Collateral Valuation Instance Record"	String
+""	4	"inout"	"Collateral Valuation Postconditions"	"BQ Collateral Valuation Instance Record"	String
+""	5	"inout"	"Collateral Valuation Collateral Valuation Service Type"	"BQ Collateral Valuation Instance Record"	String
+""	6	"inout"	"Collateral Valuation Collateral Valuation Service Description"	"BQ Collateral Valuation Instance Record"	String
+""	7	"inout"	"Collateral Valuation Collateral Valuation Service Inputs and Ouputs"	"BQ Collateral Valuation Instance Record"	String
+""	8	"inout"	"Collateral Valuation Collateral Valuation Service Work Product"	"BQ Collateral Valuation Instance Record"	String
+""	9	"inout"	"Collateral Valuation Collateral Valuation Service Name"	"BQ Collateral Valuation Instance Record"	String
+""
+"Put"	"/collections/{sd-identifier}/debt-factoring/{crbq-identifier}/exchange"
+""	1	"inout"	"Debt Factoring Preconditions"	"BQ Debt Factoring Instance Record"	String
+""	2	"inout"	"Debt Factoring Business Unit/Employee Reference"	"BQ Debt Factoring Instance Record"	Object
+""	3	"inout"	"Debt Factoring Work Schedule"	"BQ Debt Factoring Instance Record"	String
+""	4	"inout"	"Debt Factoring Postconditions"	"BQ Debt Factoring Instance Record"	String
+""	5	"inout"	"Debt Factoring Factoring Service Type"	"BQ Debt Factoring Instance Record"	String
+""	6	"inout"	"Debt Factoring Factoring Service Description"	"BQ Debt Factoring Instance Record"	String
+""	7	"inout"	"Debt Factoring Factoring Service Inputs and Ouputs"	"BQ Debt Factoring Instance Record"	String
+""	8	"inout"	"Debt Factoring Factoring Service Work Product"	"BQ Debt Factoring Instance Record"	String
+""	9	"inout"	"Debt Factoring Factoring Service Name"	"BQ Debt Factoring Instance Record"	String
+""
+"Put"	"/collections/{sd-identifier}/collateral-asset-liquidation-procedure/{crbq-identifier}/exchange"
+""	1	"inout"	"Collateral Asset Liquidation Procedure Parameter Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	2	"inout"	"Collateral Asset Liquidation Procedure Selected Option"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	3	"inout"	"Collateral Asset Liquidation Procedure Request"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	4	"inout"	"Collateral Asset Liquidation Procedure Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	5	"inout"	"Collateral Asset Liquidation Procedure Status"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	6	"in"	"Collateral Asset Liquidation Procedure Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	7	"in"	"Collateral Asset Liquidation Procedure Business Unit Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	8	"in"	"Collateral Asset Liquidation Procedure ServiceProvider Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	9	"in"	"Collateral Asset Liquidation Procedure Financial Facility Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	10	"in"	"Collateral Asset Liquidation Procedure Employee Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	11	"in"	"Collateral Asset Liquidation Procedure Customer Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	12	"in"	"Collateral Asset Liquidation Procedure Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	13	"in"	"Collateral Asset Liquidation Procedure Service Provider Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	14	"in"	"Collateral Asset Liquidation Procedure Service Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	15	"in"	"Collateral Asset Liquidation Procedure ProductandService Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	16	"in"	"Collateral Asset Liquidation Procedure ProductandService Instance"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	17	"in"	"Collateral Asset Liquidation Procedure Transaction Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	18	"in"	"Collateral Asset Liquidation Procedure Financial Transaction Arrangement"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	19	"in"	"Collateral Asset Liquidation Procedure Customer Agreement Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""
+"Put"	"/collections/{sd-identifier}/collateral-asset-liquidation-procedure/{crbq-identifier}/execution"
+""	1	"inout"	"Collateral Asset Liquidation Procedure Parameter Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	2	"inout"	"Collateral Asset Liquidation Procedure Selected Option"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	3	"inout"	"Collateral Asset Liquidation Procedure Request"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	4	"inout"	"Collateral Asset Liquidation Procedure Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	5	"inout"	"Collateral Asset Liquidation Procedure Status"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	6	"in"	"Collateral Asset Liquidation Procedure Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	7	"in"	"Collateral Asset Liquidation Procedure Business Unit Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	8	"in"	"Collateral Asset Liquidation Procedure ServiceProvider Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	9	"in"	"Collateral Asset Liquidation Procedure Financial Facility Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	10	"in"	"Collateral Asset Liquidation Procedure Employee Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	11	"in"	"Collateral Asset Liquidation Procedure Customer Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	12	"in"	"Collateral Asset Liquidation Procedure Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	13	"in"	"Collateral Asset Liquidation Procedure Service Provider Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	14	"in"	"Collateral Asset Liquidation Procedure Service Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	15	"in"	"Collateral Asset Liquidation Procedure ProductandService Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	16	"in"	"Collateral Asset Liquidation Procedure ProductandService Instance"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	17	"in"	"Collateral Asset Liquidation Procedure Transaction Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	18	"in"	"Collateral Asset Liquidation Procedure Financial Transaction Arrangement"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	19	"in"	"Collateral Asset Liquidation Procedure Customer Agreement Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""
+"Post"	"/collections/{sd-identifier}/collateral-liquidation/{crbq-identifier}/initiation"
+""	1	"inout"	"Collateral Liquidation Preconditions"	"BQ Collateral Liquidation Instance Record"	String
+""	2	"inout"	"Collateral Liquidation Business Unit/Employee Reference"	"BQ Collateral Liquidation Instance Record"	Object
+""	3	"inout"	"Collateral Liquidation Work Schedule"	"BQ Collateral Liquidation Instance Record"	String
+""	4	"inout"	"Collateral Liquidation Postconditions"	"BQ Collateral Liquidation Instance Record"	String
+""	5	"inout"	"Collateral Liquidation Collateral Liquidation Service Type"	"BQ Collateral Liquidation Instance Record"	String
+""	6	"inout"	"Collateral Liquidation Collateral Liquidation Service Description"	"BQ Collateral Liquidation Instance Record"	String
+""	7	"inout"	"Collateral Liquidation Collateral Liquidation Service Inputs and Ouputs"	"BQ Collateral Liquidation Instance Record"	String
+""	8	"inout"	"Collateral Liquidation Collateral Liquidation Service Work Product"	"BQ Collateral Liquidation Instance Record"	String
+""	9	"inout"	"Collateral Liquidation Collateral Liquidation Service Name"	"BQ Collateral Liquidation Instance Record"	String
+""
+"Post"	"/collections/{sd-identifier}/collateral-valuation/{crbq-identifier}/initiation"
+""	1	"inout"	"Collateral Valuation Preconditions"	"BQ Collateral Valuation Instance Record"	String
+""	2	"inout"	"Collateral Valuation Business Unit/Employee Reference"	"BQ Collateral Valuation Instance Record"	Object
+""	3	"inout"	"Collateral Valuation Work Schedule"	"BQ Collateral Valuation Instance Record"	String
+""	4	"inout"	"Collateral Valuation Postconditions"	"BQ Collateral Valuation Instance Record"	String
+""	5	"inout"	"Collateral Valuation Collateral Valuation Service Type"	"BQ Collateral Valuation Instance Record"	String
+""	6	"inout"	"Collateral Valuation Collateral Valuation Service Description"	"BQ Collateral Valuation Instance Record"	String
+""	7	"inout"	"Collateral Valuation Collateral Valuation Service Inputs and Ouputs"	"BQ Collateral Valuation Instance Record"	String
+""	8	"inout"	"Collateral Valuation Collateral Valuation Service Work Product"	"BQ Collateral Valuation Instance Record"	String
+""	9	"inout"	"Collateral Valuation Collateral Valuation Service Name"	"BQ Collateral Valuation Instance Record"	String
+""
+"Post"	"/collections/{sd-identifier}/collections-assessment/{crbq-identifier}/initiation"
+""	1	"inout"	"Collections Assessment Preconditions"	"BQ Collections Assessment Instance Record"	String
+""	2	"inout"	"Collections Assessment Business Unit/Employee Reference"	"BQ Collections Assessment Instance Record"	Object
+""	3	"inout"	"Collections Assessment Work Schedule"	"BQ Collections Assessment Instance Record"	String
+""	4	"inout"	"Collections Assessment Postconditions"	"BQ Collections Assessment Instance Record"	String
+""	5	"inout"	"Collections Assessment Collections Assessment Service Type"	"BQ Collections Assessment Instance Record"	String
+""	6	"inout"	"Collections Assessment Collections Assessment Service Description"	"BQ Collections Assessment Instance Record"	String
+""	7	"inout"	"Collections Assessment Collections Assessment Service Inputs and Ouputs"	"BQ Collections Assessment Instance Record"	String
+""	8	"inout"	"Collections Assessment Collections Assessment Service Work Product"	"BQ Collections Assessment Instance Record"	String
+""	9	"inout"	"Collections Assessment Collections Assessment Service Name"	"BQ Collections Assessment Instance Record"	String
+""
+"Post"	"/collections/{sd-identifier}/debt-factoring/{crbq-identifier}/initiation"
+""	1	"inout"	"Debt Factoring Preconditions"	"BQ Debt Factoring Instance Record"	String
+""	2	"inout"	"Debt Factoring Business Unit/Employee Reference"	"BQ Debt Factoring Instance Record"	Object
+""	3	"inout"	"Debt Factoring Work Schedule"	"BQ Debt Factoring Instance Record"	String
+""	4	"inout"	"Debt Factoring Postconditions"	"BQ Debt Factoring Instance Record"	String
+""	5	"inout"	"Debt Factoring Factoring Service Type"	"BQ Debt Factoring Instance Record"	String
+""	6	"inout"	"Debt Factoring Factoring Service Description"	"BQ Debt Factoring Instance Record"	String
+""	7	"inout"	"Debt Factoring Factoring Service Inputs and Ouputs"	"BQ Debt Factoring Instance Record"	String
+""	8	"inout"	"Debt Factoring Factoring Service Work Product"	"BQ Debt Factoring Instance Record"	String
+""	9	"inout"	"Debt Factoring Factoring Service Name"	"BQ Debt Factoring Instance Record"	String
+""
+"Post"	"/collections/{sd-identifier}/collateral-asset-liquidation-procedure/{crbq-identifier}/initiation"
+""	1	"inout"	"Collateral Asset Liquidation Procedure Parameter Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	2	"inout"	"Collateral Asset Liquidation Procedure Selected Option"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	3	"inout"	"Collateral Asset Liquidation Procedure Request"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	4	"inout"	"Collateral Asset Liquidation Procedure Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	5	"inout"	"Collateral Asset Liquidation Procedure Status"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	6	"in"	"Collateral Asset Liquidation Procedure Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	7	"in"	"Collateral Asset Liquidation Procedure Business Unit Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	8	"in"	"Collateral Asset Liquidation Procedure ServiceProvider Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	9	"in"	"Collateral Asset Liquidation Procedure Financial Facility Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	10	"in"	"Collateral Asset Liquidation Procedure Employee Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	11	"in"	"Collateral Asset Liquidation Procedure Customer Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	12	"in"	"Collateral Asset Liquidation Procedure Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	13	"in"	"Collateral Asset Liquidation Procedure Service Provider Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	14	"in"	"Collateral Asset Liquidation Procedure Service Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	15	"in"	"Collateral Asset Liquidation Procedure ProductandService Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	16	"in"	"Collateral Asset Liquidation Procedure ProductandService Instance"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	17	"in"	"Collateral Asset Liquidation Procedure Transaction Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	18	"in"	"Collateral Asset Liquidation Procedure Financial Transaction Arrangement"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	19	"in"	"Collateral Asset Liquidation Procedure Customer Agreement Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""
+"Get"	"/collections/{sd-identifier}/collateral-liquidation/{crbq-identifier}/retrieval"
+""	1	"out"	"Collateral Liquidation Preconditions"	"BQ Collateral Liquidation Instance Record"	String
+""	2	"out"	"Collateral Liquidation Business Unit/Employee Reference"	"BQ Collateral Liquidation Instance Record"	Object
+""	3	"out"	"Collateral Liquidation Work Schedule"	"BQ Collateral Liquidation Instance Record"	String
+""	4	"out"	"Collateral Liquidation Postconditions"	"BQ Collateral Liquidation Instance Record"	String
+""	5	"out"	"Collateral Liquidation Collateral Liquidation Service Type"	"BQ Collateral Liquidation Instance Record"	String
+""	6	"out"	"Collateral Liquidation Collateral Liquidation Service Description"	"BQ Collateral Liquidation Instance Record"	String
+""	7	"out"	"Collateral Liquidation Collateral Liquidation Service Inputs and Ouputs"	"BQ Collateral Liquidation Instance Record"	String
+""	8	"out"	"Collateral Liquidation Collateral Liquidation Service Work Product"	"BQ Collateral Liquidation Instance Record"	String
+""	9	"out"	"Collateral Liquidation Collateral Liquidation Service Name"	"BQ Collateral Liquidation Instance Record"	String
+""
+"Get"	"/collections/{sd-identifier}/collateral-valuation/{crbq-identifier}/retrieval"
+""	1	"out"	"Collateral Valuation Preconditions"	"BQ Collateral Valuation Instance Record"	String
+""	2	"out"	"Collateral Valuation Business Unit/Employee Reference"	"BQ Collateral Valuation Instance Record"	Object
+""	3	"out"	"Collateral Valuation Work Schedule"	"BQ Collateral Valuation Instance Record"	String
+""	4	"out"	"Collateral Valuation Postconditions"	"BQ Collateral Valuation Instance Record"	String
+""	5	"out"	"Collateral Valuation Collateral Valuation Service Type"	"BQ Collateral Valuation Instance Record"	String
+""	6	"out"	"Collateral Valuation Collateral Valuation Service Description"	"BQ Collateral Valuation Instance Record"	String
+""	7	"out"	"Collateral Valuation Collateral Valuation Service Inputs and Ouputs"	"BQ Collateral Valuation Instance Record"	String
+""	8	"out"	"Collateral Valuation Collateral Valuation Service Work Product"	"BQ Collateral Valuation Instance Record"	String
+""	9	"out"	"Collateral Valuation Collateral Valuation Service Name"	"BQ Collateral Valuation Instance Record"	String
+""
+"Get"	"/collections/{sd-identifier}/collections-account-update/{crbq-identifier}/retrieval"
+""	1	"out"	"Collections Account Update Preconditions"	"BQ Collections Account Update Instance Record"	String
+""	2	"out"	"Collections Account Update Business Unit/Employee Reference"	"BQ Collections Account Update Instance Record"	Object
+""	3	"out"	"Collections Account Update Work Schedule"	"BQ Collections Account Update Instance Record"	String
+""	4	"out"	"Collections Account Update Postconditions"	"BQ Collections Account Update Instance Record"	String
+""	5	"out"	"Collections Account Update Collections Account Update Service Type"	"BQ Collections Account Update Instance Record"	String
+""	6	"out"	"Collections Account Update Collections Account Update Service Description"	"BQ Collections Account Update Instance Record"	String
+""	7	"out"	"Collections Account Update Collections Account Update Service Inputs and Ouputs"	"BQ Collections Account Update Instance Record"	String
+""	8	"out"	"Collections Account Update Collections Account Update Service Work Product"	"BQ Collections Account Update Instance Record"	String
+""	9	"out"	"Collections Account Update Collections Account Update Service Name"	"BQ Collections Account Update Instance Record"	String
+""
+"Get"	"/collections/{sd-identifier}/collections-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Collections Assessment Preconditions"	"BQ Collections Assessment Instance Record"	String
+""	2	"out"	"Collections Assessment Business Unit/Employee Reference"	"BQ Collections Assessment Instance Record"	Object
+""	3	"out"	"Collections Assessment Work Schedule"	"BQ Collections Assessment Instance Record"	String
+""	4	"out"	"Collections Assessment Postconditions"	"BQ Collections Assessment Instance Record"	String
+""	5	"out"	"Collections Assessment Collections Assessment Service Type"	"BQ Collections Assessment Instance Record"	String
+""	6	"out"	"Collections Assessment Collections Assessment Service Description"	"BQ Collections Assessment Instance Record"	String
+""	7	"out"	"Collections Assessment Collections Assessment Service Inputs and Ouputs"	"BQ Collections Assessment Instance Record"	String
+""	8	"out"	"Collections Assessment Collections Assessment Service Work Product"	"BQ Collections Assessment Instance Record"	String
+""	9	"out"	"Collections Assessment Collections Assessment Service Name"	"BQ Collections Assessment Instance Record"	String
+""
+"Get"	"/collections/{sd-identifier}/debt-factoring/{crbq-identifier}/retrieval"
+""	1	"out"	"Debt Factoring Preconditions"	"BQ Debt Factoring Instance Record"	String
+""	2	"out"	"Debt Factoring Business Unit/Employee Reference"	"BQ Debt Factoring Instance Record"	Object
+""	3	"out"	"Debt Factoring Work Schedule"	"BQ Debt Factoring Instance Record"	String
+""	4	"out"	"Debt Factoring Postconditions"	"BQ Debt Factoring Instance Record"	String
+""	5	"out"	"Debt Factoring Factoring Service Type"	"BQ Debt Factoring Instance Record"	String
+""	6	"out"	"Debt Factoring Factoring Service Description"	"BQ Debt Factoring Instance Record"	String
+""	7	"out"	"Debt Factoring Factoring Service Inputs and Ouputs"	"BQ Debt Factoring Instance Record"	String
+""	8	"out"	"Debt Factoring Factoring Service Work Product"	"BQ Debt Factoring Instance Record"	String
+""	9	"out"	"Debt Factoring Factoring Service Name"	"BQ Debt Factoring Instance Record"	String
+""
+"Get"	"/collections/{sd-identifier}/collateral-asset-liquidation-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Collateral Asset Liquidation Procedure Parameter Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	2	"out"	"Collateral Asset Liquidation Procedure Selected Option"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	3	"out"	"Collateral Asset Liquidation Procedure Request"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	4	"out"	"Collateral Asset Liquidation Procedure Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	5	"out"	"Collateral Asset Liquidation Procedure Status"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	6	"out"	"Collateral Asset Liquidation Procedure Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	7	"out"	"Collateral Asset Liquidation Procedure Business Unit Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	8	"out"	"Collateral Asset Liquidation Procedure ServiceProvider Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	9	"out"	"Collateral Asset Liquidation Procedure Financial Facility Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	10	"out"	"Collateral Asset Liquidation Procedure Employee Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	11	"out"	"Collateral Asset Liquidation Procedure Customer Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	12	"out"	"Collateral Asset Liquidation Procedure Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	13	"out"	"Collateral Asset Liquidation Procedure Service Provider Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	14	"out"	"Collateral Asset Liquidation Procedure Service Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	15	"out"	"Collateral Asset Liquidation Procedure ProductandService Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	16	"out"	"Collateral Asset Liquidation Procedure ProductandService Instance"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	17	"out"	"Collateral Asset Liquidation Procedure Transaction Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	18	"out"	"Collateral Asset Liquidation Procedure Financial Transaction Arrangement"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	19	"out"	"Collateral Asset Liquidation Procedure Customer Agreement Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""
+"Put"	"/collections/{sd-identifier}/collateral-asset-liquidation-procedure/{crbq-identifier}/requisition"
+""	1	"inout"	"Collateral Asset Liquidation Procedure Parameter Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	2	"inout"	"Collateral Asset Liquidation Procedure Selected Option"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	3	"inout"	"Collateral Asset Liquidation Procedure Request"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	4	"inout"	"Collateral Asset Liquidation Procedure Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	5	"inout"	"Collateral Asset Liquidation Procedure Status"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	6	"in"	"Collateral Asset Liquidation Procedure Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	7	"in"	"Collateral Asset Liquidation Procedure Business Unit Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	8	"in"	"Collateral Asset Liquidation Procedure ServiceProvider Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	9	"in"	"Collateral Asset Liquidation Procedure Financial Facility Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	10	"in"	"Collateral Asset Liquidation Procedure Employee Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	11	"in"	"Collateral Asset Liquidation Procedure Customer Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	12	"in"	"Collateral Asset Liquidation Procedure Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	13	"in"	"Collateral Asset Liquidation Procedure Service Provider Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	14	"in"	"Collateral Asset Liquidation Procedure Service Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	15	"in"	"Collateral Asset Liquidation Procedure ProductandService Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	16	"in"	"Collateral Asset Liquidation Procedure ProductandService Instance"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	17	"in"	"Collateral Asset Liquidation Procedure Transaction Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	18	"in"	"Collateral Asset Liquidation Procedure Financial Transaction Arrangement"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	19	"in"	"Collateral Asset Liquidation Procedure Customer Agreement Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""
+"Put"	"/collections/{sd-identifier}/collateral-liquidation/{crbq-identifier}/update"
+""	1	"inout"	"Collateral Liquidation Preconditions"	"BQ Collateral Liquidation Instance Record"	String
+""	2	"inout"	"Collateral Liquidation Business Unit/Employee Reference"	"BQ Collateral Liquidation Instance Record"	Object
+""	3	"inout"	"Collateral Liquidation Work Schedule"	"BQ Collateral Liquidation Instance Record"	String
+""	4	"inout"	"Collateral Liquidation Postconditions"	"BQ Collateral Liquidation Instance Record"	String
+""	5	"inout"	"Collateral Liquidation Collateral Liquidation Service Type"	"BQ Collateral Liquidation Instance Record"	String
+""	6	"inout"	"Collateral Liquidation Collateral Liquidation Service Description"	"BQ Collateral Liquidation Instance Record"	String
+""	7	"inout"	"Collateral Liquidation Collateral Liquidation Service Inputs and Ouputs"	"BQ Collateral Liquidation Instance Record"	String
+""	8	"inout"	"Collateral Liquidation Collateral Liquidation Service Work Product"	"BQ Collateral Liquidation Instance Record"	String
+""	9	"inout"	"Collateral Liquidation Collateral Liquidation Service Name"	"BQ Collateral Liquidation Instance Record"	String
+""
+"Put"	"/collections/{sd-identifier}/collateral-valuation/{crbq-identifier}/update"
+""	1	"inout"	"Collateral Valuation Preconditions"	"BQ Collateral Valuation Instance Record"	String
+""	2	"inout"	"Collateral Valuation Business Unit/Employee Reference"	"BQ Collateral Valuation Instance Record"	Object
+""	3	"inout"	"Collateral Valuation Work Schedule"	"BQ Collateral Valuation Instance Record"	String
+""	4	"inout"	"Collateral Valuation Postconditions"	"BQ Collateral Valuation Instance Record"	String
+""	5	"inout"	"Collateral Valuation Collateral Valuation Service Type"	"BQ Collateral Valuation Instance Record"	String
+""	6	"inout"	"Collateral Valuation Collateral Valuation Service Description"	"BQ Collateral Valuation Instance Record"	String
+""	7	"inout"	"Collateral Valuation Collateral Valuation Service Inputs and Ouputs"	"BQ Collateral Valuation Instance Record"	String
+""	8	"inout"	"Collateral Valuation Collateral Valuation Service Work Product"	"BQ Collateral Valuation Instance Record"	String
+""	9	"inout"	"Collateral Valuation Collateral Valuation Service Name"	"BQ Collateral Valuation Instance Record"	String
+""
+"Put"	"/collections/{sd-identifier}/collections-account-update/{crbq-identifier}/update"
+""	1	"inout"	"Collections Account Update Preconditions"	"BQ Collections Account Update Instance Record"	String
+""	2	"inout"	"Collections Account Update Business Unit/Employee Reference"	"BQ Collections Account Update Instance Record"	Object
+""	3	"inout"	"Collections Account Update Work Schedule"	"BQ Collections Account Update Instance Record"	String
+""	4	"inout"	"Collections Account Update Postconditions"	"BQ Collections Account Update Instance Record"	String
+""	5	"inout"	"Collections Account Update Collections Account Update Service Type"	"BQ Collections Account Update Instance Record"	String
+""	6	"inout"	"Collections Account Update Collections Account Update Service Description"	"BQ Collections Account Update Instance Record"	String
+""	7	"inout"	"Collections Account Update Collections Account Update Service Inputs and Ouputs"	"BQ Collections Account Update Instance Record"	String
+""	8	"inout"	"Collections Account Update Collections Account Update Service Work Product"	"BQ Collections Account Update Instance Record"	String
+""	9	"inout"	"Collections Account Update Collections Account Update Service Name"	"BQ Collections Account Update Instance Record"	String
+""
+"Put"	"/collections/{sd-identifier}/collections-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Collections Assessment Preconditions"	"BQ Collections Assessment Instance Record"	String
+""	2	"inout"	"Collections Assessment Business Unit/Employee Reference"	"BQ Collections Assessment Instance Record"	Object
+""	3	"inout"	"Collections Assessment Work Schedule"	"BQ Collections Assessment Instance Record"	String
+""	4	"inout"	"Collections Assessment Postconditions"	"BQ Collections Assessment Instance Record"	String
+""	5	"inout"	"Collections Assessment Collections Assessment Service Type"	"BQ Collections Assessment Instance Record"	String
+""	6	"inout"	"Collections Assessment Collections Assessment Service Description"	"BQ Collections Assessment Instance Record"	String
+""	7	"inout"	"Collections Assessment Collections Assessment Service Inputs and Ouputs"	"BQ Collections Assessment Instance Record"	String
+""	8	"inout"	"Collections Assessment Collections Assessment Service Work Product"	"BQ Collections Assessment Instance Record"	String
+""	9	"inout"	"Collections Assessment Collections Assessment Service Name"	"BQ Collections Assessment Instance Record"	String
+""
+"Put"	"/collections/{sd-identifier}/debt-factoring/{crbq-identifier}/update"
+""	1	"inout"	"Debt Factoring Preconditions"	"BQ Debt Factoring Instance Record"	String
+""	2	"inout"	"Debt Factoring Business Unit/Employee Reference"	"BQ Debt Factoring Instance Record"	Object
+""	3	"inout"	"Debt Factoring Work Schedule"	"BQ Debt Factoring Instance Record"	String
+""	4	"inout"	"Debt Factoring Postconditions"	"BQ Debt Factoring Instance Record"	String
+""	5	"inout"	"Debt Factoring Factoring Service Type"	"BQ Debt Factoring Instance Record"	String
+""	6	"inout"	"Debt Factoring Factoring Service Description"	"BQ Debt Factoring Instance Record"	String
+""	7	"inout"	"Debt Factoring Factoring Service Inputs and Ouputs"	"BQ Debt Factoring Instance Record"	String
+""	8	"inout"	"Debt Factoring Factoring Service Work Product"	"BQ Debt Factoring Instance Record"	String
+""	9	"inout"	"Debt Factoring Factoring Service Name"	"BQ Debt Factoring Instance Record"	String
+""
+"Put"	"/collections/{sd-identifier}/collateral-asset-liquidation-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Collateral Asset Liquidation Procedure Parameter Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	2	"inout"	"Collateral Asset Liquidation Procedure Selected Option"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	3	"inout"	"Collateral Asset Liquidation Procedure Request"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	4	"inout"	"Collateral Asset Liquidation Procedure Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	5	"inout"	"Collateral Asset Liquidation Procedure Status"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	6	"in"	"Collateral Asset Liquidation Procedure Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	7	"in"	"Collateral Asset Liquidation Procedure Business Unit Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	8	"in"	"Collateral Asset Liquidation Procedure ServiceProvider Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	9	"in"	"Collateral Asset Liquidation Procedure Financial Facility Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	10	"in"	"Collateral Asset Liquidation Procedure Employee Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	11	"in"	"Collateral Asset Liquidation Procedure Customer Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object
+""	12	"in"	"Collateral Asset Liquidation Procedure Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	13	"in"	"Collateral Asset Liquidation Procedure Service Provider Schedule"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	14	"in"	"Collateral Asset Liquidation Procedure Service Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	15	"in"	"Collateral Asset Liquidation Procedure ProductandService Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	16	"in"	"Collateral Asset Liquidation Procedure ProductandService Instance"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	17	"in"	"Collateral Asset Liquidation Procedure Transaction Type"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	18	"in"	"Collateral Asset Liquidation Procedure Financial Transaction Arrangement"	"CR Collateral Asset Liquidation Procedure Instance Record"	String
+""	19	"in"	"Collateral Asset Liquidation Procedure Customer Agreement Reference"	"CR Collateral Asset Liquidation Procedure Instance Record"	Object

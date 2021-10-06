@@ -1,0 +1,93 @@
+"Service Operations for: "	Channel Activity History
+""
+"POST"	"/channel-activity-history/activation"
+"PUT"	"/channel-activity-history/{sd-reference-id}/configuration"
+"PUT"	"/channel-activity-history/{sd-reference-id}/feedback"
+""
+"Post"	"/channel-activity-history/{sd-identifier}/channel-activity-log/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Channel Activity Log Instance Record"	Object
+""	2	"inout"	"Date"	"CR Channel Activity Log Instance Record"	String
+""
+"Put"	"/channel-activity-history/{sd-identifier}/channel-activity-log/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Channel Activity Log Instance Record"	Object
+""	2	"inout"	"Date"	"CR Channel Activity Log Instance Record"	String
+""
+"Put"	"/channel-activity-history/{sd-identifier}/channel-activity-log/{crbq-identifier}/control"
+""
+"Get"	"/channel-activity-history/{sd-identifier}/channel-activity-log/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Channel Activity Log Instance Record"	Object
+""	2	"out"	"Date"	"CR Channel Activity Log Instance Record"	String
+""
+"Put"	"/channel-activity-history/{sd-identifier}/event/{crbq-identifier}/update"
+""	1	"inout"	"Employee Reference"	"BQ Event Instance Record"	Object
+""	2	"inout"	"Product Reference"	"BQ Event Instance Record"	Object
+""	3	"inout"	"Product Instance Reference"	"BQ Event Instance Record"	Object
+""	4	"inout"	"Customer Contact Record Reference"	"BQ Event Instance Record"	Object
+""	5	"inout"	"Customer Contact Record Customer Reference"	"BQ Event Instance Record"	Object
+""	6	"inout"	"Customer Contact Record Contact Device"	"BQ Event Instance Record"	String
+""	7	"inout"	"Customer Contact Record Authentication Status"	"BQ Event Instance Record"	String
+""	8	"inout"	"Customer Contact Record Routing Selection Status"	"BQ Event Instance Record"	String
+""	9	"inout"	"Customer Contact Record Menu Selection"	"BQ Event Instance Record"	String
+""	10	"inout"	"Customer Contact Record Servicing Request"	"BQ Event Instance Record"	String
+""	11	"inout"	"Customer Contact Record Servicing Event History"	"BQ Event Instance Record"	String
+""	12	"inout"	"Customer Contact Record Servicing Position Reference"	"BQ Event Instance Record"	Object
+""	13	"inout"	"Customer Contact Record Servicing Resource Reference"	"BQ Event Instance Record"	Object
+""	14	"inout"	"Customer Contact Record Activity Record"	"BQ Event Instance Record"	String
+""	15	"inout"	"Customer Contact Dialogue Reference"	"BQ Event Instance Record"	Object
+""	16	"inout"	"Customer Contact Dialogue Record"	"BQ Event Instance Record"	String
+""	17	"inout"	"Customer Contact Record Duration"	"BQ Event Instance Record"	String
+""	18	"inout"	"Customer Contact Activity Record"	"BQ Event Instance Record"	String
+""	19	"inout"	"Customer Contact Result"	"BQ Event Instance Record"	String
+""	20	"inout"	"Channel Activity History Report Reference"	"BQ Event Instance Record"	Object
+""	21	"inout"	"Channel Activity History Report From/to"	"BQ Event Instance Record"	String
+""	22	"inout"	"Transaction Authorization Result"	"BQ Event Instance Record"	String
+""
+"Put"	"/channel-activity-history/{sd-identifier}/event/{crbq-identifier}/capture"
+""	1	"in"	"Employee Reference"	"BQ Event Instance Record"	Object
+""	2	"in"	"Product Reference"	"BQ Event Instance Record"	Object
+""	3	"in"	"Product Instance Reference"	"BQ Event Instance Record"	Object
+""	4	"in"	"Customer Contact Record Reference"	"BQ Event Instance Record"	Object
+""	5	"in"	"Customer Contact Record Customer Reference"	"BQ Event Instance Record"	Object
+""	6	"in"	"Customer Contact Record Contact Device"	"BQ Event Instance Record"	String
+""	7	"in"	"Customer Contact Record Authentication Status"	"BQ Event Instance Record"	String
+""	8	"in"	"Customer Contact Record Routing Selection Status"	"BQ Event Instance Record"	String
+""	9	"in"	"Customer Contact Record Menu Selection"	"BQ Event Instance Record"	String
+""	10	"in"	"Customer Contact Record Servicing Request"	"BQ Event Instance Record"	String
+""	11	"in"	"Customer Contact Record Servicing Event History"	"BQ Event Instance Record"	String
+""	12	"in"	"Customer Contact Record Servicing Position Reference"	"BQ Event Instance Record"	Object
+""	13	"in"	"Customer Contact Record Servicing Resource Reference"	"BQ Event Instance Record"	Object
+""	14	"in"	"Customer Contact Record Activity Record"	"BQ Event Instance Record"	String
+""	15	"in"	"Customer Contact Dialogue Reference"	"BQ Event Instance Record"	Object
+""	16	"in"	"Customer Contact Dialogue Record"	"BQ Event Instance Record"	String
+""	17	"in"	"Customer Contact Record Duration"	"BQ Event Instance Record"	String
+""	18	"in"	"Customer Contact Activity Record"	"BQ Event Instance Record"	String
+""	19	"in"	"Customer Contact Result"	"BQ Event Instance Record"	String
+""	20	"in"	"Channel Activity History Report Reference"	"BQ Event Instance Record"	Object
+""	21	"in"	"Channel Activity History Report From/to"	"BQ Event Instance Record"	String
+""	22	"in"	"Transaction Authorization Result"	"BQ Event Instance Record"	String
+""
+"Get"	"/channel-activity-history/{sd-identifier}/event/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Channel Activity Log Instance Record"	Object
+""	2	"out"	"Date"	"CR Channel Activity Log Instance Record"	String
+""	3	"out"	"Employee Reference"	"BQ Event Instance Record"	Object
+""	4	"out"	"Product Reference"	"BQ Event Instance Record"	Object
+""	5	"out"	"Product Instance Reference"	"BQ Event Instance Record"	Object
+""	6	"out"	"Customer Contact Record Reference"	"BQ Event Instance Record"	Object
+""	7	"out"	"Customer Contact Record Customer Reference"	"BQ Event Instance Record"	Object
+""	8	"out"	"Customer Contact Record Contact Device"	"BQ Event Instance Record"	String
+""	9	"out"	"Customer Contact Record Authentication Status"	"BQ Event Instance Record"	String
+""	10	"out"	"Customer Contact Record Routing Selection Status"	"BQ Event Instance Record"	String
+""	11	"out"	"Customer Contact Record Menu Selection"	"BQ Event Instance Record"	String
+""	12	"out"	"Customer Contact Record Servicing Request"	"BQ Event Instance Record"	String
+""	13	"out"	"Customer Contact Record Servicing Event History"	"BQ Event Instance Record"	String
+""	14	"out"	"Customer Contact Record Servicing Position Reference"	"BQ Event Instance Record"	Object
+""	15	"out"	"Customer Contact Record Servicing Resource Reference"	"BQ Event Instance Record"	Object
+""	16	"out"	"Customer Contact Record Activity Record"	"BQ Event Instance Record"	String
+""	17	"out"	"Customer Contact Dialogue Reference"	"BQ Event Instance Record"	Object
+""	18	"out"	"Customer Contact Dialogue Record"	"BQ Event Instance Record"	String
+""	19	"out"	"Customer Contact Record Duration"	"BQ Event Instance Record"	String
+""	20	"out"	"Customer Contact Activity Record"	"BQ Event Instance Record"	String
+""	21	"out"	"Customer Contact Result"	"BQ Event Instance Record"	String
+""	22	"out"	"Channel Activity History Report Reference"	"BQ Event Instance Record"	Object
+""	23	"out"	"Channel Activity History Report From/to"	"BQ Event Instance Record"	String
+""	24	"out"	"Transaction Authorization Result"	"BQ Event Instance Record"	String

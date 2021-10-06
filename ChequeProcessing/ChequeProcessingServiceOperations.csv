@@ -1,0 +1,127 @@
+"Service Operations for: "	Cheque Processing
+""
+"POST"	"/cheque-processing/activation"
+"PUT"	"/cheque-processing/{sd-reference-id}/configuration"
+"PUT"	"/cheque-processing/{sd-reference-id}/feedback"
+""
+"Put"	"/cheque-processing/{sd-identifier}/cheque-processing-operating-session/{crbq-identifier}/control"
+""	1	"in"	"Cheque Processing Operating Session Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	2	"in"	"Cheque Processing Operating Session Status"	"CR Cheque Processing Operating Session Instance Record"	String
+""	3	"in"	"Cheque Processing Operating Session Usage Log"	"CR Cheque Processing Operating Session Instance Record"	String
+""	4	"inout"	"Cheque Processing Operating Session Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	5	"inout"	"Cheque Processing Operating Session ServiceProvider Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	6	"inout"	"Cheque Processing Operating Session Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	7	"inout"	"Cheque Processing Operating Session Service Provider Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	8	"inout"	"Cheque Processing Operating Session Service Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	9	"in"	"Cheque Processing Operating Session Service Configuration"	"CR Cheque Processing Operating Session Instance Record"	String
+""
+"Put"	"/cheque-processing/{sd-identifier}/financial-transaction-initiation/{crbq-identifier}/exchange"
+""	1	"inout"	"Financial Transaction Initiation Preconditions"	"BQ Financial Transaction Initiation Instance Record"	String
+""	2	"inout"	"Financial Transaction Initiation Function Schedule"	"BQ Financial Transaction Initiation Instance Record"	String
+""	3	"inout"	"Financial Transaction Initiation Service Type"	"BQ Financial Transaction Initiation Instance Record"	String
+""	4	"inout"	"Financial Transaction Initiation Service Description"	"BQ Financial Transaction Initiation Instance Record"	String
+""	5	"inout"	"Financial Transaction Initiation Service Inputs and Ouputs"	"BQ Financial Transaction Initiation Instance Record"	String
+""	6	"inout"	"Financial Transaction Initiation Service Work Product"	"BQ Financial Transaction Initiation Instance Record"	String
+""	7	"inout"	"Financial Transaction Initiation Service Name"	"BQ Financial Transaction Initiation Instance Record"	String
+""
+"Put"	"/cheque-processing/{sd-identifier}/cheque-processing-operating-session/{crbq-identifier}/exchange"
+""	1	"in"	"Cheque Processing Operating Session Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	2	"in"	"Cheque Processing Operating Session Status"	"CR Cheque Processing Operating Session Instance Record"	String
+""	3	"in"	"Cheque Processing Operating Session Usage Log"	"CR Cheque Processing Operating Session Instance Record"	String
+""	4	"inout"	"Cheque Processing Operating Session Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	5	"inout"	"Cheque Processing Operating Session ServiceProvider Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	6	"inout"	"Cheque Processing Operating Session Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	7	"inout"	"Cheque Processing Operating Session Service Provider Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	8	"inout"	"Cheque Processing Operating Session Service Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	9	"in"	"Cheque Processing Operating Session Service Configuration"	"CR Cheque Processing Operating Session Instance Record"	String
+""
+"Put"	"/cheque-processing/{sd-identifier}/cheque-processing-operating-session/{crbq-identifier}/execution"
+""	1	"in"	"Cheque Processing Operating Session Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	2	"in"	"Cheque Processing Operating Session Status"	"CR Cheque Processing Operating Session Instance Record"	String
+""	3	"in"	"Cheque Processing Operating Session Usage Log"	"CR Cheque Processing Operating Session Instance Record"	String
+""	4	"inout"	"Cheque Processing Operating Session Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	5	"inout"	"Cheque Processing Operating Session ServiceProvider Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	6	"inout"	"Cheque Processing Operating Session Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	7	"inout"	"Cheque Processing Operating Session Service Provider Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	8	"inout"	"Cheque Processing Operating Session Service Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	9	"in"	"Cheque Processing Operating Session Service Configuration"	"CR Cheque Processing Operating Session Instance Record"	String
+""
+"Post"	"/cheque-processing/{sd-identifier}/cheque-processing-operating-session/{crbq-identifier}/initiation"
+""	1	"in"	"Cheque Processing Operating Session Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	2	"in"	"Cheque Processing Operating Session Status"	"CR Cheque Processing Operating Session Instance Record"	String
+""	3	"in"	"Cheque Processing Operating Session Usage Log"	"CR Cheque Processing Operating Session Instance Record"	String
+""	4	"inout"	"Cheque Processing Operating Session Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	5	"inout"	"Cheque Processing Operating Session ServiceProvider Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	6	"inout"	"Cheque Processing Operating Session Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	7	"inout"	"Cheque Processing Operating Session Service Provider Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	8	"inout"	"Cheque Processing Operating Session Service Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	9	"in"	"Cheque Processing Operating Session Service Configuration"	"CR Cheque Processing Operating Session Instance Record"	String
+""
+"Get"	"/cheque-processing/{sd-identifier}/cancelled-cheque-handling/{crbq-identifier}/retrieval"
+""	1	"out"	"Cancelled Cheque Handling Preconditions"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	2	"out"	"Cancelled Cheque Handling Function Schedule"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	3	"out"	"Cancelled Cheque Handling Service Type"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	4	"out"	"Cancelled Cheque Handling Service Description"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	5	"out"	"Cancelled Cheque Handling Service Inputs and Ouputs"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	6	"out"	"Cancelled Cheque Handling Service Work Product"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	7	"out"	"Cancelled Cheque Handling Service Name"	"BQ Cancelled Cheque Handling Instance Record"	String
+""
+"Get"	"/cheque-processing/{sd-identifier}/cheque-extraction/{crbq-identifier}/retrieval"
+""	1	"out"	"Cheque Extraction Preconditions"	"BQ Cheque Extraction Instance Record"	String
+""	2	"out"	"Cheque Extraction Function Schedule"	"BQ Cheque Extraction Instance Record"	String
+""	3	"out"	"Cheque Extraction Service Type"	"BQ Cheque Extraction Instance Record"	String
+""	4	"out"	"Cheque Extraction Service Description"	"BQ Cheque Extraction Instance Record"	String
+""	5	"out"	"Cheque Extraction Service Inputs and Ouputs"	"BQ Cheque Extraction Instance Record"	String
+""	6	"out"	"Cheque Extraction Service Work Product"	"BQ Cheque Extraction Instance Record"	String
+""	7	"out"	"Cheque Extraction Service Name"	"BQ Cheque Extraction Instance Record"	String
+""
+"Get"	"/cheque-processing/{sd-identifier}/financial-transaction-initiation/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Transaction Initiation Preconditions"	"BQ Financial Transaction Initiation Instance Record"	String
+""	2	"out"	"Financial Transaction Initiation Function Schedule"	"BQ Financial Transaction Initiation Instance Record"	String
+""	3	"out"	"Financial Transaction Initiation Service Type"	"BQ Financial Transaction Initiation Instance Record"	String
+""	4	"out"	"Financial Transaction Initiation Service Description"	"BQ Financial Transaction Initiation Instance Record"	String
+""	5	"out"	"Financial Transaction Initiation Service Inputs and Ouputs"	"BQ Financial Transaction Initiation Instance Record"	String
+""	6	"out"	"Financial Transaction Initiation Service Work Product"	"BQ Financial Transaction Initiation Instance Record"	String
+""	7	"out"	"Financial Transaction Initiation Service Name"	"BQ Financial Transaction Initiation Instance Record"	String
+""
+"Get"	"/cheque-processing/{sd-identifier}/cheque-processing-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"Cheque Processing Operating Session Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	2	"out"	"Cheque Processing Operating Session Status"	"CR Cheque Processing Operating Session Instance Record"	String
+""	3	"out"	"Cheque Processing Operating Session Usage Log"	"CR Cheque Processing Operating Session Instance Record"	String
+""	4	"out"	"Cheque Processing Operating Session Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	5	"out"	"Cheque Processing Operating Session ServiceProvider Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	6	"out"	"Cheque Processing Operating Session Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	7	"out"	"Cheque Processing Operating Session Service Provider Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	8	"out"	"Cheque Processing Operating Session Service Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	9	"out"	"Cheque Processing Operating Session Service Configuration"	"CR Cheque Processing Operating Session Instance Record"	String
+""
+"Put"	"/cheque-processing/{sd-identifier}/cheque-processing-operating-session/{crbq-identifier}/requisition"
+""	1	"in"	"Cheque Processing Operating Session Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	2	"in"	"Cheque Processing Operating Session Status"	"CR Cheque Processing Operating Session Instance Record"	String
+""	3	"in"	"Cheque Processing Operating Session Usage Log"	"CR Cheque Processing Operating Session Instance Record"	String
+""	4	"inout"	"Cheque Processing Operating Session Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	5	"inout"	"Cheque Processing Operating Session ServiceProvider Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	6	"inout"	"Cheque Processing Operating Session Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	7	"inout"	"Cheque Processing Operating Session Service Provider Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	8	"inout"	"Cheque Processing Operating Session Service Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	9	"in"	"Cheque Processing Operating Session Service Configuration"	"CR Cheque Processing Operating Session Instance Record"	String
+""
+"Put"	"/cheque-processing/{sd-identifier}/cancelled-cheque-handling/{crbq-identifier}/update"
+""	1	"inout"	"Cancelled Cheque Handling Preconditions"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	2	"inout"	"Cancelled Cheque Handling Function Schedule"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	3	"inout"	"Cancelled Cheque Handling Service Type"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	4	"inout"	"Cancelled Cheque Handling Service Description"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	5	"inout"	"Cancelled Cheque Handling Service Inputs and Ouputs"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	6	"inout"	"Cancelled Cheque Handling Service Work Product"	"BQ Cancelled Cheque Handling Instance Record"	String
+""	7	"inout"	"Cancelled Cheque Handling Service Name"	"BQ Cancelled Cheque Handling Instance Record"	String
+""
+"Put"	"/cheque-processing/{sd-identifier}/cheque-processing-operating-session/{crbq-identifier}/update"
+""	1	"in"	"Cheque Processing Operating Session Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	2	"in"	"Cheque Processing Operating Session Status"	"CR Cheque Processing Operating Session Instance Record"	String
+""	3	"in"	"Cheque Processing Operating Session Usage Log"	"CR Cheque Processing Operating Session Instance Record"	String
+""	4	"inout"	"Cheque Processing Operating Session Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	5	"inout"	"Cheque Processing Operating Session ServiceProvider Reference"	"CR Cheque Processing Operating Session Instance Record"	Object
+""	6	"inout"	"Cheque Processing Operating Session Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	7	"inout"	"Cheque Processing Operating Session Service Provider Schedule"	"CR Cheque Processing Operating Session Instance Record"	String
+""	8	"inout"	"Cheque Processing Operating Session Service Type"	"CR Cheque Processing Operating Session Instance Record"	String
+""	9	"in"	"Cheque Processing Operating Session Service Configuration"	"CR Cheque Processing Operating Session Instance Record"	String

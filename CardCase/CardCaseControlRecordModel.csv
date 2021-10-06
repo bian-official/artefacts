@@ -1,0 +1,59 @@
+"Control Record Model for: "	Card Case
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Chargeback Instance Record	""	""	""
+"BQ"	BQ Chargeback Instance Record	Chargeback Card Transaction Record Reference	"Reference to the card transaction for the consolidation"	Object
+"BQ"	BQ Chargeback Instance Record	Chargeback Instruction	"The instruction to book chargeback for the transaction - could be partial chargeback"	String
+"CR"	CR Card Case Procedure Instance Record	""	""	""
+"CR"	CR Card Case Procedure Instance Record	Card Case Type	"The type of card dispute including any supporting narrative (e.g. disputed charges, merchant fraud)"	String
+"CR"	CR Card Case Procedure Instance Record	Product Instance Reference	"Reference to a specific product instance associated with the card case"	Object
+"CR"	CR Card Case Procedure Instance Record	Customer Reference	"The customer raising the card case"	Object
+"CR"	CR Card Case Procedure Instance Record	Customer Contact Record Reference	"Reference to the complete contact record assembled during the contact where the card case was raised if appropriate"	Object
+"CR"	CR Card Case Procedure Instance Record	Case Location	"The physical address or electronic venue the card case was initiated"	String
+"CR"	CR Card Case Procedure Instance Record	Date	"The date and time the case was initiated"	String
+"CR"	CR Card Case Procedure Instance Record	Employee/Business Unit Reference	"The business unit where the customer case was reported"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Reference	"Reference to one or more card transactions associated with the case"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Record	"The card transaction for the customer case (can be multiple transactions)"	String
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Product Instance Reference	"The account number associated with the card transaction"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Holder Reference	"The identity of the account holder submitting the transaction"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Issued Device Reference	"Reference to the issued device submitted to authorize the transaction (e.g. card number)"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Network Reference	"Reference to the network the card transaction is handled by as recorded with the transaction"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Issuing Bank Reference	"Refers to the card holder's issuing bank as recorded with the transaction"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Merchant Acquiring Bank Reference	"Refers to the merchant's acquiring bank as recorded with the transaction"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Type	"The type of transaction (purchase, cash advance, etc.)"	String
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Currency	"The currency that the transaction is made in"	CurrencyCode
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Amount Type	"Type of amount (e.g. original amount, billing currency amount, conversion rate, FX Mark-up)"	String
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Amount	"The amount corresponding to the type"	Amount
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Merchant Reference	"Refers to the merchant initiating settlement"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Location Reference	"Refers to the point of sale location"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction ProductandService Reference	"Details of the transaction (e.g. purchased service/product, purpose)"	Object
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Date/Time	"Significant dates and times associated with the transaction"	Date
+"CR"	CR Card Case Procedure Instance Record	Card Transaction FX Conversion Charge	"The applied currency conversion charge"	String
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Intercharge Fee	"The applied intercharge fee"	String
+"CR"	CR Card Case Procedure Instance Record	Card Transaction Authorization Record	"Details the reference, amount, timestamp of the transaction authorization"	String
+"CR"	CR Card Case Procedure Instance Record	Card Case Resolution Schedule	"The card case processing schedule including key tasks and dates for resolution (target and actual dates/times )"	String
+"BQ"	BQ Resolution Instance Record	""	""	""
+"BQ"	BQ Resolution Instance Record	Resolution Card Transaction Record Reference	"Reference to the card transaction for the resolution"	Object
+"BQ"	BQ Resolution Instance Record	Resolution Task Record	"The record of a specific resolution task"	String
+"BQ"	BQ Resolution Instance Record	Correspondence Instance Reference	"Reference to the correspondence generated and received"	Object
+"BQ"	BQ Resolution Instance Record	Correspondence Content	"Correspondence content - messages sent to and received from involved parties"	String
+"BQ"	BQ Resolution Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents"	Object
+"BQ"	BQ Resolution Instance Record	Document Content	"Document copy/content - legal or significant documents created & referenced"	String
+"BQ"	BQ Resolution Instance Record	Employee/Business Unit Reference	"Business unit responsible for the card case resolution actions"	Object
+"BQ"	BQ Resolution Instance Record	Payment Order Reference	"Reference to the resolution payment order when financial adjustments are required to resolve the card case"	Object
+"BQ"	BQ Resolution Instance Record	Resolution Task Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Resolution Instance Record	Resolution Task Result	"The outcome of the authentication workstep"	String
+"BQ"	BQ Arbitration Instance Record	""	""	""
+"BQ"	BQ Arbitration Instance Record	Arbitration Card Transaction Record Reference	"Reference to the card transaction for the arbitration"	Object
+"BQ"	BQ Arbitration Instance Record	Network Participant Network Service Request Reference	"Reference to participant's use of a Network service"	Object
+"BQ"	BQ Arbitration Instance Record	Network Participant Network Service Request Record	"The record for the network service delivery, includes charges, service activity log and results etc."	String
+"BQ"	BQ Arbitration Instance Record	Network Participant Service Type	"The requested service type (e.g. merchant alert, chargeback arbitration, chargeback reduction, arbitration)"	String
+"BQ"	BQ Arbitration Instance Record	Network Participant Service Date/Time	"The time the service was requested"	Date
+"BQ"	BQ Arbitration Instance Record	Network Participant Service Result	"The outcome of the arbitration service request"	String
+"BQ"	BQ Consolidation Instance Record	""	""	""
+"BQ"	BQ Consolidation Instance Record	Consolidation Card Transaction Record Reference	"Reference to the card transaction for the consolidation"	Object
+"BQ"	BQ Consolidation Instance Record	Consolidation Task Record	"The record of a specific verification task"	String
+"BQ"	BQ Consolidation Instance Record	Consolidation Instruction	"The instruction message to the merchant to provide card transaction related paperwork, includes issued device details, transaction identification information and the retrieval reason"	String
+"BQ"	BQ Consolidation Instance Record	Correspondence Reference	"Reference to the document request messages sent to the merchant"	Object
+"BQ"	BQ Consolidation Instance Record	Document Directory Entry Instance Reference	"Reference to documents obtained"	Object
+"BQ"	BQ Consolidation Instance Record	Consolidation Task Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Consolidation Instance Record	Consolidation Task Result	"The outcome of the consolidation workstep"	String

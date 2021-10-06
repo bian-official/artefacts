@@ -1,0 +1,26 @@
+"Control Record Model for: "	Card Terminal Operation
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Card POS Network Operating Session Instance Record	""	""	""
+"CR"	CR Card POS Network Operating Session Instance Record	Card POS Terminal Operating Schedule	"Defines the service availability through the session"	String
+"BQ"	BQ Batch Instance Record	""	""	""
+"BQ"	BQ Batch Instance Record	Card Transaction Batch Reference	"Reference to the batch of transactions"	Object
+"BQ"	BQ Capture Instance Record	""	""	""
+"BQ"	BQ Capture Instance Record	Card Transaction Product Instance Reference	"The account number associated with the card transaction"	Object
+"BQ"	BQ Capture Instance Record	Card Holder Reference	"The identity of the account holder submitting the transaction"	Object
+"BQ"	BQ Capture Instance Record	Card Transaction Issued Device Reference	"Reference to the issued device submitted to authorize the transaction (e.g. card number)"	Object
+"BQ"	BQ Capture Instance Record	Card Transaction Network Reference	"Reference to the network the card transaction is handled by as recorded with the transaction"	Object
+"BQ"	BQ Capture Instance Record	Card Transaction Issuing Bank Reference	"Refers to the card holder's issuing bank as recorded with the transaction"	Object
+"BQ"	BQ Capture Instance Record	Card Transaction Merchant Acquiring Bank Reference	"Refers to the merchant's acquiring bank as recorded with the transaction"	Object
+"BQ"	BQ Capture Instance Record	Card Transaction Type	"The type of transaction (purchase, cash advance, etc.)"	String
+"BQ"	BQ Capture Instance Record	Card Transaction Currency	"The currency that the transaction is made in"	CurrencyCode
+"BQ"	BQ Capture Instance Record	Card Transaction Amount Type	"Type of amount (e.g. original amount, billing currency amount, conversion rate, FX Mark-up)"	String
+"BQ"	BQ Capture Instance Record	Card Transaction Amount	"The amount corresponding to the type"	Amount
+"BQ"	BQ Capture Instance Record	Card Transaction Merchant Reference	"Refers to the merchant initiating settlement"	Object
+"BQ"	BQ Capture Instance Record	Card Transaction Location Reference	"Refers to the point of sale location"	Object
+"BQ"	BQ Capture Instance Record	Card Transaction ProductandService Reference	"Details of the transaction (e.g. purchased service/product, purpose)"	Object
+"BQ"	BQ Capture Instance Record	Card Transaction Date/Time	"Significant dates and times associated with the transaction"	Date
+"BQ"	BQ Capture Instance Record	Card Transaction FX Conversion Charge	"The applied currency conversion charge"	String
+"BQ"	BQ Capture Instance Record	Card Transaction Intercharge Fee	"The applied intercharge fee"	String
+"BQ"	BQ Capture Instance Record	Card Transaction Authorization Record	"Details the reference, amount, timestamp of the transaction authorization"	String
+"BQ"	BQ Authorization Instance Record	""	""	""
+"BQ"	BQ Authorization Instance Record	Authorization Transaction Date/Time	"The date time the authorization is obtained"	Date

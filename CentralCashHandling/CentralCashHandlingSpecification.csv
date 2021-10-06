@@ -1,0 +1,13 @@
+"Service Domain specification for Central Cash Handling"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Central Cash Handling
+"Role Definition"	"This service domain is responsible for tracking the available cash inventory held centrally and distributed/collected throughout the branch/ATM network and making allocation/redistribution requests to ensure adequate float is available at all locations and that excess cash at any location is transferred to central secure locations as appropriate. Also coordinating with other banks and central banks to ensure sufficient cash is on hand to support the branch network requirements"
+"Example of use"	"Example of use:. The central cash management function reviews the current and projected available float at locations across the network to ensure adequate supply to meet projected demand"
+"Executive Summary"	"Track cash inventory, project demand and allocate inventory across the branch/ATM network"
+"Key Features"	"Cash inventory usage and availability tracking. Cash inventory requirements evaluation and planning. Cash float availability and allocation oversight"
+"Functional Pattern"	Allocate
+"Asset Type"	CentralCash
+"Generic Artifact"	Allocation
+"Control Record"	CentralCashAllocation
+"Registration Status"	Registered

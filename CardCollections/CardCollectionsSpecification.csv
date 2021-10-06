@@ -1,0 +1,13 @@
+"Service Domain specification for Card Collections"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Card Collections
+"Role Definition"	"The card collection process relates to the determination and execution of the optimal strategy to ensure the collection of unsecured distressed card debt, which may include aggressive collection efforts, renegotiation of payments terms in order to improve customer commitment to make the payment, or to take any applicable legal actions against the customer."
+"Example of use"	"A card account is canceled when the age of outstanding balance exceeds policy limits (normally 90 days) or when delinquency management and dunning efforts are determined to be unsuccessful at eliciting payment. The account is then assigned to an internal Collections department or an external Collection Agency for making aggressive attempts at securing the payment of the outstandings.. "
+"Executive Summary"	"This service domain administers the recovery of outstanding amounts from cancelled card accounts through internal or external collection agencies.  This may involve negotiating payment terms and/or interest write-downs."
+"Key Features"	"Card collection case classification and assignment. Collection payment terms and processing. Collection processing resolution/conclusion"
+"Functional Pattern"	Process
+"Asset Type"	CardCollections
+"Generic Artifact"	Procedure
+"Control Record"	CardCollectionsProcedure
+"Registration Status"	Registered

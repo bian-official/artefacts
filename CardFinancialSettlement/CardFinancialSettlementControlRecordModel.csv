@@ -1,0 +1,31 @@
+"Control Record Model for: "	Card Financial Settlement
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Payment Instance Record	""	""	""
+"BQ"	BQ Payment Instance Record	Participant Payment Transaction	"Transaction details"	String
+"BQ"	BQ Instruction Instance Record	""	""	""
+"BQ"	BQ Instruction Instance Record	Participant Acquirer Bank Settlement Account Statement	"Settlement account statement for processing window - used to confirm payments"	String
+"BQ"	BQ Instruction Instance Record	Participant Issuer Bank Settlement Account Statement	"Settlement account statement for processing window - used to confirm payments"	String
+"CR"	CR Card Financial Settlement Procedure Instance Record	""	""	""
+"CR"	CR Card Financial Settlement Procedure Instance Record	Network Reference	"Refers to the card network"	Object
+"CR"	CR Card Financial Settlement Procedure Instance Record	Card Financial Settlement Process Type	"Defines the type of settlement process (e.g. scheduled processing, ad-hoc processing)"	String
+"CR"	CR Card Financial Settlement Procedure Instance Record	Card Financial Settlement Process Date/Time	"The scheduled time for the process - likely initiation time"	Date
+"CR"	CR Card Financial Settlement Procedure Instance Record	Card Financial Settlement Service Schedule	"Defines the type and scheduling of card settlement processing, includes Issuer and Acquirer involvement/scheduling details as necessary"	String
+"CR"	CR Card Financial Settlement Procedure Instance Record	Participant Acquirer Bank Reference	"Refers to the Acquiring bank for which the Network orchestrates settlement processing"	Object
+"CR"	CR Card Financial Settlement Procedure Instance Record	Participant Issuer Bank Reference	"Refers to the Issuing bank for which the Network orchestrates settlement processing"	Object
+"BQ"	BQ Consolidation Instance Record	""	""	""
+"BQ"	BQ Consolidation Instance Record	Card Transaction Record Reference	"Refers to the card transaction as recorded by issuer and/or acquirer - these are consolidated for the settlement period/window"	Object
+"BQ"	BQ Consolidation Instance Record	Card Transaction Record	"Card transaction details referenced in settlement processing"	String
+"BQ"	BQ Consolidation Instance Record	Card Transaction Product Instance Reference	"The account number associated with the card transaction"	Object
+"BQ"	BQ Consolidation Instance Record	Card Transaction Issuing Bank Reference	"Refers to the card holder's issuing bank"	Object
+"BQ"	BQ Consolidation Instance Record	Card Transaction Merchant Acquiring Bank Reference	"Refers to the merchant's acquiring bank"	Object
+"BQ"	BQ Consolidation Instance Record	Card Transaction Type	"The type of transaction (purchase, cash advance, etc.)"	String
+"BQ"	BQ Consolidation Instance Record	Card Transaction Currency	"The currency that the transaction is made in"	CurrencyCode
+"BQ"	BQ Consolidation Instance Record	Card Transaction Amount Type	"Type of amount (e.g. original amount, billing currency amount, conversion rate, FX Mark-up)"	String
+"BQ"	BQ Consolidation Instance Record	Card Transaction Amount	"The amount corresponding to the type"	Amount
+"BQ"	BQ Consolidation Instance Record	Card Transaction Merchant Reference	"Refers to the merchant initiating settlement"	Object
+"BQ"	BQ Consolidation Instance Record	Card Transaction Location Reference	"Refers to the point of sale location"	Object
+"BQ"	BQ Consolidation Instance Record	Card Transaction ProductandService Reference	"Details of the transaction (e.g. purchased service/product, purpose)"	Object
+"BQ"	BQ Consolidation Instance Record	Card Transaction Date/Time	"Significant dates and times associated with the transaction"	Date
+"BQ"	BQ Processing Instance Record	""	""	""
+"BQ"	BQ Processing Instance Record	Participant Acquirer Bank Settlement Terms	"Defines the card settlement fees/terms in force"	String
+"BQ"	BQ Processing Instance Record	Participant Issuer Bank Settlement Terms	"Defines card settlement fees/terms in force"	String

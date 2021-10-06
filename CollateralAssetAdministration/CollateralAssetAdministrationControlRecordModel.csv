@@ -1,0 +1,32 @@
+"Control Record Model for: "	Collateral Asset Administration
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Collateral Asset Administrative Plan Instance Record	""	""	""
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Reference	"Reference to the collateral asset item"	Object
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Record	"The details maintained for the asset"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Type	"The type of asset (e.g. building, machinery, inventory, financial instrument, art)"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Properties	"Key properties of the asset that might influence administration and maintenance (e.g. rarity)"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Description	"Description of significant details and properties of the asset"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Title	"Details of title"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Ownership	"Breakdown of ownership where an asset has multiple owners with different entitlements"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Interested Parties	"Parties with same for of interest (e.g. custodian, insurer, user)"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Location	"The location the asset is stored"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Jurisdiction	"The jurisdiction that governs title and access to the asset"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Document Reference	"Reference to supporting documentation"	Object
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Document Type	"The type of document relating to the asset"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Insurance Reference	"Details of insurance arrangements covering the asset, including duration and renewal"	Object
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Pledged Date	"When the asset was provided as collateral"	Date
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Valuation History	"Historical and current valuation, including loan to value ratios/qualifiers"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Valuation Schedule	"The schedule for maintaining an up to date valuation"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Maintenance Schedule	"The schedule planned and actual for undertaking asset maintenance checks)"	String
+"CR"	CR Collateral Asset Administrative Plan Instance Record	Collateral Asset Status	"A general status indicator for the asset (can cover multiple properties as necessary)"	String
+"BQ"	BQ Maintenance Instance Record	""	""	""
+"BQ"	BQ Maintenance Instance Record	Collateral Asset Maintenance Task Type	"The type of action or check performed to oversee maintenance (e.g. insurance coverage, upkeep review)"	String
+"BQ"	BQ Maintenance Instance Record	Collateral Asset Maintenance Service Provider Reference (3rd party service provider)	"Reference to 3rd party maintenance service provider (e.g. insurer, custodian)"	Object
+"BQ"	BQ Maintenance Instance Record	Collateral Asset Verification and Compliance Record	"A record of the verification checks performed against the schedule"	String
+"BQ"	BQ Maintenance Instance Record	Collateral Asset Maintenance/Safekeeping Fees	"Record of any fees incurred in the collateral asset maintenance (e.g. 3rd party fees)"	String
+"BQ"	BQ Valuation Instance Record	""	""	""
+"BQ"	BQ Valuation Instance Record	Collateral Asset Valuation Type	"The type of valuation applied (e.g. mark to market, book value, agency)"	String
+"BQ"	BQ Valuation Instance Record	Collateral Asset Valuation Service Reference	"Reference to 3rd party valuation service provider (e.g. property, art specialist)"	Object
+"BQ"	BQ Valuation Instance Record	Collateral Asset Loan to Value Ratio	"The applied loan to value ratio used in determining collateral value"	String
+"BQ"	BQ Valuation Instance Record	Collateral Asset Valuation	"The result of a valuation"	String
+"BQ"	BQ Valuation Instance Record	Collateral Asset Valuation Date	"The date of a valuation"	Date

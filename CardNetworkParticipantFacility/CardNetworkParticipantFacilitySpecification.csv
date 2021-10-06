@@ -1,0 +1,13 @@
+"Service Domain specification for Card Network Participant Facility"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Card Network Participant Facility
+"Role Definition"	"Cards issued by banks are affiliated with one of many international Card Networks, such as Visa, Master Card, Diners, American Express. This service domain is used by the Card Network for setting up Acquiring and Issuing Bank accounts and their terms and conditions."
+"Example of use"	"The Card Network signs up Acquiring Banks for recruiting and setting up accounts for merchants and Issuing Banks for issuing cards to its customers."
+"Executive Summary"	"This service domain orchestrates the activities related to the inclusion of new Acquirers and Issuers in the Card Network, their terms and conditions and their status."
+"Key Features"	"Acquiring bank facility terms administration. Issuing bank facility terms administration. Participant bank service status maintenance"
+"Functional Pattern"	Fulfill
+"Asset Type"	CardNetworkParticipantFacility
+"Generic Artifact"	Facility (rename)
+"Control Record"	CardNetworkParticipantFacilityArrangement
+"Registration Status"	Registered

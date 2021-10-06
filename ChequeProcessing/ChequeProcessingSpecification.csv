@@ -1,0 +1,13 @@
+"Service Domain specification for Cheque Processing"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Cheque Processing
+"Role Definition"	"This service domains handles the processing of paper checks, performing the necessary checks and extracting the transaction details required to create a payment transaction record stream. This includes MICR number processing and character recognition facilities"
+"Example of use"	"Example of use:. A batch of paper cheques captured at a merchant location is processed to initiate settlement processing"
+"Executive Summary"	"Handle the processing of paper cheques, generating financial transactions for processing"
+"Key Features"	"Paper cheque scanning and content verification. Cancelled cheque identification. Financial transaction generation"
+"Functional Pattern"	Operate
+"Asset Type"	ChequeProcessing
+"Generic Artifact"	OperatingSession
+"Control Record"	ChequeProcessingOperatingSession
+"Registration Status"	Registered

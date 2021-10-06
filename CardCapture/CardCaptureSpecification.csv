@@ -1,0 +1,13 @@
+"Service Domain specification for Card Capture"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Card Capture
+"Role Definition"	"Capture the card payment transaction at the merchant/point of sale. This includes obtaining the authorization for the transaction by accessing the issuer's account through the card network. The authorized transactions are collected for subsequent batch reporting and settlement processing through the network"
+"Example of use"	"Example of use:. A card user uses their card to pay for a meal at a restaurant"
+"Executive Summary"	"A distributed facility to capture card transactions at the point of sale"
+"Key Features"	"Transaction capture. Transaction authorization. Transaction consolidation at the point of sale. Transaction batch reporting for clearing through the network"
+"Functional Pattern"	Transact
+"Asset Type"	CreditChargeCardFinancialCapture
+"Generic Artifact"	Transaction
+"Control Record"	CreditChargeCardFinancialCaptureTransaction
+"Registration Status"	Registered
