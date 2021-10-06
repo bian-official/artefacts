@@ -1,0 +1,13 @@
+"Service Domain specification for Advanced Voice Services Operations"
+"Business Area"	Channels
+"Business Domain"	Channel Specific
+"Service Domain"	Advanced Voice Services Operations
+"Role Definition"	"This service domain handles the operation of the PBX/telephony infrastructure which can include embedded IVR capabilities. The PBX system will have close integration with the call center and E-Branch capabilities depending on the degree of computer telephony integration (CTI) and cross channel support"
+"Example of use"	"Example of use:. The numeric menu is adjusted to increase self-serve activity during a period of peak loading (this could be implemented in the IVR in a more sophisticated set-up)"
+"Executive Summary"	"This service domain operates the telephone channel infrastructure, including the IVR and any other automated devices as appropriate. This includes handling default routing rules and intra-day/session adjustments to deal with peak load or other operational variations"
+"Key Features"	"Handle in-bound customer voice contacts. Provide out bound voice connections voice. Handle service issue reporting and resolution"
+"Functional Pattern"	Operate
+"Asset Type"	VoiceChannel
+"Generic Artifact"	OperatingSession
+"Control Record"	VoiceChannelOperatingSession
+"Registration Status"	Registered

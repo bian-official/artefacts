@@ -1,0 +1,13 @@
+"Service Domain specification for ATM Network Management"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	ATM Network Management
+"Role Definition"	"Configure the allocation of products and services across the ATM network and oversee ATM access registration & controls"
+"Example of use"	"A new set of standalone ATM's is installed at an airport and configured with limited services to ensure high availability for cash dispensing"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	ATMNetwork
+"Generic Artifact"	ManagementPlan
+"Control Record"	ATMNetworkManagementPlan
+"Registration Status"	Registered

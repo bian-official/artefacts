@@ -1,0 +1,13 @@
+"Service Domain specification for Advertising"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Advertising
+"Role Definition"	"Oversee the use and assess the coverage and impact of advertising campaigns. Direct advertising campaign execution to maximize business impact. Oversee advertising campaign design and development activity."
+"Example of use"	"Business development reviews market research to determine levels of awareness for selected bank products and initiates an advertising campaign to raise awareness"
+"Executive Summary"	"Develop the plan for and oversee advertising campaign activity, including budget and resource management"
+"Key Features"	"Track market/competitor activity. Assess customer segment performance. Assess coverage of advertising campaigns. Direct the development of advertising campaigns. Direct the execution of advertising campaigns"
+"Functional Pattern"	Manage
+"Asset Type"	AdvertisingCampaign
+"Generic Artifact"	ManagementPlan
+"Control Record"	AdvertisingCampaignManagementPlan
+"Registration Status"	Registered

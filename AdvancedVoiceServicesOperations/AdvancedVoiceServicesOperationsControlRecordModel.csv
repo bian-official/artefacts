@@ -1,0 +1,28 @@
+"Control Record Model for: "	Advanced Voice Services Operations
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Outbound Instance Record	""	""	""
+"BQ"	BQ Outbound Instance Record	Employee/Business Unit Reference	"The source of the outbound connection request"	Object
+"BQ"	BQ Outbound Instance Record	Customer Contact Record Reference	"Reference to the customer contact record used accessing outbound channel"	Object
+"BQ"	BQ Outbound Instance Record	Customer Session Dialogue Record	"The record used to handle the contact (see Service Domain-Contact Handler for complete definition)"	String
+"BQ"	BQ Outbound Instance Record	VChannel Customer Device Reference	"The target device being accessed"	Object
+"BQ"	BQ Outbound Instance Record	VChannel Outbound Connection Start Time	"Detail used for statistics"	String
+"BQ"	BQ Outbound Instance Record	VChannel Outbound Connection Duration	"Detail used for statistics"	String
+"CR"	CR Voice Channel Operating Session Instance Record	""	""	""
+"CR"	CR Voice Channel Operating Session Instance Record	Advanced Voice Services Operations Service Menu	"Service Domain attribute referenced during the session covering the menu options"	String
+"CR"	CR Voice Channel Operating Session Instance Record	VChannel Service Session Statistics	"Service activity statistics that are maintained during the session"	String
+"CR"	CR Voice Channel Operating Session Instance Record	VChannel Service Session Report Type	"Session reports that can be accessed during the session (e.g. real-time status, session statistics)"	String
+"CR"	CR Voice Channel Operating Session Instance Record	VChannel Service Session Report	"The session activity report"	String
+"CR"	CR Voice Channel Operating Session Instance Record	VChannel Production Issue Record	"A record of any production issues arising during the session"	String
+"CR"	CR Voice Channel Operating Session Instance Record	Employee/Business Unit Reference	"The source of the issue report if appropriate"	Object
+"CR"	CR Voice Channel Operating Session Instance Record	Customer Contact Record Reference	"Reference to the specific customer contact where the issue occurred if appropriate"	Object
+"CR"	CR Voice Channel Operating Session Instance Record	Production Issue Type	"The type of network event or error being recorded (e.g. device failure)"	String
+"CR"	CR Voice Channel Operating Session Instance Record	Production Issue Description	"The description of the event error"	String
+"CR"	CR Voice Channel Operating Session Instance Record	Production Issue Diagnosis	"Evaluation of the event cause and impact assessment"	String
+"CR"	CR Voice Channel Operating Session Instance Record	Production Issue Resolution Task	"Description of corrective action proposed and taken"	String
+"CR"	CR Voice Channel Operating Session Instance Record	Production Issue Status	"Tracking the state of resolution of a reported issue during the session"	String
+"BQ"	BQ Inbound Instance Record	""	""	""
+"BQ"	BQ Inbound Instance Record	VChannel Device Reference	"Details of the device being used for access"	Object
+"BQ"	BQ Inbound Instance Record	VChannel Device Property Value	"Property of the device that can be used in identification ( e.g. ANI phone number)"	String
+"BQ"	BQ Inbound Instance Record	VChannel Inbound Connection Start Time	"Detail used for statistics"	String
+"BQ"	BQ Inbound Instance Record	VChannel Inbound Connection Duration	"Detain used for statistics"	String
+"BQ"	BQ Inbound Instance Record	VChannel Inbound Connection Contact Reference	"Internal reference retuned by Service Domain-Contact Handler for routing"	Object

@@ -1,0 +1,13 @@
+"Service Domain specification for Asset Securitization"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Group Treasury
+"Service Domain"	Asset Securitization
+"Role Definition"	"This service domain supports the bank's selection, securitization and sale of bank customer loan assets. This may be undertaken to adjust the make-up of the loan portfolio or to raise funds to support the bank's operations. The process includes the selection, packaging, pricing and placement of the loan assets"
+"Example of use"	"Example of use:. A bank schedules a review of its loan book in order to improve its portfolio and/or raise capital by securitizing selected assets"
+"Executive Summary"	"Determine and select assets for securitization as needed to maintain and optimize the Bank's portfolio. Administer the securitization process"
+"Key Features"	"Loan Asset Selection. Asset Packaging. Securitization Placement"
+"Functional Pattern"	Transact
+"Asset Type"	AssetSecuritization
+"Generic Artifact"	Transaction
+"Control Record"	AssetSecuritizationTransaction
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Account Recovery"
+"Business Area"	Operations
+"Business Domain"	Custody, Collateral And Documents
+"Service Domain"	Account Recovery
+"Role Definition"	"Handles the recovery of distressed accounts that have exceeded standard late/payment handling but have not yet been fully written off and passed to collections. The restructuring can involve partial write downs and leveraging any tax or other program of assistance that can be applied. The situation is managed until the account is recovered or a decision made to pass the account over to collections"
+"Example of use"	"A non-performing customer account is handed over for recovery after the normal relationship management efforts have failed. Additional authority is provided to renegotiate/structure the account to enable the customer to attempt recovery. This restructuring can result in write downs that need to be booked appropriately. "
+"Executive Summary"	"This service domain handles the restructuring of a distressed account (loan) after standard recovery procedures have been exhausted"
+"Key Features"	"Account status assessment. Account recovery planning. Customer agreement/negotiation. Account terms amendment/restructuring"
+"Functional Pattern"	Process
+"Asset Type"	AccountRecovery
+"Generic Artifact"	Procedure
+"Control Record"	AccountRecoveryProcedure
+"Registration Status"	Registered

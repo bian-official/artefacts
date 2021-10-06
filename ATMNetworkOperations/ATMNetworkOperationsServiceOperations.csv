@@ -1,0 +1,281 @@
+"Service Operations for: "	ATM Network Operations
+""
+"POST"	"/atm-network-operations/activation"
+"PUT"	"/atm-network-operations/{sd-reference-id}/configuration"
+"PUT"	"/atm-network-operations/{sd-reference-id}/feedback"
+""
+"Put"	"/atm-network-operations/{sd-identifier}/network-operation/{crbq-identifier}/control"
+""	1	"inout"	"Network Operation Preconditions"	"BQ Network Operation Instance Record"	String
+""	2	"inout"	"Network Operation Function Schedule"	"BQ Network Operation Instance Record"	String
+""	3	"inout"	"Network Operation Service Type"	"BQ Network Operation Instance Record"	String
+""	4	"inout"	"Network Operation Service Description"	"BQ Network Operation Instance Record"	String
+""	5	"inout"	"Network Operation Service Inputs and Ouputs"	"BQ Network Operation Instance Record"	String
+""	6	"inout"	"Network Operation Service Work Product"	"BQ Network Operation Instance Record"	String
+""	7	"inout"	"Network Operation Service Name"	"BQ Network Operation Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/atmnetwork-operating-session/{crbq-identifier}/control"
+""	1	"in"	"ATMNetwork Operating Session Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	2	"in"	"ATMNetwork Operating Session Status"	"CR ATMNetwork Operating Session Instance Record"	String
+""	3	"in"	"ATMNetwork Operating Session Usage Log"	"CR ATMNetwork Operating Session Instance Record"	String
+""	4	"inout"	"ATMNetwork Operating Session Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	5	"inout"	"ATMNetwork Operating Session ServiceProvider Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	6	"inout"	"ATMNetwork Operating Session Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	7	"inout"	"ATMNetwork Operating Session Service Provider Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	8	"inout"	"ATMNetwork Operating Session Service Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	9	"in"	"ATMNetwork Operating Session Service Configuration"	"CR ATMNetwork Operating Session Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/cash-distribution/{crbq-identifier}/exchange"
+""	1	"inout"	"Cash Distribution Preconditions"	"BQ Cash Distribution Instance Record"	String
+""	2	"inout"	"Cash Distribution Function Schedule"	"BQ Cash Distribution Instance Record"	String
+""	3	"inout"	"Cash Distribution Service Type"	"BQ Cash Distribution Instance Record"	String
+""	4	"inout"	"Cash Distribution Service Description"	"BQ Cash Distribution Instance Record"	String
+""	5	"inout"	"Cash Distribution Service Inputs and Ouputs"	"BQ Cash Distribution Instance Record"	String
+""	6	"inout"	"Cash Distribution Service Work Product"	"BQ Cash Distribution Instance Record"	String
+""	7	"inout"	"Cash Distribution Service Name"	"BQ Cash Distribution Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/device-tracking/{crbq-identifier}/exchange"
+""	1	"inout"	"Device Tracking Preconditions"	"BQ Device Tracking Instance Record"	String
+""	2	"inout"	"Device Tracking Function Schedule"	"BQ Device Tracking Instance Record"	String
+""	3	"inout"	"Device Tracking Service Type"	"BQ Device Tracking Instance Record"	String
+""	4	"inout"	"Device Tracking Service Description"	"BQ Device Tracking Instance Record"	String
+""	5	"inout"	"Device Tracking Service Inputs and Ouputs"	"BQ Device Tracking Instance Record"	String
+""	6	"inout"	"Device Tracking Service Work Product"	"BQ Device Tracking Instance Record"	String
+""	7	"inout"	"Device Tracking Service Name"	"BQ Device Tracking Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/financial-document-handling/{crbq-identifier}/exchange"
+""	1	"inout"	"Financial Document Handling Preconditions"	"BQ Financial Document Handling Instance Record"	String
+""	2	"inout"	"Financial Document Handling Function Schedule"	"BQ Financial Document Handling Instance Record"	String
+""	3	"inout"	"Document Generation and Handling"	"BQ Financial Document Handling Instance Record"	Business Service
+""	4	"inout"	"Document Generation and Handling Service Type"	"BQ Financial Document Handling Instance Record"	String
+""	5	"inout"	"Document Generation and Handling Service Description"	"BQ Financial Document Handling Instance Record"	String
+""	6	"inout"	"Document Generation and Handling Service Inputs and Ouputs"	"BQ Financial Document Handling Instance Record"	String
+""	7	"inout"	"Document Generation and Handling Service Work Product"	"BQ Financial Document Handling Instance Record"	String
+""	8	"inout"	"Document Generation and Handling Service Name"	"BQ Financial Document Handling Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/financial-transaction-capture/{crbq-identifier}/exchange"
+""	1	"inout"	"Financial Transaction Capture Preconditions"	"BQ Financial Transaction Capture Instance Record"	String
+""	2	"inout"	"Financial Transaction Capture Function Schedule"	"BQ Financial Transaction Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Financial Transaction Capture Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Financial Transaction Capture Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Financial Transaction Capture Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Financial Transaction Capture Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Financial Transaction Capture Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Financial Transaction Capture Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/atmnetwork-operating-session/{crbq-identifier}/exchange"
+""	1	"in"	"ATMNetwork Operating Session Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	2	"in"	"ATMNetwork Operating Session Status"	"CR ATMNetwork Operating Session Instance Record"	String
+""	3	"in"	"ATMNetwork Operating Session Usage Log"	"CR ATMNetwork Operating Session Instance Record"	String
+""	4	"inout"	"ATMNetwork Operating Session Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	5	"inout"	"ATMNetwork Operating Session ServiceProvider Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	6	"inout"	"ATMNetwork Operating Session Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	7	"inout"	"ATMNetwork Operating Session Service Provider Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	8	"inout"	"ATMNetwork Operating Session Service Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	9	"in"	"ATMNetwork Operating Session Service Configuration"	"CR ATMNetwork Operating Session Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/device-tracking/{crbq-identifier}/execution"
+""	1	"inout"	"Device Tracking Preconditions"	"BQ Device Tracking Instance Record"	String
+""	2	"inout"	"Device Tracking Function Schedule"	"BQ Device Tracking Instance Record"	String
+""	3	"inout"	"Device Tracking Service Type"	"BQ Device Tracking Instance Record"	String
+""	4	"inout"	"Device Tracking Service Description"	"BQ Device Tracking Instance Record"	String
+""	5	"inout"	"Device Tracking Service Inputs and Ouputs"	"BQ Device Tracking Instance Record"	String
+""	6	"inout"	"Device Tracking Service Work Product"	"BQ Device Tracking Instance Record"	String
+""	7	"inout"	"Device Tracking Service Name"	"BQ Device Tracking Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/financial-document-handling/{crbq-identifier}/execution"
+""	1	"inout"	"Financial Document Handling Preconditions"	"BQ Financial Document Handling Instance Record"	String
+""	2	"inout"	"Financial Document Handling Function Schedule"	"BQ Financial Document Handling Instance Record"	String
+""	3	"inout"	"Document Generation and Handling"	"BQ Financial Document Handling Instance Record"	Business Service
+""	4	"inout"	"Document Generation and Handling Service Type"	"BQ Financial Document Handling Instance Record"	String
+""	5	"inout"	"Document Generation and Handling Service Description"	"BQ Financial Document Handling Instance Record"	String
+""	6	"inout"	"Document Generation and Handling Service Inputs and Ouputs"	"BQ Financial Document Handling Instance Record"	String
+""	7	"inout"	"Document Generation and Handling Service Work Product"	"BQ Financial Document Handling Instance Record"	String
+""	8	"inout"	"Document Generation and Handling Service Name"	"BQ Financial Document Handling Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/financial-transaction-capture/{crbq-identifier}/execution"
+""	1	"inout"	"Financial Transaction Capture Preconditions"	"BQ Financial Transaction Capture Instance Record"	String
+""	2	"inout"	"Financial Transaction Capture Function Schedule"	"BQ Financial Transaction Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Financial Transaction Capture Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Financial Transaction Capture Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Financial Transaction Capture Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Financial Transaction Capture Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Financial Transaction Capture Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Financial Transaction Capture Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/atmnetwork-operating-session/{crbq-identifier}/execution"
+""	1	"in"	"ATMNetwork Operating Session Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	2	"in"	"ATMNetwork Operating Session Status"	"CR ATMNetwork Operating Session Instance Record"	String
+""	3	"in"	"ATMNetwork Operating Session Usage Log"	"CR ATMNetwork Operating Session Instance Record"	String
+""	4	"inout"	"ATMNetwork Operating Session Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	5	"inout"	"ATMNetwork Operating Session ServiceProvider Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	6	"inout"	"ATMNetwork Operating Session Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	7	"inout"	"ATMNetwork Operating Session Service Provider Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	8	"inout"	"ATMNetwork Operating Session Service Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	9	"in"	"ATMNetwork Operating Session Service Configuration"	"CR ATMNetwork Operating Session Instance Record"	String
+""
+"Post"	"/atm-network-operations/{sd-identifier}/financial-document-handling/{crbq-identifier}/initiation"
+""	1	"inout"	"Financial Document Handling Preconditions"	"BQ Financial Document Handling Instance Record"	String
+""	2	"inout"	"Financial Document Handling Function Schedule"	"BQ Financial Document Handling Instance Record"	String
+""	3	"inout"	"Document Generation and Handling"	"BQ Financial Document Handling Instance Record"	Business Service
+""	4	"inout"	"Document Generation and Handling Service Type"	"BQ Financial Document Handling Instance Record"	String
+""	5	"inout"	"Document Generation and Handling Service Description"	"BQ Financial Document Handling Instance Record"	String
+""	6	"inout"	"Document Generation and Handling Service Inputs and Ouputs"	"BQ Financial Document Handling Instance Record"	String
+""	7	"inout"	"Document Generation and Handling Service Work Product"	"BQ Financial Document Handling Instance Record"	String
+""	8	"inout"	"Document Generation and Handling Service Name"	"BQ Financial Document Handling Instance Record"	String
+""
+"Post"	"/atm-network-operations/{sd-identifier}/financial-transaction-capture/{crbq-identifier}/initiation"
+""	1	"inout"	"Financial Transaction Capture Preconditions"	"BQ Financial Transaction Capture Instance Record"	String
+""	2	"inout"	"Financial Transaction Capture Function Schedule"	"BQ Financial Transaction Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Financial Transaction Capture Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Financial Transaction Capture Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Financial Transaction Capture Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Financial Transaction Capture Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Financial Transaction Capture Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Financial Transaction Capture Instance Record"	String
+""
+"Post"	"/atm-network-operations/{sd-identifier}/network-operation/{crbq-identifier}/initiation"
+""	1	"inout"	"Network Operation Preconditions"	"BQ Network Operation Instance Record"	String
+""	2	"inout"	"Network Operation Function Schedule"	"BQ Network Operation Instance Record"	String
+""	3	"inout"	"Network Operation Service Type"	"BQ Network Operation Instance Record"	String
+""	4	"inout"	"Network Operation Service Description"	"BQ Network Operation Instance Record"	String
+""	5	"inout"	"Network Operation Service Inputs and Ouputs"	"BQ Network Operation Instance Record"	String
+""	6	"inout"	"Network Operation Service Work Product"	"BQ Network Operation Instance Record"	String
+""	7	"inout"	"Network Operation Service Name"	"BQ Network Operation Instance Record"	String
+""
+"Post"	"/atm-network-operations/{sd-identifier}/atmnetwork-operating-session/{crbq-identifier}/initiation"
+""	1	"in"	"ATMNetwork Operating Session Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	2	"in"	"ATMNetwork Operating Session Status"	"CR ATMNetwork Operating Session Instance Record"	String
+""	3	"in"	"ATMNetwork Operating Session Usage Log"	"CR ATMNetwork Operating Session Instance Record"	String
+""	4	"inout"	"ATMNetwork Operating Session Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	5	"inout"	"ATMNetwork Operating Session ServiceProvider Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	6	"inout"	"ATMNetwork Operating Session Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	7	"inout"	"ATMNetwork Operating Session Service Provider Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	8	"inout"	"ATMNetwork Operating Session Service Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	9	"in"	"ATMNetwork Operating Session Service Configuration"	"CR ATMNetwork Operating Session Instance Record"	String
+""
+"Get"	"/atm-network-operations/{sd-identifier}/cash-distribution/{crbq-identifier}/retrieval"
+""	1	"out"	"Cash Distribution Preconditions"	"BQ Cash Distribution Instance Record"	String
+""	2	"out"	"Cash Distribution Function Schedule"	"BQ Cash Distribution Instance Record"	String
+""	3	"out"	"Cash Distribution Service Type"	"BQ Cash Distribution Instance Record"	String
+""	4	"out"	"Cash Distribution Service Description"	"BQ Cash Distribution Instance Record"	String
+""	5	"out"	"Cash Distribution Service Inputs and Ouputs"	"BQ Cash Distribution Instance Record"	String
+""	6	"out"	"Cash Distribution Service Work Product"	"BQ Cash Distribution Instance Record"	String
+""	7	"out"	"Cash Distribution Service Name"	"BQ Cash Distribution Instance Record"	String
+""
+"Get"	"/atm-network-operations/{sd-identifier}/device-tracking/{crbq-identifier}/retrieval"
+""	1	"out"	"Device Tracking Preconditions"	"BQ Device Tracking Instance Record"	String
+""	2	"out"	"Device Tracking Function Schedule"	"BQ Device Tracking Instance Record"	String
+""	3	"out"	"Device Tracking Service Type"	"BQ Device Tracking Instance Record"	String
+""	4	"out"	"Device Tracking Service Description"	"BQ Device Tracking Instance Record"	String
+""	5	"out"	"Device Tracking Service Inputs and Ouputs"	"BQ Device Tracking Instance Record"	String
+""	6	"out"	"Device Tracking Service Work Product"	"BQ Device Tracking Instance Record"	String
+""	7	"out"	"Device Tracking Service Name"	"BQ Device Tracking Instance Record"	String
+""
+"Get"	"/atm-network-operations/{sd-identifier}/financial-document-handling/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Document Handling Preconditions"	"BQ Financial Document Handling Instance Record"	String
+""	2	"out"	"Financial Document Handling Function Schedule"	"BQ Financial Document Handling Instance Record"	String
+""	3	"out"	"Document Generation and Handling"	"BQ Financial Document Handling Instance Record"	Business Service
+""	4	"out"	"Document Generation and Handling Service Type"	"BQ Financial Document Handling Instance Record"	String
+""	5	"out"	"Document Generation and Handling Service Description"	"BQ Financial Document Handling Instance Record"	String
+""	6	"out"	"Document Generation and Handling Service Inputs and Ouputs"	"BQ Financial Document Handling Instance Record"	String
+""	7	"out"	"Document Generation and Handling Service Work Product"	"BQ Financial Document Handling Instance Record"	String
+""	8	"out"	"Document Generation and Handling Service Name"	"BQ Financial Document Handling Instance Record"	String
+""
+"Get"	"/atm-network-operations/{sd-identifier}/financial-transaction-capture/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Transaction Capture Preconditions"	"BQ Financial Transaction Capture Instance Record"	String
+""	2	"out"	"Financial Transaction Capture Function Schedule"	"BQ Financial Transaction Capture Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Financial Transaction Capture Instance Record"	Business Service
+""	4	"out"	" Service Type"	"BQ Financial Transaction Capture Instance Record"	String
+""	5	"out"	" Service Description"	"BQ Financial Transaction Capture Instance Record"	String
+""	6	"out"	" Service Inputs and Ouputs"	"BQ Financial Transaction Capture Instance Record"	String
+""	7	"out"	" Service Work Product"	"BQ Financial Transaction Capture Instance Record"	String
+""	8	"out"	" Service Name"	"BQ Financial Transaction Capture Instance Record"	String
+""
+"Get"	"/atm-network-operations/{sd-identifier}/network-operation/{crbq-identifier}/retrieval"
+""	1	"out"	"Network Operation Preconditions"	"BQ Network Operation Instance Record"	String
+""	2	"out"	"Network Operation Function Schedule"	"BQ Network Operation Instance Record"	String
+""	3	"out"	"Network Operation Service Type"	"BQ Network Operation Instance Record"	String
+""	4	"out"	"Network Operation Service Description"	"BQ Network Operation Instance Record"	String
+""	5	"out"	"Network Operation Service Inputs and Ouputs"	"BQ Network Operation Instance Record"	String
+""	6	"out"	"Network Operation Service Work Product"	"BQ Network Operation Instance Record"	String
+""	7	"out"	"Network Operation Service Name"	"BQ Network Operation Instance Record"	String
+""
+"Get"	"/atm-network-operations/{sd-identifier}/atmnetwork-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"ATMNetwork Operating Session Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	2	"out"	"ATMNetwork Operating Session Status"	"CR ATMNetwork Operating Session Instance Record"	String
+""	3	"out"	"ATMNetwork Operating Session Usage Log"	"CR ATMNetwork Operating Session Instance Record"	String
+""	4	"out"	"ATMNetwork Operating Session Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	5	"out"	"ATMNetwork Operating Session ServiceProvider Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	6	"out"	"ATMNetwork Operating Session Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	7	"out"	"ATMNetwork Operating Session Service Provider Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	8	"out"	"ATMNetwork Operating Session Service Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	9	"out"	"ATMNetwork Operating Session Service Configuration"	"CR ATMNetwork Operating Session Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/cash-distribution/{crbq-identifier}/requisition"
+""	1	"inout"	"Cash Distribution Preconditions"	"BQ Cash Distribution Instance Record"	String
+""	2	"inout"	"Cash Distribution Function Schedule"	"BQ Cash Distribution Instance Record"	String
+""	3	"inout"	"Cash Distribution Service Type"	"BQ Cash Distribution Instance Record"	String
+""	4	"inout"	"Cash Distribution Service Description"	"BQ Cash Distribution Instance Record"	String
+""	5	"inout"	"Cash Distribution Service Inputs and Ouputs"	"BQ Cash Distribution Instance Record"	String
+""	6	"inout"	"Cash Distribution Service Work Product"	"BQ Cash Distribution Instance Record"	String
+""	7	"inout"	"Cash Distribution Service Name"	"BQ Cash Distribution Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/atmnetwork-operating-session/{crbq-identifier}/requisition"
+""	1	"in"	"ATMNetwork Operating Session Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	2	"in"	"ATMNetwork Operating Session Status"	"CR ATMNetwork Operating Session Instance Record"	String
+""	3	"in"	"ATMNetwork Operating Session Usage Log"	"CR ATMNetwork Operating Session Instance Record"	String
+""	4	"inout"	"ATMNetwork Operating Session Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	5	"inout"	"ATMNetwork Operating Session ServiceProvider Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	6	"inout"	"ATMNetwork Operating Session Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	7	"inout"	"ATMNetwork Operating Session Service Provider Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	8	"inout"	"ATMNetwork Operating Session Service Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	9	"in"	"ATMNetwork Operating Session Service Configuration"	"CR ATMNetwork Operating Session Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/device-tracking/{crbq-identifier}/update"
+""	1	"inout"	"Device Tracking Preconditions"	"BQ Device Tracking Instance Record"	String
+""	2	"inout"	"Device Tracking Function Schedule"	"BQ Device Tracking Instance Record"	String
+""	3	"inout"	"Device Tracking Service Type"	"BQ Device Tracking Instance Record"	String
+""	4	"inout"	"Device Tracking Service Description"	"BQ Device Tracking Instance Record"	String
+""	5	"inout"	"Device Tracking Service Inputs and Ouputs"	"BQ Device Tracking Instance Record"	String
+""	6	"inout"	"Device Tracking Service Work Product"	"BQ Device Tracking Instance Record"	String
+""	7	"inout"	"Device Tracking Service Name"	"BQ Device Tracking Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/financial-document-handling/{crbq-identifier}/update"
+""	1	"inout"	"Financial Document Handling Preconditions"	"BQ Financial Document Handling Instance Record"	String
+""	2	"inout"	"Financial Document Handling Function Schedule"	"BQ Financial Document Handling Instance Record"	String
+""	3	"inout"	"Document Generation and Handling"	"BQ Financial Document Handling Instance Record"	Business Service
+""	4	"inout"	"Document Generation and Handling Service Type"	"BQ Financial Document Handling Instance Record"	String
+""	5	"inout"	"Document Generation and Handling Service Description"	"BQ Financial Document Handling Instance Record"	String
+""	6	"inout"	"Document Generation and Handling Service Inputs and Ouputs"	"BQ Financial Document Handling Instance Record"	String
+""	7	"inout"	"Document Generation and Handling Service Work Product"	"BQ Financial Document Handling Instance Record"	String
+""	8	"inout"	"Document Generation and Handling Service Name"	"BQ Financial Document Handling Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/financial-transaction-capture/{crbq-identifier}/update"
+""	1	"inout"	"Financial Transaction Capture Preconditions"	"BQ Financial Transaction Capture Instance Record"	String
+""	2	"inout"	"Financial Transaction Capture Function Schedule"	"BQ Financial Transaction Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Financial Transaction Capture Instance Record"	Business Service
+""	4	"inout"	" Service Type"	"BQ Financial Transaction Capture Instance Record"	String
+""	5	"inout"	" Service Description"	"BQ Financial Transaction Capture Instance Record"	String
+""	6	"inout"	" Service Inputs and Ouputs"	"BQ Financial Transaction Capture Instance Record"	String
+""	7	"inout"	" Service Work Product"	"BQ Financial Transaction Capture Instance Record"	String
+""	8	"inout"	" Service Name"	"BQ Financial Transaction Capture Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/network-operation/{crbq-identifier}/update"
+""	1	"inout"	"Network Operation Preconditions"	"BQ Network Operation Instance Record"	String
+""	2	"inout"	"Network Operation Function Schedule"	"BQ Network Operation Instance Record"	String
+""	3	"inout"	"Network Operation Service Type"	"BQ Network Operation Instance Record"	String
+""	4	"inout"	"Network Operation Service Description"	"BQ Network Operation Instance Record"	String
+""	5	"inout"	"Network Operation Service Inputs and Ouputs"	"BQ Network Operation Instance Record"	String
+""	6	"inout"	"Network Operation Service Work Product"	"BQ Network Operation Instance Record"	String
+""	7	"inout"	"Network Operation Service Name"	"BQ Network Operation Instance Record"	String
+""
+"Put"	"/atm-network-operations/{sd-identifier}/atmnetwork-operating-session/{crbq-identifier}/update"
+""	1	"in"	"ATMNetwork Operating Session Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	2	"in"	"ATMNetwork Operating Session Status"	"CR ATMNetwork Operating Session Instance Record"	String
+""	3	"in"	"ATMNetwork Operating Session Usage Log"	"CR ATMNetwork Operating Session Instance Record"	String
+""	4	"inout"	"ATMNetwork Operating Session Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	5	"inout"	"ATMNetwork Operating Session ServiceProvider Reference"	"CR ATMNetwork Operating Session Instance Record"	Object
+""	6	"inout"	"ATMNetwork Operating Session Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	7	"inout"	"ATMNetwork Operating Session Service Provider Schedule"	"CR ATMNetwork Operating Session Instance Record"	String
+""	8	"inout"	"ATMNetwork Operating Session Service Type"	"CR ATMNetwork Operating Session Instance Record"	String
+""	9	"in"	"ATMNetwork Operating Session Service Configuration"	"CR ATMNetwork Operating Session Instance Record"	String

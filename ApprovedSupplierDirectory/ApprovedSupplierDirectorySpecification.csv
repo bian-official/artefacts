@@ -1,0 +1,13 @@
+"Service Domain specification for Approved Supplier Directory"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Financial Control
+"Service Domain"	Approved Supplier Directory
+"Role Definition"	"Select and maintain as suitable collection of suppliers covering the range of requirements. Track performance and retain and deselect suppliers to maintain a competitive range of suppliers"
+"Example of use"	"Work is matched to the approved supplier list and candidates put forward for selection. Delivery performance is reviewed to update the ratings of the suppliers for later assessment and selection purposes"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Enroll
+"Asset Type"	Supplier
+"Generic Artifact"	Membership
+"Control Record"	SupplierMembership
+"Registration Status"	Registered

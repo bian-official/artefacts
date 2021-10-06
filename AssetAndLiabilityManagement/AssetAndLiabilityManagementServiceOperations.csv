@@ -1,0 +1,88 @@
+"Service Operations for: "	Asset And Liability Management
+""
+"POST"	"/asset-and-liability-management/activation"
+"PUT"	"/asset-and-liability-management/{sd-reference-id}/configuration"
+"PUT"	"/asset-and-liability-management/{sd-reference-id}/feedback"
+""
+"Put"	"/asset-and-liability-management/{sd-identifier}/asset-and-liability-portfolio-strategy/{crbq-identifier}/update"
+""	1	"inout"	"Asset And Liability Balance Sheet"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	2	"inout"	"Asset And Liability Maturity Ladder"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	3	"inout"	"Asset And Liability Capital Allocation"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	4	"inout"	"Asset And Liability Policy Goal Record"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	5	"inout"	"Asset And Liability Policy Type"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	6	"inout"	"Asset And Liability Policy Type Definition"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	7	"inout"	"Asset And Liability Policy Type Goals"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	8	"inout"	"Asset And Liability Policy Type Position"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	9	"inout"	"Asset And Liability Policy Type Sensitivity Assessment"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""
+"Put"	"/asset-and-liability-management/{sd-identifier}/asset-and-liability-portfolio-strategy/{crbq-identifier}/requisition"
+""	1	"in"	"Asset And Liability Balance Sheet"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	2	"in"	"Asset And Liability Maturity Ladder"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	3	"in"	"Asset And Liability Capital Allocation"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	4	"inout"	"Asset And Liability Policy Goal Record"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	5	"inout"	"Asset And Liability Policy Type"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	6	"inout"	"Asset And Liability Policy Type Definition"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	7	"inout"	"Asset And Liability Policy Type Goals"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	8	"inout"	"Asset And Liability Policy Type Position"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	9	"inout"	"Asset And Liability Policy Type Sensitivity Assessment"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""
+"Put"	"/asset-and-liability-management/{sd-identifier}/asset-and-liability-portfolio-strategy/{crbq-identifier}/grant"
+""
+"Get"	"/asset-and-liability-management/{sd-identifier}/asset-and-liability-portfolio-strategy/{crbq-identifier}/retrieval"
+""	1	"out"	"Asset And Liability Balance Sheet"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	2	"out"	"Asset And Liability Maturity Ladder"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	3	"out"	"Asset And Liability Capital Allocation"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	4	"out"	"Asset And Liability Policy Goal Record"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	5	"out"	"Asset And Liability Policy Type"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	6	"out"	"Asset And Liability Policy Type Definition"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	7	"out"	"Asset And Liability Policy Type Goals"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	8	"out"	"Asset And Liability Policy Type Position"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	9	"out"	"Asset And Liability Policy Type Sensitivity Assessment"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""
+"Post"	"/asset-and-liability-management/{sd-identifier}/transaction-alignment/{crbq-identifier}/creation"
+""	1	"inout"	"Asset And Liability Policy Type"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	2	"inout"	"Asset And Liability Policy Type Definition"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	3	"inout"	"Asset And Liability Policy Type Goals"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	4	"inout"	"Asset And Liability Policy Type Position"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	5	"inout"	"Asset And Liability Policy Type Sensitivity Assessment"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	6	"in"	"Business Unit Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	7	"in"	"Proposed Transaction Originator Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	8	"in"	"Proposed Transaction Type"	"BQ Transaction Alignment Instance Record"	String
+""	9	"in"	"Proposed Transaction Description"	"BQ Transaction Alignment Instance Record"	String
+""	10	"in"	"Proposed Transaction Amount"	"BQ Transaction Alignment Instance Record"	Amount
+""	11	"in"	"Proposed Transaction Risk Assessment"	"BQ Transaction Alignment Instance Record"	String
+""	12	"in"	"Document Directory Entry Instance Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	13	"in"	"Correspondence Instance Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	14	"inout"	"Date Type"	"BQ Transaction Alignment Instance Record"	String
+""	15	"out"	"Asset And Liability Alignment Assessment"	"BQ Transaction Alignment Instance Record"	String
+""
+"Put"	"/asset-and-liability-management/{sd-identifier}/transaction-alignment/{crbq-identifier}/exchange"
+""
+"Put"	"/asset-and-liability-management/{sd-identifier}/transaction-alignment/{crbq-identifier}/requisition"
+""	1	"in"	"Business Unit Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	2	"in"	"Proposed Transaction Originator Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	3	"in"	"Proposed Transaction Type"	"BQ Transaction Alignment Instance Record"	String
+""	4	"in"	"Proposed Transaction Description"	"BQ Transaction Alignment Instance Record"	String
+""	5	"in"	"Proposed Transaction Amount"	"BQ Transaction Alignment Instance Record"	Amount
+""	6	"in"	"Proposed Transaction Risk Assessment"	"BQ Transaction Alignment Instance Record"	String
+""	7	"in"	"Document Directory Entry Instance Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	8	"in"	"Correspondence Instance Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	9	"inout"	"Date Type"	"BQ Transaction Alignment Instance Record"	String
+""	10	"out"	"Asset And Liability Alignment Assessment"	"BQ Transaction Alignment Instance Record"	String
+""
+"Get"	"/asset-and-liability-management/{sd-identifier}/transaction-alignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Asset And Liability Policy Type"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	2	"out"	"Asset And Liability Policy Type Definition"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	3	"out"	"Asset And Liability Policy Type Goals"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	4	"out"	"Asset And Liability Policy Type Position"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	5	"out"	"Asset And Liability Policy Type Sensitivity Assessment"	"CR Asset And Liability Portfolio Strategy Instance Record"	String
+""	6	"out"	"Business Unit Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	7	"out"	"Proposed Transaction Originator Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	8	"out"	"Proposed Transaction Type"	"BQ Transaction Alignment Instance Record"	String
+""	9	"out"	"Proposed Transaction Description"	"BQ Transaction Alignment Instance Record"	String
+""	10	"out"	"Proposed Transaction Amount"	"BQ Transaction Alignment Instance Record"	Amount
+""	11	"out"	"Proposed Transaction Risk Assessment"	"BQ Transaction Alignment Instance Record"	String
+""	12	"out"	"Document Directory Entry Instance Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	13	"out"	"Correspondence Instance Reference"	"BQ Transaction Alignment Instance Record"	Object
+""	14	"out"	"Date Type"	"BQ Transaction Alignment Instance Record"	String
+""	15	"out"	"Asset And Liability Alignment Assessment"	"BQ Transaction Alignment Instance Record"	String

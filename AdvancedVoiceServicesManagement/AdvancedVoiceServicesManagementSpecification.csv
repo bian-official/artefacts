@@ -1,0 +1,13 @@
+"Service Domain specification for Advanced Voice Services Management"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Advanced Voice Services Management
+"Role Definition"	"Handles the oversight and configuration of the PBX (telephony/voice) access channel. This includes assessing capacity, performance, scheduling maintenance and updates to the channel configuration. Also determining allowed access and usage and troubleshooting major production problems"
+"Example of use"	"Management review and define the reconfiguration requirements for the voice channel based on capacity/volume projections"
+"Executive Summary"	"Oversee the configuration and operation of the voice channel facilities"
+"Key Features"	"Determine the required voice channel platform configuration. Oversee platform upgrades and maintenance. Track service availability and troubleshoot major production issues"
+"Functional Pattern"	Manage
+"Asset Type"	VoiceChannel
+"Generic Artifact"	ManagementPlan
+"Control Record"	VoiceChannelManagementPlan
+"Registration Status"	Registered

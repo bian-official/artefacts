@@ -1,0 +1,129 @@
+"Service Operations for: "	Advertising
+""
+"POST"	"/advertising/activation"
+"PUT"	"/advertising/{sd-reference-id}/configuration"
+"PUT"	"/advertising/{sd-reference-id}/feedback"
+""
+"Post"	"/advertising/{sd-identifier}/advertising-campaign-management-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Advertising Campaign Portfolio"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	2	"inout"	"Advertising Campaign Type"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	3	"inout"	"Advertising Campaign Description"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	4	"inout"	"Advertising Campaign Metrics"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	5	"inout"	"Advertising Campaign Metric Definition"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	6	"inout"	"Advertising Campaign Performance Record"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	7	"inout"	"Advertising Campaign Procedure Instance Reference"	"CR Advertising Campaign Management Plan Instance Record"	Object
+""	8	"inout"	"Advertising Campaign Execution Plan"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	9	"inout"	"Employee/Business Unit Reference"	"CR Advertising Campaign Management Plan Instance Record"	Object
+""	10	"inout"	"Advertising Campaign Duration"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	11	"in"	"Advertising Campaign Procedure Result"	"CR Advertising Campaign Management Plan Instance Record"	String
+""
+"Put"	"/advertising/{sd-identifier}/advertising-campaign-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Advertising Campaign Portfolio"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	2	"inout"	"Advertising Campaign Type"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	3	"inout"	"Advertising Campaign Description"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	4	"inout"	"Advertising Campaign Metrics"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	5	"inout"	"Advertising Campaign Metric Definition"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	6	"inout"	"Advertising Campaign Metric Goal"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	7	"inout"	"Advertising Campaign Performance Record"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	8	"inout"	"Advertising Campaign Procedure Instance Reference"	"CR Advertising Campaign Management Plan Instance Record"	Object
+""	9	"inout"	"Advertising Campaign Execution Plan"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	10	"inout"	"Employee/Business Unit Reference"	"CR Advertising Campaign Management Plan Instance Record"	Object
+""	11	"inout"	"Advertising Campaign Duration"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	12	"inout"	"Advertising Campaign Procedure Result"	"CR Advertising Campaign Management Plan Instance Record"	String
+""
+"Put"	"/advertising/{sd-identifier}/advertising-campaign-management-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Advertising Campaign Portfolio"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	2	"inout"	"Advertising Campaign Type"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	3	"inout"	"Advertising Campaign Description"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	4	"inout"	"Advertising Campaign Metrics"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	5	"inout"	"Advertising Campaign Metric Definition"	"CR Advertising Campaign Management Plan Instance Record"	String
+""
+"Put"	"/advertising/{sd-identifier}/advertising-campaign-management-plan/{crbq-identifier}/grant"
+""
+"Get"	"/advertising/{sd-identifier}/advertising-campaign-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Advertising Campaign Portfolio"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	2	"out"	"Advertising Campaign Type"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	3	"out"	"Advertising Campaign Description"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	4	"out"	"Advertising Campaign Metrics"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	5	"out"	"Advertising Campaign Metric Definition"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	6	"out"	"Advertising Campaign Metric Goal"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	7	"out"	"Advertising Campaign Performance Record"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	8	"out"	"Advertising Campaign Procedure Instance Reference"	"CR Advertising Campaign Management Plan Instance Record"	Object
+""	9	"out"	"Advertising Campaign Execution Plan"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	10	"out"	"Employee/Business Unit Reference"	"CR Advertising Campaign Management Plan Instance Record"	Object
+""	11	"out"	"Advertising Campaign Duration"	"CR Advertising Campaign Management Plan Instance Record"	String
+""	12	"out"	"Advertising Campaign Procedure Result"	"CR Advertising Campaign Management Plan Instance Record"	String
+""
+"Put"	"/advertising/{sd-identifier}/market-tracking/{crbq-identifier}/update"
+""	1	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	2	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	3	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	4	"inout"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	5	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Put"	"/advertising/{sd-identifier}/market-tracking/{crbq-identifier}/execution"
+""	1	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	2	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	3	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	4	"out"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	5	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Put"	"/advertising/{sd-identifier}/market-tracking/{crbq-identifier}/requisition"
+""	1	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	2	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	3	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	4	"out"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	5	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Get"	"/advertising/{sd-identifier}/market-tracking/{crbq-identifier}/retrieval"
+""	1	"out"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	2	"out"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	3	"out"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	4	"out"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	5	"out"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Post"	"/advertising/{sd-identifier}/performance-assessment/{crbq-identifier}/creation"
+""	1	"inout"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"inout"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"out"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"inout"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Put"	"/advertising/{sd-identifier}/performance-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"inout"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"inout"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"inout"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Put"	"/advertising/{sd-identifier}/performance-assessment/{crbq-identifier}/execution"
+""	1	"inout"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"inout"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"out"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"inout"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Put"	"/advertising/{sd-identifier}/performance-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"inout"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"out"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"inout"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Get"	"/advertising/{sd-identifier}/performance-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"out"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"out"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"out"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Post"	"/advertising/{sd-identifier}/campaign-direction/{crbq-identifier}/creation"
+""	1	"inout"	"Advertising Campaign Development Schedule"	"BQ Campaign Direction Instance Record"	String
+""	2	"inout"	"Advertising Campaign Execution Schedule"	"BQ Campaign Direction Instance Record"	String
+""
+"Put"	"/advertising/{sd-identifier}/campaign-direction/{crbq-identifier}/update"
+""	1	"inout"	"Advertising Campaign Development Schedule"	"BQ Campaign Direction Instance Record"	String
+""	2	"inout"	"Advertising Campaign Execution Schedule"	"BQ Campaign Direction Instance Record"	String
+""
+"Put"	"/advertising/{sd-identifier}/campaign-direction/{crbq-identifier}/requisition"
+""	1	"inout"	"Advertising Campaign Development Schedule"	"BQ Campaign Direction Instance Record"	String
+""	2	"inout"	"Advertising Campaign Execution Schedule"	"BQ Campaign Direction Instance Record"	String
+""
+"Get"	"/advertising/{sd-identifier}/campaign-direction/{crbq-identifier}/retrieval"
+""	1	"out"	"Advertising Campaign Development Schedule"	"BQ Campaign Direction Instance Record"	String
+""	2	"out"	"Advertising Campaign Execution Schedule"	"BQ Campaign Direction Instance Record"	String

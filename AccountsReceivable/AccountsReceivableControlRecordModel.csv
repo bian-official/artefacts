@@ -1,0 +1,70 @@
+"Control Record Model for: "	Accounts Receivable
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Accounts Receivable Procedure Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Accounts Receivable. . Example: Process the evaluation and completion of customer offers."	""
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Parameter Type	"A Classification value that distinguishes between Procedures according to the type of business services and/or type of concern defined within Accounts Receivable Procedure"	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Selected Option	"A selected optional business service as subject matter of Accounts Receivable Procedure"	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Request	"Request to process AccountsReceivable"	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Schedule	"Timetable to process AccountsReceivable"	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Status	"The status of Accounts Receivable Procedure"	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Reference	"Reference to the party who is involved in Accounts Receivable Procedure"	Object
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Business Unit Reference	"Reference to the business unit which is involved in Accounts Receivable Procedure"	Object
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure ServiceProvider Reference	"Reference to the party who is the service provider of Accounts Receivable Procedure"	Object
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Financial Facility Reference	"Reference to the Financial Facility related to  Accounts Receivable Procedure "	Object
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Employee Reference	"Reference to the employee who is involved in Accounts Receivable Procedure"	Object
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Customer Reference	"Reference to the customer who is involved in Accounts Receivable Procedure"	Object
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Type	"A Classification value that distinguishes between the type of process undertaken within Accounts Receivable Procedure"	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Service Provider Schedule	"The schedule according to which the service provider will process the Accounts Receivable Procedure"	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Service Type	"A Classification value that distinguishes between the type of services in Accounts Receivable Procedure "	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure ProductandService Type	"A Classification value that distinguishes between the type of products/services related to Accounts Receivable Procedure "	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure ProductandService Instance	"Reference to the product or service that is related to  Accounts Receivable Procedure"	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Transaction Type	"A Classification value that distinguishes between the type of transactions in Accounts Receivable Procedure "	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Transaction	"Reference to the transaction that is related to  Accounts Receivable Procedure "	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Financial Transaction Arrangement	"Reference to the Financial Transaction Arrangement that is related to  Accounts Receivable Procedure "	String
+"CR"	CR Accounts Receivable Procedure Instance Record	Accounts Receivable Procedure Customer Agreement Reference	"Reference to the Customer Agreement that is related to  Accounts Receivable Procedure "	Object
+"BQ"	BQ Resolution Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Accounts Receivable. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Resolution Instance Record	Resolution Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Resolution Instance Record	Resolution Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Resolution Instance Record	Resolution Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Resolution Instance Record	Business Service	"The Accounts Receivable Procedure specific Business Service"	Business Service
+"BQ"	BQ Resolution Instance Record	Resolution Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Resolution Instance Record	Resolution Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Resolution Instance Record	Resolution Service Description	"Description of the performed business service"	String
+"BQ"	BQ Resolution Instance Record	Resolution Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Resolution Instance Record	Resolution Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Resolution Instance Record	Resolution Service Name	""	String
+"BQ"	BQ Receivables Evaluation Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Accounts Receivable. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation	"The Accounts Receivable Procedure specific Business Service"	Business Service
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Receivables Evaluation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Receivables Evaluation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Receivables Evaluation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Receivables Evaluation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Receivables Evaluation Instance Record	Receivables Evaluation Receivables Evaluation Service Name	""	String
+"BQ"	BQ Customer Negotiation Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Accounts Receivable. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Customer Negotiation Instance Record	Payment Negotation	"The Accounts Receivable Procedure specific Business Service"	Business Service
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Payment Negotation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Payment Negotation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Payment Negotation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Payment Negotation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Customer Negotiation Instance Record	Customer Negotiation Payment Negotation Service Name	""	String
+"BQ"	BQ Payment Instance Record	""	"Complete work tasks following a defined procedure in support of general office activities and product and service delivery  within Accounts Receivable. . Example: Process the evaluation and completion of customer offers."	""
+"BQ"	BQ Payment Instance Record	Payment Preconditions	"The required status/situation and or tasks that need to be completed prior to the initiation of the workstep"	String
+"BQ"	BQ Payment Instance Record	Payment Business Unit/Employee Reference	"The operating unit/employee responsible for the workstep"	Object
+"BQ"	BQ Payment Instance Record	Payment Work Schedule	"The timing and key actions/milestones making up the workstep"	String
+"BQ"	BQ Payment Instance Record	Business Service	"The Accounts Receivable Procedure specific Business Service"	Business Service
+"BQ"	BQ Payment Instance Record	Payment Postconditions	"The completion status and reference to subsequent actions that may be triggered on completion of the workstep"	String
+"BQ"	BQ Payment Instance Record	Payment Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Payment Instance Record	Payment Service Description	"Description of the performed business service"	String
+"BQ"	BQ Payment Instance Record	Payment Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Payment Instance Record	Payment Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Payment Instance Record	Payment Service Name	""	String
+"BQ"	BQ Accounts Receivable Outcome Instance Record	""	""	""
+"BQ"	BQ Accounts Receivable Outcome Instance Record	Accounts Receivable Work Product	""	String
+"BQ"	BQ Accounts Receivable Outcome Instance Record	Accounts Receivable Procedure	""	String

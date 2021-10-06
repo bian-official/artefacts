@@ -1,0 +1,13 @@
+"Service Domain specification for Accounts Receivable"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Accounts Receivable
+"Role Definition"	"Manage the tracking, chasing and receipt of scheduled payments against issued invoices. For the significant majority accounts are likely to be settled in compliance with established arrangements. For late payment the Service Domain includes actions to negotiate with the customer and handle defaulted payments"
+"Example of use"	"A product business unit submits an invoice to a customer for services rendered that requires customer payment from an account not managed by the bank."
+"Executive Summary"	"This service domain handles accounts receivable for invoices issue by the bank to customers and partners. It includes follow-up and resolution activity for delayed/missed payments"
+"Key Features"	"Account assessment. Account owner contact. Account payment processing. Account writedown or recovery initiation. Delinquent account resolution (re-instated or passed to collections)"
+"Functional Pattern"	Process
+"Asset Type"	AccountsReceivable
+"Generic Artifact"	Procedure
+"Control Record"	AccountsReceivableProcedure
+"Registration Status"	Registered

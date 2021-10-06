@@ -1,0 +1,299 @@
+"Service Operations for: "	ACH Fulfillment
+""
+"POST"	"/ach-fulfillment/activation"
+"PUT"	"/ach-fulfillment/{sd-reference-id}/configuration"
+"PUT"	"/ach-fulfillment/{sd-reference-id}/feedback"
+""
+"Put"	"/ach-fulfillment/{sd-identifier}/ach-fulfillment-operating-session/{crbq-identifier}/update"
+""	1	"in"	"ACH Reference"	"CR ACH Fulfillment Operating Session Instance Record"	Object
+""	2	"inout"	"ACH Access Schedule"	"CR ACH Fulfillment Operating Session Instance Record"	String
+""
+"Put"	"/ach-fulfillment/{sd-identifier}/ach-fulfillment-operating-session/{crbq-identifier}/control"
+""
+"Get"	"/ach-fulfillment/{sd-identifier}/ach-fulfillment-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"ACH Reference"	"CR ACH Fulfillment Operating Session Instance Record"	Object
+""	2	"out"	"ACH Access Schedule"	"CR ACH Fulfillment Operating Session Instance Record"	String
+""
+"Post"	"/ach-fulfillment/{sd-identifier}/inbound-ach/{crbq-identifier}/initiation"
+""	1	"in"	"ACH Reference"	"CR ACH Fulfillment Operating Session Instance Record"	Object
+""	2	"in"	"ACH Access Schedule"	"CR ACH Fulfillment Operating Session Instance Record"	String
+""	3	"out"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	4	"in"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"in"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	6	"in"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"in"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"in"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"in"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"in"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"in"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	12	"in"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	13	"in"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	14	"in"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	15	"in"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	16	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""
+"Put"	"/ach-fulfillment/{sd-identifier}/inbound-ach/{crbq-identifier}/update"
+""	1	"inout"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"inout"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	3	"inout"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	4	"inout"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"inout"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"inout"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"inout"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"inout"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"inout"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"inout"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"inout"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	12	"inout"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	13	"inout"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	14	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""
+"Get"	"/ach-fulfillment/{sd-identifier}/inbound-ach/{crbq-identifier}/retrieval"
+""	1	"out"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"out"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	3	"out"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	4	"out"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"out"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"out"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"out"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"out"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"out"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"out"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"out"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	12	"out"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	13	"out"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	14	"out"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""
+"Post"	"/ach-fulfillment/{sd-identifier}/outbound-ach/{crbq-identifier}/initiation"
+""	1	"in"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"in"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	3	"in"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	4	"in"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"in"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"in"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"in"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"in"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"in"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"in"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	11	"in"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	12	"in"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	13	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	14	"out"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""
+"Put"	"/ach-fulfillment/{sd-identifier}/outbound-ach/{crbq-identifier}/update"
+""	1	"inout"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"inout"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	3	"inout"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	4	"inout"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"inout"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"inout"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"inout"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"inout"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"inout"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"inout"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	11	"inout"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	12	"inout"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	13	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	14	"in"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""
+"Get"	"/ach-fulfillment/{sd-identifier}/outbound-ach/{crbq-identifier}/retrieval"
+""	1	"out"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"out"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	3	"out"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	4	"out"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"out"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"out"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"out"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"out"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"out"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"out"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	11	"out"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	12	"out"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	13	"out"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	14	"out"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""
+"Post"	"/ach-fulfillment/{sd-identifier}/warehousing/{crbq-identifier}/initiation"
+""	1	"in"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"in"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	3	"in"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	4	"in"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"in"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"in"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"in"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"in"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"in"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"in"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	11	"in"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	12	"in"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	13	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	14	"in"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	15	"in"	"Schedule Release Date/Time"	"BQ Warehousing Instance Record"	Date
+""
+"Put"	"/ach-fulfillment/{sd-identifier}/warehousing/{crbq-identifier}/update"
+""	1	"inout"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"inout"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	3	"inout"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	4	"inout"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"inout"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"inout"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"inout"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"inout"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"inout"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"inout"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	11	"inout"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	12	"inout"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	13	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	14	"inout"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	15	"inout"	"Schedule Release Date/Time"	"BQ Warehousing Instance Record"	Date
+""
+"Get"	"/ach-fulfillment/{sd-identifier}/warehousing/{crbq-identifier}/retrieval"
+""	1	"out"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"out"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	3	"out"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	4	"out"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"out"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"out"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"out"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"out"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"out"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"out"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	11	"out"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	12	"out"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	13	"out"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	14	"out"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	15	"out"	"Schedule Release Date/Time"	"BQ Warehousing Instance Record"	Date
+""
+"Post"	"/ach-fulfillment/{sd-identifier}/clearing-and-settlement/{crbq-identifier}/initiation"
+""	1	"in"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"in"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	3	"in"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	4	"in"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"in"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"in"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"in"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"in"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"in"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"in"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"in"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	12	"in"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	13	"in"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	14	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	15	"in"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	16	"in"	"Correspondent Bank Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	17	"in"	"Correspondent Bank Clearing Agreement Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	18	"in"	"Correspondent Bank Clearing Agreement Clearing Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	19	"in"	"Correspondent Bank Clearing Agreement Settlement Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	20	"in"	"Mirror Nostro Account Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""
+"Put"	"/ach-fulfillment/{sd-identifier}/clearing-and-settlement/{crbq-identifier}/update"
+""	1	"inout"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"inout"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	3	"inout"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	4	"inout"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"inout"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"inout"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"inout"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"inout"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"inout"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"inout"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"inout"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	12	"inout"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	13	"inout"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	14	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	15	"inout"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	16	"inout"	"Correspondent Bank Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	17	"inout"	"Correspondent Bank Clearing Agreement Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	18	"inout"	"Correspondent Bank Clearing Agreement Clearing Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	19	"inout"	"Correspondent Bank Clearing Agreement Settlement Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	20	"inout"	"Mirror Nostro Account Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""
+"Get"	"/ach-fulfillment/{sd-identifier}/clearing-and-settlement/{crbq-identifier}/retrieval"
+""	1	"out"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"out"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	3	"out"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	4	"out"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"out"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"out"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"out"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"out"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"out"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"out"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"out"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	12	"out"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	13	"out"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	14	"out"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	15	"out"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	16	"out"	"Correspondent Bank Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	17	"out"	"Correspondent Bank Clearing Agreement Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	18	"out"	"Correspondent Bank Clearing Agreement Clearing Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	19	"out"	"Correspondent Bank Clearing Agreement Settlement Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	20	"out"	"Mirror Nostro Account Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""
+"Post"	"/ach-fulfillment/{sd-identifier}/reconciliation/{crbq-identifier}/initiation"
+""	1	"in"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"in"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	3	"in"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	4	"in"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"in"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"in"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"in"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"in"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"in"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"in"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"in"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	12	"in"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	13	"in"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	14	"in"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	15	"inout"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	16	"in"	"Correspondent Bank Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	17	"in"	"Correspondent Bank Clearing Agreement Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	18	"in"	"Correspondent Bank Clearing Agreement Clearing Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	19	"in"	"Correspondent Bank Clearing Agreement Settlement Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	20	"in"	"Mirror Nostro Account Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	21	"out"	"ACH Reconciliation Task Result"	"BQ Reconciliation Instance Record"	String
+""
+"Put"	"/ach-fulfillment/{sd-identifier}/reconciliation/{crbq-identifier}/update"
+""	1	"inout"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"inout"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	3	"inout"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	4	"inout"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"inout"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"inout"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"inout"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"inout"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"inout"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"inout"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"inout"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	12	"inout"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	13	"inout"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	14	"inout"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	15	"inout"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	16	"inout"	"Correspondent Bank Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	17	"inout"	"Correspondent Bank Clearing Agreement Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	18	"inout"	"Correspondent Bank Clearing Agreement Clearing Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	19	"inout"	"Correspondent Bank Clearing Agreement Settlement Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	20	"inout"	"Mirror Nostro Account Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	21	"inout"	"ACH Reconciliation Task Result"	"BQ Reconciliation Instance Record"	String
+""
+"Get"	"/ach-fulfillment/{sd-identifier}/reconciliation/{crbq-identifier}/retrieval"
+""	1	"out"	"Inbound ACH Transaction Batch Reference"	"BQ Inbound ACH Instance Record"	Object
+""	2	"out"	"ACH Payment Transaction Reference"	"BQ Inbound ACH Instance Record"	Object
+""	3	"out"	"ACH Payment Transaction Record"	"BQ Inbound ACH Instance Record"	String
+""	4	"out"	"Payment Transaction Initiator Reference"	"BQ Inbound ACH Instance Record"	Object
+""	5	"out"	"Payer Reference"	"BQ Inbound ACH Instance Record"	Object
+""	6	"out"	"Payer Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	7	"out"	"Payer Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	8	"out"	"Payee Reference"	"BQ Inbound ACH Instance Record"	Object
+""	9	"out"	"Payee Product Instance Reference"	"BQ Inbound ACH Instance Record"	Object
+""	10	"out"	"Payee Bank Reference"	"BQ Inbound ACH Instance Record"	Object
+""	11	"out"	"Special Instructions"	"BQ Inbound ACH Instance Record"	String
+""	12	"out"	"Amount"	"BQ Inbound ACH Instance Record"	String
+""	13	"out"	"Currency"	"BQ Inbound ACH Instance Record"	String
+""	14	"out"	"Date Type"	"BQ Inbound ACH Instance Record"	String
+""	15	"out"	"Outbound ACH Transaction Batch Reference"	"BQ Outbound ACH Instance Record"	Object
+""	16	"out"	"Correspondent Bank Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	17	"out"	"Correspondent Bank Clearing Agreement Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	18	"out"	"Correspondent Bank Clearing Agreement Clearing Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	19	"out"	"Correspondent Bank Clearing Agreement Settlement Instructions"	"BQ Clearing and Settlement Instance Record"	String
+""	20	"out"	"Mirror Nostro Account Reference"	"BQ Clearing and Settlement Instance Record"	Object
+""	21	"out"	"ACH Reconciliation Task Result"	"BQ Reconciliation Instance Record"	String

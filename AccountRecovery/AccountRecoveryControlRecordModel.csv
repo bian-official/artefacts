@@ -1,0 +1,48 @@
+"Control Record Model for: "	Account Recovery
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Planning Instance Record	""	""	""
+"BQ"	BQ Planning Instance Record	Account Recovery Plan	"Recovery tasks and targets added to the Account Recovery Case Resolution Schedule"	String
+"BQ"	BQ Planning Instance Record	Account Recovery Case Planning Task Record	"Processing record for the planning task within the account recovery process"	String
+"BQ"	BQ Negotiation Instance Record	""	""	""
+"BQ"	BQ Negotiation Instance Record	Account Recovery Guidelines	"Defines bank's policies and guidelines for account recovery/write down handling"	String
+"BQ"	BQ Negotiation Instance Record	Correspondence Reference	"Reference to negotiation/confirmation messages sent to involved parties, includes internal and external legal/law enforcement authorities"	Object
+"BQ"	BQ Negotiation Instance Record	Correspondence Content	"Copies of correspondence content as appropriate"	String
+"BQ"	BQ Negotiation Instance Record	Document Reference	"Reference to legal documents created & referenced during the account recovery negotiation process"	Object
+"BQ"	BQ Negotiation Instance Record	Document Content	"Copies of document copy/content as appropriate"	String
+"BQ"	BQ Negotiation Instance Record	Account Recovery Case Negotiation Task Record	"Processing record for the negotiation task within the account recovery process"	String
+"CR"	CR Account Recovery Procedure Instance Record	""	""	""
+"CR"	CR Account Recovery Procedure Instance Record	Account Recovery Case Type	"This is the type of recovery case (e.g. lapsed payment, collateral revaluation, credit)"	String
+"CR"	CR Account Recovery Procedure Instance Record	Product Instance Reference	"Refers to the product instance associated with the account recovery case"	Object
+"CR"	CR Account Recovery Procedure Instance Record	Linked Product Instance Reference	"Refers to any new/replacement product established during the recovery/restructuring process"	Object
+"CR"	CR Account Recovery Procedure Instance Record	Customer Reference	"Reference to the customer associated with account recovery case - likely product 'owner'"	Object
+"CR"	CR Account Recovery Procedure Instance Record	Employee/Business Unit Reference	"The assigned customer relationship manager or unit for the case"	Object
+"CR"	CR Account Recovery Procedure Instance Record	Account Number	"Reference to the underlying account for the product instance being recovered"	String
+"CR"	CR Account Recovery Procedure Instance Record	Bank Branch/Location Reference	"Location where the business is booked for reporting purposes"	Object
+"CR"	CR Account Recovery Procedure Instance Record	Date Type	"Key dates associated with recovery (e.g. account open, account closing)"	String
+"CR"	CR Account Recovery Procedure Instance Record	Date	"Key date time vale"	String
+"CR"	CR Account Recovery Procedure Instance Record	Involved Party Reference	"Reference to involved and interested parties (e.g. guarantor/cosigner)"	Object
+"CR"	CR Account Recovery Procedure Instance Record	Involved Party Obligation/Entitlement	"Details the involved party's role/association with the account/account holder"	String
+"CR"	CR Account Recovery Procedure Instance Record	Account Type	"The type of account being recovered (e.g. checking, mortgage)"	String
+"CR"	CR Account Recovery Procedure Instance Record	Account Currency	"The currency for the account"	CurrencyCode
+"CR"	CR Account Recovery Procedure Instance Record	Account Limit Type	"Limits that are applied to the account  (e.g. transaction credit/debit, netting, position)"	String
+"CR"	CR Account Recovery Procedure Instance Record	Account Limit	"Current position against limits"	String
+"CR"	CR Account Recovery Procedure Instance Record	Allowed Access	"Any additional parties given access to the account  (allowed roles and actions against the product)"	String
+"CR"	CR Account Recovery Procedure Instance Record	Tax Reference	"Reference to a tax identifier associated with the customer/account for tax reporting"	Object
+"CR"	CR Account Recovery Procedure Instance Record	Account Status	"Status of the recovery account  (e.g. pre-opened, active, dormant, pending for closing, blocked)"	String
+"CR"	CR Account Recovery Procedure Instance Record	Collateral Asset Allocation Profile	"Lists the customer's collateral asset allocation status against different loan products known to the bank"	String
+"CR"	CR Account Recovery Procedure Instance Record	Collateral Type	"The type of asset (e.g. building, machinery, inventory, financial instrument, art)"	String
+"CR"	CR Account Recovery Procedure Instance Record	Collateral Asset Description	"Description of significant details and properties of the asset"	String
+"CR"	CR Account Recovery Procedure Instance Record	Transaction Record	"Details of all transactions made against the account - not itemized here but referenced from fulfillment processing"	String
+"CR"	CR Account Recovery Procedure Instance Record	Account Recovery Case Work Products	"Work documentation, forms and schedules produced and referenced during the case"	String
+"CR"	CR Account Recovery Procedure Instance Record	Document Reference	"Reference to documents referenced and generated through the case"	Object
+"CR"	CR Account Recovery Procedure Instance Record	Customer Commentary	"Record of customer correspondence/feedback associated with the account recovery process"	String
+"CR"	CR Account Recovery Procedure Instance Record	Account Recovery Case Resolution Schedule	"Target and actual dates for processing/resolution"	String
+"CR"	CR Account Recovery Procedure Instance Record	Account Recovery Case Status	"The status of the recovery case (e.g. in assessment, write-down, planning, negotiation, restructuring)"	String
+"BQ"	BQ Writedown Instance Record	""	""	""
+"BQ"	BQ Writedown Instance Record	Account write-down transaction	"Booking to the appropriate asset/liability account required to reflect anticipated loss"	String
+"BQ"	BQ Writedown Instance Record	Account Recovery Case Write-down Task Record	"Processing record for the write-down task within the account recovery process"	String
+"BQ"	BQ Assessment Instance Record	""	""	""
+"BQ"	BQ Assessment Instance Record	Account Recovery Case Assessment Task Record	"Processing record for the assessment task within the account recovery process"	String
+"BQ"	BQ Restructuring Instance Record	""	""	""
+"BQ"	BQ Restructuring Instance Record	Account Recovery Restructuring Schedule	"Target dates for account restructuring/set-up added to the Account Recovery Case Resolution Schedule"	String
+"BQ"	BQ Restructuring Instance Record	Account Recovery Case Restructuring Task Record	"Processing record for the restructuring task within the account recovery process"	String

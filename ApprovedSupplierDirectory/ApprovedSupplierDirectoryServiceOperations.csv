@@ -1,0 +1,5 @@
+"Service Operations for: "	Approved Supplier Directory
+"Control Record Model for Approved Supplier Directory is not defined"
+"POST"	"/approved-supplier-directory/activation"
+"PUT"	"/approved-supplier-directory/{sd-reference-id}/configuration"
+"PUT"	"/approved-supplier-directory/{sd-reference-id}/feedback"

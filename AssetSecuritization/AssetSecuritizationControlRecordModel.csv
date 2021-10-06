@@ -1,0 +1,51 @@
+"Control Record Model for: "	Asset Securitization
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Asset Securitization Transaction Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Asset Securitization. . Example: Execute a payment transaction."	""
+"CR"	CR Asset Securitization Transaction Instance Record	Asset Securitization Transaction Parameter Type	"A Classification value that distinguishes between business service transaction within Asset Securitization Transaction"	String
+"CR"	CR Asset Securitization Transaction Instance Record	Asset Securitization Transaction Selected Option	"A selected optional business service as subject matter of Asset Securitization Transaction"	String
+"CR"	CR Asset Securitization Transaction Instance Record	Asset Securitization Transaction Status	"The status of Asset Securitization Transaction"	String
+"CR"	CR Asset Securitization Transaction Instance Record	Asset Securitization Transaction Type	"A Classification value that specifies type of business action for this  Asset Securitization Transaction"	String
+"CR"	CR Asset Securitization Transaction Instance Record	Asset Securitization Transaction Transaction Type	"A Classification value that specifies type of transaction for this  Asset Securitization Transaction"	String
+"CR"	CR Asset Securitization Transaction Instance Record	Asset Securitization Transaction Transaction	"Reference to Asset Securitization Transaction"	String
+"BQ"	BQ Securitization Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Asset Securitization. . Example: Execute a payment transaction."	""
+"BQ"	BQ Securitization Instance Record	Securitization Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Securitization Instance Record	Securitization Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Securitization Instance Record	Business Service	"The Asset Securitization Transaction specific Business Service"	Business Service
+"BQ"	BQ Securitization Instance Record	Securitization Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Securitization Instance Record	Securitization Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Securitization Instance Record	Securitization Service Description	"Description of the performed business service"	String
+"BQ"	BQ Securitization Instance Record	Securitization Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Securitization Instance Record	Securitization Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Securitization Instance Record	Securitization Service Name	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	""	""	""
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Calendar	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Counterparty	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Dividend	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Fees	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Interest	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Margining	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Notional Principal	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Options	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Rates	""	Rate
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Settlement	""	String
+"BQ"	BQ Asset Securitization Outcome Instance Record	Asset Securitization Work Product	""	String
+"BQ"	BQ Placement Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Asset Securitization. . Example: Execute a payment transaction."	""
+"BQ"	BQ Placement Instance Record	Placement Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Placement Instance Record	Placement Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Placement Instance Record	Business Service	"The Asset Securitization Transaction specific Business Service"	Business Service
+"BQ"	BQ Placement Instance Record	Placement Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Placement Instance Record	Placement Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Placement Instance Record	Placement Service Description	"Description of the performed business service"	String
+"BQ"	BQ Placement Instance Record	Placement Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Placement Instance Record	Placement Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Placement Instance Record	Placement Service Name	""	String
+"BQ"	BQ Selection Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Asset Securitization. . Example: Execute a payment transaction."	""
+"BQ"	BQ Selection Instance Record	Selection Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Selection Instance Record	Selection Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Selection Instance Record	Asset Selection	"The Asset Securitization Transaction specific Business Service"	Business Service
+"BQ"	BQ Selection Instance Record	Selection Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Selection Instance Record	Selection Asset Selection Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Selection Instance Record	Selection Asset Selection Service Description	"Description of the performed business service"	String
+"BQ"	BQ Selection Instance Record	Selection Asset Selection Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Selection Instance Record	Selection Asset Selection Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Selection Instance Record	Selection Asset Selection Service Name	""	String

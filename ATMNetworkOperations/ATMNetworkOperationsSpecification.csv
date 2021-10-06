@@ -1,0 +1,13 @@
+"Service Domain specification for ATM Network Operations"
+"Business Area"	Channels
+"Business Domain"	Channel Specific
+"Service Domain"	ATM Network Operations
+"Role Definition"	"This service domain handles all automated aspects of operating the ATM network. This includes tracking the movement of cash and documents through the network and its ATM devices. It also handles the detection and response to device errors and alerts, including overseeing the physical movement of cash and documents and the handling of device alerts and outages"
+"Example of use"	"Example of use:. A bank tracks the distribution and retrieval of cash inventory across its ATM network of operations"
+"Executive Summary"	"Handling the automated operation of the ATM network and linked devices, including tracing physical cash and document movements"
+"Key Features"	"Handle the distribution/deposit of cash through the ATM network. Handle the capture and generation of ATM transaction related documentation. Detect and respond to ATM device errors and outages"
+"Functional Pattern"	Operate
+"Asset Type"	ATMNetwork
+"Generic Artifact"	OperatingSession
+"Control Record"	ATMNetworkOperatingSession
+"Registration Status"	Registered

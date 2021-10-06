@@ -1,0 +1,92 @@
+"Service Operations for: "	Advanced Voice Services Operations
+""
+"POST"	"/advanced-voice-services-operations/activation"
+"PUT"	"/advanced-voice-services-operations/{sd-reference-id}/configuration"
+"PUT"	"/advanced-voice-services-operations/{sd-reference-id}/feedback"
+""
+"Post"	"/advanced-voice-services-operations/{sd-identifier}/voice-channel-operating-session/{crbq-identifier}/initiation"
+""	1	"inout"	"Advanced Voice Services Operations Service Menu"	"CR Voice Channel Operating Session Instance Record"	String
+""	2	"out"	"VChannel Service Session Statistics"	"CR Voice Channel Operating Session Instance Record"	String
+""	3	"inout"	"VChannel Service Session Report Type"	"CR Voice Channel Operating Session Instance Record"	String
+""	4	"inout"	"VChannel Production Issue Record"	"CR Voice Channel Operating Session Instance Record"	String
+""	5	"in"	"Employee/Business Unit Reference"	"CR Voice Channel Operating Session Instance Record"	Object
+""	6	"in"	"Customer Contact Record Reference"	"CR Voice Channel Operating Session Instance Record"	Object
+""	7	"in"	"Production Issue Type"	"CR Voice Channel Operating Session Instance Record"	String
+""	8	"in"	"Production Issue Description"	"CR Voice Channel Operating Session Instance Record"	String
+""	9	"out"	"Production Issue Diagnosis"	"CR Voice Channel Operating Session Instance Record"	String
+""	10	"out"	"Production Issue Resolution Task"	"CR Voice Channel Operating Session Instance Record"	String
+""	11	"out"	"Production Issue Status"	"CR Voice Channel Operating Session Instance Record"	String
+""
+"Put"	"/advanced-voice-services-operations/{sd-identifier}/voice-channel-operating-session/{crbq-identifier}/update"
+""	1	"inout"	"Advanced Voice Services Operations Service Menu"	"CR Voice Channel Operating Session Instance Record"	String
+""	2	"inout"	"VChannel Service Session Statistics"	"CR Voice Channel Operating Session Instance Record"	String
+""	3	"inout"	"VChannel Service Session Report Type"	"CR Voice Channel Operating Session Instance Record"	String
+""	4	"inout"	"VChannel Production Issue Record"	"CR Voice Channel Operating Session Instance Record"	String
+""	5	"inout"	"Employee/Business Unit Reference"	"CR Voice Channel Operating Session Instance Record"	Object
+""	6	"inout"	"Customer Contact Record Reference"	"CR Voice Channel Operating Session Instance Record"	Object
+""	7	"inout"	"Production Issue Type"	"CR Voice Channel Operating Session Instance Record"	String
+""	8	"inout"	"Production Issue Description"	"CR Voice Channel Operating Session Instance Record"	String
+""	9	"inout"	"Production Issue Diagnosis"	"CR Voice Channel Operating Session Instance Record"	String
+""	10	"inout"	"Production Issue Resolution Task"	"CR Voice Channel Operating Session Instance Record"	String
+""	11	"inout"	"Production Issue Status"	"CR Voice Channel Operating Session Instance Record"	String
+""
+"Put"	"/advanced-voice-services-operations/{sd-identifier}/voice-channel-operating-session/{crbq-identifier}/control"
+""
+"Put"	"/advanced-voice-services-operations/{sd-identifier}/voice-channel-operating-session/{crbq-identifier}/requisition"
+""	1	"inout"	"VChannel Production Issue Record"	"CR Voice Channel Operating Session Instance Record"	String
+""	2	"inout"	"Employee/Business Unit Reference"	"CR Voice Channel Operating Session Instance Record"	Object
+""	3	"inout"	"Customer Contact Record Reference"	"CR Voice Channel Operating Session Instance Record"	Object
+""	4	"inout"	"Production Issue Type"	"CR Voice Channel Operating Session Instance Record"	String
+""	5	"inout"	"Production Issue Description"	"CR Voice Channel Operating Session Instance Record"	String
+""	6	"out"	"Production Issue Diagnosis"	"CR Voice Channel Operating Session Instance Record"	String
+""	7	"out"	"Production Issue Resolution Task"	"CR Voice Channel Operating Session Instance Record"	String
+""	8	"out"	"Production Issue Status"	"CR Voice Channel Operating Session Instance Record"	String
+""
+"Get"	"/advanced-voice-services-operations/{sd-identifier}/voice-channel-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"Advanced Voice Services Operations Service Menu"	"CR Voice Channel Operating Session Instance Record"	String
+""	2	"out"	"VChannel Service Session Statistics"	"CR Voice Channel Operating Session Instance Record"	String
+""	3	"out"	"VChannel Service Session Report Type"	"CR Voice Channel Operating Session Instance Record"	String
+""	4	"out"	"VChannel Production Issue Record"	"CR Voice Channel Operating Session Instance Record"	String
+""	5	"out"	"Employee/Business Unit Reference"	"CR Voice Channel Operating Session Instance Record"	Object
+""	6	"out"	"Customer Contact Record Reference"	"CR Voice Channel Operating Session Instance Record"	Object
+""	7	"out"	"Production Issue Type"	"CR Voice Channel Operating Session Instance Record"	String
+""	8	"out"	"Production Issue Description"	"CR Voice Channel Operating Session Instance Record"	String
+""	9	"out"	"Production Issue Diagnosis"	"CR Voice Channel Operating Session Instance Record"	String
+""	10	"out"	"Production Issue Resolution Task"	"CR Voice Channel Operating Session Instance Record"	String
+""	11	"out"	"Production Issue Status"	"CR Voice Channel Operating Session Instance Record"	String
+""
+"Post"	"/advanced-voice-services-operations/{sd-identifier}/inbound/{crbq-identifier}/initiation"
+""	1	"in"	"Advanced Voice Services Operations Service Menu"	"CR Voice Channel Operating Session Instance Record"	String
+""	2	"out"	"VChannel Service Session Statistics"	"CR Voice Channel Operating Session Instance Record"	String
+""	3	"in"	"VChannel Device Reference"	"BQ Inbound Instance Record"	Object
+""	4	"in"	"VChannel Device Property Value"	"BQ Inbound Instance Record"	String
+""	5	"out"	"VChannel Inbound Connection Start Time"	"BQ Inbound Instance Record"	String
+""	6	"out"	"VChannel Inbound Connection Duration"	"BQ Inbound Instance Record"	String
+""	7	"in"	"VChannel Inbound Connection Contact Reference"	"BQ Inbound Instance Record"	Object
+""
+"Get"	"/advanced-voice-services-operations/{sd-identifier}/inbound/{crbq-identifier}/retrieval"
+""	1	"out"	"Advanced Voice Services Operations Service Menu"	"CR Voice Channel Operating Session Instance Record"	String
+""	2	"out"	"VChannel Service Session Statistics"	"CR Voice Channel Operating Session Instance Record"	String
+""	3	"out"	"VChannel Device Reference"	"BQ Inbound Instance Record"	Object
+""	4	"out"	"VChannel Device Property Value"	"BQ Inbound Instance Record"	String
+""	5	"out"	"VChannel Inbound Connection Start Time"	"BQ Inbound Instance Record"	String
+""	6	"out"	"VChannel Inbound Connection Duration"	"BQ Inbound Instance Record"	String
+""	7	"out"	"VChannel Inbound Connection Contact Reference"	"BQ Inbound Instance Record"	Object
+""
+"Post"	"/advanced-voice-services-operations/{sd-identifier}/outbound/{crbq-identifier}/initiation"
+""	1	"inout"	"VChannel Service Session Statistics"	"CR Voice Channel Operating Session Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	3	"in"	"Customer Contact Record Reference"	"BQ Outbound Instance Record"	Object
+""	4	"inout"	"Customer Contact Dialogue Record"	"BQ Outbound Instance Record"	String
+""	5	"in"	"VChannel Customer Device Reference"	"BQ Outbound Instance Record"	Object
+""	6	"out"	"VChannel Outbound Connection Start Time"	"BQ Outbound Instance Record"	String
+""	7	"out"	"VChannel Outbound Connection Duration"	"BQ Outbound Instance Record"	String
+""
+"Get"	"/advanced-voice-services-operations/{sd-identifier}/outbound/{crbq-identifier}/retrieval"
+""	1	"out"	"VChannel Service Session Statistics"	"CR Voice Channel Operating Session Instance Record"	String
+""	2	"out"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	3	"out"	"Customer Contact Record Reference"	"BQ Outbound Instance Record"	Object
+""	4	"out"	"Customer Contact Dialogue Record"	"BQ Outbound Instance Record"	String
+""	5	"out"	"VChannel Customer Device Reference"	"BQ Outbound Instance Record"	Object
+""	6	"out"	"VChannel Outbound Connection Start Time"	"BQ Outbound Instance Record"	String
+""	7	"out"	"VChannel Outbound Connection Duration"	"BQ Outbound Instance Record"	String

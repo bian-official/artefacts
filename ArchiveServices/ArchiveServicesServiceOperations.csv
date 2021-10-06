@@ -1,0 +1,5 @@
+"Service Operations for: "	Archive Services
+"Control Record Model for Archive Services is not defined"
+"POST"	"/archive-services/activation"
+"PUT"	"/archive-services/{sd-reference-id}/configuration"
+"PUT"	"/archive-services/{sd-reference-id}/feedback"

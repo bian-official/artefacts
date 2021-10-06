@@ -1,0 +1,219 @@
+"Service Operations for: "	Asset Securitization
+""
+"POST"	"/asset-securitization/activation"
+"PUT"	"/asset-securitization/{sd-reference-id}/configuration"
+"PUT"	"/asset-securitization/{sd-reference-id}/feedback"
+""
+"Put"	"/asset-securitization/{sd-identifier}/asset-securitization-transaction/{crbq-identifier}/control"
+""	1	"inout"	"Asset Securitization Transaction Parameter Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	2	"inout"	"Asset Securitization Transaction Selected Option"	"CR Asset Securitization Transaction Instance Record"	String
+""	3	"inout"	"Asset Securitization Transaction Status"	"CR Asset Securitization Transaction Instance Record"	String
+""	4	"in"	"Asset Securitization Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	5	"in"	"Asset Securitization Transaction Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/placement/{crbq-identifier}/exchange"
+""	1	"inout"	"Placement Preconditions"	"BQ Placement Instance Record"	String
+""	2	"inout"	"Placement Task Schedule"	"BQ Placement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Placement Instance Record"	Business Service
+""	4	"inout"	"Placement Postconditions"	"BQ Placement Instance Record"	String
+""	5	"inout"	"Placement Service Type"	"BQ Placement Instance Record"	String
+""	6	"inout"	"Placement Service Description"	"BQ Placement Instance Record"	String
+""	7	"inout"	"Placement Service Inputs and Ouputs"	"BQ Placement Instance Record"	String
+""	8	"inout"	"Placement Service Work Product"	"BQ Placement Instance Record"	String
+""	9	"inout"	"Placement Service Name"	"BQ Placement Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/securitization/{crbq-identifier}/exchange"
+""	1	"inout"	"Securitization Preconditions"	"BQ Securitization Instance Record"	String
+""	2	"inout"	"Securitization Task Schedule"	"BQ Securitization Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Securitization Instance Record"	Business Service
+""	4	"inout"	"Securitization Postconditions"	"BQ Securitization Instance Record"	String
+""	5	"inout"	"Securitization Service Type"	"BQ Securitization Instance Record"	String
+""	6	"inout"	"Securitization Service Description"	"BQ Securitization Instance Record"	String
+""	7	"inout"	"Securitization Service Inputs and Ouputs"	"BQ Securitization Instance Record"	String
+""	8	"inout"	"Securitization Service Work Product"	"BQ Securitization Instance Record"	String
+""	9	"inout"	"Securitization Service Name"	"BQ Securitization Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/selection/{crbq-identifier}/exchange"
+""	1	"inout"	"Selection Preconditions"	"BQ Selection Instance Record"	String
+""	2	"inout"	"Selection Task Schedule"	"BQ Selection Instance Record"	String
+""	3	"inout"	"Asset Selection"	"BQ Selection Instance Record"	Business Service
+""	4	"inout"	"Selection Postconditions"	"BQ Selection Instance Record"	String
+""	5	"inout"	"Selection Asset Selection Service Type"	"BQ Selection Instance Record"	String
+""	6	"inout"	"Selection Asset Selection Service Description"	"BQ Selection Instance Record"	String
+""	7	"inout"	"Selection Asset Selection Service Inputs and Ouputs"	"BQ Selection Instance Record"	String
+""	8	"inout"	"Selection Asset Selection Service Work Product"	"BQ Selection Instance Record"	String
+""	9	"inout"	"Selection Asset Selection Service Name"	"BQ Selection Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/asset-securitization-transaction/{crbq-identifier}/exchange"
+""	1	"inout"	"Asset Securitization Transaction Parameter Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	2	"inout"	"Asset Securitization Transaction Selected Option"	"CR Asset Securitization Transaction Instance Record"	String
+""	3	"inout"	"Asset Securitization Transaction Status"	"CR Asset Securitization Transaction Instance Record"	String
+""	4	"in"	"Asset Securitization Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	5	"in"	"Asset Securitization Transaction Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/asset-securitization-transaction/{crbq-identifier}/execution"
+""	1	"inout"	"Asset Securitization Transaction Parameter Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	2	"inout"	"Asset Securitization Transaction Selected Option"	"CR Asset Securitization Transaction Instance Record"	String
+""	3	"inout"	"Asset Securitization Transaction Status"	"CR Asset Securitization Transaction Instance Record"	String
+""	4	"in"	"Asset Securitization Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	5	"in"	"Asset Securitization Transaction Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""
+"Post"	"/asset-securitization/{sd-identifier}/placement/{crbq-identifier}/initiation"
+""	1	"inout"	"Placement Preconditions"	"BQ Placement Instance Record"	String
+""	2	"inout"	"Placement Task Schedule"	"BQ Placement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Placement Instance Record"	Business Service
+""	4	"inout"	"Placement Postconditions"	"BQ Placement Instance Record"	String
+""	5	"inout"	"Placement Service Type"	"BQ Placement Instance Record"	String
+""	6	"inout"	"Placement Service Description"	"BQ Placement Instance Record"	String
+""	7	"inout"	"Placement Service Inputs and Ouputs"	"BQ Placement Instance Record"	String
+""	8	"inout"	"Placement Service Work Product"	"BQ Placement Instance Record"	String
+""	9	"inout"	"Placement Service Name"	"BQ Placement Instance Record"	String
+""
+"Post"	"/asset-securitization/{sd-identifier}/securitization/{crbq-identifier}/initiation"
+""	1	"inout"	"Securitization Preconditions"	"BQ Securitization Instance Record"	String
+""	2	"inout"	"Securitization Task Schedule"	"BQ Securitization Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Securitization Instance Record"	Business Service
+""	4	"inout"	"Securitization Postconditions"	"BQ Securitization Instance Record"	String
+""	5	"inout"	"Securitization Service Type"	"BQ Securitization Instance Record"	String
+""	6	"inout"	"Securitization Service Description"	"BQ Securitization Instance Record"	String
+""	7	"inout"	"Securitization Service Inputs and Ouputs"	"BQ Securitization Instance Record"	String
+""	8	"inout"	"Securitization Service Work Product"	"BQ Securitization Instance Record"	String
+""	9	"inout"	"Securitization Service Name"	"BQ Securitization Instance Record"	String
+""
+"Post"	"/asset-securitization/{sd-identifier}/selection/{crbq-identifier}/initiation"
+""	1	"inout"	"Selection Preconditions"	"BQ Selection Instance Record"	String
+""	2	"inout"	"Selection Task Schedule"	"BQ Selection Instance Record"	String
+""	3	"inout"	"Asset Selection"	"BQ Selection Instance Record"	Business Service
+""	4	"inout"	"Selection Postconditions"	"BQ Selection Instance Record"	String
+""	5	"inout"	"Selection Asset Selection Service Type"	"BQ Selection Instance Record"	String
+""	6	"inout"	"Selection Asset Selection Service Description"	"BQ Selection Instance Record"	String
+""	7	"inout"	"Selection Asset Selection Service Inputs and Ouputs"	"BQ Selection Instance Record"	String
+""	8	"inout"	"Selection Asset Selection Service Work Product"	"BQ Selection Instance Record"	String
+""	9	"inout"	"Selection Asset Selection Service Name"	"BQ Selection Instance Record"	String
+""
+"Post"	"/asset-securitization/{sd-identifier}/asset-securitization-transaction/{crbq-identifier}/initiation"
+""	1	"inout"	"Asset Securitization Transaction Parameter Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	2	"inout"	"Asset Securitization Transaction Selected Option"	"CR Asset Securitization Transaction Instance Record"	String
+""	3	"inout"	"Asset Securitization Transaction Status"	"CR Asset Securitization Transaction Instance Record"	String
+""	4	"in"	"Asset Securitization Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	5	"in"	"Asset Securitization Transaction Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""
+"Get"	"/asset-securitization/{sd-identifier}/placement/{crbq-identifier}/retrieval"
+""	1	"out"	"Placement Preconditions"	"BQ Placement Instance Record"	String
+""	2	"out"	"Placement Task Schedule"	"BQ Placement Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Placement Instance Record"	Business Service
+""	4	"out"	"Placement Postconditions"	"BQ Placement Instance Record"	String
+""	5	"out"	"Placement Service Type"	"BQ Placement Instance Record"	String
+""	6	"out"	"Placement Service Description"	"BQ Placement Instance Record"	String
+""	7	"out"	"Placement Service Inputs and Ouputs"	"BQ Placement Instance Record"	String
+""	8	"out"	"Placement Service Work Product"	"BQ Placement Instance Record"	String
+""	9	"out"	"Placement Service Name"	"BQ Placement Instance Record"	String
+""
+"Get"	"/asset-securitization/{sd-identifier}/securitization/{crbq-identifier}/retrieval"
+""	1	"out"	"Securitization Preconditions"	"BQ Securitization Instance Record"	String
+""	2	"out"	"Securitization Task Schedule"	"BQ Securitization Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Securitization Instance Record"	Business Service
+""	4	"out"	"Securitization Postconditions"	"BQ Securitization Instance Record"	String
+""	5	"out"	"Securitization Service Type"	"BQ Securitization Instance Record"	String
+""	6	"out"	"Securitization Service Description"	"BQ Securitization Instance Record"	String
+""	7	"out"	"Securitization Service Inputs and Ouputs"	"BQ Securitization Instance Record"	String
+""	8	"out"	"Securitization Service Work Product"	"BQ Securitization Instance Record"	String
+""	9	"out"	"Securitization Service Name"	"BQ Securitization Instance Record"	String
+""
+"Get"	"/asset-securitization/{sd-identifier}/selection/{crbq-identifier}/retrieval"
+""	1	"out"	"Selection Preconditions"	"BQ Selection Instance Record"	String
+""	2	"out"	"Selection Task Schedule"	"BQ Selection Instance Record"	String
+""	3	"out"	"Asset Selection"	"BQ Selection Instance Record"	Business Service
+""	4	"out"	"Selection Postconditions"	"BQ Selection Instance Record"	String
+""	5	"out"	"Selection Asset Selection Service Type"	"BQ Selection Instance Record"	String
+""	6	"out"	"Selection Asset Selection Service Description"	"BQ Selection Instance Record"	String
+""	7	"out"	"Selection Asset Selection Service Inputs and Ouputs"	"BQ Selection Instance Record"	String
+""	8	"out"	"Selection Asset Selection Service Work Product"	"BQ Selection Instance Record"	String
+""	9	"out"	"Selection Asset Selection Service Name"	"BQ Selection Instance Record"	String
+""
+"Get"	"/asset-securitization/{sd-identifier}/asset-securitization-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Asset Securitization Transaction Parameter Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	2	"out"	"Asset Securitization Transaction Selected Option"	"CR Asset Securitization Transaction Instance Record"	String
+""	3	"out"	"Asset Securitization Transaction Status"	"CR Asset Securitization Transaction Instance Record"	String
+""	4	"out"	"Asset Securitization Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	5	"out"	"Asset Securitization Transaction Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/placement/{crbq-identifier}/requisition"
+""	1	"inout"	"Placement Preconditions"	"BQ Placement Instance Record"	String
+""	2	"inout"	"Placement Task Schedule"	"BQ Placement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Placement Instance Record"	Business Service
+""	4	"inout"	"Placement Postconditions"	"BQ Placement Instance Record"	String
+""	5	"inout"	"Placement Service Type"	"BQ Placement Instance Record"	String
+""	6	"inout"	"Placement Service Description"	"BQ Placement Instance Record"	String
+""	7	"inout"	"Placement Service Inputs and Ouputs"	"BQ Placement Instance Record"	String
+""	8	"inout"	"Placement Service Work Product"	"BQ Placement Instance Record"	String
+""	9	"inout"	"Placement Service Name"	"BQ Placement Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/securitization/{crbq-identifier}/requisition"
+""	1	"inout"	"Securitization Preconditions"	"BQ Securitization Instance Record"	String
+""	2	"inout"	"Securitization Task Schedule"	"BQ Securitization Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Securitization Instance Record"	Business Service
+""	4	"inout"	"Securitization Postconditions"	"BQ Securitization Instance Record"	String
+""	5	"inout"	"Securitization Service Type"	"BQ Securitization Instance Record"	String
+""	6	"inout"	"Securitization Service Description"	"BQ Securitization Instance Record"	String
+""	7	"inout"	"Securitization Service Inputs and Ouputs"	"BQ Securitization Instance Record"	String
+""	8	"inout"	"Securitization Service Work Product"	"BQ Securitization Instance Record"	String
+""	9	"inout"	"Securitization Service Name"	"BQ Securitization Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/selection/{crbq-identifier}/requisition"
+""	1	"inout"	"Selection Preconditions"	"BQ Selection Instance Record"	String
+""	2	"inout"	"Selection Task Schedule"	"BQ Selection Instance Record"	String
+""	3	"inout"	"Asset Selection"	"BQ Selection Instance Record"	Business Service
+""	4	"inout"	"Selection Postconditions"	"BQ Selection Instance Record"	String
+""	5	"inout"	"Selection Asset Selection Service Type"	"BQ Selection Instance Record"	String
+""	6	"inout"	"Selection Asset Selection Service Description"	"BQ Selection Instance Record"	String
+""	7	"inout"	"Selection Asset Selection Service Inputs and Ouputs"	"BQ Selection Instance Record"	String
+""	8	"inout"	"Selection Asset Selection Service Work Product"	"BQ Selection Instance Record"	String
+""	9	"inout"	"Selection Asset Selection Service Name"	"BQ Selection Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/asset-securitization-transaction/{crbq-identifier}/requisition"
+""	1	"inout"	"Asset Securitization Transaction Parameter Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	2	"inout"	"Asset Securitization Transaction Selected Option"	"CR Asset Securitization Transaction Instance Record"	String
+""	3	"inout"	"Asset Securitization Transaction Status"	"CR Asset Securitization Transaction Instance Record"	String
+""	4	"in"	"Asset Securitization Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	5	"in"	"Asset Securitization Transaction Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/placement/{crbq-identifier}/update"
+""	1	"inout"	"Placement Preconditions"	"BQ Placement Instance Record"	String
+""	2	"inout"	"Placement Task Schedule"	"BQ Placement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Placement Instance Record"	Business Service
+""	4	"inout"	"Placement Postconditions"	"BQ Placement Instance Record"	String
+""	5	"inout"	"Placement Service Type"	"BQ Placement Instance Record"	String
+""	6	"inout"	"Placement Service Description"	"BQ Placement Instance Record"	String
+""	7	"inout"	"Placement Service Inputs and Ouputs"	"BQ Placement Instance Record"	String
+""	8	"inout"	"Placement Service Work Product"	"BQ Placement Instance Record"	String
+""	9	"inout"	"Placement Service Name"	"BQ Placement Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/securitization/{crbq-identifier}/update"
+""	1	"inout"	"Securitization Preconditions"	"BQ Securitization Instance Record"	String
+""	2	"inout"	"Securitization Task Schedule"	"BQ Securitization Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Securitization Instance Record"	Business Service
+""	4	"inout"	"Securitization Postconditions"	"BQ Securitization Instance Record"	String
+""	5	"inout"	"Securitization Service Type"	"BQ Securitization Instance Record"	String
+""	6	"inout"	"Securitization Service Description"	"BQ Securitization Instance Record"	String
+""	7	"inout"	"Securitization Service Inputs and Ouputs"	"BQ Securitization Instance Record"	String
+""	8	"inout"	"Securitization Service Work Product"	"BQ Securitization Instance Record"	String
+""	9	"inout"	"Securitization Service Name"	"BQ Securitization Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/selection/{crbq-identifier}/update"
+""	1	"inout"	"Selection Preconditions"	"BQ Selection Instance Record"	String
+""	2	"inout"	"Selection Task Schedule"	"BQ Selection Instance Record"	String
+""	3	"inout"	"Asset Selection"	"BQ Selection Instance Record"	Business Service
+""	4	"inout"	"Selection Postconditions"	"BQ Selection Instance Record"	String
+""	5	"inout"	"Selection Asset Selection Service Type"	"BQ Selection Instance Record"	String
+""	6	"inout"	"Selection Asset Selection Service Description"	"BQ Selection Instance Record"	String
+""	7	"inout"	"Selection Asset Selection Service Inputs and Ouputs"	"BQ Selection Instance Record"	String
+""	8	"inout"	"Selection Asset Selection Service Work Product"	"BQ Selection Instance Record"	String
+""	9	"inout"	"Selection Asset Selection Service Name"	"BQ Selection Instance Record"	String
+""
+"Put"	"/asset-securitization/{sd-identifier}/asset-securitization-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Asset Securitization Transaction Parameter Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	2	"inout"	"Asset Securitization Transaction Selected Option"	"CR Asset Securitization Transaction Instance Record"	String
+""	3	"inout"	"Asset Securitization Transaction Status"	"CR Asset Securitization Transaction Instance Record"	String
+""	4	"in"	"Asset Securitization Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String
+""	5	"in"	"Asset Securitization Transaction Transaction Type"	"CR Asset Securitization Transaction Instance Record"	String

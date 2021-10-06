@@ -1,0 +1,13 @@
+"Service Domain specification for ACH Fulfillment"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	ACH Fulfillment
+"Role Definition"	"This service domain handles the operational interface with an external automated clearing house (ACH) service. It handles the sending and receipt of batched transactions, servicing reporting and executes the schedule of service operations"
+"Example of use"	"A payment is made between two customers of different banks. The payment is processed via an automated clearing house."
+"Executive Summary"	"This service domain operates the Automated Clearing House (ACH) access gateway between the bank and the ACH service provider"
+"Key Features"	"Handle outbound ACH payments. Handle inbound ACH payments. ACH payment warehousing (delayed send). Transaction update, repair and reconciliations"
+"Functional Pattern"	Operate
+"Asset Type"	ACHFulfillment
+"Generic Artifact"	OperatingSession
+"Control Record"	ACHFulfillmentOperatingSession
+"Registration Status"	Registered

@@ -1,0 +1,88 @@
+"Service Operations for: "	Advanced Voice Services Management
+""
+"POST"	"/advanced-voice-services-management/activation"
+"PUT"	"/advanced-voice-services-management/{sd-reference-id}/configuration"
+"PUT"	"/advanced-voice-services-management/{sd-reference-id}/feedback"
+""
+"Post"	"/advanced-voice-services-management/{sd-identifier}/voice-channel-management-plan/{crbq-identifier}/creation"
+""	1	"inout"	"VChannel Management Plan Period"	"CR Voice Channel Management Plan Instance Record"	String
+""	2	"out"	"VChannel Usage Policies & Guidelines"	"CR Voice Channel Management Plan Instance Record"	String
+""	3	"out"	"VChannel Service Operating Parameters"	"CR Voice Channel Management Plan Instance Record"	String
+""	4	"inout"	"VChannel Service Performance Goals"	"CR Voice Channel Management Plan Instance Record"	String
+""	5	"inout"	"VChannel Service Schedule"	"CR Voice Channel Management Plan Instance Record"	String
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/voice-channel-management-plan/{crbq-identifier}/update"
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/voice-channel-management-plan/{crbq-identifier}/exchange"
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/voice-channel-management-plan/{crbq-identifier}/requisition"
+""
+"Get"	"/advanced-voice-services-management/{sd-identifier}/voice-channel-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"VChannel Management Plan Period"	"CR Voice Channel Management Plan Instance Record"	String
+""	2	"out"	"VChannel Usage Policies & Guidelines"	"CR Voice Channel Management Plan Instance Record"	String
+""	3	"out"	"VChannel Service Operating Parameters"	"CR Voice Channel Management Plan Instance Record"	String
+""	4	"out"	"VChannel Service Performance Goals"	"CR Voice Channel Management Plan Instance Record"	String
+""	5	"out"	"VChannel Service Schedule"	"CR Voice Channel Management Plan Instance Record"	String
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/capacity-planning/{crbq-identifier}/update"
+""	1	"inout"	"VChannel Service Schedule"	"CR Voice Channel Management Plan Instance Record"	String
+""	2	"inout"	"VChannel Platform Utilization"	"BQ Capacity Planning Instance Record"	String
+""	3	"inout"	"VChannel Loading Projections"	"BQ Capacity Planning Instance Record"	String
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/capacity-planning/{crbq-identifier}/requisition"
+""	1	"inout"	"VChannel Platform Utilization"	"BQ Capacity Planning Instance Record"	String
+""	2	"inout"	"VChannel Loading Projections"	"BQ Capacity Planning Instance Record"	String
+""
+"Get"	"/advanced-voice-services-management/{sd-identifier}/capacity-planning/{crbq-identifier}/retrieval"
+""	1	"out"	"VChannel Management Plan Period"	"CR Voice Channel Management Plan Instance Record"	String
+""	2	"out"	"VChannel Usage Policies & Guidelines"	"CR Voice Channel Management Plan Instance Record"	String
+""	3	"out"	"VChannel Service Operating Parameters"	"CR Voice Channel Management Plan Instance Record"	String
+""	4	"out"	"VChannel Service Performance Goals"	"CR Voice Channel Management Plan Instance Record"	String
+""	5	"out"	"VChannel Service Schedule"	"CR Voice Channel Management Plan Instance Record"	String
+""	6	"out"	"VChannel Platform Utilization"	"BQ Capacity Planning Instance Record"	String
+""	7	"out"	"VChannel Loading Projections"	"BQ Capacity Planning Instance Record"	String
+""
+"Post"	"/advanced-voice-services-management/{sd-identifier}/maintenance-and-upgrades/{crbq-identifier}/creation"
+""	1	"inout"	"VChannel Management Plan Period"	"CR Voice Channel Management Plan Instance Record"	String
+""	2	"in"	"VChannel Usage Policies & Guidelines"	"CR Voice Channel Management Plan Instance Record"	String
+""	3	"in"	"VChannel Service Operating Parameters"	"CR Voice Channel Management Plan Instance Record"	String
+""	4	"inout"	"VChannel Service Performance Goals"	"CR Voice Channel Management Plan Instance Record"	String
+""	5	"inout"	"VChannel Service Schedule"	"CR Voice Channel Management Plan Instance Record"	String
+""	6	"inout"	"VChannel Maintenance and Upgrade Schedule"	"BQ Maintenance And Upgrades Instance Record"	String
+""	7	"inout"	"VChannel Maintenance and Upgrade Work Task Type"	"BQ Maintenance And Upgrades Instance Record"	String
+""	8	"inout"	"VChannel Maintenance and Upgrade Work Task Work Products"	"BQ Maintenance And Upgrades Instance Record"	String
+""	9	"out"	"VChannel Maintenance and Upgrade Work Task Result"	"BQ Maintenance And Upgrades Instance Record"	String
+""	10	"inout"	"VChannel Maintenance and Upgrade Work Task Date-Time"	"BQ Maintenance And Upgrades Instance Record"	Date
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/maintenance-and-upgrades/{crbq-identifier}/update"
+""	1	"inout"	"VChannel Maintenance and Upgrade Schedule"	"BQ Maintenance And Upgrades Instance Record"	String
+""	2	"inout"	"VChannel Maintenance and Upgrade Work Task Type"	"BQ Maintenance And Upgrades Instance Record"	String
+""	3	"inout"	"VChannel Maintenance and Upgrade Work Task Work Products"	"BQ Maintenance And Upgrades Instance Record"	String
+""	4	"inout"	"VChannel Maintenance and Upgrade Work Task Result"	"BQ Maintenance And Upgrades Instance Record"	String
+""	5	"inout"	"VChannel Maintenance and Upgrade Work Task Date-Time"	"BQ Maintenance And Upgrades Instance Record"	Date
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/maintenance-and-upgrades/{crbq-identifier}/requisition"
+""	1	"inout"	"VChannel Maintenance and Upgrade Schedule"	"BQ Maintenance And Upgrades Instance Record"	String
+""	2	"inout"	"VChannel Maintenance and Upgrade Work Task Type"	"BQ Maintenance And Upgrades Instance Record"	String
+""	3	"inout"	"VChannel Maintenance and Upgrade Work Task Work Products"	"BQ Maintenance And Upgrades Instance Record"	String
+""	4	"out"	"VChannel Maintenance and Upgrade Work Task Result"	"BQ Maintenance And Upgrades Instance Record"	String
+""	5	"inout"	"VChannel Maintenance and Upgrade Work Task Date-Time"	"BQ Maintenance And Upgrades Instance Record"	Date
+""
+"Get"	"/advanced-voice-services-management/{sd-identifier}/maintenance-and-upgrades/{crbq-identifier}/retrieval"
+""	1	"out"	"VChannel Maintenance and Upgrade Schedule"	"BQ Maintenance And Upgrades Instance Record"	String
+""	2	"out"	"VChannel Maintenance and Upgrade Work Task Type"	"BQ Maintenance And Upgrades Instance Record"	String
+""	3	"out"	"VChannel Maintenance and Upgrade Work Task Work Products"	"BQ Maintenance And Upgrades Instance Record"	String
+""	4	"out"	"VChannel Maintenance and Upgrade Work Task Result"	"BQ Maintenance And Upgrades Instance Record"	String
+""	5	"out"	"VChannel Maintenance and Upgrade Work Task Date-Time"	"BQ Maintenance And Upgrades Instance Record"	Date
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/troubleshooting/{crbq-identifier}/update"
+""	1	"inout"	"VChannel Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"VChannel Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/advanced-voice-services-management/{sd-identifier}/troubleshooting/{crbq-identifier}/requisition"
+""	1	"inout"	"VChannel Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"VChannel Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Get"	"/advanced-voice-services-management/{sd-identifier}/troubleshooting/{crbq-identifier}/retrieval"
+""	1	"out"	"VChannel Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"out"	"VChannel Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String

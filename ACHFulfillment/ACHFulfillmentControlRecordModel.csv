@@ -1,0 +1,33 @@
+"Control Record Model for: "	ACH Fulfillment
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Outbound ACH Instance Record	""	""	""
+"BQ"	BQ Outbound ACH Instance Record	Outbound ACH Transaction Batch Reference	"Reference to the batch ACH record"	Object
+"CR"	CR ACH Fulfillment Operating Session Instance Record	""	""	""
+"CR"	CR ACH Fulfillment Operating Session Instance Record	ACH Reference	"Reference to the ACH service"	Object
+"CR"	CR ACH Fulfillment Operating Session Instance Record	ACH Access Schedule	"Details the ACH service availability"	String
+"BQ"	BQ Warehousing Instance Record	""	""	""
+"BQ"	BQ Warehousing Instance Record	Schedule Release Date/Time	"The schedule for handling the warehoused transaction batch"	Date
+"BQ"	BQ Inbound ACH Instance Record	""	""	""
+"BQ"	BQ Inbound ACH Instance Record	Inbound ACH Transaction Batch Reference	"Reference to an inbound ACH transaction batch"	Object
+"BQ"	BQ Inbound ACH Instance Record	ACH Payment Transaction Reference	"Reference to a ACH payment transaction - included in the batch"	Object
+"BQ"	BQ Inbound ACH Instance Record	ACH Payment Transaction Record	"Record of key transaction fields"	String
+"BQ"	BQ Inbound ACH Instance Record	Payment Transaction Initiator Reference	"Reference to the originator of the payment transaction"	Object
+"BQ"	BQ Inbound ACH Instance Record	Payer Reference	"Reference to the source of funds in the payment"	Object
+"BQ"	BQ Inbound ACH Instance Record	Payer Bank Reference	"Reference to the payer's bank"	Object
+"BQ"	BQ Inbound ACH Instance Record	Payer Product Instance Reference	"Reference to the payer's account (source of funds)"	Object
+"BQ"	BQ Inbound ACH Instance Record	Payee Reference	"Reference to the transaction payee"	Object
+"BQ"	BQ Inbound ACH Instance Record	Payee Product Instance Reference	"Reference to the payee's account (target for funds)"	Object
+"BQ"	BQ Inbound ACH Instance Record	Payee Bank Reference	"Reference to the payee's bank"	Object
+"BQ"	BQ Inbound ACH Instance Record	Special Instructions	"Transaction specific clearing and settlement instructions if appropriate"	String
+"BQ"	BQ Inbound ACH Instance Record	Amount	"Key amounts from the transaction"	String
+"BQ"	BQ Inbound ACH Instance Record	Currency	"Currencies of the amounts"	String
+"BQ"	BQ Inbound ACH Instance Record	Date Type	"Key date types included in the transaction (e.g. order, booking, execution, value date, interest bearing)"	String
+"BQ"	BQ Inbound ACH Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Reconciliation Instance Record	""	""	""
+"BQ"	BQ Reconciliation Instance Record	ACH Reconciliation Task Result	"Details of the reconciliation resolution"	String
+"BQ"	BQ Clearing and Settlement Instance Record	""	""	""
+"BQ"	BQ Clearing and Settlement Instance Record	Correspondent Bank Reference	"Reference to the correspondent bank referenced in the ACH transaction"	Object
+"BQ"	BQ Clearing and Settlement Instance Record	Correspondent Bank Clearing Agreement Reference	"Reference to the clearing agreement between bank and clearing house - includes schedule, limits"	Object
+"BQ"	BQ Clearing and Settlement Instance Record	Correspondent Bank Clearing Agreement Clearing Instructions	"Customer specific default clearing instructions"	String
+"BQ"	BQ Clearing and Settlement Instance Record	Correspondent Bank Clearing Agreement Settlement Instructions	"Customer specific default settlement instruction e.g. to handle netting arrangements"	String
+"BQ"	BQ Clearing and Settlement Instance Record	Mirror Nostro Account Reference	"Account used central bank clearing reconciliations"	Object

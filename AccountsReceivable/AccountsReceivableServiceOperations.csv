@@ -1,0 +1,328 @@
+"Service Operations for: "	Accounts Receivable
+""
+"POST"	"/accounts-receivable/activation"
+"PUT"	"/accounts-receivable/{sd-reference-id}/configuration"
+"PUT"	"/accounts-receivable/{sd-reference-id}/feedback"
+""
+"Put"	"/accounts-receivable/{sd-identifier}/accounts-receivable-procedure/{crbq-identifier}/control"
+""	1	"inout"	"Accounts Receivable Procedure Parameter Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	2	"inout"	"Accounts Receivable Procedure Selected Option"	"CR Accounts Receivable Procedure Instance Record"	String
+""	3	"inout"	"Accounts Receivable Procedure Request"	"CR Accounts Receivable Procedure Instance Record"	String
+""	4	"inout"	"Accounts Receivable Procedure Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	5	"inout"	"Accounts Receivable Procedure Status"	"CR Accounts Receivable Procedure Instance Record"	String
+""	6	"in"	"Accounts Receivable Procedure Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	7	"in"	"Accounts Receivable Procedure Business Unit Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	8	"in"	"Accounts Receivable Procedure ServiceProvider Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	9	"in"	"Accounts Receivable Procedure Financial Facility Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	10	"in"	"Accounts Receivable Procedure Employee Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	11	"in"	"Accounts Receivable Procedure Customer Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	12	"in"	"Accounts Receivable Procedure Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	13	"in"	"Accounts Receivable Procedure Service Provider Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	14	"in"	"Accounts Receivable Procedure Service Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	15	"in"	"Accounts Receivable Procedure ProductandService Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	16	"in"	"Accounts Receivable Procedure ProductandService Instance"	"CR Accounts Receivable Procedure Instance Record"	String
+""	17	"in"	"Accounts Receivable Procedure Transaction Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	18	"in"	"Accounts Receivable Procedure Financial Transaction Arrangement"	"CR Accounts Receivable Procedure Instance Record"	String
+""	19	"in"	"Accounts Receivable Procedure Customer Agreement Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""
+"Put"	"/accounts-receivable/{sd-identifier}/customer-negotiation/{crbq-identifier}/exchange"
+""	1	"inout"	"Customer Negotiation Preconditions"	"BQ Customer Negotiation Instance Record"	String
+""	2	"inout"	"Customer Negotiation Business Unit/Employee Reference"	"BQ Customer Negotiation Instance Record"	Object
+""	3	"inout"	"Customer Negotiation Work Schedule"	"BQ Customer Negotiation Instance Record"	String
+""	4	"inout"	"Payment Negotation"	"BQ Customer Negotiation Instance Record"	Business Service
+""	5	"inout"	"Customer Negotiation Postconditions"	"BQ Customer Negotiation Instance Record"	String
+""	6	"inout"	"Customer Negotiation Payment Negotation Service Type"	"BQ Customer Negotiation Instance Record"	String
+""	7	"inout"	"Customer Negotiation Payment Negotation Service Description"	"BQ Customer Negotiation Instance Record"	String
+""	8	"inout"	"Customer Negotiation Payment Negotation Service Inputs and Ouputs"	"BQ Customer Negotiation Instance Record"	String
+""	9	"inout"	"Customer Negotiation Payment Negotation Service Work Product"	"BQ Customer Negotiation Instance Record"	String
+""	10	"inout"	"Customer Negotiation Payment Negotation Service Name"	"BQ Customer Negotiation Instance Record"	String
+""
+"Put"	"/accounts-receivable/{sd-identifier}/receivables-evaluation/{crbq-identifier}/exchange"
+""	1	"inout"	"Receivables Evaluation Preconditions"	"BQ Receivables Evaluation Instance Record"	String
+""	2	"inout"	"Receivables Evaluation Business Unit/Employee Reference"	"BQ Receivables Evaluation Instance Record"	Object
+""	3	"inout"	"Receivables Evaluation Work Schedule"	"BQ Receivables Evaluation Instance Record"	String
+""	4	"inout"	"Receivables Evaluation Postconditions"	"BQ Receivables Evaluation Instance Record"	String
+""	5	"inout"	"Receivables Evaluation Receivables Evaluation Service Type"	"BQ Receivables Evaluation Instance Record"	String
+""	6	"inout"	"Receivables Evaluation Receivables Evaluation Service Description"	"BQ Receivables Evaluation Instance Record"	String
+""	7	"inout"	"Receivables Evaluation Receivables Evaluation Service Inputs and Ouputs"	"BQ Receivables Evaluation Instance Record"	String
+""	8	"inout"	"Receivables Evaluation Receivables Evaluation Service Work Product"	"BQ Receivables Evaluation Instance Record"	String
+""	9	"inout"	"Receivables Evaluation Receivables Evaluation Service Name"	"BQ Receivables Evaluation Instance Record"	String
+""
+"Put"	"/accounts-receivable/{sd-identifier}/accounts-receivable-procedure/{crbq-identifier}/exchange"
+""	1	"inout"	"Accounts Receivable Procedure Parameter Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	2	"inout"	"Accounts Receivable Procedure Selected Option"	"CR Accounts Receivable Procedure Instance Record"	String
+""	3	"inout"	"Accounts Receivable Procedure Request"	"CR Accounts Receivable Procedure Instance Record"	String
+""	4	"inout"	"Accounts Receivable Procedure Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	5	"inout"	"Accounts Receivable Procedure Status"	"CR Accounts Receivable Procedure Instance Record"	String
+""	6	"in"	"Accounts Receivable Procedure Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	7	"in"	"Accounts Receivable Procedure Business Unit Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	8	"in"	"Accounts Receivable Procedure ServiceProvider Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	9	"in"	"Accounts Receivable Procedure Financial Facility Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	10	"in"	"Accounts Receivable Procedure Employee Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	11	"in"	"Accounts Receivable Procedure Customer Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	12	"in"	"Accounts Receivable Procedure Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	13	"in"	"Accounts Receivable Procedure Service Provider Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	14	"in"	"Accounts Receivable Procedure Service Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	15	"in"	"Accounts Receivable Procedure ProductandService Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	16	"in"	"Accounts Receivable Procedure ProductandService Instance"	"CR Accounts Receivable Procedure Instance Record"	String
+""	17	"in"	"Accounts Receivable Procedure Transaction Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	18	"in"	"Accounts Receivable Procedure Financial Transaction Arrangement"	"CR Accounts Receivable Procedure Instance Record"	String
+""	19	"in"	"Accounts Receivable Procedure Customer Agreement Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""
+"Put"	"/accounts-receivable/{sd-identifier}/accounts-receivable-procedure/{crbq-identifier}/execution"
+""	1	"inout"	"Accounts Receivable Procedure Parameter Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	2	"inout"	"Accounts Receivable Procedure Selected Option"	"CR Accounts Receivable Procedure Instance Record"	String
+""	3	"inout"	"Accounts Receivable Procedure Request"	"CR Accounts Receivable Procedure Instance Record"	String
+""	4	"inout"	"Accounts Receivable Procedure Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	5	"inout"	"Accounts Receivable Procedure Status"	"CR Accounts Receivable Procedure Instance Record"	String
+""	6	"in"	"Accounts Receivable Procedure Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	7	"in"	"Accounts Receivable Procedure Business Unit Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	8	"in"	"Accounts Receivable Procedure ServiceProvider Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	9	"in"	"Accounts Receivable Procedure Financial Facility Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	10	"in"	"Accounts Receivable Procedure Employee Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	11	"in"	"Accounts Receivable Procedure Customer Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	12	"in"	"Accounts Receivable Procedure Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	13	"in"	"Accounts Receivable Procedure Service Provider Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	14	"in"	"Accounts Receivable Procedure Service Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	15	"in"	"Accounts Receivable Procedure ProductandService Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	16	"in"	"Accounts Receivable Procedure ProductandService Instance"	"CR Accounts Receivable Procedure Instance Record"	String
+""	17	"in"	"Accounts Receivable Procedure Transaction Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	18	"in"	"Accounts Receivable Procedure Financial Transaction Arrangement"	"CR Accounts Receivable Procedure Instance Record"	String
+""	19	"in"	"Accounts Receivable Procedure Customer Agreement Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""
+"Post"	"/accounts-receivable/{sd-identifier}/customer-negotiation/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Negotiation Preconditions"	"BQ Customer Negotiation Instance Record"	String
+""	2	"inout"	"Customer Negotiation Business Unit/Employee Reference"	"BQ Customer Negotiation Instance Record"	Object
+""	3	"inout"	"Customer Negotiation Work Schedule"	"BQ Customer Negotiation Instance Record"	String
+""	4	"inout"	"Payment Negotation"	"BQ Customer Negotiation Instance Record"	Business Service
+""	5	"inout"	"Customer Negotiation Postconditions"	"BQ Customer Negotiation Instance Record"	String
+""	6	"inout"	"Customer Negotiation Payment Negotation Service Type"	"BQ Customer Negotiation Instance Record"	String
+""	7	"inout"	"Customer Negotiation Payment Negotation Service Description"	"BQ Customer Negotiation Instance Record"	String
+""	8	"inout"	"Customer Negotiation Payment Negotation Service Inputs and Ouputs"	"BQ Customer Negotiation Instance Record"	String
+""	9	"inout"	"Customer Negotiation Payment Negotation Service Work Product"	"BQ Customer Negotiation Instance Record"	String
+""	10	"inout"	"Customer Negotiation Payment Negotation Service Name"	"BQ Customer Negotiation Instance Record"	String
+""
+"Post"	"/accounts-receivable/{sd-identifier}/payment/{crbq-identifier}/initiation"
+""	1	"inout"	"Payment Preconditions"	"BQ Payment Instance Record"	String
+""	2	"inout"	"Payment Business Unit/Employee Reference"	"BQ Payment Instance Record"	Object
+""	3	"inout"	"Payment Work Schedule"	"BQ Payment Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Payment Instance Record"	Business Service
+""	5	"inout"	"Payment Postconditions"	"BQ Payment Instance Record"	String
+""	6	"inout"	"Payment Service Type"	"BQ Payment Instance Record"	String
+""	7	"inout"	"Payment Service Description"	"BQ Payment Instance Record"	String
+""	8	"inout"	"Payment Service Inputs and Ouputs"	"BQ Payment Instance Record"	String
+""	9	"inout"	"Payment Service Work Product"	"BQ Payment Instance Record"	String
+""	10	"inout"	"Payment Service Name"	"BQ Payment Instance Record"	String
+""
+"Post"	"/accounts-receivable/{sd-identifier}/receivables-evaluation/{crbq-identifier}/initiation"
+""	1	"inout"	"Receivables Evaluation Preconditions"	"BQ Receivables Evaluation Instance Record"	String
+""	2	"inout"	"Receivables Evaluation Business Unit/Employee Reference"	"BQ Receivables Evaluation Instance Record"	Object
+""	3	"inout"	"Receivables Evaluation Work Schedule"	"BQ Receivables Evaluation Instance Record"	String
+""	4	"inout"	"Receivables Evaluation Postconditions"	"BQ Receivables Evaluation Instance Record"	String
+""	5	"inout"	"Receivables Evaluation Receivables Evaluation Service Type"	"BQ Receivables Evaluation Instance Record"	String
+""	6	"inout"	"Receivables Evaluation Receivables Evaluation Service Description"	"BQ Receivables Evaluation Instance Record"	String
+""	7	"inout"	"Receivables Evaluation Receivables Evaluation Service Inputs and Ouputs"	"BQ Receivables Evaluation Instance Record"	String
+""	8	"inout"	"Receivables Evaluation Receivables Evaluation Service Work Product"	"BQ Receivables Evaluation Instance Record"	String
+""	9	"inout"	"Receivables Evaluation Receivables Evaluation Service Name"	"BQ Receivables Evaluation Instance Record"	String
+""
+"Post"	"/accounts-receivable/{sd-identifier}/resolution/{crbq-identifier}/initiation"
+""	1	"inout"	"Resolution Preconditions"	"BQ Resolution Instance Record"	String
+""	2	"inout"	"Resolution Business Unit/Employee Reference"	"BQ Resolution Instance Record"	Object
+""	3	"inout"	"Resolution Work Schedule"	"BQ Resolution Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Resolution Instance Record"	Business Service
+""	5	"inout"	"Resolution Postconditions"	"BQ Resolution Instance Record"	String
+""	6	"inout"	"Resolution Service Type"	"BQ Resolution Instance Record"	String
+""	7	"inout"	"Resolution Service Description"	"BQ Resolution Instance Record"	String
+""	8	"inout"	"Resolution Service Inputs and Ouputs"	"BQ Resolution Instance Record"	String
+""	9	"inout"	"Resolution Service Work Product"	"BQ Resolution Instance Record"	String
+""	10	"inout"	"Resolution Service Name"	"BQ Resolution Instance Record"	String
+""
+"Post"	"/accounts-receivable/{sd-identifier}/accounts-receivable-procedure/{crbq-identifier}/initiation"
+""	1	"inout"	"Accounts Receivable Procedure Parameter Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	2	"inout"	"Accounts Receivable Procedure Selected Option"	"CR Accounts Receivable Procedure Instance Record"	String
+""	3	"inout"	"Accounts Receivable Procedure Request"	"CR Accounts Receivable Procedure Instance Record"	String
+""	4	"inout"	"Accounts Receivable Procedure Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	5	"inout"	"Accounts Receivable Procedure Status"	"CR Accounts Receivable Procedure Instance Record"	String
+""	6	"in"	"Accounts Receivable Procedure Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	7	"in"	"Accounts Receivable Procedure Business Unit Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	8	"in"	"Accounts Receivable Procedure ServiceProvider Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	9	"in"	"Accounts Receivable Procedure Financial Facility Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	10	"in"	"Accounts Receivable Procedure Employee Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	11	"in"	"Accounts Receivable Procedure Customer Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	12	"in"	"Accounts Receivable Procedure Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	13	"in"	"Accounts Receivable Procedure Service Provider Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	14	"in"	"Accounts Receivable Procedure Service Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	15	"in"	"Accounts Receivable Procedure ProductandService Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	16	"in"	"Accounts Receivable Procedure ProductandService Instance"	"CR Accounts Receivable Procedure Instance Record"	String
+""	17	"in"	"Accounts Receivable Procedure Transaction Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	18	"in"	"Accounts Receivable Procedure Financial Transaction Arrangement"	"CR Accounts Receivable Procedure Instance Record"	String
+""	19	"in"	"Accounts Receivable Procedure Customer Agreement Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""
+"Get"	"/accounts-receivable/{sd-identifier}/customer-negotiation/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Negotiation Preconditions"	"BQ Customer Negotiation Instance Record"	String
+""	2	"out"	"Customer Negotiation Business Unit/Employee Reference"	"BQ Customer Negotiation Instance Record"	Object
+""	3	"out"	"Customer Negotiation Work Schedule"	"BQ Customer Negotiation Instance Record"	String
+""	4	"out"	"Payment Negotation"	"BQ Customer Negotiation Instance Record"	Business Service
+""	5	"out"	"Customer Negotiation Postconditions"	"BQ Customer Negotiation Instance Record"	String
+""	6	"out"	"Customer Negotiation Payment Negotation Service Type"	"BQ Customer Negotiation Instance Record"	String
+""	7	"out"	"Customer Negotiation Payment Negotation Service Description"	"BQ Customer Negotiation Instance Record"	String
+""	8	"out"	"Customer Negotiation Payment Negotation Service Inputs and Ouputs"	"BQ Customer Negotiation Instance Record"	String
+""	9	"out"	"Customer Negotiation Payment Negotation Service Work Product"	"BQ Customer Negotiation Instance Record"	String
+""	10	"out"	"Customer Negotiation Payment Negotation Service Name"	"BQ Customer Negotiation Instance Record"	String
+""
+"Get"	"/accounts-receivable/{sd-identifier}/payment/{crbq-identifier}/retrieval"
+""	1	"out"	"Payment Preconditions"	"BQ Payment Instance Record"	String
+""	2	"out"	"Payment Business Unit/Employee Reference"	"BQ Payment Instance Record"	Object
+""	3	"out"	"Payment Work Schedule"	"BQ Payment Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Payment Instance Record"	Business Service
+""	5	"out"	"Payment Postconditions"	"BQ Payment Instance Record"	String
+""	6	"out"	"Payment Service Type"	"BQ Payment Instance Record"	String
+""	7	"out"	"Payment Service Description"	"BQ Payment Instance Record"	String
+""	8	"out"	"Payment Service Inputs and Ouputs"	"BQ Payment Instance Record"	String
+""	9	"out"	"Payment Service Work Product"	"BQ Payment Instance Record"	String
+""	10	"out"	"Payment Service Name"	"BQ Payment Instance Record"	String
+""
+"Get"	"/accounts-receivable/{sd-identifier}/receivables-evaluation/{crbq-identifier}/retrieval"
+""	1	"out"	"Receivables Evaluation Preconditions"	"BQ Receivables Evaluation Instance Record"	String
+""	2	"out"	"Receivables Evaluation Business Unit/Employee Reference"	"BQ Receivables Evaluation Instance Record"	Object
+""	3	"out"	"Receivables Evaluation Work Schedule"	"BQ Receivables Evaluation Instance Record"	String
+""	4	"out"	"Receivables Evaluation Postconditions"	"BQ Receivables Evaluation Instance Record"	String
+""	5	"out"	"Receivables Evaluation Receivables Evaluation Service Type"	"BQ Receivables Evaluation Instance Record"	String
+""	6	"out"	"Receivables Evaluation Receivables Evaluation Service Description"	"BQ Receivables Evaluation Instance Record"	String
+""	7	"out"	"Receivables Evaluation Receivables Evaluation Service Inputs and Ouputs"	"BQ Receivables Evaluation Instance Record"	String
+""	8	"out"	"Receivables Evaluation Receivables Evaluation Service Work Product"	"BQ Receivables Evaluation Instance Record"	String
+""	9	"out"	"Receivables Evaluation Receivables Evaluation Service Name"	"BQ Receivables Evaluation Instance Record"	String
+""
+"Get"	"/accounts-receivable/{sd-identifier}/resolution/{crbq-identifier}/retrieval"
+""	1	"out"	"Resolution Preconditions"	"BQ Resolution Instance Record"	String
+""	2	"out"	"Resolution Business Unit/Employee Reference"	"BQ Resolution Instance Record"	Object
+""	3	"out"	"Resolution Work Schedule"	"BQ Resolution Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Resolution Instance Record"	Business Service
+""	5	"out"	"Resolution Postconditions"	"BQ Resolution Instance Record"	String
+""	6	"out"	"Resolution Service Type"	"BQ Resolution Instance Record"	String
+""	7	"out"	"Resolution Service Description"	"BQ Resolution Instance Record"	String
+""	8	"out"	"Resolution Service Inputs and Ouputs"	"BQ Resolution Instance Record"	String
+""	9	"out"	"Resolution Service Work Product"	"BQ Resolution Instance Record"	String
+""	10	"out"	"Resolution Service Name"	"BQ Resolution Instance Record"	String
+""
+"Get"	"/accounts-receivable/{sd-identifier}/accounts-receivable-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Accounts Receivable Procedure Parameter Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	2	"out"	"Accounts Receivable Procedure Selected Option"	"CR Accounts Receivable Procedure Instance Record"	String
+""	3	"out"	"Accounts Receivable Procedure Request"	"CR Accounts Receivable Procedure Instance Record"	String
+""	4	"out"	"Accounts Receivable Procedure Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	5	"out"	"Accounts Receivable Procedure Status"	"CR Accounts Receivable Procedure Instance Record"	String
+""	6	"out"	"Accounts Receivable Procedure Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	7	"out"	"Accounts Receivable Procedure Business Unit Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	8	"out"	"Accounts Receivable Procedure ServiceProvider Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	9	"out"	"Accounts Receivable Procedure Financial Facility Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	10	"out"	"Accounts Receivable Procedure Employee Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	11	"out"	"Accounts Receivable Procedure Customer Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	12	"out"	"Accounts Receivable Procedure Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	13	"out"	"Accounts Receivable Procedure Service Provider Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	14	"out"	"Accounts Receivable Procedure Service Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	15	"out"	"Accounts Receivable Procedure ProductandService Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	16	"out"	"Accounts Receivable Procedure ProductandService Instance"	"CR Accounts Receivable Procedure Instance Record"	String
+""	17	"out"	"Accounts Receivable Procedure Transaction Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	18	"out"	"Accounts Receivable Procedure Financial Transaction Arrangement"	"CR Accounts Receivable Procedure Instance Record"	String
+""	19	"out"	"Accounts Receivable Procedure Customer Agreement Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""
+"Put"	"/accounts-receivable/{sd-identifier}/customer-negotiation/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Negotiation Preconditions"	"BQ Customer Negotiation Instance Record"	String
+""	2	"inout"	"Customer Negotiation Business Unit/Employee Reference"	"BQ Customer Negotiation Instance Record"	Object
+""	3	"inout"	"Customer Negotiation Work Schedule"	"BQ Customer Negotiation Instance Record"	String
+""	4	"inout"	"Payment Negotation"	"BQ Customer Negotiation Instance Record"	Business Service
+""	5	"inout"	"Customer Negotiation Postconditions"	"BQ Customer Negotiation Instance Record"	String
+""	6	"inout"	"Customer Negotiation Payment Negotation Service Type"	"BQ Customer Negotiation Instance Record"	String
+""	7	"inout"	"Customer Negotiation Payment Negotation Service Description"	"BQ Customer Negotiation Instance Record"	String
+""	8	"inout"	"Customer Negotiation Payment Negotation Service Inputs and Ouputs"	"BQ Customer Negotiation Instance Record"	String
+""	9	"inout"	"Customer Negotiation Payment Negotation Service Work Product"	"BQ Customer Negotiation Instance Record"	String
+""	10	"inout"	"Customer Negotiation Payment Negotation Service Name"	"BQ Customer Negotiation Instance Record"	String
+""
+"Put"	"/accounts-receivable/{sd-identifier}/accounts-receivable-procedure/{crbq-identifier}/requisition"
+""	1	"inout"	"Accounts Receivable Procedure Parameter Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	2	"inout"	"Accounts Receivable Procedure Selected Option"	"CR Accounts Receivable Procedure Instance Record"	String
+""	3	"inout"	"Accounts Receivable Procedure Request"	"CR Accounts Receivable Procedure Instance Record"	String
+""	4	"inout"	"Accounts Receivable Procedure Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	5	"inout"	"Accounts Receivable Procedure Status"	"CR Accounts Receivable Procedure Instance Record"	String
+""	6	"in"	"Accounts Receivable Procedure Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	7	"in"	"Accounts Receivable Procedure Business Unit Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	8	"in"	"Accounts Receivable Procedure ServiceProvider Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	9	"in"	"Accounts Receivable Procedure Financial Facility Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	10	"in"	"Accounts Receivable Procedure Employee Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	11	"in"	"Accounts Receivable Procedure Customer Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	12	"in"	"Accounts Receivable Procedure Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	13	"in"	"Accounts Receivable Procedure Service Provider Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	14	"in"	"Accounts Receivable Procedure Service Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	15	"in"	"Accounts Receivable Procedure ProductandService Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	16	"in"	"Accounts Receivable Procedure ProductandService Instance"	"CR Accounts Receivable Procedure Instance Record"	String
+""	17	"in"	"Accounts Receivable Procedure Transaction Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	18	"in"	"Accounts Receivable Procedure Financial Transaction Arrangement"	"CR Accounts Receivable Procedure Instance Record"	String
+""	19	"in"	"Accounts Receivable Procedure Customer Agreement Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""
+"Put"	"/accounts-receivable/{sd-identifier}/customer-negotiation/{crbq-identifier}/update"
+""	1	"inout"	"Customer Negotiation Preconditions"	"BQ Customer Negotiation Instance Record"	String
+""	2	"inout"	"Customer Negotiation Business Unit/Employee Reference"	"BQ Customer Negotiation Instance Record"	Object
+""	3	"inout"	"Customer Negotiation Work Schedule"	"BQ Customer Negotiation Instance Record"	String
+""	4	"inout"	"Payment Negotation"	"BQ Customer Negotiation Instance Record"	Business Service
+""	5	"inout"	"Customer Negotiation Postconditions"	"BQ Customer Negotiation Instance Record"	String
+""	6	"inout"	"Customer Negotiation Payment Negotation Service Type"	"BQ Customer Negotiation Instance Record"	String
+""	7	"inout"	"Customer Negotiation Payment Negotation Service Description"	"BQ Customer Negotiation Instance Record"	String
+""	8	"inout"	"Customer Negotiation Payment Negotation Service Inputs and Ouputs"	"BQ Customer Negotiation Instance Record"	String
+""	9	"inout"	"Customer Negotiation Payment Negotation Service Work Product"	"BQ Customer Negotiation Instance Record"	String
+""	10	"inout"	"Customer Negotiation Payment Negotation Service Name"	"BQ Customer Negotiation Instance Record"	String
+""
+"Put"	"/accounts-receivable/{sd-identifier}/payment/{crbq-identifier}/update"
+""	1	"inout"	"Payment Preconditions"	"BQ Payment Instance Record"	String
+""	2	"inout"	"Payment Business Unit/Employee Reference"	"BQ Payment Instance Record"	Object
+""	3	"inout"	"Payment Work Schedule"	"BQ Payment Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Payment Instance Record"	Business Service
+""	5	"inout"	"Payment Postconditions"	"BQ Payment Instance Record"	String
+""	6	"inout"	"Payment Service Type"	"BQ Payment Instance Record"	String
+""	7	"inout"	"Payment Service Description"	"BQ Payment Instance Record"	String
+""	8	"inout"	"Payment Service Inputs and Ouputs"	"BQ Payment Instance Record"	String
+""	9	"inout"	"Payment Service Work Product"	"BQ Payment Instance Record"	String
+""	10	"inout"	"Payment Service Name"	"BQ Payment Instance Record"	String
+""
+"Put"	"/accounts-receivable/{sd-identifier}/receivables-evaluation/{crbq-identifier}/update"
+""	1	"inout"	"Receivables Evaluation Preconditions"	"BQ Receivables Evaluation Instance Record"	String
+""	2	"inout"	"Receivables Evaluation Business Unit/Employee Reference"	"BQ Receivables Evaluation Instance Record"	Object
+""	3	"inout"	"Receivables Evaluation Work Schedule"	"BQ Receivables Evaluation Instance Record"	String
+""	4	"inout"	"Receivables Evaluation Postconditions"	"BQ Receivables Evaluation Instance Record"	String
+""	5	"inout"	"Receivables Evaluation Receivables Evaluation Service Type"	"BQ Receivables Evaluation Instance Record"	String
+""	6	"inout"	"Receivables Evaluation Receivables Evaluation Service Description"	"BQ Receivables Evaluation Instance Record"	String
+""	7	"inout"	"Receivables Evaluation Receivables Evaluation Service Inputs and Ouputs"	"BQ Receivables Evaluation Instance Record"	String
+""	8	"inout"	"Receivables Evaluation Receivables Evaluation Service Work Product"	"BQ Receivables Evaluation Instance Record"	String
+""	9	"inout"	"Receivables Evaluation Receivables Evaluation Service Name"	"BQ Receivables Evaluation Instance Record"	String
+""
+"Put"	"/accounts-receivable/{sd-identifier}/resolution/{crbq-identifier}/update"
+""	1	"inout"	"Resolution Preconditions"	"BQ Resolution Instance Record"	String
+""	2	"inout"	"Resolution Business Unit/Employee Reference"	"BQ Resolution Instance Record"	Object
+""	3	"inout"	"Resolution Work Schedule"	"BQ Resolution Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Resolution Instance Record"	Business Service
+""	5	"inout"	"Resolution Postconditions"	"BQ Resolution Instance Record"	String
+""	6	"inout"	"Resolution Service Type"	"BQ Resolution Instance Record"	String
+""	7	"inout"	"Resolution Service Description"	"BQ Resolution Instance Record"	String
+""	8	"inout"	"Resolution Service Inputs and Ouputs"	"BQ Resolution Instance Record"	String
+""	9	"inout"	"Resolution Service Work Product"	"BQ Resolution Instance Record"	String
+""	10	"inout"	"Resolution Service Name"	"BQ Resolution Instance Record"	String
+""
+"Put"	"/accounts-receivable/{sd-identifier}/accounts-receivable-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Accounts Receivable Procedure Parameter Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	2	"inout"	"Accounts Receivable Procedure Selected Option"	"CR Accounts Receivable Procedure Instance Record"	String
+""	3	"inout"	"Accounts Receivable Procedure Request"	"CR Accounts Receivable Procedure Instance Record"	String
+""	4	"inout"	"Accounts Receivable Procedure Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	5	"inout"	"Accounts Receivable Procedure Status"	"CR Accounts Receivable Procedure Instance Record"	String
+""	6	"in"	"Accounts Receivable Procedure Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	7	"in"	"Accounts Receivable Procedure Business Unit Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	8	"in"	"Accounts Receivable Procedure ServiceProvider Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	9	"in"	"Accounts Receivable Procedure Financial Facility Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	10	"in"	"Accounts Receivable Procedure Employee Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	11	"in"	"Accounts Receivable Procedure Customer Reference"	"CR Accounts Receivable Procedure Instance Record"	Object
+""	12	"in"	"Accounts Receivable Procedure Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	13	"in"	"Accounts Receivable Procedure Service Provider Schedule"	"CR Accounts Receivable Procedure Instance Record"	String
+""	14	"in"	"Accounts Receivable Procedure Service Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	15	"in"	"Accounts Receivable Procedure ProductandService Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	16	"in"	"Accounts Receivable Procedure ProductandService Instance"	"CR Accounts Receivable Procedure Instance Record"	String
+""	17	"in"	"Accounts Receivable Procedure Transaction Type"	"CR Accounts Receivable Procedure Instance Record"	String
+""	18	"in"	"Accounts Receivable Procedure Financial Transaction Arrangement"	"CR Accounts Receivable Procedure Instance Record"	String
+""	19	"in"	"Accounts Receivable Procedure Customer Agreement Reference"	"CR Accounts Receivable Procedure Instance Record"	Object

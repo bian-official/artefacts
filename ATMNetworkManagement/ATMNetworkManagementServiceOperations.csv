@@ -1,0 +1,5 @@
+"Service Operations for: "	ATM Network Management
+"Control Record Model for ATM Network Management is not defined"
+"POST"	"/atm-network-management/activation"
+"PUT"	"/atm-network-management/{sd-reference-id}/configuration"
+"PUT"	"/atm-network-management/{sd-reference-id}/feedback"

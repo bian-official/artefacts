@@ -1,0 +1,60 @@
+"Control Record Model for: "	ATM Network Operations
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR ATMNetwork Operating Session Instance Record	""	"Operate equipment and/or a largely automated facility  within ATM Network Operations. . Example: Operate the bank's internal intranet facility."	""
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session Schedule	"The timetable of ATMNetwork Operating Session"	String
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session Status	"The status of ATMNetwork Operating Session"	String
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session Usage Log	"Reference to the log of (usage) ativities/events  of ATMNetwork Operating Session"	String
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session Reference	"Reference to the party who is involved in ATMNetwork Operating Session"	Object
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session ServiceProvider Reference	"Reference to the party who provides the services of ATMNetwork Operating Session "	Object
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session Type	"A Classification value that distinguishes between the type of operations within ATMNetwork Operating Session "	String
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session Service Provider Schedule	"The schedule according to which the service provider will operate the ATMNetwork Operating Session"	String
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session Service Type	"A Classification value that distinguishes between the type of services within ATMNetwork Operating Session "	String
+"CR"	CR ATMNetwork Operating Session Instance Record	ATMNetwork Operating Session Service Configuration	"The configuration of ATMNetwork Operating Session"	String
+"BQ"	BQ Financial Document Handling Instance Record	""	"Operate equipment and/or a largely automated facility  within ATM Network Operations. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Financial Document Handling Instance Record	Financial Document Handling Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Financial Document Handling Instance Record	Financial Document Handling Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Financial Document Handling Instance Record	Document Generation and Handling	"The ATMNetwork Operating Session specific Business Service"	Business Service
+"BQ"	BQ Financial Document Handling Instance Record	Document Generation and Handling Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Financial Document Handling Instance Record	Document Generation and Handling Service Description	"Description of the performed business service"	String
+"BQ"	BQ Financial Document Handling Instance Record	Document Generation and Handling Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Financial Document Handling Instance Record	Document Generation and Handling Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Financial Document Handling Instance Record	Document Generation and Handling Service Name	""	String
+"BQ"	BQ ATM Network Operations Outcome Instance Record	""	""	""
+"BQ"	BQ ATM Network Operations Outcome Instance Record	ATM Network Operations Incident	""	String
+"BQ"	BQ ATM Network Operations Outcome Instance Record	ATM Network Operations Provision	""	String
+"BQ"	BQ Device Tracking Instance Record	""	"Operate equipment and/or a largely automated facility  within ATM Network Operations. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Device Tracking Instance Record	Device Tracking Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Device Tracking Instance Record	Device Tracking Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Device Tracking Instance Record	Device Tracking	"The ATMNetwork Operating Session specific Business Service"	Business Service
+"BQ"	BQ Device Tracking Instance Record	Device Tracking Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Device Tracking Instance Record	Device Tracking Service Description	"Description of the performed business service"	String
+"BQ"	BQ Device Tracking Instance Record	Device Tracking Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Device Tracking Instance Record	Device Tracking Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Device Tracking Instance Record	Device Tracking Service Name	""	String
+"BQ"	BQ Network Operation Instance Record	""	"Operate equipment and/or a largely automated facility  within ATM Network Operations. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Network Operation Instance Record	Network Operation Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Network Operation Instance Record	Network Operation Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Network Operation Instance Record	Network Operation	"The ATMNetwork Operating Session specific Business Service"	Business Service
+"BQ"	BQ Network Operation Instance Record	Network Operation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Network Operation Instance Record	Network Operation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Network Operation Instance Record	Network Operation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Network Operation Instance Record	Network Operation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Network Operation Instance Record	Network Operation Service Name	""	String
+"BQ"	BQ Cash Distribution Instance Record	""	"Operate equipment and/or a largely automated facility  within ATM Network Operations. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Cash Distribution Instance Record	Cash Distribution Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Cash Distribution Instance Record	Cash Distribution Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Cash Distribution Instance Record	Cash Distribution	"The ATMNetwork Operating Session specific Business Service"	Business Service
+"BQ"	BQ Cash Distribution Instance Record	Cash Distribution Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Cash Distribution Instance Record	Cash Distribution Service Description	"Description of the performed business service"	String
+"BQ"	BQ Cash Distribution Instance Record	Cash Distribution Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Cash Distribution Instance Record	Cash Distribution Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Cash Distribution Instance Record	Cash Distribution Service Name	""	String
+"BQ"	BQ Financial Transaction Capture Instance Record	""	"Operate equipment and/or a largely automated facility  within ATM Network Operations. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Financial Transaction Capture Instance Record	Financial Transaction Capture Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	Financial Transaction Capture Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	Business Service	"The ATMNetwork Operating Session specific Business Service"	Business Service
+"BQ"	BQ Financial Transaction Capture Instance Record	Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	Service Description	"Description of the performed business service"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	Service Name	""	String

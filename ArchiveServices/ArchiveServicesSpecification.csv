@@ -1,0 +1,13 @@
+"Service Domain specification for Archive Services"
+"Business Area"	Operations
+"Business Domain"	Custody, Collateral And Documents
+"Service Domain"	Archive Services
+"Role Definition"	"Provide long term archiving and retrieval services for documents and electronic media"
+"Example of use"	"Infrequently accessed documents are archived to lower cost storage in compliance with banking regulations"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	Archive
+"Generic Artifact"	OperatingSession
+"Control Record"	ArchiveOperatingSession
+"Registration Status"	Registered

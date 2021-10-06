@@ -1,0 +1,13 @@
+"Service Domain specification for Asset And Liability Management"
+"Business Area"	Business Management
+"Business Domain"	Business Direction
+"Service Domain"	Asset And Liability Management
+"Role Definition"	"A central policy and direction capability that reviews consolidated bank P&L profile and performance and defines and directs asset and liability policies. Also sanctions and/or influences large transactions"
+"Example of use"	"The bank's senior policy makers review that bank's book performance and amend guidelines to remain within policy directives"
+"Executive Summary"	"The unit overseeing the  banks asset & liability policies and position"
+"Key Features"	"Consolidate the bank's asset and liability position. Assess sensitivity to prevailing and projected market conditions. Evaluate alignment with banks risk appetite and policies. Issue directives to remain in alignment with policies. Consider impact and approve/reject very large transactions"
+"Functional Pattern"	Direct
+"Asset Type"	AssetAndLiabilityPortfolio
+"Generic Artifact"	Strategy
+"Control Record"	AssetAndLiabilityPortfolioStrategy
+"Registration Status"	Registered

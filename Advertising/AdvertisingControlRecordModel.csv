@@ -1,0 +1,31 @@
+"Control Record Model for: "	Advertising
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Advertising Campaign Management Plan Instance Record	""	""	""
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Portfolio	"The collection of advertising campaigns that is used to assess performance and coverage and direct development and execution activity"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Type	"The type of advertising campaign (e.g. media, mailshot, web-based)"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Description	"A description of the campaign that clarifies the content and media to be used in the advertising campaign and outlines the target audience"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Metrics	"Metrics that are defined to assess the target and actual impact of the campaign"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Metric Definition	"A description of the metric, defining how it is to be measured in deployment"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Metric Goal	"A description of the target performance for the metric that can be defined for different usage scenarios as appropriate"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Performance Record	"Maintains a record of the use and impact of the advertising campaign"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Procedure Instance Reference	"Reference to the advertising campaign execution"	Object
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Execution Plan	"The execution plan for the advertising campaign, including external agencies employed, content development and execution tasks"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Employee/Business Unit Reference	"Reference to the business unit responsible for the campaign execution"	Object
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Duration	"The period over which the advertising is executed"	String
+"CR"	CR Advertising Campaign Management Plan Instance Record	Advertising Campaign Procedure Result	"The result/impact of the overall advertising campaign event (can refer to any detected up-tick in sales or servicing activity)"	String
+"BQ"	BQ Performance Assessment Instance Record	""	""	""
+"BQ"	BQ Performance Assessment Instance Record	Performance Assessment Work Task Type	"The type of work task (e.g. track customer and prospect response to advertising)"	String
+"BQ"	BQ Performance Assessment Instance Record	Performance Assessment Work Task	"The make-up of the market tracking task performed, includes consolidation and analysis of market research"	String
+"BQ"	BQ Performance Assessment Instance Record	Performance Assessment Work Task Work Products	"File of consolidated notes, evaluations and findings for the work task"	String
+"BQ"	BQ Performance Assessment Instance Record	Performance Assessment Work Task Result	"Details of the outcome or result of the work task - indication of the need to amend, redirect and/or expand advertising campaign activity"	String
+"BQ"	BQ Performance Assessment Instance Record	Performance Assessment Work Task Date-Time	"The date-time the performance assessment task is performed"	Date
+"BQ"	BQ Campaign Direction Instance Record	""	""	""
+"BQ"	BQ Campaign Direction Instance Record	Advertising Campaign Development Schedule	"Schedule of planned and actual advertising campaign design development and refinement activity"	String
+"BQ"	BQ Campaign Direction Instance Record	Advertising Campaign Execution Schedule	"Schedule of planned and actual customer campaign execution activities"	String
+"BQ"	BQ Market Tracking Instance Record	""	""	""
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task Type	"The type of work task (e.g. track advertising activity, assess advertising impact)"	String
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task	"The make-up of the market tracking task performed, includes consolidation and analysis of market research to assess competitor advertising activity and impact of advertising campaigns"	String
+"BQ"	BQ Market Tracking Instance Record	General Market Research Directory Entry Instance Reference	"Reference to an internally maintained market research viewpoint"	Object
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task Work Products	"File of consolidated notes, evaluations and findings for the market tracking work task"	String
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task Result	"Details of the outcome or result of the work task - typically points of view drawn from the market research"	String
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task Date-Time	"The date-time the market tracking task is performed"	Date

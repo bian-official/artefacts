@@ -1,0 +1,238 @@
+"Service Operations for: "	Account Recovery
+""
+"POST"	"/account-recovery/activation"
+"PUT"	"/account-recovery/{sd-reference-id}/configuration"
+"PUT"	"/account-recovery/{sd-reference-id}/feedback"
+""
+"Post"	"/account-recovery/{sd-identifier}/account-recovery-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Account Recovery Case Type"	"CR Account Recovery Procedure Instance Record"	String
+""	2	"in"	"Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	3	"inout"	"Linked Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	4	"in"	"Customer Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	5	"in"	"Employee/Business Unit Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	6	"in"	"Account Number"	"CR Account Recovery Procedure Instance Record"	String
+""	7	"in"	"Bank Branch/Location Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	8	"inout"	"Date Type"	"CR Account Recovery Procedure Instance Record"	String
+""	9	"in"	"Involved Party Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	10	"in"	"Involved Party Obligation/Entitlement"	"CR Account Recovery Procedure Instance Record"	String
+""	11	"in"	"Account Type"	"CR Account Recovery Procedure Instance Record"	String
+""	12	"in"	"Account Currency"	"CR Account Recovery Procedure Instance Record"	CurrencyCode
+""	13	"in"	"Account Limit Type"	"CR Account Recovery Procedure Instance Record"	String
+""	14	"in"	"Allowed Access"	"CR Account Recovery Procedure Instance Record"	String
+""	15	"in"	"Tax Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	16	"inout"	"Account Status"	"CR Account Recovery Procedure Instance Record"	String
+""	17	"in"	"Collateral Asset Allocation Profile"	"CR Account Recovery Procedure Instance Record"	String
+""	18	"in"	"Collateral Type"	"CR Account Recovery Procedure Instance Record"	String
+""	19	"in"	"Collateral Asset Description"	"CR Account Recovery Procedure Instance Record"	String
+""	20	"in"	"Transaction Record"	"CR Account Recovery Procedure Instance Record"	String
+""	21	"inout"	"Account Recovery Case Work Products"	"CR Account Recovery Procedure Instance Record"	String
+""	22	"inout"	"Document Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	23	"inout"	"Customer Commentary"	"CR Account Recovery Procedure Instance Record"	String
+""	24	"out"	"Account Recovery Case Resolution Schedule"	"CR Account Recovery Procedure Instance Record"	String
+""	25	"inout"	"Account Recovery Case Status"	"CR Account Recovery Procedure Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/account-recovery-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Account Recovery Case Type"	"CR Account Recovery Procedure Instance Record"	String
+""	2	"inout"	"Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	3	"inout"	"Linked Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	4	"inout"	"Customer Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	5	"inout"	"Employee/Business Unit Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	6	"inout"	"Account Number"	"CR Account Recovery Procedure Instance Record"	String
+""	7	"inout"	"Bank Branch/Location Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	8	"inout"	"Date Type"	"CR Account Recovery Procedure Instance Record"	String
+""	9	"inout"	"Involved Party Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	10	"inout"	"Involved Party Obligation/Entitlement"	"CR Account Recovery Procedure Instance Record"	String
+""	11	"inout"	"Account Type"	"CR Account Recovery Procedure Instance Record"	String
+""	12	"inout"	"Account Currency"	"CR Account Recovery Procedure Instance Record"	CurrencyCode
+""	13	"inout"	"Account Limit Type"	"CR Account Recovery Procedure Instance Record"	String
+""	14	"inout"	"Allowed Access"	"CR Account Recovery Procedure Instance Record"	String
+""	15	"inout"	"Tax Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	16	"inout"	"Account Status"	"CR Account Recovery Procedure Instance Record"	String
+""	17	"inout"	"Collateral Asset Allocation Profile"	"CR Account Recovery Procedure Instance Record"	String
+""	18	"inout"	"Collateral Type"	"CR Account Recovery Procedure Instance Record"	String
+""	19	"inout"	"Collateral Asset Description"	"CR Account Recovery Procedure Instance Record"	String
+""	20	"inout"	"Transaction Record"	"CR Account Recovery Procedure Instance Record"	String
+""	21	"inout"	"Account Recovery Case Work Products"	"CR Account Recovery Procedure Instance Record"	String
+""	22	"inout"	"Document Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	23	"inout"	"Customer Commentary"	"CR Account Recovery Procedure Instance Record"	String
+""	24	"inout"	"Account Recovery Case Resolution Schedule"	"CR Account Recovery Procedure Instance Record"	String
+""	25	"inout"	"Account Recovery Case Status"	"CR Account Recovery Procedure Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/account-recovery-procedure/{crbq-identifier}/exchange"
+""
+"Get"	"/account-recovery/{sd-identifier}/account-recovery-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Account Recovery Case Type"	"CR Account Recovery Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	3	"out"	"Linked Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	4	"out"	"Customer Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	5	"out"	"Employee/Business Unit Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	6	"out"	"Account Number"	"CR Account Recovery Procedure Instance Record"	String
+""	7	"out"	"Bank Branch/Location Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	8	"out"	"Date Type"	"CR Account Recovery Procedure Instance Record"	String
+""	9	"out"	"Involved Party Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	10	"out"	"Involved Party Obligation/Entitlement"	"CR Account Recovery Procedure Instance Record"	String
+""	11	"out"	"Account Type"	"CR Account Recovery Procedure Instance Record"	String
+""	12	"out"	"Account Currency"	"CR Account Recovery Procedure Instance Record"	CurrencyCode
+""	13	"out"	"Account Limit Type"	"CR Account Recovery Procedure Instance Record"	String
+""	14	"out"	"Allowed Access"	"CR Account Recovery Procedure Instance Record"	String
+""	15	"out"	"Tax Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	16	"out"	"Account Status"	"CR Account Recovery Procedure Instance Record"	String
+""	17	"out"	"Collateral Asset Allocation Profile"	"CR Account Recovery Procedure Instance Record"	String
+""	18	"out"	"Collateral Type"	"CR Account Recovery Procedure Instance Record"	String
+""	19	"out"	"Collateral Asset Description"	"CR Account Recovery Procedure Instance Record"	String
+""	20	"out"	"Transaction Record"	"CR Account Recovery Procedure Instance Record"	String
+""	21	"out"	"Account Recovery Case Work Products"	"CR Account Recovery Procedure Instance Record"	String
+""	22	"out"	"Document Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	23	"out"	"Customer Commentary"	"CR Account Recovery Procedure Instance Record"	String
+""	24	"out"	"Account Recovery Case Resolution Schedule"	"CR Account Recovery Procedure Instance Record"	String
+""	25	"out"	"Account Recovery Case Status"	"CR Account Recovery Procedure Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/assessment/{crbq-identifier}/update"
+""	1	"inout"	"Account Recovery Case Assessment Task Record"	"BQ Assessment Instance Record"	String
+""
+"Get"	"/account-recovery/{sd-identifier}/assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Account Recovery Case Type"	"CR Account Recovery Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	3	"out"	"Linked Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	4	"out"	"Customer Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	5	"out"	"Employee/Business Unit Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	6	"out"	"Account Number"	"CR Account Recovery Procedure Instance Record"	String
+""	7	"out"	"Bank Branch/Location Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	8	"out"	"Date Type"	"CR Account Recovery Procedure Instance Record"	String
+""	9	"out"	"Involved Party Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	10	"out"	"Involved Party Obligation/Entitlement"	"CR Account Recovery Procedure Instance Record"	String
+""	11	"out"	"Account Type"	"CR Account Recovery Procedure Instance Record"	String
+""	12	"out"	"Account Currency"	"CR Account Recovery Procedure Instance Record"	CurrencyCode
+""	13	"out"	"Account Limit Type"	"CR Account Recovery Procedure Instance Record"	String
+""	14	"out"	"Allowed Access"	"CR Account Recovery Procedure Instance Record"	String
+""	15	"out"	"Tax Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	16	"out"	"Account Status"	"CR Account Recovery Procedure Instance Record"	String
+""	17	"out"	"Collateral Asset Allocation Profile"	"CR Account Recovery Procedure Instance Record"	String
+""	18	"out"	"Collateral Type"	"CR Account Recovery Procedure Instance Record"	String
+""	19	"out"	"Collateral Asset Description"	"CR Account Recovery Procedure Instance Record"	String
+""	20	"out"	"Transaction Record"	"CR Account Recovery Procedure Instance Record"	String
+""	21	"out"	"Account Recovery Case Work Products"	"CR Account Recovery Procedure Instance Record"	String
+""	22	"out"	"Document Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	23	"out"	"Customer Commentary"	"CR Account Recovery Procedure Instance Record"	String
+""	24	"out"	"Account Recovery Case Resolution Schedule"	"CR Account Recovery Procedure Instance Record"	String
+""	25	"out"	"Account Recovery Case Status"	"CR Account Recovery Procedure Instance Record"	String
+""	26	"out"	"Account Recovery Case Assessment Task Record"	"BQ Assessment Instance Record"	String
+""	27	"out"	"Account Recovery Plan"	"BQ Planning Instance Record"	String
+""	28	"out"	"Account Recovery Case Planning Task Record"	"BQ Planning Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/writedown/{crbq-identifier}/update"
+""	1	"inout"	"Account Recovery Plan"	"BQ Planning Instance Record"	String
+""	2	"inout"	"Account Recovery Case Planning Task Record"	"BQ Planning Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/writedown/{crbq-identifier}/exchange"
+""
+"Put"	"/account-recovery/{sd-identifier}/planning/{crbq-identifier}/update"
+""	1	"inout"	"Account write-down transaction"	"BQ Writedown Instance Record"	String
+""	2	"inout"	"Account Recovery Case Write-down Task Record"	"BQ Writedown Instance Record"	String
+""
+"Get"	"/account-recovery/{sd-identifier}/planning/{crbq-identifier}/retrieval"
+""	1	"out"	"Account Recovery Case Type"	"CR Account Recovery Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	4	"out"	"Employee/Business Unit Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	5	"out"	"Account Number"	"CR Account Recovery Procedure Instance Record"	String
+""	6	"out"	"Bank Branch/Location Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	7	"out"	"Date Type"	"CR Account Recovery Procedure Instance Record"	String
+""	8	"out"	"Involved Party Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	9	"out"	"Involved Party Obligation/Entitlement"	"CR Account Recovery Procedure Instance Record"	String
+""	10	"out"	"Account Type"	"CR Account Recovery Procedure Instance Record"	String
+""	11	"out"	"Account Currency"	"CR Account Recovery Procedure Instance Record"	CurrencyCode
+""	12	"out"	"Account Limit Type"	"CR Account Recovery Procedure Instance Record"	String
+""	13	"out"	"Allowed Access"	"CR Account Recovery Procedure Instance Record"	String
+""	14	"out"	"Tax Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	15	"out"	"Account Status"	"CR Account Recovery Procedure Instance Record"	String
+""	16	"out"	"Collateral Asset Allocation Profile"	"CR Account Recovery Procedure Instance Record"	String
+""	17	"out"	"Collateral Type"	"CR Account Recovery Procedure Instance Record"	String
+""	18	"out"	"Collateral Asset Description"	"CR Account Recovery Procedure Instance Record"	String
+""	19	"out"	"Transaction Record"	"CR Account Recovery Procedure Instance Record"	String
+""	20	"out"	"Account Recovery Case Work Products"	"CR Account Recovery Procedure Instance Record"	String
+""	21	"out"	"Document Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	22	"out"	"Customer Commentary"	"CR Account Recovery Procedure Instance Record"	String
+""	23	"out"	"Account Recovery Case Resolution Schedule"	"CR Account Recovery Procedure Instance Record"	String
+""	24	"out"	"Account Recovery Case Status"	"CR Account Recovery Procedure Instance Record"	String
+""	25	"out"	"Account write-down transaction"	"BQ Writedown Instance Record"	String
+""	26	"out"	"Account Recovery Case Write-down Task Record"	"BQ Writedown Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/negotiation/{crbq-identifier}/update"
+""	1	"inout"	"Account Recovery Guidelines"	"BQ Negotiation Instance Record"	String
+""	2	"inout"	"Correspondence Reference"	"BQ Negotiation Instance Record"	Object
+""	3	"inout"	"Correspondence Content"	"BQ Negotiation Instance Record"	String
+""	4	"inout"	"Document Reference"	"BQ Negotiation Instance Record"	Object
+""	5	"inout"	"Document Content"	"BQ Negotiation Instance Record"	String
+""	6	"inout"	"Account Recovery Case Negotiation Task Record"	"BQ Negotiation Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/negotiation/{crbq-identifier}/exchange"
+""
+"Put"	"/account-recovery/{sd-identifier}/negotiation/{crbq-identifier}/requisition"
+""
+"Get"	"/account-recovery/{sd-identifier}/negotiation/{crbq-identifier}/retrieval"
+""	1	"out"	"Account Recovery Case Type"	"CR Account Recovery Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	4	"out"	"Employee/Business Unit Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	5	"out"	"Account Number"	"CR Account Recovery Procedure Instance Record"	String
+""	6	"out"	"Bank Branch/Location Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	7	"out"	"Date Type"	"CR Account Recovery Procedure Instance Record"	String
+""	8	"out"	"Involved Party Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	9	"out"	"Involved Party Obligation/Entitlement"	"CR Account Recovery Procedure Instance Record"	String
+""	10	"out"	"Account Type"	"CR Account Recovery Procedure Instance Record"	String
+""	11	"out"	"Account Currency"	"CR Account Recovery Procedure Instance Record"	CurrencyCode
+""	12	"out"	"Account Limit Type"	"CR Account Recovery Procedure Instance Record"	String
+""	13	"out"	"Allowed Access"	"CR Account Recovery Procedure Instance Record"	String
+""	14	"out"	"Tax Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	15	"out"	"Account Status"	"CR Account Recovery Procedure Instance Record"	String
+""	16	"out"	"Collateral Asset Allocation Profile"	"CR Account Recovery Procedure Instance Record"	String
+""	17	"out"	"Collateral Type"	"CR Account Recovery Procedure Instance Record"	String
+""	18	"out"	"Collateral Asset Description"	"CR Account Recovery Procedure Instance Record"	String
+""	19	"out"	"Transaction Record"	"CR Account Recovery Procedure Instance Record"	String
+""	20	"out"	"Account Recovery Case Work Products"	"CR Account Recovery Procedure Instance Record"	String
+""	21	"out"	"Document Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	22	"out"	"Customer Commentary"	"CR Account Recovery Procedure Instance Record"	String
+""	23	"out"	"Account Recovery Case Resolution Schedule"	"CR Account Recovery Procedure Instance Record"	String
+""	24	"out"	"Account Recovery Case Status"	"CR Account Recovery Procedure Instance Record"	String
+""	25	"out"	"Account Recovery Guidelines"	"BQ Negotiation Instance Record"	String
+""	26	"out"	"Correspondence Reference"	"BQ Negotiation Instance Record"	Object
+""	27	"out"	"Correspondence Content"	"BQ Negotiation Instance Record"	String
+""	28	"out"	"Document Content"	"BQ Negotiation Instance Record"	String
+""	29	"out"	"Account Recovery Case Negotiation Task Record"	"BQ Negotiation Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/restructuring/{crbq-identifier}/update"
+""	1	"inout"	"Linked Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	2	"inout"	"Account Recovery Restructuring Schedule"	"BQ Restructuring Instance Record"	String
+""	3	"out"	"Account Recovery Case Restructuring Task Record"	"BQ Restructuring Instance Record"	String
+""
+"Put"	"/account-recovery/{sd-identifier}/restructuring/{crbq-identifier}/exchange"
+""
+"Get"	"/account-recovery/{sd-identifier}/restructuring/{crbq-identifier}/retrieval"
+""	1	"out"	"Account Recovery Case Type"	"CR Account Recovery Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	3	"out"	"Linked Product Instance Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	4	"out"	"Customer Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	5	"out"	"Employee/Business Unit Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	6	"out"	"Account Number"	"CR Account Recovery Procedure Instance Record"	String
+""	7	"out"	"Bank Branch/Location Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	8	"out"	"Date Type"	"CR Account Recovery Procedure Instance Record"	String
+""	9	"out"	"Involved Party Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	10	"out"	"Involved Party Obligation/Entitlement"	"CR Account Recovery Procedure Instance Record"	String
+""	11	"out"	"Account Type"	"CR Account Recovery Procedure Instance Record"	String
+""	12	"out"	"Account Currency"	"CR Account Recovery Procedure Instance Record"	CurrencyCode
+""	13	"out"	"Account Limit Type"	"CR Account Recovery Procedure Instance Record"	String
+""	14	"out"	"Allowed Access"	"CR Account Recovery Procedure Instance Record"	String
+""	15	"out"	"Tax Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	16	"out"	"Account Status"	"CR Account Recovery Procedure Instance Record"	String
+""	17	"out"	"Collateral Asset Allocation Profile"	"CR Account Recovery Procedure Instance Record"	String
+""	18	"out"	"Collateral Type"	"CR Account Recovery Procedure Instance Record"	String
+""	19	"out"	"Collateral Asset Description"	"CR Account Recovery Procedure Instance Record"	String
+""	20	"out"	"Transaction Record"	"CR Account Recovery Procedure Instance Record"	String
+""	21	"out"	"Account Recovery Case Work Products"	"CR Account Recovery Procedure Instance Record"	String
+""	22	"out"	"Document Reference"	"CR Account Recovery Procedure Instance Record"	Object
+""	23	"out"	"Customer Commentary"	"CR Account Recovery Procedure Instance Record"	String
+""	24	"out"	"Account Recovery Case Resolution Schedule"	"CR Account Recovery Procedure Instance Record"	String
+""	25	"out"	"Account Recovery Case Status"	"CR Account Recovery Procedure Instance Record"	String
+""	26	"out"	"Account Recovery Restructuring Schedule"	"BQ Restructuring Instance Record"	String
+""	27	"out"	"Account Recovery Case Restructuring Task Record"	"BQ Restructuring Instance Record"	String
