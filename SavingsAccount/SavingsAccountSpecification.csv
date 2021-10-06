@@ -1,0 +1,13 @@
+"Service Domain specification for Savings Account"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Savings Account
+"Role Definition"	"The savings account product may share many features with a standard bank current account (e.g. standing orders, direct debits, payments and deposit services) with some constraints/limitations. There can be restrictions on the amount and frequency of withdrawals with an associated fee/penalty structure to offset higher interest benefits. Sweep mechanisms linked to other products (current account) can also be supported."
+"Example of use"	"A customer transfers money from a current account to savings account in order to obtain a better rate of interest."
+"Executive Summary"	"This service domain orchestrates a consumer savings account. The typical range of services and fees covers payments from and scheduled and ad-hoc deposits to the account, standing orders, sweeps, and liens."
+"Key Features"	"Set-up savings account facilities. Issue cards, check-books, etc. for the account. Process deposits and withdrawals. Handle sweeps/liens linked to the account. Handle standing orders and direct debits linked to the account. Process fees and apply interest charges. Provide balance/statements and reports"
+"Functional Pattern"	Fulfill
+"Asset Type"	SavingsAccount
+"Generic Artifact"	Facility (rename)
+"Control Record"	SavingsAccountArrangement
+"Registration Status"	Registered

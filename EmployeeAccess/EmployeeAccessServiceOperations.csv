@@ -1,0 +1,5 @@
+"Service Operations for: "	Employee Access
+"Control Record Model for Employee Access is not defined"
+"POST"	"/employee-access/activation"
+"PUT"	"/employee-access/{sd-reference-id}/configuration"
+"PUT"	"/employee-access/{sd-reference-id}/feedback"

@@ -1,0 +1,13 @@
+"Service Domain specification for Market Order Execution"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Market Order Execution
+"Role Definition"	"The Market Order Execution Service Domain is responsible for the booking of securities transactions (e.g. resulting from market orders or some types of corporate actions) on investment accounts, so in terms of security name plus quantity. Market Order Execution knows the different transaction types and the related booking sets. It will call Securities Position Keeping to create the debit and the credit bookings of a transaction. It will ensure that the bookings of a securities transaction are executed completely or not at all (the latter in the case of an exception).. The execution of a market order may be in parts (trades) or it may be combined with other market orders for a block trade. The Service Connection "Execute Market Order" on this Service Domain handles the execution of (an undivided part of) one Market Order.. A securities transaction will have a related money transaction. This will be handled by Payment Order - Payment Execution."
+"Example of use"	"A customer decides to sell shares from his or her investment account. The customer issues a sell order and a Market Order is created with the status pending. Market Order will instruct Securities Position Keeping to put a block on the seller's investment account for the amount of shares in the order. Up to this point Market Order Execution is not involved.. Once the bank is informed on successful execution, the status is changed to executed and the Service Connection "Execute Securities Transaction" on Market Order Execution is invoked. Market Order Execution will in turn call Securities Position Keeping to realise the sale in numbers of shares on the involved accounts and remove the block from the seller's investment account.. NB In the case of a buy order a block will be put on the buyer's investment-related cash account. Removal of this block will be handled by the related money transaction."
+"Executive Summary"	"The Market Order Execution Service Domain is responsible for the booking of securities transactions (e.g. resulting from market orders or some types of corporate actions) on investment accounts, so in terms of security name plus quantity."
+"Key Features"	"- Maintain Booking Sets. - Record the execution of a sell or a buy order. - Ensure recording of all related bookings on Securities Position Keeping"
+"Functional Pattern"	Transact
+"Asset Type"	MarketTrade
+"Generic Artifact"	Transaction
+"Control Record"	MarketTradeTransaction
+"Registration Status"	Registered

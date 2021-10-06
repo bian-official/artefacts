@@ -1,0 +1,105 @@
+"Service Operations for: "	Product Expert Sales Support
+""
+"POST"	"/product-expert-sales-support/activation"
+"PUT"	"/product-expert-sales-support/{sd-reference-id}/configuration"
+"PUT"	"/product-expert-sales-support/{sd-reference-id}/feedback"
+""
+"Post"	"/product-expert-sales-support/{sd-identifier}/sales-specialist-support-administrative-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Sales Specialist Support Resource Allocation Service Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	2	"inout"	"Sales Specialist Support Resource Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	3	"inout"	"Sales Specialist Support Resource Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	4	"out"	"Sales Specialist Support Resource Qualification Profile"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	5	"out"	"Sales Specialist Support Location Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	6	"inout"	"Sales Specialist Support Resource Availability Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	7	"inout"	"Sales Specialist Support Resource Status"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	8	"inout"	"Sales Specialist Support Resource Assignment Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""
+"Put"	"/product-expert-sales-support/{sd-identifier}/sales-specialist-support-administrative-plan/{crbq-identifier}/update"
+""	1	"inout"	"Sales Specialist Support Resource Allocation Service Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	2	"inout"	"Sales Specialist Support Resource Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	3	"inout"	"Sales Specialist Support Resource Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	4	"inout"	"Sales Specialist Support Resource Qualification Profile"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	5	"inout"	"Sales Specialist Support Location Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	6	"inout"	"Sales Specialist Support Resource Availability Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	7	"inout"	"Sales Specialist Support Resource Status"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	8	"inout"	"Sales Specialist Support Resource Assignment Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""
+"Put"	"/product-expert-sales-support/{sd-identifier}/sales-specialist-support-administrative-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Sales Specialist Support Resource Allocation Service Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	2	"inout"	"Sales Specialist Support Resource Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	3	"inout"	"Sales Specialist Support Resource Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	4	"out"	"Sales Specialist Support Resource Qualification Profile"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	5	"out"	"Sales Specialist Support Location Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	6	"inout"	"Sales Specialist Support Resource Availability Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	7	"inout"	"Sales Specialist Support Resource Status"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	8	"inout"	"Sales Specialist Support Resource Assignment Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""
+"Get"	"/product-expert-sales-support/{sd-identifier}/sales-specialist-support-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Sales Specialist Support Resource Allocation Service Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	2	"out"	"Sales Specialist Support Resource Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	3	"out"	"Sales Specialist Support Resource Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	4	"out"	"Sales Specialist Support Resource Qualification Profile"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	5	"out"	"Sales Specialist Support Location Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	6	"out"	"Sales Specialist Support Resource Availability Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	7	"out"	"Sales Specialist Support Resource Status"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	8	"out"	"Sales Specialist Support Resource Assignment Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""
+"Post"	"/product-expert-sales-support/{sd-identifier}/assignment/{crbq-identifier}/creation"
+""	1	"inout"	"Sales Specialist Support Resource Allocation Service Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	2	"inout"	"Sales Specialist Support Resource Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	3	"inout"	"Sales Specialist Support Resource Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	4	"out"	"Sales Specialist Support Resource Qualification Profile"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	5	"out"	"Sales Specialist Support Location Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	6	"inout"	"Sales Specialist Support Resource Availability Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	7	"inout"	"Sales Specialist Support Resource Status"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	8	"inout"	"Sales Specialist Support Resource Assignment Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	9	"inout"	"Sales Specialist Support Assignment Request Type"	"BQ Assignment Instance Record"	String
+""	10	"in"	"Sales Specialist Support Assignment Request Record"	"BQ Assignment Instance Record"	String
+""	11	"out"	"Sales Specialist Support Assignment Session Work Products"	"BQ Assignment Instance Record"	String
+""	12	"out"	"Sales Specialist Support Assignment Location"	"BQ Assignment Instance Record"	String
+""	13	"inout"	"Sales Specialist Support Assignment Fee"	"BQ Assignment Instance Record"	String
+""	14	"out"	"Sales Specialist Support Assignment Result"	"BQ Assignment Instance Record"	String
+""	15	"inout"	"Date Type"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/product-expert-sales-support/{sd-identifier}/assignment/{crbq-identifier}/update"
+""	1	"inout"	"Sales Specialist Support Assignment Request Type"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Sales Specialist Support Assignment Request Record"	"BQ Assignment Instance Record"	String
+""	3	"inout"	"Sales Specialist Support Assignment Session Work Products"	"BQ Assignment Instance Record"	String
+""	4	"inout"	"Sales Specialist Support Assignment Location"	"BQ Assignment Instance Record"	String
+""	5	"inout"	"Sales Specialist Support Assignment Fee"	"BQ Assignment Instance Record"	String
+""	6	"inout"	"Sales Specialist Support Assignment Result"	"BQ Assignment Instance Record"	String
+""	7	"inout"	"Date Type"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/product-expert-sales-support/{sd-identifier}/assignment/{crbq-identifier}/exchange"
+""
+"Put"	"/product-expert-sales-support/{sd-identifier}/assignment/{crbq-identifier}/capture"
+""	1	"inout"	"Sales Specialist Support Assignment Location"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Sales Specialist Support Assignment Fee"	"BQ Assignment Instance Record"	String
+""	3	"inout"	"Sales Specialist Support Assignment Result"	"BQ Assignment Instance Record"	String
+""	4	"inout"	"Date Type"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/product-expert-sales-support/{sd-identifier}/assignment/{crbq-identifier}/requisition"
+""	1	"inout"	"Sales Specialist Support Assignment Request Type"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Sales Specialist Support Assignment Request Record"	"BQ Assignment Instance Record"	String
+""	3	"out"	"Sales Specialist Support Assignment Session Work Products"	"BQ Assignment Instance Record"	String
+""	4	"inout"	"Sales Specialist Support Assignment Location"	"BQ Assignment Instance Record"	String
+""	5	"inout"	"Sales Specialist Support Assignment Fee"	"BQ Assignment Instance Record"	String
+""	6	"out"	"Sales Specialist Support Assignment Result"	"BQ Assignment Instance Record"	String
+""	7	"inout"	"Date Type"	"BQ Assignment Instance Record"	String
+""
+"Get"	"/product-expert-sales-support/{sd-identifier}/assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Sales Specialist Support Resource Allocation Service Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	2	"out"	"Sales Specialist Support Resource Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	3	"out"	"Sales Specialist Support Resource Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	4	"out"	"Sales Specialist Support Resource Qualification Profile"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	5	"out"	"Sales Specialist Support Location Reference"	"CR Sales Specialist Support Administrative Plan Instance Record"	Object
+""	6	"out"	"Sales Specialist Support Resource Availability Schedule"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	7	"out"	"Sales Specialist Support Resource Status"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	8	"out"	"Sales Specialist Support Resource Assignment Record"	"CR Sales Specialist Support Administrative Plan Instance Record"	String
+""	9	"out"	"Sales Specialist Support Assignment Request Type"	"BQ Assignment Instance Record"	String
+""	10	"out"	"Sales Specialist Support Assignment Request Record"	"BQ Assignment Instance Record"	String
+""	11	"out"	"Sales Specialist Support Assignment Session Work Products"	"BQ Assignment Instance Record"	String
+""	12	"out"	"Sales Specialist Support Assignment Location"	"BQ Assignment Instance Record"	String
+""	13	"out"	"Sales Specialist Support Assignment Fee"	"BQ Assignment Instance Record"	String
+""	14	"out"	"Sales Specialist Support Assignment Result"	"BQ Assignment Instance Record"	String
+""	15	"out"	"Date Type"	"BQ Assignment Instance Record"	String

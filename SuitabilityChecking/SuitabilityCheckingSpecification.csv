@@ -1,0 +1,13 @@
+"Service Domain specification for Suitability Checking"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Suitability Checking
+"Role Definition"	"Confirm that all involved counterparties are suitable for a proposed market trade. The checks address regulatory requirements to ensure involved parties are suitably qualified/knowledgeable to participate in the type of trading activity (e.g. in the US suitability is defined by FINRA Rule 2111)"
+"Example of use"	"An investment manager confirms that a proposed investment meets suitability requirements for the customer"
+"Executive Summary"	"Confirm that all involved counterparties are suitable for a proposed market trade."
+"Key Features"	"Determine suitability requirements. Match these to the prospective investor. Perform confirmation checks with the customer. Report and document the results of the suitability checks as appropriate"
+"Functional Pattern"	Assess
+"Asset Type"	Suitability
+"Generic Artifact"	Assessment
+"Control Record"	SuitabilityAssessment
+"Registration Status"	Registered

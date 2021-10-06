@@ -1,0 +1,13 @@
+"Service Domain specification for Counterparty Administration"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Counterparty Administration
+"Role Definition"	"Maintain and provide access to the counterparty reference details to support trading/payment activity. This includes SWIFT addresses, standard settlement instructions that are published. The data is typically acquired using a market feed for the default values, but the facility can support the maintenance of specific details and instructions that apply to the counterparty relationship overriding the public default"
+"Example of use"	"Back office clearing and settlement references the counterparty details to assemble a funds transfer as part of an equity trade using the counterparty details to generate the associated SWIFT based payment exchange"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	Counterparty
+"Generic Artifact"	AdministrativePlan
+"Control Record"	CounterpartyAdministrativePlan
+"Registration Status"	Registered

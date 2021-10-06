@@ -1,0 +1,45 @@
+"Service Operations for: "	Competitor Analysis
+""
+"POST"	"/competitor-analysis/activation"
+"PUT"	"/competitor-analysis/{sd-reference-id}/configuration"
+"PUT"	"/competitor-analysis/{sd-reference-id}/feedback"
+""
+"Post"	"/competitor-analysis/{sd-identifier}/competitor-analysis/{crbq-identifier}/evaluation"
+""	1	"inout"	"Competitor Analysis Type"	"CR Competitor Analysis Instance Record"	String
+""	2	"out"	"Competitor Analysis Specification"	"CR Competitor Analysis Instance Record"	String
+""	3	"out"	"Competitor Analysis Guidance"	"CR Competitor Analysis Instance Record"	String
+""	4	"inout"	"Competitor Analysis Algorithm Reference"	"CR Competitor Analysis Instance Record"	Object
+""	5	"inout"	"Competitor Analysis Request Record"	"CR Competitor Analysis Instance Record"	String
+""	6	"in"	"Employee/Business Unit Reference"	"CR Competitor Analysis Instance Record"	Object
+""	7	"out"	"Competitor Analysis Request Work Products"	"CR Competitor Analysis Instance Record"	String
+""	8	"out"	"Competitor Analysis Request Result"	"CR Competitor Analysis Instance Record"	String
+""	9	"inout"	"Competitor Analysis Usage Record"	"CR Competitor Analysis Instance Record"	String
+""	10	"inout"	"Competitor Analysis Impact"	"CR Competitor Analysis Instance Record"	String
+""
+"Put"	"/competitor-analysis/{sd-identifier}/competitor-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Competitor Analysis Request Record"	"CR Competitor Analysis Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"CR Competitor Analysis Instance Record"	Object
+""	3	"out"	"Competitor Analysis Request Work Products"	"CR Competitor Analysis Instance Record"	String
+""	4	"out"	"Competitor Analysis Request Result"	"CR Competitor Analysis Instance Record"	String
+""	5	"in"	"Competitor Analysis Usage Record"	"CR Competitor Analysis Instance Record"	String
+""	6	"in"	"Competitor Analysis Impact"	"CR Competitor Analysis Instance Record"	String
+""
+"Put"	"/competitor-analysis/{sd-identifier}/competitor-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Competitor Analysis Request Record"	"CR Competitor Analysis Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"CR Competitor Analysis Instance Record"	Object
+""	3	"out"	"Competitor Analysis Request Work Products"	"CR Competitor Analysis Instance Record"	String
+""	4	"out"	"Competitor Analysis Request Result"	"CR Competitor Analysis Instance Record"	String
+""	5	"in"	"Competitor Analysis Usage Record"	"CR Competitor Analysis Instance Record"	String
+""	6	"in"	"Competitor Analysis Impact"	"CR Competitor Analysis Instance Record"	String
+""
+"Get"	"/competitor-analysis/{sd-identifier}/competitor-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Competitor Analysis Type"	"CR Competitor Analysis Instance Record"	String
+""	2	"out"	"Competitor Analysis Specification"	"CR Competitor Analysis Instance Record"	String
+""	3	"out"	"Competitor Analysis Guidance"	"CR Competitor Analysis Instance Record"	String
+""	4	"out"	"Competitor Analysis Algorithm Reference"	"CR Competitor Analysis Instance Record"	Object
+""	5	"out"	"Competitor Analysis Request Record"	"CR Competitor Analysis Instance Record"	String
+""	6	"out"	"Employee/Business Unit Reference"	"CR Competitor Analysis Instance Record"	Object
+""	7	"out"	"Competitor Analysis Request Work Products"	"CR Competitor Analysis Instance Record"	String
+""	8	"out"	"Competitor Analysis Request Result"	"CR Competitor Analysis Instance Record"	String
+""	9	"out"	"Competitor Analysis Usage Record"	"CR Competitor Analysis Instance Record"	String
+""	10	"out"	"Competitor Analysis Impact"	"CR Competitor Analysis Instance Record"	String

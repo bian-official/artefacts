@@ -1,0 +1,5 @@
+"Service Operations for: "	Employee Benefits
+"Control Record Model for Employee Benefits is not defined"
+"POST"	"/employee-benefits/activation"
+"PUT"	"/employee-benefits/{sd-reference-id}/configuration"
+"PUT"	"/employee-benefits/{sd-reference-id}/feedback"

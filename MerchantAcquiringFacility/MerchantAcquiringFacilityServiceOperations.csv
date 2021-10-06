@@ -1,0 +1,352 @@
+"Service Operations for: "	Merchant Acquiring Facility
+""
+"POST"	"/merchant-acquiring-facility/activation"
+"PUT"	"/merchant-acquiring-facility/{sd-reference-id}/configuration"
+"PUT"	"/merchant-acquiring-facility/{sd-reference-id}/feedback"
+""
+"Post"	"/merchant-acquiring-facility/{sd-identifier}/merchant-acquiring-facility-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Product Instance Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	3	"in"	"Party Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	5	"in"	"Account Currency"	"CR Merchant Acquiring Facility Arrangement Instance Record"	CurrencyCode
+""	6	"in"	"Tax Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	7	"inout"	"Merchant Acquiring Facility Operational Terms"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	8	"inout"	"Merchant Acquiring Facility Position Limits"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	9	"in"	"Merchant Position Limit Type"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	10	"inout"	"Merchant Position Limit Settings"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	11	"out"	"Merchant Position Limit Value"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/merchant-acquiring-facility-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	3	"inout"	"Party Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	4	"inout"	"Bank Branch/Location Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	5	"inout"	"Account Currency"	"CR Merchant Acquiring Facility Arrangement Instance Record"	CurrencyCode
+""	6	"inout"	"Tax Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	7	"inout"	"Merchant Acquiring Facility Operational Terms"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	8	"inout"	"Merchant Acquiring Facility Position Limits"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	9	"inout"	"Merchant Position Limit Type"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	10	"inout"	"Merchant Position Limit Settings"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	11	"inout"	"Merchant Position Limit Value"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/merchant-acquiring-facility-arrangement/{crbq-identifier}/control"
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/merchant-acquiring-facility-arrangement/{crbq-identifier}/requisition"
+""
+"Get"	"/merchant-acquiring-facility/{sd-identifier}/merchant-acquiring-facility-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Merchant Acquiring Facility Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Tax Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	7	"out"	"Merchant Acquiring Facility Operational Terms"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	8	"out"	"Merchant Acquiring Facility Position Limits"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	9	"out"	"Merchant Position Limit Type"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	10	"out"	"Merchant Position Limit Settings"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	11	"out"	"Merchant Position Limit Value"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""
+"Get"	"/merchant-acquiring-facility/{sd-identifier}/merchant-account/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Merchant Acquiring Facility Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Tax Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	7	"out"	"Merchant Acquiring Facility Operational Terms"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	8	"out"	"Merchant Acquiring Facility Position Limits"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	9	"out"	"Merchant Position Limit Type"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	10	"out"	"Merchant Position Limit Settings"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	11	"out"	"Merchant Position Limit Value"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	12	"out"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	13	"out"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	14	"out"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	15	"out"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	16	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/clearing/{crbq-identifier}/update"
+""	1	"inout"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	2	"inout"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	3	"inout"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	4	"inout"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	5	"inout"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	6	"inout"	"Card Transaction Record Reference"	"BQ Clearing Instance Record"	Object
+""	7	"inout"	"Card Transaction Product Instance Reference"	"BQ Clearing Instance Record"	Object
+""	8	"inout"	"Card Holder Reference"	"BQ Clearing Instance Record"	Object
+""	9	"inout"	"Card Transaction Issued Device Reference"	"BQ Clearing Instance Record"	Object
+""	10	"inout"	"Card Transaction Network Reference"	"BQ Clearing Instance Record"	Object
+""	11	"inout"	"Card Transaction Issuing Bank Reference"	"BQ Clearing Instance Record"	Object
+""	12	"inout"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Clearing Instance Record"	Object
+""	13	"inout"	"Card Transaction Type"	"BQ Clearing Instance Record"	String
+""	14	"inout"	"Card Transaction Currency"	"BQ Clearing Instance Record"	CurrencyCode
+""	15	"inout"	"Card Transaction Amount Type"	"BQ Clearing Instance Record"	String
+""	16	"inout"	"Card Transaction Merchant Reference"	"BQ Clearing Instance Record"	Object
+""	17	"inout"	"Card Transaction Location Reference"	"BQ Clearing Instance Record"	Object
+""	18	"inout"	"Card Transaction Product/Service Reference"	"BQ Clearing Instance Record"	Object
+""	19	"inout"	"Card Transaction Date/Time"	"BQ Clearing Instance Record"	Date
+""	20	"inout"	"Card Transaction FX Conversion Charge"	"BQ Clearing Instance Record"	String
+""	21	"inout"	"Card Transaction Intercharge Fee"	"BQ Clearing Instance Record"	String
+""	22	"inout"	"Card Transaction Authorization Record"	"BQ Clearing Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/clearing/{crbq-identifier}/execution"
+""	1	"inout"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	2	"in"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	3	"in"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	4	"inout"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	5	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	6	"inout"	"Card Transaction Record Reference"	"BQ Clearing Instance Record"	Object
+""	7	"in"	"Card Transaction Product Instance Reference"	"BQ Clearing Instance Record"	Object
+""	8	"in"	"Card Holder Reference"	"BQ Clearing Instance Record"	Object
+""	9	"in"	"Card Transaction Issued Device Reference"	"BQ Clearing Instance Record"	Object
+""	10	"in"	"Card Transaction Network Reference"	"BQ Clearing Instance Record"	Object
+""	11	"in"	"Card Transaction Issuing Bank Reference"	"BQ Clearing Instance Record"	Object
+""	12	"in"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Clearing Instance Record"	Object
+""	13	"in"	"Card Transaction Type"	"BQ Clearing Instance Record"	String
+""	14	"in"	"Card Transaction Currency"	"BQ Clearing Instance Record"	CurrencyCode
+""	15	"in"	"Card Transaction Amount Type"	"BQ Clearing Instance Record"	String
+""	16	"in"	"Card Transaction Merchant Reference"	"BQ Clearing Instance Record"	Object
+""	17	"in"	"Card Transaction Location Reference"	"BQ Clearing Instance Record"	Object
+""	18	"in"	"Card Transaction Product/Service Reference"	"BQ Clearing Instance Record"	Object
+""	19	"inout"	"Card Transaction Date/Time"	"BQ Clearing Instance Record"	Date
+""	20	"in"	"Card Transaction FX Conversion Charge"	"BQ Clearing Instance Record"	String
+""	21	"in"	"Card Transaction Intercharge Fee"	"BQ Clearing Instance Record"	String
+""	22	"in"	"Card Transaction Authorization Record"	"BQ Clearing Instance Record"	String
+""
+"Get"	"/merchant-acquiring-facility/{sd-identifier}/clearing/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Merchant Acquiring Facility Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Tax Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	7	"out"	"Merchant Acquiring Facility Operational Terms"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	8	"out"	"Merchant Acquiring Facility Position Limits"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	9	"out"	"Merchant Position Limit Type"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	10	"out"	"Merchant Position Limit Settings"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	11	"out"	"Merchant Position Limit Value"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	12	"out"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	13	"out"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	14	"out"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	15	"out"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	16	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	17	"out"	"Card Transaction Record Reference"	"BQ Clearing Instance Record"	Object
+""	18	"out"	"Card Transaction Product Instance Reference"	"BQ Clearing Instance Record"	Object
+""	19	"out"	"Card Holder Reference"	"BQ Clearing Instance Record"	Object
+""	20	"out"	"Card Transaction Issued Device Reference"	"BQ Clearing Instance Record"	Object
+""	21	"out"	"Card Transaction Network Reference"	"BQ Clearing Instance Record"	Object
+""	22	"out"	"Card Transaction Issuing Bank Reference"	"BQ Clearing Instance Record"	Object
+""	23	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Clearing Instance Record"	Object
+""	24	"out"	"Card Transaction Type"	"BQ Clearing Instance Record"	String
+""	25	"out"	"Card Transaction Currency"	"BQ Clearing Instance Record"	CurrencyCode
+""	26	"out"	"Card Transaction Amount Type"	"BQ Clearing Instance Record"	String
+""	27	"out"	"Card Transaction Merchant Reference"	"BQ Clearing Instance Record"	Object
+""	28	"out"	"Card Transaction Location Reference"	"BQ Clearing Instance Record"	Object
+""	29	"out"	"Card Transaction Product/Service Reference"	"BQ Clearing Instance Record"	Object
+""	30	"out"	"Card Transaction Date/Time"	"BQ Clearing Instance Record"	Date
+""	31	"out"	"Card Transaction FX Conversion Charge"	"BQ Clearing Instance Record"	String
+""	32	"out"	"Card Transaction Intercharge Fee"	"BQ Clearing Instance Record"	String
+""	33	"out"	"Card Transaction Authorization Record"	"BQ Clearing Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/chargeback/{crbq-identifier}/update"
+""	1	"inout"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	2	"inout"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	3	"inout"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	4	"inout"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	5	"inout"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	6	"inout"	"Card Transaction Record Reference"	"BQ Chargeback Instance Record"	Object
+""	7	"inout"	"Chargeback Instruction"	"BQ Chargeback Instance Record"	String
+""	8	"inout"	"Card Transaction Product Instance Reference"	"BQ Chargeback Instance Record"	Object
+""	9	"inout"	"Card Holder Reference"	"BQ Chargeback Instance Record"	Object
+""	10	"inout"	"Card Transaction Issued Device Reference"	"BQ Chargeback Instance Record"	Object
+""	11	"inout"	"Card Transaction Network Reference"	"BQ Chargeback Instance Record"	Object
+""	12	"inout"	"Card Transaction Issuing Bank Reference"	"BQ Chargeback Instance Record"	Object
+""	13	"inout"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Chargeback Instance Record"	Object
+""	14	"inout"	"Card Transaction Type"	"BQ Chargeback Instance Record"	String
+""	15	"inout"	"Card Transaction Currency"	"BQ Chargeback Instance Record"	CurrencyCode
+""	16	"inout"	"Card Transaction Amount Type"	"BQ Chargeback Instance Record"	String
+""	17	"inout"	"Card Transaction Merchant Reference"	"BQ Chargeback Instance Record"	Object
+""	18	"inout"	"Card Transaction Location Reference"	"BQ Chargeback Instance Record"	Object
+""	19	"inout"	"Card Transaction Product/Service Reference"	"BQ Chargeback Instance Record"	Object
+""	20	"inout"	"Card Transaction Date/Time"	"BQ Chargeback Instance Record"	Date
+""	21	"inout"	"Card Transaction FX Conversion Charge"	"BQ Chargeback Instance Record"	String
+""	22	"inout"	"Card Transaction Intercharge Fee"	"BQ Chargeback Instance Record"	String
+""	23	"inout"	"Card Transaction Authorization Record"	"BQ Chargeback Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/chargeback/{crbq-identifier}/execution"
+""	1	"inout"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	2	"in"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	3	"in"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	4	"inout"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	5	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	6	"inout"	"Card Transaction Record Reference"	"BQ Chargeback Instance Record"	Object
+""	7	"in"	"Chargeback Instruction"	"BQ Chargeback Instance Record"	String
+""	8	"in"	"Card Transaction Product Instance Reference"	"BQ Chargeback Instance Record"	Object
+""	9	"in"	"Card Holder Reference"	"BQ Chargeback Instance Record"	Object
+""	10	"in"	"Card Transaction Issued Device Reference"	"BQ Chargeback Instance Record"	Object
+""	11	"in"	"Card Transaction Network Reference"	"BQ Chargeback Instance Record"	Object
+""	12	"in"	"Card Transaction Issuing Bank Reference"	"BQ Chargeback Instance Record"	Object
+""	13	"in"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Chargeback Instance Record"	Object
+""	14	"in"	"Card Transaction Type"	"BQ Chargeback Instance Record"	String
+""	15	"in"	"Card Transaction Currency"	"BQ Chargeback Instance Record"	CurrencyCode
+""	16	"in"	"Card Transaction Amount Type"	"BQ Chargeback Instance Record"	String
+""	17	"in"	"Card Transaction Merchant Reference"	"BQ Chargeback Instance Record"	Object
+""	18	"in"	"Card Transaction Location Reference"	"BQ Chargeback Instance Record"	Object
+""	19	"in"	"Card Transaction Product/Service Reference"	"BQ Chargeback Instance Record"	Object
+""	20	"inout"	"Card Transaction Date/Time"	"BQ Chargeback Instance Record"	Date
+""	21	"in"	"Card Transaction FX Conversion Charge"	"BQ Chargeback Instance Record"	String
+""	22	"in"	"Card Transaction Intercharge Fee"	"BQ Chargeback Instance Record"	String
+""	23	"in"	"Card Transaction Authorization Record"	"BQ Chargeback Instance Record"	String
+""
+"Get"	"/merchant-acquiring-facility/{sd-identifier}/chargeback/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Merchant Acquiring Facility Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Tax Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	7	"out"	"Merchant Acquiring Facility Operational Terms"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	8	"out"	"Merchant Acquiring Facility Position Limits"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	9	"out"	"Merchant Position Limit Type"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	10	"out"	"Merchant Position Limit Settings"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	11	"out"	"Merchant Position Limit Value"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	12	"out"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	13	"out"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	14	"out"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	15	"out"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	16	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	17	"out"	"Card Transaction Record Reference"	"BQ Chargeback Instance Record"	Object
+""	18	"out"	"Chargeback Instruction"	"BQ Chargeback Instance Record"	String
+""	19	"out"	"Card Transaction Product Instance Reference"	"BQ Chargeback Instance Record"	Object
+""	20	"out"	"Card Holder Reference"	"BQ Chargeback Instance Record"	Object
+""	21	"out"	"Card Transaction Issued Device Reference"	"BQ Chargeback Instance Record"	Object
+""	22	"out"	"Card Transaction Network Reference"	"BQ Chargeback Instance Record"	Object
+""	23	"out"	"Card Transaction Issuing Bank Reference"	"BQ Chargeback Instance Record"	Object
+""	24	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Chargeback Instance Record"	Object
+""	25	"out"	"Card Transaction Type"	"BQ Chargeback Instance Record"	String
+""	26	"out"	"Card Transaction Currency"	"BQ Chargeback Instance Record"	CurrencyCode
+""	27	"out"	"Card Transaction Amount Type"	"BQ Chargeback Instance Record"	String
+""	28	"out"	"Card Transaction Merchant Reference"	"BQ Chargeback Instance Record"	Object
+""	29	"out"	"Card Transaction Location Reference"	"BQ Chargeback Instance Record"	Object
+""	30	"out"	"Card Transaction Product/Service Reference"	"BQ Chargeback Instance Record"	Object
+""	31	"out"	"Card Transaction Date/Time"	"BQ Chargeback Instance Record"	Date
+""	32	"out"	"Card Transaction FX Conversion Charge"	"BQ Chargeback Instance Record"	String
+""	33	"out"	"Card Transaction Intercharge Fee"	"BQ Chargeback Instance Record"	String
+""	34	"out"	"Card Transaction Authorization Record"	"BQ Chargeback Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/settlement/{crbq-identifier}/update"
+""	1	"inout"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	2	"inout"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	3	"inout"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	4	"inout"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	5	"inout"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	6	"inout"	"Participant Merchant Acquirer Bank Reference"	"BQ Settlement Instance Record"	Object
+""	7	"inout"	"Participant Issuer Bank Reference"	"BQ Settlement Instance Record"	Object
+""	8	"inout"	"Card Financial Settlement Service Payment Advice Record"	"BQ Settlement Instance Record"	String
+""	9	"inout"	"Participant Payment Transaction"	"BQ Settlement Instance Record"	String
+""	10	"inout"	"Participant Acquirer Bank Settlement Account Statement"	"BQ Settlement Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/settlement/{crbq-identifier}/execution"
+""	1	"inout"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	2	"in"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	3	"in"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	4	"inout"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	5	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	6	"in"	"Participant Merchant Acquirer Bank Reference"	"BQ Settlement Instance Record"	Object
+""	7	"in"	"Participant Issuer Bank Reference"	"BQ Settlement Instance Record"	Object
+""	8	"in"	"Card Financial Settlement Service Payment Advice Record"	"BQ Settlement Instance Record"	String
+""	9	"in"	"Participant Payment Transaction"	"BQ Settlement Instance Record"	String
+""	10	"in"	"Participant Acquirer Bank Settlement Account Statement"	"BQ Settlement Instance Record"	String
+""
+"Get"	"/merchant-acquiring-facility/{sd-identifier}/settlement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Merchant Acquiring Facility Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Tax Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	7	"out"	"Merchant Acquiring Facility Operational Terms"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	8	"out"	"Merchant Acquiring Facility Position Limits"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	9	"out"	"Merchant Position Limit Type"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	10	"out"	"Merchant Position Limit Settings"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	11	"out"	"Merchant Position Limit Value"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	12	"out"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	13	"out"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	14	"out"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	15	"out"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	16	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	17	"out"	"Participant Merchant Acquirer Bank Reference"	"BQ Settlement Instance Record"	Object
+""	18	"out"	"Participant Issuer Bank Reference"	"BQ Settlement Instance Record"	Object
+""	19	"out"	"Card Financial Settlement Service Payment Advice Record"	"BQ Settlement Instance Record"	String
+""	20	"out"	"Participant Payment Transaction"	"BQ Settlement Instance Record"	String
+""	21	"out"	"Participant Acquirer Bank Settlement Account Statement"	"BQ Settlement Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/service-fees/{crbq-identifier}/update"
+""	1	"inout"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	2	"inout"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	3	"inout"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	4	"inout"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	5	"inout"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	6	"inout"	"Merchant Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	7	"inout"	"Merchant Fee Type"	"BQ Service Fees Instance Record"	String
+""	8	"inout"	"Merchant Fee Definition"	"BQ Service Fees Instance Record"	String
+""	9	"inout"	"Merchant Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	10	"inout"	"Merchant Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	11	"inout"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	12	"inout"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	13	"inout"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	14	"inout"	"Merchant Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	15	"inout"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	16	"inout"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	17	"inout"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/service-fees/{crbq-identifier}/exchange"
+""
+"Put"	"/merchant-acquiring-facility/{sd-identifier}/service-fees/{crbq-identifier}/execution"
+""	1	"inout"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	2	"in"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	3	"in"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	4	"inout"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	5	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	6	"inout"	"Merchant Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	7	"in"	"Merchant Fee Type"	"BQ Service Fees Instance Record"	String
+""	8	"out"	"Merchant Fee Definition"	"BQ Service Fees Instance Record"	String
+""	9	"inout"	"Merchant Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	10	"inout"	"Merchant Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	11	"in"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	12	"inout"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	13	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	14	"inout"	"Merchant Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	15	"in"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	16	"inout"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	17	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Get"	"/merchant-acquiring-facility/{sd-identifier}/service-fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Merchant Acquiring Facility Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Tax Reference"	"CR Merchant Acquiring Facility Arrangement Instance Record"	Object
+""	7	"out"	"Merchant Acquiring Facility Operational Terms"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	8	"out"	"Merchant Acquiring Facility Position Limits"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	9	"out"	"Merchant Position Limit Type"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	10	"out"	"Merchant Position Limit Settings"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	11	"out"	"Merchant Position Limit Value"	"CR Merchant Acquiring Facility Arrangement Instance Record"	String
+""	12	"out"	"Merchant Account Posting Transaction"	"BQ Merchant Account Instance Record"	String
+""	13	"out"	"Merchant Acquiring Account Posting Purpose"	"BQ Merchant Account Instance Record"	String
+""	14	"out"	"Merchant Acquiring Account Posting Amount"	"BQ Merchant Account Instance Record"	Amount
+""	15	"out"	"Merchant Acquiring Account Posting Value Date"	"BQ Merchant Account Instance Record"	Date
+""	16	"out"	"Merchant Acquiring Account Posting Result"	"BQ Merchant Account Instance Record"	String
+""	17	"out"	"Merchant Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	18	"out"	"Merchant Fee Type"	"BQ Service Fees Instance Record"	String
+""	19	"out"	"Merchant Fee Definition"	"BQ Service Fees Instance Record"	String
+""	20	"out"	"Merchant Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	21	"out"	"Merchant Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	22	"out"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	23	"out"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	24	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	25	"out"	"Merchant Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	26	"out"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	27	"out"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	28	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String

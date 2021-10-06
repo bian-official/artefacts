@@ -1,0 +1,13 @@
+"Service Domain specification for Private Placement"
+"Business Area"	Products
+"Business Domain"	Corporate Finance
+"Service Domain"	Private Placement
+"Role Definition"	"Project coordination and execution/ placement of a private offering of corporate equity or debt (avoids regulatory constraints of Public Placement)"
+"Example of use"	"Corporate finance services provide support to a corporation that has determined to raise funds through a private placement."
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	PrivatePlacement
+"Generic Artifact"	Facility (rename)
+"Control Record"	PrivatePlacementArrangement
+"Registration Status"	Registered

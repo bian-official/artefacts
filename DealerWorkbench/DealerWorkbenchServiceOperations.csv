@@ -1,0 +1,5 @@
+"Service Operations for: "	Dealer Workbench
+"Control Record Model for Dealer Workbench is not defined"
+"POST"	"/dealer-workbench/activation"
+"PUT"	"/dealer-workbench/{sd-reference-id}/configuration"
+"PUT"	"/dealer-workbench/{sd-reference-id}/feedback"

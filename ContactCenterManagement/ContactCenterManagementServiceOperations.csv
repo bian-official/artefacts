@@ -1,0 +1,93 @@
+"Service Operations for: "	Contact Center Management
+""
+"POST"	"/contact-center-management/activation"
+"PUT"	"/contact-center-management/{sd-reference-id}/configuration"
+"PUT"	"/contact-center-management/{sd-reference-id}/feedback"
+""
+"Post"	"/contact-center-management/{sd-identifier}/contact-center-management-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Contact Center Management Plan Period"	"CR Contact Center Management Plan Instance Record"	String
+""	2	"inout"	"Contact Center Usage Policies & Guidelines"	"CR Contact Center Management Plan Instance Record"	String
+""	3	"inout"	"Contact Center Service Performance Goals"	"CR Contact Center Management Plan Instance Record"	String
+""	4	"inout"	"Contact Center Service Schedule"	"CR Contact Center Management Plan Instance Record"	String
+""	5	"inout"	"Contact Center Service Operating Configuration"	"CR Contact Center Management Plan Instance Record"	String
+""	6	"inout"	"Contact Center Resource Plan"	"CR Contact Center Management Plan Instance Record"	String
+""	7	"inout"	"Contact Center Training Plan"	"CR Contact Center Management Plan Instance Record"	String
+""
+"Put"	"/contact-center-management/{sd-identifier}/contact-center-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Contact Center Management Plan Period"	"CR Contact Center Management Plan Instance Record"	String
+""	2	"inout"	"Contact Center Usage Policies & Guidelines"	"CR Contact Center Management Plan Instance Record"	String
+""	3	"inout"	"Contact Center Service Performance Goals"	"CR Contact Center Management Plan Instance Record"	String
+""	4	"inout"	"Contact Center Service Schedule"	"CR Contact Center Management Plan Instance Record"	String
+""	5	"inout"	"Contact Center Service Operating Configuration"	"CR Contact Center Management Plan Instance Record"	String
+""	6	"inout"	"Contact Center Resource Plan"	"CR Contact Center Management Plan Instance Record"	String
+""	7	"inout"	"Contact Center Training Plan"	"CR Contact Center Management Plan Instance Record"	String
+""
+"Put"	"/contact-center-management/{sd-identifier}/contact-center-management-plan/{crbq-identifier}/exchange"
+""
+"Put"	"/contact-center-management/{sd-identifier}/contact-center-management-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Contact Center Management Plan Period"	"CR Contact Center Management Plan Instance Record"	String
+""	2	"inout"	"Contact Center Usage Policies & Guidelines"	"CR Contact Center Management Plan Instance Record"	String
+""	3	"inout"	"Contact Center Service Performance Goals"	"CR Contact Center Management Plan Instance Record"	String
+""	4	"inout"	"Contact Center Service Schedule"	"CR Contact Center Management Plan Instance Record"	String
+""	5	"inout"	"Contact Center Service Operating Configuration"	"CR Contact Center Management Plan Instance Record"	String
+""	6	"inout"	"Contact Center Resource Plan"	"CR Contact Center Management Plan Instance Record"	String
+""	7	"inout"	"Contact Center Training Plan"	"CR Contact Center Management Plan Instance Record"	String
+""
+"Get"	"/contact-center-management/{sd-identifier}/contact-center-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Contact Center Management Plan Period"	"CR Contact Center Management Plan Instance Record"	String
+""	2	"out"	"Contact Center Usage Policies & Guidelines"	"CR Contact Center Management Plan Instance Record"	String
+""	3	"out"	"Contact Center Service Performance Goals"	"CR Contact Center Management Plan Instance Record"	String
+""	4	"out"	"Contact Center Service Schedule"	"CR Contact Center Management Plan Instance Record"	String
+""	5	"out"	"Contact Center Service Operating Configuration"	"CR Contact Center Management Plan Instance Record"	String
+""	6	"out"	"Contact Center Resource Plan"	"CR Contact Center Management Plan Instance Record"	String
+""	7	"out"	"Contact Center Training Plan"	"CR Contact Center Management Plan Instance Record"	String
+""
+"Put"	"/contact-center-management/{sd-identifier}/performance/{crbq-identifier}/update"
+""	1	"inout"	"Contact Center Position Utilization"	"BQ Performance Instance Record"	String
+""	2	"inout"	"Contact Center Loading Projections"	"BQ Performance Instance Record"	String
+""	3	"inout"	"Contact Center Service Statistics"	"BQ Performance Instance Record"	String
+""	4	"inout"	"Contact Center Service Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"inout"	"Contact Center Service Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"inout"	"Contact Center Service Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"inout"	"Contact Center Service Statistic Recommendation"	"BQ Performance Instance Record"	String
+""
+"Put"	"/contact-center-management/{sd-identifier}/performance/{crbq-identifier}/requisition"
+""	1	"inout"	"Contact Center Position Utilization"	"BQ Performance Instance Record"	String
+""	2	"inout"	"Contact Center Loading Projections"	"BQ Performance Instance Record"	String
+""	3	"inout"	"Contact Center Service Statistics"	"BQ Performance Instance Record"	String
+""	4	"inout"	"Contact Center Service Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"inout"	"Contact Center Service Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"inout"	"Contact Center Service Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"inout"	"Contact Center Service Statistic Recommendation"	"BQ Performance Instance Record"	String
+""
+"Get"	"/contact-center-management/{sd-identifier}/performance/{crbq-identifier}/retrieval"
+""	1	"out"	"Contact Center Position Utilization"	"BQ Performance Instance Record"	String
+""	2	"out"	"Contact Center Loading Projections"	"BQ Performance Instance Record"	String
+""	3	"out"	"Contact Center Service Statistics"	"BQ Performance Instance Record"	String
+""	4	"out"	"Contact Center Service Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"out"	"Contact Center Service Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"out"	"Contact Center Service Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"out"	"Contact Center Service Statistic Recommendation"	"BQ Performance Instance Record"	String
+""
+"Post"	"/contact-center-management/{sd-identifier}/troubleshooting/{crbq-identifier}/creation"
+""	1	"inout"	"Contact Center Management Plan Period"	"CR Contact Center Management Plan Instance Record"	String
+""	2	"inout"	"Contact Center Usage Policies & Guidelines"	"CR Contact Center Management Plan Instance Record"	String
+""	3	"inout"	"Contact Center Service Performance Goals"	"CR Contact Center Management Plan Instance Record"	String
+""	4	"inout"	"Contact Center Service Schedule"	"CR Contact Center Management Plan Instance Record"	String
+""	5	"inout"	"Contact Center Service Operating Configuration"	"CR Contact Center Management Plan Instance Record"	String
+""	6	"inout"	"Contact Center Resource Plan"	"CR Contact Center Management Plan Instance Record"	String
+""	7	"inout"	"Contact Center Training Plan"	"CR Contact Center Management Plan Instance Record"	String
+""	8	"inout"	"Contact Center Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Contact Center Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/contact-center-management/{sd-identifier}/troubleshooting/{crbq-identifier}/update"
+""	1	"inout"	"Contact Center Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Contact Center Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/contact-center-management/{sd-identifier}/troubleshooting/{crbq-identifier}/requisition"
+""	1	"inout"	"Contact Center Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Contact Center Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Get"	"/contact-center-management/{sd-identifier}/troubleshooting/{crbq-identifier}/retrieval"
+""	1	"out"	"Contact Center Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"out"	"Contact Center Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String

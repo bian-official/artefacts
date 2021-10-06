@@ -1,0 +1,16 @@
+"Control Record Model for: "	Contact Routing
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Customer Servicing Resource Allocation Instance Record	""	""	""
+"CR"	CR Customer Servicing Resource Allocation Instance Record	Servicing Resource Allocation Service Schedule	"Maintains the allocation status of available service resources. Can include future booking commitments"	String
+"CR"	CR Customer Servicing Resource Allocation Instance Record	Servicing Resource Reference	"Reference to a servicing resource"	Object
+"CR"	CR Customer Servicing Resource Allocation Instance Record	Servicing Resource Record	"Details about a registered servicing resource/specialist"	String
+"CR"	CR Customer Servicing Resource Allocation Instance Record	Servicing Resource Qualification Profile	"Details the qualification, expertise and level of experience of a servicing specialist"	String
+"CR"	CR Customer Servicing Resource Allocation Instance Record	Servicing Position Reference	"Reference to the assigned servicing position for the resource for the current session"	Object
+"CR"	CR Customer Servicing Resource Allocation Instance Record	Servicing Resource Availability Schedule	"Details the time the resource plans to be and is actually available for allocations"	String
+"CR"	CR Customer Servicing Resource Allocation Instance Record	Servicing Resource Status	"Tracks the current status indicating availability for assignment"	String
+"CR"	CR Customer Servicing Resource Allocation Instance Record	Servicing Session Reference	"Reference to a servicing session assignments made"	Object
+"BQ"	BQ Allocation Instance Record	""	""	""
+"BQ"	BQ Allocation Instance Record	Allocation Request Type	"Defines the type of allocation (e.g. next available, qualification based, future reservation)"	String
+"BQ"	BQ Allocation Instance Record	Customer Servicing Request Record	"Contains details of servicing resource request. This can be simple for next available agent, or detail specific required qualifications and expertise"	String
+"BQ"	BQ Allocation Instance Record	Customer Contact Record	"Extracts from the active contact can be used to support more advance selection logic to identify the best available servicing specialist resource"	String
+"BQ"	BQ Allocation Instance Record	Allocation Task Result	"The result of the allocation task"	String

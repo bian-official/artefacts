@@ -1,0 +1,99 @@
+"Service Operations for: "	Position Management
+""
+"POST"	"/position-management/activation"
+"PUT"	"/position-management/{sd-reference-id}/configuration"
+"PUT"	"/position-management/{sd-reference-id}/feedback"
+""
+"Post"	"/position-management/{sd-identifier}/financial-position-state/{crbq-identifier}/initiation"
+""	1	"in"	"Position Type"	"CR Financial Position State Instance Record"	"263075 not defined"
+""	2	"in"	"Position Customer Reference"	"CR Financial Position State Instance Record"	"263077 not defined"
+""	3	"in"	"Position Sector"	"CR Financial Position State Instance Record"	"263078 not defined"
+""	4	"in"	"Position Product Type"	"CR Financial Position State Instance Record"	"263076 not defined"
+""	5	"in"	"Position Definition"	"CR Financial Position State Instance Record"	"263070 not defined"
+""	6	"in"	"Position Thresholds/Limits"	"CR Financial Position State Instance Record"	"263079 not defined"
+""	7	"out"	"Position Value"	"CR Financial Position State Instance Record"	"263095 not defined"
+""	8	"in"	"Position Notification Arrangement Reference"	"CR Financial Position State Instance Record"	"263072 not defined"
+""	9	"in"	"Position Notification Arrangement Record"	"CR Financial Position State Instance Record"	"263074 not defined"
+""	10	"in"	"Position Notification Business Unit Reference"	"CR Financial Position State Instance Record"	"263071 not defined"
+""	11	"in"	"Position Notification Details"	"CR Financial Position State Instance Record"	"263073 not defined"
+""	12	"out"	"Position Notification Record"	"CR Financial Position State Instance Record"	"263094 not defined"
+""
+"Put"	"/position-management/{sd-identifier}/financial-position-state/{crbq-identifier}/update"
+""	1	"inout"	"Position Type"	"CR Financial Position State Instance Record"	"263075 not defined"
+""	2	"inout"	"Position Customer Reference"	"CR Financial Position State Instance Record"	"263077 not defined"
+""	3	"inout"	"Position Sector"	"CR Financial Position State Instance Record"	"263078 not defined"
+""	4	"inout"	"Position Product Type"	"CR Financial Position State Instance Record"	"263076 not defined"
+""	5	"inout"	"Position Definition"	"CR Financial Position State Instance Record"	"263070 not defined"
+""	6	"inout"	"Position Thresholds/Limits"	"CR Financial Position State Instance Record"	"263079 not defined"
+""	7	"inout"	"Position Notification Arrangement Reference"	"CR Financial Position State Instance Record"	"263072 not defined"
+""	8	"inout"	"Position Notification Arrangement Record"	"CR Financial Position State Instance Record"	"263074 not defined"
+""	9	"inout"	"Position Notification Business Unit Reference"	"CR Financial Position State Instance Record"	"263071 not defined"
+""	10	"inout"	"Position Notification Details"	"CR Financial Position State Instance Record"	"263073 not defined"
+""
+"Put"	"/position-management/{sd-identifier}/financial-position-state/{crbq-identifier}/control"
+""
+"Put"	"/position-management/{sd-identifier}/financial-position-state/{crbq-identifier}/requisition"
+""	1	"out"	"Position Type"	"CR Financial Position State Instance Record"	"263075 not defined"
+""	2	"out"	"Position Customer Reference"	"CR Financial Position State Instance Record"	"263077 not defined"
+""	3	"out"	"Position Sector"	"CR Financial Position State Instance Record"	"263078 not defined"
+""	4	"out"	"Position Product Type"	"CR Financial Position State Instance Record"	"263076 not defined"
+""	5	"out"	"Position Definition"	"CR Financial Position State Instance Record"	"263070 not defined"
+""	6	"out"	"Position Thresholds/Limits"	"CR Financial Position State Instance Record"	"263079 not defined"
+""	7	"out"	"Position Value"	"CR Financial Position State Instance Record"	"263095 not defined"
+""	8	"out"	"Position Notification Arrangement Reference"	"CR Financial Position State Instance Record"	"263072 not defined"
+""	9	"out"	"Position Notification Arrangement Record"	"CR Financial Position State Instance Record"	"263074 not defined"
+""	10	"out"	"Position Notification Business Unit Reference"	"CR Financial Position State Instance Record"	"263071 not defined"
+""	11	"out"	"Position Notification Details"	"CR Financial Position State Instance Record"	"263073 not defined"
+""	12	"out"	"Position Notification Record"	"CR Financial Position State Instance Record"	"263094 not defined"
+""
+"Post"	"/position-management/{sd-identifier}/trial-transaction/{crbq-identifier}/initiation"
+""	1	"in"	"Trial Transaction Reference"	"BQ Trial Transaction Instance Record"	Object
+""	2	"in"	"Trial Transaction Type"	"BQ Trial Transaction Instance Record"	String
+""	3	"in"	"Trial Transaction Record"	"BQ Trial Transaction Instance Record"	String
+""	4	"in"	"Trial Transaction Amount"	"BQ Trial Transaction Instance Record"	Amount
+""	5	"in"	"Trial Transaction Date"	"BQ Trial Transaction Instance Record"	Date
+""	6	"in"	"Trial Transaction Booking Entity"	"BQ Trial Transaction Instance Record"	String
+""	7	"out"	"Trail Transaction Position Impact Assessment"	"BQ Trial Transaction Instance Record"	String
+""
+"Put"	"/position-management/{sd-identifier}/trial-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Trial Transaction Reference"	"BQ Trial Transaction Instance Record"	Object
+""	2	"inout"	"Trial Transaction Type"	"BQ Trial Transaction Instance Record"	String
+""	3	"inout"	"Trial Transaction Record"	"BQ Trial Transaction Instance Record"	String
+""	4	"inout"	"Trial Transaction Amount"	"BQ Trial Transaction Instance Record"	Amount
+""	5	"inout"	"Trial Transaction Date"	"BQ Trial Transaction Instance Record"	Date
+""	6	"inout"	"Trial Transaction Booking Entity"	"BQ Trial Transaction Instance Record"	String
+""
+"Get"	"/position-management/{sd-identifier}/trial-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Trial Transaction Reference"	"BQ Trial Transaction Instance Record"	Object
+""	2	"out"	"Trial Transaction Type"	"BQ Trial Transaction Instance Record"	String
+""	3	"out"	"Trial Transaction Record"	"BQ Trial Transaction Instance Record"	String
+""	4	"out"	"Trial Transaction Amount"	"BQ Trial Transaction Instance Record"	Amount
+""	5	"out"	"Trial Transaction Date"	"BQ Trial Transaction Instance Record"	Date
+""	6	"out"	"Trial Transaction Booking Entity"	"BQ Trial Transaction Instance Record"	String
+""	7	"out"	"Trail Transaction Position Impact Assessment"	"BQ Trial Transaction Instance Record"	String
+""
+"Post"	"/position-management/{sd-identifier}/transaction-application/{crbq-identifier}/initiation"
+""	1	"in"	"Transaction Reference"	"BQ Transaction Application Instance Record"	Object
+""	2	"in"	"Transaction Type"	"BQ Transaction Application Instance Record"	String
+""	3	"in"	"Transaction Record"	"BQ Transaction Application Instance Record"	String
+""	4	"in"	"Transaction Amount"	"BQ Transaction Application Instance Record"	Amount
+""	5	"in"	"Transaction Date"	"BQ Transaction Application Instance Record"	Date
+""	6	"in"	"Transaction Booking Entity"	"BQ Transaction Application Instance Record"	String
+""	7	"out"	"Transaction Position Impact Assessment"	"BQ Transaction Application Instance Record"	String
+""
+"Put"	"/position-management/{sd-identifier}/transaction-application/{crbq-identifier}/update"
+""	1	"inout"	"Transaction Reference"	"BQ Transaction Application Instance Record"	Object
+""	2	"inout"	"Transaction Type"	"BQ Transaction Application Instance Record"	String
+""	3	"inout"	"Transaction Record"	"BQ Transaction Application Instance Record"	String
+""	4	"inout"	"Transaction Amount"	"BQ Transaction Application Instance Record"	Amount
+""	5	"inout"	"Transaction Date"	"BQ Transaction Application Instance Record"	Date
+""	6	"inout"	"Transaction Booking Entity"	"BQ Transaction Application Instance Record"	String
+""
+"Get"	"/position-management/{sd-identifier}/transaction-application/{crbq-identifier}/retrieval"
+""	1	"out"	"Transaction Reference"	"BQ Transaction Application Instance Record"	Object
+""	2	"out"	"Transaction Type"	"BQ Transaction Application Instance Record"	String
+""	3	"out"	"Transaction Record"	"BQ Transaction Application Instance Record"	String
+""	4	"out"	"Transaction Amount"	"BQ Transaction Application Instance Record"	Amount
+""	5	"out"	"Transaction Date"	"BQ Transaction Application Instance Record"	Date
+""	6	"out"	"Transaction Booking Entity"	"BQ Transaction Application Instance Record"	String
+""	7	"out"	"Transaction Position Impact Assessment"	"BQ Transaction Application Instance Record"	String

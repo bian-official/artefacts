@@ -1,0 +1,31 @@
+"Control Record Model for: "	Servicing Event History
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Issue Instance Record	""	""	""
+"BQ"	BQ Issue Instance Record	Servicing Position Reference	"Reference to the service position where issue arises"	Object
+"BQ"	BQ Issue Instance Record	Servicing Position Session Reference	"Reference to the servicing session"	Object
+"BQ"	BQ Issue Instance Record	Employee/Business Unit Reference	"Reference to the employee or unit raising the issue"	Object
+"BQ"	BQ Issue Instance Record	Production Issue Type	"Defines the type of event/error being recorded (e.g. support facility failure)"	String
+"BQ"	BQ Issue Instance Record	Production Issue Description	"Description of the issue and involved functions, parties"	String
+"BQ"	BQ Issue Instance Record	Production Issue Diagnosis	"An evaluation of the event cause and impact"	String
+"BQ"	BQ Issue Instance Record	Production Issue Resolution Task	"Description of corrective actions and assigned parties"	String
+"BQ"	BQ Session Instance Record	""	""	""
+"BQ"	BQ Session Instance Record	Session Start/End Time	"The start and duration of the dialogue"	String
+"BQ"	BQ Session Instance Record	Customer Contact Reference	"Reference to the complete contact record for the customer contact"	Object
+"BQ"	BQ Session Instance Record	Session Mechanism	"The type of channel device involved in the session exchange (e.g. web, phone, chat, video, VOIP, face to face at a branch - note there can be concurrent sessions within a single customer contact)"	String
+"BQ"	BQ Session Instance Record	Servicing Facility Type	"Lists if a specific servicing facility is used during the session)"	String
+"BQ"	BQ Session Instance Record	Session Dialogue Record	"The session dialogue log of actions is returned to SD-Contact Handler and added to the contact record"	String
+"BQ"	BQ Session Instance Record	Session Dialogue Type	"The general type of customer exchange (e.g. verified customer, anonymous contact, topic - used to structure/script dialogue)"	String
+"BQ"	BQ Session Instance Record	Session Dialogue Script	"In cases a prompt or script can provided to structure the interaction for self-service and assisted interactions"	String
+"BQ"	BQ Session Instance Record	Session Dialogue Log Reference	"Reference to a dialogue log that is built up"	Object
+"BQ"	BQ Session Instance Record	Session Dialogue Log	"The dialogue log, used for training and root cause analysis etc.  (e.g. click-stream, video/audio recording)"	String
+"BQ"	BQ Session Instance Record	Session Dialogue Result	"The outcome of the dialogue (e.g. customer satisfied, on-ward routing, hang-up)"	String
+"BQ"	BQ Assignment Instance Record	""	""	""
+"BQ"	BQ Assignment Instance Record	Date/Time/Location	"Key dates and times associated with the assignment (e.g. start, end, break duration, available/idle time)"	String
+"BQ"	BQ Assignment Instance Record	Servicing Position Activity Report	"Log of servicing activity at that position during the session (e.g. contacts, sales, issues, breaks)"	String
+"BQ"	BQ Assignment Instance Record	Servicing Position Activity Statistics	"Accumulated statistics during the session (e.g. average contact time, wait time, service utilization, facility usage)"	String
+"BQ"	BQ Servicing Facility Instance Record	""	""	""
+"BQ"	BQ Servicing Facility Instance Record	Servicing Facility Type	"The type of service support facility engaged (e.g. commission tracking, on-line help, action logging)"	String
+"BQ"	BQ Servicing Facility Instance Record	Servicing Facility Instance Reference	"Reference to any record generated from he use of the facility"	Object
+"CR"	CR Servicing Event Log Instance Record	""	""	""
+"CR"	CR Servicing Event Log Instance Record	Servicing Position Reference	"The servicing position for the log (if the log is organized to track specific positions)"	Object
+"CR"	CR Servicing Event Log Instance Record	Employee/Business Unit Reference	"Employee/unit assigned to the servicing position (if the log is organized to track specific servicing reps that might work at different positions)"	Object

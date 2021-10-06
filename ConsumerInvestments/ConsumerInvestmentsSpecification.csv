@@ -1,0 +1,13 @@
+"Service Domain specification for Consumer Investments"
+"Business Area"	Customers
+"Business Domain"	Investment Services
+"Service Domain"	Consumer Investments
+"Role Definition"	"This supports consumer initiated securities investment and trading activity for their self-managed securities investments. Trades will typically be blocked/netted against the bank's own securities position for subsequent market execution. Quotes/prices are based on the prevailing price at the time of the customer instruction to trade"
+"Example of use"	"An consumer initiates a securities purchase for their investment portfolio, providing funds from their linked 'trading' current account"
+"Executive Summary"	"Handle the consumer front-end trading requests. These will typically be blocked/netted for market execution"
+"Key Features"	"Provide price quotes. Initiate market order for consumer customer. Update banks security position"
+"Functional Pattern"	Transact
+"Asset Type"	ConsumerSecuritiesOrder
+"Generic Artifact"	Transaction
+"Control Record"	ConsumerSecuritiesOrderTransaction
+"Registration Status"	Registered

@@ -1,0 +1,135 @@
+"Service Operations for: "	Reward Points Awards And Redemption
+""
+"POST"	"/reward-points-awards-and-redemption/activation"
+"PUT"	"/reward-points-awards-and-redemption/{sd-reference-id}/configuration"
+"PUT"	"/reward-points-awards-and-redemption/{sd-reference-id}/feedback"
+""
+"Put"	"/reward-points-awards-and-redemption/{sd-identifier}/award/{crbq-identifier}/exchange"
+""	1	"inout"	"Award Preconditions"	"BQ Award Instance Record"	String
+""	2	"inout"	"Award Task Schedule"	"BQ Award Instance Record"	String
+""	3	"inout"	"Awards"	"BQ Award Instance Record"	Business Service
+""	4	"inout"	"Award Postconditions"	"BQ Award Instance Record"	String
+""	5	"inout"	"Award Awards Service Type"	"BQ Award Instance Record"	String
+""	6	"inout"	"Award Awards Service Description"	"BQ Award Instance Record"	String
+""	7	"inout"	"Award Awards Service Inputs and Ouputs"	"BQ Award Instance Record"	String
+""	8	"inout"	"Award Awards Service Work Product"	"BQ Award Instance Record"	String
+""	9	"inout"	"Award Awards Service Name"	"BQ Award Instance Record"	String
+""
+"Put"	"/reward-points-awards-and-redemption/{sd-identifier}/redemption/{crbq-identifier}/exchange"
+""	1	"inout"	"Redemption Preconditions"	"BQ Redemption Instance Record"	String
+""	2	"inout"	"Redemption Task Schedule"	"BQ Redemption Instance Record"	String
+""	3	"inout"	"Awards Redemption"	"BQ Redemption Instance Record"	Business Service
+""	4	"inout"	"Redemption Postconditions"	"BQ Redemption Instance Record"	String
+""	5	"inout"	"Redemption Awards Redemption Service Type"	"BQ Redemption Instance Record"	String
+""	6	"inout"	"Redemption Awards Redemption Service Description"	"BQ Redemption Instance Record"	String
+""	7	"inout"	"Redemption Awards Redemption Service Inputs and Ouputs"	"BQ Redemption Instance Record"	String
+""	8	"inout"	"Redemption Awards Redemption Service Work Product"	"BQ Redemption Instance Record"	String
+""	9	"inout"	"Redemption Awards Redemption Service Name"	"BQ Redemption Instance Record"	String
+""
+"Put"	"/reward-points-awards-and-redemption/{sd-identifier}/reward-points-transaction/{crbq-identifier}/exchange"
+""	1	"inout"	"Reward Points Transaction Parameter Type"	"CR Reward Points Transaction Instance Record"	String
+""	2	"inout"	"Reward Points Transaction Selected Option"	"CR Reward Points Transaction Instance Record"	String
+""	3	"inout"	"Reward Points Transaction Status"	"CR Reward Points Transaction Instance Record"	String
+""	4	"in"	"Reward Points Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""	5	"in"	"Reward Points Transaction Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""
+"Put"	"/reward-points-awards-and-redemption/{sd-identifier}/reward-points-transaction/{crbq-identifier}/execution"
+""	1	"inout"	"Reward Points Transaction Parameter Type"	"CR Reward Points Transaction Instance Record"	String
+""	2	"inout"	"Reward Points Transaction Selected Option"	"CR Reward Points Transaction Instance Record"	String
+""	3	"inout"	"Reward Points Transaction Status"	"CR Reward Points Transaction Instance Record"	String
+""	4	"in"	"Reward Points Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""	5	"in"	"Reward Points Transaction Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""
+"Post"	"/reward-points-awards-and-redemption/{sd-identifier}/award/{crbq-identifier}/initiation"
+""	1	"inout"	"Award Preconditions"	"BQ Award Instance Record"	String
+""	2	"inout"	"Award Task Schedule"	"BQ Award Instance Record"	String
+""	3	"inout"	"Awards"	"BQ Award Instance Record"	Business Service
+""	4	"inout"	"Award Postconditions"	"BQ Award Instance Record"	String
+""	5	"inout"	"Award Awards Service Type"	"BQ Award Instance Record"	String
+""	6	"inout"	"Award Awards Service Description"	"BQ Award Instance Record"	String
+""	7	"inout"	"Award Awards Service Inputs and Ouputs"	"BQ Award Instance Record"	String
+""	8	"inout"	"Award Awards Service Work Product"	"BQ Award Instance Record"	String
+""	9	"inout"	"Award Awards Service Name"	"BQ Award Instance Record"	String
+""
+"Post"	"/reward-points-awards-and-redemption/{sd-identifier}/redemption/{crbq-identifier}/initiation"
+""	1	"inout"	"Redemption Preconditions"	"BQ Redemption Instance Record"	String
+""	2	"inout"	"Redemption Task Schedule"	"BQ Redemption Instance Record"	String
+""	3	"inout"	"Awards Redemption"	"BQ Redemption Instance Record"	Business Service
+""	4	"inout"	"Redemption Postconditions"	"BQ Redemption Instance Record"	String
+""	5	"inout"	"Redemption Awards Redemption Service Type"	"BQ Redemption Instance Record"	String
+""	6	"inout"	"Redemption Awards Redemption Service Description"	"BQ Redemption Instance Record"	String
+""	7	"inout"	"Redemption Awards Redemption Service Inputs and Ouputs"	"BQ Redemption Instance Record"	String
+""	8	"inout"	"Redemption Awards Redemption Service Work Product"	"BQ Redemption Instance Record"	String
+""	9	"inout"	"Redemption Awards Redemption Service Name"	"BQ Redemption Instance Record"	String
+""
+"Post"	"/reward-points-awards-and-redemption/{sd-identifier}/reward-points-transaction/{crbq-identifier}/initiation"
+""	1	"inout"	"Reward Points Transaction Parameter Type"	"CR Reward Points Transaction Instance Record"	String
+""	2	"inout"	"Reward Points Transaction Selected Option"	"CR Reward Points Transaction Instance Record"	String
+""	3	"inout"	"Reward Points Transaction Status"	"CR Reward Points Transaction Instance Record"	String
+""	4	"in"	"Reward Points Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""	5	"in"	"Reward Points Transaction Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""
+"Get"	"/reward-points-awards-and-redemption/{sd-identifier}/award/{crbq-identifier}/retrieval"
+""	1	"out"	"Award Preconditions"	"BQ Award Instance Record"	String
+""	2	"out"	"Award Task Schedule"	"BQ Award Instance Record"	String
+""	3	"out"	"Awards"	"BQ Award Instance Record"	Business Service
+""	4	"out"	"Award Postconditions"	"BQ Award Instance Record"	String
+""	5	"out"	"Award Awards Service Type"	"BQ Award Instance Record"	String
+""	6	"out"	"Award Awards Service Description"	"BQ Award Instance Record"	String
+""	7	"out"	"Award Awards Service Inputs and Ouputs"	"BQ Award Instance Record"	String
+""	8	"out"	"Award Awards Service Work Product"	"BQ Award Instance Record"	String
+""	9	"out"	"Award Awards Service Name"	"BQ Award Instance Record"	String
+""
+"Get"	"/reward-points-awards-and-redemption/{sd-identifier}/redemption/{crbq-identifier}/retrieval"
+""	1	"out"	"Redemption Preconditions"	"BQ Redemption Instance Record"	String
+""	2	"out"	"Redemption Task Schedule"	"BQ Redemption Instance Record"	String
+""	3	"out"	"Awards Redemption"	"BQ Redemption Instance Record"	Business Service
+""	4	"out"	"Redemption Postconditions"	"BQ Redemption Instance Record"	String
+""	5	"out"	"Redemption Awards Redemption Service Type"	"BQ Redemption Instance Record"	String
+""	6	"out"	"Redemption Awards Redemption Service Description"	"BQ Redemption Instance Record"	String
+""	7	"out"	"Redemption Awards Redemption Service Inputs and Ouputs"	"BQ Redemption Instance Record"	String
+""	8	"out"	"Redemption Awards Redemption Service Work Product"	"BQ Redemption Instance Record"	String
+""	9	"out"	"Redemption Awards Redemption Service Name"	"BQ Redemption Instance Record"	String
+""
+"Get"	"/reward-points-awards-and-redemption/{sd-identifier}/reward-points-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Reward Points Transaction Parameter Type"	"CR Reward Points Transaction Instance Record"	String
+""	2	"out"	"Reward Points Transaction Selected Option"	"CR Reward Points Transaction Instance Record"	String
+""	3	"out"	"Reward Points Transaction Status"	"CR Reward Points Transaction Instance Record"	String
+""	4	"out"	"Reward Points Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""	5	"out"	"Reward Points Transaction Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""
+"Put"	"/reward-points-awards-and-redemption/{sd-identifier}/reward-points-transaction/{crbq-identifier}/requisition"
+""	1	"inout"	"Reward Points Transaction Parameter Type"	"CR Reward Points Transaction Instance Record"	String
+""	2	"inout"	"Reward Points Transaction Selected Option"	"CR Reward Points Transaction Instance Record"	String
+""	3	"inout"	"Reward Points Transaction Status"	"CR Reward Points Transaction Instance Record"	String
+""	4	"in"	"Reward Points Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""	5	"in"	"Reward Points Transaction Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""
+"Put"	"/reward-points-awards-and-redemption/{sd-identifier}/award/{crbq-identifier}/update"
+""	1	"inout"	"Award Preconditions"	"BQ Award Instance Record"	String
+""	2	"inout"	"Award Task Schedule"	"BQ Award Instance Record"	String
+""	3	"inout"	"Awards"	"BQ Award Instance Record"	Business Service
+""	4	"inout"	"Award Postconditions"	"BQ Award Instance Record"	String
+""	5	"inout"	"Award Awards Service Type"	"BQ Award Instance Record"	String
+""	6	"inout"	"Award Awards Service Description"	"BQ Award Instance Record"	String
+""	7	"inout"	"Award Awards Service Inputs and Ouputs"	"BQ Award Instance Record"	String
+""	8	"inout"	"Award Awards Service Work Product"	"BQ Award Instance Record"	String
+""	9	"inout"	"Award Awards Service Name"	"BQ Award Instance Record"	String
+""
+"Put"	"/reward-points-awards-and-redemption/{sd-identifier}/redemption/{crbq-identifier}/update"
+""	1	"inout"	"Redemption Preconditions"	"BQ Redemption Instance Record"	String
+""	2	"inout"	"Redemption Task Schedule"	"BQ Redemption Instance Record"	String
+""	3	"inout"	"Awards Redemption"	"BQ Redemption Instance Record"	Business Service
+""	4	"inout"	"Redemption Postconditions"	"BQ Redemption Instance Record"	String
+""	5	"inout"	"Redemption Awards Redemption Service Type"	"BQ Redemption Instance Record"	String
+""	6	"inout"	"Redemption Awards Redemption Service Description"	"BQ Redemption Instance Record"	String
+""	7	"inout"	"Redemption Awards Redemption Service Inputs and Ouputs"	"BQ Redemption Instance Record"	String
+""	8	"inout"	"Redemption Awards Redemption Service Work Product"	"BQ Redemption Instance Record"	String
+""	9	"inout"	"Redemption Awards Redemption Service Name"	"BQ Redemption Instance Record"	String
+""
+"Put"	"/reward-points-awards-and-redemption/{sd-identifier}/reward-points-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Reward Points Transaction Parameter Type"	"CR Reward Points Transaction Instance Record"	String
+""	2	"inout"	"Reward Points Transaction Selected Option"	"CR Reward Points Transaction Instance Record"	String
+""	3	"inout"	"Reward Points Transaction Status"	"CR Reward Points Transaction Instance Record"	String
+""	4	"in"	"Reward Points Transaction Type"	"CR Reward Points Transaction Instance Record"	String
+""	5	"in"	"Reward Points Transaction Transaction Type"	"CR Reward Points Transaction Instance Record"	String

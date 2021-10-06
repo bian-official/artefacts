@@ -1,0 +1,5 @@
+"Service Operations for: "	Property Portfolio
+"Control Record Model for Property Portfolio is not defined"
+"POST"	"/property-portfolio/activation"
+"PUT"	"/property-portfolio/{sd-reference-id}/configuration"
+"PUT"	"/property-portfolio/{sd-reference-id}/feedback"

@@ -1,0 +1,110 @@
+"Control Record Model for: "	Consumer Loan
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Maintenance Instance Record	""	""	""
+"BQ"	BQ Maintenance Instance Record	Maintenance Report Type	"The type of maintenance action and report processed (e.g. tax, regulatory, accounting)"	String
+"BQ"	BQ Maintenance Instance Record	Loan Tax Report	"A report summarizing tax considerations"	String
+"BQ"	BQ Maintenance Instance Record	Loan Fee Type	"The type of fee applied"	String
+"BQ"	BQ Maintenance Instance Record	Loan Fees	"A report detailing fees applied to the loan account (range of fees possible for different actions)"	String
+"BQ"	BQ Maintenance Instance Record	Penalties	"A report detailing penalties incurred as booked against loan account"	String
+"BQ"	BQ Maintenance Instance Record	Collateral Valuation	"A report detailing the current applied collateral valuation (value confirmed as of date)"	String
+"BQ"	BQ Withdrawal Instance Record	""	""	""
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction	"The general payment transaction with all major attributes - some optional depending on type"	String
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Type	"The type of payment transaction (e.g. customer payment, standing order, direct debit, bill pay)"	String
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Payee Reference	"Reference to the party to whom the payment is made"	Object
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Payee Account Reference	"Reference to the account to which the payment is made"	Object
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Payee Bank Reference	"Reference to the bank where the payee account is held"	Object
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Amount	"The amount (and currency if applicable) of the payment"	Amount
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Fee Type	"The fee type applied to the payment transaction"	String
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Fee Charge	"The fee charge applied to the transaction"	String
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Date	"The various key dates and times associated with the payment transaction"	Date
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Payment Mechanism	"Requested payment mechanism (e.g. Wire, ACH)"	String
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Payment Purpose	"Description of the purpose including any external reference to the transaction"	String
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Bank Branch/Location Reference	"Reference to the location the payment transaction is initiated from"	Object
+"BQ"	BQ Withdrawal Instance Record	Payment Transaction Status	"The processing status of the transaction (e.g. captured, approved, initiated, confirmed, settled)"	String
+"BQ"	BQ Interest Instance Record	""	""	""
+"BQ"	BQ Interest Instance Record	Interest Rate Type	"Applicable rate type"	String
+"BQ"	BQ Interest Instance Record	Interest Rate Application Schedule	"The processing schedule for applying interest rates to the account"	Rate
+"BQ"	BQ Interest Instance Record	Interest Rate Configuration	"The collection of applicable rates"	Rate
+"BQ"	BQ Interest Instance Record	Interest Rate	"The interest rate value to be applied (note could be variable)"	Rate
+"BQ"	BQ Interest Instance Record	Interest Application Record	"The record of applied interest"	String
+"BQ"	BQ Interest Instance Record	Interest Transaction	"A record of applied interest"	String
+"BQ"	BQ Interest Instance Record	Transaction Description	"General description of the interest transaction"	String
+"BQ"	BQ Interest Instance Record	Transaction Rate Type	"Applicable rate type"	String
+"BQ"	BQ Interest Instance Record	Transaction Interest Charge	"The derived interest amount to be applied"	String
+"BQ"	BQ Interest Instance Record	Interest Accrual Amount	"Record of accrued interest"	Amount
+"BQ"	BQ Interest Instance Record	Interest Accrual Type	"The interest type being tracked"	String
+"BQ"	BQ Interest Instance Record	Interest Accrual Charge	"The accrued amount of applied interest"	String
+"BQ"	BQ Repayment Instance Record	""	""	""
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Type	"The type of repayment (e.g. scheduled repayment, balloon/early termination)"	String
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Reference	"Reference to the payer"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Product Instance Reference	"Reference to the account where the payment is made from"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Bank Reference	"Reference to the payer's bank"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Amount	"The amount of the repayment"	Amount
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Currency	"The currency used for the repayment"	CurrencyCode
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Value Date	"The value date for the repayment transaction"	Date
+"CR"	CR Consumer Loan Arrangement Instance Record	""	""	""
+"CR"	CR Consumer Loan Arrangement Instance Record	Product Instance Reference	"Reference to the loan product instance"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Consumer Loan Number	"The associated loan account number in any suitable format"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Customer Reference	"Reference to the account primary party/owner"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Party Reference	"The legal entity reference for the borrower, likely to be the same as customer"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Customer Agreement Reference	"Reference to the associated customer agreement"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Customer Credit Assessment Reference	"Reference to an associated credit assessment"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Insurance Reference	"Reference to applicable insurance arrangements"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Delinquency/Collection Reference	"Reference to collections/delinquency processing made against the loan"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the account for booking purposes"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Bank Accounting Unit Reference	"Bank accounting unit associated with the account for booking purposes"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Type	"The specific type of loan (e.g. term, revolving, evergreen)"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Amount	"The amount of the loan"	Amount
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Currency	"The currency for the loan account"	CurrencyCode
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Rate Type	"The rate type to be applied to the loan"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Applicable Rate	"The applicable rate for the loan"	Rate
+"CR"	CR Consumer Loan Arrangement Instance Record	Repayment Type	"The type of repayment arrangement in place (e.g. structured)"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Interest Type	"The type of interest to be applied (e.g. prime plus)"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Interest Accrual Method	"The accrual method applied to interest calculations"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Origination Date	"The origination date for the loan"	Date
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Maturity Date	"The planned maturity date of the loan"	Date
+"CR"	CR Consumer Loan Arrangement Instance Record	Collateral Reference	"Reference to allocated collateral"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Collateral Allocation	"The collateral value applied to the loan"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Tax Reference	"Reference identifier linking the account to appropriate tax handling"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Access Terms	"Access terms that apply (e.g. allowed payments/withdrawals)"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Entitlement Option Definition	"The definition of an applicable entitlement option"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Entitlement Option Setting	"The setting for the entitlement option"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Restriction Option Definition	"The definition of an applicable restriction option"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Restriction Option Setting	"The setting for the restriction option"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Associations	"Definition of the involved parties or associations to the account"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Association Type	"The type of association (e.g. guarantor, co-signer)"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Association Obligation/Entitlement	"Description of the role, obligations or entitlements of the associated party"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Association Reference	"Reference to the associated party"	Object
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Repayment Schedule	"The schedule for loan repayments"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Staged Repayment Statement	"A statement maintained tracking repayments"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Customer Commentary	"A record of customer correspondence/feedback"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Loan Outstanding Balance	"The outstanding balance"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Date Type	"Key dates associated with the account (e.g. opening date, closing date)"	String
+"CR"	CR Consumer Loan Arrangement Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Service Fees Instance Record	""	""	""
+"BQ"	BQ Service Fees Instance Record	Fee Configuration Profile	"The profile of applicable fees and penalties"	String
+"BQ"	BQ Service Fees Instance Record	Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Service Fees Instance Record	Fee Definition	"Definition of the fee or penalty including when and how to apply"	String
+"BQ"	BQ Service Fees Instance Record	Fee Application Record	"The record of applied fees and penalties including transactions and accrued amounts"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction	"A record of an applied fee or penalty"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Description	"General description of the fee or penalty transaction"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Fee Charge	"The derived fee or penalty amount applied"	String
+"BQ"	BQ Service Fees Instance Record	Fee Projections and Commitments	"A record of projected fees and penalties"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Description	"General description of the projected fee or penalty"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Type	"The fee or penalty type"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Charge	"The anticipated fee or penalty amount"	String
+"BQ"	BQ Service Fees Instance Record	Fee Accrual Amount	"Tracking of accumulated fees and penalties"	Amount
+"BQ"	BQ Service Fees Instance Record	Accrual Fee Type	"The fee or penalty type being tracked"	String
+"BQ"	BQ Service Fees Instance Record	Accrual Fee Charge	"The accrued amount of fees and penalties"	String
+"BQ"	BQ Disbursement Instance Record	""	""	""
+"BQ"	BQ Disbursement Instance Record	Disbursement Payee Reference	"Reference to the party to whom the payment is made"	Object
+"BQ"	BQ Disbursement Instance Record	Disbursement Payee Product Instance Reference	"Reference to the account to which the payment is made"	Object
+"BQ"	BQ Disbursement Instance Record	Disbursement Payee Bank Reference	"Reference to the bank where the payee account is held"	Object
+"BQ"	BQ Disbursement Instance Record	Disbursement Amount	"The amount of the payment"	Amount
+"BQ"	BQ Disbursement Instance Record	Disbursement Currency	"The currency of the payment"	CurrencyCode
+"BQ"	BQ Disbursement Instance Record	Disbursement Value Date	"The value date for the payment transaction"	Date
+"BQ"	BQ Restructuring Instance Record	""	""	""
+"BQ"	BQ Restructuring Instance Record	Restructuring Task	"Description of the restructuring required"	String
+"BQ"	BQ Restructuring Instance Record	Restructuring Evaluation	"Definition of issue to resolve and the restructuring solution with associated changes to loan terms and the assessed impact"	String
+"BQ"	BQ Restructuring Instance Record	Restructuring Write Down	"Calculated loss/costs of restructuring"	String

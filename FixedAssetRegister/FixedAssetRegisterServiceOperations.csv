@@ -1,0 +1,5 @@
+"Service Operations for: "	Fixed Asset Register
+"Control Record Model for Fixed Asset Register is not defined"
+"POST"	"/fixed-asset-register/activation"
+"PUT"	"/fixed-asset-register/{sd-reference-id}/configuration"
+"PUT"	"/fixed-asset-register/{sd-reference-id}/feedback"

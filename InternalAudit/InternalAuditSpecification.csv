@@ -1,0 +1,13 @@
+"Service Domain specification for Internal Audit"
+"Business Area"	Business Management
+"Business Domain"	Corporate Services
+"Service Domain"	Internal Audit
+"Role Definition"	"This service domain administers the scheduled and ad-hoc application of internal audit and compliance reviews. This includes interpreting the banks policies and procedures that guide all aspects the bank's operations and determining which guidelines apply in specific circumstances across the enterprise. Support for interpreting guidelines are provided to activities in the bank that are subject to audit and scheduled and ad-hoc checks performed to confirm compliance"
+"Example of use"	"Example of use:. A periodic audit of a processing unit is undertaken and remedial corrections to procedures recommended to improve compliance"
+"Executive Summary"	"Maintain and portfolio of internal audit checks. Select and execute a meaningful sample of checks and identify and resolve non-compliance"
+"Key Features"	"Schedule/target internal audit reviews. Consolidate documents/activity pertaining to the audit. Provide advice/guidance for achieving guideline/policy compliance. Evaluate and report on activity for regulatory compliance, . Notify and track responses for detected procedural failures"
+"Functional Pattern"	Assess
+"Asset Type"	InternalAudit
+"Generic Artifact"	Assessment
+"Control Record"	InternalAuditAssessment
+"Registration Status"	Registered

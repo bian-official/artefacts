@@ -1,0 +1,46 @@
+"Control Record Model for: "	Party Reference Data Directory
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Party Reference Data Directory Entry Instance Record	""	""	""
+"CR"	CR Party Reference Data Directory Entry Instance Record	Party Reference	"Reference to the associated customer (can currently be a person or a company)"	Object
+"CR"	CR Party Reference Data Directory Entry Instance Record	Date Type	"Key dates associated with the directory entry (e.g. open date, refresh date)"	String
+"CR"	CR Party Reference Data Directory Entry Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Reference Instance Record	""	""	""
+"BQ"	BQ Reference Instance Record	Party Legal Entity Reference	"Reference to the legal entity - enables the assembly of the legal relationship structure"	Object
+"BQ"	BQ Reference Instance Record	Party Name/Salutation	"The preferred salutation to be used"	String
+"BQ"	BQ Reference Instance Record	Government Issued Identity Reference	"Reference to government or agency issued identification (e.g. social security number)"	Object
+"BQ"	BQ Reference Instance Record	Government Issued Document Details	"Details about and extracted from government issued documents (e.g. driving license/passport details)"	String
+"BQ"	BQ Reference Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents"	Object
+"BQ"	BQ Reference Instance Record	Residency Status	"The residency status and history as appropriate"	String
+"BQ"	BQ Reference Instance Record	Date of Birth	"Give DoB"	String
+"BQ"	BQ Reference Instance Record	Nationality	"The customer nationality and history as appropriate"	String
+"BQ"	BQ Reference Instance Record	Residential Address	"Their given residential address"	String
+"BQ"	BQ Reference Instance Record	eMail Address	"The given email address"	String
+"BQ"	BQ Reference Instance Record	Cell/Phone Number	"Any given phone contact numbers"	String
+"BQ"	BQ Reference Instance Record	Social Network Contacts	"Any given social network identifiers"	String
+"BQ"	BQ Reference Instance Record	Political Exposure Type	"A politically exposed person indicator (PEP) (e.g. senior public figure, political position/exposure)"	String
+"BQ"	BQ Reference Instance Record	Political Exposure Description Record	"Detail of the customer's political exposure"	String
+"BQ"	BQ Reference Instance Record	Corporate Customer Reference	"Reference to the corporate entity (Company for company customers)"	Object
+"BQ"	BQ Reference Instance Record	Corporate Customer Legal Entity Reference	"The legal entity reference (for company customers)"	Object
+"BQ"	BQ Reference Instance Record	Corporate Address	"The company registered address"	String
+"BQ"	BQ Reference Instance Record	Company Officer Reference	"Reference to one or more identified company officers for a corporate customer"	Object
+"BQ"	BQ Reference Instance Record	Company Officer Role	"The specific role played by the identified officer/employee"	String
+"BQ"	BQ Reference Instance Record	Customer Since Date	"The start date for the relationship"	Date
+"BQ"	BQ Bank Relations Instance Record	""	""	""
+"BQ"	BQ Bank Relations Instance Record	Bank Relation Type	"The type of relationship (e.g. relationship manager)"	String
+"BQ"	BQ Bank Relations Instance Record	Business Unit/Employee Reference	"Reference to the associated employee or unit"	Object
+"BQ"	BQ Demographics Instance Record	""	""	""
+"BQ"	BQ Demographics Instance Record	Socio-Economic Classification	"A bank defined classification of the socio-economic rating and prospect"	String
+"BQ"	BQ Demographics Instance Record	Ethnicity/Religion	"Where needed to ensure the bank's handling of the relationship follows legal and regulatory requirements"	String
+"BQ"	BQ Demographics Instance Record	Employment	"Reference to the customer's employer (company name)"	String
+"BQ"	BQ Demographics Instance Record	Employment History	"Details of the customer's employment history (e.g. employer, dates, job position, salary)"	String
+"BQ"	BQ Demographics Instance Record	Education History	"Customer's education (e.g. academic institutions attended, duration, qualifications and certifications)"	String
+"BQ"	BQ Demographics Instance Record	Servicing Constraints	"Description of any known constraints on servicing the customer (sight, hearing, religious considerations)"	String
+"BQ"	BQ Associations Instance Record	""	""	""
+"BQ"	BQ Associations Instance Record	Employee Reference	"Reference to a contact at the customer's employer"	Object
+"BQ"	BQ Associations Instance Record	Associate Reference	"Associated individuals of interest"	Object
+"BQ"	BQ Associations Instance Record	Associate Type	"The type of association with the customer (e.g. familial or corporate, includes household associations, for corporations allowed users/buyers)"	String
+"BQ"	BQ Associations Instance Record	Associate Obligation/Dependency Description	"Description of the rights or obligations granted to the associate"	String
+"BQ"	BQ Associations Instance Record	Association Valid From/To Date	"The start and end dates for the association if appropriate"	Date
+"BQ"	BQ Associations Instance Record	Product Instance Reference	"Reference to a product or service where the association is linked in some manner (e.g. guarantor)"	Object
+"BQ"	BQ Associations Instance Record	Preferred Beneficiary	"A potentially complex and structured list of identified beneficiaries with associated contact and payment details as needed"	Preferred Beneficiary
+"BQ"	BQ Associations Instance Record	Proxy/Representative/Power of Attorney Reference	"Reference to individuals with specific representation rights (e.g. a lawyer with power of attorney)"	Object

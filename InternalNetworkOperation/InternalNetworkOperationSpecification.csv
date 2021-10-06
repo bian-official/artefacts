@@ -1,0 +1,13 @@
+"Service Domain specification for Internal Network Operation"
+"Business Area"	Resource Management
+"Business Domain"	Platform Operations
+"Service Domain"	Internal Network Operation
+"Role Definition"	"Operate the internal data/communications network, including the administration of access rights to productivity packages/applications and production system and production data access"
+"Example of use"	"The internal network is operated during the day with users able to access applications, productivity and web based tools"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	InternalNetwork
+"Generic Artifact"	OperatingSession
+"Control Record"	InternalNetworkOperatingSession
+"Registration Status"	Registered

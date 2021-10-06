@@ -1,0 +1,13 @@
+"Service Domain specification for Direct Debit"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Direct Debit
+"Role Definition"	"This service domain processes the creditor side of direct debit processing. Typically a creditor will submit a batch of direct debit requests. The process checks the required service mandates are in place and initiates the payment processing. It tracks payment and reports on completion or other processing issues that might arise (such as insufficient funds available)."
+"Example of use"	"Example of use:. A corporate customer submits a batch of direct debit instructions for customers with accounts held at the bank"
+"Executive Summary"	"Fulfils a direct debit agreement.  Handles the creditor side of direct debits."
+"Key Features"	"Confirm direct debit mandates are in place. Confirm funds available. Initiate direct debit payment. Track direct debit (include customer acceptance if required). Report on direct debit processing"
+"Functional Pattern"	Fulfill
+"Asset Type"	DirectDebit
+"Generic Artifact"	Facility (rename)
+"Control Record"	DirectDebitArrangement
+"Registration Status"	Registered

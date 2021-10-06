@@ -1,0 +1,169 @@
+"Service Operations for: "	Intellectual Property Portfolio
+""
+"POST"	"/intellectual-property-portfolio/activation"
+"PUT"	"/intellectual-property-portfolio/{sd-reference-id}/configuration"
+"PUT"	"/intellectual-property-portfolio/{sd-reference-id}/feedback"
+""
+"Post"	"/intellectual-property-portfolio/{sd-identifier}/intellectual-property-administrative-plan/{crbq-identifier}/initiation"
+""	1	"in"	"Intellectual Property Asset Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	2	"inout"	"Intellectual Property Asset Record"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	3	"inout"	"Intellectual Property Asset Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	4	"in"	"Intellectual Property Asset Description"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	5	"inout"	"Intellectual Property Asset Title"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	6	"inout"	"Intellectual Property Asset Jurisdiction"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	7	"in"	"Intellectual Property Asset Creator"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	8	"inout"	"Intellectual Property Asset Valuation"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	9	"inout"	"Document Directory Entry Instance Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	10	"inout"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""
+"Put"	"/intellectual-property-portfolio/{sd-identifier}/intellectual-property-administrative-plan/{crbq-identifier}/update"
+""	1	"inout"	"Intellectual Property Asset Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	2	"inout"	"Intellectual Property Asset Record"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	3	"inout"	"Intellectual Property Asset Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	4	"inout"	"Intellectual Property Asset Description"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	5	"inout"	"Intellectual Property Asset Title"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	6	"inout"	"Intellectual Property Asset Jurisdiction"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	7	"inout"	"Intellectual Property Asset Creator"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	8	"inout"	"Intellectual Property Asset Valuation"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	9	"inout"	"Document Directory Entry Instance Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	10	"inout"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""
+"Get"	"/intellectual-property-portfolio/{sd-identifier}/intellectual-property-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Intellectual Property Asset Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	2	"out"	"Intellectual Property Asset Record"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	3	"out"	"Intellectual Property Asset Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	4	"out"	"Intellectual Property Asset Description"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	5	"out"	"Intellectual Property Asset Title"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	6	"out"	"Intellectual Property Asset Jurisdiction"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	7	"out"	"Intellectual Property Asset Creator"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	8	"out"	"Intellectual Property Asset Valuation"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	10	"out"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""
+"Post"	"/intellectual-property-portfolio/{sd-identifier}/maintenance/{crbq-identifier}/initiation"
+""	1	"in"	"Intellectual Property Asset Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	2	"in"	"Intellectual Property Asset Record"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	3	"in"	"Intellectual Property Asset Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	4	"in"	"Intellectual Property Asset Description"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	5	"in"	"Intellectual Property Asset Title"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	6	"in"	"Intellectual Property Asset Jurisdiction"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	7	"in"	"Intellectual Property Asset Creator"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	8	"in"	"Intellectual Property Asset Valuation"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	9	"in"	"Document Directory Entry Instance Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	10	"inout"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	11	"inout"	"Intellectual Property Asset Maintenance Schedule"	"BQ Maintenance Instance Record"	String
+""	12	"inout"	"Intellectual Property Asset Protection Reference"	"BQ Maintenance Instance Record"	Object
+""	13	"inout"	"Intellectual Property Asset Registration Reference"	"BQ Maintenance Instance Record"	Object
+""	14	"inout"	"Intellectual Property Asset Maintenance Task Record"	"BQ Maintenance Instance Record"	String
+""	15	"inout"	"Intellectual Property Asset Maintenance Task Type"	"BQ Maintenance Instance Record"	String
+""	16	"out"	"Intellectual Property Asset Maintenance Task Description"	"BQ Maintenance Instance Record"	String
+""	17	"out"	"Intellectual Property Asset Maintenance Task Work Products"	"BQ Maintenance Instance Record"	String
+""	18	"inout"	"Intellectual Property Asset Maintenance Transaction"	"BQ Maintenance Instance Record"	String
+""
+"Put"	"/intellectual-property-portfolio/{sd-identifier}/maintenance/{crbq-identifier}/update"
+""	1	"inout"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	2	"inout"	"Intellectual Property Asset Maintenance Schedule"	"BQ Maintenance Instance Record"	String
+""	3	"inout"	"Intellectual Property Asset Protection Reference"	"BQ Maintenance Instance Record"	Object
+""	4	"inout"	"Intellectual Property Asset Registration Reference"	"BQ Maintenance Instance Record"	Object
+""	5	"inout"	"Intellectual Property Asset Maintenance Task Record"	"BQ Maintenance Instance Record"	String
+""	6	"inout"	"Intellectual Property Asset Maintenance Task Type"	"BQ Maintenance Instance Record"	String
+""	7	"inout"	"Intellectual Property Asset Maintenance Task Description"	"BQ Maintenance Instance Record"	String
+""	8	"inout"	"Intellectual Property Asset Maintenance Task Work Products"	"BQ Maintenance Instance Record"	String
+""	9	"inout"	"Document Directory Entry Instance Reference"	"BQ Maintenance Instance Record"	Object
+""	10	"inout"	"Intellectual Property Asset Maintenance Transaction"	"BQ Maintenance Instance Record"	String
+""
+"Put"	"/intellectual-property-portfolio/{sd-identifier}/maintenance/{crbq-identifier}/exchange"
+""
+"Put"	"/intellectual-property-portfolio/{sd-identifier}/maintenance/{crbq-identifier}/requisition"
+""	1	"inout"	"Intellectual Property Asset Maintenance Schedule"	"BQ Maintenance Instance Record"	String
+""	2	"inout"	"Intellectual Property Asset Protection Reference"	"BQ Maintenance Instance Record"	Object
+""	3	"inout"	"Intellectual Property Asset Registration Reference"	"BQ Maintenance Instance Record"	Object
+""	4	"inout"	"Intellectual Property Asset Maintenance Task Record"	"BQ Maintenance Instance Record"	String
+""	5	"inout"	"Intellectual Property Asset Maintenance Task Type"	"BQ Maintenance Instance Record"	String
+""	6	"out"	"Intellectual Property Asset Maintenance Task Description"	"BQ Maintenance Instance Record"	String
+""	7	"out"	"Intellectual Property Asset Maintenance Task Work Products"	"BQ Maintenance Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Maintenance Instance Record"	Object
+""	9	"inout"	"Intellectual Property Asset Maintenance Transaction"	"BQ Maintenance Instance Record"	String
+""
+"Get"	"/intellectual-property-portfolio/{sd-identifier}/maintenance/{crbq-identifier}/retrieval"
+""	1	"out"	"Intellectual Property Asset Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	2	"out"	"Intellectual Property Asset Record"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	3	"out"	"Intellectual Property Asset Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	4	"out"	"Intellectual Property Asset Description"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	5	"out"	"Intellectual Property Asset Title"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	6	"out"	"Intellectual Property Asset Jurisdiction"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	7	"out"	"Intellectual Property Asset Creator"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	8	"out"	"Intellectual Property Asset Valuation"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	10	"out"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	11	"out"	"Intellectual Property Asset Maintenance Schedule"	"BQ Maintenance Instance Record"	String
+""	12	"out"	"Intellectual Property Asset Protection Reference"	"BQ Maintenance Instance Record"	Object
+""	13	"out"	"Intellectual Property Asset Registration Reference"	"BQ Maintenance Instance Record"	Object
+""	14	"out"	"Intellectual Property Asset Maintenance Task Record"	"BQ Maintenance Instance Record"	String
+""	15	"out"	"Intellectual Property Asset Maintenance Task Type"	"BQ Maintenance Instance Record"	String
+""	16	"out"	"Intellectual Property Asset Maintenance Task Description"	"BQ Maintenance Instance Record"	String
+""	17	"out"	"Intellectual Property Asset Maintenance Task Work Products"	"BQ Maintenance Instance Record"	String
+""	18	"out"	"Intellectual Property Asset Maintenance Transaction"	"BQ Maintenance Instance Record"	String
+""
+"Post"	"/intellectual-property-portfolio/{sd-identifier}/assignment/{crbq-identifier}/initiation"
+""	1	"in"	"Intellectual Property Asset Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	2	"in"	"Intellectual Property Asset Record"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	3	"in"	"Intellectual Property Asset Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	4	"in"	"Intellectual Property Asset Description"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	5	"in"	"Intellectual Property Asset Title"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	6	"in"	"Intellectual Property Asset Jurisdiction"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	7	"in"	"Intellectual Property Asset Creator"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	8	"in"	"Intellectual Property Asset Valuation"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	9	"in"	"Document Directory Entry Instance Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	10	"inout"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	11	"inout"	"Intellectual Property Asset Assignment Schedule"	"BQ Assignment Instance Record"	String
+""	12	"inout"	"Intellectual Property Asset Assignment Record"	"BQ Assignment Instance Record"	String
+""	13	"inout"	"Intellectual Property Asset Assignment Type"	"BQ Assignment Instance Record"	String
+""	14	"inout"	"Intellectual Property Asset Assignment Description"	"BQ Assignment Instance Record"	String
+""	15	"inout"	"Intellectual Property Asset Assignment Transaction"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/intellectual-property-portfolio/{sd-identifier}/assignment/{crbq-identifier}/update"
+""	1	"inout"	"Intellectual Property Asset Assignment Schedule"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Intellectual Property Asset Assignment Record"	"BQ Assignment Instance Record"	String
+""	3	"inout"	"Intellectual Property Asset Assignment Type"	"BQ Assignment Instance Record"	String
+""	4	"inout"	"Intellectual Property Asset Assignment Description"	"BQ Assignment Instance Record"	String
+""	5	"inout"	"Document Directory Entry Instance Reference"	"BQ Assignment Instance Record"	Object
+""	6	"inout"	"Intellectual Property Asset Assignment Transaction"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/intellectual-property-portfolio/{sd-identifier}/assignment/{crbq-identifier}/exchange"
+""
+"Put"	"/intellectual-property-portfolio/{sd-identifier}/assignment/{crbq-identifier}/requisition"
+""	1	"in"	"Intellectual Property Asset Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	2	"in"	"Intellectual Property Asset Record"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	3	"in"	"Intellectual Property Asset Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	4	"in"	"Intellectual Property Asset Description"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	5	"in"	"Intellectual Property Asset Title"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	6	"in"	"Intellectual Property Asset Jurisdiction"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	7	"in"	"Intellectual Property Asset Creator"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	8	"in"	"Intellectual Property Asset Valuation"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	9	"in"	"Document Directory Entry Instance Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	10	"inout"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	11	"inout"	"Intellectual Property Asset Assignment Schedule"	"BQ Assignment Instance Record"	String
+""	12	"inout"	"Intellectual Property Asset Assignment Record"	"BQ Assignment Instance Record"	String
+""	13	"inout"	"Intellectual Property Asset Assignment Type"	"BQ Assignment Instance Record"	String
+""	14	"inout"	"Intellectual Property Asset Assignment Description"	"BQ Assignment Instance Record"	String
+""	15	"inout"	"Intellectual Property Asset Assignment Transaction"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/intellectual-property-portfolio/{sd-identifier}/assignment/{crbq-identifier}/grant"
+""
+"Get"	"/intellectual-property-portfolio/{sd-identifier}/assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Intellectual Property Asset Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	2	"out"	"Intellectual Property Asset Record"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	3	"out"	"Intellectual Property Asset Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	4	"out"	"Intellectual Property Asset Description"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	5	"out"	"Intellectual Property Asset Title"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	6	"out"	"Intellectual Property Asset Jurisdiction"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	7	"out"	"Intellectual Property Asset Creator"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	8	"out"	"Intellectual Property Asset Valuation"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Intellectual Property Administrative Plan Instance Record"	Object
+""	10	"out"	"Date Type"	"CR Intellectual Property Administrative Plan Instance Record"	String
+""	11	"out"	"Intellectual Property Asset Assignment Schedule"	"BQ Assignment Instance Record"	String
+""	12	"out"	"Intellectual Property Asset Assignment Record"	"BQ Assignment Instance Record"	String
+""	13	"out"	"Intellectual Property Asset Assignment Type"	"BQ Assignment Instance Record"	String
+""	14	"out"	"Intellectual Property Asset Assignment Description"	"BQ Assignment Instance Record"	String
+""	15	"out"	"Intellectual Property Asset Assignment Transaction"	"BQ Assignment Instance Record"	String

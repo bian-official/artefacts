@@ -1,0 +1,108 @@
+"Service Operations for: "	Servicing Event History
+""
+"POST"	"/servicing-event-history/activation"
+"PUT"	"/servicing-event-history/{sd-reference-id}/configuration"
+"PUT"	"/servicing-event-history/{sd-reference-id}/feedback"
+""
+"Post"	"/servicing-event-history/{sd-identifier}/servicing-event-log/{crbq-identifier}/initiation"
+""	1	"in"	"Servicing Position Reference"	"CR Servicing Event Log Instance Record"	Object
+""	2	"in"	"Employee/Business Unit Reference"	"CR Servicing Event Log Instance Record"	Object
+""
+"Put"	"/servicing-event-history/{sd-identifier}/servicing-event-log/{crbq-identifier}/update"
+""	1	"inout"	"Servicing Position Reference"	"CR Servicing Event Log Instance Record"	Object
+""	2	"inout"	"Employee/Business Unit Reference"	"CR Servicing Event Log Instance Record"	Object
+""
+"Put"	"/servicing-event-history/{sd-identifier}/servicing-event-log/{crbq-identifier}/control"
+""
+"Get"	"/servicing-event-history/{sd-identifier}/servicing-event-log/{crbq-identifier}/retrieval"
+""	1	"out"	"Servicing Position Reference"	"CR Servicing Event Log Instance Record"	Object
+""	2	"out"	"Employee/Business Unit Reference"	"CR Servicing Event Log Instance Record"	Object
+""
+"Put"	"/servicing-event-history/{sd-identifier}/assignment/{crbq-identifier}/update"
+""	1	"inout"	"Date/Time/Location"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Servicing Position Activity Report"	"BQ Assignment Instance Record"	String
+""	3	"inout"	"Servicing Position Activity Statistics"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/servicing-event-history/{sd-identifier}/assignment/{crbq-identifier}/capture"
+""	1	"in"	"Date/Time/Location"	"BQ Assignment Instance Record"	String
+""	2	"in"	"Servicing Position Activity Report"	"BQ Assignment Instance Record"	String
+""	3	"in"	"Servicing Position Activity Statistics"	"BQ Assignment Instance Record"	String
+""
+"Get"	"/servicing-event-history/{sd-identifier}/assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Date/Time/Location"	"BQ Assignment Instance Record"	String
+""	2	"out"	"Servicing Position Activity Report"	"BQ Assignment Instance Record"	String
+""	3	"out"	"Servicing Position Activity Statistics"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/servicing-event-history/{sd-identifier}/session/{crbq-identifier}/update"
+""	1	"inout"	"Session Start/End Time"	"BQ Session Instance Record"	String
+""	2	"inout"	"Customer Contact Reference"	"BQ Session Instance Record"	Object
+""	3	"inout"	"Session Mechanism"	"BQ Session Instance Record"	String
+""	4	"inout"	"Servicing Facility Type"	"BQ Session Instance Record"	String
+""	5	"inout"	"Contact Dialogue Record"	"BQ Session Instance Record"	String
+""	6	"inout"	"Contact Dialogue Type"	"BQ Session Instance Record"	String
+""	7	"inout"	"Contact Dialogue Script"	"BQ Session Instance Record"	String
+""	8	"inout"	"Contact Dialogue Log Reference"	"BQ Session Instance Record"	Object
+""	9	"inout"	"Contact Dialogue Result"	"BQ Session Instance Record"	String
+""
+"Put"	"/servicing-event-history/{sd-identifier}/session/{crbq-identifier}/capture"
+""	1	"in"	"Session Start/End Time"	"BQ Session Instance Record"	String
+""	2	"in"	"Customer Contact Reference"	"BQ Session Instance Record"	Object
+""	3	"in"	"Session Mechanism"	"BQ Session Instance Record"	String
+""	4	"in"	"Servicing Facility Type"	"BQ Session Instance Record"	String
+""	5	"in"	"Contact Dialogue Record"	"BQ Session Instance Record"	String
+""	6	"in"	"Contact Dialogue Type"	"BQ Session Instance Record"	String
+""	7	"in"	"Contact Dialogue Script"	"BQ Session Instance Record"	String
+""	8	"in"	"Contact Dialogue Log Reference"	"BQ Session Instance Record"	Object
+""	9	"in"	"Contact Dialogue Result"	"BQ Session Instance Record"	String
+""
+"Get"	"/servicing-event-history/{sd-identifier}/session/{crbq-identifier}/retrieval"
+""	1	"out"	"Session Start/End Time"	"BQ Session Instance Record"	String
+""	2	"out"	"Customer Contact Reference"	"BQ Session Instance Record"	Object
+""	3	"out"	"Session Mechanism"	"BQ Session Instance Record"	String
+""	4	"out"	"Servicing Facility Type"	"BQ Session Instance Record"	String
+""	5	"out"	"Contact Dialogue Record"	"BQ Session Instance Record"	String
+""	6	"out"	"Contact Dialogue Type"	"BQ Session Instance Record"	String
+""	7	"out"	"Contact Dialogue Script"	"BQ Session Instance Record"	String
+""	8	"out"	"Contact Dialogue Log Reference"	"BQ Session Instance Record"	Object
+""	9	"out"	"Contact Dialogue Result"	"BQ Session Instance Record"	String
+""
+"Put"	"/servicing-event-history/{sd-identifier}/issue/{crbq-identifier}/update"
+""	1	"inout"	"Servicing Position Reference"	"BQ Issue Instance Record"	Object
+""	2	"inout"	"Servicing Position Session Reference"	"BQ Issue Instance Record"	Object
+""	3	"inout"	"Employee/Business Unit Reference"	"BQ Issue Instance Record"	Object
+""	4	"inout"	"Production Issue Type"	"BQ Issue Instance Record"	String
+""	5	"inout"	"Production Issue Description"	"BQ Issue Instance Record"	String
+""	6	"inout"	"Production Issue Diagnosis"	"BQ Issue Instance Record"	String
+""	7	"inout"	"Production Issue Resolution Task"	"BQ Issue Instance Record"	String
+""
+"Put"	"/servicing-event-history/{sd-identifier}/issue/{crbq-identifier}/capture"
+""	1	"in"	"Customer Contact Reference"	"BQ Session Instance Record"	Object
+""	2	"in"	"Servicing Position Reference"	"BQ Issue Instance Record"	Object
+""	3	"in"	"Servicing Position Session Reference"	"BQ Issue Instance Record"	Object
+""	4	"in"	"Employee/Business Unit Reference"	"BQ Issue Instance Record"	Object
+""	5	"in"	"Production Issue Type"	"BQ Issue Instance Record"	String
+""	6	"in"	"Production Issue Description"	"BQ Issue Instance Record"	String
+""	7	"in"	"Production Issue Diagnosis"	"BQ Issue Instance Record"	String
+""	8	"in"	"Production Issue Resolution Task"	"BQ Issue Instance Record"	String
+""
+"Get"	"/servicing-event-history/{sd-identifier}/issue/{crbq-identifier}/retrieval"
+""	1	"out"	"Servicing Position Reference"	"BQ Issue Instance Record"	Object
+""	2	"out"	"Servicing Position Session Reference"	"BQ Issue Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"BQ Issue Instance Record"	Object
+""	4	"out"	"Production Issue Type"	"BQ Issue Instance Record"	String
+""	5	"out"	"Production Issue Description"	"BQ Issue Instance Record"	String
+""	6	"out"	"Production Issue Diagnosis"	"BQ Issue Instance Record"	String
+""	7	"out"	"Production Issue Resolution Task"	"BQ Issue Instance Record"	String
+""
+"Put"	"/servicing-event-history/{sd-identifier}/servicing-facility/{crbq-identifier}/update"
+""	1	"inout"	"Servicing Facility Type"	"BQ Servicing Facility Instance Record"	String
+""	2	"inout"	"Servicing Facility Instance Reference"	"BQ Servicing Facility Instance Record"	Object
+""
+"Put"	"/servicing-event-history/{sd-identifier}/servicing-facility/{crbq-identifier}/capture"
+""	1	"in"	"Customer Contact Reference"	"BQ Session Instance Record"	Object
+""	2	"in"	"Servicing Facility Type"	"BQ Servicing Facility Instance Record"	String
+""	3	"in"	"Servicing Facility Instance Reference"	"BQ Servicing Facility Instance Record"	Object
+""
+"Get"	"/servicing-event-history/{sd-identifier}/servicing-facility/{crbq-identifier}/retrieval"
+""	1	"out"	"Servicing Facility Type"	"BQ Servicing Facility Instance Record"	String
+""	2	"out"	"Servicing Facility Instance Reference"	"BQ Servicing Facility Instance Record"	Object

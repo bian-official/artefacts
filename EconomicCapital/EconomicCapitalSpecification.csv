@@ -1,0 +1,13 @@
+"Service Domain specification for Economic Capital"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Market Risk
+"Service Domain"	Economic Capital
+"Role Definition"	"Develop, maintain and apply models that combine the overall risk over different risk types to determine the consolidated risk position for the bank"
+"Example of use"	"Financial engineers define and apply models that consolidate the overall risk exposure for the bank to determine a complete estimate of exposure"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	EconomicCapital
+"Generic Artifact"	Analysis
+"Control Record"	EconomicCapitalAnalysis
+"Registration Status"	Registered

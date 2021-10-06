@@ -1,0 +1,13 @@
+"Service Domain specification for Credit Card Position Keeping"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Credit Card Position Keeping
+"Role Definition"	"The Credit Card Position Keeping Service Domain holds the the positions of all credit cards-related accounts. This includes credit card accounts as well as card-specific clearing and settlement accounts. During card billing the booking of fees will be on Credit Cards Position Keeping, but the booking of the billing transactions (charging the customer) will be on Position Keeping. There will be a holding account in between to ensure synchronisation."
+"Example of use"	"During the clearing cycle of credit card transactions, the issuing bank does a number of final checks and if these are passed, the transaction is excuted. The card clearing process will invoke a Service Connection "Execute Card Transaction" on Credit Card Transaction Execution, which will in turn invoke Service Connections on Credit Card Position Keeping to actually book the transaction in the cards world. Credit Card Transaction Execution will ensure that all operations of a credit card transaction are executed or none of them (1 transaction in terms of commitment control). Typically, the Service Connections on Credit Card Position Keeping could include:. - Record Debit Booking for Credit Card Account. - Record Credit Booking for Merchant Account. - Record Credit Booking for Card Network Fees. and also:. - Put Block on Credit Card Account"
+"Executive Summary"	"Maintain a log of credit card bookings and authorisations for operational and management information, tracking and reconciliation purposes."
+"Key Features"	"- Set Up New Credit Card Account. - Record Booking for Credit Card Account. - Update Booking for Credit Card Account (e.g. set from pending for authorisation to executed). - Provide Information on Recorded Bookings"
+"Functional Pattern"	Track
+"Asset Type"	CreditCardPosition
+"Generic Artifact"	Log
+"Control Record"	CreditCardPositionLog
+"Registration Status"	Provisional

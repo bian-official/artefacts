@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Campaign Design"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Customer Campaign Design
+"Role Definition"	"This Service Domain designs and refines customer campaigns (or integrates designs from external campaign specialists). Customer campaigns target the existing customer base and can be proactive (involving customer targeting, contact and solicitation) or self-service and include activities such as cross-sell, up-sell and retention. Version numbering is used to track the impact of changes made to campaigns over their usage."
+"Example of use"	"A retention campaign is updated to provide amended/improved pricing terms that can be offered to targeted customers to help retain their business after a poor response rate has been detected for the campaign"
+"Executive Summary"	"Design and refine customer campaign specifications based on their impact"
+"Key Features"	"Define the target profile/impact of a campaign. Specify a customer campaign. Track the impact of a campaign. Refine/reconfigure a campaign"
+"Functional Pattern"	Design
+"Asset Type"	CustomerCampaign
+"Generic Artifact"	Specification
+"Control Record"	CustomerCampaignSpecification
+"Registration Status"	Registered

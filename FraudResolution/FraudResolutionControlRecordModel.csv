@@ -1,0 +1,35 @@
+"Control Record Model for: "	Fraud Resolution
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Fraud Resolution Procedure Instance Record	""	""	""
+"CR"	CR Fraud Resolution Procedure Instance Record	Fraud Case Type	"Type of case (e.g.  disputed charge, merchant fraud, stolen/fake device)"	String
+"CR"	CR Fraud Resolution Procedure Instance Record	Product Instance Reference	"Reference to the product/service associated with case"	Object
+"CR"	CR Fraud Resolution Procedure Instance Record	Customer Reference	"Reference to the customer associated with case if applicable"	Object
+"CR"	CR Fraud Resolution Procedure Instance Record	Merchant Reference	"Reference to the merchant associated with case if applicable"	Object
+"CR"	CR Fraud Resolution Procedure Instance Record	Intersted Party Reference	"Reference to any other interested parties (such as intermediaries)"	Object
+"CR"	CR Fraud Resolution Procedure Instance Record	Contact Reference	"Customer contact reference if the case was raised during a customer contact"	Object
+"CR"	CR Fraud Resolution Procedure Instance Record	Transaction Reference	"Reference to one or more product transactions associated with the case"	Object
+"CR"	CR Fraud Resolution Procedure Instance Record	Transaction Record	"Record contains all details of the transaction (not itemized)"	String
+"CR"	CR Fraud Resolution Procedure Instance Record	Case Location	"Record of a physical address or electronic venue the fraud was detected"	String
+"CR"	CR Fraud Resolution Procedure Instance Record	Date	"Specific dates and ties of significance to the case"	String
+"CR"	CR Fraud Resolution Procedure Instance Record	Employee/Business Unit Reference	"Business unit and or employee reference where the case was raised"	Object
+"CR"	CR Fraud Resolution Procedure Instance Record	Fraud Case Work Products	"File of consolidated notes, forms and documents for the case"	String
+"CR"	CR Fraud Resolution Procedure Instance Record	Fraud Case Resolution Schedule	"Target and actual dates for case processing/resolution"	String
+"CR"	CR Fraud Resolution Procedure Instance Record	Fraud Case Status	"The processing status for the case"	String
+"BQ"	BQ Case Resolution Instance Record	""	""	""
+"BQ"	BQ Case Resolution Instance Record	Fraud Case Resolution Record	"Record sets out, defines and assigns resolution tasks"	String
+"BQ"	BQ Case Resolution Instance Record	Employee/Business Unit Reference	"Employee and or business unit responsible for the resolution"	Object
+"BQ"	BQ Case Resolution Instance Record	Correspondence Reference	"Reference to all correspondence (e.g. confirmation messages sent to involved parties, includes internal and external legal/law enforcement authorities)"	Object
+"BQ"	BQ Case Resolution Instance Record	Adjustment/Chargeback Reference	"Reference to any associated adjustment or chargeback transaction initiated by the resolution"	Object
+"BQ"	BQ Case Resolution Instance Record	Consortia Reporting Instance Reference	"Reference to the consortia notification transaction for fraud resultion activity"	Object
+"BQ"	BQ Case Resolution Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents"	Object
+"BQ"	BQ Case Resolution Instance Record	Payment Order Reference	"Reference to any financial adjustments that are made during the case"	Object
+"BQ"	BQ Case Analysis Instance Record	""	""	""
+"BQ"	BQ Case Analysis Instance Record	Fraud Case Root Cause	"The result of the case analysis"	String
+"BQ"	BQ Case Determination Instance Record	""	""	""
+"BQ"	BQ Case Determination Instance Record	Customer Agreement Reference	"Reference to the involved customer's agreement"	Object
+"BQ"	BQ Case Determination Instance Record	Customer Agreement	"Customer agreement accessed to determine constraints on resolution approach"	String
+"BQ"	BQ Case Determination Instance Record	Merchant Agreement Reference	"Reference to the involved merchant's agreement"	Object
+"BQ"	BQ Case Determination Instance Record	Merchant Agreement	"Merchant agreement accessed to determine constraints on resolution approach"	String
+"BQ"	BQ Case Determination Instance Record	Interested Party Agreement Reference	"Reference to the interested party's agreement"	Object
+"BQ"	BQ Case Determination Instance Record	Interested Party Agreement	"Interested party agreement accessed to determine constraints on resolution approach"	String
+"BQ"	BQ Case Determination Instance Record	Fraud Case Determination Record	"Record of rules and guidelines applied to determine fraud case resolution"	String

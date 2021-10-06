@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Lease"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Corporate Lease
+"Role Definition"	"The Service Domain provides the financing support to support corporate customers with leasing arrangements for property and equipment. The bank will take a collateral interest in the leased items to underwrite the associated loan(s)"
+"Example of use"	"Example of use:. A corporate customer establishes a corporate leasing facility with the bank to acquire critical production equipment and facilities under lease"
+"Executive Summary"	"The Corporate Lease product provides corporate customers with loans to support leasing activity for property and equipment under an umbrella leasing arrangement"
+"Key Features"	"Establish corporate leasing facility. Process leases under the facility. Report, analyze and structure leasing arrangements to optimize the customers financial position"
+"Functional Pattern"	Fulfill
+"Asset Type"	CorporateLease
+"Generic Artifact"	Facility (rename)
+"Control Record"	CorporateLeaseArrangement
+"Registration Status"	Registered

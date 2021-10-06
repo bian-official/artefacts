@@ -1,0 +1,35 @@
+"Service Operations for: "	Guideline Compliance
+""
+"POST"	"/guideline-compliance/activation"
+"PUT"	"/guideline-compliance/{sd-reference-id}/configuration"
+"PUT"	"/guideline-compliance/{sd-reference-id}/feedback"
+""
+"Post"	"/guideline-compliance/{sd-identifier}/guideline-compliance-assessment/{crbq-identifier}/evaluation"
+""	1	"in"	"Guideline Compliance Assessment Type"	"CR Guideline Compliance Assessment Instance Record"	String
+""	2	"in"	"Business Unit Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	3	"in"	"Product/Service Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	4	"in"	"Customer Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	5	"inout"	"Document Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	6	"inout"	"Guideline Compliance Assessment Work Products"	"CR Guideline Compliance Assessment Instance Record"	String
+""	7	"out"	"Guideline Compliance Assessment Result"	"CR Guideline Compliance Assessment Instance Record"	String
+""
+"Put"	"/guideline-compliance/{sd-identifier}/guideline-compliance-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Guideline Compliance Assessment Type"	"CR Guideline Compliance Assessment Instance Record"	String
+""	2	"inout"	"Business Unit Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	3	"inout"	"Product/Service Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	4	"inout"	"Customer Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	5	"inout"	"Document Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	6	"inout"	"Guideline Compliance Assessment Work Products"	"CR Guideline Compliance Assessment Instance Record"	String
+""
+"Put"	"/guideline-compliance/{sd-identifier}/guideline-compliance-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/guideline-compliance/{sd-identifier}/guideline-compliance-assessment/{crbq-identifier}/requisition"
+""
+"Get"	"/guideline-compliance/{sd-identifier}/guideline-compliance-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Guideline Compliance Assessment Type"	"CR Guideline Compliance Assessment Instance Record"	String
+""	2	"out"	"Business Unit Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	3	"out"	"Product/Service Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	4	"out"	"Customer Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	5	"out"	"Document Reference"	"CR Guideline Compliance Assessment Instance Record"	Object
+""	6	"out"	"Guideline Compliance Assessment Work Products"	"CR Guideline Compliance Assessment Instance Record"	String
+""	7	"out"	"Guideline Compliance Assessment Result"	"CR Guideline Compliance Assessment Instance Record"	String

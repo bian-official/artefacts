@@ -1,0 +1,13 @@
+"Service Domain specification for Fraud Evaluation"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Fraud Evaluation
+"Role Definition"	"This service domain handles the structured execution of fraud detection tests/routines that are used to identify possible fraud by detecting out of pattern behaviors. The tests may run in-line with production or may access transaction logs as appropriate. Detected anomalies are passed for further analysis and resolution."
+"Example of use"	"Example of use:. Card transactions are subjected to an array of fraud pattern test to detect 'out of pattern' behavior - anomalies are highlighted for analysis"
+"Executive Summary"	"The service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity"
+"Key Features"	"Transaction data consolidation. Fraud detection test execution. Fraud analysis/diagnosis and reporting"
+"Functional Pattern"	Assess
+"Asset Type"	FraudEvaluation
+"Generic Artifact"	Assessment
+"Control Record"	FraudEvaluationAssessment
+"Registration Status"	Registered

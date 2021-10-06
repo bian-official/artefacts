@@ -1,0 +1,57 @@
+"Control Record Model for: "	Product Inventory Distribution
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Product Inventory Distribution AdministrativePlan Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Product Inventory Distribution. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"CR"	CR Product Inventory Distribution AdministrativePlan Instance Record	Product Inventory Distribution AdministrativePlan Budget Type	"A Classification value that distinguishes between Budgets within Product Inventory Distribution AdministrativePlan according to the type of resource and/or activity that is budgetted"	String
+"CR"	CR Product Inventory Distribution AdministrativePlan Instance Record	Product Inventory Distribution AdministrativePlan Budget	"An estimate of costs, revenues, and resources  over a specified period which is defined for Product Inventory Distribution AdministrativePlan"	String
+"CR"	CR Product Inventory Distribution AdministrativePlan Instance Record	Product Inventory Distribution AdministrativePlan Assignment	"The allocation of someone or something which is specified for Product Inventory Distribution AdministrativePlan"	String
+"CR"	CR Product Inventory Distribution AdministrativePlan Instance Record	Product Inventory Distribution AdministrativePlan Plan	"A plan that defines clerical support for ProductInventoryDistribution"	String
+"CR"	CR Product Inventory Distribution AdministrativePlan Instance Record	Product Inventory Distribution AdministrativePlan Reference	"Party who is involved in  Product Inventory Distribution AdministrativePlan"	Object
+"BQ"	BQ Provisioning Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Product Inventory Distribution. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Provisioning Instance Record	Provisioning Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Provisioning Instance Record	Provisioning Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Provisioning Instance Record	Provisioning Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Provisioning Instance Record	Business Service	"The Product Inventory Distribution AdministrativePlan specific Business Service"	Business Service
+"BQ"	BQ Provisioning Instance Record	Provisioning Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Provisioning Instance Record	Provisioning Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Provisioning Instance Record	Provisioning Service Description	"Description of the performed business service"	String
+"BQ"	BQ Provisioning Instance Record	Provisioning Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Provisioning Instance Record	Provisioning Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Provisioning Instance Record	Provisioning Service Name	""	String
+"BQ"	BQ Distribution Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Product Inventory Distribution. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Distribution Instance Record	Distribution Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Distribution Instance Record	Distribution Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Distribution Instance Record	Distribution Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Distribution Instance Record	Business Service	"The Product Inventory Distribution AdministrativePlan specific Business Service"	Business Service
+"BQ"	BQ Distribution Instance Record	Distribution Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Distribution Instance Record	Distribution Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Distribution Instance Record	Distribution Service Description	"Description of the performed business service"	String
+"BQ"	BQ Distribution Instance Record	Distribution Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Distribution Instance Record	Distribution Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Distribution Instance Record	Distribution Service Name	""	String
+"BQ"	BQ Mailing Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Product Inventory Distribution. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Mailing Instance Record	Mailing Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Mailing Instance Record	Mailing Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Mailing Instance Record	Mailing Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Mailing Instance Record	Mailing	"The Product Inventory Distribution AdministrativePlan specific Business Service"	Business Service
+"BQ"	BQ Mailing Instance Record	Mailing Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Mailing Instance Record	Mailing Mailing Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Mailing Instance Record	Mailing Mailing Service Description	"Description of the performed business service"	String
+"BQ"	BQ Mailing Instance Record	Mailing Mailing Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Mailing Instance Record	Mailing Mailing Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Mailing Instance Record	Mailing Mailing Service Name	""	String
+"BQ"	BQ Product Inventory Distribution Outcome Instance Record	""	""	""
+"BQ"	BQ Product Inventory Distribution Outcome Instance Record	Product Inventory Distribution Performance Analysis	""	String
+"BQ"	BQ Product Inventory Distribution Outcome Instance Record	Product Inventory Distribution Activity Analysis	""	String
+"BQ"	BQ Product Inventory Distribution Outcome Instance Record	Product Inventory Distribution Administrative Plan	""	String
+"BQ"	BQ Product Inventory Distribution Outcome Instance Record	Product Inventory Distribution Administration Task	""	String
+"BQ"	BQ Oversight Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Product Inventory Distribution. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Oversight Instance Record	Oversight Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Oversight Instance Record	Oversight Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Oversight Instance Record	Oversight Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Oversight Instance Record	Administrative Oversight	"The Product Inventory Distribution AdministrativePlan specific Business Service"	Business Service
+"BQ"	BQ Oversight Instance Record	Oversight Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Oversight Instance Record	Oversight Administrative Oversight Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Oversight Instance Record	Oversight Administrative Oversight Service Description	"Description of the performed business service"	String
+"BQ"	BQ Oversight Instance Record	Oversight Administrative Oversight Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Oversight Instance Record	Oversight Administrative Oversight Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Oversight Instance Record	Oversight Administrative Oversight Service Name	""	String

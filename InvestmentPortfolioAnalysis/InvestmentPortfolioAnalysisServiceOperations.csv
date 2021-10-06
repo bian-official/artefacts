@@ -1,0 +1,101 @@
+"Service Operations for: "	Investment Portfolio Analysis
+""
+"POST"	"/investment-portfolio-analysis/activation"
+"PUT"	"/investment-portfolio-analysis/{sd-reference-id}/configuration"
+"PUT"	"/investment-portfolio-analysis/{sd-reference-id}/feedback"
+""
+"Post"	"/investment-portfolio-analysis/{sd-identifier}/managed-investment-portfolio-analysis/{crbq-identifier}/evaluation"
+""	1	"in"	"Product Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	4	"inout"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	5	"inout"	"Investment Portfolio Analysis Schedule"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	6	"in"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	7	"inout"	"Investment Portfolio Analysis Report"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	8	"in"	"Investment Portfolio Analysis Type"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	9	"out"	"Investment Portfolio Analysis Result"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	10	"inout"	"Investment Portfolio Analysis Reporting Date"	"CR Managed Investment Portfolio Analysis Instance Record"	Date
+""	11	"inout"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""
+"Put"	"/investment-portfolio-analysis/{sd-identifier}/managed-investment-portfolio-analysis/{crbq-identifier}/exchange"
+""
+"Put"	"/investment-portfolio-analysis/{sd-identifier}/managed-investment-portfolio-analysis/{crbq-identifier}/execution"
+""	1	"in"	"Product Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	4	"inout"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	5	"inout"	"Investment Portfolio Analysis Schedule"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	6	"in"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	7	"inout"	"Investment Portfolio Analysis Report"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	8	"in"	"Investment Portfolio Analysis Type"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	9	"out"	"Investment Portfolio Analysis Result"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	10	"inout"	"Investment Portfolio Analysis Reporting Date"	"CR Managed Investment Portfolio Analysis Instance Record"	Date
+""	11	"inout"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""
+"Put"	"/investment-portfolio-analysis/{sd-identifier}/managed-investment-portfolio-analysis/{crbq-identifier}/requisition"
+""	1	"in"	"Product Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	4	"inout"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	5	"inout"	"Investment Portfolio Analysis Schedule"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	6	"in"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	7	"inout"	"Investment Portfolio Analysis Report"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	8	"in"	"Investment Portfolio Analysis Type"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	9	"out"	"Investment Portfolio Analysis Result"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	10	"inout"	"Investment Portfolio Analysis Reporting Date"	"CR Managed Investment Portfolio Analysis Instance Record"	Date
+""	11	"inout"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""
+"Get"	"/investment-portfolio-analysis/{sd-identifier}/managed-investment-portfolio-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	4	"out"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	5	"out"	"Investment Portfolio Analysis Schedule"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	6	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	7	"out"	"Investment Portfolio Analysis Report"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	8	"out"	"Investment Portfolio Analysis Type"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	9	"out"	"Investment Portfolio Analysis Result"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	10	"out"	"Investment Portfolio Analysis Reporting Date"	"CR Managed Investment Portfolio Analysis Instance Record"	Date
+""	11	"out"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""
+"Put"	"/investment-portfolio-analysis/{sd-identifier}/performance-analysis/{crbq-identifier}/exchange"
+""
+"Put"	"/investment-portfolio-analysis/{sd-identifier}/performance-analysis/{crbq-identifier}/execution"
+""	1	"in"	"Investment Portfolio Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"inout"	"Investment Portfolio Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"in"	"Investment Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"inout"	"Investment Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"inout"	"Investment Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"inout"	"Investment Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"out"	"Investment Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"out"	"Investment Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Put"	"/investment-portfolio-analysis/{sd-identifier}/performance-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Investment Portfolio Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	2	"in"	"Investment Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	3	"inout"	"Investment Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	4	"inout"	"Investment Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	5	"inout"	"Investment Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"out"	"Investment Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	7	"out"	"Investment Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Get"	"/investment-portfolio-analysis/{sd-identifier}/performance-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	4	"out"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	5	"out"	"Investment Portfolio Analysis Schedule"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	6	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	7	"out"	"Investment Portfolio Analysis Report"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	8	"out"	"Investment Portfolio Analysis Type"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	9	"out"	"Investment Portfolio Analysis Result"	"CR Managed Investment Portfolio Analysis Instance Record"	String
+""	10	"out"	"Investment Portfolio Analysis Reporting Date"	"CR Managed Investment Portfolio Analysis Instance Record"	Date
+""	11	"out"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Analysis Instance Record"	Object
+""	12	"out"	"Investment Portfolio Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	13	"out"	"Investment Portfolio Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	14	"out"	"Investment Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	15	"out"	"Investment Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	16	"out"	"Investment Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	17	"out"	"Investment Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	18	"out"	"Investment Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	19	"out"	"Investment Performance Request Result"	"BQ Performance Analysis Instance Record"	String

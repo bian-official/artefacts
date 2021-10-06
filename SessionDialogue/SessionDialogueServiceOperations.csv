@@ -1,0 +1,363 @@
+"Service Operations for: "	Session Dialogue
+""
+"POST"	"/session-dialogue/activation"
+"PUT"	"/session-dialogue/{sd-reference-id}/configuration"
+"PUT"	"/session-dialogue/{sd-reference-id}/feedback"
+""
+"Post"	"/session-dialogue/{sd-identifier}/customer-contact-session-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/customer-contact-session-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"inout"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"inout"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"inout"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"inout"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/customer-contact-session-procedure/{crbq-identifier}/control"
+""
+"Put"	"/session-dialogue/{sd-identifier}/customer-contact-session-procedure/{crbq-identifier}/exchange"
+""
+"Put"	"/session-dialogue/{sd-identifier}/customer-contact-session-procedure/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/customer-contact-session-procedure/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/customer-contact-session-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""
+"Post"	"/session-dialogue/{sd-identifier}/query/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"in"	"Query Type"	"BQ Query Instance Record"	String
+""	12	"out"	"Query Task Result"	"BQ Query Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/query/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"Query Type"	"BQ Query Instance Record"	String
+""	5	"inout"	"Query Task Result"	"BQ Query Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/query/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"out"	"Query Type"	"BQ Query Instance Record"	String
+""	12	"out"	"Query Task Result"	"BQ Query Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/authentication/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"Required Authentication Level"	"BQ Authentication Instance Record"	String
+""	5	"inout"	"Authentication Task Result"	"BQ Authentication Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/authentication/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"out"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Required Authentication Level"	"BQ Authentication Instance Record"	String
+""	6	"out"	"Authentication Task Result"	"BQ Authentication Instance Record"	String
+""
+"Post"	"/session-dialogue/{sd-identifier}/sales/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"in"	"Product/Service Type"	"BQ Sales Instance Record"	String
+""	12	"in"	"Product/Service Properties"	"BQ Sales Instance Record"	String
+""	13	"out"	"Sales Task Result"	"BQ Sales Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/sales/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"Product/Service Type"	"BQ Sales Instance Record"	String
+""	5	"inout"	"Product/Service Properties"	"BQ Sales Instance Record"	String
+""	6	"inout"	"Sales Task Result"	"BQ Sales Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/sales/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"out"	"Product/Service Type"	"BQ Sales Instance Record"	String
+""	12	"out"	"Product/Service Properties"	"BQ Sales Instance Record"	String
+""	13	"out"	"Sales Task Result"	"BQ Sales Instance Record"	String
+""
+"Post"	"/session-dialogue/{sd-identifier}/offer/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"in"	"Product/Service Type"	"BQ Offer Instance Record"	String
+""	12	"out"	"Offer Task Result"	"BQ Offer Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/offer/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"Product/Service Type"	"BQ Offer Instance Record"	String
+""	5	"inout"	"Offer Task Result"	"BQ Offer Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/offer/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"out"	"Product/Service Type"	"BQ Offer Instance Record"	String
+""	12	"out"	"Offer Task Result"	"BQ Offer Instance Record"	String
+""
+"Post"	"/session-dialogue/{sd-identifier}/productorservice/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"in"	"Product Instance Reference"	"BQ ProductorService Instance Record"	Object
+""	12	"out"	"Product/Service Task Result"	"BQ ProductorService Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/productorservice/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"Product Instance Reference"	"BQ ProductorService Instance Record"	Object
+""	5	"inout"	"Product/Service Task Result"	"BQ ProductorService Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/productorservice/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"out"	"Product Instance Reference"	"BQ ProductorService Instance Record"	Object
+""	12	"out"	"Product/Service Task Result"	"BQ ProductorService Instance Record"	String
+""
+"Post"	"/session-dialogue/{sd-identifier}/case/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"in"	"Product Instance Reference"	"BQ Case Instance Record"	Object
+""	12	"in"	"Customer Case Type"	"BQ Case Instance Record"	String
+""	13	"out"	"Case Task Result"	"BQ Case Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/case/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"Product Instance Reference"	"BQ Case Instance Record"	Object
+""	5	"inout"	"Customer Case Type"	"BQ Case Instance Record"	String
+""	6	"inout"	"Case Task Result"	"BQ Case Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/case/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"out"	"Product Instance Reference"	"BQ Case Instance Record"	Object
+""	12	"out"	"Customer Case Type"	"BQ Case Instance Record"	String
+""	13	"out"	"Case Task Result"	"BQ Case Instance Record"	String
+""
+"Post"	"/session-dialogue/{sd-identifier}/order/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"in"	"Order Type"	"BQ Order Instance Record"	String
+""	12	"inout"	"Order Task Record"	"BQ Order Instance Record"	String
+""	13	"out"	"Order Task Work Products"	"BQ Order Instance Record"	String
+""	14	"out"	"Order Task Work Result"	"BQ Order Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/order/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"Order Type"	"BQ Order Instance Record"	String
+""	5	"inout"	"Order Task Record"	"BQ Order Instance Record"	String
+""	6	"inout"	"Order Task Work Products"	"BQ Order Instance Record"	String
+""	7	"inout"	"Order Task Work Result"	"BQ Order Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/order/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"out"	"Order Type"	"BQ Order Instance Record"	String
+""	12	"out"	"Order Task Record"	"BQ Order Instance Record"	String
+""	13	"out"	"Order Task Work Products"	"BQ Order Instance Record"	String
+""	14	"out"	"Order Task Work Result"	"BQ Order Instance Record"	String
+""
+"Post"	"/session-dialogue/{sd-identifier}/intelligence/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"in"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"in"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"inout"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"inout"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"inout"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"in"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"inout"	"BQ Intelligence Record"	"BQ Intelligence Instance Record"	String
+""	12	"inout"	"Customer Insight Type"	"BQ Intelligence Instance Record"	String
+""	13	"out"	"Insight Task Result"	"BQ Intelligence Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/intelligence/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"BQ Intelligence Record"	"BQ Intelligence Instance Record"	String
+""	5	"inout"	"Customer Insight Type"	"BQ Intelligence Instance Record"	String
+""	6	"inout"	"Insight Task Result"	"BQ Intelligence Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/intelligence/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"out"	"BQ Intelligence Record"	"BQ Intelligence Instance Record"	String
+""	12	"out"	"Customer Insight Type"	"BQ Intelligence Instance Record"	String
+""	13	"out"	"Insight Task Result"	"BQ Intelligence Instance Record"	String
+""
+"Put"	"/session-dialogue/{sd-identifier}/history/{crbq-identifier}/update"
+""	1	"inout"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	2	"inout"	"Contact Dialogue Log"	"CR Customer Contact Session Procedure Instance Record"	String
+""	3	"inout"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	4	"inout"	"History Task Result"	"BQ History Instance Record"	String
+""
+"Get"	"/session-dialogue/{sd-identifier}/history/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	3	"out"	"Servicing Position Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	4	"out"	"Session Mechanism"	"CR Customer Contact Session Procedure Instance Record"	String
+""	5	"out"	"Session Start/End Time"	"CR Customer Contact Session Procedure Instance Record"	String
+""	6	"out"	"Contact Dialogue Record"	"CR Customer Contact Session Procedure Instance Record"	String
+""	7	"out"	"Contact Dialogue Type"	"CR Customer Contact Session Procedure Instance Record"	String
+""	8	"out"	"Contact Dialogue Script"	"CR Customer Contact Session Procedure Instance Record"	String
+""	9	"out"	"Contact Dialogue Log Reference"	"CR Customer Contact Session Procedure Instance Record"	Object
+""	10	"out"	"Contact Dialogue Result"	"CR Customer Contact Session Procedure Instance Record"	String
+""	11	"out"	"History Task Result"	"BQ History Instance Record"	String

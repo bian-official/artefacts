@@ -1,0 +1,13 @@
+"Service Domain specification for Leasing"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Leasing
+"Role Definition"	"The Service Domain fulfills a general leasing arrangement for a single leased product or facility. The bank will take a collateral interest in the leased item to underwrite the associated loan/lease arrangement"
+"Example of use"	"Example of use:. A customer requests a leasing arrangement to support the acquisition of equipment"
+"Executive Summary"	"The leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary"
+"Key Features"	"Evaluate proposed leasing arrangement. Review collateral value and title of leased item. Price/structure the leasing arrangement. Negotiate and agree leasing arrangement . Initiate and maintain the leasing arrangement through term"
+"Functional Pattern"	Fulfill
+"Asset Type"	Leasing
+"Generic Artifact"	Facility (rename)
+"Control Record"	LeasingArrangement
+"Registration Status"	Registered

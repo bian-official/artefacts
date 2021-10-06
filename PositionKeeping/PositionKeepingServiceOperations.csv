@@ -1,0 +1,83 @@
+"Service Operations for: "	Position Keeping
+""
+"POST"	"/position-keeping/activation"
+"PUT"	"/position-keeping/{sd-reference-id}/configuration"
+"PUT"	"/position-keeping/{sd-reference-id}/feedback"
+""
+"Post"	"/position-keeping/{sd-identifier}/financial-position-log/{crbq-identifier}/initiation"
+""	1	"in"	"Transaction Log Type"	"CR Financial Position Log Instance Record"	String
+""	2	"in"	"Product Instance Reference"	"CR Financial Position Log Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR Financial Position Log Instance Record"	Object
+""	4	"in"	"Counterparty Reference"	"CR Financial Position Log Instance Record"	Object
+""	5	"in"	"Base Currency"	"CR Financial Position Log Instance Record"	CurrencyCode
+""	6	"inout"	"Interest Application Record"	"CR Financial Position Log Instance Record"	String
+""	7	"out"	"Interest Transaction"	"CR Financial Position Log Instance Record"	String
+""	8	"out"	"Transaction Description"	"CR Financial Position Log Instance Record"	String
+""	9	"out"	"Transaction Rate Type"	"CR Financial Position Log Instance Record"	String
+""	10	"out"	"Transaction Interest Charge"	"CR Financial Position Log Instance Record"	String
+""	11	"inout"	"Managed Position Limits"	"CR Financial Position Log Instance Record"	String
+""	12	"in"	"Position Limit Type"	"CR Financial Position Log Instance Record"	String
+""	13	"in"	"Position Limit Settings"	"CR Financial Position Log Instance Record"	String
+""	14	"out"	"Position Limit Value"	"CR Financial Position Log Instance Record"	String
+""	15	"inout"	"Amount Block"	"CR Financial Position Log Instance Record"	String
+""	16	"in"	"Amount Block Type"	"CR Financial Position Log Instance Record"	String
+""	17	"in"	"Priority"	"CR Financial Position Log Instance Record"	String
+""	18	"inout"	"Date Type"	"CR Financial Position Log Instance Record"	String
+""	19	"in"	"Initiation Date"	"CR Financial Position Log Instance Record"	Date
+""	20	"out"	"Status"	"CR Financial Position Log Instance Record"	String
+""
+"Put"	"/position-keeping/{sd-identifier}/financial-position-log/{crbq-identifier}/update"
+""	1	"inout"	"Transaction Log Type"	"CR Financial Position Log Instance Record"	String
+""	2	"inout"	"Product Instance Reference"	"CR Financial Position Log Instance Record"	Object
+""	3	"inout"	"Customer Reference"	"CR Financial Position Log Instance Record"	Object
+""	4	"inout"	"Counterparty Reference"	"CR Financial Position Log Instance Record"	Object
+""	5	"inout"	"Base Currency"	"CR Financial Position Log Instance Record"	CurrencyCode
+""	6	"inout"	"Interest Application Record"	"CR Financial Position Log Instance Record"	String
+""	7	"inout"	"Managed Position Limits"	"CR Financial Position Log Instance Record"	String
+""	8	"inout"	"Position Limit Type"	"CR Financial Position Log Instance Record"	String
+""	9	"inout"	"Position Limit Settings"	"CR Financial Position Log Instance Record"	String
+""	10	"inout"	"Amount Block"	"CR Financial Position Log Instance Record"	String
+""	11	"inout"	"Amount Block Type"	"CR Financial Position Log Instance Record"	String
+""	12	"inout"	"Priority"	"CR Financial Position Log Instance Record"	String
+""	13	"inout"	"Date Type"	"CR Financial Position Log Instance Record"	String
+""	14	"inout"	"Initiation Date"	"CR Financial Position Log Instance Record"	Date
+""	15	"inout"	"Status"	"CR Financial Position Log Instance Record"	String
+""
+"Put"	"/position-keeping/{sd-identifier}/financial-position-log/{crbq-identifier}/control"
+""
+"Get"	"/position-keeping/{sd-identifier}/financial-position-log/{crbq-identifier}/retrieval"
+""	1	"out"	"Transaction Log Type"	"CR Financial Position Log Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Financial Position Log Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Financial Position Log Instance Record"	Object
+""	4	"out"	"Counterparty Reference"	"CR Financial Position Log Instance Record"	Object
+""	5	"out"	"Base Currency"	"CR Financial Position Log Instance Record"	CurrencyCode
+""	6	"out"	"Interest Application Record"	"CR Financial Position Log Instance Record"	String
+""	7	"out"	"Interest Transaction"	"CR Financial Position Log Instance Record"	String
+""	8	"out"	"Transaction Description"	"CR Financial Position Log Instance Record"	String
+""	9	"out"	"Transaction Rate Type"	"CR Financial Position Log Instance Record"	String
+""	10	"out"	"Transaction Interest Charge"	"CR Financial Position Log Instance Record"	String
+""	11	"out"	"Managed Position Limits"	"CR Financial Position Log Instance Record"	String
+""	12	"out"	"Position Limit Type"	"CR Financial Position Log Instance Record"	String
+""	13	"out"	"Position Limit Settings"	"CR Financial Position Log Instance Record"	String
+""	14	"out"	"Position Limit Value"	"CR Financial Position Log Instance Record"	String
+""	15	"out"	"Amount Block"	"CR Financial Position Log Instance Record"	String
+""	16	"out"	"Amount Block Type"	"CR Financial Position Log Instance Record"	String
+""	17	"out"	"Priority"	"CR Financial Position Log Instance Record"	String
+""	18	"out"	"Date Type"	"CR Financial Position Log Instance Record"	String
+""	19	"out"	"Initiation Date"	"CR Financial Position Log Instance Record"	Date
+""	20	"out"	"Status"	"CR Financial Position Log Instance Record"	String
+""
+"Put"	"/position-keeping/{sd-identifier}/financial-transaction-capture/{crbq-identifier}/update"
+""	1	"inout"	"Posting Description"	"BQ Financial Transaction Capture Instance Record"	String
+""	2	"inout"	"Posting Transaction"	"BQ Financial Transaction Capture Instance Record"	String
+""	3	"inout"	"Posting Value Date"	"BQ Financial Transaction Capture Instance Record"	Date
+""
+"Put"	"/position-keeping/{sd-identifier}/financial-transaction-capture/{crbq-identifier}/capture"
+""	1	"in"	"Posting Description"	"BQ Financial Transaction Capture Instance Record"	String
+""	2	"in"	"Posting Transaction"	"BQ Financial Transaction Capture Instance Record"	String
+""	3	"in"	"Posting Value Date"	"BQ Financial Transaction Capture Instance Record"	Date
+""
+"Get"	"/position-keeping/{sd-identifier}/financial-transaction-capture/{crbq-identifier}/retrieval"
+""	1	"out"	"Posting Description"	"BQ Financial Transaction Capture Instance Record"	String
+""	2	"out"	"Posting Transaction"	"BQ Financial Transaction Capture Instance Record"	String
+""	3	"out"	"Posting Value Date"	"BQ Financial Transaction Capture Instance Record"	Date

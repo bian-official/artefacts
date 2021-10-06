@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Instrument Reference Data Management"
+"Business Area"	Channels
+"Business Domain"	Information Providers
+"Service Domain"	Financial Instrument Reference Data Management
+"Role Definition"	"Maintain a central reference directory of market traded asset/instrument details. The details are typically captured from one or more market feeds that publish market asset/instrument details but can include handling necessary internal processing in response to reported corporate events such as stock splits that impact the asset beyond simply updating the reference details"
+"Example of use"	"A corporate financial advisory project references different instrument specifications when assembling a structured financial approach to the customer financing needs"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Catalog
+"Asset Type"	FinancialInstrument
+"Generic Artifact"	DirectoryEntry
+"Control Record"	FinancialInstrumentDirectoryEntry
+"Registration Status"	Registered

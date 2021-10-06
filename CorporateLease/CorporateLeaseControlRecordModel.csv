@@ -1,0 +1,39 @@
+"Control Record Model for: "	Corporate Lease
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Corporate Lease Arrangement Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Corporate Lease. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Parameter Type	"A Classification value that distinguishes between arrangements according to the type of business services within Corporate Lease Arrangement"	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Selected Option	"A selected optional business service as subject matter of Corporate Lease Arrangement"	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Type	"The type of Corporate Lease Arrangement"	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Schedule	"Timetable to fulfill Corporate Lease Arrangement"	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Status	"The status of Corporate Lease Arrangement"	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Reference	"Reference to the party who is involved in Corporate Lease Arrangement"	Object
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Currency	"The curreny which is arranged in Corporate Lease Arrangement"	CurrencyCode
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Regulation Reference	"Reference to the regulation which is defined in Corporate Lease Arrangement"	Object
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Regulation Type	"A Classification that distinguishes between the regularity domains of Corporate Lease Arrangement"	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Jurisdiction	"Reference to the jurisdiction that is assigned to Corporate Lease Arrangement in case of legal dispute."	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Booking Location	"The financial accounting unit into which the financial events, with regard to the origination and fulfillment of the agreement in the context of Corporate Lease Arrangement, are entered."	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Account Type	"The type of account which is linked to Corporate Lease Arrangement"	String
+"CR"	CR Corporate Lease Arrangement Instance Record	Corporate Lease Arrangement Account Reference	"Reference to the account which is linked to Corporate Lease Arrangement"	Object
+"BQ"	BQ Fulfill Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Corporate Lease. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Fulfill Instance Record	Fulfill Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Fulfill Instance Record	Fulfill Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Fulfill Instance Record	Corporate Lease Fulfillment	"The Corporate Lease Arrangement specific Business Service"	Business Service
+"BQ"	BQ Fulfill Instance Record	Fulfill Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Fulfill Instance Record	Fulfill Corporate Lease Fulfillment Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Fulfill Instance Record	Fulfill Corporate Lease Fulfillment Service Description	"Description of the performed business service"	String
+"BQ"	BQ Fulfill Instance Record	Fulfill Corporate Lease Fulfillment Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Fulfill Instance Record	Fulfill Corporate Lease Fulfillment Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Fulfill Instance Record	Fulfill Corporate Lease Fulfillment Service Name	""	String
+"BQ"	BQ Corporate Lease Outcome Instance Record	""	""	""
+"BQ"	BQ Corporate Lease Outcome Instance Record	Corporate Lease Financial Facility	""	String
+"BQ"	BQ Corporate Lease Outcome Instance Record	Corporate Lease Work Product	""	String
+"BQ"	BQ Administer Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Corporate Lease. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Administer Instance Record	Administer Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Administer Instance Record	Administer Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Administer Instance Record	Corporate Lease Administration	"The Corporate Lease Arrangement specific Business Service"	Business Service
+"BQ"	BQ Administer Instance Record	Administer Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Administer Instance Record	Administer Corporate Lease Administration Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Administer Instance Record	Administer Corporate Lease Administration Service Description	"Description of the performed business service"	String
+"BQ"	BQ Administer Instance Record	Administer Corporate Lease Administration Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Administer Instance Record	Administer Corporate Lease Administration Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Administer Instance Record	Administer Corporate Lease Administration Service Name	""	String

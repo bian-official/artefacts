@@ -1,0 +1,32 @@
+"Control Record Model for: "	Customer Surveys
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Execution Instance Record	""	""	""
+"BQ"	BQ Execution Instance Record	Customer Survey Execution Work Task Type	"The type of work task (e.g. host focus group session, issue questionnaire)"	String
+"BQ"	BQ Execution Instance Record	Customer Survey Execution Work Task Description	"Description of the task performed, includes summary of activities as necessary"	String
+"BQ"	BQ Execution Instance Record	Customer Survey Execution Work Task Work Products	"File of consolidated notes, forms and documents for the work task"	String
+"BQ"	BQ Execution Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents (e.g. required legal disclosures for participants)"	Object
+"BQ"	BQ Execution Instance Record	Customer Survey Execution Work Task Result	"Details of the outcome or result of the work task - typically the captured survey response and any related feedback"	String
+"BQ"	BQ Execution Instance Record	Customer Survey Execution Work Task Date-Time	"The date-time the customer survey execution"	Date
+"CR"	CR Customer Survey Procedure Instance Record	""	""	""
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Type	"The type or category of customer survey (e.g. questionnaire, in context solicitation, focus group)"	String
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Description	"A description of the customer survey that clarifies the sought customer insights, survey mechanism and target reviewers"	String
+"CR"	CR Customer Survey Procedure Instance Record	Employee/Business Unit Reference	"Reference to the business unit responsible for the survey execution"	Object
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Procedure Set-up	"Details of the deployment set-up/configuration of the customer survey"	String
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Procedure Version Number	"The customer survey version number used"	String
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Schedule	"The customer survey processing schedule, covering survey definition, reviewer selection, survey execution and subsequent analysis. Note for some integrated surveys this can be an on-going activity that attempts provides a constant stream of feedback relating to specific activities/services rather than a specific event"	String
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Consumables Inventory	"Inventory record of any consumables that are to be used in the execution of the customer survey"	String
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Consumable Type	"The type of consumable item associated with the customer survey (e.g. questionnaire, participation incentive gift)"	String
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Consumable Holding	"The tracked inventory of the consumable item"	String
+"CR"	CR Customer Survey Procedure Instance Record	Date Type	"Key dates associated with the customer survey process (e.g. initiation date, version revision date, completion date)"	String
+"CR"	CR Customer Survey Procedure Instance Record	Date	"Value of the date type"	String
+"CR"	CR Customer Survey Procedure Instance Record	Customer Survey Procedure Result	"The result/impact of the customer survey (will include summary of customer survey activity, survey response data and survey findings presentation analysis)"	String
+"BQ"	BQ Reviewer Selection Instance Record	""	""	""
+"BQ"	BQ Reviewer Selection Instance Record	Customer Survey Selection Criteria	"Details the selection criteria used to identify candidate customer reviewers"	String
+"BQ"	BQ Reviewer Selection Instance Record	Customer Survey Candidate Reference	"Reference to the customer selected as a survey candidate"	Object
+"BQ"	BQ Definition Instance Record	""	""	""
+"BQ"	BQ Definition Instance Record	Customer Survey Design Work Task Type	"The type of work task (e.g. research survey context, refine/trial questionnaire, develop supporting materials)"	String
+"BQ"	BQ Definition Instance Record	Customer Survey Design Work Task Description	"Description of the survey development task performed"	String
+"BQ"	BQ Definition Instance Record	Customer Survey Design Work Task Work Products	"File of consolidated notes, forms and documents for the work task"	String
+"BQ"	BQ Definition Instance Record	Customer Survey Design Work Task Result	"Details of the outcome or result of the work task - specifically developed materials to be used in survey execution"	String
+"BQ"	BQ Survey Analysis Instance Record	""	""	""
+"BQ"	BQ Survey Analysis Instance Record	Customer Survey Procedure Survey Analysis Result	"The result customer survey which combines response details/statistics and associated analysis, commentary and derived insights"	String

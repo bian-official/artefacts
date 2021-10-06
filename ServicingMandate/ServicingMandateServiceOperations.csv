@@ -1,0 +1,83 @@
+"Service Operations for: "	Servicing Mandate
+""
+"POST"	"/servicing-mandate/activation"
+"PUT"	"/servicing-mandate/{sd-reference-id}/configuration"
+"PUT"	"/servicing-mandate/{sd-reference-id}/feedback"
+""
+"Post"	"/servicing-mandate/{sd-identifier}/servicing-mandate-agreement/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	2	"in"	"Servicing Mandate Agreement Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	3	"in"	"Servicing Mandate Agreement Jurisdiction"	"CR Servicing Mandate Agreement Instance Record"	String
+""	4	"inout"	"Servicing Mandate Agreement Valid From/To Date"	"CR Servicing Mandate Agreement Instance Record"	Date
+""	5	"in"	"Servicing Mandate Agreement Responsible Parties"	"CR Servicing Mandate Agreement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	7	"out"	"Servicing Mandate Agreement Product/Service Profile Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	8	"out"	"Product/Service Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	9	"out"	"Servicing Mandate Agreement Product/Service Type Eligibility"	"CR Servicing Mandate Agreement Instance Record"	String
+""
+"Put"	"/servicing-mandate/{sd-identifier}/servicing-mandate-agreement/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	2	"inout"	"Servicing Mandate Agreement Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	3	"inout"	"Servicing Mandate Agreement Jurisdiction"	"CR Servicing Mandate Agreement Instance Record"	String
+""	4	"inout"	"Servicing Mandate Agreement Valid From/To Date"	"CR Servicing Mandate Agreement Instance Record"	Date
+""	5	"inout"	"Servicing Mandate Agreement Responsible Parties"	"CR Servicing Mandate Agreement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	7	"inout"	"Servicing Mandate Agreement Product/Service Profile Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	8	"inout"	"Product/Service Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	9	"inout"	"Servicing Mandate Agreement Product/Service Type Eligibility"	"CR Servicing Mandate Agreement Instance Record"	String
+""
+"Put"	"/servicing-mandate/{sd-identifier}/servicing-mandate-agreement/{crbq-identifier}/control"
+""
+"Put"	"/servicing-mandate/{sd-identifier}/servicing-mandate-agreement/{crbq-identifier}/exchange"
+""
+"Put"	"/servicing-mandate/{sd-identifier}/servicing-mandate-agreement/{crbq-identifier}/requisition"
+""
+"Put"	"/servicing-mandate/{sd-identifier}/servicing-mandate-agreement/{crbq-identifier}/grant"
+""
+"Get"	"/servicing-mandate/{sd-identifier}/servicing-mandate-agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	2	"out"	"Servicing Mandate Agreement Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	3	"out"	"Servicing Mandate Agreement Jurisdiction"	"CR Servicing Mandate Agreement Instance Record"	String
+""	4	"out"	"Servicing Mandate Agreement Valid From/To Date"	"CR Servicing Mandate Agreement Instance Record"	Date
+""	5	"out"	"Servicing Mandate Agreement Responsible Parties"	"CR Servicing Mandate Agreement Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	7	"out"	"Servicing Mandate Agreement Product/Service Profile Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	8	"out"	"Product/Service Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	9	"out"	"Servicing Mandate Agreement Product/Service Type Eligibility"	"CR Servicing Mandate Agreement Instance Record"	String
+""
+"Post"	"/servicing-mandate/{sd-identifier}/customer-mandate/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	2	"in"	"Servicing Mandate Agreement Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	3	"in"	"Servicing Mandate Agreement Jurisdiction"	"CR Servicing Mandate Agreement Instance Record"	String
+""	4	"in"	"Servicing Mandate Agreement Valid From/To Date"	"CR Servicing Mandate Agreement Instance Record"	Date
+""	5	"in"	"Servicing Mandate Agreement Product/Service Profile Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	6	"in"	"Product/Service Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	7	"in"	"Servicing Mandate Agreement Product/Service Type Eligibility"	"CR Servicing Mandate Agreement Instance Record"	String
+""	8	"out"	"Servicing Mandate Agreement Customer Product/Service Profile"	"BQ Customer Mandate Instance Record"	String
+""	9	"out"	"Servicing Mandate Agreement Customer Product/Service Type Access"	"BQ Customer Mandate Instance Record"	String
+""	10	"out"	"Servicing Mandate Agreement Customer Product/Service Type Usage"	"BQ Customer Mandate Instance Record"	String
+""
+"Put"	"/servicing-mandate/{sd-identifier}/customer-mandate/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"BQ Customer Mandate Instance Record"	Object
+""	2	"inout"	"Servicing Mandate Agreement Customer Product/Service Profile"	"BQ Customer Mandate Instance Record"	String
+""	3	"inout"	"Product/Service Type"	"BQ Customer Mandate Instance Record"	String
+""	4	"inout"	"Servicing Mandate Agreement Customer Product/Service Type Access"	"BQ Customer Mandate Instance Record"	String
+""	5	"inout"	"Servicing Mandate Agreement Customer Product/Service Type Usage"	"BQ Customer Mandate Instance Record"	String
+""
+"Put"	"/servicing-mandate/{sd-identifier}/customer-mandate/{crbq-identifier}/control"
+""
+"Put"	"/servicing-mandate/{sd-identifier}/customer-mandate/{crbq-identifier}/exchange"
+""
+"Put"	"/servicing-mandate/{sd-identifier}/customer-mandate/{crbq-identifier}/grant"
+""
+"Get"	"/servicing-mandate/{sd-identifier}/customer-mandate/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	2	"out"	"Servicing Mandate Agreement Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	3	"out"	"Servicing Mandate Agreement Jurisdiction"	"CR Servicing Mandate Agreement Instance Record"	String
+""	4	"out"	"Servicing Mandate Agreement Valid From/To Date"	"CR Servicing Mandate Agreement Instance Record"	Date
+""	5	"out"	"Servicing Mandate Agreement Product/Service Profile Reference"	"CR Servicing Mandate Agreement Instance Record"	Object
+""	6	"out"	"Product/Service Type"	"CR Servicing Mandate Agreement Instance Record"	String
+""	7	"out"	"Servicing Mandate Agreement Product/Service Type Eligibility"	"CR Servicing Mandate Agreement Instance Record"	String
+""	8	"out"	"Servicing Mandate Agreement Customer Product/Service Profile"	"BQ Customer Mandate Instance Record"	String
+""	9	"out"	"Servicing Mandate Agreement Customer Product/Service Type Access"	"BQ Customer Mandate Instance Record"	String
+""	10	"out"	"Servicing Mandate Agreement Customer Product/Service Type Usage"	"BQ Customer Mandate Instance Record"	String

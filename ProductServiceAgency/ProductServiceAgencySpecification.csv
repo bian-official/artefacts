@@ -1,0 +1,13 @@
+"Service Domain specification for Product Service Agency"
+"Business Area"	Operations
+"Business Domain"	External Agency
+"Service Domain"	Product Service Agency
+"Role Definition"	"Maintain contractual and service agreements with transaction related service providers (e.g. legal/tax advisors)"
+"Example of use"	"The contractual arrangements with an established specialist service provider are reviewed at year end. "
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Agree Terms
+"Asset Type"	ServiceProvider
+"Generic Artifact"	Agreement
+"Control Record"	ServiceProviderAgreement
+"Registration Status"	Registered

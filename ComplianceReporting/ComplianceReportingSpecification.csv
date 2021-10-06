@@ -1,0 +1,13 @@
+"Service Domain specification for Compliance Reporting"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Compliance
+"Service Domain"	Compliance Reporting
+"Role Definition"	"This service domain schedules, consolidates information and reports on internal audit and compliance activity across the bank"
+"Example of use"	"Example of use:. The financial accounting procedures for a back office function are audited"
+"Executive Summary"	"This service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity"
+"Key Features"	"Consolidate internal compliance/audit reporting materials and assemble reports. Delivery scheduled and ad-hoc reports to internal auditors, highlighting non-compliance. Handle follow up for identified remedial actions for non-compliance. Oversee on-line/production transaction regulatory reporting"
+"Functional Pattern"	Administer
+"Asset Type"	ComplianceReporting
+"Generic Artifact"	AdministrativePlan
+"Control Record"	ComplianceReportingAdministrativePlan
+"Registration Status"	Registered

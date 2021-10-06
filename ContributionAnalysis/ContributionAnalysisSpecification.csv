@@ -1,0 +1,13 @@
+"Service Domain specification for Contribution Analysis"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Contribution Analysis
+"Role Definition"	"Execute contribution analysis across customer/product activity to expose business development opportunities"
+"Example of use"	"Business development managers used contribution analysis to identify underperforming products/customers where additional business could be generated through increased sales, usage or pricing"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	Contribution
+"Generic Artifact"	Analysis
+"Control Record"	ContributionAnalysis
+"Registration Status"	Registered

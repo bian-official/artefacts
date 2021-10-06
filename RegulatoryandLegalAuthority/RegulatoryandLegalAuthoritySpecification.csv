@@ -1,0 +1,13 @@
+"Service Domain specification for Regulatory and Legal Authority"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Compliance
+"Service Domain"	Regulatory and Legal Authority
+"Role Definition"	"This service domain manages the effective relations with regulators, accounting and government agencies. It includes establishing contact, assigning relationship management responsibility, scheduling meetings and briefings as necessary and dealing with ad-hoc issues as they arise"
+"Example of use"	"Example of use:. The bank's contact with regulators is leveraged to streamline the resolution of compliance issues to the bank's benefit"
+"Executive Summary"	"Maintain effective relations with regulators, accounting and government agencies. Oversee interactions and reporting as necessary"
+"Key Features"	"Identify and establish contacts. Assign relationship managers. Schedule contacts and briefings. Handle issues as they arise"
+"Functional Pattern"	Manage
+"Asset Type"	RegulatoryAndLegalAuthorityRelationship
+"Generic Artifact"	ManagementPlan
+"Control Record"	RegulatoryAndLegalAuthorityRelationshipManagementPlan
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Treasury Analysis
+"Control Record Model for Corporate Treasury Analysis is not defined"
+"POST"	"/corporate-treasury-analysis/activation"
+"PUT"	"/corporate-treasury-analysis/{sd-reference-id}/configuration"
+"PUT"	"/corporate-treasury-analysis/{sd-reference-id}/feedback"

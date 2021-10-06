@@ -1,0 +1,5 @@
+"Service Operations for: "	Factoring
+"Control Record Model for Factoring is not defined"
+"POST"	"/factoring/activation"
+"PUT"	"/factoring/{sd-reference-id}/configuration"
+"PUT"	"/factoring/{sd-reference-id}/feedback"

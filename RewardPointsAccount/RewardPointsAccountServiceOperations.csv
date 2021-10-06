@@ -1,0 +1,213 @@
+"Service Operations for: "	Reward Points Account
+""
+"POST"	"/reward-points-account/activation"
+"PUT"	"/reward-points-account/{sd-reference-id}/configuration"
+"PUT"	"/reward-points-account/{sd-reference-id}/feedback"
+""
+"Put"	"/reward-points-account/{sd-identifier}/capture/{crbq-identifier}/capture"
+""	1	"inout"	"Capture Preconditions"	"BQ Capture Instance Record"	String
+""	2	"inout"	"Capture Event Schedule"	"BQ Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Capture Instance Record"	Business Service
+""	4	"inout"	"Capture Post conditions"	"BQ Capture Instance Record"	String
+""	5	"inout"	"Capture Service Type"	"BQ Capture Instance Record"	String
+""	6	"inout"	"Capture Service Description"	"BQ Capture Instance Record"	String
+""	7	"inout"	"Capture Service Inputs and Ouputs"	"BQ Capture Instance Record"	String
+""	8	"inout"	"Capture Service Work Product"	"BQ Capture Instance Record"	String
+""	9	"inout"	"Capture Service Name"	"BQ Capture Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/expiration/{crbq-identifier}/capture"
+""	1	"inout"	"Expiration Preconditions"	"BQ Expiration Instance Record"	String
+""	2	"inout"	"Expiration Event Schedule"	"BQ Expiration Instance Record"	String
+""	3	"inout"	"Log Event Expiration"	"BQ Expiration Instance Record"	Business Service
+""	4	"inout"	"Expiration Post conditions"	"BQ Expiration Instance Record"	String
+""	5	"inout"	"Expiration Log Event Expiration Service Type"	"BQ Expiration Instance Record"	String
+""	6	"inout"	"Expiration Log Event Expiration Service Description"	"BQ Expiration Instance Record"	String
+""	7	"inout"	"Expiration Log Event Expiration Service Inputs and Ouputs"	"BQ Expiration Instance Record"	String
+""	8	"inout"	"Expiration Log Event Expiration Service Work Product"	"BQ Expiration Instance Record"	String
+""	9	"inout"	"Expiration Log Event Expiration Service Name"	"BQ Expiration Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/reward-points-log/{crbq-identifier}/capture"
+""	1	"in"	"Reward Points Log Parameter Type"	"CR Reward Points Log Instance Record"	String
+""	2	"in"	"Reward Points Log Selected Option"	"CR Reward Points Log Instance Record"	String
+""	3	"in"	"Reward Points Log Type"	"CR Reward Points Log Instance Record"	String
+""	4	"inout"	"Reward Points Log Schedule"	"CR Reward Points Log Instance Record"	String
+""	5	"inout"	"Reward Points Log Usage Log"	"CR Reward Points Log Instance Record"	String
+""	6	"inout"	"Reward Points Log Update Log"	"CR Reward Points Log Instance Record"	String
+""	7	"in"	"Reward Points Log Reference"	"CR Reward Points Log Instance Record"	Object
+""	8	"in"	"Reward Points Log Business Unit Reference"	"CR Reward Points Log Instance Record"	Object
+""	9	"in"	"Reward Points Log Customer Reference"	"CR Reward Points Log Instance Record"	Object
+""	10	"inout"	"Reward Points Log Service Configuration"	"CR Reward Points Log Instance Record"	String
+""	11	"inout"	"Reward Points Log Position"	"CR Reward Points Log Instance Record"	String
+""	12	"inout"	"Reward Points Log Position Type"	"CR Reward Points Log Instance Record"	String
+""	13	"inout"	"Reward Points Log Position Limit Time"	"CR Reward Points Log Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/reward-points-log/{crbq-identifier}/control"
+""	1	"in"	"Reward Points Log Parameter Type"	"CR Reward Points Log Instance Record"	String
+""	2	"in"	"Reward Points Log Selected Option"	"CR Reward Points Log Instance Record"	String
+""	3	"in"	"Reward Points Log Type"	"CR Reward Points Log Instance Record"	String
+""	4	"inout"	"Reward Points Log Schedule"	"CR Reward Points Log Instance Record"	String
+""	5	"inout"	"Reward Points Log Usage Log"	"CR Reward Points Log Instance Record"	String
+""	6	"inout"	"Reward Points Log Update Log"	"CR Reward Points Log Instance Record"	String
+""	7	"in"	"Reward Points Log Reference"	"CR Reward Points Log Instance Record"	Object
+""	8	"in"	"Reward Points Log Business Unit Reference"	"CR Reward Points Log Instance Record"	Object
+""	9	"in"	"Reward Points Log Customer Reference"	"CR Reward Points Log Instance Record"	Object
+""	10	"inout"	"Reward Points Log Service Configuration"	"CR Reward Points Log Instance Record"	String
+""	11	"inout"	"Reward Points Log Position"	"CR Reward Points Log Instance Record"	String
+""	12	"inout"	"Reward Points Log Position Type"	"CR Reward Points Log Instance Record"	String
+""	13	"inout"	"Reward Points Log Position Limit Time"	"CR Reward Points Log Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/reward-points-log/{crbq-identifier}/exchange"
+""	1	"in"	"Reward Points Log Parameter Type"	"CR Reward Points Log Instance Record"	String
+""	2	"in"	"Reward Points Log Selected Option"	"CR Reward Points Log Instance Record"	String
+""	3	"in"	"Reward Points Log Type"	"CR Reward Points Log Instance Record"	String
+""	4	"inout"	"Reward Points Log Schedule"	"CR Reward Points Log Instance Record"	String
+""	5	"inout"	"Reward Points Log Usage Log"	"CR Reward Points Log Instance Record"	String
+""	6	"inout"	"Reward Points Log Update Log"	"CR Reward Points Log Instance Record"	String
+""	7	"in"	"Reward Points Log Reference"	"CR Reward Points Log Instance Record"	Object
+""	8	"in"	"Reward Points Log Business Unit Reference"	"CR Reward Points Log Instance Record"	Object
+""	9	"in"	"Reward Points Log Customer Reference"	"CR Reward Points Log Instance Record"	Object
+""	10	"inout"	"Reward Points Log Service Configuration"	"CR Reward Points Log Instance Record"	String
+""	11	"inout"	"Reward Points Log Position"	"CR Reward Points Log Instance Record"	String
+""	12	"inout"	"Reward Points Log Position Type"	"CR Reward Points Log Instance Record"	String
+""	13	"inout"	"Reward Points Log Position Limit Time"	"CR Reward Points Log Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/reward-points-log/{crbq-identifier}/grant"
+""	1	"in"	"Reward Points Log Parameter Type"	"CR Reward Points Log Instance Record"	String
+""	2	"in"	"Reward Points Log Selected Option"	"CR Reward Points Log Instance Record"	String
+""	3	"in"	"Reward Points Log Type"	"CR Reward Points Log Instance Record"	String
+""	4	"inout"	"Reward Points Log Schedule"	"CR Reward Points Log Instance Record"	String
+""	5	"inout"	"Reward Points Log Usage Log"	"CR Reward Points Log Instance Record"	String
+""	6	"inout"	"Reward Points Log Update Log"	"CR Reward Points Log Instance Record"	String
+""	7	"in"	"Reward Points Log Reference"	"CR Reward Points Log Instance Record"	Object
+""	8	"in"	"Reward Points Log Business Unit Reference"	"CR Reward Points Log Instance Record"	Object
+""	9	"in"	"Reward Points Log Customer Reference"	"CR Reward Points Log Instance Record"	Object
+""	10	"inout"	"Reward Points Log Service Configuration"	"CR Reward Points Log Instance Record"	String
+""	11	"inout"	"Reward Points Log Position"	"CR Reward Points Log Instance Record"	String
+""	12	"inout"	"Reward Points Log Position Type"	"CR Reward Points Log Instance Record"	String
+""	13	"inout"	"Reward Points Log Position Limit Time"	"CR Reward Points Log Instance Record"	String
+""
+"Post"	"/reward-points-account/{sd-identifier}/capture/{crbq-identifier}/initiation"
+""	1	"inout"	"Capture Preconditions"	"BQ Capture Instance Record"	String
+""	2	"inout"	"Capture Event Schedule"	"BQ Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Capture Instance Record"	Business Service
+""	4	"inout"	"Capture Post conditions"	"BQ Capture Instance Record"	String
+""	5	"inout"	"Capture Service Type"	"BQ Capture Instance Record"	String
+""	6	"inout"	"Capture Service Description"	"BQ Capture Instance Record"	String
+""	7	"inout"	"Capture Service Inputs and Ouputs"	"BQ Capture Instance Record"	String
+""	8	"inout"	"Capture Service Work Product"	"BQ Capture Instance Record"	String
+""	9	"inout"	"Capture Service Name"	"BQ Capture Instance Record"	String
+""
+"Post"	"/reward-points-account/{sd-identifier}/expiration/{crbq-identifier}/initiation"
+""	1	"inout"	"Expiration Preconditions"	"BQ Expiration Instance Record"	String
+""	2	"inout"	"Expiration Event Schedule"	"BQ Expiration Instance Record"	String
+""	3	"inout"	"Log Event Expiration"	"BQ Expiration Instance Record"	Business Service
+""	4	"inout"	"Expiration Post conditions"	"BQ Expiration Instance Record"	String
+""	5	"inout"	"Expiration Log Event Expiration Service Type"	"BQ Expiration Instance Record"	String
+""	6	"inout"	"Expiration Log Event Expiration Service Description"	"BQ Expiration Instance Record"	String
+""	7	"inout"	"Expiration Log Event Expiration Service Inputs and Ouputs"	"BQ Expiration Instance Record"	String
+""	8	"inout"	"Expiration Log Event Expiration Service Work Product"	"BQ Expiration Instance Record"	String
+""	9	"inout"	"Expiration Log Event Expiration Service Name"	"BQ Expiration Instance Record"	String
+""
+"Post"	"/reward-points-account/{sd-identifier}/reward-points-log/{crbq-identifier}/initiation"
+""	1	"in"	"Reward Points Log Parameter Type"	"CR Reward Points Log Instance Record"	String
+""	2	"in"	"Reward Points Log Selected Option"	"CR Reward Points Log Instance Record"	String
+""	3	"in"	"Reward Points Log Type"	"CR Reward Points Log Instance Record"	String
+""	4	"inout"	"Reward Points Log Schedule"	"CR Reward Points Log Instance Record"	String
+""	5	"inout"	"Reward Points Log Usage Log"	"CR Reward Points Log Instance Record"	String
+""	6	"inout"	"Reward Points Log Update Log"	"CR Reward Points Log Instance Record"	String
+""	7	"in"	"Reward Points Log Reference"	"CR Reward Points Log Instance Record"	Object
+""	8	"in"	"Reward Points Log Business Unit Reference"	"CR Reward Points Log Instance Record"	Object
+""	9	"in"	"Reward Points Log Customer Reference"	"CR Reward Points Log Instance Record"	Object
+""	10	"inout"	"Reward Points Log Service Configuration"	"CR Reward Points Log Instance Record"	String
+""	11	"inout"	"Reward Points Log Position"	"CR Reward Points Log Instance Record"	String
+""	12	"inout"	"Reward Points Log Position Type"	"CR Reward Points Log Instance Record"	String
+""	13	"inout"	"Reward Points Log Position Limit Time"	"CR Reward Points Log Instance Record"	String
+""
+"Get"	"/reward-points-account/{sd-identifier}/capture/{crbq-identifier}/retrieval"
+""	1	"out"	"Capture Preconditions"	"BQ Capture Instance Record"	String
+""	2	"out"	"Capture Event Schedule"	"BQ Capture Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Capture Instance Record"	Business Service
+""	4	"out"	"Capture Post conditions"	"BQ Capture Instance Record"	String
+""	5	"out"	"Capture Service Type"	"BQ Capture Instance Record"	String
+""	6	"out"	"Capture Service Description"	"BQ Capture Instance Record"	String
+""	7	"out"	"Capture Service Inputs and Ouputs"	"BQ Capture Instance Record"	String
+""	8	"out"	"Capture Service Work Product"	"BQ Capture Instance Record"	String
+""	9	"out"	"Capture Service Name"	"BQ Capture Instance Record"	String
+""
+"Get"	"/reward-points-account/{sd-identifier}/expiration/{crbq-identifier}/retrieval"
+""	1	"out"	"Expiration Preconditions"	"BQ Expiration Instance Record"	String
+""	2	"out"	"Expiration Event Schedule"	"BQ Expiration Instance Record"	String
+""	3	"out"	"Log Event Expiration"	"BQ Expiration Instance Record"	Business Service
+""	4	"out"	"Expiration Post conditions"	"BQ Expiration Instance Record"	String
+""	5	"out"	"Expiration Log Event Expiration Service Type"	"BQ Expiration Instance Record"	String
+""	6	"out"	"Expiration Log Event Expiration Service Description"	"BQ Expiration Instance Record"	String
+""	7	"out"	"Expiration Log Event Expiration Service Inputs and Ouputs"	"BQ Expiration Instance Record"	String
+""	8	"out"	"Expiration Log Event Expiration Service Work Product"	"BQ Expiration Instance Record"	String
+""	9	"out"	"Expiration Log Event Expiration Service Name"	"BQ Expiration Instance Record"	String
+""
+"Get"	"/reward-points-account/{sd-identifier}/reward-points-log/{crbq-identifier}/retrieval"
+""	1	"out"	"Reward Points Log Parameter Type"	"CR Reward Points Log Instance Record"	String
+""	2	"out"	"Reward Points Log Selected Option"	"CR Reward Points Log Instance Record"	String
+""	3	"out"	"Reward Points Log Type"	"CR Reward Points Log Instance Record"	String
+""	4	"out"	"Reward Points Log Schedule"	"CR Reward Points Log Instance Record"	String
+""	5	"out"	"Reward Points Log Usage Log"	"CR Reward Points Log Instance Record"	String
+""	6	"out"	"Reward Points Log Update Log"	"CR Reward Points Log Instance Record"	String
+""	7	"out"	"Reward Points Log Reference"	"CR Reward Points Log Instance Record"	Object
+""	8	"out"	"Reward Points Log Business Unit Reference"	"CR Reward Points Log Instance Record"	Object
+""	9	"out"	"Reward Points Log Customer Reference"	"CR Reward Points Log Instance Record"	Object
+""	10	"out"	"Reward Points Log Service Configuration"	"CR Reward Points Log Instance Record"	String
+""	11	"out"	"Reward Points Log Position"	"CR Reward Points Log Instance Record"	String
+""	12	"out"	"Reward Points Log Position Type"	"CR Reward Points Log Instance Record"	String
+""	13	"out"	"Reward Points Log Position Limit Time"	"CR Reward Points Log Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/reward-points-log/{crbq-identifier}/requisition"
+""	1	"in"	"Reward Points Log Parameter Type"	"CR Reward Points Log Instance Record"	String
+""	2	"in"	"Reward Points Log Selected Option"	"CR Reward Points Log Instance Record"	String
+""	3	"in"	"Reward Points Log Type"	"CR Reward Points Log Instance Record"	String
+""	4	"inout"	"Reward Points Log Schedule"	"CR Reward Points Log Instance Record"	String
+""	5	"inout"	"Reward Points Log Usage Log"	"CR Reward Points Log Instance Record"	String
+""	6	"inout"	"Reward Points Log Update Log"	"CR Reward Points Log Instance Record"	String
+""	7	"in"	"Reward Points Log Reference"	"CR Reward Points Log Instance Record"	Object
+""	8	"in"	"Reward Points Log Business Unit Reference"	"CR Reward Points Log Instance Record"	Object
+""	9	"in"	"Reward Points Log Customer Reference"	"CR Reward Points Log Instance Record"	Object
+""	10	"inout"	"Reward Points Log Service Configuration"	"CR Reward Points Log Instance Record"	String
+""	11	"inout"	"Reward Points Log Position"	"CR Reward Points Log Instance Record"	String
+""	12	"inout"	"Reward Points Log Position Type"	"CR Reward Points Log Instance Record"	String
+""	13	"inout"	"Reward Points Log Position Limit Time"	"CR Reward Points Log Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/capture/{crbq-identifier}/update"
+""	1	"inout"	"Capture Preconditions"	"BQ Capture Instance Record"	String
+""	2	"inout"	"Capture Event Schedule"	"BQ Capture Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Capture Instance Record"	Business Service
+""	4	"inout"	"Capture Post conditions"	"BQ Capture Instance Record"	String
+""	5	"inout"	"Capture Service Type"	"BQ Capture Instance Record"	String
+""	6	"inout"	"Capture Service Description"	"BQ Capture Instance Record"	String
+""	7	"inout"	"Capture Service Inputs and Ouputs"	"BQ Capture Instance Record"	String
+""	8	"inout"	"Capture Service Work Product"	"BQ Capture Instance Record"	String
+""	9	"inout"	"Capture Service Name"	"BQ Capture Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/expiration/{crbq-identifier}/update"
+""	1	"inout"	"Expiration Preconditions"	"BQ Expiration Instance Record"	String
+""	2	"inout"	"Expiration Event Schedule"	"BQ Expiration Instance Record"	String
+""	3	"inout"	"Log Event Expiration"	"BQ Expiration Instance Record"	Business Service
+""	4	"inout"	"Expiration Post conditions"	"BQ Expiration Instance Record"	String
+""	5	"inout"	"Expiration Log Event Expiration Service Type"	"BQ Expiration Instance Record"	String
+""	6	"inout"	"Expiration Log Event Expiration Service Description"	"BQ Expiration Instance Record"	String
+""	7	"inout"	"Expiration Log Event Expiration Service Inputs and Ouputs"	"BQ Expiration Instance Record"	String
+""	8	"inout"	"Expiration Log Event Expiration Service Work Product"	"BQ Expiration Instance Record"	String
+""	9	"inout"	"Expiration Log Event Expiration Service Name"	"BQ Expiration Instance Record"	String
+""
+"Put"	"/reward-points-account/{sd-identifier}/reward-points-log/{crbq-identifier}/update"
+""	1	"in"	"Reward Points Log Parameter Type"	"CR Reward Points Log Instance Record"	String
+""	2	"in"	"Reward Points Log Selected Option"	"CR Reward Points Log Instance Record"	String
+""	3	"in"	"Reward Points Log Type"	"CR Reward Points Log Instance Record"	String
+""	4	"inout"	"Reward Points Log Schedule"	"CR Reward Points Log Instance Record"	String
+""	5	"inout"	"Reward Points Log Usage Log"	"CR Reward Points Log Instance Record"	String
+""	6	"inout"	"Reward Points Log Update Log"	"CR Reward Points Log Instance Record"	String
+""	7	"in"	"Reward Points Log Reference"	"CR Reward Points Log Instance Record"	Object
+""	8	"in"	"Reward Points Log Business Unit Reference"	"CR Reward Points Log Instance Record"	Object
+""	9	"in"	"Reward Points Log Customer Reference"	"CR Reward Points Log Instance Record"	Object
+""	10	"inout"	"Reward Points Log Service Configuration"	"CR Reward Points Log Instance Record"	String
+""	11	"inout"	"Reward Points Log Position"	"CR Reward Points Log Instance Record"	String
+""	12	"inout"	"Reward Points Log Position Type"	"CR Reward Points Log Instance Record"	String
+""	13	"inout"	"Reward Points Log Position Limit Time"	"CR Reward Points Log Instance Record"	String

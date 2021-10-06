@@ -1,0 +1,137 @@
+"Service Operations for: "	Prospect Campaign Design
+""
+"POST"	"/prospect-campaign-design/activation"
+"PUT"	"/prospect-campaign-design/{sd-reference-id}/configuration"
+"PUT"	"/prospect-campaign-design/{sd-reference-id}/feedback"
+""
+"Post"	"/prospect-campaign-design/{sd-identifier}/prospect-campaign-specification/{crbq-identifier}/creation"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	3	"inout"	"Prospect Campaign Metrics"	"CR Prospect Campaign Specification Instance Record"	String
+""	4	"inout"	"Prospect Campaign Metric Definition"	"CR Prospect Campaign Specification Instance Record"	String
+""	5	"inout"	"Prospect Campaign Metric Goal"	"CR Prospect Campaign Specification Instance Record"	String
+""	6	"out"	"Prospect Campaign Product/Service Usage"	"CR Prospect Campaign Specification Instance Record"	String
+""	7	"out"	"Prospect Campaign Product/Service Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	8	"out"	"Product/Service Campaign Engagement Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	9	"out"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Prospect Campaign Specification Instance Record"	String
+""	10	"out"	"Prospect Campaign Execution Guidelines"	"CR Prospect Campaign Specification Instance Record"	String
+""	11	"out"	"Prospect Campaign Eligibility"	"CR Prospect Campaign Specification Instance Record"	String
+""	12	"out"	"Prospect Campaign Qualifications"	"CR Prospect Campaign Specification Instance Record"	String
+""	13	"out"	"Prospect Campaign Interaction Guide"	"CR Prospect Campaign Specification Instance Record"	String
+""	14	"out"	"Prospect Campaign Consumables"	"CR Prospect Campaign Specification Instance Record"	String
+""	15	"out"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	16	"out"	"Prospect Campaign Consumable Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	17	"inout"	"Prospect Campaign Performance Record"	"CR Prospect Campaign Specification Instance Record"	String
+""	18	"inout"	"Prospect Campaign Procedure Instance Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	19	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	20	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Specification Instance Record"	String
+""	21	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Specification Instance Record"	String
+""	22	"in"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Specification Instance Record"	String
+""
+"Put"	"/prospect-campaign-design/{sd-identifier}/prospect-campaign-specification/{crbq-identifier}/update"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	3	"inout"	"Prospect Campaign Metrics"	"CR Prospect Campaign Specification Instance Record"	String
+""	4	"inout"	"Prospect Campaign Metric Definition"	"CR Prospect Campaign Specification Instance Record"	String
+""	5	"inout"	"Prospect Campaign Metric Goal"	"CR Prospect Campaign Specification Instance Record"	String
+""	6	"inout"	"Prospect Campaign Product/Service Usage"	"CR Prospect Campaign Specification Instance Record"	String
+""	7	"inout"	"Prospect Campaign Product/Service Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	8	"inout"	"Product/Service Campaign Engagement Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	9	"inout"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Prospect Campaign Specification Instance Record"	String
+""	10	"inout"	"Prospect Campaign Execution Guidelines"	"CR Prospect Campaign Specification Instance Record"	String
+""	11	"inout"	"Prospect Campaign Eligibility"	"CR Prospect Campaign Specification Instance Record"	String
+""	12	"inout"	"Prospect Campaign Qualifications"	"CR Prospect Campaign Specification Instance Record"	String
+""	13	"inout"	"Prospect Campaign Interaction Guide"	"CR Prospect Campaign Specification Instance Record"	String
+""	14	"inout"	"Prospect Campaign Consumables"	"CR Prospect Campaign Specification Instance Record"	String
+""	15	"inout"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	16	"inout"	"Prospect Campaign Consumable Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	17	"inout"	"Prospect Campaign Performance Record"	"CR Prospect Campaign Specification Instance Record"	String
+""	18	"inout"	"Prospect Campaign Procedure Instance Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	19	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	20	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Specification Instance Record"	String
+""	21	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Specification Instance Record"	String
+""	22	"inout"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Specification Instance Record"	String
+""
+"Put"	"/prospect-campaign-design/{sd-identifier}/prospect-campaign-specification/{crbq-identifier}/control"
+""
+"Put"	"/prospect-campaign-design/{sd-identifier}/prospect-campaign-specification/{crbq-identifier}/exchange"
+""
+"Put"	"/prospect-campaign-design/{sd-identifier}/prospect-campaign-specification/{crbq-identifier}/capture"
+""	1	"inout"	"Prospect Campaign Performance Record"	"CR Prospect Campaign Specification Instance Record"	String
+""	2	"inout"	"Prospect Campaign Procedure Instance Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	4	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Specification Instance Record"	String
+""	5	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Specification Instance Record"	String
+""	6	"in"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Specification Instance Record"	String
+""
+"Put"	"/prospect-campaign-design/{sd-identifier}/prospect-campaign-specification/{crbq-identifier}/execution"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	3	"inout"	"Prospect Campaign Metrics"	"CR Prospect Campaign Specification Instance Record"	String
+""	4	"inout"	"Prospect Campaign Metric Definition"	"CR Prospect Campaign Specification Instance Record"	String
+""	5	"inout"	"Prospect Campaign Metric Goal"	"CR Prospect Campaign Specification Instance Record"	String
+""	6	"out"	"Prospect Campaign Product/Service Usage"	"CR Prospect Campaign Specification Instance Record"	String
+""	7	"out"	"Prospect Campaign Product/Service Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	8	"out"	"Product/Service Campaign Engagement Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	9	"out"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Prospect Campaign Specification Instance Record"	String
+""	10	"out"	"Prospect Campaign Execution Guidelines"	"CR Prospect Campaign Specification Instance Record"	String
+""	11	"out"	"Prospect Campaign Eligibility"	"CR Prospect Campaign Specification Instance Record"	String
+""	12	"out"	"Prospect Campaign Qualifications"	"CR Prospect Campaign Specification Instance Record"	String
+""	13	"out"	"Prospect Campaign Interaction Guide"	"CR Prospect Campaign Specification Instance Record"	String
+""	14	"out"	"Prospect Campaign Consumables"	"CR Prospect Campaign Specification Instance Record"	String
+""	15	"out"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	16	"out"	"Prospect Campaign Consumable Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	17	"inout"	"Prospect Campaign Performance Record"	"CR Prospect Campaign Specification Instance Record"	String
+""	18	"inout"	"Prospect Campaign Procedure Instance Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	19	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	20	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Specification Instance Record"	String
+""	21	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Specification Instance Record"	String
+""	22	"in"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Specification Instance Record"	String
+""
+"Put"	"/prospect-campaign-design/{sd-identifier}/prospect-campaign-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	3	"inout"	"Prospect Campaign Metrics"	"CR Prospect Campaign Specification Instance Record"	String
+""	4	"inout"	"Prospect Campaign Metric Definition"	"CR Prospect Campaign Specification Instance Record"	String
+""	5	"inout"	"Prospect Campaign Metric Goal"	"CR Prospect Campaign Specification Instance Record"	String
+""	6	"out"	"Prospect Campaign Product/Service Usage"	"CR Prospect Campaign Specification Instance Record"	String
+""	7	"out"	"Prospect Campaign Product/Service Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	8	"out"	"Product/Service Campaign Engagement Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	9	"out"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Prospect Campaign Specification Instance Record"	String
+""	10	"out"	"Prospect Campaign Execution Guidelines"	"CR Prospect Campaign Specification Instance Record"	String
+""	11	"out"	"Prospect Campaign Eligibility"	"CR Prospect Campaign Specification Instance Record"	String
+""	12	"out"	"Prospect Campaign Qualifications"	"CR Prospect Campaign Specification Instance Record"	String
+""	13	"out"	"Prospect Campaign Interaction Guide"	"CR Prospect Campaign Specification Instance Record"	String
+""	14	"out"	"Prospect Campaign Consumables"	"CR Prospect Campaign Specification Instance Record"	String
+""	15	"out"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	16	"out"	"Prospect Campaign Consumable Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	17	"inout"	"Prospect Campaign Performance Record"	"CR Prospect Campaign Specification Instance Record"	String
+""	18	"inout"	"Prospect Campaign Procedure Instance Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	19	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	20	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Specification Instance Record"	String
+""	21	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Specification Instance Record"	String
+""	22	"in"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Specification Instance Record"	String
+""
+"Get"	"/prospect-campaign-design/{sd-identifier}/prospect-campaign-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"Prospect Campaign Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	2	"out"	"Prospect Campaign Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	3	"out"	"Prospect Campaign Metrics"	"CR Prospect Campaign Specification Instance Record"	String
+""	4	"out"	"Prospect Campaign Metric Definition"	"CR Prospect Campaign Specification Instance Record"	String
+""	5	"out"	"Prospect Campaign Metric Goal"	"CR Prospect Campaign Specification Instance Record"	String
+""	6	"out"	"Prospect Campaign Product/Service Usage"	"CR Prospect Campaign Specification Instance Record"	String
+""	7	"out"	"Prospect Campaign Product/Service Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	8	"out"	"Product/Service Campaign Engagement Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	9	"out"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Prospect Campaign Specification Instance Record"	String
+""	10	"out"	"Prospect Campaign Execution Guidelines"	"CR Prospect Campaign Specification Instance Record"	String
+""	11	"out"	"Prospect Campaign Eligibility"	"CR Prospect Campaign Specification Instance Record"	String
+""	12	"out"	"Prospect Campaign Qualifications"	"CR Prospect Campaign Specification Instance Record"	String
+""	13	"out"	"Prospect Campaign Interaction Guide"	"CR Prospect Campaign Specification Instance Record"	String
+""	14	"out"	"Prospect Campaign Consumables"	"CR Prospect Campaign Specification Instance Record"	String
+""	15	"out"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Specification Instance Record"	String
+""	16	"out"	"Prospect Campaign Consumable Description"	"CR Prospect Campaign Specification Instance Record"	String
+""	17	"out"	"Prospect Campaign Performance Record"	"CR Prospect Campaign Specification Instance Record"	String
+""	18	"out"	"Prospect Campaign Procedure Instance Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	19	"out"	"Employee/Business Unit Reference"	"CR Prospect Campaign Specification Instance Record"	Object
+""	20	"out"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Specification Instance Record"	String
+""	21	"out"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Specification Instance Record"	String
+""	22	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Specification Instance Record"	String

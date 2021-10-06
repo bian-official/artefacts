@@ -1,0 +1,28 @@
+"Control Record Model for: "	Financial Gateway
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Financial Gateway Operating Session Instance Record	""	""	""
+"CR"	CR Financial Gateway Operating Session Instance Record	Financial Gateway Service Type	"The type of gateway (e.g. ACH, SWIFT)"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Financial Gateway Service Session Statistics	"Service activity statistics that are maintained during the session"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Financial Gateway Service Session Report Type	"Session reports that can be accessed during the session (e.g. real-time status, session statistics)"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Financial Gateway Service Session Report	"The session activity report"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Financial Gateway Service Session Date	"Key dates and times for the session"	Date
+"CR"	CR Financial Gateway Operating Session Instance Record	Financial Gateway Service Session Issue Record	"A record of any production issues arising during the gateway session"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Employee/Business Unit Reference	"The source of the issue report if appropriate"	Object
+"CR"	CR Financial Gateway Operating Session Instance Record	Message Reference	"Reference to the financial message(s) involved in the issue"	Object
+"CR"	CR Financial Gateway Operating Session Instance Record	Production Issue Type	"The type of network event or error being recorded (e.g. device failure)"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Production Issue Description	"The description of the event error"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Production Issue Diagnosis	"Evaluation of the event cause and impact assessment"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Production Issue Resolution Task	"Description of corrective action proposed and taken"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Production Issue Record	"Details of the issue, response and interested parties logged for reference"	String
+"CR"	CR Financial Gateway Operating Session Instance Record	Production Issue Status	"Tracking the state of resolution of a reported issue during the session"	String
+"BQ"	BQ Outbound Instance Record	""	""	""
+"BQ"	BQ Outbound Instance Record	Financial Gateway Outbound Message Type	"Reference to the type of message (defines format)"	String
+"BQ"	BQ Outbound Instance Record	Financial Gateway Outbound Message Record	"The message content in any suitable format"	String
+"BQ"	BQ Outbound Instance Record	Financial Gateway Outbound Message Sender	"Employee/Business unit sending the message"	String
+"BQ"	BQ Outbound Instance Record	Financial Gateway Outbound Message Receiver	"The addressee of the message (identified by the financial gateway recognized party reference)"	String
+"BQ"	BQ Outbound Instance Record	Financial Gateway Outbound Message Status	"Used to track delivery  (e.g. pending, delivered, possible duplicate, error)"	String
+"BQ"	BQ Inbound Instance Record	""	""	""
+"BQ"	BQ Inbound Instance Record	Financial Gateway Inbound Message Type	"Reference to the type of message (defines format)"	String
+"BQ"	BQ Inbound Instance Record	Financial Gateway Inbound Message Record	"The message content in any suitable format"	String
+"BQ"	BQ Inbound Instance Record	Financial Gateway Inbound Message Receiver	"Employee/Business unit addressed by the message"	String
+"BQ"	BQ Inbound Instance Record	Financial Gateway Inbound Message Status	"Used to track delivery  (e.g. pending, delivered, possible duplicate, error)"	String

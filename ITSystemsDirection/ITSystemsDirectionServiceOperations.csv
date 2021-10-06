@@ -1,0 +1,5 @@
+"Service Operations for: "	IT Systems Direction
+"Control Record Model for IT Systems Direction is not defined"
+"POST"	"/it-systems-direction/activation"
+"PUT"	"/it-systems-direction/{sd-reference-id}/configuration"
+"PUT"	"/it-systems-direction/{sd-reference-id}/feedback"

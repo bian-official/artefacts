@@ -1,0 +1,59 @@
+"Control Record Model for: "	Syndicated Loan
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Syndicated Loan Arrangement Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Syndicated Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Parameter Type	"A Classification value that distinguishes between arrangements according to the type of business services within Syndicated Loan Arrangement"	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Selected Option	"A selected optional business service as subject matter of Syndicated Loan Arrangement"	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Type	"The type of Syndicated Loan Arrangement"	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Reference	"Reference to Syndicated Loan Arrangement"	Object
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Schedule	"Timetable to fulfill Syndicated Loan Arrangement"	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Status	"The status of Syndicated Loan Arrangement"	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Currency	"The curreny which is arranged in Syndicated Loan Arrangement"	CurrencyCode
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Regulation Reference	"Reference to the regulation which is defined in Syndicated Loan Arrangement"	Object
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Regulation Type	"A Classification that distinguishes between the regularity domains of Syndicated Loan Arrangement"	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Jurisdiction	"Reference to the jurisdiction that is assigned to Syndicated Loan Arrangement in case of legal dispute."	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Booking Location	"The financial accounting unit into which the financial events, with regard to the origination and fulfillment of the agreement in the context of Syndicated Loan Arrangement, are entered."	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Account Type	"The type of account which is linked to Syndicated Loan Arrangement"	String
+"CR"	CR Syndicated Loan Arrangement Instance Record	Syndicated Loan Arrangement Account Reference	"Reference to the account which is linked to Syndicated Loan Arrangement"	Object
+"BQ"	BQ Fulfillment Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Syndicated Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Fulfillment Instance Record	Fulfillment Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Fulfillment Instance Record	Fulfillment Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Fulfillment Instance Record	Fiduciary Arrangement Fulfillment	"The Syndicated Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Fulfillment Instance Record	Fulfillment Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Fulfillment Instance Record	Fulfillment Fiduciary Arrangement Fulfillment Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Fulfillment Instance Record	Fulfillment Fiduciary Arrangement Fulfillment Service Description	"Description of the performed business service"	String
+"BQ"	BQ Fulfillment Instance Record	Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Fulfillment Instance Record	Fulfillment Fiduciary Arrangement Fulfillment Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Fulfillment Instance Record	Fulfillment Fiduciary Arrangement Fulfillment Service Name	""	String
+"BQ"	BQ Syndicate Assembly Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Syndicated Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicate Assembly Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicate Assembly Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicated Loan Organization	"The Syndicated Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicate Assembly Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicate Assembly Syndicated Loan Organization Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicate Assembly Syndicated Loan Organization Service Description	"Description of the performed business service"	String
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicate Assembly Syndicated Loan Organization Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicate Assembly Syndicated Loan Organization Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Syndicate Assembly Instance Record	Syndicate Assembly Syndicated Loan Organization Service Name	""	String
+"BQ"	BQ Syndicated Loan Outcome Instance Record	""	""	""
+"BQ"	BQ Syndicated Loan Outcome Instance Record	Syndicated Loan Financial Facility	""	String
+"BQ"	BQ Syndicated Loan Outcome Instance Record	Syndicated Loan Work Product	""	String
+"BQ"	BQ Origination Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Syndicated Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Origination Instance Record	Origination Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Origination Instance Record	Origination Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Origination Instance Record	Syndicated Loan Origination	"The Syndicated Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Origination Instance Record	Origination Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Origination Instance Record	Origination Syndicated Loan Origination Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Origination Instance Record	Origination Syndicated Loan Origination Service Description	"Description of the performed business service"	String
+"BQ"	BQ Origination Instance Record	Origination Syndicated Loan Origination Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Origination Instance Record	Origination Syndicated Loan Origination Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Origination Instance Record	Origination Syndicated Loan Origination Service Name	""	String
+"BQ"	BQ Structuring Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Syndicated Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Structuring Instance Record	Structuring Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Structuring Instance Record	Structuring Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Structuring Instance Record	Syndicated Loan Arrangement	"The Syndicated Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Structuring Instance Record	Structuring Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Structuring Instance Record	Structuring Syndicated Loan Arrangement Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Structuring Instance Record	Structuring Syndicated Loan Arrangement Service Description	"Description of the performed business service"	String
+"BQ"	BQ Structuring Instance Record	Structuring Syndicated Loan Arrangement Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Structuring Instance Record	Structuring Syndicated Loan Arrangement Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Structuring Instance Record	Structuring Syndicated Loan Arrangement Service Name	""	String

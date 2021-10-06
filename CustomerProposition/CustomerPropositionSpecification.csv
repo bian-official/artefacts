@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Proposition"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Proposition
+"Role Definition"	"Support customer feature specific product fulfillment"
+"Example of use"	"The bank implements a service fee waiver that applies to all of the products for a customer."
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Agree Terms
+"Asset Type"	CustomerProposition
+"Generic Artifact"	Agreement
+"Control Record"	CustomerPropositionAgreement
+"Registration Status"	Registered

@@ -1,0 +1,39 @@
+"Control Record Model for: "	Reward Points Account
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Reward Points Log Instance Record	""	"Maintain a log of transactions or activity, typically a financial account/journal or a log of activity to support behavioral analysis  within Reward Points Account. . Examples: Maintain a financial journal of transactions processed for a product or service and maintain a log of customer events and activity for subsequent analysis."	""
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Parameter Type	"A Classification value that distinguishes between business service events logged within Reward Points Log"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Selected Option	"A selected optional business service as subject matter of Reward Points Log"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Type	"The type of Reward Points Log"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Schedule	"Timetable to track RewardPoints"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Usage Log	"Reference to the log of (usage) ativities/events  of Reward Points Log"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Update Log	"Reference to the log of (update) ativities/events of Reward Points Log"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Reference	"Reference to the party who is involved in Reward Points Log"	Object
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Business Unit Reference	"Reference to the business unit which is involved in Reward Points Log"	Object
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Customer Reference	"Reference to the customer who is involved in Reward Points Log"	Object
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Service Configuration	"The configuration of Reward Points Log"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Position	"The position of Reward Points Log"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Position Type	"A classification value expressing the kind of position withing the Reward Points Log"	String
+"CR"	CR Reward Points Log Instance Record	Reward Points Log Position Limit Time	"Reference to the time limitation related to the position  of Reward Points Log"	String
+"BQ"	BQ Capture Instance Record	""	"Maintain a log of transactions or activity, typically a financial account/journal or a log of activity to support behavioral analysis  within Reward Points Account. . Examples: Maintain a financial journal of transactions processed for a product or service and maintain a log of customer events and activity for subsequent analysis."	""
+"BQ"	BQ Capture Instance Record	Capture Preconditions	"The required status/situation before the event is captured"	String
+"BQ"	BQ Capture Instance Record	Capture Event Schedule	"The timing and key actions/milestones involved in capturing the event"	String
+"BQ"	BQ Capture Instance Record	Business Service	"The Reward Points Log specific  Business Service"	Business Service
+"BQ"	BQ Capture Instance Record	Capture Post conditions	"The completion status once the event has been captured"	String
+"BQ"	BQ Capture Instance Record	Capture Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Capture Instance Record	Capture Service Description	"Description of the performed business service"	String
+"BQ"	BQ Capture Instance Record	Capture Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Capture Instance Record	Capture Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Capture Instance Record	Capture Service Name	""	String
+"BQ"	BQ Reward Points Account Outcome Instance Record	""	""	""
+"BQ"	BQ Reward Points Account Outcome Instance Record	Reward Points Account Incident	""	String
+"BQ"	BQ Reward Points Account Outcome Instance Record	Reward Points Account Log	""	String
+"BQ"	BQ Expiration Instance Record	""	"Maintain a log of transactions or activity, typically a financial account/journal or a log of activity to support behavioral analysis  within Reward Points Account. . Examples: Maintain a financial journal of transactions processed for a product or service and maintain a log of customer events and activity for subsequent analysis."	""
+"BQ"	BQ Expiration Instance Record	Expiration Preconditions	"The required status/situation before the event is captured"	String
+"BQ"	BQ Expiration Instance Record	Expiration Event Schedule	"The timing and key actions/milestones involved in capturing the event"	String
+"BQ"	BQ Expiration Instance Record	Log Event Expiration	"The Reward Points Log specific  Business Service"	Business Service
+"BQ"	BQ Expiration Instance Record	Expiration Post conditions	"The completion status once the event has been captured"	String
+"BQ"	BQ Expiration Instance Record	Expiration Log Event Expiration Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Expiration Instance Record	Expiration Log Event Expiration Service Description	"Description of the performed business service"	String
+"BQ"	BQ Expiration Instance Record	Expiration Log Event Expiration Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Expiration Instance Record	Expiration Log Event Expiration Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Expiration Instance Record	Expiration Log Event Expiration Service Name	""	String

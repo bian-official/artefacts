@@ -1,0 +1,13 @@
+"Service Domain specification for Legal Compliance"
+"Business Area"	Business Management
+"Business Domain"	Corporate Services
+"Service Domain"	Legal Compliance
+"Role Definition"	"This service domain oversees legal compliance related considerations for the bank. This includes interpreting the laws that govern the bank's operations and determining which laws apply in specific circumstances across the enterprise. Support and guidelines are provided to activities in the bank that are subject to specific laws and support given to address legal matters that might arise"
+"Example of use"	"A new product design is checked against the prevailing financial laws for the target jurisdictions of delivery"
+"Executive Summary"	"Provide specialist legal advice, assess for legal compliance and resolve legal cases as they occur"
+"Key Features"	"Review and interpret the law. Provide legal advice/guidance. Evaluate and report on bank activity to ensure legality"
+"Functional Pattern"	Assess
+"Asset Type"	LegalCompliance
+"Generic Artifact"	Assessment
+"Control Record"	LegalComplianceAssessment
+"Registration Status"	Registered

@@ -1,0 +1,130 @@
+"Service Operations for: "	Segment Direction
+""
+"POST"	"/segment-direction/activation"
+"PUT"	"/segment-direction/{sd-reference-id}/configuration"
+"PUT"	"/segment-direction/{sd-reference-id}/feedback"
+""
+"Post"	"/segment-direction/{sd-identifier}/segment-strategy/{crbq-identifier}/creation"
+""	1	"inout"	"Segment Strategy Period"	"CR Segment Strategy Instance Record"	String
+""	2	"inout"	"Segment Strategy Policies & Guidelines"	"CR Segment Strategy Instance Record"	String
+""	3	"inout"	"Segment Strategy Organization"	"CR Segment Strategy Instance Record"	String
+""	4	"inout"	"Segment Strategy Budget"	"CR Segment Strategy Instance Record"	String
+""	5	"inout"	"Segment Strategy Schedule"	"CR Segment Strategy Instance Record"	String
+""	6	"inout"	"Segment Goal Record"	"CR Segment Strategy Instance Record"	String
+""	7	"inout"	"Segment Goal Type"	"CR Segment Strategy Instance Record"	String
+""	8	"inout"	"Segment Goal Definition"	"CR Segment Strategy Instance Record"	String
+""	9	"inout"	"Segment Goal Organization"	"CR Segment Strategy Instance Record"	String
+""	10	"out"	"Segment Goal Result"	"CR Segment Strategy Instance Record"	String
+""
+"Put"	"/segment-direction/{sd-identifier}/segment-strategy/{crbq-identifier}/update"
+""	1	"inout"	"Segment Strategy Period"	"CR Segment Strategy Instance Record"	String
+""	2	"inout"	"Segment Strategy Policies & Guidelines"	"CR Segment Strategy Instance Record"	String
+""	3	"inout"	"Segment Strategy Organization"	"CR Segment Strategy Instance Record"	String
+""	4	"inout"	"Segment Strategy Budget"	"CR Segment Strategy Instance Record"	String
+""	5	"inout"	"Segment Strategy Schedule"	"CR Segment Strategy Instance Record"	String
+""	6	"inout"	"Segment Goal Record"	"CR Segment Strategy Instance Record"	String
+""	7	"inout"	"Segment Goal Type"	"CR Segment Strategy Instance Record"	String
+""	8	"inout"	"Segment Goal Definition"	"CR Segment Strategy Instance Record"	String
+""	9	"inout"	"Segment Goal Organization"	"CR Segment Strategy Instance Record"	String
+""	10	"inout"	"Segment Goal Result"	"CR Segment Strategy Instance Record"	String
+""
+"Put"	"/segment-direction/{sd-identifier}/segment-strategy/{crbq-identifier}/exchange"
+""
+"Put"	"/segment-direction/{sd-identifier}/segment-strategy/{crbq-identifier}/capture"
+""	1	"inout"	"Segment Strategy Organization"	"CR Segment Strategy Instance Record"	String
+""	2	"inout"	"Segment Strategy Budget"	"CR Segment Strategy Instance Record"	String
+""	3	"inout"	"Segment Strategy Schedule"	"CR Segment Strategy Instance Record"	String
+""	4	"inout"	"Segment Goal Record"	"CR Segment Strategy Instance Record"	String
+""	5	"inout"	"Segment Goal Type"	"CR Segment Strategy Instance Record"	String
+""	6	"inout"	"Segment Goal Definition"	"CR Segment Strategy Instance Record"	String
+""	7	"inout"	"Segment Goal Organization"	"CR Segment Strategy Instance Record"	String
+""	8	"inout"	"Segment Goal Result"	"CR Segment Strategy Instance Record"	String
+""
+"Put"	"/segment-direction/{sd-identifier}/segment-strategy/{crbq-identifier}/requisition"
+""	1	"inout"	"Segment Strategy Period"	"CR Segment Strategy Instance Record"	String
+""	2	"inout"	"Segment Strategy Policies & Guidelines"	"CR Segment Strategy Instance Record"	String
+""	3	"inout"	"Segment Strategy Organization"	"CR Segment Strategy Instance Record"	String
+""	4	"inout"	"Segment Strategy Budget"	"CR Segment Strategy Instance Record"	String
+""	5	"inout"	"Segment Strategy Schedule"	"CR Segment Strategy Instance Record"	String
+""	6	"inout"	"Segment Goal Record"	"CR Segment Strategy Instance Record"	String
+""	7	"inout"	"Segment Goal Type"	"CR Segment Strategy Instance Record"	String
+""	8	"inout"	"Segment Goal Definition"	"CR Segment Strategy Instance Record"	String
+""	9	"inout"	"Segment Goal Organization"	"CR Segment Strategy Instance Record"	String
+""	10	"inout"	"Segment Goal Result"	"CR Segment Strategy Instance Record"	String
+""
+"Put"	"/segment-direction/{sd-identifier}/segment-strategy/{crbq-identifier}/grant"
+""
+"Get"	"/segment-direction/{sd-identifier}/segment-strategy/{crbq-identifier}/retrieval"
+""	1	"out"	"Segment Strategy Period"	"CR Segment Strategy Instance Record"	String
+""	2	"out"	"Segment Strategy Policies & Guidelines"	"CR Segment Strategy Instance Record"	String
+""	3	"out"	"Segment Strategy Organization"	"CR Segment Strategy Instance Record"	String
+""	4	"out"	"Segment Strategy Budget"	"CR Segment Strategy Instance Record"	String
+""	5	"out"	"Segment Strategy Schedule"	"CR Segment Strategy Instance Record"	String
+""	6	"out"	"Segment Goal Record"	"CR Segment Strategy Instance Record"	String
+""	7	"out"	"Segment Goal Type"	"CR Segment Strategy Instance Record"	String
+""	8	"out"	"Segment Goal Definition"	"CR Segment Strategy Instance Record"	String
+""	9	"out"	"Segment Goal Organization"	"CR Segment Strategy Instance Record"	String
+""	10	"out"	"Segment Goal Result"	"CR Segment Strategy Instance Record"	String
+""
+"Post"	"/segment-direction/{sd-identifier}/initiative/{crbq-identifier}/creation"
+""	1	"inout"	"Segment Strategy Period"	"CR Segment Strategy Instance Record"	String
+""	2	"inout"	"Segment Strategy Policies & Guidelines"	"CR Segment Strategy Instance Record"	String
+""	3	"inout"	"Segment Strategy Organization"	"CR Segment Strategy Instance Record"	String
+""	4	"inout"	"Segment Strategy Budget"	"CR Segment Strategy Instance Record"	String
+""	5	"inout"	"Segment Strategy Schedule"	"CR Segment Strategy Instance Record"	String
+""	6	"inout"	"Segment Goal Record"	"CR Segment Strategy Instance Record"	String
+""	7	"inout"	"Segment Goal Type"	"CR Segment Strategy Instance Record"	String
+""	8	"inout"	"Segment Goal Definition"	"CR Segment Strategy Instance Record"	String
+""	9	"inout"	"Segment Goal Organization"	"CR Segment Strategy Instance Record"	String
+""	10	"inout"	"Segment Goal Result"	"CR Segment Strategy Instance Record"	String
+""	11	"inout"	"Segment Initiative Business Unit Reference"	"BQ Initiative Instance Record"	Object
+""	12	"inout"	"Segment Initiative Type"	"BQ Initiative Instance Record"	String
+""	13	"inout"	"Segment Initiative Description"	"BQ Initiative Instance Record"	String
+""	14	"inout"	"Segment Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	15	"out"	"Segment Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	16	"out"	"Segment Initiative Result"	"BQ Initiative Instance Record"	String
+""	17	"out"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	18	"out"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	19	"inout"	"Date Type"	"BQ Initiative Instance Record"	String
+""
+"Put"	"/segment-direction/{sd-identifier}/initiative/{crbq-identifier}/update"
+""	1	"inout"	"Segment Initiative Business Unit Reference"	"BQ Initiative Instance Record"	Object
+""	2	"inout"	"Segment Initiative Type"	"BQ Initiative Instance Record"	String
+""	3	"inout"	"Segment Initiative Description"	"BQ Initiative Instance Record"	String
+""	4	"inout"	"Segment Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	5	"inout"	"Segment Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	6	"inout"	"Segment Initiative Result"	"BQ Initiative Instance Record"	String
+""	7	"inout"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	8	"inout"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	9	"inout"	"Date Type"	"BQ Initiative Instance Record"	String
+""
+"Put"	"/segment-direction/{sd-identifier}/initiative/{crbq-identifier}/exchange"
+""
+"Put"	"/segment-direction/{sd-identifier}/initiative/{crbq-identifier}/capture"
+""	1	"inout"	"Segment Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	2	"inout"	"Segment Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	4	"inout"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	5	"inout"	"Date Type"	"BQ Initiative Instance Record"	String
+""
+"Put"	"/segment-direction/{sd-identifier}/initiative/{crbq-identifier}/requisition"
+""	1	"inout"	"Segment Initiative Business Unit Reference"	"BQ Initiative Instance Record"	Object
+""	2	"inout"	"Segment Initiative Type"	"BQ Initiative Instance Record"	String
+""	3	"inout"	"Segment Initiative Description"	"BQ Initiative Instance Record"	String
+""	4	"inout"	"Segment Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	5	"inout"	"Segment Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	6	"inout"	"Segment Initiative Result"	"BQ Initiative Instance Record"	String
+""	7	"inout"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	8	"inout"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	9	"inout"	"Date Type"	"BQ Initiative Instance Record"	String
+""
+"Get"	"/segment-direction/{sd-identifier}/initiative/{crbq-identifier}/retrieval"
+""	1	"out"	"Segment Initiative Business Unit Reference"	"BQ Initiative Instance Record"	Object
+""	2	"out"	"Segment Initiative Type"	"BQ Initiative Instance Record"	String
+""	3	"out"	"Segment Initiative Description"	"BQ Initiative Instance Record"	String
+""	4	"out"	"Segment Initiative Schedule"	"BQ Initiative Instance Record"	String
+""	5	"out"	"Segment Initiative Work Products"	"BQ Initiative Instance Record"	String
+""	6	"out"	"Segment Initiative Result"	"BQ Initiative Instance Record"	String
+""	7	"out"	"Document Directory Entry Instance Reference"	"BQ Initiative Instance Record"	Object
+""	8	"out"	"Correspondence Instance Reference"	"BQ Initiative Instance Record"	Object
+""	9	"out"	"Date Type"	"BQ Initiative Instance Record"	String

@@ -1,0 +1,23 @@
+"Control Record Model for: "	Special Pricing Conditions
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Special Pricing Conditions Directory Entry Instance Record	""	"Capture and maintain reference information about some type of entitity  within Special Pricing Conditions."	""
+"CR"	CR Special Pricing Conditions Directory Entry Instance Record	Special Pricing Conditions Directory Entry Description	"Documentation of Special Pricing Conditions Directory Entry"	String
+"CR"	CR Special Pricing Conditions Directory Entry Instance Record	Special Pricing Conditions Directory Entry Schedule	"The timetable of Special Pricing Conditions Directory Entry"	String
+"CR"	CR Special Pricing Conditions Directory Entry Instance Record	Special Pricing Conditions Directory Entry Version	"The version of Special Pricing Conditions Directory Entry"	String
+"CR"	CR Special Pricing Conditions Directory Entry Instance Record	Special Pricing Conditions Directory Entry Status	"The status of Special Pricing Conditions Directory Entry"	String
+"CR"	CR Special Pricing Conditions Directory Entry Instance Record	Special Pricing Conditions Directory Entry Usage Log	"Reference to the log of (usage) ativities/events  of Special Pricing Conditions Directory Entry"	String
+"CR"	CR Special Pricing Conditions Directory Entry Instance Record	Special Pricing Conditions Directory Entry Update Log	"Reference to the log of (update) ativities/events of Special Pricing Conditions Directory Entry"	String
+"CR"	CR Special Pricing Conditions Directory Entry Instance Record	Special Pricing Conditions Directory Entry Service Configuration	"The configuration of Special Pricing Conditions Directory Entry"	String
+"BQ"	BQ Pricing Terms Instance Record	""	"Capture and maintain reference information about some type of entitity  within Special Pricing Conditions."	""
+"BQ"	BQ Pricing Terms Instance Record	Pricing Terms Preconditions	"The required status/situation before the property is valid/meaningful"	String
+"BQ"	BQ Pricing Terms Instance Record	Pricing Terms Property Schedule	"The schedule and timing for which the property value is valid"	String
+"BQ"	BQ Pricing Terms Instance Record	Pricing Terms Version Number	"The version reference for the property value"	String
+"BQ"	BQ Pricing Terms Instance Record	Special Pricing terms	"The Special Pricing Conditions Directory Entry specific  Business Service"	Business Service
+"BQ"	BQ Pricing Terms Instance Record	Special Pricing terms Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Pricing Terms Instance Record	Special Pricing terms Service Description	"Description of the performed business service"	String
+"BQ"	BQ Pricing Terms Instance Record	Special Pricing terms Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Pricing Terms Instance Record	Special Pricing terms Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Pricing Terms Instance Record	Special Pricing terms Service Name	""	String
+"BQ"	BQ Special Pricing Conditions Outcome Instance Record	""	""	""
+"BQ"	BQ Special Pricing Conditions Outcome Instance Record	Special Pricing Conditions Entry	""	String
+"BQ"	BQ Special Pricing Conditions Outcome Instance Record	Special Pricing Conditions Work Product	""	String

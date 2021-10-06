@@ -1,0 +1,87 @@
+"Service Operations for: "	Customer Position
+""
+"POST"	"/customer-position/activation"
+"PUT"	"/customer-position/{sd-reference-id}/configuration"
+"PUT"	"/customer-position/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-position/{sd-identifier}/customer-position-state/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Position State Instance Record"	Object
+""	2	"out"	"Customer Position State Record"	"CR Customer Position State Instance Record"	String
+""
+"Put"	"/customer-position/{sd-identifier}/customer-position-state/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Position State Instance Record"	Object
+""
+"Put"	"/customer-position/{sd-identifier}/customer-position-state/{crbq-identifier}/control"
+""
+"Put"	"/customer-position/{sd-identifier}/customer-position-state/{crbq-identifier}/execution"
+""
+"Put"	"/customer-position/{sd-identifier}/customer-position-state/{crbq-identifier}/requisition"
+""
+"Get"	"/customer-position/{sd-identifier}/customer-position-state/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Position State Instance Record"	Object
+""	2	"out"	"Customer Position State Record"	"CR Customer Position State Instance Record"	String
+""
+"Put"	"/customer-position/{sd-identifier}/cashflow/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-position/{sd-identifier}/cashflow/{crbq-identifier}/capture"
+""	1	"in"	"Product Instance Reference"	"BQ Cashflow Instance Record"	Object
+""	2	"in"	"Product Fulfillment Arrangement Instance Report Type"	"BQ Cashflow Instance Record"	String
+""	3	"in"	"Report Options/Selection Criteria"	"BQ Cashflow Instance Record"	String
+""	4	"in"	"Report Period"	"BQ Cashflow Instance Record"	String
+""	5	"in"	"Report Format/Template"	"BQ Cashflow Instance Record"	String
+""	6	"out"	"Customer Cashflow Position Analysis Record"	"BQ Cashflow Instance Record"	String
+""
+"Get"	"/customer-position/{sd-identifier}/cashflow/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Position State Instance Record"	Object
+""	2	"out"	"Customer Position State Record"	"CR Customer Position State Instance Record"	String
+""	3	"out"	"Product Instance Reference"	"BQ Cashflow Instance Record"	Object
+""	4	"out"	"Product Fulfillment Arrangement Instance Report Type"	"BQ Cashflow Instance Record"	String
+""	5	"out"	"Report Options/Selection Criteria"	"BQ Cashflow Instance Record"	String
+""	6	"out"	"Report Period"	"BQ Cashflow Instance Record"	String
+""	7	"out"	"Report Format/Template"	"BQ Cashflow Instance Record"	String
+""	8	"out"	"Customer Cashflow Position Analysis Record"	"BQ Cashflow Instance Record"	String
+""
+"Put"	"/customer-position/{sd-identifier}/credit/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-position/{sd-identifier}/credit/{crbq-identifier}/capture"
+""	1	"in"	"Customer Credit Rating Assessment"	"BQ Credit Instance Record"	String
+""	2	"in"	"Customer Credit Rating Assessment Type"	"BQ Credit Instance Record"	String
+""	3	"in"	"Customer Credit Rating Narrative"	"BQ Credit Instance Record"	String
+""	4	"out"	"Customer Credit Position Analysis Record"	"BQ Credit Instance Record"	String
+""
+"Get"	"/customer-position/{sd-identifier}/credit/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Position State Instance Record"	Object
+""	2	"out"	"Customer Position State Record"	"CR Customer Position State Instance Record"	String
+""	3	"out"	"Customer Credit Rating Assessment"	"BQ Credit Instance Record"	String
+""	4	"out"	"Customer Credit Rating Assessment Type"	"BQ Credit Instance Record"	String
+""	5	"out"	"Customer Credit Rating Narrative"	"BQ Credit Instance Record"	String
+""	6	"out"	"Customer Credit Position Analysis Record"	"BQ Credit Instance Record"	String
+""
+"Put"	"/customer-position/{sd-identifier}/collateral/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-position/{sd-identifier}/collateral/{crbq-identifier}/capture"
+""	1	"in"	"Customer Reference"	"BQ Collateral Instance Record"	Object
+""	2	"in"	"Collateral Asset Type"	"BQ Collateral Instance Record"	String
+""	3	"in"	"Collateral Asset Reference"	"BQ Collateral Instance Record"	Object
+""	4	"in"	"Collateral Asset Description"	"BQ Collateral Instance Record"	String
+""	5	"in"	"Collateral Asset Administration Instance Reference"	"BQ Collateral Instance Record"	Object
+""	6	"in"	"Collateral Asset Status"	"BQ Collateral Instance Record"	String
+""	7	"in"	"Collateral Asset Valuation"	"BQ Collateral Instance Record"	String
+""	8	"in"	"Collateral Asset Allocation Profile"	"BQ Collateral Instance Record"	String
+""	9	"in"	"Collateral Asset Valuation Date"	"BQ Collateral Instance Record"	Date
+""	10	"in"	"Collateral Asset Loan to Value Ratio"	"BQ Collateral Instance Record"	String
+""	11	"out"	"Customer Collateral Position Analysis Record"	"BQ Collateral Instance Record"	String
+""
+"Get"	"/customer-position/{sd-identifier}/collateral/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Position State Instance Record"	Object
+""	2	"out"	"Customer Position State Record"	"CR Customer Position State Instance Record"	String
+""	3	"out"	"Collateral Asset Type"	"BQ Collateral Instance Record"	String
+""	4	"out"	"Collateral Asset Reference"	"BQ Collateral Instance Record"	Object
+""	5	"out"	"Collateral Asset Description"	"BQ Collateral Instance Record"	String
+""	6	"out"	"Collateral Asset Administration Instance Reference"	"BQ Collateral Instance Record"	Object
+""	7	"out"	"Collateral Asset Status"	"BQ Collateral Instance Record"	String
+""	8	"out"	"Collateral Asset Valuation"	"BQ Collateral Instance Record"	String
+""	9	"out"	"Collateral Asset Allocation Profile"	"BQ Collateral Instance Record"	String
+""	10	"out"	"Collateral Asset Valuation Date"	"BQ Collateral Instance Record"	Date
+""	11	"out"	"Collateral Asset Loan to Value Ratio"	"BQ Collateral Instance Record"	String
+""	12	"out"	"Customer Collateral Position Analysis Record"	"BQ Collateral Instance Record"	String

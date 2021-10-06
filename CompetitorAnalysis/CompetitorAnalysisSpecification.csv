@@ -1,0 +1,13 @@
+"Service Domain specification for Competitor Analysis"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Competitor Analysis
+"Role Definition"	"This service domain provides the range of competitor analysis that inform and support product and service design and business development activities and decisions. It draws on external market research and internal business intelligence gathering as necessary. A standard set of analytical views can be defined and maintained as well as targeted ad-hoc analysis as necessary"
+"Example of use"	"A product design unit obtains competitor analysis in order to refine product requirements"
+"Executive Summary"	"Solicit, consolidate and analyze competitor specific public domain data to develop competitor insights and comparisons"
+"Key Features"	"Determine the range of standard competitor analysis reports. Support ad-hoc competitor analysis request. Consolidate market research and internal information sources. Develop competitor analysis reports. Provide access to competitor analysis reports"
+"Functional Pattern"	Analyze
+"Asset Type"	Competitor
+"Generic Artifact"	Analysis
+"Control Record"	CompetitorAnalysis
+"Registration Status"	Registered

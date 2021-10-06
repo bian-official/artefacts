@@ -1,0 +1,13 @@
+"Service Domain specification for Employee Benefits"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Employee Benefits
+"Role Definition"	"Administer eligibility, subscription membership and access to employee benefits such as pensions, healthcare, holiday entitlement & services, personal finance advice, child care, counseling etc."
+"Example of use"	"A current employee requests services under their benefits entitlement"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	EmployeeBenefits
+"Generic Artifact"	AdministrativePlan
+"Control Record"	EmployeeBenefitsAdministrativePlan
+"Registration Status"	Registered

@@ -1,0 +1,521 @@
+"Service Operations for: "	Corporate Loan
+""
+"POST"	"/corporate-loan/activation"
+"PUT"	"/corporate-loan/{sd-reference-id}/configuration"
+"PUT"	"/corporate-loan/{sd-reference-id}/feedback"
+""
+"Post"	"/corporate-loan/{sd-identifier}/corporate-loan-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"in"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"in"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"in"	"Customer Agreement Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	6	"in"	"Customer Credit Assessment Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	7	"in"	"Insurance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	8	"in"	"Delinquency/Collection Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	9	"in"	"Bank Branch/Location Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	10	"in"	"Bank Accounting Unit Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	11	"in"	"Loan Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"in"	"Loan Amount"	"CR Corporate Loan Arrangement Instance Record"	Amount
+""	13	"in"	"Loan Currency"	"CR Corporate Loan Arrangement Instance Record"	CurrencyCode
+""	14	"in"	"Loan Rate Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	15	"in"	"Loan Applicable Rate"	"CR Corporate Loan Arrangement Instance Record"	Rate
+""	16	"in"	"Repayment Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	17	"in"	"Interest Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	18	"in"	"Interest Accrual Method"	"CR Corporate Loan Arrangement Instance Record"	String
+""	19	"in"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	20	"in"	"Loan Maturity Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	21	"in"	"Collateral Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	22	"in"	"Collateral Allocation"	"CR Corporate Loan Arrangement Instance Record"	String
+""	23	"in"	"Tax Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	24	"in"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	25	"in"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	26	"in"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	27	"in"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	28	"in"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	29	"in"	"Associations"	"CR Corporate Loan Arrangement Instance Record"	String
+""	30	"in"	"Association Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	31	"in"	"Association Obligation/Entitlement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	32	"in"	"Association Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	33	"in"	"Loan Repayment Schedule"	"CR Corporate Loan Arrangement Instance Record"	String
+""	34	"inout"	"Staged Repayment Statement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	35	"inout"	"Customer Commentary"	"CR Corporate Loan Arrangement Instance Record"	String
+""	36	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	37	"inout"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/corporate-loan-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"inout"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"inout"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Customer Agreement Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	6	"inout"	"Customer Credit Assessment Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	7	"inout"	"Insurance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	8	"inout"	"Delinquency/Collection Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	9	"inout"	"Bank Branch/Location Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	10	"inout"	"Bank Accounting Unit Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	11	"inout"	"Loan Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"inout"	"Loan Amount"	"CR Corporate Loan Arrangement Instance Record"	Amount
+""	13	"inout"	"Loan Currency"	"CR Corporate Loan Arrangement Instance Record"	CurrencyCode
+""	14	"inout"	"Loan Rate Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	15	"inout"	"Loan Applicable Rate"	"CR Corporate Loan Arrangement Instance Record"	Rate
+""	16	"inout"	"Repayment Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	17	"inout"	"Interest Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	18	"inout"	"Interest Accrual Method"	"CR Corporate Loan Arrangement Instance Record"	String
+""	19	"inout"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	20	"inout"	"Loan Maturity Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	21	"inout"	"Collateral Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	22	"inout"	"Collateral Allocation"	"CR Corporate Loan Arrangement Instance Record"	String
+""	23	"inout"	"Tax Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	24	"inout"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	25	"inout"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	26	"inout"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	27	"inout"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	28	"inout"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	29	"inout"	"Associations"	"CR Corporate Loan Arrangement Instance Record"	String
+""	30	"inout"	"Association Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	31	"inout"	"Association Obligation/Entitlement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	32	"inout"	"Association Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	33	"inout"	"Loan Repayment Schedule"	"CR Corporate Loan Arrangement Instance Record"	String
+""	34	"inout"	"Staged Repayment Statement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	35	"inout"	"Customer Commentary"	"CR Corporate Loan Arrangement Instance Record"	String
+""	36	"inout"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	37	"inout"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/corporate-loan-arrangement/{crbq-identifier}/control"
+""
+"Get"	"/corporate-loan/{sd-identifier}/corporate-loan-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	6	"out"	"Customer Credit Assessment Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	7	"out"	"Insurance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	8	"out"	"Delinquency/Collection Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	9	"out"	"Bank Branch/Location Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	10	"out"	"Bank Accounting Unit Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	11	"out"	"Loan Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"out"	"Loan Amount"	"CR Corporate Loan Arrangement Instance Record"	Amount
+""	13	"out"	"Loan Currency"	"CR Corporate Loan Arrangement Instance Record"	CurrencyCode
+""	14	"out"	"Loan Rate Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	15	"out"	"Loan Applicable Rate"	"CR Corporate Loan Arrangement Instance Record"	Rate
+""	16	"out"	"Repayment Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	17	"out"	"Interest Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	18	"out"	"Interest Accrual Method"	"CR Corporate Loan Arrangement Instance Record"	String
+""	19	"out"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	20	"out"	"Loan Maturity Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	21	"out"	"Collateral Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	22	"out"	"Collateral Allocation"	"CR Corporate Loan Arrangement Instance Record"	String
+""	23	"out"	"Tax Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	24	"out"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	25	"out"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	26	"out"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	27	"out"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	28	"out"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	29	"out"	"Associations"	"CR Corporate Loan Arrangement Instance Record"	String
+""	30	"out"	"Association Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	31	"out"	"Association Obligation/Entitlement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	32	"out"	"Association Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	33	"out"	"Loan Repayment Schedule"	"CR Corporate Loan Arrangement Instance Record"	String
+""	34	"out"	"Staged Repayment Statement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	35	"out"	"Customer Commentary"	"CR Corporate Loan Arrangement Instance Record"	String
+""	36	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	37	"out"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""
+"Get"	"/corporate-loan/{sd-identifier}/interest/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"out"	"Loan Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	4	"out"	"Loan Amount"	"CR Corporate Loan Arrangement Instance Record"	Amount
+""	5	"out"	"Loan Currency"	"CR Corporate Loan Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Loan Rate Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	7	"out"	"Loan Applicable Rate"	"CR Corporate Loan Arrangement Instance Record"	Rate
+""	8	"out"	"Interest Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	9	"out"	"Interest Accrual Method"	"CR Corporate Loan Arrangement Instance Record"	String
+""	10	"out"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	11	"out"	"Loan Maturity Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	12	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	13	"out"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	14	"out"	"Interest Rate Type"	"BQ Interest Instance Record"	String
+""	15	"out"	"Interest Rate Application Schedule"	"BQ Interest Instance Record"	Rate
+""	16	"out"	"Interest Rate Configuration"	"BQ Interest Instance Record"	Rate
+""	17	"out"	"Interest Application Record"	"BQ Interest Instance Record"	String
+""	18	"out"	"Interest Transaction"	"BQ Interest Instance Record"	String
+""	19	"out"	"Transaction Description"	"BQ Interest Instance Record"	String
+""	20	"out"	"Transaction Rate Type"	"BQ Interest Instance Record"	String
+""	21	"out"	"Transaction Interest Charge"	"BQ Interest Instance Record"	String
+""	22	"out"	"Interest Accrual Amount"	"BQ Interest Instance Record"	Amount
+""	23	"out"	"Interest Accrual Type"	"BQ Interest Instance Record"	String
+""	24	"out"	"Interest Accrual Charge"	"BQ Interest Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/service-fees/{crbq-identifier}/execution"
+""	1	"inout"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	2	"in"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""	3	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	4	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	5	"inout"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	6	"in"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	7	"inout"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	8	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	9	"inout"	"Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	10	"in"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	11	"inout"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	12	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	13	"out"	"Fee Accrual Amount"	"BQ Service Fees Instance Record"	Amount
+""	14	"inout"	"Accrual Fee Type"	"BQ Service Fees Instance Record"	String
+""	15	"out"	"Accrual Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Get"	"/corporate-loan/{sd-identifier}/service-fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"out"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	5	"out"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	6	"out"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	7	"out"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	8	"out"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	9	"out"	"Associations"	"CR Corporate Loan Arrangement Instance Record"	String
+""	10	"out"	"Association Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	11	"out"	"Association Obligation/Entitlement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"out"	"Association Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	13	"out"	"Customer Commentary"	"CR Corporate Loan Arrangement Instance Record"	String
+""	14	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	15	"out"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	16	"out"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	17	"out"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""	18	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	19	"out"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	20	"out"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	21	"out"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	22	"out"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	23	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	24	"out"	"Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	25	"out"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	26	"out"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	27	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	28	"out"	"Fee Accrual Amount"	"BQ Service Fees Instance Record"	Amount
+""	29	"out"	"Accrual Fee Type"	"BQ Service Fees Instance Record"	String
+""	30	"out"	"Accrual Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Get"	"/corporate-loan/{sd-identifier}/disbursement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"out"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	6	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	7	"out"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	8	"out"	"Disbursement Payee Reference"	"BQ Disbursement Instance Record"	Object
+""	9	"out"	"Disbursement Payee Product Instance Reference"	"BQ Disbursement Instance Record"	Object
+""	10	"out"	"Disbursement Payee Bank Reference"	"BQ Disbursement Instance Record"	Object
+""	11	"out"	"Disbursement Amount"	"BQ Disbursement Instance Record"	Amount
+""	12	"out"	"Disbursement Currency"	"BQ Disbursement Instance Record"	CurrencyCode
+""	13	"out"	"Disbursement Value Date"	"BQ Disbursement Instance Record"	Date
+""
+"Put"	"/corporate-loan/{sd-identifier}/maintenance/{crbq-identifier}/requisition"
+""	1	"in"	"Maintenance Report Type"	"BQ Maintenance Instance Record"	String
+""	2	"out"	"Loan Tax Report"	"BQ Maintenance Instance Record"	String
+""	3	"out"	"Loan Fee Type"	"BQ Maintenance Instance Record"	String
+""	4	"out"	"Loan Fees"	"BQ Maintenance Instance Record"	String
+""	5	"out"	"Penalties"	"BQ Maintenance Instance Record"	String
+""	6	"out"	"Collateral Valuation"	"BQ Maintenance Instance Record"	String
+""
+"Get"	"/corporate-loan/{sd-identifier}/maintenance/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	6	"out"	"Customer Credit Assessment Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	7	"out"	"Insurance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	8	"out"	"Delinquency/Collection Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	9	"out"	"Bank Branch/Location Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	10	"out"	"Bank Accounting Unit Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	11	"out"	"Loan Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"out"	"Loan Amount"	"CR Corporate Loan Arrangement Instance Record"	Amount
+""	13	"out"	"Loan Currency"	"CR Corporate Loan Arrangement Instance Record"	CurrencyCode
+""	14	"out"	"Loan Rate Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	15	"out"	"Loan Applicable Rate"	"CR Corporate Loan Arrangement Instance Record"	Rate
+""	16	"out"	"Repayment Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	17	"out"	"Interest Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	18	"out"	"Interest Accrual Method"	"CR Corporate Loan Arrangement Instance Record"	String
+""	19	"out"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	20	"out"	"Loan Maturity Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	21	"out"	"Collateral Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	22	"out"	"Collateral Allocation"	"CR Corporate Loan Arrangement Instance Record"	String
+""	23	"out"	"Tax Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	24	"out"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	25	"out"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	26	"out"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	27	"out"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	28	"out"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	29	"out"	"Associations"	"CR Corporate Loan Arrangement Instance Record"	String
+""	30	"out"	"Association Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	31	"out"	"Association Obligation/Entitlement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	32	"out"	"Association Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	33	"out"	"Loan Repayment Schedule"	"CR Corporate Loan Arrangement Instance Record"	String
+""	34	"out"	"Staged Repayment Statement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	35	"out"	"Customer Commentary"	"CR Corporate Loan Arrangement Instance Record"	String
+""	36	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	37	"out"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	38	"out"	"Maintenance Report Type"	"BQ Maintenance Instance Record"	String
+""	39	"out"	"Loan Tax Report"	"BQ Maintenance Instance Record"	String
+""	40	"out"	"Loan Fee Type"	"BQ Maintenance Instance Record"	String
+""	41	"out"	"Loan Fees"	"BQ Maintenance Instance Record"	String
+""	42	"out"	"Penalties"	"BQ Maintenance Instance Record"	String
+""	43	"out"	"Collateral Valuation"	"BQ Maintenance Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/withdrawal/{crbq-identifier}/update"
+""	1	"inout"	"Payment Transaction"	"BQ Withdrawal Instance Record"	String
+""	2	"inout"	"Payment Transaction Type"	"BQ Withdrawal Instance Record"	String
+""	3	"inout"	"Payment Transaction Payee Reference"	"BQ Withdrawal Instance Record"	Object
+""	4	"inout"	"Payment Transaction Payee Account Reference"	"BQ Withdrawal Instance Record"	Object
+""	5	"inout"	"Payment Transaction Payee Bank Reference"	"BQ Withdrawal Instance Record"	Object
+""	6	"inout"	"Payment Transaction Amount"	"BQ Withdrawal Instance Record"	Amount
+""	7	"inout"	"Payment Transaction Fee Type"	"BQ Withdrawal Instance Record"	String
+""	8	"inout"	"Payment Transaction Fee Charge"	"BQ Withdrawal Instance Record"	String
+""	9	"inout"	"Payment Transaction Date"	"BQ Withdrawal Instance Record"	Date
+""	10	"inout"	"Payment Transaction Payment Mechanism"	"BQ Withdrawal Instance Record"	String
+""	11	"inout"	"Payment Transaction Payment Purpose"	"BQ Withdrawal Instance Record"	String
+""	12	"inout"	"Payment Transaction Bank Branch/Location Reference"	"BQ Withdrawal Instance Record"	Object
+""	13	"inout"	"Payment Transaction Status"	"BQ Withdrawal Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/withdrawal/{crbq-identifier}/execution"
+""	1	"in"	"Payment Transaction"	"BQ Withdrawal Instance Record"	String
+""	2	"in"	"Payment Transaction Type"	"BQ Withdrawal Instance Record"	String
+""	3	"in"	"Payment Transaction Payee Reference"	"BQ Withdrawal Instance Record"	Object
+""	4	"in"	"Payment Transaction Payee Account Reference"	"BQ Withdrawal Instance Record"	Object
+""	5	"in"	"Payment Transaction Payee Bank Reference"	"BQ Withdrawal Instance Record"	Object
+""	6	"in"	"Payment Transaction Amount"	"BQ Withdrawal Instance Record"	Amount
+""	7	"in"	"Payment Transaction Fee Type"	"BQ Withdrawal Instance Record"	String
+""	8	"in"	"Payment Transaction Fee Charge"	"BQ Withdrawal Instance Record"	String
+""	9	"in"	"Payment Transaction Date"	"BQ Withdrawal Instance Record"	Date
+""	10	"in"	"Payment Transaction Payment Mechanism"	"BQ Withdrawal Instance Record"	String
+""	11	"in"	"Payment Transaction Payment Purpose"	"BQ Withdrawal Instance Record"	String
+""	12	"in"	"Payment Transaction Bank Branch/Location Reference"	"BQ Withdrawal Instance Record"	Object
+""	13	"inout"	"Payment Transaction Status"	"BQ Withdrawal Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/withdrawal/{crbq-identifier}/requisition"
+""	1	"in"	"Payment Transaction"	"BQ Withdrawal Instance Record"	String
+""	2	"in"	"Payment Transaction Type"	"BQ Withdrawal Instance Record"	String
+""	3	"in"	"Payment Transaction Payee Reference"	"BQ Withdrawal Instance Record"	Object
+""	4	"in"	"Payment Transaction Payee Account Reference"	"BQ Withdrawal Instance Record"	Object
+""	5	"in"	"Payment Transaction Payee Bank Reference"	"BQ Withdrawal Instance Record"	Object
+""	6	"in"	"Payment Transaction Amount"	"BQ Withdrawal Instance Record"	Amount
+""	7	"in"	"Payment Transaction Fee Type"	"BQ Withdrawal Instance Record"	String
+""	8	"in"	"Payment Transaction Fee Charge"	"BQ Withdrawal Instance Record"	String
+""	9	"in"	"Payment Transaction Date"	"BQ Withdrawal Instance Record"	Date
+""	10	"in"	"Payment Transaction Payment Mechanism"	"BQ Withdrawal Instance Record"	String
+""	11	"in"	"Payment Transaction Payment Purpose"	"BQ Withdrawal Instance Record"	String
+""	12	"in"	"Payment Transaction Bank Branch/Location Reference"	"BQ Withdrawal Instance Record"	Object
+""	13	"inout"	"Payment Transaction Status"	"BQ Withdrawal Instance Record"	String
+""
+"Get"	"/corporate-loan/{sd-identifier}/withdrawal/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"out"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	6	"out"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	7	"out"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	8	"out"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	9	"out"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	10	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	11	"out"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"out"	"Payment Transaction"	"BQ Withdrawal Instance Record"	String
+""	13	"out"	"Payment Transaction Type"	"BQ Withdrawal Instance Record"	String
+""	14	"out"	"Payment Transaction Payee Reference"	"BQ Withdrawal Instance Record"	Object
+""	15	"out"	"Payment Transaction Payee Account Reference"	"BQ Withdrawal Instance Record"	Object
+""	16	"out"	"Payment Transaction Payee Bank Reference"	"BQ Withdrawal Instance Record"	Object
+""	17	"out"	"Payment Transaction Amount"	"BQ Withdrawal Instance Record"	Amount
+""	18	"out"	"Payment Transaction Fee Type"	"BQ Withdrawal Instance Record"	String
+""	19	"out"	"Payment Transaction Fee Charge"	"BQ Withdrawal Instance Record"	String
+""	20	"out"	"Payment Transaction Date"	"BQ Withdrawal Instance Record"	Date
+""	21	"out"	"Payment Transaction Payment Mechanism"	"BQ Withdrawal Instance Record"	String
+""	22	"out"	"Payment Transaction Payment Purpose"	"BQ Withdrawal Instance Record"	String
+""	23	"out"	"Payment Transaction Bank Branch/Location Reference"	"BQ Withdrawal Instance Record"	Object
+""	24	"out"	"Payment Transaction Status"	"BQ Withdrawal Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/repayment/{crbq-identifier}/update"
+""	1	"inout"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	2	"inout"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"inout"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	4	"inout"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	5	"inout"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	6	"inout"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	7	"inout"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	8	"inout"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	9	"inout"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Put"	"/corporate-loan/{sd-identifier}/repayment/{crbq-identifier}/execution"
+""	1	"in"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	2	"in"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	3	"in"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	4	"in"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	5	"in"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	6	"in"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	7	"inout"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Put"	"/corporate-loan/{sd-identifier}/repayment/{crbq-identifier}/requisition"
+""	1	"in"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	2	"in"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	3	"in"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	4	"in"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	5	"in"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	6	"in"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	7	"inout"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Get"	"/corporate-loan/{sd-identifier}/repayment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"out"	"Repayment Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	6	"out"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	7	"out"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	8	"out"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	9	"out"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	10	"out"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	11	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"out"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	13	"out"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	14	"out"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	15	"out"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	16	"out"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	17	"out"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	18	"out"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	19	"out"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Post"	"/corporate-loan/{sd-identifier}/restructuring/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"in"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"in"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"in"	"Customer Agreement Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	6	"in"	"Customer Credit Assessment Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	7	"in"	"Insurance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	8	"in"	"Delinquency/Collection Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	9	"in"	"Bank Branch/Location Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	10	"in"	"Bank Accounting Unit Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	11	"in"	"Loan Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"in"	"Loan Amount"	"CR Corporate Loan Arrangement Instance Record"	Amount
+""	13	"in"	"Loan Currency"	"CR Corporate Loan Arrangement Instance Record"	CurrencyCode
+""	14	"in"	"Loan Rate Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	15	"in"	"Loan Applicable Rate"	"CR Corporate Loan Arrangement Instance Record"	Rate
+""	16	"in"	"Repayment Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	17	"in"	"Interest Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	18	"in"	"Interest Accrual Method"	"CR Corporate Loan Arrangement Instance Record"	String
+""	19	"in"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	20	"in"	"Loan Maturity Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	21	"in"	"Collateral Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	22	"in"	"Collateral Allocation"	"CR Corporate Loan Arrangement Instance Record"	String
+""	23	"in"	"Tax Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	24	"in"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	25	"in"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	26	"in"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	27	"in"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	28	"in"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	29	"in"	"Associations"	"CR Corporate Loan Arrangement Instance Record"	String
+""	30	"in"	"Association Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	31	"in"	"Association Obligation/Entitlement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	32	"in"	"Association Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	33	"in"	"Loan Repayment Schedule"	"CR Corporate Loan Arrangement Instance Record"	String
+""	34	"inout"	"Staged Repayment Statement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	35	"inout"	"Customer Commentary"	"CR Corporate Loan Arrangement Instance Record"	String
+""	36	"inout"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	37	"inout"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	38	"inout"	"Restructuring Task"	"BQ Restructuring Instance Record"	String
+""	39	"out"	"Restructuring Evaluation"	"BQ Restructuring Instance Record"	String
+""	40	"out"	"Restructuring Write Down"	"BQ Restructuring Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/restructuring/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"inout"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"inout"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Customer Agreement Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	6	"inout"	"Customer Credit Assessment Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	7	"inout"	"Insurance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	8	"inout"	"Delinquency/Collection Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	9	"inout"	"Bank Branch/Location Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	10	"inout"	"Bank Accounting Unit Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	11	"inout"	"Loan Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"inout"	"Loan Amount"	"CR Corporate Loan Arrangement Instance Record"	Amount
+""	13	"inout"	"Loan Currency"	"CR Corporate Loan Arrangement Instance Record"	CurrencyCode
+""	14	"inout"	"Loan Rate Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	15	"inout"	"Loan Applicable Rate"	"CR Corporate Loan Arrangement Instance Record"	Rate
+""	16	"inout"	"Repayment Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	17	"inout"	"Interest Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	18	"inout"	"Interest Accrual Method"	"CR Corporate Loan Arrangement Instance Record"	String
+""	19	"inout"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	20	"inout"	"Loan Maturity Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	21	"inout"	"Collateral Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	22	"inout"	"Collateral Allocation"	"CR Corporate Loan Arrangement Instance Record"	String
+""	23	"inout"	"Tax Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	24	"inout"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	25	"inout"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	26	"inout"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	27	"inout"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	28	"inout"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	29	"inout"	"Associations"	"CR Corporate Loan Arrangement Instance Record"	String
+""	30	"inout"	"Association Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	31	"inout"	"Association Obligation/Entitlement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	32	"inout"	"Association Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	33	"inout"	"Loan Repayment Schedule"	"CR Corporate Loan Arrangement Instance Record"	String
+""	34	"inout"	"Staged Repayment Statement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	35	"inout"	"Customer Commentary"	"CR Corporate Loan Arrangement Instance Record"	String
+""	36	"inout"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	37	"inout"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	38	"inout"	"Restructuring Task"	"BQ Restructuring Instance Record"	String
+""	39	"inout"	"Restructuring Evaluation"	"BQ Restructuring Instance Record"	String
+""	40	"inout"	"Restructuring Write Down"	"BQ Restructuring Instance Record"	String
+""
+"Put"	"/corporate-loan/{sd-identifier}/restructuring/{crbq-identifier}/exchange"
+""
+"Put"	"/corporate-loan/{sd-identifier}/restructuring/{crbq-identifier}/requisition"
+""	1	"inout"	"Restructuring Task"	"BQ Restructuring Instance Record"	String
+""	2	"out"	"Restructuring Evaluation"	"BQ Restructuring Instance Record"	String
+""	3	"out"	"Restructuring Write Down"	"BQ Restructuring Instance Record"	String
+""
+"Get"	"/corporate-loan/{sd-identifier}/restructuring/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Loan Number"	"CR Corporate Loan Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	6	"out"	"Customer Credit Assessment Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	7	"out"	"Insurance Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	8	"out"	"Delinquency/Collection Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	9	"out"	"Bank Branch/Location Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	10	"out"	"Bank Accounting Unit Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	11	"out"	"Loan Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	12	"out"	"Loan Amount"	"CR Corporate Loan Arrangement Instance Record"	Amount
+""	13	"out"	"Loan Currency"	"CR Corporate Loan Arrangement Instance Record"	CurrencyCode
+""	14	"out"	"Loan Rate Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	15	"out"	"Loan Applicable Rate"	"CR Corporate Loan Arrangement Instance Record"	Rate
+""	16	"out"	"Repayment Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	17	"out"	"Interest Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	18	"out"	"Interest Accrual Method"	"CR Corporate Loan Arrangement Instance Record"	String
+""	19	"out"	"Loan Origination Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	20	"out"	"Loan Maturity Date"	"CR Corporate Loan Arrangement Instance Record"	Date
+""	21	"out"	"Collateral Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	22	"out"	"Collateral Allocation"	"CR Corporate Loan Arrangement Instance Record"	String
+""	23	"out"	"Tax Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	24	"out"	"Loan Access Terms"	"CR Corporate Loan Arrangement Instance Record"	String
+""	25	"out"	"Entitlement Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	26	"out"	"Entitlement Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	27	"out"	"Restriction Option Definition"	"CR Corporate Loan Arrangement Instance Record"	String
+""	28	"out"	"Restriction Option Setting"	"CR Corporate Loan Arrangement Instance Record"	String
+""	29	"out"	"Associations"	"CR Corporate Loan Arrangement Instance Record"	String
+""	30	"out"	"Association Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	31	"out"	"Association Obligation/Entitlement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	32	"out"	"Association Reference"	"CR Corporate Loan Arrangement Instance Record"	Object
+""	33	"out"	"Loan Repayment Schedule"	"CR Corporate Loan Arrangement Instance Record"	String
+""	34	"out"	"Staged Repayment Statement"	"CR Corporate Loan Arrangement Instance Record"	String
+""	35	"out"	"Customer Commentary"	"CR Corporate Loan Arrangement Instance Record"	String
+""	36	"out"	"Loan Outstanding Balance"	"CR Corporate Loan Arrangement Instance Record"	String
+""	37	"out"	"Date Type"	"CR Corporate Loan Arrangement Instance Record"	String
+""	38	"out"	"Restructuring Task"	"BQ Restructuring Instance Record"	String
+""	39	"out"	"Restructuring Evaluation"	"BQ Restructuring Instance Record"	String
+""	40	"out"	"Restructuring Write Down"	"BQ Restructuring Instance Record"	String

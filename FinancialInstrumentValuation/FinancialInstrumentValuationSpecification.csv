@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Instrument Valuation"
+"Business Area"	Products
+"Business Domain"	Market Operations
+"Service Domain"	Financial Instrument Valuation
+"Role Definition"	"Provide securities valuation services, including mark to market and other pricing mechanisms"
+"Example of use"	"A selection of market assets are valued using a number of valuation perspectives"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	MarketAssetValuation
+"Generic Artifact"	Procedure
+"Control Record"	MarketAssetValuationProcedure
+"Registration Status"	Registered

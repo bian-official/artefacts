@@ -1,0 +1,46 @@
+"Control Record Model for: "	Leasing Item Administration
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Leasing Item Administrative Plan Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Leasing Item Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"CR"	CR Leasing Item Administrative Plan Instance Record	Leasing Item Administrative Plan Budget Type	"A Classification value that distinguishes between Budgets within Leasing Item Administrative Plan according to the type of resource and/or activity that is budgetted"	String
+"CR"	CR Leasing Item Administrative Plan Instance Record	Leasing Item Administrative Plan Budget	"An estimate of costs, revenues, and resources  over a specified period which is defined for Leasing Item Administrative Plan"	String
+"CR"	CR Leasing Item Administrative Plan Instance Record	Leasing Item Administrative Plan Assignment	"The allocation of someone or something which is specified for Leasing Item Administrative Plan"	String
+"CR"	CR Leasing Item Administrative Plan Instance Record	Leasing Item Administrative Plan	"A plan that defines clerical support for LeasingItem"	String
+"CR"	CR Leasing Item Administrative Plan Instance Record	Leasing Item Administrative Plan Reference	"Party who is involved in  Leasing Item Administrative Plan"	Object
+"BQ"	BQ Assurance Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Leasing Item Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Assurance Instance Record	Assurance Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Assurance Instance Record	Assurance Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Assurance Instance Record	Assurance Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Assurance Instance Record	Collateral Item Assurance	"The Leasing Item Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Assurance Instance Record	Assurance Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Description	"Description of the performed business service"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Name	""	String
+"BQ"	BQ Leasing Item Administration Outcome Instance Record	""	""	""
+"BQ"	BQ Leasing Item Administration Outcome Instance Record	Leasing Item Administration Performance Analysis	""	String
+"BQ"	BQ Leasing Item Administration Outcome Instance Record	Leasing Item Administration Activity Analysis	""	String
+"BQ"	BQ Leasing Item Administration Outcome Instance Record	Leasing Item Administration Administrative Plan	""	String
+"BQ"	BQ Leasing Item Administration Outcome Instance Record	Leasing Item Administration Administration Task	""	String
+"BQ"	BQ Registration Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Leasing Item Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Registration Instance Record	Registration Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Registration Instance Record	Registration Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Registration Instance Record	Registration Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Registration Instance Record	Collateral Registration	"The Leasing Item Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Registration Instance Record	Registration Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Registration Instance Record	Registration Collateral Registration Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Registration Instance Record	Registration Collateral Registration Service Description	"Description of the performed business service"	String
+"BQ"	BQ Registration Instance Record	Registration Collateral Registration Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Registration Instance Record	Registration Collateral Registration Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Registration Instance Record	Registration Collateral Registration Service Name	""	String
+"BQ"	BQ Valuation Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Leasing Item Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Valuation Instance Record	Valuation Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Valuation Instance Record	Valuation Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Valuation Instance Record	Valuation Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Valuation Instance Record	Business Service	"The Leasing Item Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Valuation Instance Record	Valuation Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Valuation Instance Record	Valuation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Valuation Instance Record	Valuation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Valuation Instance Record	Valuation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Valuation Instance Record	Valuation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Valuation Instance Record	Valuation Service Name	""	String

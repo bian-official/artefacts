@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Treasury"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Group Treasury
+"Service Domain"	Corporate Treasury
+"Role Definition"	"This service domain manages and administers the consolidation of transaction details and summaries in order to derive and report on the array of consolidated positions managed by Treasury. This includes the assembly of related maturity ladders (cash flow projections) and managing tactical and strategic funding activity for the bank. It is also responsible for tracking prevailing market conditions and determining the various bank rates that should be applied throughout the bank"
+"Example of use"	"The Bank Treasury consolidates trading and lending activity across its corporate clients to develop timely views of current positions and maturity projections"
+"Executive Summary"	"This service domain orchestrates the consolidation and presentation of summary transaction details in order to assemble a timely and accurate view of the overall treasury position of the Bank at any one time. It is also responsible for determining the different interest and exchange rates applied to different products and services within the bank"
+"Key Features"	"Track the banks treasury positions. Ensure bank liquidity. Manage tactical funding activities. Manage strategic funding activities. Initiate securitization activities. Determine and publish bank interest and exchange rates"
+"Functional Pattern"	Manage
+"Asset Type"	CorporateTreasury
+"Generic Artifact"	ManagementPlan
+"Control Record"	CorporateTreasuryManagementPlan
+"Registration Status"	Registered

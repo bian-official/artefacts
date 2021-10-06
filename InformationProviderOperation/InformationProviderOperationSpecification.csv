@@ -1,0 +1,13 @@
+"Service Domain specification for Information Provider Operation"
+"Business Area"	Channels
+"Business Domain"	Information Providers
+"Service Domain"	Information Provider Operation
+"Role Definition"	"Operate the interface for importing data feeds from commercial information providers and internal broadcast pages"
+"Example of use"	"A trader has subscribed to and references market price feeds at their trading desk"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	InformationFeed
+"Generic Artifact"	OperatingSession
+"Control Record"	InformationFeedOperatingSession
+"Registration Status"	Registered

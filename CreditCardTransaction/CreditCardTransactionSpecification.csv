@@ -1,0 +1,13 @@
+"Service Domain specification for Credit Card Transaction"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Credit Card Transaction
+"Role Definition"	"The Credit Card Transaction Service Domain manages credit card transactions during the course of their life, from the moment a transaction is initiated, i.e. a request for authorisation, to the moment it is archived. Through its lifecycle a card transaction passes through a number of states, like pending for authorisation, authorised or rejected, completed, cleared (= booked). Charge cards are to be seen as a special form of Credit Cards."
+"Example of use"	"An authorisation request from a PoS terminal creates a credit card transaction in a pending for authorisation status.. Authorisation by the issuing bank changes the status of the transaction to authorised.. Any subsequenctly executed Business Scenario moves the transaction one status further in its lifecycle."
+"Executive Summary"	"This Service Domain manages a credit card transaction from its initiation (request for authorisation) to its clearing."
+"Key Features"	"- Record Request for Authorisation. - Authorise or Reject Authorisation Request. - Clear Transaction"
+"Functional Pattern"	Process
+"Asset Type"	CreditCardTransaction
+"Generic Artifact"	Procedure
+"Control Record"	CreditCardTransactionProcedure
+"Registration Status"	Provisional

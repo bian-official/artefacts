@@ -1,0 +1,17 @@
+"Control Record Model for: "	Legal Compliance
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Legal Compliance Assessment Instance Record	""	""	""
+"CR"	CR Legal Compliance Assessment Instance Record	Legal Assessment Type	"The type of law that is applied by the assessment action"	String
+"CR"	CR Legal Compliance Assessment Instance Record	Business Unit Reference	"The business function or unit assessed if appropriate"	Object
+"CR"	CR Legal Compliance Assessment Instance Record	ProductandService Reference	"The associated product/service being assessed if appropriate"	Object
+"CR"	CR Legal Compliance Assessment Instance Record	Customer Reference	"Reference to the customer assessed if appropriate"	Object
+"CR"	CR Legal Compliance Assessment Instance Record	Jurisdiction Reference	"Indication of the legal jurisdiction that applies"	Object
+"CR"	CR Legal Compliance Assessment Instance Record	Law Reference	"Reference to the specific law"	Object
+"CR"	CR Legal Compliance Assessment Instance Record	Law Definition	"A definition of the required behavior to remain within the law"	String
+"CR"	CR Legal Compliance Assessment Instance Record	Law Compliance and Reporting Requirements	"Description of the measurements and reporting required to demonstrate legal compliance"	String
+"CR"	CR Legal Compliance Assessment Instance Record	Law Compliance Accountability	"Explanation of the business context, responsibility and accountability for legal compliance"	String
+"CR"	CR Legal Compliance Assessment Instance Record	Legal Penalties	"Outline of the possible implications of breaking the law"	String
+"CR"	CR Legal Compliance Assessment Instance Record	Legal Guideline	"Guidelines and requirements for following the law"	String
+"CR"	CR Legal Compliance Assessment Instance Record	Document Reference	"Reference to any documentation classified/archived as appropriate"	Object
+"CR"	CR Legal Compliance Assessment Instance Record	Legal Assessment Work Products	"Work documentation, forms and schedules produced and referenced during the legal assessment action"	String
+"CR"	CR Legal Compliance Assessment Instance Record	Legal Assessment Result	"Outcome/result of the legal assessment, this can include remedial actions"	String

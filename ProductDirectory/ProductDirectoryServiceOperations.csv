@@ -1,0 +1,120 @@
+"Service Operations for: "	Product Directory
+""
+"POST"	"/product-directory/activation"
+"PUT"	"/product-directory/{sd-reference-id}/configuration"
+"PUT"	"/product-directory/{sd-reference-id}/feedback"
+""
+"Post"	"/product-directory/{sd-identifier}/product-directory-entry/{crbq-identifier}/registration"
+""	1	"in"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"in"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""
+"Put"	"/product-directory/{sd-identifier}/product-directory-entry/{crbq-identifier}/update"
+""	1	"inout"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"inout"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""
+"Put"	"/product-directory/{sd-identifier}/product-directory-entry/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"inout"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""
+"Get"	"/product-directory/{sd-identifier}/product-directory-entry/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"out"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""
+"Post"	"/product-directory/{sd-identifier}/operations/{crbq-identifier}/registration"
+""	1	"in"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"in"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"in"	"Product/Service Operating Schedule"	"BQ Operations Instance Record"	String
+""	4	"in"	"Product/Service Configuration Parameter Type"	"BQ Operations Instance Record"	String
+""	5	"in"	"Product/Service Configuration Parameter Description"	"BQ Operations Instance Record"	String
+""	6	"in"	"Product/Service Configuration Parameter Setting"	"BQ Operations Instance Record"	String
+""
+"Put"	"/product-directory/{sd-identifier}/operations/{crbq-identifier}/update"
+""	1	"inout"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"inout"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"inout"	"Product/Service Operating Schedule"	"BQ Operations Instance Record"	String
+""	4	"inout"	"Product/Service Configuration Parameter Type"	"BQ Operations Instance Record"	String
+""	5	"inout"	"Product/Service Configuration Parameter Description"	"BQ Operations Instance Record"	String
+""	6	"inout"	"Product/Service Configuration Parameter Setting"	"BQ Operations Instance Record"	String
+""
+"Get"	"/product-directory/{sd-identifier}/operations/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"out"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"out"	"Product/Service Operating Schedule"	"BQ Operations Instance Record"	String
+""	4	"out"	"Product/Service Configuration Parameter Type"	"BQ Operations Instance Record"	String
+""	5	"out"	"Product/Service Configuration Parameter Description"	"BQ Operations Instance Record"	String
+""	6	"out"	"Product/Service Configuration Parameter Setting"	"BQ Operations Instance Record"	String
+""
+"Post"	"/product-directory/{sd-identifier}/sales-and-marketing/{crbq-identifier}/registration"
+""	1	"in"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"in"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"in"	"Product/Service Sales Material"	"BQ Sales and Marketing Instance Record"	String
+""	4	"in"	"Product/Services Features & Options"	"BQ Sales and Marketing Instance Record"	String
+""	5	"in"	"Product/Service Pricing Table"	"BQ Sales and Marketing Instance Record"	String
+""	6	"in"	"Product/Service Fees/Penalties Table"	"BQ Sales and Marketing Instance Record"	String
+""	7	"in"	"Product Suitability Guide"	"BQ Sales and Marketing Instance Record"	String
+""	8	"in"	"Product/Service Eligibility Type"	"BQ Sales and Marketing Instance Record"	String
+""	9	"in"	"Product/Service Eligibility Description"	"BQ Sales and Marketing Instance Record"	String
+""	10	"in"	"Product/Service Offer Processing Requirements"	"BQ Sales and Marketing Instance Record"	String
+""
+"Put"	"/product-directory/{sd-identifier}/sales-and-marketing/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Sales Material"	"BQ Sales and Marketing Instance Record"	String
+""	2	"inout"	"Product/Services Features & Options"	"BQ Sales and Marketing Instance Record"	String
+""	3	"inout"	"Product/Service Pricing Table"	"BQ Sales and Marketing Instance Record"	String
+""	4	"inout"	"Product/Service Fees/Penalties Table"	"BQ Sales and Marketing Instance Record"	String
+""	5	"inout"	"Product Suitability Guide"	"BQ Sales and Marketing Instance Record"	String
+""	6	"inout"	"Product/Service Eligibility Type"	"BQ Sales and Marketing Instance Record"	String
+""	7	"inout"	"Product/Service Eligibility Description"	"BQ Sales and Marketing Instance Record"	String
+""	8	"inout"	"Product/Service Offer Processing Requirements"	"BQ Sales and Marketing Instance Record"	String
+""
+"Get"	"/product-directory/{sd-identifier}/sales-and-marketing/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"out"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"out"	"Product/Service Sales Material"	"BQ Sales and Marketing Instance Record"	String
+""	4	"out"	"Product/Services Features & Options"	"BQ Sales and Marketing Instance Record"	String
+""	5	"out"	"Product/Service Pricing Table"	"BQ Sales and Marketing Instance Record"	String
+""	6	"out"	"Product/Service Fees/Penalties Table"	"BQ Sales and Marketing Instance Record"	String
+""	7	"out"	"Product Suitability Guide"	"BQ Sales and Marketing Instance Record"	String
+""	8	"out"	"Product/Service Eligibility Type"	"BQ Sales and Marketing Instance Record"	String
+""	9	"out"	"Product/Service Eligibility Description"	"BQ Sales and Marketing Instance Record"	String
+""	10	"out"	"Product/Service Offer Processing Requirements"	"BQ Sales and Marketing Instance Record"	String
+""
+"Post"	"/product-directory/{sd-identifier}/servicing/{crbq-identifier}/registration"
+""	1	"in"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"in"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"in"	"Product/Service Feature"	"BQ Servicing Instance Record"	String
+""	4	"in"	"Product/Service Feature Guideline"	"BQ Servicing Instance Record"	String
+""	5	"in"	"Product/Service Feature Problem Diagnosis"	"BQ Servicing Instance Record"	String
+""	6	"in"	"Product/Service Feature Problem Resolution"	"BQ Servicing Instance Record"	String
+""
+"Put"	"/product-directory/{sd-identifier}/servicing/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Feature"	"BQ Servicing Instance Record"	String
+""	2	"inout"	"Product/Service Feature Guideline"	"BQ Servicing Instance Record"	String
+""	3	"inout"	"Product/Service Feature Problem Diagnosis"	"BQ Servicing Instance Record"	String
+""	4	"inout"	"Product/Service Feature Problem Resolution"	"BQ Servicing Instance Record"	String
+""
+"Get"	"/product-directory/{sd-identifier}/servicing/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"out"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"out"	"Product/Service Feature"	"BQ Servicing Instance Record"	String
+""	4	"out"	"Product/Service Feature Guideline"	"BQ Servicing Instance Record"	String
+""	5	"out"	"Product/Service Feature Problem Diagnosis"	"BQ Servicing Instance Record"	String
+""	6	"out"	"Product/Service Feature Problem Resolution"	"BQ Servicing Instance Record"	String
+""
+"Post"	"/product-directory/{sd-identifier}/production/{crbq-identifier}/registration"
+""	1	"in"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"in"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"in"	"Product/Service Location Availability"	"BQ Production Instance Record"	String
+""	4	"in"	"Product/Service Time Availability"	"BQ Production Instance Record"	String
+""	5	"in"	"Product/Service Access Availability"	"BQ Production Instance Record"	String
+""
+"Put"	"/product-directory/{sd-identifier}/production/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Location Availability"	"BQ Production Instance Record"	String
+""	2	"inout"	"Product/Service Time Availability"	"BQ Production Instance Record"	String
+""	3	"inout"	"Product/Service Access Availability"	"BQ Production Instance Record"	String
+""
+"Get"	"/product-directory/{sd-identifier}/production/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Version"	"CR Product Directory Entry Instance Record"	String
+""	2	"out"	"Product Directory Entry Configuration"	"CR Product Directory Entry Instance Record"	String
+""	3	"out"	"Product/Service Location Availability"	"BQ Production Instance Record"	String
+""	4	"out"	"Product/Service Time Availability"	"BQ Production Instance Record"	String
+""	5	"out"	"Product/Service Access Availability"	"BQ Production Instance Record"	String

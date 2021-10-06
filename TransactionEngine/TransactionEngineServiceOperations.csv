@@ -1,0 +1,97 @@
+"Service Operations for: "	Transaction Engine
+""
+"POST"	"/transaction-engine/activation"
+"PUT"	"/transaction-engine/{sd-reference-id}/configuration"
+"PUT"	"/transaction-engine/{sd-reference-id}/feedback"
+""
+"Post"	"/transaction-engine/{sd-identifier}/transaction-schedule-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Product Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	2	"inout"	"Product/Service Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	3	"inout"	"Transaction Schedule Fulfillment Schedule"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	4	"inout"	"Transaction Schedule Work Task Record"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	5	"inout"	"Transaction Schedule Work Task Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	6	"out"	"Transaction Schedule Work Task Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	7	"inout"	"Transaction Schedule Work Task Work Products"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	9	"out"	"Transaction Schedule Work Task Result"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	10	"out"	"Transaction Schedule Task Fee Transaction"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	11	"out"	"Transaction Schedule Work Task Fee Transaction Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	12	"out"	"Transaction Schedule Work Task Fee Transaction Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	13	"out"	"Transaction Schedule Work Task Fee Transaction Charge"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	14	"inout"	"Transaction Schedule Financial Transaction"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	15	"out"	"Transaction Schedule Financial Transaction Product Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	16	"out"	"Transaction Schedule Financial Transaction Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	17	"out"	"Transaction Schedule Financial Transaction Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	18	"out"	"Transaction Schedule Financial Transaction Amount"	"CR Transaction Schedule Arrangement Instance Record"	Amount
+""	19	"out"	"Correspondence Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	20	"inout"	"Date Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""
+"Put"	"/transaction-engine/{sd-identifier}/transaction-schedule-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	2	"inout"	"Product/Service Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	3	"inout"	"Transaction Schedule Fulfillment Schedule"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	4	"inout"	"Transaction Schedule Work Task Record"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	5	"inout"	"Transaction Schedule Work Task Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	6	"inout"	"Transaction Schedule Work Task Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	7	"inout"	"Transaction Schedule Work Task Work Products"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	9	"inout"	"Transaction Schedule Work Task Result"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	10	"inout"	"Transaction Schedule Task Fee Transaction"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	11	"inout"	"Transaction Schedule Work Task Fee Transaction Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	12	"inout"	"Transaction Schedule Work Task Fee Transaction Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	13	"inout"	"Transaction Schedule Work Task Fee Transaction Charge"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	14	"inout"	"Transaction Schedule Financial Transaction"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	15	"inout"	"Transaction Schedule Financial Transaction Product Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	16	"inout"	"Transaction Schedule Financial Transaction Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	17	"inout"	"Transaction Schedule Financial Transaction Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	18	"inout"	"Transaction Schedule Financial Transaction Amount"	"CR Transaction Schedule Arrangement Instance Record"	Amount
+""	19	"inout"	"Correspondence Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	20	"inout"	"Date Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""
+"Put"	"/transaction-engine/{sd-identifier}/transaction-schedule-arrangement/{crbq-identifier}/control"
+""
+"Put"	"/transaction-engine/{sd-identifier}/transaction-schedule-arrangement/{crbq-identifier}/exchange"
+""
+"Put"	"/transaction-engine/{sd-identifier}/transaction-schedule-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Product Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	2	"inout"	"Product/Service Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	3	"inout"	"Transaction Schedule Fulfillment Schedule"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	4	"inout"	"Transaction Schedule Work Task Record"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	5	"inout"	"Transaction Schedule Work Task Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	6	"out"	"Transaction Schedule Work Task Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	7	"inout"	"Transaction Schedule Work Task Work Products"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	9	"out"	"Transaction Schedule Work Task Result"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	10	"out"	"Transaction Schedule Task Fee Transaction"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	11	"out"	"Transaction Schedule Work Task Fee Transaction Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	12	"out"	"Transaction Schedule Work Task Fee Transaction Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	13	"out"	"Transaction Schedule Work Task Fee Transaction Charge"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	14	"inout"	"Transaction Schedule Financial Transaction"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	15	"out"	"Transaction Schedule Financial Transaction Product Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	16	"out"	"Transaction Schedule Financial Transaction Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	17	"out"	"Transaction Schedule Financial Transaction Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	18	"out"	"Transaction Schedule Financial Transaction Amount"	"CR Transaction Schedule Arrangement Instance Record"	Amount
+""	19	"out"	"Correspondence Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	20	"inout"	"Date Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""
+"Get"	"/transaction-engine/{sd-identifier}/transaction-schedule-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	2	"out"	"Product/Service Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	3	"out"	"Transaction Schedule Fulfillment Schedule"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	4	"out"	"Transaction Schedule Work Task Record"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	5	"out"	"Transaction Schedule Work Task Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	6	"out"	"Transaction Schedule Work Task Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	7	"out"	"Transaction Schedule Work Task Work Products"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	9	"out"	"Transaction Schedule Work Task Result"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	10	"out"	"Transaction Schedule Task Fee Transaction"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	11	"out"	"Transaction Schedule Work Task Fee Transaction Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	12	"out"	"Transaction Schedule Work Task Fee Transaction Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	13	"out"	"Transaction Schedule Work Task Fee Transaction Charge"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	14	"out"	"Transaction Schedule Financial Transaction"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	15	"out"	"Transaction Schedule Financial Transaction Product Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	16	"out"	"Transaction Schedule Financial Transaction Type"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	17	"out"	"Transaction Schedule Financial Transaction Description"	"CR Transaction Schedule Arrangement Instance Record"	String
+""	18	"out"	"Transaction Schedule Financial Transaction Amount"	"CR Transaction Schedule Arrangement Instance Record"	Amount
+""	19	"out"	"Correspondence Instance Reference"	"CR Transaction Schedule Arrangement Instance Record"	Object
+""	20	"out"	"Date Type"	"CR Transaction Schedule Arrangement Instance Record"	String

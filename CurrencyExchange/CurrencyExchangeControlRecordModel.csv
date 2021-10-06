@@ -1,0 +1,51 @@
+"Control Record Model for: "	Currency Exchange
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Currency Exchange Transaction Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Currency Exchange. . Example: Execute a payment transaction."	""
+"CR"	CR Currency Exchange Transaction Instance Record	Currency Exchange Transaction Parameter Type	"A Classification value that distinguishes between business service transaction within Currency Exchange Transaction"	String
+"CR"	CR Currency Exchange Transaction Instance Record	Currency Exchange Transaction Selected Option	"A selected optional business service as subject matter of Currency Exchange Transaction"	String
+"CR"	CR Currency Exchange Transaction Instance Record	Currency Exchange Transaction Status	"The status of Currency Exchange Transaction"	String
+"CR"	CR Currency Exchange Transaction Instance Record	Currency Exchange Transaction Type	"A Classification value that specifies type of business action for this  Currency Exchange Transaction"	String
+"CR"	CR Currency Exchange Transaction Instance Record	Currency Exchange Transaction Transaction Type	"A Classification value that specifies type of transaction for this  Currency Exchange Transaction"	String
+"CR"	CR Currency Exchange Transaction Instance Record	Currency Exchange Transaction Transaction	"Reference to Currency Exchange Transaction"	String
+"BQ"	BQ FXTransaction Capture Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Currency Exchange. . Example: Execute a payment transaction."	""
+"BQ"	BQ FXTransaction Capture Instance Record	FXTransaction Capture Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ FXTransaction Capture Instance Record	FXTransaction Capture Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ FXTransaction Capture Instance Record	FX Transaction Capture	"The Currency Exchange Transaction specific Business Service"	Business Service
+"BQ"	BQ FXTransaction Capture Instance Record	FXTransaction Capture Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ FXTransaction Capture Instance Record	FXTransaction Capture FX Transaction Capture Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ FXTransaction Capture Instance Record	FXTransaction Capture FX Transaction Capture Service Description	"Description of the performed business service"	String
+"BQ"	BQ FXTransaction Capture Instance Record	FXTransaction Capture FX Transaction Capture Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ FXTransaction Capture Instance Record	FXTransaction Capture FX Transaction Capture Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ FXTransaction Capture Instance Record	FXTransaction Capture FX Transaction Capture Service Name	""	String
+"BQ"	BQ FXTransaction Pricing Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Currency Exchange. . Example: Execute a payment transaction."	""
+"BQ"	BQ FXTransaction Pricing Instance Record	FXTransaction Pricing Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ FXTransaction Pricing Instance Record	FXTransaction Pricing Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ FXTransaction Pricing Instance Record	OTC FX Transaction Pricing	"The Currency Exchange Transaction specific Business Service"	Business Service
+"BQ"	BQ FXTransaction Pricing Instance Record	FXTransaction Pricing Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ FXTransaction Pricing Instance Record	FXTransaction Pricing OTC FX Transaction Pricing Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ FXTransaction Pricing Instance Record	FXTransaction Pricing OTC FX Transaction Pricing Service Description	"Description of the performed business service"	String
+"BQ"	BQ FXTransaction Pricing Instance Record	FXTransaction Pricing OTC FX Transaction Pricing Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ FXTransaction Pricing Instance Record	FXTransaction Pricing OTC FX Transaction Pricing Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ FXTransaction Pricing Instance Record	FXTransaction Pricing OTC FX Transaction Pricing Service Name	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	""	""	""
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Calendar	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Counterparty	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Dividend	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Fees	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Interest	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Margining	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Notional Principal	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Options	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Rates	""	Rate
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Settlement	""	String
+"BQ"	BQ Currency Exchange Outcome Instance Record	Currency Exchange Work Product	""	String
+"BQ"	BQ Document Handling Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Currency Exchange. . Example: Execute a payment transaction."	""
+"BQ"	BQ Document Handling Instance Record	Document Handling Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Document Handling Instance Record	Document Handling Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Document Handling Instance Record	Document Services	"The Currency Exchange Transaction specific Business Service"	Business Service
+"BQ"	BQ Document Handling Instance Record	Document Handling Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Document Handling Instance Record	Document Handling Document Services Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Document Handling Instance Record	Document Handling Document Services Service Description	"Description of the performed business service"	String
+"BQ"	BQ Document Handling Instance Record	Document Handling Document Services Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Document Handling Instance Record	Document Handling Document Services Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Document Handling Instance Record	Document Handling Document Services Service Name	""	String

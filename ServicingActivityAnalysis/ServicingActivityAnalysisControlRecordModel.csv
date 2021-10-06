@@ -1,0 +1,17 @@
+"Control Record Model for: "	Servicing Activity Analysis
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Servicing Root Cause Analysis Instance Record	""	""	""
+"CR"	CR Servicing Root Cause Analysis Instance Record	Servicing Activity Type	"The type of servicing activity for which the analysis is performed (e.g. self service, contact center assisted,  ATM access)"	String
+"CR"	CR Servicing Root Cause Analysis Instance Record	Servicing Activity Analysis Period	"The period covered by the analysis (from to date time)"	String
+"CR"	CR Servicing Root Cause Analysis Instance Record	Servicing Activity Analysis Type	"The type of root cause analysis - defines the scope and type of root cause issue that is being detected (e.g. service dialogue, click-stream, product processing issues, servicing representative performance)"	String
+"CR"	CR Servicing Root Cause Analysis Instance Record	Servicing Activity Analysis Result	"The result of the servicing activity analysis - typically the consolidated view from applying multiple underlying root cause algorithms to highlight patterns that indicate potential root cause issues"	String
+"CR"	CR Servicing Root Cause Analysis Instance Record	Servicing Activity Analysis Determination	"An analysis of the root causes for the detected service anomalies"	String
+"CR"	CR Servicing Root Cause Analysis Instance Record	Servicing Activity Analysis Recommendation	"Proposed changes to procedures/organization etc that can mitigate the detected servicing issues"	String
+"CR"	CR Servicing Root Cause Analysis Instance Record	Servicing Activity History Report	"The raw data used in the analysis (retrieved from Servicing Activity History)"	String
+"BQ"	BQ Root Cause Algorithm Instance Record	""	""	""
+"BQ"	BQ Root Cause Algorithm Instance Record	Servicing Activity Root Cause Algorithm Specification	"Defines the algorithm used and its intended analytical insights"	String
+"BQ"	BQ Root Cause Algorithm Instance Record	Servicing Activity Root Cause Analysis Work Task Type	"The type of work task (e.g. consolidate servicing activity history, apply pattern detection, refine/qualify detected servicing pattern definition)"	String
+"BQ"	BQ Root Cause Algorithm Instance Record	Servicing Activity Root Cause Analysis Work Task	"The make-up/schedule of the work task performed"	String
+"BQ"	BQ Root Cause Algorithm Instance Record	Servicing Activity Root Cause Analysis Work Task Work Products	"File of consolidated notes, evaluations and findings for the work task"	String
+"BQ"	BQ Root Cause Algorithm Instance Record	Servicing Activity Root Cause Analysis Work Task Result	"Details of the outcome or result of the work task - indication of the nature of any identified servicing patterns and the associated root cause hypotheses"	String
+"BQ"	BQ Root Cause Algorithm Instance Record	Servicing Activity Root Cause Analysis Work Task Date-Time	"The date-time the specific work task is performed"	Date

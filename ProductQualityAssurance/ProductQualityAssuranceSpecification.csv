@@ -1,0 +1,13 @@
+"Service Domain specification for Product Quality Assurance"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Product Quality Assurance
+"Role Definition"	"The service domain maintain and execute a portfolio of product quality assurance tests and if appropriate certifications to apply to new and updated production applications. These tests can be applied to any specific aspects of product sales, servicing and fulfillment as might be appropriate"
+"Example of use"	"Example of use:. Quality assurance tests are applied to evaluate a newly released product processing to determine whether error and issue rates are acceptable and support root cause analysis"
+"Executive Summary"	"Maintain and execute a portfolio of product quality assurance tests and certifications that can be applied to evaluate any aspect of production activity for quality assurance"
+"Key Features"	"Select assurance target area. Apply assurance tests. Analyze testing results to determine root cause for error rates/issues"
+"Functional Pattern"	Assess
+"Asset Type"	ProductandService
+"Generic Artifact"	Assessment
+"Control Record"	ProductandServiceAssessment
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Underwriting"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Underwriting
+"Role Definition"	"The underwriting decision considers the ability of the borrower to finance the loan based on their known cash flows and credit worthiness. The underwriting decision refers to specific properties of the proposed loan (amount, term, repayment schedule, collateral etc.), the income and known commitments of the borrower and their credit history with the bank. The decision may factor perceived underwriting risks into the interest rate and/or collateral requirements to obtain approval"
+"Example of use"	"A corporate loan offer is processed and at the appropriate point an underwriting authorization is requested"
+"Executive Summary"	"This service domain manages the underwriting decision process for products as appropriate (including many loan types and some insurance products)"
+"Key Features"	"Consolidate underwriting decision materials. Evaluate cash flow/credit position for proposal. Make (conditional if needed) underwriting determination"
+"Functional Pattern"	Assess
+"Asset Type"	Underwriting
+"Generic Artifact"	Assessment
+"Control Record"	UnderwritingAssessment
+"Registration Status"	Registered

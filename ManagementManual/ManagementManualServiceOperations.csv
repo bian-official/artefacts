@@ -1,0 +1,339 @@
+"Service Operations for: "	Management Manual
+""
+"POST"	"/management-manual/activation"
+"PUT"	"/management-manual/{sd-reference-id}/configuration"
+"PUT"	"/management-manual/{sd-reference-id}/feedback"
+""
+"Put"	"/management-manual/{sd-identifier}/company-mission-and--policies/{crbq-identifier}/capture"
+""	1	"inout"	"Company Mission and  Policies Preconditions"	"BQ Company Mission and  Policies Instance Record"	String
+""	2	"inout"	"Company Mission and  Policies Specification Schedule"	"BQ Company Mission and  Policies Instance Record"	String
+""	3	"inout"	"Company Mission and  Policies Version Number"	"BQ Company Mission and  Policies Instance Record"	String
+""	4	"inout"	"Company Mission and Policies"	"BQ Company Mission and  Policies Instance Record"	Business Service
+""	5	"inout"	"Company Mission and Policies Service Type"	"BQ Company Mission and  Policies Instance Record"	String
+""	6	"inout"	"Company Mission and Policies Service Description"	"BQ Company Mission and  Policies Instance Record"	String
+""	7	"inout"	"Company Mission and Policies Service Inputs and Ouputs"	"BQ Company Mission and  Policies Instance Record"	String
+""	8	"inout"	"Company Mission and Policies Service Work Product"	"BQ Company Mission and  Policies Instance Record"	String
+""	9	"inout"	"Company Mission and Policies Service Name"	"BQ Company Mission and  Policies Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/employment-related-procedures-and--guidelines/{crbq-identifier}/capture"
+""	1	"inout"	"Employment Related Procedures and  Guidelines Preconditions"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Employment Related Procedures and  Guidelines Specification Schedule"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Employment Related Procedures and  Guidelines Version Number"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Employment Related Procedures and Guidelines"	"BQ Employment Related Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Employment Related Procedures and Guidelines Service Type"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Employment Related Procedures and Guidelines Service Description"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Employment Related Procedures and Guidelines Service Inputs and Ouputs"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Employment Related Procedures and Guidelines Service Work Product"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Employment Related Procedures and Guidelines Service Name"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/legal-and--regulatory-obligations-and--guidelines/{crbq-identifier}/capture"
+""	1	"inout"	"Legal and  Regulatory Obligations and  Guidelines Preconditions"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	2	"inout"	"Legal and  Regulatory Obligations and  Guidelines Specification Schedule"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	3	"inout"	"Legal and  Regulatory Obligations and  Guidelines Version Number"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	4	"inout"	"Legal and Regulatory Obligations and Guidelines"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Legal and Regulatory Obligations and Guidelines Service Type"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	6	"inout"	"Legal and Regulatory Obligations and Guidelines Service Description"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	7	"inout"	"Legal and Regulatory Obligations and Guidelines Service Inputs and Ouputs"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	8	"inout"	"Legal and Regulatory Obligations and Guidelines Service Work Product"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	9	"inout"	"Legal and Regulatory Obligations and Guidelines Service Name"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/operational-security-procedures-and--guidelines/{crbq-identifier}/capture"
+""	1	"inout"	"Operational Security Procedures and  Guidelines Preconditions"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Operational Security Procedures and  Guidelines Specification Schedule"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Operational Security Procedures and  Guidelines Version Number"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Operational Security Procedures and Guidelines"	"BQ Operational Security Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Operational Security Procedures and Guidelines Service Type"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Operational Security Procedures and Guidelines Service Description"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Operational Security Procedures and Guidelines Service Inputs and Ouputs"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Operational Security Procedures and Guidelines Service Work Product"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Operational Security Procedures and Guidelines Service Name"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/operational-and--production-procedures-and--guidelines/{crbq-identifier}/capture"
+""	1	"inout"	"Operational and  Production Procedures and  Guidelines Preconditions"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Operational and  Production Procedures and  Guidelines Specification Schedule"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Operational and  Production Procedures and  Guidelines Version Number"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Operational and Production Procedures and Guidelines"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Operational and Production Procedures and Guidelines Service Type"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Operational and Production Procedures and Guidelines Service Description"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Operational and Production Procedures and Guidelines Service Inputs and Ouputs"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Operational and Production Procedures and Guidelines Service Work Product"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Operational and Production Procedures and Guidelines Service Name"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/staff-management-procedures-and--guidelines/{crbq-identifier}/capture"
+""	1	"inout"	"Staff Management Procedures and  Guidelines Preconditions"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Staff Management Procedures and  Guidelines Specification Schedule"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Staff Management Procedures and  Guidelines Version Number"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Staff Management Procedures and Guidelines"	"BQ Staff Management Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Staff Management Procedures and Guidelines Service Type"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Staff Management Procedures and Guidelines Service Description"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Staff Management Procedures and Guidelines Service Inputs and Ouputs"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Staff Management Procedures and Guidelines Service Work Product"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Staff Management Procedures and Guidelines Service Name"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/management-manual-specification/{crbq-identifier}/capture"
+""	1	"inout"	"Management Manual Specification Parameter Type"	"CR Management Manual Specification Instance Record"	String
+""	2	"inout"	"Management Manual Specification Selected Option"	"CR Management Manual Specification Instance Record"	String
+""	3	"in"	"Management Manual Specification Description"	"CR Management Manual Specification Instance Record"	String
+""	4	"inout"	"Management Manual Specification Version"	"CR Management Manual Specification Instance Record"	String
+""	5	"inout"	"Management Manual Specification Status"	"CR Management Manual Specification Instance Record"	String
+""	6	"inout"	"Management Manual Specification Usage Log"	"CR Management Manual Specification Instance Record"	String
+""	7	"inout"	"Management Manual Specification Feedback"	"CR Management Manual Specification Instance Record"	String
+""	8	"in"	"Management Manual Specification ServiceProvider Reference"	"CR Management Manual Specification Instance Record"	Object
+""
+"Put"	"/management-manual/{sd-identifier}/management-manual-specification/{crbq-identifier}/control"
+""	1	"inout"	"Management Manual Specification Parameter Type"	"CR Management Manual Specification Instance Record"	String
+""	2	"inout"	"Management Manual Specification Selected Option"	"CR Management Manual Specification Instance Record"	String
+""	3	"in"	"Management Manual Specification Description"	"CR Management Manual Specification Instance Record"	String
+""	4	"inout"	"Management Manual Specification Version"	"CR Management Manual Specification Instance Record"	String
+""	5	"inout"	"Management Manual Specification Status"	"CR Management Manual Specification Instance Record"	String
+""	6	"inout"	"Management Manual Specification Usage Log"	"CR Management Manual Specification Instance Record"	String
+""	7	"inout"	"Management Manual Specification Feedback"	"CR Management Manual Specification Instance Record"	String
+""	8	"in"	"Management Manual Specification ServiceProvider Reference"	"CR Management Manual Specification Instance Record"	Object
+""
+"Put"	"/management-manual/{sd-identifier}/management-manual-specification/{crbq-identifier}/exchange"
+""	1	"inout"	"Management Manual Specification Parameter Type"	"CR Management Manual Specification Instance Record"	String
+""	2	"inout"	"Management Manual Specification Selected Option"	"CR Management Manual Specification Instance Record"	String
+""	3	"in"	"Management Manual Specification Description"	"CR Management Manual Specification Instance Record"	String
+""	4	"inout"	"Management Manual Specification Version"	"CR Management Manual Specification Instance Record"	String
+""	5	"inout"	"Management Manual Specification Status"	"CR Management Manual Specification Instance Record"	String
+""	6	"inout"	"Management Manual Specification Usage Log"	"CR Management Manual Specification Instance Record"	String
+""	7	"inout"	"Management Manual Specification Feedback"	"CR Management Manual Specification Instance Record"	String
+""	8	"in"	"Management Manual Specification ServiceProvider Reference"	"CR Management Manual Specification Instance Record"	Object
+""
+"Post"	"/management-manual/{sd-identifier}/company-mission-and--policies/{crbq-identifier}/initiation"
+""	1	"inout"	"Company Mission and  Policies Preconditions"	"BQ Company Mission and  Policies Instance Record"	String
+""	2	"inout"	"Company Mission and  Policies Specification Schedule"	"BQ Company Mission and  Policies Instance Record"	String
+""	3	"inout"	"Company Mission and  Policies Version Number"	"BQ Company Mission and  Policies Instance Record"	String
+""	4	"inout"	"Company Mission and Policies"	"BQ Company Mission and  Policies Instance Record"	Business Service
+""	5	"inout"	"Company Mission and Policies Service Type"	"BQ Company Mission and  Policies Instance Record"	String
+""	6	"inout"	"Company Mission and Policies Service Description"	"BQ Company Mission and  Policies Instance Record"	String
+""	7	"inout"	"Company Mission and Policies Service Inputs and Ouputs"	"BQ Company Mission and  Policies Instance Record"	String
+""	8	"inout"	"Company Mission and Policies Service Work Product"	"BQ Company Mission and  Policies Instance Record"	String
+""	9	"inout"	"Company Mission and Policies Service Name"	"BQ Company Mission and  Policies Instance Record"	String
+""
+"Post"	"/management-manual/{sd-identifier}/employment-related-procedures-and--guidelines/{crbq-identifier}/initiation"
+""	1	"inout"	"Employment Related Procedures and  Guidelines Preconditions"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Employment Related Procedures and  Guidelines Specification Schedule"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Employment Related Procedures and  Guidelines Version Number"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Employment Related Procedures and Guidelines"	"BQ Employment Related Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Employment Related Procedures and Guidelines Service Type"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Employment Related Procedures and Guidelines Service Description"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Employment Related Procedures and Guidelines Service Inputs and Ouputs"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Employment Related Procedures and Guidelines Service Work Product"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Employment Related Procedures and Guidelines Service Name"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""
+"Post"	"/management-manual/{sd-identifier}/legal-and--regulatory-obligations-and--guidelines/{crbq-identifier}/initiation"
+""	1	"inout"	"Legal and  Regulatory Obligations and  Guidelines Preconditions"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	2	"inout"	"Legal and  Regulatory Obligations and  Guidelines Specification Schedule"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	3	"inout"	"Legal and  Regulatory Obligations and  Guidelines Version Number"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	4	"inout"	"Legal and Regulatory Obligations and Guidelines"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Legal and Regulatory Obligations and Guidelines Service Type"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	6	"inout"	"Legal and Regulatory Obligations and Guidelines Service Description"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	7	"inout"	"Legal and Regulatory Obligations and Guidelines Service Inputs and Ouputs"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	8	"inout"	"Legal and Regulatory Obligations and Guidelines Service Work Product"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	9	"inout"	"Legal and Regulatory Obligations and Guidelines Service Name"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""
+"Post"	"/management-manual/{sd-identifier}/operational-security-procedures-and--guidelines/{crbq-identifier}/initiation"
+""	1	"inout"	"Operational Security Procedures and  Guidelines Preconditions"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Operational Security Procedures and  Guidelines Specification Schedule"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Operational Security Procedures and  Guidelines Version Number"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Operational Security Procedures and Guidelines"	"BQ Operational Security Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Operational Security Procedures and Guidelines Service Type"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Operational Security Procedures and Guidelines Service Description"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Operational Security Procedures and Guidelines Service Inputs and Ouputs"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Operational Security Procedures and Guidelines Service Work Product"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Operational Security Procedures and Guidelines Service Name"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""
+"Post"	"/management-manual/{sd-identifier}/operational-and--production-procedures-and--guidelines/{crbq-identifier}/initiation"
+""	1	"inout"	"Operational and  Production Procedures and  Guidelines Preconditions"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Operational and  Production Procedures and  Guidelines Specification Schedule"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Operational and  Production Procedures and  Guidelines Version Number"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Operational and Production Procedures and Guidelines"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Operational and Production Procedures and Guidelines Service Type"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Operational and Production Procedures and Guidelines Service Description"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Operational and Production Procedures and Guidelines Service Inputs and Ouputs"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Operational and Production Procedures and Guidelines Service Work Product"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Operational and Production Procedures and Guidelines Service Name"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""
+"Post"	"/management-manual/{sd-identifier}/staff-management-procedures-and--guidelines/{crbq-identifier}/initiation"
+""	1	"inout"	"Staff Management Procedures and  Guidelines Preconditions"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Staff Management Procedures and  Guidelines Specification Schedule"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Staff Management Procedures and  Guidelines Version Number"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Staff Management Procedures and Guidelines"	"BQ Staff Management Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Staff Management Procedures and Guidelines Service Type"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Staff Management Procedures and Guidelines Service Description"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Staff Management Procedures and Guidelines Service Inputs and Ouputs"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Staff Management Procedures and Guidelines Service Work Product"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Staff Management Procedures and Guidelines Service Name"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""
+"Post"	"/management-manual/{sd-identifier}/management-manual-specification/{crbq-identifier}/initiation"
+""	1	"inout"	"Management Manual Specification Parameter Type"	"CR Management Manual Specification Instance Record"	String
+""	2	"inout"	"Management Manual Specification Selected Option"	"CR Management Manual Specification Instance Record"	String
+""	3	"in"	"Management Manual Specification Description"	"CR Management Manual Specification Instance Record"	String
+""	4	"inout"	"Management Manual Specification Version"	"CR Management Manual Specification Instance Record"	String
+""	5	"inout"	"Management Manual Specification Status"	"CR Management Manual Specification Instance Record"	String
+""	6	"inout"	"Management Manual Specification Usage Log"	"CR Management Manual Specification Instance Record"	String
+""	7	"inout"	"Management Manual Specification Feedback"	"CR Management Manual Specification Instance Record"	String
+""	8	"in"	"Management Manual Specification ServiceProvider Reference"	"CR Management Manual Specification Instance Record"	Object
+""
+"Get"	"/management-manual/{sd-identifier}/company-mission-and--policies/{crbq-identifier}/retrieval"
+""	1	"out"	"Company Mission and  Policies Preconditions"	"BQ Company Mission and  Policies Instance Record"	String
+""	2	"out"	"Company Mission and  Policies Specification Schedule"	"BQ Company Mission and  Policies Instance Record"	String
+""	3	"out"	"Company Mission and  Policies Version Number"	"BQ Company Mission and  Policies Instance Record"	String
+""	4	"out"	"Company Mission and Policies"	"BQ Company Mission and  Policies Instance Record"	Business Service
+""	5	"out"	"Company Mission and Policies Service Type"	"BQ Company Mission and  Policies Instance Record"	String
+""	6	"out"	"Company Mission and Policies Service Description"	"BQ Company Mission and  Policies Instance Record"	String
+""	7	"out"	"Company Mission and Policies Service Inputs and Ouputs"	"BQ Company Mission and  Policies Instance Record"	String
+""	8	"out"	"Company Mission and Policies Service Work Product"	"BQ Company Mission and  Policies Instance Record"	String
+""	9	"out"	"Company Mission and Policies Service Name"	"BQ Company Mission and  Policies Instance Record"	String
+""
+"Get"	"/management-manual/{sd-identifier}/employment-related-procedures-and--guidelines/{crbq-identifier}/retrieval"
+""	1	"out"	"Employment Related Procedures and  Guidelines Preconditions"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	2	"out"	"Employment Related Procedures and  Guidelines Specification Schedule"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	3	"out"	"Employment Related Procedures and  Guidelines Version Number"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	4	"out"	"Employment Related Procedures and Guidelines"	"BQ Employment Related Procedures and  Guidelines Instance Record"	Business Service
+""	5	"out"	"Employment Related Procedures and Guidelines Service Type"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	6	"out"	"Employment Related Procedures and Guidelines Service Description"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	7	"out"	"Employment Related Procedures and Guidelines Service Inputs and Ouputs"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	8	"out"	"Employment Related Procedures and Guidelines Service Work Product"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	9	"out"	"Employment Related Procedures and Guidelines Service Name"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""
+"Get"	"/management-manual/{sd-identifier}/legal-and--regulatory-obligations-and--guidelines/{crbq-identifier}/retrieval"
+""	1	"out"	"Legal and  Regulatory Obligations and  Guidelines Preconditions"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	2	"out"	"Legal and  Regulatory Obligations and  Guidelines Specification Schedule"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	3	"out"	"Legal and  Regulatory Obligations and  Guidelines Version Number"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	4	"out"	"Legal and Regulatory Obligations and Guidelines"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	Business Service
+""	5	"out"	"Legal and Regulatory Obligations and Guidelines Service Type"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	6	"out"	"Legal and Regulatory Obligations and Guidelines Service Description"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	7	"out"	"Legal and Regulatory Obligations and Guidelines Service Inputs and Ouputs"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	8	"out"	"Legal and Regulatory Obligations and Guidelines Service Work Product"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	9	"out"	"Legal and Regulatory Obligations and Guidelines Service Name"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""
+"Get"	"/management-manual/{sd-identifier}/operational-security-procedures-and--guidelines/{crbq-identifier}/retrieval"
+""	1	"out"	"Operational Security Procedures and  Guidelines Preconditions"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	2	"out"	"Operational Security Procedures and  Guidelines Specification Schedule"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	3	"out"	"Operational Security Procedures and  Guidelines Version Number"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	4	"out"	"Operational Security Procedures and Guidelines"	"BQ Operational Security Procedures and  Guidelines Instance Record"	Business Service
+""	5	"out"	"Operational Security Procedures and Guidelines Service Type"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	6	"out"	"Operational Security Procedures and Guidelines Service Description"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	7	"out"	"Operational Security Procedures and Guidelines Service Inputs and Ouputs"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	8	"out"	"Operational Security Procedures and Guidelines Service Work Product"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	9	"out"	"Operational Security Procedures and Guidelines Service Name"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""
+"Get"	"/management-manual/{sd-identifier}/operational-and--production-procedures-and--guidelines/{crbq-identifier}/retrieval"
+""	1	"out"	"Operational and  Production Procedures and  Guidelines Preconditions"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	2	"out"	"Operational and  Production Procedures and  Guidelines Specification Schedule"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	3	"out"	"Operational and  Production Procedures and  Guidelines Version Number"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	4	"out"	"Operational and Production Procedures and Guidelines"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	Business Service
+""	5	"out"	"Operational and Production Procedures and Guidelines Service Type"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	6	"out"	"Operational and Production Procedures and Guidelines Service Description"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	7	"out"	"Operational and Production Procedures and Guidelines Service Inputs and Ouputs"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	8	"out"	"Operational and Production Procedures and Guidelines Service Work Product"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	9	"out"	"Operational and Production Procedures and Guidelines Service Name"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""
+"Get"	"/management-manual/{sd-identifier}/staff-management-procedures-and--guidelines/{crbq-identifier}/retrieval"
+""	1	"out"	"Staff Management Procedures and  Guidelines Preconditions"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	2	"out"	"Staff Management Procedures and  Guidelines Specification Schedule"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	3	"out"	"Staff Management Procedures and  Guidelines Version Number"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	4	"out"	"Staff Management Procedures and Guidelines"	"BQ Staff Management Procedures and  Guidelines Instance Record"	Business Service
+""	5	"out"	"Staff Management Procedures and Guidelines Service Type"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	6	"out"	"Staff Management Procedures and Guidelines Service Description"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	7	"out"	"Staff Management Procedures and Guidelines Service Inputs and Ouputs"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	8	"out"	"Staff Management Procedures and Guidelines Service Work Product"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	9	"out"	"Staff Management Procedures and Guidelines Service Name"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""
+"Get"	"/management-manual/{sd-identifier}/management-manual-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"Management Manual Specification Parameter Type"	"CR Management Manual Specification Instance Record"	String
+""	2	"out"	"Management Manual Specification Selected Option"	"CR Management Manual Specification Instance Record"	String
+""	3	"out"	"Management Manual Specification Description"	"CR Management Manual Specification Instance Record"	String
+""	4	"out"	"Management Manual Specification Version"	"CR Management Manual Specification Instance Record"	String
+""	5	"out"	"Management Manual Specification Status"	"CR Management Manual Specification Instance Record"	String
+""	6	"out"	"Management Manual Specification Usage Log"	"CR Management Manual Specification Instance Record"	String
+""	7	"out"	"Management Manual Specification Feedback"	"CR Management Manual Specification Instance Record"	String
+""	8	"out"	"Management Manual Specification ServiceProvider Reference"	"CR Management Manual Specification Instance Record"	Object
+""
+"Put"	"/management-manual/{sd-identifier}/management-manual-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Management Manual Specification Parameter Type"	"CR Management Manual Specification Instance Record"	String
+""	2	"inout"	"Management Manual Specification Selected Option"	"CR Management Manual Specification Instance Record"	String
+""	3	"in"	"Management Manual Specification Description"	"CR Management Manual Specification Instance Record"	String
+""	4	"inout"	"Management Manual Specification Version"	"CR Management Manual Specification Instance Record"	String
+""	5	"inout"	"Management Manual Specification Status"	"CR Management Manual Specification Instance Record"	String
+""	6	"inout"	"Management Manual Specification Usage Log"	"CR Management Manual Specification Instance Record"	String
+""	7	"inout"	"Management Manual Specification Feedback"	"CR Management Manual Specification Instance Record"	String
+""	8	"in"	"Management Manual Specification ServiceProvider Reference"	"CR Management Manual Specification Instance Record"	Object
+""
+"Put"	"/management-manual/{sd-identifier}/company-mission-and--policies/{crbq-identifier}/update"
+""	1	"inout"	"Company Mission and  Policies Preconditions"	"BQ Company Mission and  Policies Instance Record"	String
+""	2	"inout"	"Company Mission and  Policies Specification Schedule"	"BQ Company Mission and  Policies Instance Record"	String
+""	3	"inout"	"Company Mission and  Policies Version Number"	"BQ Company Mission and  Policies Instance Record"	String
+""	4	"inout"	"Company Mission and Policies"	"BQ Company Mission and  Policies Instance Record"	Business Service
+""	5	"inout"	"Company Mission and Policies Service Type"	"BQ Company Mission and  Policies Instance Record"	String
+""	6	"inout"	"Company Mission and Policies Service Description"	"BQ Company Mission and  Policies Instance Record"	String
+""	7	"inout"	"Company Mission and Policies Service Inputs and Ouputs"	"BQ Company Mission and  Policies Instance Record"	String
+""	8	"inout"	"Company Mission and Policies Service Work Product"	"BQ Company Mission and  Policies Instance Record"	String
+""	9	"inout"	"Company Mission and Policies Service Name"	"BQ Company Mission and  Policies Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/employment-related-procedures-and--guidelines/{crbq-identifier}/update"
+""	1	"inout"	"Employment Related Procedures and  Guidelines Preconditions"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Employment Related Procedures and  Guidelines Specification Schedule"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Employment Related Procedures and  Guidelines Version Number"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Employment Related Procedures and Guidelines"	"BQ Employment Related Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Employment Related Procedures and Guidelines Service Type"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Employment Related Procedures and Guidelines Service Description"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Employment Related Procedures and Guidelines Service Inputs and Ouputs"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Employment Related Procedures and Guidelines Service Work Product"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Employment Related Procedures and Guidelines Service Name"	"BQ Employment Related Procedures and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/legal-and--regulatory-obligations-and--guidelines/{crbq-identifier}/update"
+""	1	"inout"	"Legal and  Regulatory Obligations and  Guidelines Preconditions"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	2	"inout"	"Legal and  Regulatory Obligations and  Guidelines Specification Schedule"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	3	"inout"	"Legal and  Regulatory Obligations and  Guidelines Version Number"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	4	"inout"	"Legal and Regulatory Obligations and Guidelines"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Legal and Regulatory Obligations and Guidelines Service Type"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	6	"inout"	"Legal and Regulatory Obligations and Guidelines Service Description"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	7	"inout"	"Legal and Regulatory Obligations and Guidelines Service Inputs and Ouputs"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	8	"inout"	"Legal and Regulatory Obligations and Guidelines Service Work Product"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""	9	"inout"	"Legal and Regulatory Obligations and Guidelines Service Name"	"BQ Legal and  Regulatory Obligations and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/operational-security-procedures-and--guidelines/{crbq-identifier}/update"
+""	1	"inout"	"Operational Security Procedures and  Guidelines Preconditions"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Operational Security Procedures and  Guidelines Specification Schedule"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Operational Security Procedures and  Guidelines Version Number"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Operational Security Procedures and Guidelines"	"BQ Operational Security Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Operational Security Procedures and Guidelines Service Type"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Operational Security Procedures and Guidelines Service Description"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Operational Security Procedures and Guidelines Service Inputs and Ouputs"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Operational Security Procedures and Guidelines Service Work Product"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Operational Security Procedures and Guidelines Service Name"	"BQ Operational Security Procedures and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/operational-and--production-procedures-and--guidelines/{crbq-identifier}/update"
+""	1	"inout"	"Operational and  Production Procedures and  Guidelines Preconditions"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Operational and  Production Procedures and  Guidelines Specification Schedule"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Operational and  Production Procedures and  Guidelines Version Number"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Operational and Production Procedures and Guidelines"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Operational and Production Procedures and Guidelines Service Type"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Operational and Production Procedures and Guidelines Service Description"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Operational and Production Procedures and Guidelines Service Inputs and Ouputs"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Operational and Production Procedures and Guidelines Service Work Product"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Operational and Production Procedures and Guidelines Service Name"	"BQ Operational and  Production Procedures and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/staff-management-procedures-and--guidelines/{crbq-identifier}/update"
+""	1	"inout"	"Staff Management Procedures and  Guidelines Preconditions"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	2	"inout"	"Staff Management Procedures and  Guidelines Specification Schedule"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	3	"inout"	"Staff Management Procedures and  Guidelines Version Number"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	4	"inout"	"Staff Management Procedures and Guidelines"	"BQ Staff Management Procedures and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"Staff Management Procedures and Guidelines Service Type"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	6	"inout"	"Staff Management Procedures and Guidelines Service Description"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	7	"inout"	"Staff Management Procedures and Guidelines Service Inputs and Ouputs"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	8	"inout"	"Staff Management Procedures and Guidelines Service Work Product"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""	9	"inout"	"Staff Management Procedures and Guidelines Service Name"	"BQ Staff Management Procedures and  Guidelines Instance Record"	String
+""
+"Put"	"/management-manual/{sd-identifier}/management-manual-specification/{crbq-identifier}/update"
+""	1	"inout"	"Management Manual Specification Parameter Type"	"CR Management Manual Specification Instance Record"	String
+""	2	"inout"	"Management Manual Specification Selected Option"	"CR Management Manual Specification Instance Record"	String
+""	3	"in"	"Management Manual Specification Description"	"CR Management Manual Specification Instance Record"	String
+""	4	"inout"	"Management Manual Specification Version"	"CR Management Manual Specification Instance Record"	String
+""	5	"inout"	"Management Manual Specification Status"	"CR Management Manual Specification Instance Record"	String
+""	6	"inout"	"Management Manual Specification Usage Log"	"CR Management Manual Specification Instance Record"	String
+""	7	"inout"	"Management Manual Specification Feedback"	"CR Management Manual Specification Instance Record"	String
+""	8	"in"	"Management Manual Specification ServiceProvider Reference"	"CR Management Manual Specification Instance Record"	Object

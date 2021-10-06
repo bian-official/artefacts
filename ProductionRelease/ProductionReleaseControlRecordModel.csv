@@ -1,0 +1,33 @@
+"Control Record Model for: "	Production Release
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Production System Assessment Instance Record	""	""	""
+"CR"	CR Production System Assessment Instance Record	Production Release Name	"The reference to and descriptive name of the production release system"	String
+"CR"	CR Production System Assessment Instance Record	Employee/Business Unit Reference	"Reference to the business units responsible for the testing and deployment"	Object
+"CR"	CR Production System Assessment Instance Record	Production Release Type	"The type of production release (e.g. production service update, new production system)"	String
+"CR"	CR Production System Assessment Instance Record	Production Release Description	"A description of the scope, goal and make-up of the production release"	String
+"CR"	CR Production System Assessment Instance Record	Production Release Test Profile	"Details the types of production release tests to be and actually applied"	String
+"CR"	CR Production System Assessment Instance Record	Production Release Test Schedule	"The schedule for performing the range of release tests (planned and actual)"	String
+"CR"	CR Production System Assessment Instance Record	Production Release Consolidation Record	"The consolidated release evaluation combining the results of all underlying tests"	String
+"CR"	CR Production System Assessment Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"CR"	CR Production System Assessment Instance Record	Date Type	"Key dates associated with the assessment (e.g. notification date, commencement  date, completion date)"	String
+"CR"	CR Production System Assessment Instance Record	Date	"Value of the specific date type"	String
+"BQ"	BQ Business Risk Instance Record	""	""	""
+"BQ"	BQ Business Risk Instance Record	Business Risk System Test Type	"The type of business risk test being performed (e.g. compliance, pricing, exposure)"	String
+"BQ"	BQ Business Risk Instance Record	Business Risk System Test Description	"Detailed description of the test, including expected results"	String
+"BQ"	BQ Business Risk Instance Record	Business Risk Test Work Product	"Reference to testing materials, results, assessments and other documents"	String
+"BQ"	BQ Business Risk Instance Record	Business Risk Test Result	"The result of the business risk test (including required remedial actions/fixes where appropriate)"	String
+"BQ"	BQ Functional Risk Instance Record	""	""	""
+"BQ"	BQ Functional Risk Instance Record	Functional Risk System Test Type	"The type of functional test being performed (e.g. functional coverage/integrity, usability, application integration)"	String
+"BQ"	BQ Functional Risk Instance Record	Functional Risk System Test Description	"Detailed description of the test, including expected results"	String
+"BQ"	BQ Functional Risk Instance Record	Functional Risk System Test Work Product	"Reference to testing materials, results, assessments and other documents"	String
+"BQ"	BQ Functional Risk Instance Record	Functional Risk System Test Result	"The result of the functional risk test (including required remedial actions/fixes where appropriate)"	String
+"BQ"	BQ Operational Risk Instance Record	""	""	""
+"BQ"	BQ Operational Risk Instance Record	Operational Risk System Test Type	"The type of operational risk test being performed (e.g. operator error recovery, major IT component failure recovery/continuity)"	String
+"BQ"	BQ Operational Risk Instance Record	Operational Risk System Test Description	"Detailed description of the test, including expected results"	String
+"BQ"	BQ Operational Risk Instance Record	Operational Risk System Test Work Product	"Reference to testing materials, results, assessments and other documents"	String
+"BQ"	BQ Operational Risk Instance Record	Operational Risk System Test Result	"The result of the operational risk test (including required remedial actions/fixes where appropriate)"	String
+"BQ"	BQ Production Risk Instance Record	""	""	""
+"BQ"	BQ Production Risk Instance Record	Production Risk System Test Type	"The type of production test being performed (e.g. division of responsibilities, access control, audit trail, back-up and recovery)"	String
+"BQ"	BQ Production Risk Instance Record	Production Risk System Test Description	"Detailed description of the test, including expected results"	String
+"BQ"	BQ Production Risk Instance Record	Production Risk System Test Work Product	"Reference to testing materials, results, assessments and other documents"	String
+"BQ"	BQ Production Risk Instance Record	Production Risk System Test Result	"The result of the production risk test (including required remedial actions/fixes where appropriate)"	String

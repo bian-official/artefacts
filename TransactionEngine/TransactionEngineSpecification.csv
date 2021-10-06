@@ -1,0 +1,13 @@
+"Service Domain specification for Transaction Engine"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Transaction Engine
+"Role Definition"	"The Service Domain provides a utility/background operational support service to orchestrate a schedule of payment transaction and reporting activities for the fulfillment of certain long term instruments or structured facilities. The Service Domain maintains a link to the associated fulfillment Service Domain and the applicable product instance for reporting and processing issues that may arise."
+"Example of use"	"The mortgage fulfillment Service Domain delegates repayment processing to the Transaction Engine for its active mortgage product instances"
+"Executive Summary"	"Orchestrate a schedule of payment transaction and reporting activities for the fulfillment of certain long term instruments or structured facilities"
+"Key Features"	"Establish the processing schedule for a product instance. Process transaction and reporting tasks as necessary. Escalate issues to the product fulfillment Service Domain as necessary. Report on transaction fulfillment activity"
+"Functional Pattern"	Fulfill
+"Asset Type"	TransactionSchedule
+"Generic Artifact"	Facility (rename)
+"Control Record"	TransactionScheduleArrangement
+"Registration Status"	Registered

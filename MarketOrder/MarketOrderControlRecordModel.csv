@@ -1,0 +1,30 @@
+"Control Record Model for: "	Market Order
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Compliance Instance Record	""	""	""
+"BQ"	BQ Compliance Instance Record	Market Order Transaction Compliance Check Type	"The type of compliance check performed (e.g. AML, Watch lists)"	String
+"BQ"	BQ Compliance Instance Record	Market Order Transaction Compliance Check Result	"The outcome of the compliance check"	String
+"BQ"	BQ Compliance Instance Record	Market Order Transaction Compliance Task Result	"Details of the overall compliance checking process"	String
+"BQ"	BQ Funding Check Instance Record	""	""	""
+"BQ"	BQ Funding Check Instance Record	Market Order Transaction Funding Check Result	"The outcome of the funds available check"	String
+"BQ"	BQ Trade Initiation Instance Record	""	""	""
+"BQ"	BQ Trade Initiation Instance Record	Market Trade Transaction Instance Reference	"The reference to the market trade. Note this can be the internal bank 'trade' against the bank's managed position and may not result in a matched trade in the wholesale markets"	Object
+"BQ"	BQ Trade Initiation Instance Record	Market Trade Transaction  Instance Status	"The returned status of the market trade"	String
+"BQ"	BQ Trade Initiation Instance Record	Market Trade Initiation Task Result	"Details of the market trade initiation task"	String
+"CR"	CR Market Order Transaction Instance Record	""	""	""
+"CR"	CR Market Order Transaction Instance Record	Market Order Instruction Type	"The type of market order request (e.g. Managed Investment, Corporate Finance)"	String
+"CR"	CR Market Order Transaction Instance Record	Customer Reference	"Reference to the account primary party/owner for the market order"	Object
+"CR"	CR Market Order Transaction Instance Record	Employee/Business Unit Reference	"The employee/business unit placing the market order"	Object
+"CR"	CR Market Order Transaction Instance Record	Investment Portfolio Instance Reference	"Reference to the associated investment portfolio record of all holdings (referenced to check securities availability if necessary)"	Object
+"CR"	CR Market Order Transaction Instance Record	Customer Market Order Processing Instruction	"Any customer specific processing preferences or requirements"	String
+"CR"	CR Market Order Transaction Instance Record	Document Directory Entry Instance Reference	"The document reference for the order confirmation notice"	Object
+"CR"	CR Market Order Transaction Instance Record	Correspondence Instance Reference	"Reference to the correspondence generated for the order confirmation"	Object
+"CR"	CR Market Order Transaction Instance Record	Market Order Transaction	"The details of the market order transaction"	String
+"CR"	CR Market Order Transaction Instance Record	Investment Account Arrangement Instance Reference	"Reference to the underlying investment account supporting the transaction"	Object
+"CR"	CR Market Order Transaction Instance Record	Current Account Arrangement Instance Reference	"Reference to the underlying cash account supporting the transaction"	Object
+"CR"	CR Market Order Transaction Instance Record	Market Order Type	"The type of market order (e.g. Day Order. Order on Open/Close, Fill or Kill, Limit Order)"	String
+"CR"	CR Market Order Transaction Instance Record	Security Type	"The security to be traded"	String
+"CR"	CR Market Order Transaction Instance Record	Amount	"The volume of shares to be bought or sold"	String
+"CR"	CR Market Order Transaction Instance Record	Date Type	"Key dates associated with the transaction (e.g. order capture, trade execution, order completion)"	String
+"CR"	CR Market Order Transaction Instance Record	Date	"Value of the specific date type"	String
+"BQ"	BQ Customer Processing Instance Record	""	""	""
+"BQ"	BQ Customer Processing Instance Record	Market Order Customer Processing Check Result	"Details of any customer specific processing requirements applied to the market order"	String

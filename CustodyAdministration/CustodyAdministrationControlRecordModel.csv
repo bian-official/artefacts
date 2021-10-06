@@ -1,0 +1,69 @@
+"Control Record Model for: "	Custody Administration
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Custody Arrangement Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Custody Administration. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Parameter Type	"A Classification value that distinguishes between arrangements according to the type of business services within Custody Arrangement"	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Selected Option	"A selected optional business service as subject matter of Custody Arrangement"	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Type	"The type of Custody Arrangement"	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Reference	"Reference to Custody Arrangement"	Object
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Schedule	"Timetable to fulfill Custody Arrangement"	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Status	"The status of Custody Arrangement"	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Currency	"The curreny which is arranged in Custody Arrangement"	CurrencyCode
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Regulation Reference	"Reference to the regulation which is defined in Custody Arrangement"	Object
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Regulation Type	"A Classification that distinguishes between the regularity domains of Custody Arrangement"	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Jurisdiction	"Reference to the jurisdiction that is assigned to Custody Arrangement in case of legal dispute."	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Booking Location	"The financial accounting unit into which the financial events, with regard to the origination and fulfillment of the agreement in the context of Custody Arrangement, are entered."	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Account Type	"The type of account which is linked to Custody Arrangement"	String
+"CR"	CR Custody Arrangement Instance Record	Custody Arrangement Account Reference	"Reference to the account which is linked to Custody Arrangement"	Object
+"BQ"	BQ Safe Keeping Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Custody Administration. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Safe Keeping Instance Record	Safe Keeping Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Safe Keeping Instance Record	Safe Keeping Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Safe Keeping Instance Record	Securities Safe Keeping	"The Custody Arrangement specific Business Service"	Business Service
+"BQ"	BQ Safe Keeping Instance Record	Safe Keeping Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Safe Keeping Instance Record	Safe Keeping Securities Safe Keeping Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Safe Keeping Instance Record	Safe Keeping Securities Safe Keeping Service Description	"Description of the performed business service"	String
+"BQ"	BQ Safe Keeping Instance Record	Safe Keeping Securities Safe Keeping Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Safe Keeping Instance Record	Safe Keeping Securities Safe Keeping Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Safe Keeping Instance Record	Safe Keeping Securities Safe Keeping Service Name	""	String
+"BQ"	BQ Securities Reporting Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Custody Administration. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Securities Reporting Instance Record	Securities Reporting Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Securities Reporting Instance Record	Securities Reporting Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Securities Reporting Instance Record	Custody Securities Reporting	"The Custody Arrangement specific Business Service"	Business Service
+"BQ"	BQ Securities Reporting Instance Record	Securities Reporting Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Securities Reporting Instance Record	Securities Reporting Custody Securities Reporting Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Securities Reporting Instance Record	Securities Reporting Custody Securities Reporting Service Description	"Description of the performed business service"	String
+"BQ"	BQ Securities Reporting Instance Record	Securities Reporting Custody Securities Reporting Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Securities Reporting Instance Record	Securities Reporting Custody Securities Reporting Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Securities Reporting Instance Record	Securities Reporting Custody Securities Reporting Service Name	""	String
+"BQ"	BQ Fees Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Custody Administration. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Fees Instance Record	Fees Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Fees Instance Record	Fees Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Fees Instance Record	Business Service	"The Custody Arrangement specific Business Service"	Business Service
+"BQ"	BQ Fees Instance Record	Fees Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Fees Instance Record	Fees Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Fees Instance Record	Fees Service Description	"Description of the performed business service"	String
+"BQ"	BQ Fees Instance Record	Fees Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Fees Instance Record	Fees Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Fees Instance Record	Fees Service Name	""	String
+"BQ"	BQ Dividends and  Interest Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Custody Administration. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Dividends and  Interest Instance Record	Dividends and  Interest Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Dividends and  Interest Instance Record	Dividends and  Interest Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Dividends and  Interest Instance Record	Custody Dividends and Interest	"The Custody Arrangement specific Business Service"	Business Service
+"BQ"	BQ Dividends and  Interest Instance Record	Dividends and  Interest Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Dividends and  Interest Instance Record	Dividends and  Interest Custody Dividends and Interest Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Dividends and  Interest Instance Record	Dividends and  Interest Custody Dividends and Interest Service Description	"Description of the performed business service"	String
+"BQ"	BQ Dividends and  Interest Instance Record	Dividends and  Interest Custody Dividends and Interest Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Dividends and  Interest Instance Record	Dividends and  Interest Custody Dividends and Interest Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Dividends and  Interest Instance Record	Dividends and  Interest Custody Dividends and Interest Service Name	""	String
+"BQ"	BQ Custody Administration Outcome Instance Record	""	""	""
+"BQ"	BQ Custody Administration Outcome Instance Record	Custody Administration Financial Facility	""	String
+"BQ"	BQ Custody Administration Outcome Instance Record	Custody Administration Work Product	""	String
+"BQ"	BQ Settlement Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Custody Administration. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Settlement Instance Record	Settlement Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Settlement Instance Record	Settlement Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Settlement Instance Record	Business Service	"The Custody Arrangement specific Business Service"	Business Service
+"BQ"	BQ Settlement Instance Record	Settlement Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Settlement Instance Record	Settlement Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Settlement Instance Record	Settlement Service Description	"Description of the performed business service"	String
+"BQ"	BQ Settlement Instance Record	Settlement Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Settlement Instance Record	Settlement Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Settlement Instance Record	Settlement Service Name	""	String

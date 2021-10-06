@@ -1,0 +1,29 @@
+"Control Record Model for: "	Customer Case
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Analysis Instance Record	""	""	""
+"BQ"	BQ Analysis Instance Record	Customer Contact Record	"The contact record contains all details of the initial case submission"	String
+"BQ"	BQ Analysis Instance Record	Case Analysis Work Product	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Analysis Instance Record	Case Analysis Work Task Result	"The outcome of the case root cause analysis"	String
+"CR"	CR Customer Case Procedure Instance Record	""	""	""
+"CR"	CR Customer Case Procedure Instance Record	Customer Case Type	"The type of case being processed including any supporting narrative (e.g. disputed charges, suspected account fraud, stolen device, change of status)"	String
+"CR"	CR Customer Case Procedure Instance Record	Product Instance Reference	"Reference to a specific product instance associated with the case"	Object
+"CR"	CR Customer Case Procedure Instance Record	Customer Reference	"The customer raising the case"	Object
+"CR"	CR Customer Case Procedure Instance Record	Customer Contact Record Reference	"Reference to the complete contact record assembled during the contact where the case was raised if appropriate"	Object
+"CR"	CR Customer Case Procedure Instance Record	Product Transaction Reference	"Reference to one or more product transactions associated with the case"	Object
+"CR"	CR Customer Case Procedure Instance Record	Product Transaction Record	"The complete transaction record for transactions associated with the case (detailed attribute breakdown not included)"	String
+"CR"	CR Customer Case Procedure Instance Record	Case Location	"Reference to the physical address or electronic venue the customer case was detected"	String
+"CR"	CR Customer Case Procedure Instance Record	Date	"The date and time when the case was initiated"	String
+"CR"	CR Customer Case Procedure Instance Record	Employee/Business Unit Reference	"Employees involved in capturing the case"	Object
+"CR"	CR Customer Case Procedure Instance Record	Customer Case Resolution Schedule	"The case processing schedule including key tasks and dates for resolution (target and actual dates/times )"	String
+"BQ"	BQ Determination Instance Record	""	""	""
+"BQ"	BQ Determination Instance Record	Customer Agreement Instance Reference	"Reference to the in-force customer master agreement"	Object
+"BQ"	BQ Determination Instance Record	Customer Agreement	"The agreement is accessed to support the determination of the resolution approach"	String
+"BQ"	BQ Determination Instance Record	Case Determination Work Product	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Determination Instance Record	Case Determination Work Task Result	"The outcome of the determination and resolution planning task"	String
+"BQ"	BQ Resolution Instance Record	""	""	""
+"BQ"	BQ Resolution Instance Record	Correspondence Instance Reference	"Reference to the correspondence generated and received"	Object
+"BQ"	BQ Resolution Instance Record	Correspondence Content	"Correspondence content - messages sent to and received from involved parties"	String
+"BQ"	BQ Resolution Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents"	Object
+"BQ"	BQ Resolution Instance Record	Document Content	"Document copy/content - legal or significant documents created & referenced"	String
+"BQ"	BQ Resolution Instance Record	Employee/Business Unit Reference	"Business unit responsible for the customer case resolution actions"	Object
+"BQ"	BQ Resolution Instance Record	Payment Order Reference	"Reference to the resolution payment order when financial adjustments are required to resolve the customer case"	Object

@@ -1,0 +1,85 @@
+"Service Operations for: "	Underwriting
+""
+"POST"	"/underwriting/activation"
+"PUT"	"/underwriting/{sd-reference-id}/configuration"
+"PUT"	"/underwriting/{sd-reference-id}/feedback"
+""
+"Post"	"/underwriting/{sd-identifier}/underwriting-assessment/{crbq-identifier}/evaluation"
+""	1	"inout"	"Underwriting Guidelines"	"CR Underwriting Assessment Instance Record"	String
+""	2	"out"	"Required Customer Employment History Details"	"CR Underwriting Assessment Instance Record"	String
+""	3	"out"	"Required Customer Debt/Asset Statement"	"CR Underwriting Assessment Instance Record"	String
+""	4	"out"	"Required Customer Credit Assessment"	"CR Underwriting Assessment Instance Record"	String
+""	5	"out"	"Required Collateral Coverage"	"CR Underwriting Assessment Instance Record"	String
+""	6	"out"	"Required Customer Product/Service Payment History"	"CR Underwriting Assessment Instance Record"	String
+""	7	"out"	"Required Customer Documents"	"CR Underwriting Assessment Instance Record"	String
+""	8	"inout"	"Proposed Transaction Details"	"CR Underwriting Assessment Instance Record"	String
+""	9	"in"	"Product Instance Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	10	"in"	"Proposed Loan Terms"	"CR Underwriting Assessment Instance Record"	String
+""	11	"in"	"Proposed Loan Amount"	"CR Underwriting Assessment Instance Record"	Amount
+""	12	"in"	"Loan Purpose"	"CR Underwriting Assessment Instance Record"	String
+""	13	"in"	"Customer Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	14	"in"	"Customer Reference Details"	"CR Underwriting Assessment Instance Record"	Object
+""	15	"in"	"Customer Product Eligibility Terms"	"CR Underwriting Assessment Instance Record"	String
+""	16	"in"	"Customer Income Statement"	"CR Underwriting Assessment Instance Record"	String
+""	17	"in"	"Customer Debt Statement"	"CR Underwriting Assessment Instance Record"	String
+""	18	"in"	"Customer Asset Statement"	"CR Underwriting Assessment Instance Record"	String
+""	19	"in"	"Collateral Item Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	20	"in"	"Collateral Item Type"	"CR Underwriting Assessment Instance Record"	String
+""	21	"in"	"Collateral Item Valuation"	"CR Underwriting Assessment Instance Record"	String
+""	22	"inout"	"Document Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	23	"out"	"Underwriting Assessment Decision"	"CR Underwriting Assessment Instance Record"	String
+""	24	"out"	"Underwriting Assessment Work Product"	"CR Underwriting Assessment Instance Record"	String
+""
+"Put"	"/underwriting/{sd-identifier}/underwriting-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Proposed Transaction Details"	"CR Underwriting Assessment Instance Record"	String
+""	2	"inout"	"Product Instance Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	3	"inout"	"Proposed Loan Terms"	"CR Underwriting Assessment Instance Record"	String
+""	4	"inout"	"Proposed Loan Amount"	"CR Underwriting Assessment Instance Record"	Amount
+""	5	"inout"	"Loan Purpose"	"CR Underwriting Assessment Instance Record"	String
+""	6	"inout"	"Customer Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	7	"inout"	"Customer Reference Details"	"CR Underwriting Assessment Instance Record"	Object
+""	8	"inout"	"Customer Product Eligibility Terms"	"CR Underwriting Assessment Instance Record"	String
+""	9	"inout"	"Customer Employment History"	"CR Underwriting Assessment Instance Record"	String
+""	10	"inout"	"Customer Income Statement"	"CR Underwriting Assessment Instance Record"	String
+""	11	"inout"	"Customer Debt Statement"	"CR Underwriting Assessment Instance Record"	String
+""	12	"inout"	"Customer Asset Statement"	"CR Underwriting Assessment Instance Record"	String
+""	13	"inout"	"Customer Credit Assessment"	"CR Underwriting Assessment Instance Record"	String
+""	14	"inout"	"Customer Product/Service Payment History"	"CR Underwriting Assessment Instance Record"	String
+""	15	"inout"	"Collateral Item Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	16	"inout"	"Collateral Item Type"	"CR Underwriting Assessment Instance Record"	String
+""	17	"inout"	"Collateral Item Valuation"	"CR Underwriting Assessment Instance Record"	String
+""	18	"inout"	"Document Reference"	"CR Underwriting Assessment Instance Record"	Object
+""
+"Put"	"/underwriting/{sd-identifier}/underwriting-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/underwriting/{sd-identifier}/underwriting-assessment/{crbq-identifier}/execution"
+""
+"Put"	"/underwriting/{sd-identifier}/underwriting-assessment/{crbq-identifier}/requisition"
+""
+"Put"	"/underwriting/{sd-identifier}/underwriting-assessment/{crbq-identifier}/grant"
+""
+"Get"	"/underwriting/{sd-identifier}/underwriting-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Underwriting Guidelines"	"CR Underwriting Assessment Instance Record"	String
+""	2	"out"	"Required Customer Employment History Details"	"CR Underwriting Assessment Instance Record"	String
+""	3	"out"	"Required Customer Debt/Asset Statement"	"CR Underwriting Assessment Instance Record"	String
+""	4	"out"	"Required Customer Credit Assessment"	"CR Underwriting Assessment Instance Record"	String
+""	5	"out"	"Required Collateral Coverage"	"CR Underwriting Assessment Instance Record"	String
+""	6	"out"	"Required Customer Product/Service Payment History"	"CR Underwriting Assessment Instance Record"	String
+""	7	"out"	"Required Customer Documents"	"CR Underwriting Assessment Instance Record"	String
+""	8	"out"	"Proposed Transaction Details"	"CR Underwriting Assessment Instance Record"	String
+""	9	"out"	"Product Instance Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	10	"out"	"Proposed Loan Terms"	"CR Underwriting Assessment Instance Record"	String
+""	11	"out"	"Proposed Loan Amount"	"CR Underwriting Assessment Instance Record"	Amount
+""	12	"out"	"Loan Purpose"	"CR Underwriting Assessment Instance Record"	String
+""	13	"out"	"Customer Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	14	"out"	"Customer Reference Details"	"CR Underwriting Assessment Instance Record"	Object
+""	15	"out"	"Customer Product Eligibility Terms"	"CR Underwriting Assessment Instance Record"	String
+""	16	"out"	"Customer Income Statement"	"CR Underwriting Assessment Instance Record"	String
+""	17	"out"	"Customer Debt Statement"	"CR Underwriting Assessment Instance Record"	String
+""	18	"out"	"Customer Asset Statement"	"CR Underwriting Assessment Instance Record"	String
+""	19	"out"	"Collateral Item Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	20	"out"	"Collateral Item Type"	"CR Underwriting Assessment Instance Record"	String
+""	21	"out"	"Collateral Item Valuation"	"CR Underwriting Assessment Instance Record"	String
+""	22	"out"	"Document Reference"	"CR Underwriting Assessment Instance Record"	Object
+""	23	"out"	"Underwriting Assessment Decision"	"CR Underwriting Assessment Instance Record"	String
+""	24	"out"	"Underwriting Assessment Work Product"	"CR Underwriting Assessment Instance Record"	String

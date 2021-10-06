@@ -1,0 +1,13 @@
+"Service Domain specification for Mutual Fund Administration"
+"Business Area"	Products
+"Business Domain"	Corporate Finance
+"Service Domain"	Mutual Fund Administration
+"Role Definition"	"Administer mutual funds, allocate and rebalance the fund in response to market activity and funds sales and disbursements"
+"Example of use"	"Changes in fund ownership and market conditions result in a number of trading requests to rebalance the fund"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	MutualFund
+"Generic Artifact"	AdministrativePlan
+"Control Record"	MutualFundAdministrativePlan
+"Registration Status"	Registered

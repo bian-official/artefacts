@@ -1,0 +1,36 @@
+"Control Record Model for: "	Market Order Execution
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Quote Instance Record	""	""	""
+"BQ"	BQ Quote Instance Record	Quote Security Type	"The security for which the quote is provided"	String
+"BQ"	BQ Quote Instance Record	Quote Type	"The type of quote being provided (e.g. current market, bank committed)"	String
+"BQ"	BQ Quote Instance Record	Quote	"The buy/sell quote by trade type and volume as appropriate"	String
+"BQ"	BQ Position Instance Record	""	""	""
+"BQ"	BQ Position Instance Record	Bank Security Position Security Type	"The security that the bank position is traded for"	String
+"BQ"	BQ Position Instance Record	Position Market Order Trade Initiation Instance Reference	"Reference to market trades impacting the position during the current trading period"	Object
+"BQ"	BQ Position Instance Record	Bank Security Position Security PAndL Record	"The consolidated record of trading activity against the position during the trading period, including the derived position P&L"	String
+"BQ"	BQ Position Instance Record	Wholesale Trade	"The record of trades made in the wholesale markets by the bank to manage its net security position. Note for larger market orders/trades there may be a corresponding wholesale transaction as appropriate)"	String
+"BQ"	BQ Position Instance Record	Wholesale Trade Security Type	"The traded security"	String
+"BQ"	BQ Position Instance Record	Wholesale Trade Volume	"The volume of share bought/sold"	String
+"BQ"	BQ Position Instance Record	Wholesale Trade Price	"The security and cash flow details of the trade"	String
+"BQ"	BQ Position Instance Record	Wholesale Trade Clearing and Settlement Terms	"The terms covering the clearing and settlement of the trade"	String
+"BQ"	BQ Position Instance Record	Document Directory Entry Instance Reference	"The document reference for the trade confirmation notice"	Object
+"BQ"	BQ Position Instance Record	Correspondence Instance Reference	"Reference to the correspondence generated for the trade confirmation"	Object
+"BQ"	BQ Position Instance Record	Wholesale Trade Status	"Status tracking for the wholesale trade"	String
+"CR"	CR Market Trade Transaction Instance Record	""	""	""
+"CR"	CR Market Trade Transaction Instance Record	Market Order Transaction Instance Reference	"Reference to the market order that is to be executed in the markets"	Object
+"CR"	CR Market Trade Transaction Instance Record	Customer Reference	"Reference to the account primary party/owner for the market order"	Object
+"CR"	CR Market Trade Transaction Instance Record	Employee/Business Unit Reference	"The employee/business unit placing the market order"	Object
+"CR"	CR Market Trade Transaction Instance Record	Customer Market Order Processing Instruction	"Any customer specific processing preferences or requirements"	String
+"CR"	CR Market Trade Transaction Instance Record	Market Order Transaction	"The details of the market order transaction"	String
+"CR"	CR Market Trade Transaction Instance Record	Investment Account Arrangement Instance Reference	"Reference to the underlying investment account supporting the transaction"	Object
+"CR"	CR Market Trade Transaction Instance Record	Current Account Arrangement Instance Reference	"Reference to the underlying cash account supporting the transaction"	Object
+"CR"	CR Market Trade Transaction Instance Record	Market Order Type	"The type of market order (e.g. Day Order. Order on Open/Close, Fill or Kill, Limit Order)"	String
+"CR"	CR Market Trade Transaction Instance Record	Security Type	"The security to be traded"	String
+"CR"	CR Market Trade Transaction Instance Record	Amount	"The volume of shares to be bought or sold. This can include different amount types - quoted/committed, traded etc.)"	String
+"CR"	CR Market Trade Transaction Instance Record	Date Type	"Key dates associated with the transaction (e.g. order capture, trade execution, order completion)"	String
+"CR"	CR Market Trade Transaction Instance Record	Date	"Value of the specific date type"	String
+"CR"	CR Market Trade Transaction Instance Record	Market Order Trade Initiation Instance Reference	"Reference to the associated market trade if the order is executed in the market directly"	Object
+"BQ"	BQ Trade Initiation Instance Record	""	""	""
+"BQ"	BQ Trade Initiation Instance Record	Wholesale Trade Reference	"If the market trade is not executed against the bank position, but directly in the wholesale market, this refers to the actual wholesale trading record"	Object
+"BQ"	BQ Trade Initiation Instance Record	Market Trade Transaction Instance Processing Status	"The tracked and returned processing status of the market trade (e.g. pending, partially complete, complete)"	String
+"BQ"	BQ Trade Initiation Instance Record	Market Trade Initiation Task Result	"Details of the market trade initiation task"	String

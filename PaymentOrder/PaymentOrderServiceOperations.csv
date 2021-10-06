@@ -1,0 +1,98 @@
+"Service Operations for: "	Payment Order
+""
+"POST"	"/payment-order/activation"
+"PUT"	"/payment-order/{sd-reference-id}/configuration"
+"PUT"	"/payment-order/{sd-reference-id}/feedback"
+""
+"Post"	"/payment-order/{sd-identifier}/payment-order-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Payment Transaction Initiator Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	2	"in"	"Payer Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	3	"in"	"Payer Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	4	"in"	"Payer Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	5	"in"	"Payee Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	6	"in"	"Payee Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	7	"in"	"Payee Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	8	"in"	"Amount"	"CR Payment Order Procedure Instance Record"	String
+""	9	"in"	"Currency"	"CR Payment Order Procedure Instance Record"	String
+""	10	"in"	"Date Type"	"CR Payment Order Procedure Instance Record"	String
+""	11	"inout"	"Payment Mechanism Type"	"CR Payment Order Procedure Instance Record"	String
+""	12	"in"	"Payment Instructions"	"CR Payment Order Procedure Instance Record"	String
+""	13	"in"	"Interested Parties"	"CR Payment Order Procedure Instance Record"	String
+""	14	"in"	"Product Type"	"CR Payment Order Procedure Instance Record"	String
+""	15	"in"	"Settlement Instructions"	"CR Payment Order Procedure Instance Record"	String
+""
+"Put"	"/payment-order/{sd-identifier}/payment-order-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Payment Transaction Initiator Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	2	"inout"	"Payer Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	3	"inout"	"Payer Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	4	"inout"	"Payer Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	5	"inout"	"Payee Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	6	"inout"	"Payee Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	7	"inout"	"Payee Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	8	"inout"	"Amount"	"CR Payment Order Procedure Instance Record"	String
+""	9	"inout"	"Currency"	"CR Payment Order Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Payment Order Procedure Instance Record"	String
+""	11	"inout"	"Payment Mechanism Type"	"CR Payment Order Procedure Instance Record"	String
+""	12	"inout"	"Payment Instructions"	"CR Payment Order Procedure Instance Record"	String
+""	13	"inout"	"Interested Parties"	"CR Payment Order Procedure Instance Record"	String
+""	14	"inout"	"Product Type"	"CR Payment Order Procedure Instance Record"	String
+""	15	"inout"	"Settlement Instructions"	"CR Payment Order Procedure Instance Record"	String
+""
+"Get"	"/payment-order/{sd-identifier}/payment-order-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Payment Transaction Initiator Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	2	"out"	"Payer Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	3	"out"	"Payer Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	4	"out"	"Payer Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	5	"out"	"Payee Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	6	"out"	"Payee Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	7	"out"	"Payee Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	8	"out"	"Amount"	"CR Payment Order Procedure Instance Record"	String
+""	9	"out"	"Currency"	"CR Payment Order Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Payment Order Procedure Instance Record"	String
+""	11	"out"	"Payment Mechanism Type"	"CR Payment Order Procedure Instance Record"	String
+""	12	"out"	"Payment Instructions"	"CR Payment Order Procedure Instance Record"	String
+""	13	"out"	"Interested Parties"	"CR Payment Order Procedure Instance Record"	String
+""	14	"out"	"Product Type"	"CR Payment Order Procedure Instance Record"	String
+""	15	"out"	"Settlement Instructions"	"CR Payment Order Procedure Instance Record"	String
+""
+"Get"	"/payment-order/{sd-identifier}/order-confirmation/{crbq-identifier}/retrieval"
+""	1	"out"	"Payment Transaction Initiator Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	2	"out"	"Payer Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	3	"out"	"Payer Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	4	"out"	"Payer Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	5	"out"	"Payee Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	6	"out"	"Payee Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	7	"out"	"Payee Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	8	"out"	"Amount"	"CR Payment Order Procedure Instance Record"	String
+""	9	"out"	"Currency"	"CR Payment Order Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Payment Order Procedure Instance Record"	String
+""	11	"out"	"Payment Mechanism Type"	"CR Payment Order Procedure Instance Record"	String
+""	12	"out"	"Payment Instructions"	"CR Payment Order Procedure Instance Record"	String
+""	13	"out"	"Interested Parties"	"CR Payment Order Procedure Instance Record"	String
+""	14	"out"	"Product Type"	"CR Payment Order Procedure Instance Record"	String
+""	15	"out"	"Settlement Instructions"	"CR Payment Order Procedure Instance Record"	String
+""	16	"out"	"Payment Order Compliance Check Type"	"BQ Order Confirmation Instance Record"	String
+""	17	"out"	"Payment Order Compliance Check Result"	"BQ Order Confirmation Instance Record"	String
+""	18	"out"	"Order Confirmation Task Result"	"BQ Order Confirmation Instance Record"	String
+""
+"Put"	"/payment-order/{sd-identifier}/execution-initiation/{crbq-identifier}/control"
+""
+"Get"	"/payment-order/{sd-identifier}/execution-initiation/{crbq-identifier}/retrieval"
+""	1	"out"	"Payment Transaction Initiator Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	2	"out"	"Payer Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	3	"out"	"Payer Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	4	"out"	"Payer Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	5	"out"	"Payee Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	6	"out"	"Payee Bank Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	7	"out"	"Payee Product Instance Reference"	"CR Payment Order Procedure Instance Record"	Object
+""	8	"out"	"Amount"	"CR Payment Order Procedure Instance Record"	String
+""	9	"out"	"Currency"	"CR Payment Order Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Payment Order Procedure Instance Record"	String
+""	11	"out"	"Payment Mechanism Type"	"CR Payment Order Procedure Instance Record"	String
+""	12	"out"	"Payment Instructions"	"CR Payment Order Procedure Instance Record"	String
+""	13	"out"	"Interested Parties"	"CR Payment Order Procedure Instance Record"	String
+""	14	"out"	"Product Type"	"CR Payment Order Procedure Instance Record"	String
+""	15	"out"	"Settlement Instructions"	"CR Payment Order Procedure Instance Record"	String
+""	16	"out"	"Payment Execution Procedure Instance Reference"	"BQ Execution Initiation Instance Record"	Object
+""	17	"out"	"Payment Execution Procedure Instance Status"	"BQ Execution Initiation Instance Record"	String
+""	18	"out"	"Execution Initiation Task Result"	"BQ Execution Initiation Instance Record"	String

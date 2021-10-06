@@ -1,0 +1,13 @@
+"Service Domain specification for Product Combination"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Product Combination
+"Role Definition"	"The Product Combination service domain allows a bank to assemble a composite product from two or more existing products. The combination framework implements necessary functional constraints on the 'contained products' and handles considerations such as transfer pricing where the profitability of embedded products may be compromised to ensure management analysis is not distorted"
+"Example of use"	"Example of use:. A current account product instance is bundled with an investment portfolio product instance to create a combined "margin trading" product. The performance evaluation of the embedded current account that has constrained capabilities is amended to reflect its contribution to the combined product performance"
+"Executive Summary"	"Product Combination supports bundled products applying necessary constraints on embedded product fulfillment and ensuring product performance analysis takes correct account of embedded products' contribution"
+"Key Features"	"Embedded product constrained operation configuration. Transfer pricing/inter product performance compensation handling. Combined product fulfillment facilities"
+"Functional Pattern"	Fulfill
+"Asset Type"	ProductCombination
+"Generic Artifact"	Facility (rename)
+"Control Record"	ProductCombinationArrangement
+"Registration Status"	Registered

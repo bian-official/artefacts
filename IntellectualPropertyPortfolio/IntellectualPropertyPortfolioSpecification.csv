@@ -1,0 +1,13 @@
+"Service Domain specification for Intellectual Property Portfolio"
+"Business Area"	Business Development
+"Business Domain"	Intelectual Property And Knowledge
+"Service Domain"	Intellectual Property Portfolio
+"Role Definition"	"Administer the consolidated portfolio of intellectual property, ensuring entitlement and associated patent or copyright mechanisms are adopted and enforced. Leverage IP through licensing as appropriate"
+"Example of use"	"Example of Use:. A product design innovation is registered as intellectual property"
+"Executive Summary"	"Administer the bank's intellectual property assets"
+"Key Features"	"Identify and classify bank intellectual property assets. Obtain intellectual property protections (e.g. copyright, patenting). Administer the maintenance and status of intellectual property assets. Assign and/or license use of intellectual property assets"
+"Functional Pattern"	Administer
+"Asset Type"	IntellectualProperty
+"Generic Artifact"	AdministrativePlan
+"Control Record"	IntellectualPropertyAdministrativePlan
+"Registration Status"	Registered

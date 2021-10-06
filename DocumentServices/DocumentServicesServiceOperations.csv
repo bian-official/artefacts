@@ -1,0 +1,5 @@
+"Service Operations for: "	Document Services
+""
+"POST"	"/document-services/activation"
+"PUT"	"/document-services/{sd-reference-id}/configuration"
+"PUT"	"/document-services/{sd-reference-id}/feedback"

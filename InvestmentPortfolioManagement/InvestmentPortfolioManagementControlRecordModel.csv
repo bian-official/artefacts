@@ -1,0 +1,22 @@
+"Control Record Model for: "	Investment Portfolio Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	""	""	""
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	Investment Portfolio Trading Policies	"Interpretation of the investment portfolio policies as they impact securities selection and investment decisioning"	String
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	Investment Portfolio Policy Type	"The type of policy applied to the portfolio (e.g. risk appetite, allowed sectors/instrument types, timeframes)"	String
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	Investment Portfolio Policy Description	"A narrative explaining the interpretation of the portfolio policies as they govern trading decisions"	String
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	Investment Portfolio Policy Limits and Constraints	"Specific trading constraints (e.g. stocks or sectors that are out of bounds and acceptable risk levels)"	String
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	Investment Portfolio Instance Reference	"Reference to the investment portfolio record of all holdings"	Object
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	Investment Portfolio Holdings	"Maintains the current security holdings"	String
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	Investment Portfolio Security Type	"The type of security held in the portfolio"	String
+"CR"	CR Managed Investment Portfolio Arrangement Instance Record	Investment Portfolio Security Holding	"Record of past and projected and current holding for the security"	String
+"BQ"	BQ Market Opportunities Instance Record	""	""	""
+"BQ"	BQ Market Opportunities Instance Record	Market Opportunity Description	"Description of the detected market opportunity (e.g. projected movement of an eligible security that is not currently held)"	String
+"BQ"	BQ Market Opportunities Instance Record	Securities Comparison	"Evaluation of the comparative performance of identified security and that in the investment portfolio that would be replaced/adjusted"	String
+"BQ"	BQ Track Instance Record	""	""	""
+"BQ"	BQ Track Instance Record	Investment Portfolio Security Sensitivity	"The sensitivity viewpoint for a held security position"	String
+"BQ"	BQ Track Instance Record	Projected Valuation	"The expected value movement"	String
+"BQ"	BQ Track Instance Record	Projected Portfolio Impact	"An impact assessment of the projected movement on the investment portfolio - includes possible policy limit breaches"	String
+"BQ"	BQ Trade Initiation Instance Record	""	""	""
+"BQ"	BQ Trade Initiation Instance Record	Investment Portfolio Trade Request	"The trading request record used to initiate and track the trade"	String
+"BQ"	BQ Trade Initiation Instance Record	Investment Portfolio Trade Security Type	"The type of security being traded"	String
+"BQ"	BQ Trade Initiation Instance Record	Investment Portfolio Trade Security Trade Description	"A description of the trade, including all key trading details (e.g. amount/volume, pricing/terms, clearing and settlement dates)"	String

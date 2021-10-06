@@ -1,0 +1,13 @@
+"Service Domain specification for Limit and Exposure Management"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Market Risk
+"Service Domain"	Limit and Exposure Management
+"Role Definition"	"Oversee corporate limits and exposures for the combined business activity"
+"Example of use"	"Product fulfillment activity triggers limit and exposure checks"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	LimitAndExposure
+"Generic Artifact"	ManagementPlan
+"Control Record"	LimitAndExposureManagementPlan
+"Registration Status"	Registered

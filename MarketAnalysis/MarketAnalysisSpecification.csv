@@ -1,0 +1,13 @@
+"Service Domain specification for Market Analysis"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Market Analysis
+"Role Definition"	"This service domain supports the broad range of market analysis needed to support business management decisions across the bank. It draws on external market research and internally generated business information as necessary. It is used to develop insights into market trends and potential opportunities/threats. It may also be used to evaluate key events that might impact the bank's business directly or that of important customers and customer segments. A standard set of analytical views can be defined that are maintained. Furthermore the service domain may provide ad-hoc/customized analysis services"
+"Example of use"	"Example of use:. External market research is used to develop competitor analysis for bank products as input to a prospect campaign development"
+"Executive Summary"	"This service domain analyzes internal and external market information sources as necessary to develop specific market insights. It may maintain a collection of predefined market analyses and may also offer specific ad-hoc analysis on request"
+"Key Features"	"Determine the range of standard market analyses reports to support. Support ad-hoc market analysis request. Consolidate market research and internal information sources. Develop market analysis reports. Provide access to market analysis reports"
+"Functional Pattern"	Analyze
+"Asset Type"	GeneralMarketResearch
+"Generic Artifact"	Analysis
+"Control Record"	GeneralMarketResearchAnalysis
+"Registration Status"	Registered

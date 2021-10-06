@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Tax Handling"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Customer Tax Handling
+"Role Definition"	"There are different tax tracking and reporting obligations for products and services in different locations and jurisdictions. This service domain handles the consolidation and reporting of tax related activity as necessary for a customer. Note that this service domain is only responsible for the consolidation and reporting of tax related activity - other service domains will be required to handle actual tax processing obligations as may apply for certain products and services"
+"Example of use"	"A consumer customer is provided with a year end tax report for products and services provided by the bank"
+"Executive Summary"	"This service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity"
+"Key Features"	"Maintain the customer tax reporting obligations. Consolidate product/service tax related activity/transaction details. Analyse financial activity and assemble customer tax reports"
+"Functional Pattern"	Fulfill
+"Asset Type"	CustomerTaxObligation
+"Generic Artifact"	Facility (rename)
+"Control Record"	CustomerTaxObligationArrangement
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Payment Order"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Payment Order
+"Role Definition"	"Payment Order handles the internal bank and compliance checks and processing of funds transfers prior to initiating the actual mechanics of transfer which is handled by the service domain Payment Execution. This includes watch-list and other regulatory checks and applying any counterparty specific limits and payment preferences. It may also oversee payment netting arrangements between the bank and other counterparties"
+"Example of use"	"A customer transaction results in the generation of a payment order to transfer funds to an account in another bank"
+"Executive Summary"	"This service domain handles the bank-side processing of funds transfers, making the necessary bank and regulatory checks on the involved parties and applying their payment preferences where appropriate"
+"Key Features"	"Perform bank and regulatory checks on the payee and payer. Retrieve counterparty payment preferences. Structure payment execution requests to match preferences. Oversee counterparty netting arrangements"
+"Functional Pattern"	Process
+"Asset Type"	PaymentOrder
+"Generic Artifact"	Procedure
+"Control Record"	PaymentOrderProcedure
+"Registration Status"	Registered

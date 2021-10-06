@@ -1,0 +1,111 @@
+"Service Operations for: "	Lead and Opportunity Management
+""
+"POST"	"/lead-and-opportunity-management/activation"
+"PUT"	"/lead-and-opportunity-management/{sd-reference-id}/configuration"
+"PUT"	"/lead-and-opportunity-management/{sd-reference-id}/feedback"
+""
+"Post"	"/lead-and-opportunity-management/{sd-identifier}/lead-and-opportunity-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	2	"in"	"Customer Campaign Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	3	"in"	"Customer Campaign Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	4	"in"	"Customer Campaign Version Number"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	5	"in"	"Product/Service Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	6	"in"	"Product Instance Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	7	"in"	"Employee/Business Unit Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	8	"in"	"Lead/Opportunity Description"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	9	"inout"	"Date/Time/Location"	"CR Lead and Opportunity Procedure Instance Record"	String
+""
+"Put"	"/lead-and-opportunity-management/{sd-identifier}/lead-and-opportunity-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	2	"inout"	"Customer Campaign Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	3	"inout"	"Customer Campaign Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	4	"inout"	"Customer Campaign Version Number"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	5	"inout"	"Product/Service Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	6	"inout"	"Product Instance Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	7	"inout"	"Employee/Business Unit Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	8	"inout"	"Lead/Opportunity Description"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	9	"inout"	"Date/Time/Location"	"CR Lead and Opportunity Procedure Instance Record"	String
+""
+"Put"	"/lead-and-opportunity-management/{sd-identifier}/lead-and-opportunity-procedure/{crbq-identifier}/control"
+""
+"Put"	"/lead-and-opportunity-management/{sd-identifier}/lead-and-opportunity-procedure/{crbq-identifier}/exchange"
+""
+"Get"	"/lead-and-opportunity-management/{sd-identifier}/lead-and-opportunity-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	2	"out"	"Customer Campaign Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	3	"out"	"Customer Campaign Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	4	"out"	"Customer Campaign Version Number"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	5	"out"	"Product/Service Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	6	"out"	"Product Instance Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	7	"out"	"Employee/Business Unit Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	8	"out"	"Lead/Opportunity Description"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	9	"out"	"Date/Time/Location"	"CR Lead and Opportunity Procedure Instance Record"	String
+""
+"Post"	"/lead-and-opportunity-management/{sd-identifier}/development/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	2	"in"	"Customer Campaign Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	3	"in"	"Customer Campaign Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	4	"in"	"Customer Campaign Version Number"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	5	"in"	"Product/Service Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	6	"in"	"Product Instance Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	7	"in"	"Employee/Business Unit Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	8	"in"	"Lead/Opportunity Description"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	9	"in"	"Date/Time/Location"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	10	"out"	"Customer Contact Record Reference"	"BQ Development Instance Record"	Object
+""	11	"out"	"Correspondence Instance Reference"	"BQ Development Instance Record"	Object
+""	12	"out"	"Correspondence Content"	"BQ Development Instance Record"	String
+""	13	"inout"	"Document Directory Entry Instance Reference"	"BQ Development Instance Record"	Object
+""	14	"out"	"Document Content"	"BQ Development Instance Record"	String
+""	15	"out"	"Lead Development Work Products"	"BQ Development Instance Record"	String
+""	16	"out"	"Lead Development Task Result"	"BQ Development Instance Record"	String
+""
+"Put"	"/lead-and-opportunity-management/{sd-identifier}/development/{crbq-identifier}/update"
+""	1	"inout"	"Employee/Business Unit Reference"	"BQ Development Instance Record"	Object
+""	2	"inout"	"Customer Contact Record Reference"	"BQ Development Instance Record"	Object
+""	3	"inout"	"Correspondence Instance Reference"	"BQ Development Instance Record"	Object
+""	4	"inout"	"Correspondence Content"	"BQ Development Instance Record"	String
+""	5	"inout"	"Document Directory Entry Instance Reference"	"BQ Development Instance Record"	Object
+""	6	"inout"	"Document Content"	"BQ Development Instance Record"	String
+""	7	"inout"	"Lead Development Work Products"	"BQ Development Instance Record"	String
+""	8	"inout"	"Lead Development Task Result"	"BQ Development Instance Record"	String
+""	9	"inout"	"Date/Time/Location"	"BQ Development Instance Record"	String
+""
+"Put"	"/lead-and-opportunity-management/{sd-identifier}/development/{crbq-identifier}/execution"
+""	1	"in"	"Employee/Business Unit Reference"	"BQ Development Instance Record"	Object
+""	2	"out"	"Customer Contact Record Reference"	"BQ Development Instance Record"	Object
+""	3	"out"	"Correspondence Instance Reference"	"BQ Development Instance Record"	Object
+""	4	"out"	"Correspondence Content"	"BQ Development Instance Record"	String
+""	5	"inout"	"Document Directory Entry Instance Reference"	"BQ Development Instance Record"	Object
+""	6	"out"	"Document Content"	"BQ Development Instance Record"	String
+""	7	"out"	"Lead Development Work Products"	"BQ Development Instance Record"	String
+""	8	"out"	"Lead Development Task Result"	"BQ Development Instance Record"	String
+""	9	"inout"	"Date/Time/Location"	"BQ Development Instance Record"	String
+""
+"Put"	"/lead-and-opportunity-management/{sd-identifier}/development/{crbq-identifier}/requisition"
+""	1	"in"	"Employee/Business Unit Reference"	"BQ Development Instance Record"	Object
+""	2	"out"	"Customer Contact Record Reference"	"BQ Development Instance Record"	Object
+""	3	"out"	"Correspondence Instance Reference"	"BQ Development Instance Record"	Object
+""	4	"out"	"Correspondence Content"	"BQ Development Instance Record"	String
+""	5	"inout"	"Document Directory Entry Instance Reference"	"BQ Development Instance Record"	Object
+""	6	"out"	"Document Content"	"BQ Development Instance Record"	String
+""	7	"out"	"Lead Development Work Products"	"BQ Development Instance Record"	String
+""	8	"out"	"Lead Development Task Result"	"BQ Development Instance Record"	String
+""	9	"inout"	"Date/Time/Location"	"BQ Development Instance Record"	String
+""
+"Get"	"/lead-and-opportunity-management/{sd-identifier}/development/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	2	"out"	"Customer Campaign Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	3	"out"	"Customer Campaign Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	4	"out"	"Customer Campaign Version Number"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	5	"out"	"Product/Service Type"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	6	"out"	"Product Instance Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	7	"out"	"Employee/Business Unit Reference"	"CR Lead and Opportunity Procedure Instance Record"	Object
+""	8	"out"	"Lead/Opportunity Description"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	9	"out"	"Date/Time/Location"	"CR Lead and Opportunity Procedure Instance Record"	String
+""	10	"out"	"Customer Contact Record Reference"	"BQ Development Instance Record"	Object
+""	11	"out"	"Correspondence Instance Reference"	"BQ Development Instance Record"	Object
+""	12	"out"	"Correspondence Content"	"BQ Development Instance Record"	String
+""	13	"out"	"Document Directory Entry Instance Reference"	"BQ Development Instance Record"	Object
+""	14	"out"	"Document Content"	"BQ Development Instance Record"	String
+""	15	"out"	"Lead Development Work Products"	"BQ Development Instance Record"	String
+""	16	"out"	"Lead Development Task Result"	"BQ Development Instance Record"	String

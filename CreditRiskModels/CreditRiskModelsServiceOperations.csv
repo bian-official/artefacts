@@ -1,0 +1,207 @@
+"Service Operations for: "	Credit Risk Models
+""
+"POST"	"/credit-risk-models/activation"
+"PUT"	"/credit-risk-models/{sd-reference-id}/configuration"
+"PUT"	"/credit-risk-models/{sd-reference-id}/feedback"
+""
+"Put"	"/credit-risk-models/{sd-identifier}/functional-requirements/{crbq-identifier}/capture"
+""	1	"inout"	"Functional Requirements Preconditions"	"BQ Functional Requirements Instance Record"	String
+""	2	"inout"	"Functional Requirements Specification Schedule"	"BQ Functional Requirements Instance Record"	String
+""	3	"inout"	"Functional Requirements Version Number"	"BQ Functional Requirements Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Functional Requirements Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Functional Requirements Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Functional Requirements Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Functional Requirements Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Functional Requirements Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Functional Requirements Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/production/{crbq-identifier}/capture"
+""	1	"inout"	"Production Preconditions"	"BQ Production Instance Record"	String
+""	2	"inout"	"Production Specification Schedule"	"BQ Production Instance Record"	String
+""	3	"inout"	"Production Version Number"	"BQ Production Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Production Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Production Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Production Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Production Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Production Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Production Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/testing/{crbq-identifier}/capture"
+""	1	"inout"	"Testing Preconditions"	"BQ Testing Instance Record"	String
+""	2	"inout"	"Testing Specification Schedule"	"BQ Testing Instance Record"	String
+""	3	"inout"	"Testing Version Number"	"BQ Testing Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Testing Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Testing Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Testing Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Testing Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Testing Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Testing Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/credit-risk-model-specification/{crbq-identifier}/capture"
+""	1	"inout"	"Credit Risk Model Specification Parameter Type"	"CR Credit Risk Model Specification Instance Record"	String
+""	2	"inout"	"Credit Risk Model Specification Selected Option"	"CR Credit Risk Model Specification Instance Record"	String
+""	3	"in"	"Credit Risk Model Specification Description"	"CR Credit Risk Model Specification Instance Record"	String
+""	4	"inout"	"Credit Risk Model Specification Version"	"CR Credit Risk Model Specification Instance Record"	String
+""	5	"inout"	"Credit Risk Model Specification Status"	"CR Credit Risk Model Specification Instance Record"	String
+""	6	"inout"	"Credit Risk Model Specification Usage Log"	"CR Credit Risk Model Specification Instance Record"	String
+""	7	"inout"	"Credit Risk Model Specification Feedback"	"CR Credit Risk Model Specification Instance Record"	String
+""	8	"in"	"Credit Risk Model Specification ServiceProvider Reference"	"CR Credit Risk Model Specification Instance Record"	Object
+""
+"Put"	"/credit-risk-models/{sd-identifier}/credit-risk-model-specification/{crbq-identifier}/control"
+""	1	"inout"	"Credit Risk Model Specification Parameter Type"	"CR Credit Risk Model Specification Instance Record"	String
+""	2	"inout"	"Credit Risk Model Specification Selected Option"	"CR Credit Risk Model Specification Instance Record"	String
+""	3	"in"	"Credit Risk Model Specification Description"	"CR Credit Risk Model Specification Instance Record"	String
+""	4	"inout"	"Credit Risk Model Specification Version"	"CR Credit Risk Model Specification Instance Record"	String
+""	5	"inout"	"Credit Risk Model Specification Status"	"CR Credit Risk Model Specification Instance Record"	String
+""	6	"inout"	"Credit Risk Model Specification Usage Log"	"CR Credit Risk Model Specification Instance Record"	String
+""	7	"inout"	"Credit Risk Model Specification Feedback"	"CR Credit Risk Model Specification Instance Record"	String
+""	8	"in"	"Credit Risk Model Specification ServiceProvider Reference"	"CR Credit Risk Model Specification Instance Record"	Object
+""
+"Put"	"/credit-risk-models/{sd-identifier}/credit-risk-model-specification/{crbq-identifier}/exchange"
+""	1	"inout"	"Credit Risk Model Specification Parameter Type"	"CR Credit Risk Model Specification Instance Record"	String
+""	2	"inout"	"Credit Risk Model Specification Selected Option"	"CR Credit Risk Model Specification Instance Record"	String
+""	3	"in"	"Credit Risk Model Specification Description"	"CR Credit Risk Model Specification Instance Record"	String
+""	4	"inout"	"Credit Risk Model Specification Version"	"CR Credit Risk Model Specification Instance Record"	String
+""	5	"inout"	"Credit Risk Model Specification Status"	"CR Credit Risk Model Specification Instance Record"	String
+""	6	"inout"	"Credit Risk Model Specification Usage Log"	"CR Credit Risk Model Specification Instance Record"	String
+""	7	"inout"	"Credit Risk Model Specification Feedback"	"CR Credit Risk Model Specification Instance Record"	String
+""	8	"in"	"Credit Risk Model Specification ServiceProvider Reference"	"CR Credit Risk Model Specification Instance Record"	Object
+""
+"Post"	"/credit-risk-models/{sd-identifier}/credit-risk-model-specification/{crbq-identifier}/initiation"
+""	1	"inout"	"Credit Risk Model Specification Parameter Type"	"CR Credit Risk Model Specification Instance Record"	String
+""	2	"inout"	"Credit Risk Model Specification Selected Option"	"CR Credit Risk Model Specification Instance Record"	String
+""	3	"in"	"Credit Risk Model Specification Description"	"CR Credit Risk Model Specification Instance Record"	String
+""	4	"inout"	"Credit Risk Model Specification Version"	"CR Credit Risk Model Specification Instance Record"	String
+""	5	"inout"	"Credit Risk Model Specification Status"	"CR Credit Risk Model Specification Instance Record"	String
+""	6	"inout"	"Credit Risk Model Specification Usage Log"	"CR Credit Risk Model Specification Instance Record"	String
+""	7	"inout"	"Credit Risk Model Specification Feedback"	"CR Credit Risk Model Specification Instance Record"	String
+""	8	"in"	"Credit Risk Model Specification ServiceProvider Reference"	"CR Credit Risk Model Specification Instance Record"	Object
+""
+"Get"	"/credit-risk-models/{sd-identifier}/functional-requirements/{crbq-identifier}/retrieval"
+""	1	"out"	"Functional Requirements Preconditions"	"BQ Functional Requirements Instance Record"	String
+""	2	"out"	"Functional Requirements Specification Schedule"	"BQ Functional Requirements Instance Record"	String
+""	3	"out"	"Functional Requirements Version Number"	"BQ Functional Requirements Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Functional Requirements Instance Record"	Business Service
+""	5	"out"	" Service Type"	"BQ Functional Requirements Instance Record"	String
+""	6	"out"	" Service Description"	"BQ Functional Requirements Instance Record"	String
+""	7	"out"	" Service Inputs and Ouputs"	"BQ Functional Requirements Instance Record"	String
+""	8	"out"	" Service Work Product"	"BQ Functional Requirements Instance Record"	String
+""	9	"out"	" Service Name"	"BQ Functional Requirements Instance Record"	String
+""
+"Get"	"/credit-risk-models/{sd-identifier}/production/{crbq-identifier}/retrieval"
+""	1	"out"	"Production Preconditions"	"BQ Production Instance Record"	String
+""	2	"out"	"Production Specification Schedule"	"BQ Production Instance Record"	String
+""	3	"out"	"Production Version Number"	"BQ Production Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Production Instance Record"	Business Service
+""	5	"out"	" Service Type"	"BQ Production Instance Record"	String
+""	6	"out"	" Service Description"	"BQ Production Instance Record"	String
+""	7	"out"	" Service Inputs and Ouputs"	"BQ Production Instance Record"	String
+""	8	"out"	" Service Work Product"	"BQ Production Instance Record"	String
+""	9	"out"	" Service Name"	"BQ Production Instance Record"	String
+""
+"Get"	"/credit-risk-models/{sd-identifier}/testing/{crbq-identifier}/retrieval"
+""	1	"out"	"Testing Preconditions"	"BQ Testing Instance Record"	String
+""	2	"out"	"Testing Specification Schedule"	"BQ Testing Instance Record"	String
+""	3	"out"	"Testing Version Number"	"BQ Testing Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Testing Instance Record"	Business Service
+""	5	"out"	" Service Type"	"BQ Testing Instance Record"	String
+""	6	"out"	" Service Description"	"BQ Testing Instance Record"	String
+""	7	"out"	" Service Inputs and Ouputs"	"BQ Testing Instance Record"	String
+""	8	"out"	" Service Work Product"	"BQ Testing Instance Record"	String
+""	9	"out"	" Service Name"	"BQ Testing Instance Record"	String
+""
+"Get"	"/credit-risk-models/{sd-identifier}/credit-risk-model-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"Credit Risk Model Specification Parameter Type"	"CR Credit Risk Model Specification Instance Record"	String
+""	2	"out"	"Credit Risk Model Specification Selected Option"	"CR Credit Risk Model Specification Instance Record"	String
+""	3	"out"	"Credit Risk Model Specification Description"	"CR Credit Risk Model Specification Instance Record"	String
+""	4	"out"	"Credit Risk Model Specification Version"	"CR Credit Risk Model Specification Instance Record"	String
+""	5	"out"	"Credit Risk Model Specification Status"	"CR Credit Risk Model Specification Instance Record"	String
+""	6	"out"	"Credit Risk Model Specification Usage Log"	"CR Credit Risk Model Specification Instance Record"	String
+""	7	"out"	"Credit Risk Model Specification Feedback"	"CR Credit Risk Model Specification Instance Record"	String
+""	8	"out"	"Credit Risk Model Specification ServiceProvider Reference"	"CR Credit Risk Model Specification Instance Record"	Object
+""
+"Put"	"/credit-risk-models/{sd-identifier}/functional-requirements/{crbq-identifier}/requisition"
+""	1	"inout"	"Functional Requirements Preconditions"	"BQ Functional Requirements Instance Record"	String
+""	2	"inout"	"Functional Requirements Specification Schedule"	"BQ Functional Requirements Instance Record"	String
+""	3	"inout"	"Functional Requirements Version Number"	"BQ Functional Requirements Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Functional Requirements Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Functional Requirements Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Functional Requirements Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Functional Requirements Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Functional Requirements Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Functional Requirements Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/production/{crbq-identifier}/requisition"
+""	1	"inout"	"Production Preconditions"	"BQ Production Instance Record"	String
+""	2	"inout"	"Production Specification Schedule"	"BQ Production Instance Record"	String
+""	3	"inout"	"Production Version Number"	"BQ Production Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Production Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Production Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Production Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Production Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Production Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Production Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/testing/{crbq-identifier}/requisition"
+""	1	"inout"	"Testing Preconditions"	"BQ Testing Instance Record"	String
+""	2	"inout"	"Testing Specification Schedule"	"BQ Testing Instance Record"	String
+""	3	"inout"	"Testing Version Number"	"BQ Testing Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Testing Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Testing Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Testing Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Testing Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Testing Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Testing Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/credit-risk-model-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Credit Risk Model Specification Parameter Type"	"CR Credit Risk Model Specification Instance Record"	String
+""	2	"inout"	"Credit Risk Model Specification Selected Option"	"CR Credit Risk Model Specification Instance Record"	String
+""	3	"in"	"Credit Risk Model Specification Description"	"CR Credit Risk Model Specification Instance Record"	String
+""	4	"inout"	"Credit Risk Model Specification Version"	"CR Credit Risk Model Specification Instance Record"	String
+""	5	"inout"	"Credit Risk Model Specification Status"	"CR Credit Risk Model Specification Instance Record"	String
+""	6	"inout"	"Credit Risk Model Specification Usage Log"	"CR Credit Risk Model Specification Instance Record"	String
+""	7	"inout"	"Credit Risk Model Specification Feedback"	"CR Credit Risk Model Specification Instance Record"	String
+""	8	"in"	"Credit Risk Model Specification ServiceProvider Reference"	"CR Credit Risk Model Specification Instance Record"	Object
+""
+"Put"	"/credit-risk-models/{sd-identifier}/functional-requirements/{crbq-identifier}/update"
+""	1	"inout"	"Functional Requirements Preconditions"	"BQ Functional Requirements Instance Record"	String
+""	2	"inout"	"Functional Requirements Specification Schedule"	"BQ Functional Requirements Instance Record"	String
+""	3	"inout"	"Functional Requirements Version Number"	"BQ Functional Requirements Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Functional Requirements Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Functional Requirements Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Functional Requirements Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Functional Requirements Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Functional Requirements Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Functional Requirements Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/production/{crbq-identifier}/update"
+""	1	"inout"	"Production Preconditions"	"BQ Production Instance Record"	String
+""	2	"inout"	"Production Specification Schedule"	"BQ Production Instance Record"	String
+""	3	"inout"	"Production Version Number"	"BQ Production Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Production Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Production Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Production Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Production Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Production Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Production Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/testing/{crbq-identifier}/update"
+""	1	"inout"	"Testing Preconditions"	"BQ Testing Instance Record"	String
+""	2	"inout"	"Testing Specification Schedule"	"BQ Testing Instance Record"	String
+""	3	"inout"	"Testing Version Number"	"BQ Testing Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Testing Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Testing Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Testing Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Testing Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Testing Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Testing Instance Record"	String
+""
+"Put"	"/credit-risk-models/{sd-identifier}/credit-risk-model-specification/{crbq-identifier}/update"
+""	1	"inout"	"Credit Risk Model Specification Parameter Type"	"CR Credit Risk Model Specification Instance Record"	String
+""	2	"inout"	"Credit Risk Model Specification Selected Option"	"CR Credit Risk Model Specification Instance Record"	String
+""	3	"in"	"Credit Risk Model Specification Description"	"CR Credit Risk Model Specification Instance Record"	String
+""	4	"inout"	"Credit Risk Model Specification Version"	"CR Credit Risk Model Specification Instance Record"	String
+""	5	"inout"	"Credit Risk Model Specification Status"	"CR Credit Risk Model Specification Instance Record"	String
+""	6	"inout"	"Credit Risk Model Specification Usage Log"	"CR Credit Risk Model Specification Instance Record"	String
+""	7	"inout"	"Credit Risk Model Specification Feedback"	"CR Credit Risk Model Specification Instance Record"	String
+""	8	"in"	"Credit Risk Model Specification ServiceProvider Reference"	"CR Credit Risk Model Specification Instance Record"	Object

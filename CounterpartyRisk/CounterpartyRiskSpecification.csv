@@ -1,0 +1,13 @@
+"Service Domain specification for Counterparty Risk"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Credit Risk
+"Service Domain"	Counterparty Risk
+"Role Definition"	"Maintain and administer a counterparty risk rating"
+"Example of use"	"A back office function tracks transaction activity and external rating details to maintain counterparty credit ratings"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Monitor
+"Asset Type"	CounterpartyCreditRisk
+"Generic Artifact"	State
+"Control Record"	CounterpartyCreditRiskMeasurement
+"Registration Status"	Registered

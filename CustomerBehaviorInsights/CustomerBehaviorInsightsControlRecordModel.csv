@@ -1,0 +1,21 @@
+"Control Record Model for: "	Customer Behavior Insights
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Insight Instance Record	""	""	""
+"BQ"	BQ Insight Instance Record	Insight Evaluation Customer Insight Type	"The type of customer insight developed in this evaluation (e.g. retention candidate, cross-sell candidate)"	String
+"BQ"	BQ Insight Instance Record	Insight Evaluation Task	"Record of a task to develop the customer insight"	String
+"BQ"	BQ Insight Instance Record	Insight Evaluation Request Specification	"The specific details of the analysis (can be a default/standard and scheduled refresh)"	String
+"BQ"	BQ Insight Instance Record	insight Evaluation Customer Behavior Model Reference	"Reference to the behavior model used to develop the insight"	Object
+"BQ"	BQ Insight Instance Record	Insight Evaluation ProductandService Activity Report	"The data file, report of production activity used in the analysis"	String
+"BQ"	BQ Insight Instance Record	Insight Evaluation Customer Event Log Report	"The Record containing the selected event records from the log"	String
+"BQ"	BQ Insight Instance Record	Insight Evaluation Servicing Event Log Report	"The Record containing the selected event records from the log"	String
+"BQ"	BQ Insight Instance Record	Insight Evaluation Channel Event Log Report	"The Record containing the selected event records from the log"	String
+"BQ"	BQ Insight Instance Record	Insight Evaluation Market Research Report	"The content of a specific market research report or database in any suitable form"	String
+"BQ"	BQ Insight Instance Record	Insight Evaluation Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Insight Instance Record	Insight Evaluation Request Result	"The output from executing the assessment"	String
+"CR"	CR Customer Behavior Analysis Instance Record	""	""	""
+"CR"	CR Customer Behavior Analysis Instance Record	Customer Reference	"Reference to the associated customer (can currently be a person or a company)"	Object
+"CR"	CR Customer Behavior Analysis Instance Record	Customer Insight Analysis Schedule	"The schedule for refreshing the analyses for a customer"	String
+"CR"	CR Customer Behavior Analysis Instance Record	Customer Behavior Analysis Insights Record	"A record of the collection of behavioral insight analyses maintained for the customer"	String
+"CR"	CR Customer Behavior Analysis Instance Record	Customer Insight Type	"Defines a type of maintained customer insight (e.g. retention candidate, cross-sell candidate)"	String
+"CR"	CR Customer Behavior Analysis Instance Record	Customer Insight	"The derived value of the specific insight for the customer and past values if appropriate"	String
+"CR"	CR Customer Behavior Analysis Instance Record	Customer Insight Calculation Date	"The date/time the value was last refreshed, and past value dates if appropriate"	Date

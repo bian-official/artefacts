@@ -1,0 +1,13 @@
+"Service Domain specification for Fraud Resolution"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Credit Risk
+"Service Domain"	Fraud Resolution
+"Role Definition"	"Setup and update Fraud Case and handle investigation and resolution steps, which may involve initiating containment actions, obtaining documentation, performing forensic investigation and actions, determining liability, initiating resolution actions such as reversals and financial adjustments, subscribing and publishing to Consortia, determining root cause and initiating corrective/preventive actions. The Fraud Case may be opened by Product/Channel Facility,  Fraud Diagnosis or by Customer Case."
+"Example of use"	"A pattern of possible fraud is highlighted in transaction records that is researched and evidence of fraud discovered. Prosecution/resolution activity is initiated"
+"Executive Summary"	"This service domain sets up and processes a fraud case resulting from fraud behavior that has been detected during production processing"
+"Key Features"	"Setup fraud resolution case. Obtain documentation and evaluate. Determine and assign liability. Define and initiate resolution activities"
+"Functional Pattern"	Process
+"Asset Type"	FraudResolution
+"Generic Artifact"	Procedure
+"Control Record"	FraudResolutionProcedure
+"Registration Status"	Registered

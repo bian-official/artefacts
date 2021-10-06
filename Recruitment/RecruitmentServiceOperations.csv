@@ -1,0 +1,5 @@
+"Service Operations for: "	Recruitment
+"Control Record Model for Recruitment is not defined"
+"POST"	"/recruitment/activation"
+"PUT"	"/recruitment/{sd-reference-id}/configuration"
+"PUT"	"/recruitment/{sd-reference-id}/feedback"

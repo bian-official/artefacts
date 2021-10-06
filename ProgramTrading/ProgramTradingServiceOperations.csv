@@ -1,0 +1,5 @@
+"Service Operations for: "	Program Trading
+"Control Record Model for Program Trading is not defined"
+"POST"	"/program-trading/activation"
+"PUT"	"/program-trading/{sd-reference-id}/configuration"
+"PUT"	"/program-trading/{sd-reference-id}/feedback"

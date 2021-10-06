@@ -1,0 +1,13 @@
+"Service Domain specification for Market Order"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Market Order
+"Role Definition"	"Market Order records an instruction from a customer or his or her representative (which could be an account manager in the bank) to buy or sell securities. It follows the order during its lifetime and reports back to the requestor on the execution.. In case of a sell order it puts a block on the investment account when the order is placed. This block will be removed when the order is executed or when it expires.. A market order may be broken into multiple market trades or combined with other market orders for a block trade at the bank's discretion"
+"Example of use"	"A customer decides to sell shares from his or her investment account. The customer issues a sell order and a market order is created with the status pending. A block is put on the seller's investment account for the amount of shares in the order. Market Order places the order and waits for a confirmation of execution.. Once the bank is informed on successful execution, the status of the market order is changed to executed and the Service Connection "Execute Securities Transaction" on Market Order Execution is invoked. Market Order Execution will in turn call Securities Position Keeping to realise the sale in numbers of shares on the involved accounts."
+"Executive Summary"	"Market Order records an instruction from a customer or his or her representative to buy or sell securities. It follows the order during its lifetime and reports back to the requestor on the execution."
+"Key Features"	"- Record and manage customer order. - Place order and monitor execution. - Initiate financial settlement upon order execiution"
+"Functional Pattern"	Transact
+"Asset Type"	MarketOrder
+"Generic Artifact"	Transaction
+"Control Record"	MarketOrderTransaction
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Merchant Relations"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Merchant Relations
+"Role Definition"	""
+"Example of use"	"A card charge is disputed and a case raised - the case processing requests documentation from the merchant and the resolution is aligned to the payoff ranges governing the agreement"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Agree Terms
+"Asset Type"	MerchantRelationship
+"Generic Artifact"	Agreement
+"Control Record"	MerchantRelationshipAgreement
+"Registration Status"	Registered

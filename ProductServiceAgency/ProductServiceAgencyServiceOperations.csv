@@ -1,0 +1,5 @@
+"Service Operations for: "	Product Service Agency
+"Control Record Model for Product Service Agency is not defined"
+"POST"	"/product-service-agency/activation"
+"PUT"	"/product-service-agency/{sd-reference-id}/configuration"
+"PUT"	"/product-service-agency/{sd-reference-id}/feedback"

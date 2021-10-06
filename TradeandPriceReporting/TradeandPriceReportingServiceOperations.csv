@@ -1,0 +1,5 @@
+"Service Operations for: "	Trade and Price Reporting
+"Control Record Model for Trade and Price Reporting is not defined"
+"POST"	"/trade-and-price-reporting/activation"
+"PUT"	"/trade-and-price-reporting/{sd-reference-id}/configuration"
+"PUT"	"/trade-and-price-reporting/{sd-reference-id}/feedback"

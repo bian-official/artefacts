@@ -1,0 +1,133 @@
+"Service Operations for: "	Customer Campaign Management
+""
+"POST"	"/customer-campaign-management/activation"
+"PUT"	"/customer-campaign-management/{sd-reference-id}/configuration"
+"PUT"	"/customer-campaign-management/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-campaign-management/{sd-identifier}/customer-campaign-portfolio-management-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	3	"inout"	"Customer Campaign Metrics"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	4	"inout"	"Customer Campaign Metric Definition"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	5	"inout"	"Customer Campaign Performance Record"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	6	"inout"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Portfolio Management Plan Instance Record"	Object
+""	7	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Portfolio Management Plan Instance Record"	Object
+""	8	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	9	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	10	"in"	"Customer Campaign Procedure Result"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/customer-campaign-portfolio-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	3	"inout"	"Customer Campaign Metrics"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	4	"inout"	"Customer Campaign Metric Definition"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	5	"inout"	"Customer Campaign Metric Goal"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	6	"inout"	"Customer Campaign Performance Record"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	7	"inout"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Portfolio Management Plan Instance Record"	Object
+""	8	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Portfolio Management Plan Instance Record"	Object
+""	9	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	10	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	11	"inout"	"Customer Campaign Procedure Result"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/customer-campaign-portfolio-management-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	3	"inout"	"Customer Campaign Metrics"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	4	"inout"	"Customer Campaign Metric Definition"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/customer-campaign-portfolio-management-plan/{crbq-identifier}/grant"
+""
+"Get"	"/customer-campaign-management/{sd-identifier}/customer-campaign-portfolio-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Campaign Type"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	2	"out"	"Customer Campaign Description"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	3	"out"	"Customer Campaign Metrics"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	4	"out"	"Customer Campaign Metric Definition"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	5	"out"	"Customer Campaign Metric Goal"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	6	"out"	"Customer Campaign Performance Record"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	7	"out"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Portfolio Management Plan Instance Record"	Object
+""	8	"out"	"Employee/Business Unit Reference"	"CR Customer Campaign Portfolio Management Plan Instance Record"	Object
+""	9	"out"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	10	"out"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Portfolio Management Plan Instance Record"	String
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/market-tracking/{crbq-identifier}/update"
+""	1	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	2	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	3	"inout"	"Competitor Analysis Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	5	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	6	"inout"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	7	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/market-tracking/{crbq-identifier}/execution"
+""	1	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	2	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	3	"inout"	"Competitor Analysis Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	5	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	6	"out"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	7	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/market-tracking/{crbq-identifier}/requisition"
+""	1	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	2	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	3	"inout"	"Competitor Analysis Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	5	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	6	"out"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	7	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Get"	"/customer-campaign-management/{sd-identifier}/market-tracking/{crbq-identifier}/retrieval"
+""	1	"out"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	2	"out"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	3	"out"	"Competitor Analysis Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	4	"out"	"Customer Survey Procedure Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	5	"out"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	6	"out"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	7	"out"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Post"	"/customer-campaign-management/{sd-identifier}/performance-assessment/{crbq-identifier}/creation"
+""	1	"inout"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"inout"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"out"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"inout"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/performance-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"inout"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"inout"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"inout"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/performance-assessment/{crbq-identifier}/execution"
+""	1	"inout"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"inout"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"out"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"inout"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/performance-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"inout"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"out"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"inout"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Get"	"/customer-campaign-management/{sd-identifier}/performance-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Performance Assessment Work Task Type"	"BQ Performance Assessment Instance Record"	String
+""	2	"out"	"Performance Assessment Work Task Work Products"	"BQ Performance Assessment Instance Record"	String
+""	3	"out"	"Performance Assessment Work Task Result"	"BQ Performance Assessment Instance Record"	String
+""	4	"out"	"Performance Assessment Work Task Date-Time"	"BQ Performance Assessment Instance Record"	Date
+""
+"Post"	"/customer-campaign-management/{sd-identifier}/campaign-direction/{crbq-identifier}/creation"
+""	1	"inout"	"Customer Campaign Development Schedule"	"BQ Campaign Direction Instance Record"	String
+""	2	"inout"	"Customer Campaign Execution Schedule"	"BQ Campaign Direction Instance Record"	String
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/campaign-direction/{crbq-identifier}/update"
+""	1	"inout"	"Customer Campaign Development Schedule"	"BQ Campaign Direction Instance Record"	String
+""	2	"inout"	"Customer Campaign Execution Schedule"	"BQ Campaign Direction Instance Record"	String
+""
+"Put"	"/customer-campaign-management/{sd-identifier}/campaign-direction/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Campaign Development Schedule"	"BQ Campaign Direction Instance Record"	String
+""	2	"inout"	"Customer Campaign Execution Schedule"	"BQ Campaign Direction Instance Record"	String
+""
+"Get"	"/customer-campaign-management/{sd-identifier}/campaign-direction/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Campaign Development Schedule"	"BQ Campaign Direction Instance Record"	String
+""	2	"out"	"Customer Campaign Execution Schedule"	"BQ Campaign Direction Instance Record"	String

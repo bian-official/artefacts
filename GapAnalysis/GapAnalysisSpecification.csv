@@ -1,0 +1,13 @@
+"Service Domain specification for Gap Analysis"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Market Risk
+"Service Domain"	Gap Analysis
+"Role Definition"	"Maintain and track projected consolidated cash flows to support evaluation and management of currency and interest rate risk positions, the bank's overall dispositive liquidity risk"
+"Example of use"	"A risk management unit/group treasury assembles and maintains the currency and interest rate maturity ladders for the trading function"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	interestRateGapRisk
+"Generic Artifact"	Analysis
+"Control Record"	interestRateGapRiskAnalysis
+"Registration Status"	Registered

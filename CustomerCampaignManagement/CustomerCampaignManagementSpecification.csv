@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Campaign Management"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Customer Campaign Management
+"Role Definition"	"Oversee the use and assess the coverage and impact of internal/customer campaigns. Direct customer campaign execution resources to maximize business impact and in response to any identified market opportunities and threats. Oversee campaign design and development activity."
+"Example of use"	"Customer Campaign Management identifies competitor activity that poses a threat to existing customers. Campaign design is initiated to develop a retention campaign to address the threat"
+"Executive Summary"	"Assess the coverage and impact of internal/customer campaigns and redirect campaign development and execution activity accordingly"
+"Key Features"	"Track market/competitor activity. Assess customer segment performance. Assess coverage of customer campaigns. Direct the development of customer campaigns. Direct the execution of customer campaigns"
+"Functional Pattern"	Manage
+"Asset Type"	CustomerCampaignPortfolio
+"Generic Artifact"	ManagementPlan
+"Control Record"	CustomerCampaignPortfolioManagementPlan
+"Registration Status"	Registered

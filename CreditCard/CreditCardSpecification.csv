@@ -1,0 +1,13 @@
+"Service Domain specification for Credit Card"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Credit Card
+"Role Definition"	"This service domain handles both credit and charge card fulfillment. The main functional difference being the different re-payment and credit handling structures of the two types of card product. Note that unlike a current accounts, card products are typically fulfilled through specialised credit card companies using a card network that links issuing banks and merchant acquiring banks for authorization, clearing and settlement activities.. Debit cards (i.e. devices to access a normal bank account) do not come under this Service Domain."
+"Example of use"	"An established card customer uses his or her credit card for a purchase and settles the balance of the card account at the monthly payment cycle"
+"Executive Summary"	"This service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment"
+"Key Features"	"- Set-up a credit card account. - Process card transactions (authorizations). - Calculate interest and fees. - Initiate and track dispute resolutions. - Initiate customer billing. - Process clearing and settlement"
+"Functional Pattern"	Fulfill
+"Asset Type"	CreditCard
+"Generic Artifact"	Facility (rename)
+"Control Record"	CreditCardArrangement
+"Registration Status"	Registered

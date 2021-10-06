@@ -1,0 +1,128 @@
+"Service Operations for: "	Fraud Resolution
+""
+"POST"	"/fraud-resolution/activation"
+"PUT"	"/fraud-resolution/{sd-reference-id}/configuration"
+"PUT"	"/fraud-resolution/{sd-reference-id}/feedback"
+""
+"Post"	"/fraud-resolution/{sd-identifier}/fraud-resolution-procedure/{crbq-identifier}/initiation"
+""	1	"inout"	"Fraud Case Type"	"CR Fraud Resolution Procedure Instance Record"	String
+""	2	"in"	"Product Instance Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	4	"in"	"Merchant Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	5	"in"	"Intersted Party Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	6	"in"	"Contact Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	7	"in"	"Transaction Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	8	"in"	"Transaction Record"	"CR Fraud Resolution Procedure Instance Record"	String
+""	9	"in"	"Case Location"	"CR Fraud Resolution Procedure Instance Record"	String
+""	10	"in"	"Date"	"CR Fraud Resolution Procedure Instance Record"	String
+""	11	"in"	"Employee/Business Unit Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	12	"inout"	"Fraud Case Work Products"	"CR Fraud Resolution Procedure Instance Record"	String
+""	13	"inout"	"Fraud Case Resolution Schedule"	"CR Fraud Resolution Procedure Instance Record"	String
+""	14	"inout"	"Fraud Case Status"	"CR Fraud Resolution Procedure Instance Record"	String
+""
+"Put"	"/fraud-resolution/{sd-identifier}/fraud-resolution-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Fraud Case Type"	"CR Fraud Resolution Procedure Instance Record"	String
+""	2	"inout"	"Product Instance Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	3	"inout"	"Customer Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	4	"inout"	"Merchant Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	5	"inout"	"Intersted Party Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	6	"inout"	"Contact Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	7	"inout"	"Transaction Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	8	"inout"	"Transaction Record"	"CR Fraud Resolution Procedure Instance Record"	String
+""	9	"inout"	"Case Location"	"CR Fraud Resolution Procedure Instance Record"	String
+""	10	"inout"	"Date"	"CR Fraud Resolution Procedure Instance Record"	String
+""	11	"inout"	"Employee/Business Unit Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	12	"inout"	"Fraud Case Work Products"	"CR Fraud Resolution Procedure Instance Record"	String
+""	13	"inout"	"Fraud Case Resolution Schedule"	"CR Fraud Resolution Procedure Instance Record"	String
+""	14	"inout"	"Fraud Case Status"	"CR Fraud Resolution Procedure Instance Record"	String
+""
+"Put"	"/fraud-resolution/{sd-identifier}/fraud-resolution-procedure/{crbq-identifier}/exchange"
+""
+"Get"	"/fraud-resolution/{sd-identifier}/fraud-resolution-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Fraud Case Type"	"CR Fraud Resolution Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	4	"out"	"Merchant Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	5	"out"	"Intersted Party Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	6	"out"	"Contact Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	7	"out"	"Transaction Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	8	"out"	"Transaction Record"	"CR Fraud Resolution Procedure Instance Record"	String
+""	9	"out"	"Case Location"	"CR Fraud Resolution Procedure Instance Record"	String
+""	10	"out"	"Date"	"CR Fraud Resolution Procedure Instance Record"	String
+""	11	"out"	"Employee/Business Unit Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	12	"out"	"Fraud Case Work Products"	"CR Fraud Resolution Procedure Instance Record"	String
+""	13	"out"	"Fraud Case Resolution Schedule"	"CR Fraud Resolution Procedure Instance Record"	String
+""	14	"out"	"Fraud Case Status"	"CR Fraud Resolution Procedure Instance Record"	String
+""
+"Get"	"/fraud-resolution/{sd-identifier}/case-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Fraud Case Type"	"CR Fraud Resolution Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	4	"out"	"Merchant Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	5	"out"	"Intersted Party Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	6	"out"	"Contact Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	7	"out"	"Transaction Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	8	"out"	"Transaction Record"	"CR Fraud Resolution Procedure Instance Record"	String
+""	9	"out"	"Case Location"	"CR Fraud Resolution Procedure Instance Record"	String
+""	10	"out"	"Date"	"CR Fraud Resolution Procedure Instance Record"	String
+""	11	"out"	"Employee/Business Unit Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	12	"out"	"Fraud Case Work Products"	"CR Fraud Resolution Procedure Instance Record"	String
+""	13	"out"	"Fraud Case Resolution Schedule"	"CR Fraud Resolution Procedure Instance Record"	String
+""	14	"out"	"Fraud Case Status"	"CR Fraud Resolution Procedure Instance Record"	String
+""	15	"out"	"Fraud Case Root Cause"	"BQ Case Analysis Instance Record"	String
+""
+"Put"	"/fraud-resolution/{sd-identifier}/case-determination/{crbq-identifier}/exchange"
+""
+"Get"	"/fraud-resolution/{sd-identifier}/case-determination/{crbq-identifier}/retrieval"
+""	1	"out"	"Fraud Case Type"	"CR Fraud Resolution Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	4	"out"	"Merchant Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	5	"out"	"Intersted Party Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	6	"out"	"Contact Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	7	"out"	"Transaction Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	8	"out"	"Transaction Record"	"CR Fraud Resolution Procedure Instance Record"	String
+""	9	"out"	"Case Location"	"CR Fraud Resolution Procedure Instance Record"	String
+""	10	"out"	"Date"	"CR Fraud Resolution Procedure Instance Record"	String
+""	11	"out"	"Employee/Business Unit Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	12	"out"	"Fraud Case Work Products"	"CR Fraud Resolution Procedure Instance Record"	String
+""	13	"out"	"Fraud Case Resolution Schedule"	"CR Fraud Resolution Procedure Instance Record"	String
+""	14	"out"	"Fraud Case Status"	"CR Fraud Resolution Procedure Instance Record"	String
+""	15	"out"	"Fraud Case Root Cause"	"BQ Case Analysis Instance Record"	String
+""	16	"out"	"Customer Agreement Reference"	"BQ Case Determination Instance Record"	Object
+""	17	"out"	"Merchant Agreement Reference"	"BQ Case Determination Instance Record"	Object
+""	18	"out"	"Interested Party Agreement Reference"	"BQ Case Determination Instance Record"	Object
+""	19	"out"	"Fraud Case Determination Record"	"BQ Case Determination Instance Record"	String
+""
+"Put"	"/fraud-resolution/{sd-identifier}/case-resolution/{crbq-identifier}/requisition"
+""	1	"in"	"Fraud Case Resolution Record"	"BQ Case Resolution Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"BQ Case Resolution Instance Record"	Object
+""	3	"in"	"Correspondence Reference"	"BQ Case Resolution Instance Record"	Object
+""	4	"in"	"Adjustment/Chargeback Reference"	"BQ Case Resolution Instance Record"	Object
+""	5	"in"	"Consortia Reporting Instance Reference"	"BQ Case Resolution Instance Record"	Object
+""	6	"in"	"Document Directory Entry Instance Reference"	"BQ Case Resolution Instance Record"	Object
+""	7	"in"	"Payment Order Reference"	"BQ Case Resolution Instance Record"	Object
+""
+"Get"	"/fraud-resolution/{sd-identifier}/case-resolution/{crbq-identifier}/retrieval"
+""	1	"out"	"Fraud Case Type"	"CR Fraud Resolution Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	4	"out"	"Merchant Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	5	"out"	"Intersted Party Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	6	"out"	"Contact Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	7	"out"	"Transaction Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	8	"out"	"Transaction Record"	"CR Fraud Resolution Procedure Instance Record"	String
+""	9	"out"	"Case Location"	"CR Fraud Resolution Procedure Instance Record"	String
+""	10	"out"	"Date"	"CR Fraud Resolution Procedure Instance Record"	String
+""	11	"out"	"Employee/Business Unit Reference"	"CR Fraud Resolution Procedure Instance Record"	Object
+""	12	"out"	"Fraud Case Work Products"	"CR Fraud Resolution Procedure Instance Record"	String
+""	13	"out"	"Fraud Case Resolution Schedule"	"CR Fraud Resolution Procedure Instance Record"	String
+""	14	"out"	"Fraud Case Status"	"CR Fraud Resolution Procedure Instance Record"	String
+""	15	"out"	"Fraud Case Root Cause"	"BQ Case Analysis Instance Record"	String
+""	16	"out"	"Fraud Case Determination Record"	"BQ Case Determination Instance Record"	String
+""	17	"out"	"Fraud Case Resolution Record"	"BQ Case Resolution Instance Record"	String
+""	18	"out"	"Correspondence Reference"	"BQ Case Resolution Instance Record"	Object
+""	19	"out"	"Adjustment/Chargeback Reference"	"BQ Case Resolution Instance Record"	Object
+""	20	"out"	"Consortia Reporting Instance Reference"	"BQ Case Resolution Instance Record"	Object
+""	21	"out"	"Document Directory Entry Instance Reference"	"BQ Case Resolution Instance Record"	Object
+""	22	"out"	"Payment Order Reference"	"BQ Case Resolution Instance Record"	Object

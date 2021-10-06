@@ -1,0 +1,13 @@
+"Service Domain specification for Employee Data Management"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Employee Data Management
+"Role Definition"	"Maintain a comprehensive record of employee related details covering status and demographic attributes along with summary qualification, performance and appraisal data etc. to support workforce and individual management and administration activities"
+"Example of use"	"The employee record for a new recruit is created with all known details"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Catalog
+"Asset Type"	Employee
+"Generic Artifact"	DirectoryEntry
+"Control Record"	EmployeeDirectoryEntry
+"Registration Status"	Registered

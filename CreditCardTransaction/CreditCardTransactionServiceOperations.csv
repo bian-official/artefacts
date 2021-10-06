@@ -1,0 +1,5 @@
+"Service Operations for: "	Credit Card Transaction
+""
+"POST"	"/credit-card-transaction/activation"
+"PUT"	"/credit-card-transaction/{sd-reference-id}/configuration"
+"PUT"	"/credit-card-transaction/{sd-reference-id}/feedback"

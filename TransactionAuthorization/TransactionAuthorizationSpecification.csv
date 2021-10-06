@@ -1,0 +1,13 @@
+"Service Domain specification for Transaction Authorization"
+"Business Area"	Channels
+"Business Domain"	Cross Channel
+"Service Domain"	Transaction Authorization
+"Role Definition"	"This service domain is used to mitigate transaction risk for interactive product and service access fulfillment and works in collaboration with customer identity authentication services. It analyses recent customer activity in order to detect possible out of pattern/fraudulent behavior and authorizes transactions accordingly. The authorization can be subject to obtaining increased levels of customer authentication by requiring the customer to provide additional proof of identity."
+"Example of use"	"A customer payment request from their current account is authorized during an assisted servicing session"
+"Executive Summary"	"This service domain handles risk based authorization for interactive customer transactions. This combines the context (channel) transaction, customer details and recent activity analysis as appropriate. The authorization may require a specific level of party/customer authentication to get approval."
+"Key Features"	"Consolidate details of proposed customer transaction. Analyze recent channel activity for out of pattern customer behavior. Detect fraud/unwanted activity - raise authentication requirements"
+"Functional Pattern"	Assess
+"Asset Type"	InteractiveTransaction
+"Generic Artifact"	Assessment
+"Control Record"	InteractiveTransactionAssessment
+"Registration Status"	Registered

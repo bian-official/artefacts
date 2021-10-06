@@ -1,0 +1,5 @@
+"Service Operations for: "	Contribution Analysis
+"Control Record Model for Contribution Analysis is not defined"
+"POST"	"/contribution-analysis/activation"
+"PUT"	"/contribution-analysis/{sd-reference-id}/configuration"
+"PUT"	"/contribution-analysis/{sd-reference-id}/feedback"

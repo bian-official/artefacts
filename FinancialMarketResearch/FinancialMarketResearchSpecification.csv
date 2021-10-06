@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Market Research"
+"Business Area"	Channels
+"Business Domain"	Information Providers
+"Service Domain"	Financial Market Research
+"Role Definition"	"Consolidate financial market information from a variety of sources and optionally organize the consolidated information to align to different topics or categories for subsequent selection and analysis (see Financial Market Analysis)"
+"Example of use"	"An investment portfolio manager obtains financial market research to support portfolio rebalancing decisions"
+"Executive Summary"	"The service domain consolidates external financial market research"
+"Key Features"	"Identify and subscribe to financial market research services. Operate access to financial market research service to obtain reports. Consolidate, classify and maintain research. Provide access to financial market research within the bank (direct and for analysis). Support ad-hoc requests to identify and obtain financial market research"
+"Functional Pattern"	Catalog
+"Asset Type"	FinancialMarketResearch
+"Generic Artifact"	DirectoryEntry
+"Control Record"	FinancialMarketResearchDirectoryEntry
+"Registration Status"	Registered

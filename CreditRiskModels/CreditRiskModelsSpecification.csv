@@ -1,0 +1,13 @@
+"Service Domain specification for Credit Risk Models"
+"Business Area"	Business Development
+"Business Domain"	Models And Analytics
+"Service Domain"	Credit Risk Models
+"Role Definition"	"This service domain handles the development, maintenance and continual assessment and refinement of the collection of credit models that are deployed across the bank. This includes individual credit assessments and more complex analyses for merchants and companies/corporations. The models are used to derive credit scoring and support more involved credit analysis/insight development"
+"Example of use"	"Example of Use:. A credit model is used to analyze product activity in order to refine then banks credit assessment of a customer"
+"Executive Summary"	"This service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments"
+"Key Features"	"Determine desired type/coverage for credit analysis. Source, define and develop credit models. Publish, process feedback and refine/tune models"
+"Functional Pattern"	Design
+"Asset Type"	CreditRiskModel
+"Generic Artifact"	Specification
+"Control Record"	CreditRiskModelSpecification
+"Registration Status"	Registered

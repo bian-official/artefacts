@@ -1,0 +1,5 @@
+"Service Operations for: "	Gap Analysis
+"Control Record Model for Gap Analysis is not defined"
+"POST"	"/gap-analysis/activation"
+"PUT"	"/gap-analysis/{sd-reference-id}/configuration"
+"PUT"	"/gap-analysis/{sd-reference-id}/feedback"

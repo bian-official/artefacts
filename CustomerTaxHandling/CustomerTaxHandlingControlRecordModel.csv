@@ -1,0 +1,26 @@
+"Control Record Model for: "	Customer Tax Handling
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Consolidation Instance Record	""	""	""
+"BQ"	BQ Consolidation Instance Record	Product Instance Reference	"Reference to the one of more products and services in use for which tax related activity is to be obtained"	Object
+"BQ"	BQ Consolidation Instance Record	Product Arrangement Instance Report Type	"The types of product fulfillment reports available - in this case transaction details used for tax obligations and reporting"	String
+"BQ"	BQ Consolidation Instance Record	Product Arrangement Instance Report	"The product/service activity report - transactional activity used for taxation and reporting"	String
+"BQ"	BQ Consolidation Instance Record	Report Options/Selection Criteria	"Defines content/transaction types to be included in the report extract"	String
+"BQ"	BQ Consolidation Instance Record	Report Period	"The from-to dates covered by the report for tax reporting"	String
+"BQ"	BQ Consolidation Instance Record	Report Format/Template	"Defines presentation format"	String
+"BQ"	BQ Consolidation Instance Record	Report	"The requested product/service activity report used in the taxation consolidation task"	String
+"BQ"	BQ Consolidation Instance Record	Customer Tax Handling Consolidation Work Products	"Work documentation, forms and schedules produced and referenced during the consolidation"	String
+"BQ"	BQ Analysis Instance Record	""	""	""
+"BQ"	BQ Analysis Instance Record	Customer Tax Handling Analysis Work Products	"Work documentation, forms and schedules produced and referenced to develop the customer tax position/statement that is used for reporting"	String
+"CR"	CR Customer Tax Obligation Arrangement Instance Record	""	""	""
+"CR"	CR Customer Tax Obligation Arrangement Instance Record	Customer Reference	"Reference to the customer for whom the consolidated tax position is maintained"	Object
+"CR"	CR Customer Tax Obligation Arrangement Instance Record	Customer Tax Handling Arrangement Record	"The consolidated record of the customer tax reporting position - basis for generating tax reports"	String
+"CR"	CR Customer Tax Obligation Arrangement Instance Record	Taxation Jurisdiction Reference	"Reference to the applicable tax authority/jurisdiction that applies for the customer - can be multiple for the customer"	Object
+"CR"	CR Customer Tax Obligation Arrangement Instance Record	Applicable Taxation Rule Reference	"Tax handling and reporting regulation that is applied to this customer"	Object
+"CR"	CR Customer Tax Obligation Arrangement Instance Record	Applicable Taxation Rule Definition	"Covers all tax reporting guidelines, schedule and position reporting requirements for the customer"	String
+"CR"	CR Customer Tax Obligation Arrangement Instance Record	Customer Tax Reporting Schedule	"Defines the customer tax reporting obligations, recording target and actual dates"	String
+"BQ"	BQ Reporting Instance Record	""	""	""
+"BQ"	BQ Reporting Instance Record	Customer Tax Report Instance Reference	"Reference to the customer tax report - sent to the customer or tax authority directly"	Object
+"BQ"	BQ Reporting Instance Record	Customer Tax Report Type	"The type of tax report, includes products/services covered and the tax jurisdiction/authority reference as necessary"	String
+"BQ"	BQ Reporting Instance Record	Customer Tax Report Period	"The reporting period, detailing from-to dates covered by the tax report"	String
+"BQ"	BQ Reporting Instance Record	Customer Tax Report Report	"The customer's consolidated product/service tax report"	String
+"BQ"	BQ Reporting Instance Record	Customer Tax Handling Reporting Work Products	"Work documentation, forms and schedules produced and referenced during the reporting task"	String

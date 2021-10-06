@@ -1,0 +1,23 @@
+"Control Record Model for: "	Customer Access Entitlement
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Restrictions Instance Record	""	""	""
+"BQ"	BQ Restrictions Instance Record	Channel Access Restrictions Record	"Assembles the array of channel access constraints"	String
+"BQ"	BQ Restrictions Instance Record	Channel Access ProductandService Type Usage	"Details allowed products/services and associated features"	String
+"BQ"	BQ Restrictions Instance Record	Channel Access ProductandService Channel/Device Restrictions	"Details restrictions on allowed product/services by channel/device"	String
+"BQ"	BQ Restrictions Instance Record	Channel Access ProductandService Location Restrictions	"Details restrictions on allowed product/services by location"	String
+"BQ"	BQ Restrictions Instance Record	Channel Access ProductandService Frequency/Limit Restrictions	"Details restrictions on allowed product/services by frequency and cumulative amounts - can be cross-product"	String
+"BQ"	BQ Restrictions Instance Record	Channel Access ProductandService Time/Duration Restrictions	"Details restrictions on allowed product/service by schedule and cumulative access duration"	String
+"CR"	CR Customer Access Profile Agreement Instance Record	""	""	""
+"CR"	CR Customer Access Profile Agreement Instance Record	Customer Reference	"Reference to the customer"	Object
+"CR"	CR Customer Access Profile Agreement Instance Record	Customer Channel Access Profile Record	"The overall access profile, combining the restrictions and preferences from subordinate qualifiers"	String
+"CR"	CR Customer Access Profile Agreement Instance Record	Customer Access Agreement Valid From/To Date	"The duration that the agreement is in force"	Date
+"CR"	CR Customer Access Profile Agreement Instance Record	Customer Access Agreement Signatures/Responsible Parties	"Reference to signatories as appropriate"	String
+"CR"	CR Customer Access Profile Agreement Instance Record	Document Directory Entry Instance Reference	"Reference to any associated documents"	Object
+"BQ"	BQ Preferences Instance Record	""	""	""
+"BQ"	BQ Preferences Instance Record	Channel Access Preferences Record	"Assembles a number of channel access preferences"	String
+"BQ"	BQ Preferences Instance Record	Channel Access Preference Reference	"Reference to one of possibly several preferences"	Object
+"BQ"	BQ Preferences Instance Record	Channel Access Preference Type	"The type of preference (e.g. for correspondence)"	String
+"BQ"	BQ Preferences Instance Record	Channel Access Preference Profile	"Consolidates details of the preference"	String
+"BQ"	BQ Preferences Instance Record	Channel Access Channel/Device Type	"Details the specific device or channel with the preference"	String
+"BQ"	BQ Preferences Instance Record	Channel Access Channel/Device Type Preference	"Details the preference (e.g. no paper correspondence, no solicitations)"	String
+"BQ"	BQ Preferences Instance Record	ProductandService Type	"The types of product and service to which this preference applies"	String

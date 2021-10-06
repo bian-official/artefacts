@@ -1,0 +1,13 @@
+"Control Record Model for: "	Disbursement
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Disbursement Transaction Instance Record	""	""	""
+"CR"	CR Disbursement Transaction Instance Record	Product Instance Reference	"Reference to the loan account for which the disbursement is made"	Object
+"CR"	CR Disbursement Transaction Instance Record	Authorizing Employee Reference	"Reference to the authorizing employee"	Object
+"CR"	CR Disbursement Transaction Instance Record	Customer Reference	"Reference to the customer owning the loan, used to obtain payment arrangements"	Object
+"CR"	CR Disbursement Transaction Instance Record	Funding Account Reference	"Reference to the internal funding account for the disbursement"	Object
+"CR"	CR Disbursement Transaction Instance Record	Payee Reference	"Reference to the target for the disbursement"	Object
+"CR"	CR Disbursement Transaction Instance Record	Payee Product Instance Reference	"Reference to the account to where the disbursement payment is made"	Object
+"CR"	CR Disbursement Transaction Instance Record	Payee Bank Reference	"Reference to the payee account bank"	Object
+"CR"	CR Disbursement Transaction Instance Record	Amount	"The amount of the disbursement"	String
+"CR"	CR Disbursement Transaction Instance Record	Currency	"The currency for the payment"	String
+"CR"	CR Disbursement Transaction Instance Record	Value Date	"The value date for the disbursement payment"	Date

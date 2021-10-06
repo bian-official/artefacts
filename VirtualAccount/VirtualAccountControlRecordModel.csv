@@ -1,0 +1,80 @@
+"Control Record Model for: "	Virtual Account
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Virtual Account Arrangement Instance Record	""	""	""
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Parameter Type	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Selected Option	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement <Subject Area> Type	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement <Subject Area> Reference	""	Object
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Schedule	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Status	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Reference	""	Object
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Currency	""	CurrencyCode
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Regulation Reference	""	Object
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Regulation Type	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Jurisdiction	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Booking Location	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Account Type	""	String
+"CR"	CR Virtual Account Arrangement Instance Record	Virtual Account Arrangement Account Reference	""	Object
+"BQ"	BQ Fee Instance Record	""	""	""
+"BQ"	BQ Fee Instance Record	Fee Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Fee Instance Record	Fee Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Fee Instance Record	Business Service	"The BQ specific Business Service"	Business Service
+"BQ"	BQ Fee Instance Record	Fee Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Fee Instance Record	Fee Service Type	"Reference to the specific [BS] business service type"	String
+"BQ"	BQ Fee Instance Record	Fee Service Description	"Description of the performed [BS] business service"	String
+"BQ"	BQ Fee Instance Record	Fee Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the BS business service"	String
+"BQ"	BQ Fee Instance Record	Fee Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the [BS] business service"	String
+"BQ"	BQ Fee Instance Record	Fee Service Name	""	String
+"BQ"	BQ Statement Instance Record	""	""	""
+"BQ"	BQ Statement Instance Record	Statement Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Statement Instance Record	Statement Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Statement Instance Record	Business Service	"The BQ specific Business Service"	Business Service
+"BQ"	BQ Statement Instance Record	Statement Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Statement Instance Record	Statement Service Type	"Reference to the specific [BS] business service type"	String
+"BQ"	BQ Statement Instance Record	Statement Service Description	"Description of the performed [BS] business service"	String
+"BQ"	BQ Statement Instance Record	Statement Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the BS business service"	String
+"BQ"	BQ Statement Instance Record	Statement Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the [BS] business service"	String
+"BQ"	BQ Statement Instance Record	Statement Service Name	""	String
+"BQ"	BQ Virtual Account Outcome Instance Record	""	""	""
+"BQ"	BQ Virtual Account Outcome Instance Record	Virtual Account Financial Facility	""	String
+"BQ"	BQ Virtual Account Outcome Instance Record	Virtual Account Work Product	""	String
+"BQ"	BQ Standing Order Instance Record	""	""	""
+"BQ"	BQ Standing Order Instance Record	Standing Order Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Standing Order Instance Record	Standing Order Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Standing Order Instance Record	Business Service	"The BQ specific Business Service"	Business Service
+"BQ"	BQ Standing Order Instance Record	Standing Order Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Standing Order Instance Record	Standing Order Service Type	"Reference to the specific [BS] business service type"	String
+"BQ"	BQ Standing Order Instance Record	Standing Order Service Description	"Description of the performed [BS] business service"	String
+"BQ"	BQ Standing Order Instance Record	Standing Order Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the BS business service"	String
+"BQ"	BQ Standing Order Instance Record	Standing Order Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the [BS] business service"	String
+"BQ"	BQ Standing Order Instance Record	Standing Order Service Name	""	String
+"BQ"	BQ Interest Instance Record	""	""	""
+"BQ"	BQ Interest Instance Record	Interest Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Interest Instance Record	Interest Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Interest Instance Record	Business Service	"The BQ specific Business Service"	Business Service
+"BQ"	BQ Interest Instance Record	Interest Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Interest Instance Record	Interest Service Type	"Reference to the specific [BS] business service type"	String
+"BQ"	BQ Interest Instance Record	Interest Service Description	"Description of the performed [BS] business service"	String
+"BQ"	BQ Interest Instance Record	Interest Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the BS business service"	String
+"BQ"	BQ Interest Instance Record	Interest Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the [BS] business service"	String
+"BQ"	BQ Interest Instance Record	Interest Service Name	""	String
+"BQ"	BQ Credit Transfer Instance Record	""	""	""
+"BQ"	BQ Credit Transfer Instance Record	Credit Transfer Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Credit Transfer Instance Record	Credit Transfer Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Credit Transfer Instance Record	Business Service	"The BQ specific Business Service"	Business Service
+"BQ"	BQ Credit Transfer Instance Record	Credit Transfer Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Credit Transfer Instance Record	Credit Transfer Service Type	"Reference to the specific [BS] business service type"	String
+"BQ"	BQ Credit Transfer Instance Record	Credit Transfer Service Description	"Description of the performed [BS] business service"	String
+"BQ"	BQ Credit Transfer Instance Record	Credit Transfer Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the BS business service"	String
+"BQ"	BQ Credit Transfer Instance Record	Credit Transfer Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the [BS] business service"	String
+"BQ"	BQ Credit Transfer Instance Record	Credit Transfer Service Name	""	String
+"BQ"	BQ Direct Debit Instance Record	""	""	""
+"BQ"	BQ Direct Debit Instance Record	Direct Debit Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Direct Debit Instance Record	Direct Debit Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Direct Debit Instance Record	Business Service	"The BQ specific Business Service"	Business Service
+"BQ"	BQ Direct Debit Instance Record	Direct Debit Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Direct Debit Instance Record	Direct Debit Service Type	"Reference to the specific [BS] business service type"	String
+"BQ"	BQ Direct Debit Instance Record	Direct Debit Service Description	"Description of the performed [BS] business service"	String
+"BQ"	BQ Direct Debit Instance Record	Direct Debit Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the BS business service"	String
+"BQ"	BQ Direct Debit Instance Record	Direct Debit Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the [BS] business service"	String
+"BQ"	BQ Direct Debit Instance Record	Direct Debit Service Name	""	String

@@ -1,0 +1,31 @@
+"Control Record Model for: "	Position Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Transaction Application Instance Record	""	""	""
+"BQ"	BQ Transaction Application Instance Record	Transaction Reference	"A trial transaction that will impacts a managed position)"	Object
+"BQ"	BQ Transaction Application Instance Record	Transaction Type	"The type of transaction that would be applied to the managed position"	String
+"BQ"	BQ Transaction Application Instance Record	Transaction Record	"Key details of the trial transaction"	String
+"BQ"	BQ Transaction Application Instance Record	Transaction Amount	"The make up of the values of the transaction"	Amount
+"BQ"	BQ Transaction Application Instance Record	Transaction Date	"Key dates and times associated with the trial transaction"	Date
+"BQ"	BQ Transaction Application Instance Record	Transaction Booking Entity	"The booking entity where the trial transaction would be made"	String
+"BQ"	BQ Transaction Application Instance Record	Transaction Position Impact Assessment	"The projected impact the trial transaction will have on the managed position"	String
+"BQ"	BQ Trial Transaction Instance Record	""	""	""
+"BQ"	BQ Trial Transaction Instance Record	Trial Transaction Reference	"A trial transaction that will impacts a managed position)"	Object
+"BQ"	BQ Trial Transaction Instance Record	Trial Transaction Type	"The type of transaction that would be applied to the managed position"	String
+"BQ"	BQ Trial Transaction Instance Record	Trial Transaction Record	"Key details of the trial transaction"	String
+"BQ"	BQ Trial Transaction Instance Record	Trial Transaction Amount	"The make up of the values of the transaction"	Amount
+"BQ"	BQ Trial Transaction Instance Record	Trial Transaction Date	"Key dates and times associated with the trial transaction"	Date
+"BQ"	BQ Trial Transaction Instance Record	Trial Transaction Booking Entity	"The booking entity where the trial transaction would be made"	String
+"BQ"	BQ Trial Transaction Instance Record	Trail Transaction Position Impact Assessment	"The projected impact the trial transaction will have on the managed position"	String
+"CR"	CR Financial Position State Instance Record	""	""	""
+"CR"	CR Financial Position State Instance Record	Position Type	"The type of position being monitored (e.g. consolidated customer exposure, geographic/sector exposure)"	String
+"CR"	CR Financial Position State Instance Record	Position Customer Reference	"The customer or customer type associated with the position if applicable"	Object
+"CR"	CR Financial Position State Instance Record	Position Sector	"The sector or segment associated with the position if applicable"	String
+"CR"	CR Financial Position State Instance Record	Position Product Type	"The product type or specific product associated with the position if applicable"	String
+"CR"	CR Financial Position State Instance Record	Position Definition	"Description of the specification and purpose position monitoring (e.g. real-time limit, trend)"	String
+"CR"	CR Financial Position State Instance Record	Position Thresholds/Limits	"Thresholds limits associated with the position"	String
+"CR"	CR Financial Position State Instance Record	Position Value	"The current, historical and if applicable projected values of the monitored position"	String
+"CR"	CR Financial Position State Instance Record	Position Notification Arrangement Reference	"Reference to a notification source requesting updates on position changes"	Object
+"CR"	CR Financial Position State Instance Record	Position Notification Arrangement Record	"The details maintained for the notification service"	String
+"CR"	CR Financial Position State Instance Record	Position Notification Business Unit Reference	"Reference to the notified party"	Object
+"CR"	CR Financial Position State Instance Record	Position Notification Details	"Details of the requirements/schedule for position notification"	String
+"CR"	CR Financial Position State Instance Record	Position Notification Record	"The position notification record generated as required"	String

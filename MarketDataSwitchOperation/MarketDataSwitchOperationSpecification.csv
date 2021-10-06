@@ -1,0 +1,13 @@
+"Service Domain specification for Market Data Switch Operation"
+"Business Area"	Channels
+"Business Domain"	Information Providers
+"Service Domain"	Market Data Switch Operation
+"Role Definition"	"This facility handles the real-time operation of the market information dissemination switch that is typically used to support trading and investment functions. It references the access entitlement to services for users maintained by the Market Data Switch Administration service domain (there can be complex rules governing access to various feeds). The dissemination mechanism/switch may support composite pages of data and interactive service requests. It may also support internally published information such as bank rates defined by the bank's treasury unit"
+"Example of use"	"Example of use:. A bank trader request access to a market data feed at their dealing position during a trading session"
+"Executive Summary"	"This service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights. Note the content is retrieved by the Market Feed Operation service domain from the various external feed services. Internal information can also be published over the switch from various bank sources (such as bank rates provided by treasury)."
+"Key Features"	"Handle access to the information provider (IP) service content. Store and forward (IP) content over the internal switch. Handle internal access to the IP content based on user access rights/requests. Publish internal content over the data switch"
+"Functional Pattern"	Operate
+"Asset Type"	InformationFeedSwitch
+"Generic Artifact"	OperatingSession
+"Control Record"	InformationFeedSwitchOperatingSession
+"Registration Status"	Registered

@@ -1,0 +1,78 @@
+"Control Record Model for: "	Merchant Acquiring Facility
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Chargeback Instance Record	""	""	""
+"BQ"	BQ Chargeback Instance Record	Card Transaction Record Reference	"Reference to the card transaction for the chargeback"	Object
+"BQ"	BQ Chargeback Instance Record	Chargeback Instruction	"Details the instruction received from Card Case to book chargeback for the transaction - could be partial chargeback - amount is detailed in instruction"	String
+"BQ"	BQ Chargeback Instance Record	Card Transaction Product Instance Reference	"The account number associated with the card transaction"	Object
+"BQ"	BQ Chargeback Instance Record	Card Holder Reference	"The identity of the account holder submitting the transaction"	Object
+"BQ"	BQ Chargeback Instance Record	Card Transaction Issued Device Reference	"Reference to the issued device submitted to authorize the transaction (e.g. card number)"	Object
+"BQ"	BQ Chargeback Instance Record	Card Transaction Network Reference	"Reference to the network the card transaction is handled by as recorded with the transaction"	Object
+"BQ"	BQ Chargeback Instance Record	Card Transaction Issuing Bank Reference	"Refers to the card holder's issuing bank as recorded with the transaction"	Object
+"BQ"	BQ Chargeback Instance Record	Card Transaction Merchant Acquiring Bank Reference	"Refers to the merchant's acquiring bank as recorded with the transaction"	Object
+"BQ"	BQ Chargeback Instance Record	Card Transaction Type	"The type of transaction (purchase, cash advance, etc.)"	String
+"BQ"	BQ Chargeback Instance Record	Card Transaction Currency	"The currency that the transaction is made in"	CurrencyCode
+"BQ"	BQ Chargeback Instance Record	Card Transaction Amount Type	"Type of amount (e.g. original amount, billing currency amount, conversion rate, FX Mark-up)"	String
+"BQ"	BQ Chargeback Instance Record	Card Transaction Amount	"The amount corresponding to the type"	Amount
+"BQ"	BQ Chargeback Instance Record	Card Transaction Merchant Reference	"Refers to the merchant initiating settlement"	Object
+"BQ"	BQ Chargeback Instance Record	Card Transaction Location Reference	"Refers to the point of sale location"	Object
+"BQ"	BQ Chargeback Instance Record	Card Transaction ProductandService Reference	"Details of the transaction (e.g. purchased service/product, purpose)"	Object
+"BQ"	BQ Chargeback Instance Record	Card Transaction Date/Time	"Significant dates and times associated with the transaction"	Date
+"BQ"	BQ Chargeback Instance Record	Card Transaction FX Conversion Charge	"The applied currency conversion charge"	String
+"BQ"	BQ Chargeback Instance Record	Card Transaction Intercharge Fee	"The applied intercharge fee"	String
+"BQ"	BQ Chargeback Instance Record	Card Transaction Authorization Record	"Details the reference, amount, timestamp of the transaction authorization"	String
+"BQ"	BQ Clearing Instance Record	""	""	""
+"BQ"	BQ Clearing Instance Record	Card Transaction Record Reference	"Reference to the card transaction as recorded by issuer and/or acquirer"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction Product Instance Reference	"The account number associated with the card transaction"	Object
+"BQ"	BQ Clearing Instance Record	Card Holder Reference	"The identity of the account holder submitting the transaction"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction Issued Device Reference	"Reference to the issued device submitted to authorize the transaction (e.g. card number)"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction Network Reference	"Reference to the network the card transaction is handled by as recorded with the transaction"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction Issuing Bank Reference	"Refers to the card holder's issuing bank as recorded with the transaction"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction Merchant Acquiring Bank Reference	"Refers to the merchant's acquiring bank as recorded with the transaction"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction Type	"The type of transaction (purchase, cash advance, etc.)"	String
+"BQ"	BQ Clearing Instance Record	Card Transaction Currency	"The currency that the transaction is made in"	CurrencyCode
+"BQ"	BQ Clearing Instance Record	Card Transaction Amount Type	"Type of amount (e.g. original amount, billing currency amount, conversion rate, FX Mark-up)"	String
+"BQ"	BQ Clearing Instance Record	Card Transaction Amount	"The amount corresponding to the type"	Amount
+"BQ"	BQ Clearing Instance Record	Card Transaction Merchant Reference	"Refers to the merchant initiating settlement"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction Location Reference	"Refers to the point of sale location"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction ProductandService Reference	"Details of the transaction (e.g. purchased service/product, purpose)"	Object
+"BQ"	BQ Clearing Instance Record	Card Transaction Date/Time	"Significant dates and times associated with the transaction"	Date
+"BQ"	BQ Clearing Instance Record	Card Transaction FX Conversion Charge	"The applied currency conversion charge"	String
+"BQ"	BQ Clearing Instance Record	Card Transaction Intercharge Fee	"The applied intercharge fee"	String
+"BQ"	BQ Clearing Instance Record	Card Transaction Authorization Record	"Details the reference, amount, timestamp of the transaction authorization"	String
+"BQ"	BQ Merchant Account Instance Record	""	""	""
+"BQ"	BQ Merchant Account Instance Record	Merchant Account Posting Transaction	"Reference to the posting transaction against the merchant account"	String
+"BQ"	BQ Merchant Account Instance Record	Merchant Acquiring Account Posting Purpose	"Annotation of the reason for the positing (e.g. posting for fees, chargebacks, settlement)"	String
+"BQ"	BQ Merchant Account Instance Record	Merchant Acquiring Account Posting Amount	"Posted amount  (probably captured as a credit/debit pair)"	Amount
+"BQ"	BQ Merchant Account Instance Record	Merchant Acquiring Account Posting Value Date	"The value date for the posting"	Date
+"BQ"	BQ Merchant Account Instance Record	Merchant Acquiring Account Posting Result	"Confirmation of the posting action"	String
+"BQ"	BQ Service Fees Instance Record	""	""	""
+"BQ"	BQ Service Fees Instance Record	Merchant Fee Configuration Profile	"The profile of applicable fees and penalties"	String
+"BQ"	BQ Service Fees Instance Record	Merchant Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Service Fees Instance Record	Merchant Fee Definition	"Definition of the fee or penalty including when and how to apply"	String
+"BQ"	BQ Service Fees Instance Record	Merchant Fee Application Record	"The record of applied fees and penalties including transactions and accrued amounts"	String
+"BQ"	BQ Service Fees Instance Record	Merchant Fee Transaction	"A record of an applied fee or penalty"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Description	"General description of the fee or penalty transaction"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Fee Charge	"The derived fee or penalty amount applied"	String
+"BQ"	BQ Service Fees Instance Record	Merchant Fee Projections and Commitments	"A record of projected fees and penalties"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Description	"General description of the projected fee or penalty"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Type	"The fee or penalty type"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Charge	"The anticipated fee or penalty amount"	String
+"BQ"	BQ Settlement Instance Record	""	""	""
+"BQ"	BQ Settlement Instance Record	Participant Merchant Acquirer Bank Reference	"Reference to the Merchant Acquiring bank for settlement processing"	Object
+"BQ"	BQ Settlement Instance Record	Participant Issuer Bank Reference	"Reference to the Issuing bank for payments made to the issuer for chargebacks"	Object
+"BQ"	BQ Settlement Instance Record	Card Financial Settlement Service Payment Advice Record	"Details the individual participant Issuer or Acquirer payments calculated to be due for this settlement window - covers only the instructions specific to the participant Merchant Acquirer"	String
+"BQ"	BQ Settlement Instance Record	Participant Payment Transaction	"Details the payment made, typically from Issuer to Acquirer participant bank"	String
+"BQ"	BQ Settlement Instance Record	Participant Acquirer Bank Settlement Account Statement	"The settlement account statement for the processing window - used to confirm payments"	String
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	""	""	""
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Product Instance Reference	"Reference to the merchant facility product instance"	Object
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Customer Reference	"Reference to the merchant primary party/owner"	Object
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Party Reference	"Reference to the legal entity (typically the customer)"	Object
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the merchant account for booking purposes"	Object
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Account Currency	"The billing currency for the merchant acquiring facility account"	CurrencyCode
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Tax Reference	"Reference identifier linking the account to appropriate tax handling"	Object
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Merchant Acquiring Facility Operational Terms	"Operational terms governing the merchant facility"	String
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Merchant Acquiring Facility Position Limits	"Merchant acquiring facility limits (e.g. spend limits and credit limits for the merchant facility)"	String
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Merchant Position Limit Type	"The type of position maintained for the account (e.g. transaction credit/debit, netting, position)"	String
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Merchant Position Limit Settings	"The position definition, associated limit settings and rules"	String
+"CR"	CR Merchant Acquiring Facility Arrangement Instance Record	Merchant Position Limit Value	"The savings calculated position"	String

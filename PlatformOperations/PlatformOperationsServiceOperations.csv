@@ -1,0 +1,5 @@
+"Service Operations for: "	Platform Operations
+"Control Record Model for Platform Operations is not defined"
+"POST"	"/platform-operations/activation"
+"PUT"	"/platform-operations/{sd-reference-id}/configuration"
+"PUT"	"/platform-operations/{sd-reference-id}/feedback"

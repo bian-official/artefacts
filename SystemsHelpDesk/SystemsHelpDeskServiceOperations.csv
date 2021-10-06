@@ -1,0 +1,5 @@
+"Service Operations for: "	Systems Help Desk
+"Control Record Model for Systems Help Desk is not defined"
+"POST"	"/systems-help-desk/activation"
+"PUT"	"/systems-help-desk/{sd-reference-id}/configuration"
+"PUT"	"/systems-help-desk/{sd-reference-id}/feedback"

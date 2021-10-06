@@ -1,0 +1,5 @@
+"Service Operations for: "	Production Risk Models
+"Control Record Model for Production Risk Models is not defined"
+"POST"	"/production-risk-models/activation"
+"PUT"	"/production-risk-models/{sd-reference-id}/configuration"
+"PUT"	"/production-risk-models/{sd-reference-id}/feedback"

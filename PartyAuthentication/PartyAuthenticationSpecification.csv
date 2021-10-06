@@ -1,0 +1,13 @@
+"Service Domain specification for Party Authentication"
+"Business Area"	Channels
+"Business Domain"	Cross Channel
+"Service Domain"	Party Authentication
+"Role Definition"	"Customer/party authentication is a cross-channel/device capability that provides identity confirmation for customers accessing the bank through any interactive channel. The service may use a combination of one or more mechanisms to authenticate including issued tokens/devices, virtual mechanisms such as passwords and biometrics such as voice/face recognition. Different levels of authentication may be determined to support different types of access and there may be access permissions associated with the authentication mechanism used"
+"Example of use"	"A customer is authenticated when making phone contact with the bank's service center"
+"Executive Summary"	"This service domain provides a customer identify authentication service covering all channels and devices to support access to the banks products and services"
+"Key Features"	"Capture and process authentication requests. Access issued device details to perform authentication. Support multiple device/additional tasks to raise authentication. Return access permissions associated with issued authentication devices "
+"Functional Pattern"	Assess
+"Asset Type"	PartyAuthentication
+"Generic Artifact"	Assessment
+"Control Record"	PartyAuthenticationAssessment
+"Registration Status"	Registered

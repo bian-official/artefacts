@@ -1,0 +1,13 @@
+"Service Domain specification for Letter of Credit"
+"Business Area"	Products
+"Business Domain"	Trade Banking
+"Service Domain"	Letter of Credit
+"Role Definition"	"Orchestrate the pricing and issuance of Letters of Credit (typically associated with trade finance activity)"
+"Example of use"	"An LC is raised to support a large international trade deal"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Transact
+"Asset Type"	LetterOfCredit
+"Generic Artifact"	Transaction
+"Control Record"	LetterOfCreditTransaction
+"Registration Status"	Registered

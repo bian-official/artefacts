@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Event History"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Event History
+"Role Definition"	"The service domain captures a wide range of customer events to build a comprehensive history of customer activity that can support subsequent behavioral analysis. This includes key sales/proposal events, relationship management events, product delivery events, detected customer triggers (typically gleaned during servicing dialogues) and possibly externally sourced customer activity. The assembled data is made available for behavioral analysis and for more general reference (as might be used for relationship management for example)"
+"Example of use"	"A customer contacts the call center to enquire about account transactions and during the dialogue the servicing representative detects a life event (e.g. the customer is moving house). The contact details and life event are captured in the customer history"
+"Executive Summary"	"This service domain captures, classifies and stores relationship, servicing and product fulfillment related customer events. In addition to servicing and product transaction details, the log can capture life/relationship events that are revealed during customer exchanges"
+"Key Features"	"Log customer sales/marketing and relationship development events. Log customer servicing events. Log detected life events (from interactions or external research). Log product fulfillment events and alerts"
+"Functional Pattern"	Track
+"Asset Type"	CustomerEvent
+"Generic Artifact"	Log
+"Control Record"	CustomerEventLog
+"Registration Status"	Registered

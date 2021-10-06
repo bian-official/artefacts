@@ -1,0 +1,177 @@
+"Service Operations for: "	Transaction Authorization
+""
+"POST"	"/transaction-authorization/activation"
+"PUT"	"/transaction-authorization/{sd-reference-id}/configuration"
+"PUT"	"/transaction-authorization/{sd-reference-id}/feedback"
+""
+"Post"	"/transaction-authorization/{sd-identifier}/interactive-transaction-assessment/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	3	"in"	"Product Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	4	"in"	"Product Instance Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	5	"in"	"Proposed Transaction Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	6	"in"	"Proposed Transaction Value"	"CR Interactive Transaction Assessment Instance Record"	String
+""	7	"in"	"Customer Contact Record Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	8	"in"	"Customer Contact Record Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	9	"in"	"Customer Contact Record Contact Device"	"CR Interactive Transaction Assessment Instance Record"	String
+""	10	"in"	"Customer Contact Record Authentication Status (as obtained by SD-Contact Handler)"	"CR Interactive Transaction Assessment Instance Record"	String
+""	11	"in"	"Customer Contact Record Routing Selection Status"	"CR Interactive Transaction Assessment Instance Record"	String
+""	12	"in"	"Customer Contact Record Menu Selection"	"CR Interactive Transaction Assessment Instance Record"	String
+""	13	"in"	"Customer Contact Record Servicing Request"	"CR Interactive Transaction Assessment Instance Record"	String
+""	14	"in"	"Customer Contact Record Servicing Event History"	"CR Interactive Transaction Assessment Instance Record"	String
+""	15	"in"	"Customer Contact Record Servicing Position Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	16	"in"	"Customer Contact Record Servicing Resource Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	17	"in"	"Customer Contact Record Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	18	"in"	"Customer Contact Dialogue Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	19	"in"	"Customer Contact Dialogue Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	20	"in"	"Contact Dialogue Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	21	"in"	"Contact Dialogue Script"	"CR Interactive Transaction Assessment Instance Record"	String
+""	22	"in"	"Contact Dialogue Log Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	23	"in"	"Contact Dialogue Session Mechanism"	"CR Interactive Transaction Assessment Instance Record"	String
+""	24	"in"	"Contact Dialogue Record Session Start/End Time"	"CR Interactive Transaction Assessment Instance Record"	String
+""	25	"in"	"Contact Dialogue Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	26	"in"	"Customer Contact Record Duration"	"CR Interactive Transaction Assessment Instance Record"	String
+""	27	"in"	"Customer Contact Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	28	"in"	"Customer Contact Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	29	"in"	"Channel Activity History Report Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	30	"in"	"Channel Activity History Report From/to"	"CR Interactive Transaction Assessment Instance Record"	String
+""	31	"out"	"Transaction Authorization Guidance"	"CR Interactive Transaction Assessment Instance Record"	String
+""	32	"out"	"Transaction Authorization Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""
+"Put"	"/transaction-authorization/{sd-identifier}/interactive-transaction-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	2	"inout"	"Employee Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	3	"inout"	"Product Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	4	"inout"	"Product Instance Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	5	"inout"	"Proposed Transaction Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	6	"inout"	"Proposed Transaction Value"	"CR Interactive Transaction Assessment Instance Record"	String
+""	7	"inout"	"Customer Contact Record Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	8	"inout"	"Customer Contact Record Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	9	"inout"	"Customer Contact Record Contact Device"	"CR Interactive Transaction Assessment Instance Record"	String
+""	10	"inout"	"Customer Contact Record Authentication Status (as obtained by SD-Contact Handler)"	"CR Interactive Transaction Assessment Instance Record"	String
+""	11	"inout"	"Customer Contact Record Routing Selection Status"	"CR Interactive Transaction Assessment Instance Record"	String
+""	12	"inout"	"Customer Contact Record Menu Selection"	"CR Interactive Transaction Assessment Instance Record"	String
+""	13	"inout"	"Customer Contact Record Servicing Request"	"CR Interactive Transaction Assessment Instance Record"	String
+""	14	"inout"	"Customer Contact Record Servicing Event History"	"CR Interactive Transaction Assessment Instance Record"	String
+""	15	"inout"	"Customer Contact Record Servicing Position Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	16	"inout"	"Customer Contact Record Servicing Resource Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	17	"inout"	"Customer Contact Record Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	18	"inout"	"Customer Contact Dialogue Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	19	"inout"	"Customer Contact Dialogue Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	20	"inout"	"Contact Dialogue Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	21	"inout"	"Contact Dialogue Script"	"CR Interactive Transaction Assessment Instance Record"	String
+""	22	"inout"	"Contact Dialogue Log Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	23	"inout"	"Contact Dialogue Session Mechanism"	"CR Interactive Transaction Assessment Instance Record"	String
+""	24	"inout"	"Contact Dialogue Record Session Start/End Time"	"CR Interactive Transaction Assessment Instance Record"	String
+""	25	"inout"	"Contact Dialogue Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	26	"inout"	"Customer Contact Record Duration"	"CR Interactive Transaction Assessment Instance Record"	String
+""	27	"inout"	"Customer Contact Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	28	"inout"	"Customer Contact Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	29	"inout"	"Channel Activity History Report Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	30	"inout"	"Channel Activity History Report From/to"	"CR Interactive Transaction Assessment Instance Record"	String
+""
+"Put"	"/transaction-authorization/{sd-identifier}/interactive-transaction-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/transaction-authorization/{sd-identifier}/interactive-transaction-assessment/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	3	"in"	"Product Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	4	"in"	"Product Instance Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	5	"in"	"Proposed Transaction Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	6	"in"	"Proposed Transaction Value"	"CR Interactive Transaction Assessment Instance Record"	String
+""	7	"in"	"Customer Contact Record Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	8	"in"	"Customer Contact Record Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	9	"in"	"Customer Contact Record Contact Device"	"CR Interactive Transaction Assessment Instance Record"	String
+""	10	"in"	"Customer Contact Record Authentication Status (as obtained by SD-Contact Handler)"	"CR Interactive Transaction Assessment Instance Record"	String
+""	11	"in"	"Customer Contact Record Routing Selection Status"	"CR Interactive Transaction Assessment Instance Record"	String
+""	12	"in"	"Customer Contact Record Menu Selection"	"CR Interactive Transaction Assessment Instance Record"	String
+""	13	"in"	"Customer Contact Record Servicing Request"	"CR Interactive Transaction Assessment Instance Record"	String
+""	14	"in"	"Customer Contact Record Servicing Event History"	"CR Interactive Transaction Assessment Instance Record"	String
+""	15	"in"	"Customer Contact Record Servicing Position Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	16	"in"	"Customer Contact Record Servicing Resource Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	17	"in"	"Customer Contact Record Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	18	"in"	"Customer Contact Dialogue Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	19	"in"	"Customer Contact Dialogue Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	20	"in"	"Contact Dialogue Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	21	"in"	"Contact Dialogue Script"	"CR Interactive Transaction Assessment Instance Record"	String
+""	22	"in"	"Contact Dialogue Log Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	23	"in"	"Contact Dialogue Session Mechanism"	"CR Interactive Transaction Assessment Instance Record"	String
+""	24	"in"	"Contact Dialogue Record Session Start/End Time"	"CR Interactive Transaction Assessment Instance Record"	String
+""	25	"in"	"Contact Dialogue Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	26	"in"	"Customer Contact Record Duration"	"CR Interactive Transaction Assessment Instance Record"	String
+""	27	"in"	"Customer Contact Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	28	"in"	"Customer Contact Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	29	"in"	"Channel Activity History Report Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	30	"in"	"Channel Activity History Report From/to"	"CR Interactive Transaction Assessment Instance Record"	String
+""	31	"out"	"Transaction Authorization Guidance"	"CR Interactive Transaction Assessment Instance Record"	String
+""	32	"out"	"Transaction Authorization Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""
+"Put"	"/transaction-authorization/{sd-identifier}/interactive-transaction-assessment/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	2	"in"	"Employee Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	3	"in"	"Product Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	4	"in"	"Product Instance Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	5	"in"	"Proposed Transaction Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	6	"in"	"Proposed Transaction Value"	"CR Interactive Transaction Assessment Instance Record"	String
+""	7	"in"	"Customer Contact Record Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	8	"in"	"Customer Contact Record Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	9	"in"	"Customer Contact Record Contact Device"	"CR Interactive Transaction Assessment Instance Record"	String
+""	10	"in"	"Customer Contact Record Authentication Status (as obtained by SD-Contact Handler)"	"CR Interactive Transaction Assessment Instance Record"	String
+""	11	"in"	"Customer Contact Record Routing Selection Status"	"CR Interactive Transaction Assessment Instance Record"	String
+""	12	"in"	"Customer Contact Record Menu Selection"	"CR Interactive Transaction Assessment Instance Record"	String
+""	13	"in"	"Customer Contact Record Servicing Request"	"CR Interactive Transaction Assessment Instance Record"	String
+""	14	"in"	"Customer Contact Record Servicing Event History"	"CR Interactive Transaction Assessment Instance Record"	String
+""	15	"in"	"Customer Contact Record Servicing Position Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	16	"in"	"Customer Contact Record Servicing Resource Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	17	"in"	"Customer Contact Record Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	18	"in"	"Customer Contact Dialogue Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	19	"in"	"Customer Contact Dialogue Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	20	"in"	"Contact Dialogue Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	21	"in"	"Contact Dialogue Script"	"CR Interactive Transaction Assessment Instance Record"	String
+""	22	"in"	"Contact Dialogue Log Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	23	"in"	"Contact Dialogue Session Mechanism"	"CR Interactive Transaction Assessment Instance Record"	String
+""	24	"in"	"Contact Dialogue Record Session Start/End Time"	"CR Interactive Transaction Assessment Instance Record"	String
+""	25	"in"	"Contact Dialogue Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	26	"in"	"Customer Contact Record Duration"	"CR Interactive Transaction Assessment Instance Record"	String
+""	27	"in"	"Customer Contact Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	28	"in"	"Customer Contact Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	29	"in"	"Channel Activity History Report Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	30	"in"	"Channel Activity History Report From/to"	"CR Interactive Transaction Assessment Instance Record"	String
+""	31	"out"	"Transaction Authorization Guidance"	"CR Interactive Transaction Assessment Instance Record"	String
+""	32	"out"	"Transaction Authorization Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""
+"Put"	"/transaction-authorization/{sd-identifier}/interactive-transaction-assessment/{crbq-identifier}/grant"
+""
+"Get"	"/transaction-authorization/{sd-identifier}/interactive-transaction-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	2	"out"	"Employee Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	3	"out"	"Product Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	4	"out"	"Product Instance Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	5	"out"	"Proposed Transaction Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	6	"out"	"Proposed Transaction Value"	"CR Interactive Transaction Assessment Instance Record"	String
+""	7	"out"	"Customer Contact Record Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	8	"out"	"Customer Contact Record Customer Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	9	"out"	"Customer Contact Record Contact Device"	"CR Interactive Transaction Assessment Instance Record"	String
+""	10	"out"	"Customer Contact Record Authentication Status (as obtained by SD-Contact Handler)"	"CR Interactive Transaction Assessment Instance Record"	String
+""	11	"out"	"Customer Contact Record Routing Selection Status"	"CR Interactive Transaction Assessment Instance Record"	String
+""	12	"out"	"Customer Contact Record Menu Selection"	"CR Interactive Transaction Assessment Instance Record"	String
+""	13	"out"	"Customer Contact Record Servicing Request"	"CR Interactive Transaction Assessment Instance Record"	String
+""	14	"out"	"Customer Contact Record Servicing Event History"	"CR Interactive Transaction Assessment Instance Record"	String
+""	15	"out"	"Customer Contact Record Servicing Position Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	16	"out"	"Customer Contact Record Servicing Resource Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	17	"out"	"Customer Contact Record Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	18	"out"	"Customer Contact Dialogue Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	19	"out"	"Customer Contact Dialogue Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	20	"out"	"Contact Dialogue Type"	"CR Interactive Transaction Assessment Instance Record"	String
+""	21	"out"	"Contact Dialogue Script"	"CR Interactive Transaction Assessment Instance Record"	String
+""	22	"out"	"Contact Dialogue Log Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	23	"out"	"Contact Dialogue Session Mechanism"	"CR Interactive Transaction Assessment Instance Record"	String
+""	24	"out"	"Contact Dialogue Record Session Start/End Time"	"CR Interactive Transaction Assessment Instance Record"	String
+""	25	"out"	"Contact Dialogue Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	26	"out"	"Customer Contact Record Duration"	"CR Interactive Transaction Assessment Instance Record"	String
+""	27	"out"	"Customer Contact Activity Record"	"CR Interactive Transaction Assessment Instance Record"	String
+""	28	"out"	"Customer Contact Result"	"CR Interactive Transaction Assessment Instance Record"	String
+""	29	"out"	"Channel Activity History Report Reference"	"CR Interactive Transaction Assessment Instance Record"	Object
+""	30	"out"	"Channel Activity History Report From/to"	"CR Interactive Transaction Assessment Instance Record"	String
+""	31	"out"	"Transaction Authorization Guidance"	"CR Interactive Transaction Assessment Instance Record"	String
+""	32	"out"	"Transaction Authorization Result"	"CR Interactive Transaction Assessment Instance Record"	String

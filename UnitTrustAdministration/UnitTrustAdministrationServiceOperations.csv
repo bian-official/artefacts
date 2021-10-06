@@ -1,0 +1,5 @@
+"Service Operations for: "	Unit Trust Administration
+"Control Record Model for Unit Trust Administration is not defined"
+"POST"	"/unit-trust-administration/activation"
+"PUT"	"/unit-trust-administration/{sd-reference-id}/configuration"
+"PUT"	"/unit-trust-administration/{sd-reference-id}/feedback"

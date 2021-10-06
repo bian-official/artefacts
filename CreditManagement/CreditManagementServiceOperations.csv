@@ -1,0 +1,47 @@
+"Service Operations for: "	Credit Management
+""
+"POST"	"/credit-management/activation"
+"PUT"	"/credit-management/{sd-reference-id}/configuration"
+"PUT"	"/credit-management/{sd-reference-id}/feedback"
+""
+"Post"	"/credit-management/{sd-identifier}/credit-pricing-assessment/{crbq-identifier}/evaluation"
+""	1	"in"	"Business Unit Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	3	"in"	"Sector Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	4	"in"	"Product Type"	"CR Credit Pricing Assessment Instance Record"	String
+""	5	"in"	"Proposed Transaction Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	6	"in"	"Proposed Transaction Record"	"CR Credit Pricing Assessment Instance Record"	String
+""	7	"in"	"Proposed Transaction Type"	"CR Credit Pricing Assessment Instance Record"	String
+""	8	"in"	"Proposed Transaction Amount"	"CR Credit Pricing Assessment Instance Record"	Amount
+""	9	"in"	"Proposed Transaction Record Date"	"CR Credit Pricing Assessment Instance Record"	Date
+""	10	"in"	"Proposed Transaction Booking Entity"	"CR Credit Pricing Assessment Instance Record"	String
+""	11	"out"	"Proposed Transaction Credit Pricing Assessment"	"CR Credit Pricing Assessment Instance Record"	String
+""
+"Put"	"/credit-management/{sd-identifier}/credit-pricing-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Business Unit Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	3	"inout"	"Sector Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	4	"inout"	"Product Type"	"CR Credit Pricing Assessment Instance Record"	String
+""	5	"inout"	"Proposed Transaction Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	6	"inout"	"Proposed Transaction Record"	"CR Credit Pricing Assessment Instance Record"	String
+""	7	"inout"	"Proposed Transaction Type"	"CR Credit Pricing Assessment Instance Record"	String
+""	8	"inout"	"Proposed Transaction Amount"	"CR Credit Pricing Assessment Instance Record"	Amount
+""	9	"inout"	"Proposed Transaction Record Date"	"CR Credit Pricing Assessment Instance Record"	Date
+""	10	"inout"	"Proposed Transaction Booking Entity"	"CR Credit Pricing Assessment Instance Record"	String
+""
+"Put"	"/credit-management/{sd-identifier}/credit-pricing-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/credit-management/{sd-identifier}/credit-pricing-assessment/{crbq-identifier}/grant"
+""
+"Get"	"/credit-management/{sd-identifier}/credit-pricing-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Business Unit Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	3	"out"	"Sector Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	4	"out"	"Product Type"	"CR Credit Pricing Assessment Instance Record"	String
+""	5	"out"	"Proposed Transaction Reference"	"CR Credit Pricing Assessment Instance Record"	Object
+""	6	"out"	"Proposed Transaction Record"	"CR Credit Pricing Assessment Instance Record"	String
+""	7	"out"	"Proposed Transaction Type"	"CR Credit Pricing Assessment Instance Record"	String
+""	8	"out"	"Proposed Transaction Amount"	"CR Credit Pricing Assessment Instance Record"	Amount
+""	9	"out"	"Proposed Transaction Record Date"	"CR Credit Pricing Assessment Instance Record"	Date
+""	10	"out"	"Proposed Transaction Booking Entity"	"CR Credit Pricing Assessment Instance Record"	String
+""	11	"out"	"Proposed Transaction Credit Pricing Assessment"	"CR Credit Pricing Assessment Instance Record"	String

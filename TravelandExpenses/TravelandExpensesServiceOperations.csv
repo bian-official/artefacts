@@ -1,0 +1,5 @@
+"Service Operations for: "	Travel and Expenses
+"Control Record Model for Travel and Expenses is not defined"
+"POST"	"/travel-and-expenses/activation"
+"PUT"	"/travel-and-expenses/{sd-reference-id}/configuration"
+"PUT"	"/travel-and-expenses/{sd-reference-id}/feedback"

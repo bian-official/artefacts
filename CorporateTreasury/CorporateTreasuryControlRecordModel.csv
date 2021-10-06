@@ -1,0 +1,40 @@
+"Control Record Model for: "	Corporate Treasury
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Corporate Treasury Management Plan Instance Record	""	""	""
+"CR"	CR Corporate Treasury Management Plan Instance Record	Treasury Planning Policies And Guidelines	"The bank's treasury policies and guidelines reflected in the plan"	String
+"CR"	CR Corporate Treasury Management Plan Instance Record	Treasury Plan Operating Parameters	"The array of group treasury positions and limits to be met through the plan"	String
+"CR"	CR Corporate Treasury Management Plan Instance Record	Treasury Plan Goals	"Target financial performance goals set out in the bank's corporate treasury plan"	String
+"CR"	CR Corporate Treasury Management Plan Instance Record	Enterprise Financial Statements	"The bank financial statements include the balance sheet, statement of cash flows, statement of retained earnings and the income statement"	String
+"CR"	CR Corporate Treasury Management Plan Instance Record	Enterprise Balance Sheet Detailed Content	"The balance sheet breakdown include individual assets/liabilities as necessary"	String
+"CR"	CR Corporate Treasury Management Plan Instance Record	Enterprise Bank Accounting And Cash Management Records	"Account records that cover booking, pooling and netting activities across all relevant bank activity"	String
+"CR"	CR Corporate Treasury Management Plan Instance Record	Capital/Wholesale Market Transactions	"Includes large transactions and net positions for smaller trade activity as appropriate"	String
+"CR"	CR Corporate Treasury Management Plan Instance Record	Currency and Rate Risk Analysis	"Analytical views detailing exposure and sensitivity to currency and interest rate fluctuations"	Rate
+"BQ"	BQ Liquidity Instance Record	""	""	""
+"BQ"	BQ Liquidity Instance Record	Enterprise Liquidity/Cash Management Analysis	"Consolidated cashflow/liquidity reports"	String
+"BQ"	BQ Liquidity Instance Record	Enterprise Large Payment Transaction Records	"Details of large transactions that impact the treasury position that need to be considered individually"	String
+"BQ"	BQ Liquidity Instance Record	Business Unit Financial Reports	"These unit reports include cost/income actual and projected values as required"	String
+"BQ"	BQ Liquidity Instance Record	Liquidity Resolution Task	"Description of a response initiated by corporate treasury"	String
+"BQ"	BQ Tactical Funding Instance Record	""	""	""
+"BQ"	BQ Tactical Funding Instance Record	Capital Adequacy Requirements	"Details the required capital holdings against which the current position is tracked and hedging, re-balancing activity initiated for compliance"	String
+"BQ"	BQ Tactical Funding Instance Record	Bank Positions and Hedging Requirements	"Breakdown of the treasury positions monitored and there current/projected ranges"	String
+"BQ"	BQ Tactical Funding Instance Record	Enterprise Balance Sheet Positions	"Selected balance sheet views used to evaluate short term funding needs"	String
+"BQ"	BQ Tactical Funding Instance Record	Tactical Funding Resolution Task	"Description of a response initiated by corporate treasury"	String
+"BQ"	BQ Securitization Instance Record	""	""	""
+"BQ"	BQ Securitization Instance Record	Bank Securitization Policies and guidelines	"Policies and guidelines that determine when and how asset securitization will be considered"	String
+"BQ"	BQ Securitization Instance Record	Securitization Tranche Reference	"Reference to a selected group of bank balance sheet assets that are bundled into a tranche for securitization"	Object
+"BQ"	BQ Securitization Instance Record	Securitization Tranche Record	"The record of the bundled balance sheet items that are to be securitized"	String
+"BQ"	BQ Securitization Instance Record	Securitization Task	"Description of a response initiated by corporate treasury"	String
+"BQ"	BQ Bank Rates Instance Record	""	""	""
+"BQ"	BQ Bank Rates Instance Record	Bank Rate Type	"The type of bank interest or currency rate that is to be applied in production (e.g. bank's consumer mortgage rate)"	String
+"BQ"	BQ Bank Rates Instance Record	Bank Rate Value	"The current value (value range if appropriate) to apply"	Rate
+"BQ"	BQ Bank Rates Instance Record	Bank Rate Value Date	"The key date and time values associated with the rate"	Date
+"BQ"	BQ Bank Rates Instance Record	Bank Rate Value History	"Historical values (maintained for back testing, corrections etc.)"	Rate
+"BQ"	BQ Bank Rates Instance Record	Bank Rate Record Reference	"Reference to the distributed record containing the prevailing bank rates"	Object
+"BQ"	BQ Bank Rates Instance Record	Bank Rate Record	"The record of the prevailing bank rates"	Rate
+"BQ"	BQ Bank Rates Instance Record	Bank Rate Record Date	"Date and time stamp for rate value record"	Date
+"BQ"	BQ Strategic Funding Instance Record	""	""	""
+"BQ"	BQ Strategic Funding Instance Record	Financial Performance and Balance Sheet Projections	"Financial reports from multiple business units"	String
+"BQ"	BQ Strategic Funding Instance Record	ECM And DCM Market Transactions	"Details of equity and debt transactions"	String
+"BQ"	BQ Strategic Funding Instance Record	Strategic Investment Holdings/Transactions	"Details of major investment/divestment transactions"	String
+"BQ"	BQ Strategic Funding Instance Record	Enterprise Balance Sheet Positions	"Summary details and analysis of the balance sheet relevant to longer term planning"	String
+"BQ"	BQ Strategic Funding Instance Record	Strategic Funding Resolution Task	"Description of a response initiated by corporate treasury"	String

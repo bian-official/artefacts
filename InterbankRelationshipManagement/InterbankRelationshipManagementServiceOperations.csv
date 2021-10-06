@@ -1,0 +1,77 @@
+"Service Operations for: "	Interbank Relationship Management
+""
+"POST"	"/interbank-relationship-management/activation"
+"PUT"	"/interbank-relationship-management/{sd-reference-id}/configuration"
+"PUT"	"/interbank-relationship-management/{sd-reference-id}/feedback"
+""
+"Post"	"/interbank-relationship-management/{sd-identifier}/bank-relationship-management-plan/{crbq-identifier}/creation"
+""	1	"in"	"Bank Reference"	"CR Bank Relationship Management Plan Instance Record"	Object
+""	2	"in"	"Bank Details"	"CR Bank Relationship Management Plan Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Bank Relationship Management Plan Instance Record"	Object
+""	4	"inout"	"Bank Relationship Type"	"CR Bank Relationship Management Plan Instance Record"	String
+""	5	"inout"	"Bank Relationship Description"	"CR Bank Relationship Management Plan Instance Record"	String
+""	6	"out"	"Bank Relationship Budget"	"CR Bank Relationship Management Plan Instance Record"	String
+""	7	"inout"	"Bank Contact Details"	"CR Bank Relationship Management Plan Instance Record"	String
+""
+"Put"	"/interbank-relationship-management/{sd-identifier}/bank-relationship-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Bank Reference"	"CR Bank Relationship Management Plan Instance Record"	Object
+""	2	"inout"	"Bank Details"	"CR Bank Relationship Management Plan Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Bank Relationship Management Plan Instance Record"	Object
+""	4	"inout"	"Bank Relationship Type"	"CR Bank Relationship Management Plan Instance Record"	String
+""	5	"inout"	"Bank Relationship Description"	"CR Bank Relationship Management Plan Instance Record"	String
+""	6	"inout"	"Bank Relationship Budget"	"CR Bank Relationship Management Plan Instance Record"	String
+""	7	"inout"	"Bank Contact Details"	"CR Bank Relationship Management Plan Instance Record"	String
+""
+"Put"	"/interbank-relationship-management/{sd-identifier}/bank-relationship-management-plan/{crbq-identifier}/control"
+""
+"Put"	"/interbank-relationship-management/{sd-identifier}/bank-relationship-management-plan/{crbq-identifier}/exchange"
+""
+"Put"	"/interbank-relationship-management/{sd-identifier}/bank-relationship-management-plan/{crbq-identifier}/requisition"
+""	1	"in"	"Bank Reference"	"CR Bank Relationship Management Plan Instance Record"	Object
+""	2	"in"	"Bank Details"	"CR Bank Relationship Management Plan Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Bank Relationship Management Plan Instance Record"	Object
+""	4	"inout"	"Bank Relationship Type"	"CR Bank Relationship Management Plan Instance Record"	String
+""	5	"inout"	"Bank Relationship Description"	"CR Bank Relationship Management Plan Instance Record"	String
+""	6	"out"	"Bank Relationship Budget"	"CR Bank Relationship Management Plan Instance Record"	String
+""	7	"inout"	"Bank Contact Details"	"CR Bank Relationship Management Plan Instance Record"	String
+""
+"Put"	"/interbank-relationship-management/{sd-identifier}/bank-relationship-management-plan/{crbq-identifier}/grant"
+""
+"Get"	"/interbank-relationship-management/{sd-identifier}/bank-relationship-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Bank Reference"	"CR Bank Relationship Management Plan Instance Record"	Object
+""	2	"out"	"Bank Details"	"CR Bank Relationship Management Plan Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Bank Relationship Management Plan Instance Record"	Object
+""	4	"out"	"Bank Relationship Type"	"CR Bank Relationship Management Plan Instance Record"	String
+""	5	"out"	"Bank Relationship Description"	"CR Bank Relationship Management Plan Instance Record"	String
+""	6	"out"	"Bank Relationship Budget"	"CR Bank Relationship Management Plan Instance Record"	String
+""	7	"out"	"Bank Contact Details"	"CR Bank Relationship Management Plan Instance Record"	String
+""
+"Post"	"/interbank-relationship-management/{sd-identifier}/contact/{crbq-identifier}/creation"
+""	1	"inout"	"Bank Relationship Contact History"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Bank Relationship Contact Schedule"	"BQ Contact Instance Record"	String
+""
+"Put"	"/interbank-relationship-management/{sd-identifier}/contact/{crbq-identifier}/update"
+""	1	"inout"	"Bank Relationship Contact Record"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Bank Relationship Contact Date"	"BQ Contact Instance Record"	Date
+""	3	"inout"	"Employee Reference"	"BQ Contact Instance Record"	Object
+""	4	"inout"	"Bank Relationship Contact Type"	"BQ Contact Instance Record"	String
+""	5	"inout"	"Bank Relationship Contact Result"	"BQ Contact Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"BQ Contact Instance Record"	Object
+""
+"Put"	"/interbank-relationship-management/{sd-identifier}/contact/{crbq-identifier}/requisition"
+""	1	"inout"	"Bank Relationship Contact Record"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Bank Relationship Contact Date"	"BQ Contact Instance Record"	Date
+""	3	"in"	"Employee Reference"	"BQ Contact Instance Record"	Object
+""	4	"inout"	"Bank Relationship Contact Type"	"BQ Contact Instance Record"	String
+""	5	"out"	"Bank Relationship Contact Result"	"BQ Contact Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"BQ Contact Instance Record"	Object
+""
+"Get"	"/interbank-relationship-management/{sd-identifier}/contact/{crbq-identifier}/retrieval"
+""	1	"out"	"Bank Relationship Contact History"	"BQ Contact Instance Record"	String
+""	2	"out"	"Bank Relationship Contact Schedule"	"BQ Contact Instance Record"	String
+""	3	"out"	"Bank Relationship Contact Record"	"BQ Contact Instance Record"	String
+""	4	"out"	"Bank Relationship Contact Date"	"BQ Contact Instance Record"	Date
+""	5	"out"	"Employee Reference"	"BQ Contact Instance Record"	Object
+""	6	"out"	"Bank Relationship Contact Type"	"BQ Contact Instance Record"	String
+""	7	"out"	"Bank Relationship Contact Result"	"BQ Contact Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ Contact Instance Record"	Object

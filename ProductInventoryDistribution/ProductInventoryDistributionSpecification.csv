@@ -1,0 +1,13 @@
+"Service Domain specification for Product Inventory Distribution"
+"Business Area"	Channels
+"Business Domain"	Distribution
+"Service Domain"	Product Inventory Distribution
+"Role Definition"	"The service domains administer the provisioning and distribution of product inventory across the branch network and/or organizing distribution direct to customers (e.g. using mail services) where appropriate. The administration function keeps track of inventory holdings and administers a provisioning schedule to acquire replacement inventory as needed to meet requirements"
+"Example of use"	"Example of use:. The distribution of 'take-one' product marketing materials distributed through the branch network is administered in support of a product sales campaign. Brochures are ordered and distributed to ensure branches are supplied with sufficient inventory to meet customer demand"
+"Executive Summary"	"Administer the provisioning and distribution of product inventory across the branch network and/or distribute direct to customers (e.g. mail) where appropriate"
+"Key Features"	"Product inventory tracking. Replacement inventory provisioning. Inventory distribution across the branch network. Inventory distribution through bulk correspondence"
+"Functional Pattern"	Administer
+"Asset Type"	ProductInventoryDistribution
+"Generic Artifact"	AdministrativePlan
+"Control Record"	ProductInventoryDistributionAdministrativePlan
+"Registration Status"	Registered

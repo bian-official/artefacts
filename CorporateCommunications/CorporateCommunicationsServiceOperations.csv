@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Communications
+"Control Record Model for Corporate Communications is not defined"
+"POST"	"/corporate-communications/activation"
+"PUT"	"/corporate-communications/{sd-reference-id}/configuration"
+"PUT"	"/corporate-communications/{sd-reference-id}/feedback"

@@ -1,0 +1,88 @@
+"Service Operations for: "	Customer Credit Rating
+""
+"POST"	"/customer-credit-rating/activation"
+"PUT"	"/customer-credit-rating/{sd-reference-id}/configuration"
+"PUT"	"/customer-credit-rating/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-credit-rating/{sd-identifier}/customer-credit-rating-state/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	2	"in"	"Customer Credit Rating Status Type"	"CR Customer Credit Rating State Instance Record"	String
+""	3	"inout"	"Customer Credit Rating Schedule"	"CR Customer Credit Rating State Instance Record"	String
+""	4	"inout"	"Customer Credit Rating Assessment Record"	"CR Customer Credit Rating State Instance Record"	String
+""	5	"inout"	"Customer Credit Rating Record"	"CR Customer Credit Rating State Instance Record"	String
+""	6	"out"	"Customer Credit Rating Narrative"	"CR Customer Credit Rating State Instance Record"	String
+""	7	"inout"	"Customer Credit Rating Date"	"CR Customer Credit Rating State Instance Record"	Date
+""
+"Put"	"/customer-credit-rating/{sd-identifier}/customer-credit-rating-state/{crbq-identifier}/control"
+""
+"Put"	"/customer-credit-rating/{sd-identifier}/customer-credit-rating-state/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-credit-rating/{sd-identifier}/customer-credit-rating-state/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Credit Rating Assessment Record"	"CR Customer Credit Rating State Instance Record"	String
+""	2	"in"	"Assessment Customer Behavior Model Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	3	"in"	"Credit Rating Assessment Type"	"CR Customer Credit Rating State Instance Record"	String
+""	4	"inout"	"Credit Rating Assessment Date"	"CR Customer Credit Rating State Instance Record"	Date
+""	5	"out"	"Credit Rating Assessment Work Products"	"CR Customer Credit Rating State Instance Record"	String
+""	6	"out"	"Credit Rating Assessment Result"	"CR Customer Credit Rating State Instance Record"	String
+""
+"Put"	"/customer-credit-rating/{sd-identifier}/customer-credit-rating-state/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Credit Rating Assessment Record"	"CR Customer Credit Rating State Instance Record"	String
+""	2	"in"	"Assessment Customer Behavior Model Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	3	"in"	"Credit Rating Assessment Type"	"CR Customer Credit Rating State Instance Record"	String
+""	4	"inout"	"Credit Rating Assessment Date"	"CR Customer Credit Rating State Instance Record"	Date
+""	5	"out"	"Credit Rating Assessment Work Products"	"CR Customer Credit Rating State Instance Record"	String
+""	6	"out"	"Credit Rating Assessment Result"	"CR Customer Credit Rating State Instance Record"	String
+""
+"Get"	"/customer-credit-rating/{sd-identifier}/customer-credit-rating-state/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	2	"out"	"Customer Credit Rating Status Type"	"CR Customer Credit Rating State Instance Record"	String
+""	3	"out"	"Customer Credit Rating Schedule"	"CR Customer Credit Rating State Instance Record"	String
+""	4	"out"	"Customer Credit Rating Assessment Record"	"CR Customer Credit Rating State Instance Record"	String
+""	5	"out"	"Assessment Customer Behavior Model Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	6	"out"	"Credit Rating Assessment Type"	"CR Customer Credit Rating State Instance Record"	String
+""	7	"out"	"Credit Rating Assessment Date"	"CR Customer Credit Rating State Instance Record"	Date
+""	8	"out"	"Credit Rating Assessment Work Products"	"CR Customer Credit Rating State Instance Record"	String
+""	9	"out"	"Credit Rating Assessment Result"	"CR Customer Credit Rating State Instance Record"	String
+""	10	"out"	"Customer Credit Rating Record"	"CR Customer Credit Rating State Instance Record"	String
+""	11	"out"	"Customer Credit Rating Narrative"	"CR Customer Credit Rating State Instance Record"	String
+""	12	"out"	"Customer Credit Rating Date"	"CR Customer Credit Rating State Instance Record"	Date
+""
+"Put"	"/customer-credit-rating/{sd-identifier}/alerts/{crbq-identifier}/capture"
+""	1	"in"	"Customer Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	2	"in"	"Product Instance Reference"	"BQ Alerts Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"BQ Alerts Instance Record"	Object
+""	4	"in"	"Customer Credit Alert Type"	"BQ Alerts Instance Record"	String
+""	5	"in"	"Customer Credit Alert Description"	"BQ Alerts Instance Record"	String
+""	6	"inout"	"Date"	"BQ Alerts Instance Record"	String
+""
+"Get"	"/customer-credit-rating/{sd-identifier}/alerts/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"BQ Alerts Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"BQ Alerts Instance Record"	Object
+""	4	"out"	"Customer Credit Alert Type"	"BQ Alerts Instance Record"	String
+""	5	"out"	"Customer Credit Alert Description"	"BQ Alerts Instance Record"	String
+""	6	"out"	"Date"	"BQ Alerts Instance Record"	String
+""
+"Put"	"/customer-credit-rating/{sd-identifier}/internal-reporting/{crbq-identifier}/capture"
+""	1	"in"	"Customer Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	2	"in"	"Product/Service Activity Report Reference"	"BQ Internal Reporting Instance Record"	Object
+""	3	"inout"	"Product/Service Activity Report Schedule"	"BQ Internal Reporting Instance Record"	String
+""
+"Get"	"/customer-credit-rating/{sd-identifier}/internal-reporting/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	2	"out"	"Product/Service Activity Report Reference"	"BQ Internal Reporting Instance Record"	Object
+""	3	"out"	"Product/Service Activity Report Schedule"	"BQ Internal Reporting Instance Record"	String
+""
+"Put"	"/customer-credit-rating/{sd-identifier}/external-reporting/{crbq-identifier}/capture"
+""	1	"in"	"Customer Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	2	"inout"	"Rating Agency Report Schedule"	"BQ External Reporting Instance Record"	String
+""	3	"in"	"Rating Agency Credit Report Type"	"BQ External Reporting Instance Record"	String
+""	4	"out"	"Reference to the rating agency credit report"	"BQ External Reporting Instance Record"	String
+""	5	"inout"	"Rating Agency Credit Report Date"	"BQ External Reporting Instance Record"	Date
+""
+"Get"	"/customer-credit-rating/{sd-identifier}/external-reporting/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Credit Rating State Instance Record"	Object
+""	2	"out"	"Rating Agency Report Schedule"	"BQ External Reporting Instance Record"	String
+""	3	"out"	"Rating Agency Credit Report Type"	"BQ External Reporting Instance Record"	String
+""	4	"out"	"Reference to the rating agency credit report"	"BQ External Reporting Instance Record"	String
+""	5	"out"	"Rating Agency Credit Report Date"	"BQ External Reporting Instance Record"	Date

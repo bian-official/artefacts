@@ -1,0 +1,5 @@
+"Service Operations for: "	Project Finance
+"Control Record Model for Project Finance is not defined"
+"POST"	"/project-finance/activation"
+"PUT"	"/project-finance/{sd-reference-id}/configuration"
+"PUT"	"/project-finance/{sd-reference-id}/feedback"

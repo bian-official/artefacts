@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Loan"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Corporate Loan
+"Role Definition"	"The corporate loan product may include different properties/features depending on a bank's preferences and policies. The loan is targeted at corporate customers and may be associated with a type of product and may or may not be secured by collateral."
+"Example of use"	"A corporate customer applies for and gets a loan to purchase new equipment.. "
+"Executive Summary"	"This service domain handles the fulfillment of a corporate loan product. This includes the initial set-up of the loan facility and the completion of scheduled and ad-hoc product processing tasks"
+"Key Features"	"Set-up a corporate loan facility. Handle deposits and withdrawals. Provide statements and assessment reports on the loan. Support loan restructuring"
+"Functional Pattern"	Fulfill
+"Asset Type"	CorporateLoan
+"Generic Artifact"	Facility (rename)
+"Control Record"	CorporateLoanArrangement
+"Registration Status"	Registered

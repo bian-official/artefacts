@@ -1,0 +1,13 @@
+"Service Domain specification for Discount Pricing"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Discount Pricing
+"Role Definition"	"Maintain a current price list (with ranges and optional terms) by product/customer type for exceptional pricing conditions that override standard pricing as would be derived from the standard product specification"
+"Example of use"	"A short term discount (waived fees) is put in place for a product at selected university campus locations as part of an effort to attract new student customers"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Assess
+"Asset Type"	ProductandServiceDiscount
+"Generic Artifact"	Assessment
+"Control Record"	ProductandServiceDiscountAssessment
+"Registration Status"	Registered

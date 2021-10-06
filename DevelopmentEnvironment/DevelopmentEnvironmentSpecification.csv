@@ -1,0 +1,13 @@
+"Service Domain specification for Development Environment"
+"Business Area"	Business Development
+"Business Domain"	Solution Development
+"Service Domain"	Development Environment
+"Role Definition"	"Select, maintain and operate the required combination of software development and operation tools, infrastructure and environments (includes version management)"
+"Example of use"	"A new version of a development environment is released into development"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	DevelopmentEnvironment
+"Generic Artifact"	AdministrativePlan
+"Control Record"	DevelopmentEnvironmentAdministrativePlan
+"Registration Status"	Registered

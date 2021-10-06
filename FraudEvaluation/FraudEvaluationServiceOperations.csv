@@ -1,0 +1,53 @@
+"Service Operations for: "	Fraud Evaluation
+""
+"POST"	"/fraud-evaluation/activation"
+"PUT"	"/fraud-evaluation/{sd-reference-id}/configuration"
+"PUT"	"/fraud-evaluation/{sd-reference-id}/feedback"
+""
+"Post"	"/fraud-evaluation/{sd-identifier}/fraud-evaluation-assessment/{crbq-identifier}/evaluation"
+""	1	"inout"	"Product Production Session Reference"	"CR Fraud Evaluation Assessment Instance Record"	Object
+""	2	"inout"	"Fraud Evaluation Test Profile"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	3	"inout"	"Fraud Evaluation Ensemble Technique Type"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	4	"inout"	"Fraud Evaluation Ensemble Technique Definition"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	5	"in"	"Fraud Evaluation Transaction Consolidation Record"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	6	"out"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	7	"out"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Evaluation Assessment Instance Record"	Object
+""
+"Put"	"/fraud-evaluation/{sd-identifier}/fraud-evaluation-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/fraud-evaluation/{sd-identifier}/fraud-evaluation-assessment/{crbq-identifier}/execution"
+""
+"Put"	"/fraud-evaluation/{sd-identifier}/fraud-evaluation-assessment/{crbq-identifier}/requisition"
+""
+"Put"	"/fraud-evaluation/{sd-identifier}/fraud-evaluation-assessment/{crbq-identifier}/grant"
+""
+"Get"	"/fraud-evaluation/{sd-identifier}/fraud-evaluation-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Production Session Reference"	"CR Fraud Evaluation Assessment Instance Record"	Object
+""	2	"out"	"Fraud Evaluation Test Profile"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	3	"out"	"Fraud Evaluation Ensemble Technique Type"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	4	"out"	"Fraud Evaluation Ensemble Technique Definition"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	5	"out"	"Fraud Evaluation Transaction Consolidation Record"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	6	"out"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	7	"out"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Evaluation Assessment Instance Record"	Object
+""
+"Get"	"/fraud-evaluation/{sd-identifier}/rule-sets-and-decision-trees/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Production Session Reference"	"CR Fraud Evaluation Assessment Instance Record"	Object
+""	2	"out"	"Fraud Evaluation Test Profile"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	3	"out"	"Fraud Evaluation Ensemble Technique Type"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	4	"out"	"Fraud Evaluation Ensemble Technique Definition"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	5	"out"	"Fraud Evaluation Transaction Consolidation Record"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	6	"out"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	7	"out"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Evaluation Assessment Instance Record"	Object
+""	8	"out"	"Rule Sets And Decision Trees Test Result"	"BQ Rule Sets and Decision Trees Instance Record"	String
+""	9	"out"	"Rule Sets And Decision Trees Test Work Product"	"BQ Rule Sets and Decision Trees Instance Record"	String
+""
+"Get"	"/fraud-evaluation/{sd-identifier}/models/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Production Session Reference"	"CR Fraud Evaluation Assessment Instance Record"	Object
+""	2	"out"	"Fraud Evaluation Test Profile"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	3	"out"	"Fraud Evaluation Ensemble Technique Type"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	4	"out"	"Fraud Evaluation Ensemble Technique Definition"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	5	"out"	"Fraud Evaluation Transaction Consolidation Record"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	6	"out"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Evaluation Assessment Instance Record"	String
+""	7	"out"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Evaluation Assessment Instance Record"	Object
+""	8	"out"	"Models Test Result"	"BQ Models Instance Record"	String
+""	9	"out"	"Models Test Work Product"	"BQ Models Instance Record"	String

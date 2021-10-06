@@ -1,0 +1,208 @@
+"Service Operations for: "	Customer Billing
+""
+"POST"	"/customer-billing/activation"
+"PUT"	"/customer-billing/{sd-reference-id}/configuration"
+"PUT"	"/customer-billing/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-billing/{sd-identifier}/customer-billing-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"in"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"in"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"in"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"in"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"in"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"in"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"in"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"in"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"in"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"in"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"in"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"inout"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""
+"Put"	"/customer-billing/{sd-identifier}/customer-billing-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"inout"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"inout"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"inout"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"inout"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"inout"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"inout"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"inout"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"inout"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"inout"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"inout"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"inout"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"inout"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""
+"Put"	"/customer-billing/{sd-identifier}/customer-billing-procedure/{crbq-identifier}/control"
+""
+"Put"	"/customer-billing/{sd-identifier}/customer-billing-procedure/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"inout"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"inout"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"inout"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"inout"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"inout"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"inout"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"inout"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"inout"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"inout"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"inout"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"inout"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"inout"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""
+"Put"	"/customer-billing/{sd-identifier}/customer-billing-procedure/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"inout"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"inout"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"inout"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"inout"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"inout"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"inout"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"inout"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"inout"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"inout"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"inout"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"inout"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"inout"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""
+"Get"	"/customer-billing/{sd-identifier}/customer-billing-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"out"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"out"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"out"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"out"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"out"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"out"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"out"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"out"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"out"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"out"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"out"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""
+"Put"	"/customer-billing/{sd-identifier}/invoicing/{crbq-identifier}/update"
+""	1	"inout"	"Customer Invoice Record"	"BQ Invoicing Instance Record"	String
+""	2	"inout"	"Invoice Date"	"BQ Invoicing Instance Record"	Date
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Invoicing Instance Record"	Object
+""	4	"inout"	"Correspondence Instance Reference"	"BQ Invoicing Instance Record"	Object
+""	5	"inout"	"Invoicing Work Product"	"BQ Invoicing Instance Record"	String
+""
+"Get"	"/customer-billing/{sd-identifier}/invoicing/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"out"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"out"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"out"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"out"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"out"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"out"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"out"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"out"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"out"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"out"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"out"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""	15	"out"	"Customer Invoice Record"	"BQ Invoicing Instance Record"	String
+""	16	"out"	"Invoice Date"	"BQ Invoicing Instance Record"	Date
+""	17	"out"	"Document Directory Entry Instance Reference"	"BQ Invoicing Instance Record"	Object
+""	18	"out"	"Correspondence Instance Reference"	"BQ Invoicing Instance Record"	Object
+""	19	"out"	"Invoicing Work Product"	"BQ Invoicing Instance Record"	String
+""
+"Post"	"/customer-billing/{sd-identifier}/tracking-and-reminders/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"in"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"in"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"in"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"in"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"in"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"in"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"in"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"in"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"in"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"in"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"in"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"inout"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""	15	"in"	"Customer Invoice Record"	"BQ Invoicing Instance Record"	String
+""	16	"in"	"Invoice Date"	"BQ Invoicing Instance Record"	Date
+""	17	"in"	"Document Directory Entry Instance Reference"	"BQ Invoicing Instance Record"	Object
+""	18	"in"	"Correspondence Instance Reference"	"BQ Invoicing Instance Record"	Object
+""	19	"out"	"Customer Reminder Contact Record"	"BQ Tracking and Reminders Instance Record"	String
+""	20	"out"	"Contact Message"	"BQ Tracking and Reminders Instance Record"	String
+""	21	"out"	"Contact Date"	"BQ Tracking and Reminders Instance Record"	Date
+""	22	"out"	"Contact Result"	"BQ Tracking and Reminders Instance Record"	String
+""	23	"out"	"Tracking and Reminders Result"	"BQ Tracking and Reminders Instance Record"	String
+""	24	"out"	"Tracking and Reminders Work Product"	"BQ Tracking and Reminders Instance Record"	String
+""
+"Put"	"/customer-billing/{sd-identifier}/tracking-and-reminders/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-billing/{sd-identifier}/tracking-and-reminders/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"out"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"out"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"out"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"out"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"out"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"out"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"out"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"out"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"out"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"out"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"out"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""	15	"out"	"Customer Invoice Record"	"BQ Invoicing Instance Record"	String
+""	16	"out"	"Invoice Date"	"BQ Invoicing Instance Record"	Date
+""	17	"out"	"Document Directory Entry Instance Reference"	"BQ Invoicing Instance Record"	Object
+""	18	"out"	"Correspondence Instance Reference"	"BQ Invoicing Instance Record"	Object
+""	19	"out"	"Customer Reminder Contact Record"	"BQ Tracking and Reminders Instance Record"	String
+""	20	"out"	"Contact Message"	"BQ Tracking and Reminders Instance Record"	String
+""	21	"out"	"Contact Date"	"BQ Tracking and Reminders Instance Record"	Date
+""	22	"out"	"Contact Result"	"BQ Tracking and Reminders Instance Record"	String
+""	23	"out"	"Tracking and Reminders Result"	"BQ Tracking and Reminders Instance Record"	String
+""	24	"out"	"Tracking and Reminders Work Product"	"BQ Tracking and Reminders Instance Record"	String
+""
+"Post"	"/customer-billing/{sd-identifier}/payments/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"in"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"in"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"in"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"in"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"in"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"in"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"in"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"in"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"in"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"in"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"in"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"inout"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""	15	"out"	"Payment Transaction Reference"	"BQ Payments Instance Record"	Object
+""
+"Put"	"/customer-billing/{sd-identifier}/payments/{crbq-identifier}/update"
+""	1	"inout"	"Payment Transaction Reference"	"BQ Payments Instance Record"	Object
+""
+"Put"	"/customer-billing/{sd-identifier}/payments/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-billing/{sd-identifier}/payments/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Billing Transaction Type"	"CR Customer Billing Procedure Instance Record"	String
+""	2	"out"	"Customer Billing Transaction Description"	"CR Customer Billing Procedure Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	4	"out"	"Product Instance Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Customer Billing Procedure Instance Record"	Object
+""	6	"out"	"Customer Billing Product/Service/Action Description"	"CR Customer Billing Procedure Instance Record"	String
+""	7	"out"	"Customer Billing Party"	"CR Customer Billing Procedure Instance Record"	String
+""	8	"out"	"Customer Billing Address"	"CR Customer Billing Procedure Instance Record"	String
+""	9	"out"	"Customer Billing Period"	"CR Customer Billing Procedure Instance Record"	String
+""	10	"out"	"Customer Billing Statement"	"CR Customer Billing Procedure Instance Record"	String
+""	11	"out"	"Customer Billing Amount"	"CR Customer Billing Procedure Instance Record"	Amount
+""	12	"out"	"Customer Billing Payment Due Date"	"CR Customer Billing Procedure Instance Record"	Date
+""	13	"out"	"Customer Billing Payment Details"	"CR Customer Billing Procedure Instance Record"	String
+""	14	"out"	"Customer Billing Payment Schedule"	"CR Customer Billing Procedure Instance Record"	String
+""	15	"out"	"Payment Transaction Reference"	"BQ Payments Instance Record"	Object

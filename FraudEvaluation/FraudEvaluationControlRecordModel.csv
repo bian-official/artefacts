@@ -1,0 +1,16 @@
+"Control Record Model for: "	Fraud Evaluation
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Fraud Evaluation Assessment Instance Record	""	""	""
+"CR"	CR Fraud Evaluation Assessment Instance Record	Product Production Session Reference	"Reference to the product fulfillment production session for which on-line fraud evaluation is performed"	Object
+"CR"	CR Fraud Evaluation Assessment Instance Record	Fraud Evaluation Test Profile	"Details the types of fraud evaluation tests applied"	String
+"CR"	CR Fraud Evaluation Assessment Instance Record	Fraud Evaluation Ensemble Technique Type	"The type of technique use to combine results of the different tests used to detect out of pattern behavior"	String
+"CR"	CR Fraud Evaluation Assessment Instance Record	Fraud Evaluation Ensemble Technique Definition	"The definition of how the constituent rule set/decision tree and model test are combined to compete the assessment"	String
+"CR"	CR Fraud Evaluation Assessment Instance Record	Fraud Evaluation Transaction Consolidation Record	"The production transaction details that are submitted for fraud evaluation - note this will typically be a real-time dataset"	String
+"CR"	CR Fraud Evaluation Assessment Instance Record	Fraud Evaluation Production Anomaly Record	"Details of detected out of pattern production activity that could be fraud"	String
+"CR"	CR Fraud Evaluation Assessment Instance Record	Fraud Evaluation Production Anomaly Production Transaction Reference	"Reference to the one or more production transactions isolated by the fraud evaluation tests"	Object
+"BQ"	BQ Rule Sets and Decision Trees Instance Record	""	""	""
+"BQ"	BQ Rule Sets and Decision Trees Instance Record	Rule Sets And Decision Trees Test Result	"The production transaction assessment test results, including reference to any potential fraud transactions - note this can be a real-time dataset"	String
+"BQ"	BQ Rule Sets and Decision Trees Instance Record	Rule Sets And Decision Trees Test Work Product	"Work documentation, forms and schedules produced and referenced during the assessment task"	String
+"BQ"	BQ Models Instance Record	""	""	""
+"BQ"	BQ Models Instance Record	Models Test Result	"The production transaction assessment test results, including reference to any potential fraud transactions - note this can be a real-time dataset"	String
+"BQ"	BQ Models Instance Record	Models Test Work Product	"Work documentation, forms and schedules produced and referenced during the assessment task"	String

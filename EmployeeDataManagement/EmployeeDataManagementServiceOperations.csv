@@ -1,0 +1,5 @@
+"Service Operations for: "	Employee Data Management
+"Control Record Model for Employee Data Management is not defined"
+"POST"	"/employee-data-management/activation"
+"PUT"	"/employee-data-management/{sd-reference-id}/configuration"
+"PUT"	"/employee-data-management/{sd-reference-id}/feedback"

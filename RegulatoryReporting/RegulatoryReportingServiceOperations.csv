@@ -1,0 +1,85 @@
+"Service Operations for: "	Regulatory Reporting
+""
+"POST"	"/regulatory-reporting/activation"
+"PUT"	"/regulatory-reporting/{sd-reference-id}/configuration"
+"PUT"	"/regulatory-reporting/{sd-reference-id}/feedback"
+""
+"Put"	"/regulatory-reporting/{sd-identifier}/regulatory-compliance-administrative-plan/{crbq-identifier}/update"
+""	1	"inout"	"Regulatory Authority Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	2	"inout"	"Regulatory Reporting Schedule"	"CR Regulatory Compliance Administrative Plan Instance Record"	String
+""	3	"inout"	"Regulation Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	4	"inout"	"Regulatory Report Type"	"CR Regulatory Compliance Administrative Plan Instance Record"	String
+""
+"Put"	"/regulatory-reporting/{sd-identifier}/regulatory-compliance-administrative-plan/{crbq-identifier}/requisition"
+""
+"Get"	"/regulatory-reporting/{sd-identifier}/regulatory-compliance-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Regulatory Authority Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	2	"out"	"Regulatory Reporting Schedule"	"CR Regulatory Compliance Administrative Plan Instance Record"	String
+""	3	"out"	"Regulation Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	4	"out"	"Regulatory Report Type"	"CR Regulatory Compliance Administrative Plan Instance Record"	String
+""
+"Put"	"/regulatory-reporting/{sd-identifier}/authoring/{crbq-identifier}/capture"
+""	1	"inout"	"Source Transaction Records"	"BQ Consolidation Instance Record"	String
+""
+"Get"	"/regulatory-reporting/{sd-identifier}/consolidation/{crbq-identifier}/retrieval"
+""	1	"out"	"Regulatory Authority Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	2	"out"	"Regulatory Reporting Schedule"	"CR Regulatory Compliance Administrative Plan Instance Record"	String
+""	3	"out"	"Regulation Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	4	"out"	"Regulatory Report Type"	"CR Regulatory Compliance Administrative Plan Instance Record"	String
+""	5	"out"	"Regulatory Report Type Content Requirements"	"BQ Consolidation Instance Record"	String
+""	6	"out"	"Source Business Unit/Employee Reference"	"BQ Consolidation Instance Record"	Object
+""	7	"out"	"Source Product/Service Reference"	"BQ Consolidation Instance Record"	Object
+""	8	"out"	"Source Customer Reference"	"BQ Consolidation Instance Record"	Object
+""	9	"out"	"Source Transaction Records"	"BQ Consolidation Instance Record"	String
+""
+"Put"	"/regulatory-reporting/{sd-identifier}/consolidation/{crbq-identifier}/update"
+""	1	"in"	"Source Business Unit/Employee Reference"	"BQ Consolidation Instance Record"	Object
+""	2	"in"	"Source Product/Service Reference"	"BQ Consolidation Instance Record"	Object
+""	3	"in"	"Source Transaction Records"	"BQ Consolidation Instance Record"	String
+""
+"Put"	"/regulatory-reporting/{sd-identifier}/authoring/{crbq-identifier}/exchange"
+""
+"Get"	"/regulatory-reporting/{sd-identifier}/authoring/{crbq-identifier}/retrieval"
+""	1	"out"	"Regulatory Authority Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	2	"out"	"Regulatory Reporting Schedule"	"CR Regulatory Compliance Administrative Plan Instance Record"	String
+""	3	"out"	"Regulation Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	4	"out"	"Regulatory Report Type"	"CR Regulatory Compliance Administrative Plan Instance Record"	String
+""	5	"out"	"Source Transaction Records"	"BQ Consolidation Instance Record"	String
+""	6	"out"	"Regulatory Report Type Compliance Reporting Requirements"	"BQ Authoring Instance Record"	String
+""	7	"out"	"Reporting Period"	"BQ Authoring Instance Record"	String
+""	8	"out"	"Reporting Business Legal Entity Reference"	"BQ Authoring Instance Record"	Object
+""	9	"out"	"Reporting Business Unit Reference"	"BQ Authoring Instance Record"	Object
+""	10	"out"	"Regulatory Report Reference"	"BQ Authoring Instance Record"	Object
+""	11	"out"	"Regulatory Report Document Reference"	"BQ Authoring Instance Record"	Object
+""
+"Post"	"/regulatory-reporting/{sd-identifier}/regulatory-compliance-administrative-plan/{crbq-identifier}/creation"
+""	1	"in"	"Regulatory Authority Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	2	"in"	"Regulatory Enquiry"	"BQ Enquiries Instance Record"	String
+""	3	"in"	"Enquiry Business Unit Reference"	"BQ Enquiries Instance Record"	Object
+""	4	"in"	"Enquiry Product/Service Reference"	"BQ Enquiries Instance Record"	Object
+""	5	"in"	"Enquiry Customer Reference"	"BQ Enquiries Instance Record"	Object
+""	6	"inout"	"Enquiry Transaction Records"	"BQ Enquiries Instance Record"	String
+""	7	"out"	"Regulatory Enquiry Work Products"	"BQ Enquiries Instance Record"	String
+""	8	"out"	"Regulatory Enquiry Result"	"BQ Enquiries Instance Record"	String
+""	9	"out"	"Regulatory Enquiry Document Reference"	"BQ Enquiries Instance Record"	Object
+""
+"Put"	"/regulatory-reporting/{sd-identifier}/enquiries/{crbq-identifier}/update"
+""	1	"in"	"Enquiry Business Unit Reference"	"BQ Enquiries Instance Record"	Object
+""	2	"in"	"Enquiry Product/Service Reference"	"BQ Enquiries Instance Record"	Object
+""	3	"in"	"Enquiry Transaction Records"	"BQ Enquiries Instance Record"	String
+""
+"Put"	"/regulatory-reporting/{sd-identifier}/enquiries/{crbq-identifier}/exchange"
+""
+"Put"	"/regulatory-reporting/{sd-identifier}/enquiries/{crbq-identifier}/capture"
+""	1	"in"	"Enquiry Transaction Records"	"BQ Enquiries Instance Record"	String
+""
+"Get"	"/regulatory-reporting/{sd-identifier}/enquiries/{crbq-identifier}/retrieval"
+""	1	"out"	"Regulatory Authority Reference"	"CR Regulatory Compliance Administrative Plan Instance Record"	Object
+""	2	"out"	"Regulatory Enquiry"	"BQ Enquiries Instance Record"	String
+""	3	"out"	"Enquiry Business Unit Reference"	"BQ Enquiries Instance Record"	Object
+""	4	"out"	"Enquiry Product/Service Reference"	"BQ Enquiries Instance Record"	Object
+""	5	"out"	"Enquiry Customer Reference"	"BQ Enquiries Instance Record"	Object
+""	6	"out"	"Enquiry Transaction Records"	"BQ Enquiries Instance Record"	String
+""	7	"out"	"Regulatory Enquiry Work Products"	"BQ Enquiries Instance Record"	String
+""	8	"out"	"Regulatory Enquiry Result"	"BQ Enquiries Instance Record"	String
+""	9	"out"	"Regulatory Enquiry Document Reference"	"BQ Enquiries Instance Record"	Object

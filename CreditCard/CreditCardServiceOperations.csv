@@ -1,0 +1,523 @@
+"Service Operations for: "	Credit Card
+""
+"POST"	"/credit-card/activation"
+"PUT"	"/credit-card/{sd-reference-id}/configuration"
+"PUT"	"/credit-card/{sd-reference-id}/feedback"
+""
+"Post"	"/credit-card/{sd-identifier}/credit-card-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"in"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	5	"in"	"Account Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	6	"in"	"Secondary Billing Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	7	"in"	"Tax Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	8	"inout"	"Entitlement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	9	"inout"	"Entitlement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	10	"inout"	"Restriction Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	11	"inout"	"Restriction Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	12	"in"	"Allowed Access"	"CR Credit Card Arrangement Instance Record"	String
+""	13	"inout"	"Configuration/Options"	"CR Credit Card Arrangement Instance Record"	String
+""	14	"out"	"Credit/Charge Card Fulfillment Arrangement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	15	"in"	"Credit/Charge Card Fulfillment Arrangement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	16	"inout"	"Associations"	"CR Credit Card Arrangement Instance Record"	String
+""	17	"in"	"Association Type"	"CR Credit Card Arrangement Instance Record"	String
+""	18	"in"	"Association Obligation/Entitlement"	"CR Credit Card Arrangement Instance Record"	String
+""	19	"in"	"Association Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	20	"in"	"Linked Accounts"	"CR Credit Card Arrangement Instance Record"	String
+""	21	"in"	"Link Type"	"CR Credit Card Arrangement Instance Record"	String
+""	22	"in"	"Account Details"	"CR Credit Card Arrangement Instance Record"	String
+""	23	"inout"	"Position Limits"	"CR Credit Card Arrangement Instance Record"	String
+""	24	"in"	"Position Limit Type"	"CR Credit Card Arrangement Instance Record"	String
+""	25	"in"	"Position Limit Settings"	"CR Credit Card Arrangement Instance Record"	String
+""	26	"out"	"Position Limit Value"	"CR Credit Card Arrangement Instance Record"	String
+""	27	"inout"	"Date Type"	"CR Credit Card Arrangement Instance Record"	String
+""	28	"inout"	"Statements Schedule"	"CR Credit Card Arrangement Instance Record"	String
+""	29	"in"	"Statement Type"	"CR Credit Card Arrangement Instance Record"	String
+""	30	"in"	"Statement Transaction Type"	"CR Credit Card Arrangement Instance Record"	String
+""	31	"in"	"Statement Period"	"CR Credit Card Arrangement Instance Record"	String
+""	32	"out"	"Statement Report"	"CR Credit Card Arrangement Instance Record"	String
+""
+"Put"	"/credit-card/{sd-identifier}/credit-card-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"inout"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"inout"	"Bank Branch/Location Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	5	"inout"	"Account Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	6	"inout"	"Secondary Billing Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	7	"inout"	"Tax Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	8	"inout"	"Entitlement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	9	"inout"	"Entitlement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	10	"inout"	"Restriction Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	11	"inout"	"Restriction Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	12	"inout"	"Allowed Access"	"CR Credit Card Arrangement Instance Record"	String
+""	13	"inout"	"Configuration/Options"	"CR Credit Card Arrangement Instance Record"	String
+""	14	"inout"	"Credit/Charge Card Fulfillment Arrangement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	15	"inout"	"Credit/Charge Card Fulfillment Arrangement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	16	"inout"	"Associations"	"CR Credit Card Arrangement Instance Record"	String
+""	17	"inout"	"Association Type"	"CR Credit Card Arrangement Instance Record"	String
+""	18	"inout"	"Association Obligation/Entitlement"	"CR Credit Card Arrangement Instance Record"	String
+""	19	"inout"	"Association Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	20	"inout"	"Linked Accounts"	"CR Credit Card Arrangement Instance Record"	String
+""	21	"inout"	"Link Type"	"CR Credit Card Arrangement Instance Record"	String
+""	22	"inout"	"Account Details"	"CR Credit Card Arrangement Instance Record"	String
+""	23	"inout"	"Position Limits"	"CR Credit Card Arrangement Instance Record"	String
+""	24	"inout"	"Position Limit Type"	"CR Credit Card Arrangement Instance Record"	String
+""	25	"inout"	"Position Limit Settings"	"CR Credit Card Arrangement Instance Record"	String
+""	26	"inout"	"Position Limit Value"	"CR Credit Card Arrangement Instance Record"	String
+""	27	"inout"	"Date Type"	"CR Credit Card Arrangement Instance Record"	String
+""	28	"inout"	"Statements Schedule"	"CR Credit Card Arrangement Instance Record"	String
+""	29	"inout"	"Statement Type"	"CR Credit Card Arrangement Instance Record"	String
+""	30	"inout"	"Statement Transaction Type"	"CR Credit Card Arrangement Instance Record"	String
+""	31	"inout"	"Statement Period"	"CR Credit Card Arrangement Instance Record"	String
+""	32	"inout"	"Statement Report"	"CR Credit Card Arrangement Instance Record"	String
+""
+"Put"	"/credit-card/{sd-identifier}/credit-card-arrangement/{crbq-identifier}/control"
+""
+"Get"	"/credit-card/{sd-identifier}/credit-card-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Secondary Billing Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	7	"out"	"Tax Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	8	"out"	"Entitlement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	9	"out"	"Entitlement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	10	"out"	"Restriction Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	11	"out"	"Restriction Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	12	"out"	"Allowed Access"	"CR Credit Card Arrangement Instance Record"	String
+""	13	"out"	"Configuration/Options"	"CR Credit Card Arrangement Instance Record"	String
+""	14	"out"	"Credit/Charge Card Fulfillment Arrangement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	15	"out"	"Credit/Charge Card Fulfillment Arrangement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	16	"out"	"Associations"	"CR Credit Card Arrangement Instance Record"	String
+""	17	"out"	"Association Type"	"CR Credit Card Arrangement Instance Record"	String
+""	18	"out"	"Association Obligation/Entitlement"	"CR Credit Card Arrangement Instance Record"	String
+""	19	"out"	"Association Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	20	"out"	"Linked Accounts"	"CR Credit Card Arrangement Instance Record"	String
+""	21	"out"	"Link Type"	"CR Credit Card Arrangement Instance Record"	String
+""	22	"out"	"Account Details"	"CR Credit Card Arrangement Instance Record"	String
+""	23	"out"	"Position Limits"	"CR Credit Card Arrangement Instance Record"	String
+""	24	"out"	"Position Limit Type"	"CR Credit Card Arrangement Instance Record"	String
+""	25	"out"	"Position Limit Settings"	"CR Credit Card Arrangement Instance Record"	String
+""	26	"out"	"Position Limit Value"	"CR Credit Card Arrangement Instance Record"	String
+""	27	"out"	"Date Type"	"CR Credit Card Arrangement Instance Record"	String
+""	28	"out"	"Statements Schedule"	"CR Credit Card Arrangement Instance Record"	String
+""	29	"out"	"Statement Type"	"CR Credit Card Arrangement Instance Record"	String
+""	30	"out"	"Statement Transaction Type"	"CR Credit Card Arrangement Instance Record"	String
+""	31	"out"	"Statement Period"	"CR Credit Card Arrangement Instance Record"	String
+""	32	"out"	"Statement Report"	"CR Credit Card Arrangement Instance Record"	String
+""
+"Get"	"/credit-card/{sd-identifier}/interest/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"out"	"Account Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	5	"out"	"Secondary Billing Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Tax Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	7	"out"	"Restriction Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	8	"out"	"Configuration/Options"	"CR Credit Card Arrangement Instance Record"	String
+""	9	"out"	"Credit/Charge Card Fulfillment Arrangement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	10	"out"	"Credit/Charge Card Fulfillment Arrangement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	11	"out"	"Linked Accounts"	"CR Credit Card Arrangement Instance Record"	String
+""	12	"out"	"Link Type"	"CR Credit Card Arrangement Instance Record"	String
+""	13	"out"	"Account Details"	"CR Credit Card Arrangement Instance Record"	String
+""	14	"out"	"Position Limits"	"CR Credit Card Arrangement Instance Record"	String
+""	15	"out"	"Position Limit Type"	"CR Credit Card Arrangement Instance Record"	String
+""	16	"out"	"Position Limit Settings"	"CR Credit Card Arrangement Instance Record"	String
+""	17	"out"	"Position Limit Value"	"CR Credit Card Arrangement Instance Record"	String
+""	18	"out"	"Date Type"	"CR Credit Card Arrangement Instance Record"	String
+""	19	"out"	"Interest Rate Type"	"BQ Interest Instance Record"	String
+""	20	"out"	"Interest Rate Application Schedule"	"BQ Interest Instance Record"	Rate
+""	21	"out"	"Interest Rate Configuration"	"BQ Interest Instance Record"	Rate
+""	22	"out"	"Interest Application Record"	"BQ Interest Instance Record"	String
+""	23	"out"	"Interest Transaction"	"BQ Interest Instance Record"	String
+""	24	"out"	"Transaction Description"	"BQ Interest Instance Record"	String
+""	25	"out"	"Transaction Rate Type"	"BQ Interest Instance Record"	String
+""	26	"out"	"Transaction Interest Charge"	"BQ Interest Instance Record"	String
+""	27	"out"	"Interest Accrual Amount"	"BQ Interest Instance Record"	Amount
+""	28	"out"	"Interest Accrual Type"	"BQ Interest Instance Record"	String
+""	29	"out"	"Interest Accrual Charge"	"BQ Interest Instance Record"	String
+""
+"Put"	"/credit-card/{sd-identifier}/fees/{crbq-identifier}/update"
+""	1	"inout"	"Fee Configuration Profile"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fee Type"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Fee Definition"	"BQ Fees Instance Record"	String
+""	4	"inout"	"Fee Application Record"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fee Transaction"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Transaction Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Transaction Fee Type"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Transaction Fee Charge"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fee Projections and Commitments"	"BQ Fees Instance Record"	String
+""	10	"inout"	"Projected Transaction Description"	"BQ Fees Instance Record"	String
+""	11	"inout"	"Projected Transaction Fee Type"	"BQ Fees Instance Record"	String
+""	12	"inout"	"Projected Transaction Fee Charge"	"BQ Fees Instance Record"	String
+""	13	"inout"	"Fee Accrual Amount"	"BQ Fees Instance Record"	Amount
+""	14	"inout"	"Accrual Fee Type"	"BQ Fees Instance Record"	String
+""	15	"inout"	"Accrual Fee Charge"	"BQ Fees Instance Record"	String
+""
+"Put"	"/credit-card/{sd-identifier}/fees/{crbq-identifier}/execution"
+""	1	"inout"	"Fee Configuration Profile"	"BQ Fees Instance Record"	String
+""	2	"in"	"Fee Type"	"BQ Fees Instance Record"	String
+""	3	"out"	"Fee Definition"	"BQ Fees Instance Record"	String
+""	4	"inout"	"Fee Application Record"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fee Transaction"	"BQ Fees Instance Record"	String
+""	6	"in"	"Transaction Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Transaction Fee Type"	"BQ Fees Instance Record"	String
+""	8	"out"	"Transaction Fee Charge"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fee Projections and Commitments"	"BQ Fees Instance Record"	String
+""	10	"in"	"Projected Transaction Description"	"BQ Fees Instance Record"	String
+""	11	"inout"	"Projected Transaction Fee Type"	"BQ Fees Instance Record"	String
+""	12	"out"	"Projected Transaction Fee Charge"	"BQ Fees Instance Record"	String
+""	13	"out"	"Fee Accrual Amount"	"BQ Fees Instance Record"	Amount
+""	14	"inout"	"Accrual Fee Type"	"BQ Fees Instance Record"	String
+""	15	"out"	"Accrual Fee Charge"	"BQ Fees Instance Record"	String
+""
+"Get"	"/credit-card/{sd-identifier}/fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Secondary Billing Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	7	"out"	"Tax Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	8	"out"	"Entitlement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	9	"out"	"Entitlement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	10	"out"	"Restriction Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	11	"out"	"Restriction Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	12	"out"	"Allowed Access"	"CR Credit Card Arrangement Instance Record"	String
+""	13	"out"	"Configuration/Options"	"CR Credit Card Arrangement Instance Record"	String
+""	14	"out"	"Credit/Charge Card Fulfillment Arrangement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	15	"out"	"Credit/Charge Card Fulfillment Arrangement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	16	"out"	"Associations"	"CR Credit Card Arrangement Instance Record"	String
+""	17	"out"	"Association Type"	"CR Credit Card Arrangement Instance Record"	String
+""	18	"out"	"Association Obligation/Entitlement"	"CR Credit Card Arrangement Instance Record"	String
+""	19	"out"	"Association Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	20	"out"	"Linked Accounts"	"CR Credit Card Arrangement Instance Record"	String
+""	21	"out"	"Link Type"	"CR Credit Card Arrangement Instance Record"	String
+""	22	"out"	"Account Details"	"CR Credit Card Arrangement Instance Record"	String
+""	23	"out"	"Position Limits"	"CR Credit Card Arrangement Instance Record"	String
+""	24	"out"	"Position Limit Type"	"CR Credit Card Arrangement Instance Record"	String
+""	25	"out"	"Position Limit Settings"	"CR Credit Card Arrangement Instance Record"	String
+""	26	"out"	"Position Limit Value"	"CR Credit Card Arrangement Instance Record"	String
+""	27	"out"	"Date Type"	"CR Credit Card Arrangement Instance Record"	String
+""	28	"out"	"Statements Schedule"	"CR Credit Card Arrangement Instance Record"	String
+""	29	"out"	"Statement Type"	"CR Credit Card Arrangement Instance Record"	String
+""	30	"out"	"Statement Transaction Type"	"CR Credit Card Arrangement Instance Record"	String
+""	31	"out"	"Statement Period"	"CR Credit Card Arrangement Instance Record"	String
+""	32	"out"	"Statement Report"	"CR Credit Card Arrangement Instance Record"	String
+""	33	"out"	"Fee Configuration Profile"	"BQ Fees Instance Record"	String
+""	34	"out"	"Fee Type"	"BQ Fees Instance Record"	String
+""	35	"out"	"Fee Definition"	"BQ Fees Instance Record"	String
+""	36	"out"	"Fee Application Record"	"BQ Fees Instance Record"	String
+""	37	"out"	"Fee Transaction"	"BQ Fees Instance Record"	String
+""	38	"out"	"Transaction Description"	"BQ Fees Instance Record"	String
+""	39	"out"	"Transaction Fee Type"	"BQ Fees Instance Record"	String
+""	40	"out"	"Transaction Fee Charge"	"BQ Fees Instance Record"	String
+""	41	"out"	"Fee Projections and Commitments"	"BQ Fees Instance Record"	String
+""	42	"out"	"Projected Transaction Description"	"BQ Fees Instance Record"	String
+""	43	"out"	"Projected Transaction Fee Type"	"BQ Fees Instance Record"	String
+""	44	"out"	"Projected Transaction Fee Charge"	"BQ Fees Instance Record"	String
+""	45	"out"	"Fee Accrual Amount"	"BQ Fees Instance Record"	Amount
+""	46	"out"	"Accrual Fee Type"	"BQ Fees Instance Record"	String
+""	47	"out"	"Accrual Fee Charge"	"BQ Fees Instance Record"	String
+""
+"Put"	"/credit-card/{sd-identifier}/billing/{crbq-identifier}/update"
+""	1	"inout"	"Billing Parameters"	"BQ Billing Instance Record"	String
+""	2	"inout"	"Billing Transaction"	"BQ Billing Instance Record"	String
+""	3	"inout"	"Billing Transaction Party"	"BQ Billing Instance Record"	String
+""	4	"inout"	"Billing Transaction Address"	"BQ Billing Instance Record"	String
+""	5	"inout"	"Billing Transaction Period"	"BQ Billing Instance Record"	String
+""	6	"inout"	"Billing Transaction Statement Reference"	"BQ Billing Instance Record"	Object
+""	7	"inout"	"Billing Transaction Amount"	"BQ Billing Instance Record"	Amount
+""	8	"inout"	"Billing Transaction Minimum Required Payment"	"BQ Billing Instance Record"	String
+""	9	"inout"	"Billing Transaction Payment Due Date"	"BQ Billing Instance Record"	Date
+""
+"Put"	"/credit-card/{sd-identifier}/billing/{crbq-identifier}/execution"
+""	1	"inout"	"Billing Parameters"	"BQ Billing Instance Record"	String
+""	2	"inout"	"Billing Transaction"	"BQ Billing Instance Record"	String
+""	3	"inout"	"Billing Transaction Party"	"BQ Billing Instance Record"	String
+""	4	"inout"	"Billing Transaction Address"	"BQ Billing Instance Record"	String
+""	5	"inout"	"Billing Transaction Period"	"BQ Billing Instance Record"	String
+""	6	"in"	"Billing Transaction Statement Reference"	"BQ Billing Instance Record"	Object
+""	7	"out"	"Billing Transaction Amount"	"BQ Billing Instance Record"	Amount
+""	8	"out"	"Billing Transaction Minimum Required Payment"	"BQ Billing Instance Record"	String
+""	9	"out"	"Billing Transaction Payment Due Date"	"BQ Billing Instance Record"	Date
+""
+"Get"	"/credit-card/{sd-identifier}/billing/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	5	"out"	"Account Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Secondary Billing Currency"	"CR Credit Card Arrangement Instance Record"	CurrencyCode
+""	7	"out"	"Tax Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	8	"out"	"Restriction Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	9	"out"	"Restriction Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	10	"out"	"Configuration/Options"	"CR Credit Card Arrangement Instance Record"	String
+""	11	"out"	"Credit/Charge Card Fulfillment Arrangement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	12	"out"	"Credit/Charge Card Fulfillment Arrangement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	13	"out"	"Linked Accounts"	"CR Credit Card Arrangement Instance Record"	String
+""	14	"out"	"Link Type"	"CR Credit Card Arrangement Instance Record"	String
+""	15	"out"	"Account Details"	"CR Credit Card Arrangement Instance Record"	String
+""	16	"out"	"Date Type"	"CR Credit Card Arrangement Instance Record"	String
+""	17	"out"	"Statements Schedule"	"CR Credit Card Arrangement Instance Record"	String
+""	18	"out"	"Statement Type"	"CR Credit Card Arrangement Instance Record"	String
+""	19	"out"	"Statement Transaction Type"	"CR Credit Card Arrangement Instance Record"	String
+""	20	"out"	"Statement Period"	"CR Credit Card Arrangement Instance Record"	String
+""	21	"out"	"Statement Report"	"CR Credit Card Arrangement Instance Record"	String
+""	22	"out"	"Interest Application Record"	"BQ Interest Instance Record"	String
+""	23	"out"	"Interest Transaction"	"BQ Interest Instance Record"	String
+""	24	"out"	"Transaction Interest Charge"	"BQ Interest Instance Record"	String
+""	25	"out"	"Interest Accrual Amount"	"BQ Interest Instance Record"	Amount
+""	26	"out"	"Interest Accrual Type"	"BQ Interest Instance Record"	String
+""	27	"out"	"Interest Accrual Charge"	"BQ Interest Instance Record"	String
+""	28	"out"	"Fee Transaction"	"BQ Fees Instance Record"	String
+""	29	"out"	"Transaction Description"	"BQ Fees Instance Record"	String
+""	30	"out"	"Transaction Fee Type"	"BQ Fees Instance Record"	String
+""	31	"out"	"Transaction Fee Charge"	"BQ Fees Instance Record"	String
+""	32	"out"	"Fee Accrual Amount"	"BQ Fees Instance Record"	Amount
+""	33	"out"	"Accrual Fee Type"	"BQ Fees Instance Record"	String
+""	34	"out"	"Accrual Fee Charge"	"BQ Fees Instance Record"	String
+""	35	"out"	"Billing Parameters"	"BQ Billing Instance Record"	String
+""	36	"out"	"Billing Transaction"	"BQ Billing Instance Record"	String
+""	37	"out"	"Billing Transaction Party"	"BQ Billing Instance Record"	String
+""	38	"out"	"Billing Transaction Address"	"BQ Billing Instance Record"	String
+""	39	"out"	"Billing Transaction Period"	"BQ Billing Instance Record"	String
+""	40	"out"	"Billing Transaction Statement Reference"	"BQ Billing Instance Record"	Object
+""	41	"out"	"Billing Transaction Amount"	"BQ Billing Instance Record"	Amount
+""	42	"out"	"Billing Transaction Minimum Required Payment"	"BQ Billing Instance Record"	String
+""	43	"out"	"Billing Transaction Payment Due Date"	"BQ Billing Instance Record"	Date
+""
+"Put"	"/credit-card/{sd-identifier}/repayment/{crbq-identifier}/update"
+""	1	"inout"	"Repayment Transaction"	"BQ Repayment Instance Record"	String
+""	2	"inout"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	3	"inout"	"Billing Instance Reference"	"BQ Repayment Instance Record"	Object
+""	4	"inout"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	5	"inout"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	6	"inout"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	7	"inout"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	8	"inout"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	9	"inout"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Put"	"/credit-card/{sd-identifier}/repayment/{crbq-identifier}/execution"
+""	1	"inout"	"Repayment Transaction"	"BQ Repayment Instance Record"	String
+""	2	"in"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	3	"in"	"Billing Instance Reference"	"BQ Repayment Instance Record"	Object
+""	4	"in"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	5	"in"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	6	"in"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	7	"in"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	8	"in"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	9	"inout"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Get"	"/credit-card/{sd-identifier}/repayment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"out"	"Repayment Transaction"	"BQ Repayment Instance Record"	String
+""	5	"out"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	6	"out"	"Billing Instance Reference"	"BQ Repayment Instance Record"	Object
+""	7	"out"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	8	"out"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	9	"out"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	10	"out"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	11	"out"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	12	"out"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Put"	"/credit-card/{sd-identifier}/card-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Card Transaction Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"inout"	"Card Transaction Network Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"inout"	"Card Transaction Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	4	"inout"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	5	"inout"	"Card Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	6	"inout"	"Card Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	7	"inout"	"Card Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	8	"inout"	"Card Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	9	"inout"	"Card Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	10	"inout"	"Card Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"inout"	"Card Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	12	"inout"	"Card Transaction FX Conversion Charge"	"BQ Card Transaction Instance Record"	String
+""	13	"inout"	"Card Transaction Intercharge Fee"	"BQ Card Transaction Instance Record"	String
+""	14	"inout"	"Card Transaction Authorization Record"	"BQ Card Transaction Instance Record"	String
+""
+"Put"	"/credit-card/{sd-identifier}/card-transaction/{crbq-identifier}/exchange"
+""
+"Put"	"/credit-card/{sd-identifier}/card-transaction/{crbq-identifier}/execution"
+""	1	"in"	"Card Transaction Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"in"	"Card Transaction Network Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"in"	"Card Transaction Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	4	"in"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	5	"in"	"Card Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	6	"in"	"Card Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	7	"in"	"Card Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	8	"in"	"Card Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	9	"in"	"Card Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	10	"in"	"Card Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"inout"	"Card Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	12	"in"	"Card Transaction FX Conversion Charge"	"BQ Card Transaction Instance Record"	String
+""	13	"in"	"Card Transaction Intercharge Fee"	"BQ Card Transaction Instance Record"	String
+""	14	"in"	"Card Transaction Authorization Record"	"BQ Card Transaction Instance Record"	String
+""
+"Get"	"/credit-card/{sd-identifier}/card-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"out"	"Card Transaction Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	5	"out"	"Card Transaction Network Reference"	"BQ Card Transaction Instance Record"	Object
+""	6	"out"	"Card Transaction Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	7	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	8	"out"	"Card Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	9	"out"	"Card Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	10	"out"	"Card Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	11	"out"	"Card Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"out"	"Card Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	13	"out"	"Card Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	14	"out"	"Card Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	15	"out"	"Card Transaction FX Conversion Charge"	"BQ Card Transaction Instance Record"	String
+""	16	"out"	"Card Transaction Intercharge Fee"	"BQ Card Transaction Instance Record"	String
+""	17	"out"	"Card Transaction Authorization Record"	"BQ Card Transaction Instance Record"	String
+""
+"Post"	"/credit-card/{sd-identifier}/issued-device/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"in"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	5	"in"	"Allowed Access"	"CR Credit Card Arrangement Instance Record"	String
+""	6	"in"	"Configuration/Options"	"CR Credit Card Arrangement Instance Record"	String
+""	7	"in"	"Credit/Charge Card Fulfillment Arrangement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	8	"in"	"Credit/Charge Card Fulfillment Arrangement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	9	"in"	"Associations"	"CR Credit Card Arrangement Instance Record"	String
+""	10	"in"	"Association Type"	"CR Credit Card Arrangement Instance Record"	String
+""	11	"in"	"Association Obligation/Entitlement"	"CR Credit Card Arrangement Instance Record"	String
+""	12	"in"	"Association Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	13	"in"	"Linked Accounts"	"CR Credit Card Arrangement Instance Record"	String
+""	14	"in"	"Link Type"	"CR Credit Card Arrangement Instance Record"	String
+""	15	"in"	"Account Details"	"CR Credit Card Arrangement Instance Record"	String
+""	16	"in"	"Position Limits"	"CR Credit Card Arrangement Instance Record"	String
+""	17	"in"	"Position Limit Type"	"CR Credit Card Arrangement Instance Record"	String
+""	18	"in"	"Position Limit Settings"	"CR Credit Card Arrangement Instance Record"	String
+""	19	"in"	"Position Limit Value"	"CR Credit Card Arrangement Instance Record"	String
+""	20	"inout"	"Date Type"	"CR Credit Card Arrangement Instance Record"	String
+""	21	"in"	"Issued Device Type"	"BQ Issued Device Instance Record"	String
+""	22	"inout"	"Issued Device Description"	"BQ Issued Device Instance Record"	String
+""	23	"inout"	"Issued Device Option Definition"	"BQ Issued Device Instance Record"	String
+""	24	"inout"	"Issued Device Option Setting"	"BQ Issued Device Instance Record"	String
+""	25	"inout"	"Issued Device Property"	"BQ Issued Device Instance Record"	String
+""	26	"inout"	"Issued Device Property Type"	"BQ Issued Device Instance Record"	String
+""	27	"inout"	"Issued Device Property Value"	"BQ Issued Device Instance Record"	String
+""	28	"inout"	"Issued Device Status"	"BQ Issued Device Instance Record"	String
+""
+"Put"	"/credit-card/{sd-identifier}/issued-device/{crbq-identifier}/update"
+""	1	"inout"	"Issued Device Type"	"BQ Issued Device Instance Record"	String
+""	2	"inout"	"Issued Device Description"	"BQ Issued Device Instance Record"	String
+""	3	"inout"	"Issued Device Option Definition"	"BQ Issued Device Instance Record"	String
+""	4	"inout"	"Issued Device Option Setting"	"BQ Issued Device Instance Record"	String
+""	5	"inout"	"Issued Device Property"	"BQ Issued Device Instance Record"	String
+""	6	"inout"	"Issued Device Property Type"	"BQ Issued Device Instance Record"	String
+""	7	"inout"	"Issued Device Property Value"	"BQ Issued Device Instance Record"	String
+""	8	"inout"	"Issued Device Status"	"BQ Issued Device Instance Record"	String
+""
+"Put"	"/credit-card/{sd-identifier}/issued-device/{crbq-identifier}/exchange"
+""
+"Put"	"/credit-card/{sd-identifier}/issued-device/{crbq-identifier}/requisition"
+""	1	"in"	"Issued Device Type"	"BQ Issued Device Instance Record"	String
+""	2	"out"	"Issued Device Description"	"BQ Issued Device Instance Record"	String
+""	3	"out"	"Issued Device Option Definition"	"BQ Issued Device Instance Record"	String
+""	4	"inout"	"Issued Device Option Setting"	"BQ Issued Device Instance Record"	String
+""	5	"in"	"Issued Device Property"	"BQ Issued Device Instance Record"	String
+""	6	"out"	"Issued Device Property Type"	"BQ Issued Device Instance Record"	String
+""	7	"inout"	"Issued Device Property Value"	"BQ Issued Device Instance Record"	String
+""	8	"inout"	"Issued Device Status"	"BQ Issued Device Instance Record"	String
+""
+"Get"	"/credit-card/{sd-identifier}/issued-device/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	5	"out"	"Allowed Access"	"CR Credit Card Arrangement Instance Record"	String
+""	6	"out"	"Configuration/Options"	"CR Credit Card Arrangement Instance Record"	String
+""	7	"out"	"Credit/Charge Card Fulfillment Arrangement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	8	"out"	"Credit/Charge Card Fulfillment Arrangement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	9	"out"	"Associations"	"CR Credit Card Arrangement Instance Record"	String
+""	10	"out"	"Association Type"	"CR Credit Card Arrangement Instance Record"	String
+""	11	"out"	"Association Obligation/Entitlement"	"CR Credit Card Arrangement Instance Record"	String
+""	12	"out"	"Association Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	13	"out"	"Linked Accounts"	"CR Credit Card Arrangement Instance Record"	String
+""	14	"out"	"Link Type"	"CR Credit Card Arrangement Instance Record"	String
+""	15	"out"	"Account Details"	"CR Credit Card Arrangement Instance Record"	String
+""	16	"out"	"Position Limits"	"CR Credit Card Arrangement Instance Record"	String
+""	17	"out"	"Position Limit Type"	"CR Credit Card Arrangement Instance Record"	String
+""	18	"out"	"Position Limit Settings"	"CR Credit Card Arrangement Instance Record"	String
+""	19	"out"	"Position Limit Value"	"CR Credit Card Arrangement Instance Record"	String
+""	20	"out"	"Date Type"	"CR Credit Card Arrangement Instance Record"	String
+""	21	"out"	"Issued Device Type"	"BQ Issued Device Instance Record"	String
+""	22	"out"	"Issued Device Description"	"BQ Issued Device Instance Record"	String
+""	23	"out"	"Issued Device Option Definition"	"BQ Issued Device Instance Record"	String
+""	24	"out"	"Issued Device Option Setting"	"BQ Issued Device Instance Record"	String
+""	25	"out"	"Issued Device Property"	"BQ Issued Device Instance Record"	String
+""	26	"out"	"Issued Device Property Type"	"BQ Issued Device Instance Record"	String
+""	27	"out"	"Issued Device Property Value"	"BQ Issued Device Instance Record"	String
+""	28	"out"	"Issued Device Status"	"BQ Issued Device Instance Record"	String
+""
+"Post"	"/credit-card/{sd-identifier}/credit-plan/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"in"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"in"	"Entitlement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	5	"in"	"Entitlement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	6	"in"	"Restriction Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	7	"in"	"Restriction Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	8	"in"	"Credit Plan Type"	"BQ Credit Plan Instance Record"	String
+""	9	"in"	"Credit Plan Terms"	"BQ Credit Plan Instance Record"	String
+""	10	"in"	"Credit Plan Account Reference"	"BQ Credit Plan Instance Record"	Object
+""
+"Put"	"/credit-card/{sd-identifier}/credit-plan/{crbq-identifier}/update"
+""	1	"inout"	"Card Transaction Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	2	"inout"	"Card Transaction Network Reference"	"BQ Card Transaction Instance Record"	Object
+""	3	"inout"	"Card Transaction Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	4	"inout"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	5	"inout"	"Card Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	6	"inout"	"Card Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	7	"inout"	"Card Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	8	"inout"	"Card Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	9	"inout"	"Card Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	10	"inout"	"Card Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"inout"	"Card Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	12	"inout"	"Card Transaction FX Conversion Charge"	"BQ Card Transaction Instance Record"	String
+""	13	"inout"	"Card Transaction Intercharge Fee"	"BQ Card Transaction Instance Record"	String
+""	14	"inout"	"Card Transaction Authorization Record"	"BQ Card Transaction Instance Record"	String
+""	15	"inout"	"Credit Plan Type"	"BQ Credit Plan Instance Record"	String
+""	16	"inout"	"Credit Plan Terms"	"BQ Credit Plan Instance Record"	String
+""	17	"inout"	"Credit Plan Account Reference"	"BQ Credit Plan Instance Record"	Object
+""
+"Put"	"/credit-card/{sd-identifier}/credit-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Credit Plan Type"	"BQ Credit Plan Instance Record"	String
+""	2	"inout"	"Credit Plan Terms"	"BQ Credit Plan Instance Record"	String
+""	3	"inout"	"Credit Plan Account Reference"	"BQ Credit Plan Instance Record"	Object
+""
+"Get"	"/credit-card/{sd-identifier}/credit-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	3	"out"	"Party Reference"	"CR Credit Card Arrangement Instance Record"	Object
+""	4	"out"	"Entitlement Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	5	"out"	"Entitlement Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	6	"out"	"Restriction Option Definition"	"CR Credit Card Arrangement Instance Record"	String
+""	7	"out"	"Restriction Option Setting"	"CR Credit Card Arrangement Instance Record"	String
+""	8	"out"	"Card Transaction Product Instance Reference"	"BQ Card Transaction Instance Record"	Object
+""	9	"out"	"Card Transaction Network Reference"	"BQ Card Transaction Instance Record"	Object
+""	10	"out"	"Card Transaction Issuing Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	11	"out"	"Card Transaction Merchant Acquiring Bank Reference"	"BQ Card Transaction Instance Record"	Object
+""	12	"out"	"Card Transaction Type"	"BQ Card Transaction Instance Record"	String
+""	13	"out"	"Card Transaction Currency"	"BQ Card Transaction Instance Record"	CurrencyCode
+""	14	"out"	"Card Transaction Amount Type"	"BQ Card Transaction Instance Record"	String
+""	15	"out"	"Card Transaction Merchant Reference"	"BQ Card Transaction Instance Record"	Object
+""	16	"out"	"Card Transaction Location Reference"	"BQ Card Transaction Instance Record"	Object
+""	17	"out"	"Card Transaction Product/Service Reference"	"BQ Card Transaction Instance Record"	Object
+""	18	"out"	"Card Transaction Date/Time"	"BQ Card Transaction Instance Record"	Date
+""	19	"out"	"Card Transaction FX Conversion Charge"	"BQ Card Transaction Instance Record"	String
+""	20	"out"	"Card Transaction Intercharge Fee"	"BQ Card Transaction Instance Record"	String
+""	21	"out"	"Card Transaction Authorization Record"	"BQ Card Transaction Instance Record"	String
+""	22	"out"	"Credit Plan Type"	"BQ Credit Plan Instance Record"	String
+""	23	"out"	"Credit Plan Terms"	"BQ Credit Plan Instance Record"	String
+""	24	"out"	"Credit Plan Account Reference"	"BQ Credit Plan Instance Record"	Object

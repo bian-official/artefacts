@@ -1,0 +1,5 @@
+"Service Operations for: "	Human Resources Direction
+"Control Record Model for Human Resources Direction is not defined"
+"POST"	"/human-resources-direction/activation"
+"PUT"	"/human-resources-direction/{sd-reference-id}/configuration"
+"PUT"	"/human-resources-direction/{sd-reference-id}/feedback"

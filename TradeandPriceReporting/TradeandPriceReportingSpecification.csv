@@ -1,0 +1,13 @@
+"Service Domain specification for Trade and Price Reporting"
+"Business Area"	Products
+"Business Domain"	Market Operations
+"Service Domain"	Trade and Price Reporting
+"Role Definition"	"Operate a trade reporting facility as required by market regulation. Capture and transmit trades details to the exchange to an operating schedule"
+"Example of use"	"Real-time trade reporting is processed during the trading period for the trading function at the bank"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	MarketTradeReporting
+"Generic Artifact"	OperatingSession
+"Control Record"	MarketTradeReportingOperatingSession
+"Registration Status"	Registered

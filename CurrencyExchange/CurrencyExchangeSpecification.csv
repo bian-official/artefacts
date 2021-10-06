@@ -1,0 +1,13 @@
+"Service Domain specification for Currency Exchange"
+"Business Area"	Products
+"Business Domain"	Consumer Banking
+"Service Domain"	Currency Exchange
+"Role Definition"	"This is an over the counter service where currency is exchanged and the transaction uses preferential rates and can include transaction fees. Note in some cases travelers checks can be handled as a pseudo currency within this capability. Note that Branch and teller currency inventory tracking and distribution is administered by Branch Currency Management and Branch Currency Distribution service domains"
+"Example of use"	"Example of use:. A non-bank customer obtains a currency exchange at the teller, buying foreign currency for local currency in cash"
+"Executive Summary"	"Service Domain supports over the counter currency exchange"
+"Key Features"	"FX transaction pricing. FX transaction capture. Document handling"
+"Functional Pattern"	Transact
+"Asset Type"	CurrencyExchange
+"Generic Artifact"	Transaction
+"Control Record"	CurrencyExchangeTransaction
+"Registration Status"	Registered

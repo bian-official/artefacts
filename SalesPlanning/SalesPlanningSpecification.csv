@@ -1,0 +1,13 @@
+"Service Domain specification for Sales Planning"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Sales Planning
+"Role Definition"	""
+"Example of use"	"Sales management review quarterly performance and pipeline and set sales targets and allocations for the upcoming cycle"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Direct
+"Asset Type"	MarketingAndSales
+"Generic Artifact"	Strategy
+"Control Record"	MarketingAndSalesStrategy
+"Registration Status"	Registered

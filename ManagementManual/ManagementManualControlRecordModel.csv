@@ -1,0 +1,76 @@
+"Control Record Model for: "	Management Manual
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Management Manual Specification Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Management Manual. . Example: Create and maintain product designs and analytical models."	""
+"CR"	CR Management Manual Specification Instance Record	Management Manual Specification Parameter Type	"A Classification value that distinguishes between designs according to the type of business services and/or aspect within Management Manual Specification . Eg Product Design, Campaign Design, Risk Model Design etc. "	String
+"CR"	CR Management Manual Specification Instance Record	Management Manual Specification Selected Option	"A selected optional business service as subject matter of design"	String
+"CR"	CR Management Manual Specification Instance Record	Management Manual Specification Description	"Documentation of Management Manual Specification"	String
+"CR"	CR Management Manual Specification Instance Record	Management Manual Specification Version	"The version of Management Manual Specification"	String
+"CR"	CR Management Manual Specification Instance Record	Management Manual Specification Status	"The status of Management Manual Specification"	String
+"CR"	CR Management Manual Specification Instance Record	Management Manual Specification Usage Log	"Reference to the log of (usage) ativities/events of Management Manual Specification"	String
+"CR"	CR Management Manual Specification Instance Record	Management Manual Specification Feedback	"Information about reactions to a design which is used as a basis for improvement for the Management Manual Specification."	String
+"CR"	CR Management Manual Specification Instance Record	Management Manual Specification ServiceProvider Reference	"Reference to the party who has provided Management Manual Specification"	Object
+"BQ"	BQ Company Mission and  Policies Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Management Manual. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and  Policies Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and  Policies Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and  Policies Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and Policies	"The Management Manual Specification specific  Business Service"	Business Service
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and Policies Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and Policies Service Description	"Description of the performed business service"	String
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and Policies Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and Policies Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Company Mission and  Policies Instance Record	Company Mission and Policies Service Name	""	String
+"BQ"	BQ Management Manual Outcome Instance Record	""	""	""
+"BQ"	BQ Management Manual Outcome Instance Record	Management Manual Task	""	String
+"BQ"	BQ Management Manual Outcome Instance Record	Management Manual Design	""	String
+"BQ"	BQ Management Manual Outcome Instance Record	Management Manual Work Product	""	String
+"BQ"	BQ Management Manual Outcome Instance Record	Management Manual Impact Analysis	""	String
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Management Manual. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and  Guidelines Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and  Guidelines Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and  Guidelines Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and Guidelines	"The Management Manual Specification specific  Business Service"	Business Service
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and Guidelines Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and Guidelines Service Description	"Description of the performed business service"	String
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and Guidelines Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and Guidelines Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Employment Related Procedures and  Guidelines Instance Record	Employment Related Procedures and Guidelines Service Name	""	String
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Management Manual. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and  Guidelines Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and  Guidelines Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and  Guidelines Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and Guidelines	"The Management Manual Specification specific  Business Service"	Business Service
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and Guidelines Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and Guidelines Service Description	"Description of the performed business service"	String
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and Guidelines Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and Guidelines Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Operational Security Procedures and  Guidelines Instance Record	Operational Security Procedures and Guidelines Service Name	""	String
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Management Manual. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and  Production Procedures and  Guidelines Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and  Production Procedures and  Guidelines Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and  Production Procedures and  Guidelines Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and Production Procedures and Guidelines	"The Management Manual Specification specific  Business Service"	Business Service
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and Production Procedures and Guidelines Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and Production Procedures and Guidelines Service Description	"Description of the performed business service"	String
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and Production Procedures and Guidelines Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and Production Procedures and Guidelines Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Operational and  Production Procedures and  Guidelines Instance Record	Operational and Production Procedures and Guidelines Service Name	""	String
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Management Manual. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and  Guidelines Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and  Guidelines Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and  Guidelines Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and Guidelines	"The Management Manual Specification specific  Business Service"	Business Service
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and Guidelines Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and Guidelines Service Description	"Description of the performed business service"	String
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and Guidelines Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and Guidelines Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Staff Management Procedures and  Guidelines Instance Record	Staff Management Procedures and Guidelines Service Name	""	String
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Management Manual. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and  Regulatory Obligations and  Guidelines Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and  Regulatory Obligations and  Guidelines Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and  Regulatory Obligations and  Guidelines Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and Regulatory Obligations and Guidelines	"The Management Manual Specification specific  Business Service"	Business Service
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and Regulatory Obligations and Guidelines Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and Regulatory Obligations and Guidelines Service Description	"Description of the performed business service"	String
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and Regulatory Obligations and Guidelines Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and Regulatory Obligations and Guidelines Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Legal and  Regulatory Obligations and  Guidelines Instance Record	Legal and Regulatory Obligations and Guidelines Service Name	""	String

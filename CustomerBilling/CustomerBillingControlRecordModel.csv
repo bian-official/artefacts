@@ -1,0 +1,34 @@
+"Control Record Model for: "	Customer Billing
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Payments Instance Record	""	""	""
+"BQ"	BQ Payments Instance Record	Payment Transaction Reference	"Reference to the received payment transaction"	Object
+"BQ"	BQ Payments Instance Record	Payment Transaction	"The payment transaction details"	String
+"BQ"	BQ Invoicing Instance Record	""	""	""
+"BQ"	BQ Invoicing Instance Record	Customer Invoice Record	"The customer invoice record"	String
+"BQ"	BQ Invoicing Instance Record	Invoice Date	"The date the invoice is issued"	Date
+"BQ"	BQ Invoicing Instance Record	Document Directory Entry Instance Reference	"The document reference for the sent invoice"	Object
+"BQ"	BQ Invoicing Instance Record	Correspondence Instance Reference	"Reference to the correspondence that generated the dispatch"	Object
+"BQ"	BQ Invoicing Instance Record	Invoice	"The content of the invoice (in any suitable media of format)"	String
+"BQ"	BQ Invoicing Instance Record	Invoicing Work Product	"Work documentation, forms and schedules produced and referenced during the analysis (for future reference)"	String
+"BQ"	BQ Tracking and Reminders Instance Record	""	""	""
+"BQ"	BQ Tracking and Reminders Instance Record	Customer Reminder Contact Record	"Reference to an outbound contact established with the customer"	String
+"BQ"	BQ Tracking and Reminders Instance Record	Contact Message	"Content of the reminder message"	String
+"BQ"	BQ Tracking and Reminders Instance Record	Contact Date	"The date and time of the contact"	Date
+"BQ"	BQ Tracking and Reminders Instance Record	Contact Result	"Any response arising from the contact"	String
+"BQ"	BQ Tracking and Reminders Instance Record	Tracking and Reminders Result	"The result of the tracking and reminder activity"	String
+"BQ"	BQ Tracking and Reminders Instance Record	Tracking and Reminders Work Product	"Work documentation, forms and schedules produced and referenced during the task"	String
+"CR"	CR Customer Billing Procedure Instance Record	""	""	""
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Transaction Type	"The type of customer billing (e.g. product fees, penalties)"	String
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Transaction Description	"Description that annotates the bill as appropriate"	String
+"CR"	CR Customer Billing Procedure Instance Record	Customer Reference	"Reference to the customer for the billing"	Object
+"CR"	CR Customer Billing Procedure Instance Record	Product Instance Reference	"The product instance associated with the charge"	Object
+"CR"	CR Customer Billing Procedure Instance Record	Customer Agreement Reference	"The agreement covering the product arrangement (referenced for any specific billing terms and conditions)"	Object
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing ProductandService/Action Description	"Breakdown and description of the billed service or activities"	String
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Party	"The legal entity being charged (will usually be the customer)"	String
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Address	"The billing address (can be an electronic location"	String
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Period	"The billing period is appropriate (e.g. for an on-going service)"	String
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Statement	"The itemized breakdown of the charges with references"	String
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Amount	"The total amount due"	Amount
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Payment Due Date	"The due date for payment"	Date
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Payment Details	"The payment details (e.g. payment account)"	String
+"CR"	CR Customer Billing Procedure Instance Record	Customer Billing Payment Schedule	"The target and actual billing activities and dates"	String

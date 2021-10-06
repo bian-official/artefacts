@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Profile"
+"Business Area"	Channels
+"Business Domain"	Cross Channel
+"Service Domain"	Customer Profile
+"Role Definition"	"The customer profile service domain is used to tune the customer experience during any real-time interaction with the bank. A collection of status indicators, ratings and alerts can be maintained that are then used to influence the routing and servicing decisions that govern the customer interaction. For example a status indicator could include a warning that the account is in distress which would limit sales activity and might result in routing a contact to a specialist account recovery servicing facility."
+"Example of use"	"The identity and active status of a customer is checked as they present themselves on-line to access their bank account"
+"Executive Summary"	"This service domain maintains a small profile of key indicators for a customer that is referenced during customer interactions to facilitate routing, servicing and product/service fulfillment decisions. This can include status (such as account in arrears), ratings (such as high value customer) and alerts (such possible fraud activity detected)"
+"Key Features"	"Track and provide customer status flags (e.g. in arrears). Track and provide customer ratings (e.g. credit rating). Track and provide customer alerts (e.g. possible fraud activity)"
+"Functional Pattern"	Monitor
+"Asset Type"	Party
+"Generic Artifact"	State
+"Control Record"	PartyState
+"Registration Status"	Registered

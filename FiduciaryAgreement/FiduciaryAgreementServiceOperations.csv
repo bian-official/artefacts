@@ -1,0 +1,253 @@
+"Service Operations for: "	Fiduciary Agreement
+""
+"POST"	"/fiduciary-agreement/activation"
+"PUT"	"/fiduciary-agreement/{sd-reference-id}/configuration"
+"PUT"	"/fiduciary-agreement/{sd-reference-id}/feedback"
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fiduciary-relationship-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Fiduciary Relationship Arrangement Parameter Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	2	"inout"	"Fiduciary Relationship Arrangement Selected Option"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	3	"in"	"Fiduciary Relationship Arrangement Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	4	"in"	"Fiduciary Relationship Arrangement Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	5	"inout"	"Fiduciary Relationship Arrangement Schedule"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	6	"inout"	"Fiduciary Relationship Arrangement Status"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	7	"in"	"Fiduciary Relationship Arrangement Currency"	"CR Fiduciary Relationship Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Fiduciary Relationship Arrangement Regulation Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	9	"in"	"Fiduciary Relationship Arrangement Regulation Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	10	"in"	"Fiduciary Relationship Arrangement Jurisdiction"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	11	"in"	"Fiduciary Relationship Arrangement Booking Location"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	12	"in"	"Fiduciary Relationship Arrangement Account Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	13	"in"	"Fiduciary Relationship Arrangement Account Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/agreement/{crbq-identifier}/exchange"
+""	1	"inout"	"Agreement Preconditions"	"BQ Agreement Instance Record"	String
+""	2	"inout"	"Agreement Feature Schedule"	"BQ Agreement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Agreement Instance Record"	Business Service
+""	4	"inout"	"Agreement Postconditions"	"BQ Agreement Instance Record"	String
+""	5	"inout"	"Agreement Service Type"	"BQ Agreement Instance Record"	String
+""	6	"inout"	"Agreement Service Description"	"BQ Agreement Instance Record"	String
+""	7	"inout"	"Agreement Service Inputs and Ouputs"	"BQ Agreement Instance Record"	String
+""	8	"inout"	"Agreement Service Work Product"	"BQ Agreement Instance Record"	String
+""	9	"inout"	"Agreement Service Name"	"BQ Agreement Instance Record"	String
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fees/{crbq-identifier}/exchange"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fulfillment/{crbq-identifier}/exchange"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fiduciary-relationship-arrangement/{crbq-identifier}/exchange"
+""	1	"inout"	"Fiduciary Relationship Arrangement Parameter Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	2	"inout"	"Fiduciary Relationship Arrangement Selected Option"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	3	"in"	"Fiduciary Relationship Arrangement Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	4	"in"	"Fiduciary Relationship Arrangement Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	5	"inout"	"Fiduciary Relationship Arrangement Schedule"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	6	"inout"	"Fiduciary Relationship Arrangement Status"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	7	"in"	"Fiduciary Relationship Arrangement Currency"	"CR Fiduciary Relationship Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Fiduciary Relationship Arrangement Regulation Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	9	"in"	"Fiduciary Relationship Arrangement Regulation Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	10	"in"	"Fiduciary Relationship Arrangement Jurisdiction"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	11	"in"	"Fiduciary Relationship Arrangement Booking Location"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	12	"in"	"Fiduciary Relationship Arrangement Account Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	13	"in"	"Fiduciary Relationship Arrangement Account Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fiduciary-relationship-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Fiduciary Relationship Arrangement Parameter Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	2	"inout"	"Fiduciary Relationship Arrangement Selected Option"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	3	"in"	"Fiduciary Relationship Arrangement Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	4	"in"	"Fiduciary Relationship Arrangement Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	5	"inout"	"Fiduciary Relationship Arrangement Schedule"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	6	"inout"	"Fiduciary Relationship Arrangement Status"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	7	"in"	"Fiduciary Relationship Arrangement Currency"	"CR Fiduciary Relationship Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Fiduciary Relationship Arrangement Regulation Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	9	"in"	"Fiduciary Relationship Arrangement Regulation Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	10	"in"	"Fiduciary Relationship Arrangement Jurisdiction"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	11	"in"	"Fiduciary Relationship Arrangement Booking Location"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	12	"in"	"Fiduciary Relationship Arrangement Account Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	13	"in"	"Fiduciary Relationship Arrangement Account Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""
+"Post"	"/fiduciary-agreement/{sd-identifier}/agreement/{crbq-identifier}/initiation"
+""	1	"inout"	"Agreement Preconditions"	"BQ Agreement Instance Record"	String
+""	2	"inout"	"Agreement Feature Schedule"	"BQ Agreement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Agreement Instance Record"	Business Service
+""	4	"inout"	"Agreement Postconditions"	"BQ Agreement Instance Record"	String
+""	5	"inout"	"Agreement Service Type"	"BQ Agreement Instance Record"	String
+""	6	"inout"	"Agreement Service Description"	"BQ Agreement Instance Record"	String
+""	7	"inout"	"Agreement Service Inputs and Ouputs"	"BQ Agreement Instance Record"	String
+""	8	"inout"	"Agreement Service Work Product"	"BQ Agreement Instance Record"	String
+""	9	"inout"	"Agreement Service Name"	"BQ Agreement Instance Record"	String
+""
+"Post"	"/fiduciary-agreement/{sd-identifier}/assessment-and--reporting/{crbq-identifier}/initiation"
+""	1	"inout"	"Assessment and  Reporting Preconditions"	"BQ Assessment and  Reporting Instance Record"	String
+""	2	"inout"	"Assessment and  Reporting Feature Schedule"	"BQ Assessment and  Reporting Instance Record"	String
+""	3	"inout"	"Analysis and Reporting"	"BQ Assessment and  Reporting Instance Record"	Business Service
+""	4	"inout"	"Assessment and  Reporting Postconditions"	"BQ Assessment and  Reporting Instance Record"	String
+""	5	"inout"	"Assessment and  Reporting Analysis and Reporting Service Type"	"BQ Assessment and  Reporting Instance Record"	String
+""	6	"inout"	"Assessment and  Reporting Analysis and Reporting Service Description"	"BQ Assessment and  Reporting Instance Record"	String
+""	7	"inout"	"Assessment and  Reporting Analysis and Reporting Service Inputs and Ouputs"	"BQ Assessment and  Reporting Instance Record"	String
+""	8	"inout"	"Assessment and  Reporting Analysis and Reporting Service Work Product"	"BQ Assessment and  Reporting Instance Record"	String
+""	9	"inout"	"Assessment and  Reporting Analysis and Reporting Service Name"	"BQ Assessment and  Reporting Instance Record"	String
+""
+"Post"	"/fiduciary-agreement/{sd-identifier}/fiduciary-relationship-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Fiduciary Relationship Arrangement Parameter Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	2	"inout"	"Fiduciary Relationship Arrangement Selected Option"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	3	"in"	"Fiduciary Relationship Arrangement Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	4	"in"	"Fiduciary Relationship Arrangement Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	5	"inout"	"Fiduciary Relationship Arrangement Schedule"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	6	"inout"	"Fiduciary Relationship Arrangement Status"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	7	"in"	"Fiduciary Relationship Arrangement Currency"	"CR Fiduciary Relationship Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Fiduciary Relationship Arrangement Regulation Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	9	"in"	"Fiduciary Relationship Arrangement Regulation Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	10	"in"	"Fiduciary Relationship Arrangement Jurisdiction"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	11	"in"	"Fiduciary Relationship Arrangement Booking Location"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	12	"in"	"Fiduciary Relationship Arrangement Account Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	13	"in"	"Fiduciary Relationship Arrangement Account Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""
+"Get"	"/fiduciary-agreement/{sd-identifier}/agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Agreement Preconditions"	"BQ Agreement Instance Record"	String
+""	2	"out"	"Agreement Feature Schedule"	"BQ Agreement Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Agreement Instance Record"	Business Service
+""	4	"out"	"Agreement Postconditions"	"BQ Agreement Instance Record"	String
+""	5	"out"	"Agreement Service Type"	"BQ Agreement Instance Record"	String
+""	6	"out"	"Agreement Service Description"	"BQ Agreement Instance Record"	String
+""	7	"out"	"Agreement Service Inputs and Ouputs"	"BQ Agreement Instance Record"	String
+""	8	"out"	"Agreement Service Work Product"	"BQ Agreement Instance Record"	String
+""	9	"out"	"Agreement Service Name"	"BQ Agreement Instance Record"	String
+""
+"Get"	"/fiduciary-agreement/{sd-identifier}/assessment-and--reporting/{crbq-identifier}/retrieval"
+""	1	"out"	"Assessment and  Reporting Preconditions"	"BQ Assessment and  Reporting Instance Record"	String
+""	2	"out"	"Assessment and  Reporting Feature Schedule"	"BQ Assessment and  Reporting Instance Record"	String
+""	3	"out"	"Analysis and Reporting"	"BQ Assessment and  Reporting Instance Record"	Business Service
+""	4	"out"	"Assessment and  Reporting Postconditions"	"BQ Assessment and  Reporting Instance Record"	String
+""	5	"out"	"Assessment and  Reporting Analysis and Reporting Service Type"	"BQ Assessment and  Reporting Instance Record"	String
+""	6	"out"	"Assessment and  Reporting Analysis and Reporting Service Description"	"BQ Assessment and  Reporting Instance Record"	String
+""	7	"out"	"Assessment and  Reporting Analysis and Reporting Service Inputs and Ouputs"	"BQ Assessment and  Reporting Instance Record"	String
+""	8	"out"	"Assessment and  Reporting Analysis and Reporting Service Work Product"	"BQ Assessment and  Reporting Instance Record"	String
+""	9	"out"	"Assessment and  Reporting Analysis and Reporting Service Name"	"BQ Assessment and  Reporting Instance Record"	String
+""
+"Get"	"/fiduciary-agreement/{sd-identifier}/fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"out"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"out"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"out"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"out"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"out"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"out"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"out"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Get"	"/fiduciary-agreement/{sd-identifier}/fulfillment/{crbq-identifier}/retrieval"
+""	1	"out"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"out"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"out"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"out"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Get"	"/fiduciary-agreement/{sd-identifier}/fiduciary-relationship-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Fiduciary Relationship Arrangement Parameter Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	2	"out"	"Fiduciary Relationship Arrangement Selected Option"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	3	"out"	"Fiduciary Relationship Arrangement Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	4	"out"	"Fiduciary Relationship Arrangement Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	5	"out"	"Fiduciary Relationship Arrangement Schedule"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	6	"out"	"Fiduciary Relationship Arrangement Status"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	7	"out"	"Fiduciary Relationship Arrangement Currency"	"CR Fiduciary Relationship Arrangement Instance Record"	CurrencyCode
+""	8	"out"	"Fiduciary Relationship Arrangement Regulation Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	9	"out"	"Fiduciary Relationship Arrangement Regulation Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	10	"out"	"Fiduciary Relationship Arrangement Jurisdiction"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	11	"out"	"Fiduciary Relationship Arrangement Booking Location"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	12	"out"	"Fiduciary Relationship Arrangement Account Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	13	"out"	"Fiduciary Relationship Arrangement Account Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/agreement/{crbq-identifier}/requisition"
+""	1	"inout"	"Agreement Preconditions"	"BQ Agreement Instance Record"	String
+""	2	"inout"	"Agreement Feature Schedule"	"BQ Agreement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Agreement Instance Record"	Business Service
+""	4	"inout"	"Agreement Postconditions"	"BQ Agreement Instance Record"	String
+""	5	"inout"	"Agreement Service Type"	"BQ Agreement Instance Record"	String
+""	6	"inout"	"Agreement Service Description"	"BQ Agreement Instance Record"	String
+""	7	"inout"	"Agreement Service Inputs and Ouputs"	"BQ Agreement Instance Record"	String
+""	8	"inout"	"Agreement Service Work Product"	"BQ Agreement Instance Record"	String
+""	9	"inout"	"Agreement Service Name"	"BQ Agreement Instance Record"	String
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fees/{crbq-identifier}/requisition"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fulfillment/{crbq-identifier}/requisition"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fiduciary-relationship-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Fiduciary Relationship Arrangement Parameter Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	2	"inout"	"Fiduciary Relationship Arrangement Selected Option"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	3	"in"	"Fiduciary Relationship Arrangement Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	4	"in"	"Fiduciary Relationship Arrangement Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	5	"inout"	"Fiduciary Relationship Arrangement Schedule"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	6	"inout"	"Fiduciary Relationship Arrangement Status"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	7	"in"	"Fiduciary Relationship Arrangement Currency"	"CR Fiduciary Relationship Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Fiduciary Relationship Arrangement Regulation Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	9	"in"	"Fiduciary Relationship Arrangement Regulation Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	10	"in"	"Fiduciary Relationship Arrangement Jurisdiction"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	11	"in"	"Fiduciary Relationship Arrangement Booking Location"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	12	"in"	"Fiduciary Relationship Arrangement Account Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	13	"in"	"Fiduciary Relationship Arrangement Account Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/agreement/{crbq-identifier}/update"
+""	1	"inout"	"Agreement Preconditions"	"BQ Agreement Instance Record"	String
+""	2	"inout"	"Agreement Feature Schedule"	"BQ Agreement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Agreement Instance Record"	Business Service
+""	4	"inout"	"Agreement Postconditions"	"BQ Agreement Instance Record"	String
+""	5	"inout"	"Agreement Service Type"	"BQ Agreement Instance Record"	String
+""	6	"inout"	"Agreement Service Description"	"BQ Agreement Instance Record"	String
+""	7	"inout"	"Agreement Service Inputs and Ouputs"	"BQ Agreement Instance Record"	String
+""	8	"inout"	"Agreement Service Work Product"	"BQ Agreement Instance Record"	String
+""	9	"inout"	"Agreement Service Name"	"BQ Agreement Instance Record"	String
+""
+"Put"	"/fiduciary-agreement/{sd-identifier}/fiduciary-relationship-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Fiduciary Relationship Arrangement Parameter Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	2	"inout"	"Fiduciary Relationship Arrangement Selected Option"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	3	"in"	"Fiduciary Relationship Arrangement Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	4	"in"	"Fiduciary Relationship Arrangement Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	5	"inout"	"Fiduciary Relationship Arrangement Schedule"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	6	"inout"	"Fiduciary Relationship Arrangement Status"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	7	"in"	"Fiduciary Relationship Arrangement Currency"	"CR Fiduciary Relationship Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Fiduciary Relationship Arrangement Regulation Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object
+""	9	"in"	"Fiduciary Relationship Arrangement Regulation Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	10	"in"	"Fiduciary Relationship Arrangement Jurisdiction"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	11	"in"	"Fiduciary Relationship Arrangement Booking Location"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	12	"in"	"Fiduciary Relationship Arrangement Account Type"	"CR Fiduciary Relationship Arrangement Instance Record"	String
+""	13	"in"	"Fiduciary Relationship Arrangement Account Reference"	"CR Fiduciary Relationship Arrangement Instance Record"	Object

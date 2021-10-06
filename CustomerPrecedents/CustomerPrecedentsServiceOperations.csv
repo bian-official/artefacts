@@ -1,0 +1,5 @@
+"Service Operations for: "	Customer Precedents
+"Control Record Model for Customer Precedents is not defined"
+"POST"	"/customer-precedents/activation"
+"PUT"	"/customer-precedents/{sd-reference-id}/configuration"
+"PUT"	"/customer-precedents/{sd-reference-id}/feedback"

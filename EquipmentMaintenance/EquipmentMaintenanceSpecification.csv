@@ -1,0 +1,13 @@
+"Service Domain specification for Equipment Maintenance"
+"Business Area"	Resource Management
+"Business Domain"	Buildings And Equipment
+"Service Domain"	Equipment Maintenance
+"Role Definition"	"Administer the regular and ad hoc maintenance and repair of office equipment (typically excludes IT)"
+"Example of use"	"Regular scheduled maintenance and consumables provision is undertaken for office equipment at a location"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Maintain
+"Asset Type"	OfficeEquipment
+"Generic Artifact"	MaintenanceArrangement
+"Control Record"	OfficeEquipmentMaintenanceAgreement
+"Registration Status"	Registered

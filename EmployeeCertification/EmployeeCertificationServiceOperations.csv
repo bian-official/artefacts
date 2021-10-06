@@ -1,0 +1,5 @@
+"Service Operations for: "	Employee Certification
+"Control Record Model for Employee Certification is not defined"
+"POST"	"/employee-certification/activation"
+"PUT"	"/employee-certification/{sd-reference-id}/configuration"
+"PUT"	"/employee-certification/{sd-reference-id}/feedback"

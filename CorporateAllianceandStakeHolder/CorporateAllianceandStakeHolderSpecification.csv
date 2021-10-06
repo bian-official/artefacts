@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Alliance and Stake Holder"
+"Business Area"	Business Management
+"Business Domain"	Corporate Relations
+"Service Domain"	Corporate Alliance and Stake Holder
+"Role Definition"	"Manage key alliance and stake holder relationship - define tasks needed to develop and maintain contact and ensure relevant information is shared as appropriate"
+"Example of use"	"Corporate strategy is communicated and aligned with a product alliance partner"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	AlliancePartnerRelationship
+"Generic Artifact"	ManagementPlan
+"Control Record"	AlliancePartnerRelationshipManagementPlan
+"Registration Status"	Registered

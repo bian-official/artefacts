@@ -1,0 +1,13 @@
+"Service Domain specification for Systems Administration"
+"Business Area"	Business Development
+"Business Domain"	Solution Development
+"Service Domain"	Systems Administration
+"Role Definition"	"Administer the installation, maintenance and configuration of computer systems, monitoring system performance and troubleshooting production issues. Also asses and ensuring the security and performance of systems, covering both licensed and owned technology for the complete range of hardware and software/middleware technology deployed throughout development and production activities within the bank. Oversee decommissioning and disposal of obsolete equipment"
+"Example of use"	"Example of use:. Newly acquired hardware is purchased, registered and assigned for deployment to meet pre-approved production capacity requirements"
+"Executive Summary"	"Administer the configuration, maintenance, assignment and track usage and status of all IT assets deployed in development and production across the enterprise"
+"Key Features"	"Administer systems installation and configuration. Monitor system performance and troubleshoot production issues. Ensure operational security and efficiency of systems (disaster recovery)"
+"Functional Pattern"	Administer
+"Asset Type"	ITSystem
+"Generic Artifact"	AdministrativePlan
+"Control Record"	ITSystemAdministrativePlan
+"Registration Status"	Registered

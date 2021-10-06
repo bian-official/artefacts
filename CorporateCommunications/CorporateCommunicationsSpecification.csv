@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Communications"
+"Business Area"	Business Management
+"Business Domain"	Corporate Relations
+"Service Domain"	Corporate Communications
+"Role Definition"	"Develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand"
+"Example of use"	"Press releases are developed to coincide with financial performance reporting"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	EnterpriseCommunication
+"Generic Artifact"	ManagementPlan
+"Control Record"	EnterpriseCommunicationManagementPlan
+"Registration Status"	Registered

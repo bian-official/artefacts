@@ -1,0 +1,13 @@
+"Service Domain specification for Continuity Planning"
+"Business Area"	Business Management
+"Business Domain"	Corporate Services
+"Service Domain"	Continuity Planning
+"Role Definition"	"Develop, maintain and test continuity plans and supporting facilities for an appropriate range of possible failure scenarios"
+"Example of use"	"A business continuity plan is developed for key business activities and assurance tests performed"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	EnterpriseContinuityAssurance
+"Generic Artifact"	ManagementPlan
+"Control Record"	EnterpriseContinuityAssuranceManagementPlan
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Market Making
+"Control Record Model for Market Making is not defined"
+"POST"	"/market-making/activation"
+"PUT"	"/market-making/{sd-reference-id}/configuration"
+"PUT"	"/market-making/{sd-reference-id}/feedback"

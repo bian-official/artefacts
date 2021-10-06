@@ -1,0 +1,13 @@
+"Service Domain specification for Commissions"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Commissions
+"Role Definition"	"Capture and structure commissionable transactions that are subsequently processed against an existing commission agreement"
+"Example of use"	"Example of use:. A qualified servicing representative succeeds in selling an opportunity to an established customer and is awarded a commission"
+"Executive Summary"	"The service domain processes commissions for transactions for eligible employees"
+"Key Features"	"Confirm employee eligibility for commission payment. Determine earned commission amount for (sales) transaction. Initiate payment to employee account"
+"Functional Pattern"	Transact
+"Asset Type"	Commission
+"Generic Artifact"	Transaction
+"Control Record"	CommissionTransaction
+"Registration Status"	Registered

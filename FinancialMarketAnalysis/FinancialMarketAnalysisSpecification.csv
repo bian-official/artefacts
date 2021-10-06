@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Market Analysis"
+"Business Area"	Channels
+"Business Domain"	Information Providers
+"Service Domain"	Financial Market Analysis
+"Role Definition"	"Analyze available sources of internal and external financial market information and research to develop insights and opinions on any aspect of financial market activity and pricing"
+"Example of use"	"Example of use:. A competitor financial pricing analysis is requested for a company issuing corporate paper"
+"Executive Summary"	"Provide different types of financial market analysis using available financial market information and research"
+"Key Features"	"Identify sources of financial market research. Select appropriate analytical algorithms/hypotheses to apply. Consolidate information and apply/refine algorithms. Interpret and present analytical insights"
+"Functional Pattern"	Analyze
+"Asset Type"	FinancialMarket
+"Generic Artifact"	Analysis
+"Control Record"	FinancialMarketAnalysis
+"Registration Status"	Registered

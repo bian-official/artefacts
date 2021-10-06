@@ -1,0 +1,28 @@
+"Control Record Model for: "	eBranch Operations
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Inbound Instance Record	""	""	""
+"BQ"	BQ Inbound Instance Record	EBranch Device Reference	"Reference to the device being used for access (captured for security and identification)"	Object
+"BQ"	BQ Inbound Instance Record	EBranch Device Property Value	"Property of the Device e.g. URL if available"	String
+"BQ"	BQ Inbound Instance Record	EBranch Inbound Connection Start Time	"Log of the initial connection"	String
+"BQ"	BQ Inbound Instance Record	EBranch Inbound Connection Duration	"Connection duration for capacity planning purposes"	String
+"BQ"	BQ Inbound Instance Record	EBranch Inbound Connection Contact Record Reference	"This is returned by SD-Contact Handler for reference if the connection leads to a log-in session"	Object
+"BQ"	BQ Outbound Instance Record	""	""	""
+"BQ"	BQ Outbound Instance Record	Employee/Business Unit Reference	"Reference to the source of outbound connection"	Object
+"BQ"	BQ Outbound Instance Record	Customer Contact Record Reference	"The outbound connection will be part of a customer contact to ensure all logging is performed"	Object
+"BQ"	BQ Outbound Instance Record	Customer Session Dialogue Record	"This is the payload of the exchange - it is the specific session within the contact that handles the customer interaction. Content passes through the E-Branch facility transparently"	String
+"BQ"	BQ Outbound Instance Record	EBranch Customer Device Reference	"Reference to the device being connected to"	Object
+"BQ"	BQ Outbound Instance Record	EBranch Outbound Connection Start Time	"Log of the initial connection"	String
+"BQ"	BQ Outbound Instance Record	EBranch Outbound Connection Duration	"Connection duration for capacity planning purposes"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	""	""	""
+"CR"	CR eBranch Channel Operating Session Instance Record	EBranch Operations Service Menu	"The channel customer selection menu - selection is configurable for the session. This is used optionally to identify the purpose of the connection"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	EBranch Service Session Statistics	"Service activity statistics that are maintained during the session"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	EBranch Service Session Report Type	"Session reports that can be accessed during the session (e.g. real-time status, session statistics)"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	EBranch Service Session Report	"The session activity report"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	EBranch Production Issue Record	"A record of any production issues arising during the session"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	Employee/Business Unit Reference	"The source of the issue report if appropriate"	Object
+"CR"	CR eBranch Channel Operating Session Instance Record	Customer Contact Record Reference	"Reference to the specific customer contact where the issue occurred if appropriate"	Object
+"CR"	CR eBranch Channel Operating Session Instance Record	Production Issue Type	"The type of network event or error being recorded (e.g. device failure)"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	Production Issue Description	"The description of the event error"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	Production Issue Diagnosis	"Evaluation of the event cause and impact assessment"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	Production Issue Resolution Task	"Description of corrective action proposed and taken"	String
+"CR"	CR eBranch Channel Operating Session Instance Record	Production Issue Status	"Tracking the state of resolution of a reported issue during the session"	String

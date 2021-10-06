@@ -1,0 +1,5 @@
+"Service Operations for: "	Correspondent Bank Relationship Management
+"Control Record Model for Correspondent Bank Relationship Management is not defined"
+"POST"	"/correspondent-bank-relationship-management/activation"
+"PUT"	"/correspondent-bank-relationship-management/{sd-reference-id}/configuration"
+"PUT"	"/correspondent-bank-relationship-management/{sd-reference-id}/feedback"

@@ -1,0 +1,26 @@
+"Control Record Model for: "	Location Data Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Location Directory Entry Instance Record	""	""	""
+"CR"	CR Location Directory Entry Instance Record	Location Reference	"Reference to associated location (can be a physical or electronic location)"	Object
+"CR"	CR Location Directory Entry Instance Record	Date Type	"Key dates associated with the directory entry (e.g. open date, refresh date)"	String
+"CR"	CR Location Directory Entry Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Occupancy Instance Record	""	""	""
+"BQ"	BQ Occupancy Instance Record	Customer Reference	"Reference to the bank customer (if they are owner and/or occupier of the property at the location)"	Object
+"BQ"	BQ Occupancy Instance Record	Location Owner/Title	"Registered owner or title holder(s) of the property"	String
+"BQ"	BQ Occupancy Instance Record	Location Value	"The estimated (book) value of the property at the location - rental and purchase as appropriate"	String
+"BQ"	BQ Occupancy Instance Record	Location Occupier Type	"The type of occupancy (e.g. residency, business, retail, entertainment)"	String
+"BQ"	BQ Occupancy Instance Record	Location Occupier Reference	"Known contact reference details of occupier (e.g. family name, company, retailer)"	Object
+"BQ"	BQ Occupancy Instance Record	Location Occupier Terms	"Nature of the access terms or entitlement of the occupier (e.g. leasehold, rental, public access)"	String
+"BQ"	BQ Occupancy Instance Record	Alliance Partner Reference	"Reference to a bank alliance partner with some kind of link association to the location (used for location based marketing)"	Object
+"BQ"	BQ Location Instance Record	""	""	""
+"BQ"	BQ Location Instance Record	Location Type	"Type of location (e.g. building, point of interest, virtual location/device)"	String
+"BQ"	BQ Location Instance Record	Location Address	"Reference address for the location (e.g. postal address, email, coordinates)"	String
+"BQ"	BQ Location Instance Record	Location Coordinates	"The coordinates in a form that can be used to match tracked parties to the location (e.g. for real-time marketing)"	String
+"BQ"	BQ Location Instance Record	Location Description	"A description of the property, particularly if it has landmark characteristics"	String
+"BQ"	BQ Location Instance Record	Location Construction Type	"The construction approach for a property at the location (e.g. era and architecture as might be used in valuation)"	String
+"BQ"	BQ Location Instance Record	Location Capacity	"An indication of the size or scale of the property where appropriate (e.g. 4 bedroom, 600 seat auditorium, 40 cover restaurant)"	String
+"BQ"	BQ Location Instance Record	Location Status	"The tracked status (e.g. under construction or repair, inhabited, vacant)"	String
+"BQ"	BQ Location Instance Record	Location Neighborhood Type	"The general purpose and neighborhood of the property  (e.g. residential, industrial, commercial)"	String
+"BQ"	BQ Use Instance Record	""	""	""
+"BQ"	BQ Use Instance Record	Location Zoning Type	"The planning or zoning status (e.g. residential, commercial, industrial)"	String
+"BQ"	BQ Use Instance Record	Location Usage	"The allowed usage for the property at the location (e.g. domestic residence, manufacturing, retail)"	String

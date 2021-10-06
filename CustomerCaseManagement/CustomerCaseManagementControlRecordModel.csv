@@ -1,0 +1,24 @@
+"Control Record Model for: "	Customer Case Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Performance Instance Record	""	""	""
+"BQ"	BQ Performance Instance Record	Customer Case Resource Utilization	"Record of the customer case resolution resource utilization (target and actual)"	String
+"BQ"	BQ Performance Instance Record	Customer Case Loading Projections	"Estimated projected customer case resource requirements and utilization and loading based on historical patterns and anticipated activity"	String
+"BQ"	BQ Performance Instance Record	Customer Case Resolution Service Statistics	"Tracked activity and performance statistics used to manage the case resolution business function"	String
+"BQ"	BQ Performance Instance Record	Customer Case Service Statistic Type	"The type of activity that is tracked and analyzed (e.g. case resolution throughput, time/effort per case, customer acceptance/appeal rate, merchant acceptance/appeal rate, customer/merchant retention, case resolution profit/loss)"	String
+"BQ"	BQ Performance Instance Record	Customer Case Service Statistic Value	"The statistical analysis that can include historical and trended views of the activity"	String
+"BQ"	BQ Performance Instance Record	Customer Case Service Statistic Interpretation	"The evaluation of the root cause or comparative assessments of the analysis"	String
+"BQ"	BQ Performance Instance Record	Customer Case Service Statistic Recommendation	"Service/configuration amendment recommendations arising from the statistical analysis"	String
+"CR"	CR Customer Case Management Plan Instance Record	""	""	""
+"CR"	CR Customer Case Management Plan Instance Record	Customer Case Management Plan Period	"The time period addressed by the management plan. This may define required actions and target performance over a fixed period or can be a 'rolling' plan that is continually refined based on experience"	String
+"CR"	CR Customer Case Management Plan Instance Record	Customer Case Policies And Guidelines	"The specific policies and guidelines for case resolution employees"	String
+"CR"	CR Customer Case Management Plan Instance Record	Customer Case Service Performance Goals	"The target and actual service performance goals that are tracked by customer case management"	String
+"CR"	CR Customer Case Management Plan Instance Record	Customer Case Service Schedule	"The target and actual customer case service schedule - recording planned and actual service availability and expected throughput/productivity"	String
+"CR"	CR Customer Case Management Plan Instance Record	Customer Case Service Operating Configuration	"The set-up/organization for the customer case business function (covers operational and management/oversight roles and responsibilities)"	String
+"CR"	CR Customer Case Management Plan Instance Record	Customer Case Resource Plan	"Details the number and skill/qualification profile of the customer case handling staff (target and actual)"	String
+"CR"	CR Customer Case Management Plan Instance Record	Customer Case Training Plan	"Details of staff training and certification activity (planned and actual)"	String
+"BQ"	BQ Rules Instance Record	""	""	""
+"BQ"	BQ Rules Instance Record	Customer Case Decision Criterion	"Definition of the basis for customer case evaluation"	String
+"BQ"	BQ Rules Instance Record	Customer Case Decision Criterion Definition	"Definition of the applicable subject/criterion to be considered in case evaluation (e.g. documentary evidence, customer/merchant history, projected relationship impact, financial cost/projected revenue impact, reputational impact)"	String
+"BQ"	BQ Rules Instance Record	Customer Case Decision Criterion Rules	"Specific rules, thresholds and parameter values to be applied in case evaluation for the criterion"	String
+"BQ"	BQ Rules Instance Record	Customer Case Decision Criterion Analysis	"Record of the sensitivity/tuning evaluations and adjustments made to the rule settings for the criterion"	String
+"BQ"	BQ Rules Instance Record	Customer Case Decision Criterion History	"Sample case examples that apply the criterion that are used to evaluate the impact and re-calibrate the associated rules as appropriate"	String

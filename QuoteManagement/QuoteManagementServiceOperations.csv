@@ -1,0 +1,5 @@
+"Service Operations for: "	Quote Management
+"Control Record Model for Quote Management is not defined"
+"POST"	"/quote-management/activation"
+"PUT"	"/quote-management/{sd-reference-id}/configuration"
+"PUT"	"/quote-management/{sd-reference-id}/feedback"

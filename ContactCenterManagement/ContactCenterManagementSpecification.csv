@@ -1,0 +1,13 @@
+"Service Domain specification for Contact Center Management"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Contact Center Management
+"Role Definition"	"Handles the oversight and configuration of the contact center. Define and maintain the assignment of contact center resources to different contact traffic types (e.g. product/segment/issue). The contact center facility can include automated 'position' as well as personnel. Also covers troubleshooting major production problems"
+"Example of use"	"Contact center management re-assigns servicing positions in response to service loading and customer wait times"
+"Executive Summary"	"Oversee the assignment and operation of the customer contact center"
+"Key Features"	"Determine the contact center configuration and service schedule. Monitor utilization and re-configure the center as necessary. Track and assess service performance and troubleshoot major operational issues"
+"Functional Pattern"	Manage
+"Asset Type"	ContactCenter
+"Generic Artifact"	ManagementPlan
+"Control Record"	ContactCenterManagementPlan
+"Registration Status"	Registered

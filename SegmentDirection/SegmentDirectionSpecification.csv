@@ -1,0 +1,13 @@
+"Service Domain specification for Segment Direction"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Segment Direction
+"Role Definition"	"Define, implement, track and assess the business performance goals for defined market segments. This perspective supports a particular organizational structure where enterprise strategies and plans are aligned to market segments (often in addition to product divisions)"
+"Example of use"	"Corporate direction notifies segment leadership of changed goals and priorities that impact their activity"
+"Executive Summary"	"Define market segments and develop and assess performance against the segment plan's performance goals"
+"Key Features"	"Define governing policies and guidelines. Define business goals. Define supporting business development strategies. Track progress towards goals and direct activity"
+"Functional Pattern"	Direct
+"Asset Type"	Segment
+"Generic Artifact"	Strategy
+"Control Record"	SegmentStrategy
+"Registration Status"	Registered

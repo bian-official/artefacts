@@ -1,0 +1,13 @@
+"Service Domain specification for Contact Center Operations"
+"Business Area"	Channels
+"Business Domain"	Servicing
+"Service Domain"	Contact Center Operations
+"Role Definition"	"Oversee and administer the day to day activity in the contact center. This includes the assignment of individuals to servicing positions in compliance with the service configuration determined by Contact Center Management. Also tracking staff availability and utilization during the servicing session and making necessary assignment adjustments to deal with servicing load. (Note servicing resources interact directly with the Contact Routing service domain to indicate when they are open to receive customer contacts)"
+"Example of use"	"Contact center operations re-assigns staff to servicing positions to deal with peak loading for a specific product or service type"
+"Executive Summary"	"Administer the day to day activity in the contact center - allocate positions and track staff availability and performance"
+"Key Features"	"Track servicing resource availability and assignments. Track servicing loads and respond to periods of peak requirements. Resolve contact center servicing issues"
+"Functional Pattern"	Administer
+"Asset Type"	ContactCenter
+"Generic Artifact"	AdministrativePlan
+"Control Record"	ContactCenterAdministrativePlan
+"Registration Status"	Registered

@@ -1,0 +1,245 @@
+"Service Operations for: "	Systems Administration
+""
+"POST"	"/systems-administration/activation"
+"PUT"	"/systems-administration/{sd-reference-id}/configuration"
+"PUT"	"/systems-administration/{sd-reference-id}/feedback"
+""
+"Put"	"/systems-administration/{sd-identifier}/assurance/{crbq-identifier}/capture"
+""	1	"inout"	"Assurance Preconditions"	"BQ Assurance Instance Record"	String
+""	2	"inout"	"Assurance Business Unit/Employee Reference"	"BQ Assurance Instance Record"	Object
+""	3	"inout"	"Assurance Work Schedule"	"BQ Assurance Instance Record"	String
+""	4	"inout"	"Collateral Item Assurance"	"BQ Assurance Instance Record"	Business Service
+""	5	"inout"	"Assurance Postconditions"	"BQ Assurance Instance Record"	String
+""	6	"inout"	"Assurance Collateral Item Assurance Service Type"	"BQ Assurance Instance Record"	String
+""	7	"inout"	"Assurance Collateral Item Assurance Service Description"	"BQ Assurance Instance Record"	String
+""	8	"inout"	"Assurance Collateral Item Assurance Service Inputs and Ouputs"	"BQ Assurance Instance Record"	String
+""	9	"inout"	"Assurance Collateral Item Assurance Service Work Product"	"BQ Assurance Instance Record"	String
+""	10	"inout"	"Assurance Collateral Item Assurance Service Name"	"BQ Assurance Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/capacity-planning-and--resilience/{crbq-identifier}/capture"
+""	1	"inout"	"Capacity Planning and  Resilience Preconditions"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	2	"inout"	"Capacity Planning and  Resilience Business Unit/Employee Reference"	"BQ Capacity Planning and  Resilience Instance Record"	Object
+""	3	"inout"	"Capacity Planning and  Resilience Work Schedule"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	4	"inout"	"Capacity Planning and Resilience"	"BQ Capacity Planning and  Resilience Instance Record"	Business Service
+""	5	"inout"	"Capacity Planning and  Resilience Postconditions"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	6	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Type"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	7	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Description"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	8	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Inputs and Ouputs"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	9	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Work Product"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	10	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Name"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/configuration/{crbq-identifier}/capture"
+""	1	"inout"	"Configuration Preconditions"	"BQ Configuration Instance Record"	String
+""	2	"inout"	"Configuration Business Unit/Employee Reference"	"BQ Configuration Instance Record"	Object
+""	3	"inout"	"Configuration Work Schedule"	"BQ Configuration Instance Record"	String
+""	4	"inout"	"Systems Configuration Administration"	"BQ Configuration Instance Record"	Business Service
+""	5	"inout"	"Configuration Postconditions"	"BQ Configuration Instance Record"	String
+""	6	"inout"	"Configuration Systems Configuration Administration Service Type"	"BQ Configuration Instance Record"	String
+""	7	"inout"	"Configuration Systems Configuration Administration Service Description"	"BQ Configuration Instance Record"	String
+""	8	"inout"	"Configuration Systems Configuration Administration Service Inputs and Ouputs"	"BQ Configuration Instance Record"	String
+""	9	"inout"	"Configuration Systems Configuration Administration Service Work Product"	"BQ Configuration Instance Record"	String
+""	10	"inout"	"Configuration Systems Configuration Administration Service Name"	"BQ Configuration Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/inventory/{crbq-identifier}/capture"
+""	1	"inout"	"Inventory Preconditions"	"BQ Inventory Instance Record"	String
+""	2	"inout"	"Inventory Business Unit/Employee Reference"	"BQ Inventory Instance Record"	Object
+""	3	"inout"	"Inventory Work Schedule"	"BQ Inventory Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Inventory Instance Record"	Business Service
+""	5	"inout"	"Inventory Postconditions"	"BQ Inventory Instance Record"	String
+""	6	"inout"	"Inventory Service Type"	"BQ Inventory Instance Record"	String
+""	7	"inout"	"Inventory Service Description"	"BQ Inventory Instance Record"	String
+""	8	"inout"	"Inventory Service Inputs and Ouputs"	"BQ Inventory Instance Record"	String
+""	9	"inout"	"Inventory Service Work Product"	"BQ Inventory Instance Record"	String
+""	10	"inout"	"Inventory Service Name"	"BQ Inventory Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/itsystem-administrative-plan/{crbq-identifier}/capture"
+""	1	"inout"	"ITSystem Administrative Plan Budget Type"	"CR ITSystem Administrative Plan Instance Record"	String
+""	2	"inout"	"ITSystem Administrative Plan Assignment"	"CR ITSystem Administrative Plan Instance Record"	String
+""	3	"inout"	"ITSystem Administrative Plan Plan"	"CR ITSystem Administrative Plan Instance Record"	String
+""	4	"in"	"ITSystem Administrative Plan Reference"	"CR ITSystem Administrative Plan Instance Record"	Object
+""
+"Put"	"/systems-administration/{sd-identifier}/itsystem-administrative-plan/{crbq-identifier}/control"
+""	1	"inout"	"ITSystem Administrative Plan Budget Type"	"CR ITSystem Administrative Plan Instance Record"	String
+""	2	"inout"	"ITSystem Administrative Plan Assignment"	"CR ITSystem Administrative Plan Instance Record"	String
+""	3	"inout"	"ITSystem Administrative Plan Plan"	"CR ITSystem Administrative Plan Instance Record"	String
+""	4	"in"	"ITSystem Administrative Plan Reference"	"CR ITSystem Administrative Plan Instance Record"	Object
+""
+"Put"	"/systems-administration/{sd-identifier}/itsystem-administrative-plan/{crbq-identifier}/exchange"
+""	1	"inout"	"ITSystem Administrative Plan Budget Type"	"CR ITSystem Administrative Plan Instance Record"	String
+""	2	"inout"	"ITSystem Administrative Plan Assignment"	"CR ITSystem Administrative Plan Instance Record"	String
+""	3	"inout"	"ITSystem Administrative Plan Plan"	"CR ITSystem Administrative Plan Instance Record"	String
+""	4	"in"	"ITSystem Administrative Plan Reference"	"CR ITSystem Administrative Plan Instance Record"	Object
+""
+"Put"	"/systems-administration/{sd-identifier}/itsystem-administrative-plan/{crbq-identifier}/grant"
+""	1	"inout"	"ITSystem Administrative Plan Budget Type"	"CR ITSystem Administrative Plan Instance Record"	String
+""	2	"inout"	"ITSystem Administrative Plan Assignment"	"CR ITSystem Administrative Plan Instance Record"	String
+""	3	"inout"	"ITSystem Administrative Plan Plan"	"CR ITSystem Administrative Plan Instance Record"	String
+""	4	"in"	"ITSystem Administrative Plan Reference"	"CR ITSystem Administrative Plan Instance Record"	Object
+""
+"Post"	"/systems-administration/{sd-identifier}/itsystem-administrative-plan/{crbq-identifier}/initiation"
+""	1	"inout"	"ITSystem Administrative Plan Budget Type"	"CR ITSystem Administrative Plan Instance Record"	String
+""	2	"inout"	"ITSystem Administrative Plan Assignment"	"CR ITSystem Administrative Plan Instance Record"	String
+""	3	"inout"	"ITSystem Administrative Plan Plan"	"CR ITSystem Administrative Plan Instance Record"	String
+""	4	"in"	"ITSystem Administrative Plan Reference"	"CR ITSystem Administrative Plan Instance Record"	Object
+""
+"Get"	"/systems-administration/{sd-identifier}/assurance/{crbq-identifier}/retrieval"
+""	1	"out"	"Assurance Preconditions"	"BQ Assurance Instance Record"	String
+""	2	"out"	"Assurance Business Unit/Employee Reference"	"BQ Assurance Instance Record"	Object
+""	3	"out"	"Assurance Work Schedule"	"BQ Assurance Instance Record"	String
+""	4	"out"	"Collateral Item Assurance"	"BQ Assurance Instance Record"	Business Service
+""	5	"out"	"Assurance Postconditions"	"BQ Assurance Instance Record"	String
+""	6	"out"	"Assurance Collateral Item Assurance Service Type"	"BQ Assurance Instance Record"	String
+""	7	"out"	"Assurance Collateral Item Assurance Service Description"	"BQ Assurance Instance Record"	String
+""	8	"out"	"Assurance Collateral Item Assurance Service Inputs and Ouputs"	"BQ Assurance Instance Record"	String
+""	9	"out"	"Assurance Collateral Item Assurance Service Work Product"	"BQ Assurance Instance Record"	String
+""	10	"out"	"Assurance Collateral Item Assurance Service Name"	"BQ Assurance Instance Record"	String
+""
+"Get"	"/systems-administration/{sd-identifier}/capacity-planning-and--resilience/{crbq-identifier}/retrieval"
+""	1	"out"	"Capacity Planning and  Resilience Preconditions"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	2	"out"	"Capacity Planning and  Resilience Business Unit/Employee Reference"	"BQ Capacity Planning and  Resilience Instance Record"	Object
+""	3	"out"	"Capacity Planning and  Resilience Work Schedule"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	4	"out"	"Capacity Planning and Resilience"	"BQ Capacity Planning and  Resilience Instance Record"	Business Service
+""	5	"out"	"Capacity Planning and  Resilience Postconditions"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	6	"out"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Type"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	7	"out"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Description"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	8	"out"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Inputs and Ouputs"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	9	"out"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Work Product"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	10	"out"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Name"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""
+"Get"	"/systems-administration/{sd-identifier}/configuration/{crbq-identifier}/retrieval"
+""	1	"out"	"Configuration Preconditions"	"BQ Configuration Instance Record"	String
+""	2	"out"	"Configuration Business Unit/Employee Reference"	"BQ Configuration Instance Record"	Object
+""	3	"out"	"Configuration Work Schedule"	"BQ Configuration Instance Record"	String
+""	4	"out"	"Systems Configuration Administration"	"BQ Configuration Instance Record"	Business Service
+""	5	"out"	"Configuration Postconditions"	"BQ Configuration Instance Record"	String
+""	6	"out"	"Configuration Systems Configuration Administration Service Type"	"BQ Configuration Instance Record"	String
+""	7	"out"	"Configuration Systems Configuration Administration Service Description"	"BQ Configuration Instance Record"	String
+""	8	"out"	"Configuration Systems Configuration Administration Service Inputs and Ouputs"	"BQ Configuration Instance Record"	String
+""	9	"out"	"Configuration Systems Configuration Administration Service Work Product"	"BQ Configuration Instance Record"	String
+""	10	"out"	"Configuration Systems Configuration Administration Service Name"	"BQ Configuration Instance Record"	String
+""
+"Get"	"/systems-administration/{sd-identifier}/inventory/{crbq-identifier}/retrieval"
+""	1	"out"	"Inventory Preconditions"	"BQ Inventory Instance Record"	String
+""	2	"out"	"Inventory Business Unit/Employee Reference"	"BQ Inventory Instance Record"	Object
+""	3	"out"	"Inventory Work Schedule"	"BQ Inventory Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Inventory Instance Record"	Business Service
+""	5	"out"	"Inventory Postconditions"	"BQ Inventory Instance Record"	String
+""	6	"out"	"Inventory Service Type"	"BQ Inventory Instance Record"	String
+""	7	"out"	"Inventory Service Description"	"BQ Inventory Instance Record"	String
+""	8	"out"	"Inventory Service Inputs and Ouputs"	"BQ Inventory Instance Record"	String
+""	9	"out"	"Inventory Service Work Product"	"BQ Inventory Instance Record"	String
+""	10	"out"	"Inventory Service Name"	"BQ Inventory Instance Record"	String
+""
+"Get"	"/systems-administration/{sd-identifier}/itsystem-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"ITSystem Administrative Plan Budget Type"	"CR ITSystem Administrative Plan Instance Record"	String
+""	2	"out"	"ITSystem Administrative Plan Assignment"	"CR ITSystem Administrative Plan Instance Record"	String
+""	3	"out"	"ITSystem Administrative Plan Plan"	"CR ITSystem Administrative Plan Instance Record"	String
+""	4	"out"	"ITSystem Administrative Plan Reference"	"CR ITSystem Administrative Plan Instance Record"	Object
+""
+"Put"	"/systems-administration/{sd-identifier}/assurance/{crbq-identifier}/requisition"
+""	1	"inout"	"Assurance Preconditions"	"BQ Assurance Instance Record"	String
+""	2	"inout"	"Assurance Business Unit/Employee Reference"	"BQ Assurance Instance Record"	Object
+""	3	"inout"	"Assurance Work Schedule"	"BQ Assurance Instance Record"	String
+""	4	"inout"	"Collateral Item Assurance"	"BQ Assurance Instance Record"	Business Service
+""	5	"inout"	"Assurance Postconditions"	"BQ Assurance Instance Record"	String
+""	6	"inout"	"Assurance Collateral Item Assurance Service Type"	"BQ Assurance Instance Record"	String
+""	7	"inout"	"Assurance Collateral Item Assurance Service Description"	"BQ Assurance Instance Record"	String
+""	8	"inout"	"Assurance Collateral Item Assurance Service Inputs and Ouputs"	"BQ Assurance Instance Record"	String
+""	9	"inout"	"Assurance Collateral Item Assurance Service Work Product"	"BQ Assurance Instance Record"	String
+""	10	"inout"	"Assurance Collateral Item Assurance Service Name"	"BQ Assurance Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/capacity-planning-and--resilience/{crbq-identifier}/requisition"
+""	1	"inout"	"Capacity Planning and  Resilience Preconditions"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	2	"inout"	"Capacity Planning and  Resilience Business Unit/Employee Reference"	"BQ Capacity Planning and  Resilience Instance Record"	Object
+""	3	"inout"	"Capacity Planning and  Resilience Work Schedule"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	4	"inout"	"Capacity Planning and Resilience"	"BQ Capacity Planning and  Resilience Instance Record"	Business Service
+""	5	"inout"	"Capacity Planning and  Resilience Postconditions"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	6	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Type"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	7	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Description"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	8	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Inputs and Ouputs"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	9	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Work Product"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	10	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Name"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/configuration/{crbq-identifier}/requisition"
+""	1	"inout"	"Configuration Preconditions"	"BQ Configuration Instance Record"	String
+""	2	"inout"	"Configuration Business Unit/Employee Reference"	"BQ Configuration Instance Record"	Object
+""	3	"inout"	"Configuration Work Schedule"	"BQ Configuration Instance Record"	String
+""	4	"inout"	"Systems Configuration Administration"	"BQ Configuration Instance Record"	Business Service
+""	5	"inout"	"Configuration Postconditions"	"BQ Configuration Instance Record"	String
+""	6	"inout"	"Configuration Systems Configuration Administration Service Type"	"BQ Configuration Instance Record"	String
+""	7	"inout"	"Configuration Systems Configuration Administration Service Description"	"BQ Configuration Instance Record"	String
+""	8	"inout"	"Configuration Systems Configuration Administration Service Inputs and Ouputs"	"BQ Configuration Instance Record"	String
+""	9	"inout"	"Configuration Systems Configuration Administration Service Work Product"	"BQ Configuration Instance Record"	String
+""	10	"inout"	"Configuration Systems Configuration Administration Service Name"	"BQ Configuration Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/inventory/{crbq-identifier}/requisition"
+""	1	"inout"	"Inventory Preconditions"	"BQ Inventory Instance Record"	String
+""	2	"inout"	"Inventory Business Unit/Employee Reference"	"BQ Inventory Instance Record"	Object
+""	3	"inout"	"Inventory Work Schedule"	"BQ Inventory Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Inventory Instance Record"	Business Service
+""	5	"inout"	"Inventory Postconditions"	"BQ Inventory Instance Record"	String
+""	6	"inout"	"Inventory Service Type"	"BQ Inventory Instance Record"	String
+""	7	"inout"	"Inventory Service Description"	"BQ Inventory Instance Record"	String
+""	8	"inout"	"Inventory Service Inputs and Ouputs"	"BQ Inventory Instance Record"	String
+""	9	"inout"	"Inventory Service Work Product"	"BQ Inventory Instance Record"	String
+""	10	"inout"	"Inventory Service Name"	"BQ Inventory Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/itsystem-administrative-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"ITSystem Administrative Plan Budget Type"	"CR ITSystem Administrative Plan Instance Record"	String
+""	2	"inout"	"ITSystem Administrative Plan Assignment"	"CR ITSystem Administrative Plan Instance Record"	String
+""	3	"inout"	"ITSystem Administrative Plan Plan"	"CR ITSystem Administrative Plan Instance Record"	String
+""	4	"in"	"ITSystem Administrative Plan Reference"	"CR ITSystem Administrative Plan Instance Record"	Object
+""
+"Put"	"/systems-administration/{sd-identifier}/assurance/{crbq-identifier}/update"
+""	1	"inout"	"Assurance Preconditions"	"BQ Assurance Instance Record"	String
+""	2	"inout"	"Assurance Business Unit/Employee Reference"	"BQ Assurance Instance Record"	Object
+""	3	"inout"	"Assurance Work Schedule"	"BQ Assurance Instance Record"	String
+""	4	"inout"	"Collateral Item Assurance"	"BQ Assurance Instance Record"	Business Service
+""	5	"inout"	"Assurance Postconditions"	"BQ Assurance Instance Record"	String
+""	6	"inout"	"Assurance Collateral Item Assurance Service Type"	"BQ Assurance Instance Record"	String
+""	7	"inout"	"Assurance Collateral Item Assurance Service Description"	"BQ Assurance Instance Record"	String
+""	8	"inout"	"Assurance Collateral Item Assurance Service Inputs and Ouputs"	"BQ Assurance Instance Record"	String
+""	9	"inout"	"Assurance Collateral Item Assurance Service Work Product"	"BQ Assurance Instance Record"	String
+""	10	"inout"	"Assurance Collateral Item Assurance Service Name"	"BQ Assurance Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/capacity-planning-and--resilience/{crbq-identifier}/update"
+""	1	"inout"	"Capacity Planning and  Resilience Preconditions"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	2	"inout"	"Capacity Planning and  Resilience Business Unit/Employee Reference"	"BQ Capacity Planning and  Resilience Instance Record"	Object
+""	3	"inout"	"Capacity Planning and  Resilience Work Schedule"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	4	"inout"	"Capacity Planning and Resilience"	"BQ Capacity Planning and  Resilience Instance Record"	Business Service
+""	5	"inout"	"Capacity Planning and  Resilience Postconditions"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	6	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Type"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	7	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Description"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	8	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Inputs and Ouputs"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	9	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Work Product"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""	10	"inout"	"Capacity Planning and  Resilience Capacity Planning and Resilience Service Name"	"BQ Capacity Planning and  Resilience Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/configuration/{crbq-identifier}/update"
+""	1	"inout"	"Configuration Preconditions"	"BQ Configuration Instance Record"	String
+""	2	"inout"	"Configuration Business Unit/Employee Reference"	"BQ Configuration Instance Record"	Object
+""	3	"inout"	"Configuration Work Schedule"	"BQ Configuration Instance Record"	String
+""	4	"inout"	"Systems Configuration Administration"	"BQ Configuration Instance Record"	Business Service
+""	5	"inout"	"Configuration Postconditions"	"BQ Configuration Instance Record"	String
+""	6	"inout"	"Configuration Systems Configuration Administration Service Type"	"BQ Configuration Instance Record"	String
+""	7	"inout"	"Configuration Systems Configuration Administration Service Description"	"BQ Configuration Instance Record"	String
+""	8	"inout"	"Configuration Systems Configuration Administration Service Inputs and Ouputs"	"BQ Configuration Instance Record"	String
+""	9	"inout"	"Configuration Systems Configuration Administration Service Work Product"	"BQ Configuration Instance Record"	String
+""	10	"inout"	"Configuration Systems Configuration Administration Service Name"	"BQ Configuration Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/inventory/{crbq-identifier}/update"
+""	1	"inout"	"Inventory Preconditions"	"BQ Inventory Instance Record"	String
+""	2	"inout"	"Inventory Business Unit/Employee Reference"	"BQ Inventory Instance Record"	Object
+""	3	"inout"	"Inventory Work Schedule"	"BQ Inventory Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Inventory Instance Record"	Business Service
+""	5	"inout"	"Inventory Postconditions"	"BQ Inventory Instance Record"	String
+""	6	"inout"	"Inventory Service Type"	"BQ Inventory Instance Record"	String
+""	7	"inout"	"Inventory Service Description"	"BQ Inventory Instance Record"	String
+""	8	"inout"	"Inventory Service Inputs and Ouputs"	"BQ Inventory Instance Record"	String
+""	9	"inout"	"Inventory Service Work Product"	"BQ Inventory Instance Record"	String
+""	10	"inout"	"Inventory Service Name"	"BQ Inventory Instance Record"	String
+""
+"Put"	"/systems-administration/{sd-identifier}/itsystem-administrative-plan/{crbq-identifier}/update"
+""	1	"inout"	"ITSystem Administrative Plan Budget Type"	"CR ITSystem Administrative Plan Instance Record"	String
+""	2	"inout"	"ITSystem Administrative Plan Assignment"	"CR ITSystem Administrative Plan Instance Record"	String
+""	3	"inout"	"ITSystem Administrative Plan Plan"	"CR ITSystem Administrative Plan Instance Record"	String
+""	4	"in"	"ITSystem Administrative Plan Reference"	"CR ITSystem Administrative Plan Instance Record"	Object

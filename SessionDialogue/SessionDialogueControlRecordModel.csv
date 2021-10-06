@@ -1,0 +1,46 @@
+"Control Record Model for: "	Session Dialogue
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Query Instance Record	""	""	""
+"BQ"	BQ Query Instance Record	Query Type	"The type of question/answer addressed in the session - e.g. branch location/hours"	String
+"BQ"	BQ Query Instance Record	Query Task Result	"Details the response and any customer reaction"	String
+"BQ"	BQ Sales Instance Record	""	""	""
+"BQ"	BQ Sales Instance Record	ProductandService Type	"A description of the type of product of interest (e.g. lending or deposit products)"	String
+"BQ"	BQ Sales Instance Record	ProductandService Properties	"A description of the selected product's features and options desired"	String
+"BQ"	BQ Sales Instance Record	Sales Task Result	"The result of the sales attempt (can be an identified lead/opportunity registered for future action or may lead to the invocation of Customer Offer within this dialogue. It may also provide insights into the customer's preferences)"	String
+"CR"	CR Customer Contact Session Procedure Instance Record	""	""	""
+"CR"	CR Customer Contact Session Procedure Instance Record	Customer Reference	"Reference to the customer (can be extracted from Contact Record or provided by customer)"	Object
+"CR"	CR Customer Contact Session Procedure Instance Record	Employee Reference	"Reference to the servicing agent"	Object
+"CR"	CR Customer Contact Session Procedure Instance Record	Servicing Position Reference	"Reference to the servicing location/desk for assisted customer exchanges"	Object
+"CR"	CR Customer Contact Session Procedure Instance Record	Session Mechanism	"The type of channel device involved in the session exchange (e.g. web, phone, chat, video, VOIP, face to face at a branch - note there can be concurrent sessions within a single customer contact)"	String
+"CR"	CR Customer Contact Session Procedure Instance Record	Session Start/End Time	"The start and duration of the dialogue"	String
+"CR"	CR Customer Contact Session Procedure Instance Record	Session Dialogue Record	"The session dialogue log of actions is returned to SD-Contact Handler and added to the contact record"	String
+"CR"	CR Customer Contact Session Procedure Instance Record	Session Dialogue Type	"The general type of customer exchange (e.g. verified customer, anonymous contact, topic - used to structure/script dialogue)"	String
+"CR"	CR Customer Contact Session Procedure Instance Record	Session Dialogue Script	"In cases a prompt or script can provided to structure the interaction for self-service and assisted interactions"	String
+"CR"	CR Customer Contact Session Procedure Instance Record	Session Dialogue Log Reference	"Reference to a dialogue log that is built up"	Object
+"CR"	CR Customer Contact Session Procedure Instance Record	Session Dialogue Log	"The dialogue log, used for training and root cause analysis etc.  (e.g. click-stream, video/audio recording)"	String
+"CR"	CR Customer Contact Session Procedure Instance Record	Session Dialogue Result	"The outcome of the dialogue (e.g. customer satisfied, on-ward routing, hang-up)"	String
+"BQ"	BQ Case Instance Record	""	""	""
+"BQ"	BQ Case Instance Record	Product Instance Reference	"Reference to a specific product instance provided by the customer"	Object
+"BQ"	BQ Case Instance Record	Customer Case Type	"The type of case being processed including any supporting narrative (e.g. disputed charges, suspected account fraud, stolen device, change of status)"	String
+"BQ"	BQ Case Instance Record	Case Task Result	"The result of the invocation (e.g. case active)"	String
+"BQ"	BQ Offer Instance Record	""	""	""
+"BQ"	BQ Offer Instance Record	ProductandService Type	"The selected product/service"	String
+"BQ"	BQ Offer Instance Record	Offer Task Result	"The result of the invoked offer procedure (e.g. abandoned, in process/pending, offer accepted)"	String
+"BQ"	BQ Intelligence Instance Record	""	""	""
+"BQ"	BQ Intelligence Instance Record	BQ Intelligence Record	"An optional interaction within the session - to capture customer insights such as detected life events and or product and service preferences or concerns"	String
+"BQ"	BQ Intelligence Instance Record	Customer Insight Type	"Defines a type of maintained customer insight (e.g. retention candidate, cross-sell candidate)"	String
+"BQ"	BQ Intelligence Instance Record	Customer Insight	"The derived value of the specific insight for the customer and past values if appropriate"	String
+"BQ"	BQ Intelligence Instance Record	Insight Task Result	"The result of the task (e.g. customer insight detected)"	String
+"BQ"	BQ History Instance Record	""	""	""
+"BQ"	BQ History Instance Record	History Task Result	"Confirmation that the contact session is captured"	String
+"BQ"	BQ Order Instance Record	""	""	""
+"BQ"	BQ Order Instance Record	Order Type	"Reference to a specific type of customer order (e.g. consolidated balance, change of address, simple product/service guidance)"	String
+"BQ"	BQ Order Instance Record	Order Task Record	"The type of case being processed including any supporting narrative (e.g. disputed charges, suspected account fraud, stolen device, change of status)"	String
+"BQ"	BQ Order Instance Record	Order Task Work Products	"Forms and actions agreed and registered during the order"	String
+"BQ"	BQ Order Instance Record	Order Task Work Result	"The result of the order task (e.g. order completed, actions pending)"	String
+"BQ"	BQ ProductorService Instance Record	""	""	""
+"BQ"	BQ ProductorService Instance Record	Product Instance Reference	"Reference to a specific product instance provided by the customer"	Object
+"BQ"	BQ ProductorService Instance Record	ProductandService Task Result	"The result of the invoked product or service fulfillment service domain (e.g. balance provided, payment initiated, reference details updated)"	String
+"BQ"	BQ Authentication Instance Record	""	""	""
+"BQ"	BQ Authentication Instance Record	Required Authentication Level	"The target level of authentication required"	String
+"BQ"	BQ Authentication Instance Record	Authentication Task Result	"The result of the authentication request (the request is handles by Contact Handler  and Party Authentication service domains"	String

@@ -1,0 +1,13 @@
+"Service Domain specification for Servicing Order"
+"Business Area"	Customers
+"Business Domain"	Customer Care
+"Service Domain"	Servicing Order
+"Role Definition"	"The Servicing Order service domain handles the processing of a request that may impact multiple products and services and may involve processing cycles/steps and possibly have associated fees/charges. There can be several types of standard 'servicing order' defined for selection as appropriate. A servicing order can be initiated by a customer directly or may be requested on their behalf by an authorized third party service provider. If the request is made by a third party service provider on behalf of a customer the process can include a check that the associated permissions/mandates are in place"
+"Example of use"	"A customer changes address and requests that all of their product and service arrangements are updated"
+"Executive Summary"	"This service domain handles the processing of a customer servicing request as a predefined procedure. A range of standard servicing requests can be supported. The process can include a check of permissions when the request is made by a third party/service provider"
+"Key Features"	"Support the selection of predefined servicing order. Confirm the associated permissions/mandates are in place. Orchestrate the work steps/tasks in the servicing order. Track and report on servicing order activities"
+"Functional Pattern"	Process
+"Asset Type"	ServicingOrder
+"Generic Artifact"	Procedure
+"Control Record"	ServicingOrderProcedure
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Trust Services"
+"Business Area"	Products
+"Business Domain"	Consumer Banking
+"Service Domain"	Trust Services
+"Role Definition"	"Provide trust services"
+"Example of use"	"A trust fund is set up on behalf of a parent for their offspring. The parent sets aside cash/assets for the trust. The trust handles the cash/assets until the offspring reaches a certain age. "
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	TrustServices
+"Generic Artifact"	Facility (rename)
+"Control Record"	TrustServicesArrangement
+"Registration Status"	Registered

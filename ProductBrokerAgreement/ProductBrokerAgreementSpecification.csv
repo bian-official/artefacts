@@ -1,0 +1,13 @@
+"Service Domain specification for Product Broker Agreement"
+"Business Area"	Operations
+"Business Domain"	External Agency
+"Service Domain"	Product Broker Agreement
+"Role Definition"	"This service domain administers the contractual, operational and financial aspects of the relationship with a 3rd party product or service provider. Note that other service domains handle different aspects of broker relations such as relationship management, commissions, billing and payments and operational support"
+"Example of use"	"A monthly assessment is made of the performance of a broker against service levels and projected business volumes"
+"Executive Summary"	"This service domain maintains product broker contractual and service level agreements and tracks and confirms compliance and service related activity/volume goals when necessary"
+"Key Features"	"Establish and maintain broker service terms and conditions. Track relationship activity for compliance with contractual limits/goals. Provide confirmation that proposed actions are covered"
+"Functional Pattern"	Agree Terms
+"Asset Type"	Broker
+"Generic Artifact"	Agreement
+"Control Record"	BrokerAgreement
+"Registration Status"	Registered

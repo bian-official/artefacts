@@ -1,0 +1,34 @@
+"Control Record Model for: "	Payment Initiation
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Payment Initiation Transaction Instance Record	""	""	""
+"CR"	CR Payment Initiation Transaction Instance Record	Payment Transaction Type	"The type of payment transaction (e.g. over the counter-OTC, intra-account, overseas)"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Recurring Payment Record	"Details of the recurring payment. Can be used to pre-populate the payment request"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Recurring Payment Customer Reference	"Reference for a customer that uses recurring payments facility"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Recurring Payment Reference	"Reference used by the customer to identify a past payment transaction"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Customer Reference	"Reference to the customer initiating the payment transaction"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Payment Transaction	"The details of the payment transaction"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Payer Reference	"Reference to the payer"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Payer Bank Reference	"Reference to the payer's bank"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Payer Product Instance Reference	"Reference to the payer's account (the source of funds)"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Payee Reference	"The target for the payment"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Payee Bank Reference	"Reference to the payee's bank"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Payee Product Instance Reference	"Reference to the payee's account (the target for the funds)"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Amount	"Key amounts included in the transaction"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Currency	"Currency for the amounts"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Date Type	"Key dates associated with the transaction (e.g. order, booking, execution, value date, interest bearing)"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Date	"Value of the specific date"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Payment Fees/Charges	"Processing and exchange fees as appropriate"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Payment Mechanism	"Selection of the preferred mechanism (e.g. SWIFT, ACH, Intra account)"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Payment Purpose	"Details captured for reference and compliance reporting purposes"	String
+"CR"	CR Payment Initiation Transaction Instance Record	Document Directory Entry Instance Reference	"Payer identification document for OTC payment transactions"	Object
+"CR"	CR Payment Initiation Transaction Instance Record	Document Content	"The copy of the identification document used"	String
+"BQ"	BQ Order Initiation Instance Record	""	""	""
+"BQ"	BQ Order Initiation Instance Record	Payment Order Procedure Instance Reference	"The reference to the payment order processing task"	Object
+"BQ"	BQ Order Initiation Instance Record	Payment Order Procedure Instance Status	"The returned status of the payment order processing"	String
+"BQ"	BQ Order Initiation Instance Record	Order Initiation Task Result	"Details of the payment order initiation task"	String
+"BQ"	BQ Funding Check Instance Record	""	""	""
+"BQ"	BQ Funding Check Instance Record	Payment Transaction Funding Check Result	"The outcome of the funds available check"	String
+"BQ"	BQ Compliance Instance Record	""	""	""
+"BQ"	BQ Compliance Instance Record	Payment Transaction Compliance Check Type	"The type of compliance check performed (e.g. AML, Watchlists)"	String
+"BQ"	BQ Compliance Instance Record	Payment Transaction Compliance Check Result	"The outcome of the compliance check"	String
+"BQ"	BQ Compliance Instance Record	Payment Transaction Compliance Task Result	"Details of the overall compliance checking process"	String

@@ -1,0 +1,120 @@
+"Service Operations for: "	Consumer Investments
+""
+"POST"	"/consumer-investments/activation"
+"PUT"	"/consumer-investments/{sd-reference-id}/configuration"
+"PUT"	"/consumer-investments/{sd-reference-id}/feedback"
+""
+"Post"	"/consumer-investments/{sd-identifier}/consumer-securities-order-transaction/{crbq-identifier}/initiation"
+""	1	"inout"	"Consumer Securities Order Instruction Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	2	"in"	"Customer Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	4	"in"	"Investment Portfolio Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	5	"inout"	"Consumer Securities Order Processing Instruction"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	7	"out"	"Correspondence Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	8	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	9	"inout"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	10	"inout"	"Market Order Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	11	"inout"	"Security Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	12	"inout"	"Amount"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	13	"inout"	"Date Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""
+"Put"	"/consumer-investments/{sd-identifier}/consumer-securities-order-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Consumer Securities Order Instruction Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	2	"inout"	"Customer Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	4	"inout"	"Investment Portfolio Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	5	"inout"	"Consumer Securities Order Processing Instruction"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	7	"inout"	"Correspondence Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	8	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	9	"inout"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	10	"inout"	"Market Order Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	11	"inout"	"Security Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	12	"inout"	"Amount"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	13	"inout"	"Date Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""
+"Get"	"/consumer-investments/{sd-identifier}/consumer-securities-order-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Consumer Securities Order Instruction Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	2	"out"	"Customer Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	4	"out"	"Investment Portfolio Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	5	"out"	"Consumer Securities Order Processing Instruction"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	7	"out"	"Correspondence Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	8	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	9	"out"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	10	"out"	"Market Order Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	11	"out"	"Security Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	12	"out"	"Amount"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	13	"out"	"Date Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""
+"Get"	"/consumer-investments/{sd-identifier}/quote/{crbq-identifier}/retrieval"
+""	1	"out"	"Consumer Securities Order Instruction Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	2	"out"	"Customer Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	4	"out"	"Investment Portfolio Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	5	"out"	"Consumer Securities Order Processing Instruction"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	7	"out"	"Correspondence Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	8	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	9	"out"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	10	"out"	"Market Order Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	11	"out"	"Security Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	12	"out"	"Amount"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	13	"out"	"Date Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	14	"out"	"Securities Price"	"BQ Quote Instance Record"	String
+""
+"Get"	"/consumer-investments/{sd-identifier}/compliance/{crbq-identifier}/retrieval"
+""	1	"out"	"Consumer Securities Order Instruction Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	2	"out"	"Customer Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	4	"out"	"Investment Portfolio Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	5	"out"	"Consumer Securities Order Processing Instruction"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	7	"out"	"Correspondence Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	8	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	9	"out"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	10	"out"	"Market Order Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	11	"out"	"Security Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	12	"out"	"Amount"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	13	"out"	"Date Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	14	"out"	"Consumer Securities Order Transaction Compliance Check Type"	"BQ Compliance Instance Record"	String
+""	15	"out"	"Consumer Securities Order Transaction Compliance Check Result"	"BQ Compliance Instance Record"	String
+""	16	"out"	"Consumer Securities Order Transaction Compliance Task Result"	"BQ Compliance Instance Record"	String
+""
+"Get"	"/consumer-investments/{sd-identifier}/funding-check/{crbq-identifier}/retrieval"
+""	1	"out"	"Consumer Securities Order Instruction Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	2	"out"	"Customer Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	4	"out"	"Investment Portfolio Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	5	"out"	"Consumer Securities Order Processing Instruction"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	7	"out"	"Correspondence Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	8	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	9	"out"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	10	"out"	"Market Order Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	11	"out"	"Security Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	12	"out"	"Amount"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	13	"out"	"Date Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	14	"out"	"Consumer Securities Order Transaction Funding Check Result"	"BQ Funding Check Instance Record"	String
+""
+"Put"	"/consumer-investments/{sd-identifier}/order-initiation/{crbq-identifier}/exchange"
+""
+"Get"	"/consumer-investments/{sd-identifier}/order-initiation/{crbq-identifier}/retrieval"
+""	1	"out"	"Consumer Securities Order Instruction Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	2	"out"	"Customer Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	4	"out"	"Investment Portfolio Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	5	"out"	"Consumer Securities Order Processing Instruction"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	7	"out"	"Correspondence Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	8	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	9	"out"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Consumer Securities Order Transaction Instance Record"	Object
+""	10	"out"	"Market Order Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	11	"out"	"Security Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	12	"out"	"Amount"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	13	"out"	"Date Type"	"CR Consumer Securities Order Transaction Instance Record"	String
+""	14	"out"	"Consumer Securities Order Transaction Instance Reference"	"BQ Order Initiation Instance Record"	Object
+""	15	"out"	"Consumer Securities Order Transaction  Instance Status"	"BQ Order Initiation Instance Record"	String
+""	16	"out"	"Consumer Securities Order Initiation Task Result"	"BQ Order Initiation Instance Record"	String

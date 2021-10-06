@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Product and Service Eligibility"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Product and Service Eligibility
+"Role Definition"	"This Service Domain maintains a list of products and services for which a customer is eligible. This could include products and services that the customer has had in the past. In order to update the list, periodically or at certain events, the Service Domain calls Product Matching to find additional products for which the customer is eligible. Once a customer acquires a product or a service, this is removed from the current list and added to the customer's recording in Customer Products and Services."
+"Example of use"	"- Customer Relationship Management re-asseses the eligibility of a customer during a periodical customer analysis."
+"Executive Summary"	"This Service Domain maintains a list of products and services for which a customer is eligible."
+"Key Features"	"- Provide a list of products and services for which a customer is eligible. - Update the list of products and services for which a customer is eligible, based on a request from customer relationship management and with the help of Product Matching)"
+"Functional Pattern"	Assess
+"Asset Type"	CustomerEligibility
+"Generic Artifact"	Assessment
+"Control Record"	CustomerEligibilityAssessment
+"Registration Status"	Registered

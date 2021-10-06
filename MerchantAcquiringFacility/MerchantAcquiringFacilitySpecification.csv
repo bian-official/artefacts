@@ -1,0 +1,13 @@
+"Service Domain specification for Merchant Acquiring Facility"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Merchant Acquiring Facility
+"Role Definition"	"This service domain is the primary service domain for handling the Merchant Account and the specific terms and conditions for the merchant. It includes opening the Merchant account, performing the required setup for card acceptance, such as assigning POS terminals, maintaining the accounts payable balances for the merchant, performing periodic settlement, and handling fees and charges. When Merchants submit card payment transactions, the Acquiring Bank is responsible for paying the Merchants in accordance with the terms of the Merchant agreement, which specify when the merchant should be paid and the amount that is withheld from the payment as merchant discount or service fees."
+"Example of use"	"The Acquiring Bank signs up Merchants for accepting Card Payments and opens Merchant Accounts for them."
+"Executive Summary"	"This service domain orchestrates the activities related to Merchant fulfillment, Merchant Account maintenance, Merchant transactional activities and settlement, including the billing of merchant fees and charges."
+"Key Features"	"Merchant facility set-up and maintenance. Merchant POS assignment/registration. Merchant chargeback processing. Merchant clearing and settlement. Merchant discount and fee processing"
+"Functional Pattern"	Fulfill
+"Asset Type"	MerchantAcquiringFacility
+"Generic Artifact"	Facility (rename)
+"Control Record"	MerchantAcquiringFacilityArrangement
+"Registration Status"	Registered

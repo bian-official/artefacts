@@ -1,0 +1,55 @@
+"Service Operations for: "	Interactive Help
+""
+"POST"	"/interactive-help/activation"
+"PUT"	"/interactive-help/{sd-reference-id}/configuration"
+"PUT"	"/interactive-help/{sd-reference-id}/feedback"
+""
+"Post"	"/interactive-help/{sd-identifier}/interactive-help-service-operating-session/{crbq-identifier}/initiation"
+""
+"Put"	"/interactive-help/{sd-identifier}/interactive-help-service-operating-session/{crbq-identifier}/control"
+""
+"Get"	"/interactive-help/{sd-identifier}/interactive-help-service-operating-session/{crbq-identifier}/retrieval"
+""
+"Post"	"/interactive-help/{sd-identifier}/help-service-selection/{crbq-identifier}/initiation"
+""	1	"inout"	"Help Selection Interaction Type"	"BQ Help Service Selection Instance Record"	String
+""	2	"inout"	"Help Selection Product/Service Type"	"BQ Help Service Selection Instance Record"	String
+""	3	"inout"	"Help Selection Product Feature Type"	"BQ Help Service Selection Instance Record"	String
+""	4	"in"	"Contact Dialogue Record"	"BQ Help Service Selection Instance Record"	String
+""	5	"inout"	"Help Selection Key Word Menu"	"BQ Help Service Selection Instance Record"	String
+""	6	"in"	"Help Selection Key Word Selection"	"BQ Help Service Selection Instance Record"	String
+""	7	"in"	"Help Selection Task Result"	"BQ Help Service Selection Instance Record"	String
+""	8	"in"	"Help Selection Feedback"	"BQ Help Service Selection Instance Record"	String
+""	9	"in"	"Employee/Business Unit Reference"	"BQ Help Service Selection Instance Record"	Object
+""	10	"inout"	"Date/Time"	"BQ Help Service Selection Instance Record"	String
+""
+"Put"	"/interactive-help/{sd-identifier}/help-service-selection/{crbq-identifier}/capture"
+""	1	"in"	"Help Selection Task Result"	"BQ Help Service Selection Instance Record"	String
+""	2	"in"	"Help Selection Feedback"	"BQ Help Service Selection Instance Record"	String
+""	3	"in"	"Employee/Business Unit Reference"	"BQ Help Service Selection Instance Record"	Object
+""	4	"inout"	"Date/Time"	"BQ Help Service Selection Instance Record"	String
+""
+"Put"	"/interactive-help/{sd-identifier}/help-service-selection/{crbq-identifier}/execution"
+""	1	"inout"	"Help Selection Interaction Type"	"BQ Help Service Selection Instance Record"	String
+""	2	"inout"	"Help Selection Product/Service Type"	"BQ Help Service Selection Instance Record"	String
+""	3	"inout"	"Help Selection Product Feature Type"	"BQ Help Service Selection Instance Record"	String
+""	4	"in"	"Contact Dialogue Record"	"BQ Help Service Selection Instance Record"	String
+""	5	"inout"	"Help Selection Key Word Menu"	"BQ Help Service Selection Instance Record"	String
+""	6	"in"	"Help Selection Key Word Selection"	"BQ Help Service Selection Instance Record"	String
+""	7	"out"	"Interactive Help"	"BQ Help Service Selection Instance Record"	String
+""	8	"in"	"Help Selection Task Result"	"BQ Help Service Selection Instance Record"	String
+""	9	"in"	"Help Selection Feedback"	"BQ Help Service Selection Instance Record"	String
+""	10	"in"	"Employee/Business Unit Reference"	"BQ Help Service Selection Instance Record"	Object
+""	11	"inout"	"Date/Time"	"BQ Help Service Selection Instance Record"	String
+""
+"Get"	"/interactive-help/{sd-identifier}/help-service-selection/{crbq-identifier}/retrieval"
+""	1	"out"	"Help Selection Interaction Type"	"BQ Help Service Selection Instance Record"	String
+""	2	"out"	"Help Selection Product/Service Type"	"BQ Help Service Selection Instance Record"	String
+""	3	"out"	"Help Selection Product Feature Type"	"BQ Help Service Selection Instance Record"	String
+""	4	"out"	"Contact Dialogue Record"	"BQ Help Service Selection Instance Record"	String
+""	5	"out"	"Help Selection Key Word Menu"	"BQ Help Service Selection Instance Record"	String
+""	6	"out"	"Help Selection Key Word Selection"	"BQ Help Service Selection Instance Record"	String
+""	7	"out"	"Interactive Help"	"BQ Help Service Selection Instance Record"	String
+""	8	"out"	"Help Selection Task Result"	"BQ Help Service Selection Instance Record"	String
+""	9	"out"	"Help Selection Feedback"	"BQ Help Service Selection Instance Record"	String
+""	10	"out"	"Employee/Business Unit Reference"	"BQ Help Service Selection Instance Record"	Object
+""	11	"out"	"Date/Time"	"BQ Help Service Selection Instance Record"	String

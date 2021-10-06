@@ -1,0 +1,13 @@
+"Service Domain specification for Contribution Models"
+"Business Area"	Business Development
+"Business Domain"	Models And Analytics
+"Service Domain"	Contribution Models
+"Role Definition"	"Develop and refine contribution models to detect underdeveloped business relationships and other opportunities"
+"Example of use"	"Financial engineers evaluate the relative business performance of customers and products to identify patterns that highlight business development opportunities from increased sales, usage activity and/or pricing"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	ContributionModel
+"Generic Artifact"	Specification
+"Control Record"	ContributionModelSpecification
+"Registration Status"	Registered

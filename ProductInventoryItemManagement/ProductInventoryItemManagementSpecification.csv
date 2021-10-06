@@ -1,0 +1,13 @@
+"Service Domain specification for Product Inventory Item Management"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Product Inventory Item Management
+"Role Definition"	"Maintain the available central product materials inventory in coordination with distribution activities and new product/materials ordering, receipt and warehousing"
+"Example of use"	"Newly developed product inventory is distributed as part of a product deployment project"
+"Executive Summary"	"Maintain and distribute product inventory"
+"Key Features"	"Maintain product inventory. Administer the distribution of inventory. Request stock replenishment"
+"Functional Pattern"	Allocate
+"Asset Type"	ProductInventory
+"Generic Artifact"	Allocation
+"Control Record"	ProductInventoryAllocation
+"Registration Status"	Registered

@@ -1,0 +1,80 @@
+"Service Operations for: "	Customer Behavior Insights
+""
+"POST"	"/customer-behavior-insights/activation"
+"PUT"	"/customer-behavior-insights/{sd-reference-id}/configuration"
+"PUT"	"/customer-behavior-insights/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-behavior-insights/{sd-identifier}/customer-behavior-analysis/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Customer Behavior Analysis Instance Record"	Object
+""	2	"inout"	"Customer Insight Analysis Schedule"	"CR Customer Behavior Analysis Instance Record"	String
+""	3	"inout"	"Customer Behavior Analysis Insights Record"	"CR Customer Behavior Analysis Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Behavior Analysis Instance Record"	String
+""	5	"inout"	"Customer Insight Calculation Date"	"CR Customer Behavior Analysis Instance Record"	Date
+""
+"Put"	"/customer-behavior-insights/{sd-identifier}/customer-behavior-analysis/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-behavior-insights/{sd-identifier}/customer-behavior-analysis/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Customer Behavior Analysis Instance Record"	Object
+""	2	"inout"	"Customer Insight Analysis Schedule"	"CR Customer Behavior Analysis Instance Record"	String
+""	3	"inout"	"Customer Behavior Analysis Insights Record"	"CR Customer Behavior Analysis Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Behavior Analysis Instance Record"	String
+""	5	"inout"	"Customer Insight Calculation Date"	"CR Customer Behavior Analysis Instance Record"	Date
+""
+"Put"	"/customer-behavior-insights/{sd-identifier}/customer-behavior-analysis/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Customer Behavior Analysis Instance Record"	Object
+""	2	"inout"	"Customer Insight Analysis Schedule"	"CR Customer Behavior Analysis Instance Record"	String
+""	3	"inout"	"Customer Behavior Analysis Insights Record"	"CR Customer Behavior Analysis Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Behavior Analysis Instance Record"	String
+""	5	"inout"	"Customer Insight Calculation Date"	"CR Customer Behavior Analysis Instance Record"	Date
+""
+"Get"	"/customer-behavior-insights/{sd-identifier}/customer-behavior-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Behavior Analysis Instance Record"	Object
+""	2	"out"	"Customer Insight Analysis Schedule"	"CR Customer Behavior Analysis Instance Record"	String
+""	3	"out"	"Customer Behavior Analysis Insights Record"	"CR Customer Behavior Analysis Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Behavior Analysis Instance Record"	String
+""	5	"out"	"Customer Insight Calculation Date"	"CR Customer Behavior Analysis Instance Record"	Date
+""
+"Put"	"/customer-behavior-insights/{sd-identifier}/insight/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-behavior-insights/{sd-identifier}/insight/{crbq-identifier}/execution"
+""	1	"in"	"Insight Evaluation Customer Insight Type"	"BQ Insight Instance Record"	String
+""	2	"inout"	"Insight Evaluation Task"	"BQ Insight Instance Record"	String
+""	3	"in"	"Insight Evaluation Request Specification"	"BQ Insight Instance Record"	String
+""	4	"in"	"insight Evaluation Customer Behavior Model Reference"	"BQ Insight Instance Record"	Object
+""	5	"in"	"Insight Evaluation Product/Service Activity Report"	"BQ Insight Instance Record"	String
+""	6	"in"	"Insight Evaluation Customer Event Log Report"	"BQ Insight Instance Record"	String
+""	7	"in"	"Insight Evaluation Servicing Event Log Report"	"BQ Insight Instance Record"	String
+""	8	"in"	"Insight Evaluation Channel Event Log Report"	"BQ Insight Instance Record"	String
+""	9	"in"	"Insight Evaluation Market Research Report"	"BQ Insight Instance Record"	String
+""	10	"out"	"Insight Evaluation Work Products"	"BQ Insight Instance Record"	String
+""	11	"out"	"Insight Evaluation Request Result"	"BQ Insight Instance Record"	String
+""
+"Put"	"/customer-behavior-insights/{sd-identifier}/insight/{crbq-identifier}/requisition"
+""	1	"inout"	"Insight Evaluation Task"	"BQ Insight Instance Record"	String
+""	2	"in"	"Insight Evaluation Request Specification"	"BQ Insight Instance Record"	String
+""	3	"in"	"insight Evaluation Customer Behavior Model Reference"	"BQ Insight Instance Record"	Object
+""	4	"in"	"Insight Evaluation Product/Service Activity Report"	"BQ Insight Instance Record"	String
+""	5	"in"	"Insight Evaluation Customer Event Log Report"	"BQ Insight Instance Record"	String
+""	6	"in"	"Insight Evaluation Servicing Event Log Report"	"BQ Insight Instance Record"	String
+""	7	"in"	"Insight Evaluation Channel Event Log Report"	"BQ Insight Instance Record"	String
+""	8	"in"	"Insight Evaluation Market Research Report"	"BQ Insight Instance Record"	String
+""	9	"out"	"Insight Evaluation Work Products"	"BQ Insight Instance Record"	String
+""	10	"out"	"Insight Evaluation Request Result"	"BQ Insight Instance Record"	String
+""
+"Get"	"/customer-behavior-insights/{sd-identifier}/insight/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Behavior Analysis Instance Record"	Object
+""	2	"out"	"Customer Insight Analysis Schedule"	"CR Customer Behavior Analysis Instance Record"	String
+""	3	"out"	"Customer Behavior Analysis Insights Record"	"CR Customer Behavior Analysis Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Behavior Analysis Instance Record"	String
+""	5	"out"	"Customer Insight Calculation Date"	"CR Customer Behavior Analysis Instance Record"	Date
+""	6	"out"	"Insight Evaluation Customer Insight Type"	"BQ Insight Instance Record"	String
+""	7	"out"	"Insight Evaluation Task"	"BQ Insight Instance Record"	String
+""	8	"out"	"Insight Evaluation Request Specification"	"BQ Insight Instance Record"	String
+""	9	"out"	"insight Evaluation Customer Behavior Model Reference"	"BQ Insight Instance Record"	Object
+""	10	"out"	"Insight Evaluation Product/Service Activity Report"	"BQ Insight Instance Record"	String
+""	11	"out"	"Insight Evaluation Customer Event Log Report"	"BQ Insight Instance Record"	String
+""	12	"out"	"Insight Evaluation Servicing Event Log Report"	"BQ Insight Instance Record"	String
+""	13	"out"	"Insight Evaluation Channel Event Log Report"	"BQ Insight Instance Record"	String
+""	14	"out"	"Insight Evaluation Market Research Report"	"BQ Insight Instance Record"	String
+""	15	"out"	"Insight Evaluation Work Products"	"BQ Insight Instance Record"	String
+""	16	"out"	"Insight Evaluation Request Result"	"BQ Insight Instance Record"	String

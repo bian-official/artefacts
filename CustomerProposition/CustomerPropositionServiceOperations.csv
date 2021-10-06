@@ -1,0 +1,5 @@
+"Service Operations for: "	Customer Proposition
+"Control Record Model for Customer Proposition is not defined"
+"POST"	"/customer-proposition/activation"
+"PUT"	"/customer-proposition/{sd-reference-id}/configuration"
+"PUT"	"/customer-proposition/{sd-reference-id}/feedback"

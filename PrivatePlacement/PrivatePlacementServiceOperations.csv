@@ -1,0 +1,5 @@
+"Service Operations for: "	Private Placement
+"Control Record Model for Private Placement is not defined"
+"POST"	"/private-placement/activation"
+"PUT"	"/private-placement/{sd-reference-id}/configuration"
+"PUT"	"/private-placement/{sd-reference-id}/feedback"

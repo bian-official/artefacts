@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Accounting"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Financial Accounting
+"Role Definition"	"The Financial Accounting Service Domain takes in financial facts and based on these, creates accounting instructions. It lives in the accounting world of the bank and can access the banking, cards and securities worlds only for retrieve operations. It knows and maintains the chart of accounts and it can create accounting instructions that will update the general ledger and sub ledger accounts.. Examples of financial facts are the opening of a loan account, revaluation of collateral and periodically (e.g. daily): position changes as a result of payments transactions."
+"Example of use"	"- Upon opening of a consumer loan account the fulfillment Service Domain will use a generic Service Connection "Update GL Accounts" to trigger Financial Accounting to record the new general ledger of sub ledger accounts.. - At the end of a day's banking operations Financial Accounting will retrieve all of today's bookings on Position Keeping and create (summary) entries for the general ledger and sub ledger accounts."
+"Executive Summary"	"The Financial Accounting Service Domain takes in financial facts and based on these, creates accounting instructions that will update the general ledger and sub ledger accounts"
+"Key Features"	"- Maintain the chart of accounts. - Provide information about the chart of accounts. - Reflect the opening of accounts in the GL. - Create summary interval bookings in the GL for all entries in Position Keeping and (if applicable) Credit Card Position Keeping"
+"Functional Pattern"	Track
+"Asset Type"	FinancialBooking
+"Generic Artifact"	Log
+"Control Record"	FinancialBookingLog
+"Registration Status"	Registered

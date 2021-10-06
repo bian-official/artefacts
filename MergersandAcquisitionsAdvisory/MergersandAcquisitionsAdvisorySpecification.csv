@@ -1,0 +1,13 @@
+"Service Domain specification for Mergers and Acquisitions Advisory"
+"Business Area"	Products
+"Business Domain"	Advisory Services
+"Service Domain"	Mergers and Acquisitions Advisory
+"Role Definition"	"A fee or commission based project providing execution, pricing and deal coordination and placement for M&A, IPO, LBO type transactions"
+"Example of use"	"A corporate customer engages an investment bank to lead an M&A transaction on its behalf"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	MergersAndAcquisition
+"Generic Artifact"	Facility (rename)
+"Control Record"	MergersAndAcquisitionArrangement
+"Registration Status"	Registered

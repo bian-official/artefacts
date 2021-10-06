@@ -1,0 +1,5 @@
+"Service Operations for: "	Site Operations
+"Control Record Model for Site Operations is not defined"
+"POST"	"/site-operations/activation"
+"PUT"	"/site-operations/{sd-reference-id}/configuration"
+"PUT"	"/site-operations/{sd-reference-id}/feedback"

@@ -1,0 +1,265 @@
+"Service Operations for: "	Regulatory and Legal Authority
+"Control Record Model for Regulatory and Legal Authority is not defined"
+"POST"	"/regulatory-and-legal-authority/activation"
+"PUT"	"/regulatory-and-legal-authority/{sd-reference-id}/configuration"
+"PUT"	"/regulatory-and-legal-authority/{sd-reference-id}/feedback"
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/troubleshooting/{crbq-identifier}/capture"
+""	1	"inout"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	String
+""	3	"inout"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Troubleshooting Instance Record"	String
+""	5	"inout"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"inout"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/regulatoryandlegal-authority-relationship-managementplan/{crbq-identifier}/capture"
+""	1	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	2	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Reference"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	3	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Budget Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	4	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Assignment"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	5	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Plan"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	6	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Description"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/regulatoryandlegal-authority-relationship-managementplan/{crbq-identifier}/control"
+""	1	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	2	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Reference"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	3	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Budget Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	4	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Assignment"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	5	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Plan"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	6	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Description"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/regulatoryandlegal-authority-relationship-managementplan/{crbq-identifier}/exchange"
+""	1	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	2	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Reference"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	3	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Budget Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	4	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Assignment"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	5	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Plan"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	6	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Description"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/regulatoryandlegal-authority-relationship-managementplan/{crbq-identifier}/grant"
+""	1	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	2	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Reference"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	3	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Budget Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	4	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Assignment"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	5	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Plan"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	6	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Description"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""
+"Post"	"/regulatory-and-legal-authority/{sd-identifier}/establish-relations/{crbq-identifier}/initiation"
+""	1	"inout"	"Establish Relations Preconditions"	"BQ Establish Relations Instance Record"	String
+""	2	"inout"	"Establish Relations Business Unit/Employee Reference"	"BQ Establish Relations Instance Record"	String
+""	3	"inout"	"Establish Relations Work Schedule"	"BQ Establish Relations Instance Record"	String
+""	4	"inout"	"Establish Relations Postconditions"	"BQ Establish Relations Instance Record"	String
+""	5	"inout"	"Establish Relations Establish Relations Service Type"	"BQ Establish Relations Instance Record"	String
+""	6	"inout"	"Establish Relations Establish Relations Service Description"	"BQ Establish Relations Instance Record"	String
+""	7	"inout"	"Establish Relations Establish Relations Service Inputs and Ouputs"	"BQ Establish Relations Instance Record"	String
+""	8	"inout"	"Establish Relations Establish Relations Service Work Product"	"BQ Establish Relations Instance Record"	String
+""	9	"inout"	"Establish Relations Establish Relations Service Name"	"BQ Establish Relations Instance Record"	String
+""
+"Post"	"/regulatory-and-legal-authority/{sd-identifier}/maintain-relations/{crbq-identifier}/initiation"
+""	1	"inout"	"Maintain Relations Preconditions"	"BQ Maintain Relations Instance Record"	String
+""	2	"inout"	"Maintain Relations Business Unit/Employee Reference"	"BQ Maintain Relations Instance Record"	String
+""	3	"inout"	"Maintain Relations Work Schedule"	"BQ Maintain Relations Instance Record"	String
+""	4	"inout"	"Maintain Relations Postconditions"	"BQ Maintain Relations Instance Record"	String
+""	5	"inout"	"Maintain Relations Maintain Relations Service Type"	"BQ Maintain Relations Instance Record"	String
+""	6	"inout"	"Maintain Relations Maintain Relations Service Description"	"BQ Maintain Relations Instance Record"	String
+""	7	"inout"	"Maintain Relations Maintain Relations Service Inputs and Ouputs"	"BQ Maintain Relations Instance Record"	String
+""	8	"inout"	"Maintain Relations Maintain Relations Service Work Product"	"BQ Maintain Relations Instance Record"	String
+""	9	"inout"	"Maintain Relations Maintain Relations Service Name"	"BQ Maintain Relations Instance Record"	String
+""
+"Post"	"/regulatory-and-legal-authority/{sd-identifier}/represent-bank-interests/{crbq-identifier}/initiation"
+""	1	"inout"	"Represent Bank Interests Preconditions"	"BQ Represent Bank Interests Instance Record"	String
+""	2	"inout"	"Represent Bank Interests Business Unit/Employee Reference"	"BQ Represent Bank Interests Instance Record"	String
+""	3	"inout"	"Represent Bank Interests Work Schedule"	"BQ Represent Bank Interests Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Represent Bank Interests Instance Record"	String
+""	5	"inout"	"Represent Bank Interests Postconditions"	"BQ Represent Bank Interests Instance Record"	String
+""	6	"inout"	"Represent Bank Interests Service Type"	"BQ Represent Bank Interests Instance Record"	String
+""	7	"inout"	"Represent Bank Interests Service Description"	"BQ Represent Bank Interests Instance Record"	String
+""	8	"inout"	"Represent Bank Interests Service Inputs and Ouputs"	"BQ Represent Bank Interests Instance Record"	String
+""	9	"inout"	"Represent Bank Interests Service Work Product"	"BQ Represent Bank Interests Instance Record"	String
+""	10	"inout"	"Represent Bank Interests Service Name"	"BQ Represent Bank Interests Instance Record"	String
+""
+"Post"	"/regulatory-and-legal-authority/{sd-identifier}/troubleshooting/{crbq-identifier}/initiation"
+""	1	"inout"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	String
+""	3	"inout"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Troubleshooting Instance Record"	String
+""	5	"inout"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"inout"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Post"	"/regulatory-and-legal-authority/{sd-identifier}/regulatoryandlegal-authority-relationship-managementplan/{crbq-identifier}/initiation"
+""	1	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	2	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Reference"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	3	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Budget Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	4	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Assignment"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	5	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Plan"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	6	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Description"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""
+"Get"	"/regulatory-and-legal-authority/{sd-identifier}/establish-relations/{crbq-identifier}/retrieval"
+""	1	"out"	"Establish Relations Preconditions"	"BQ Establish Relations Instance Record"	String
+""	2	"out"	"Establish Relations Business Unit/Employee Reference"	"BQ Establish Relations Instance Record"	String
+""	3	"out"	"Establish Relations Work Schedule"	"BQ Establish Relations Instance Record"	String
+""	4	"out"	"Establish Relations Postconditions"	"BQ Establish Relations Instance Record"	String
+""	5	"out"	"Establish Relations Establish Relations Service Type"	"BQ Establish Relations Instance Record"	String
+""	6	"out"	"Establish Relations Establish Relations Service Description"	"BQ Establish Relations Instance Record"	String
+""	7	"out"	"Establish Relations Establish Relations Service Inputs and Ouputs"	"BQ Establish Relations Instance Record"	String
+""	8	"out"	"Establish Relations Establish Relations Service Work Product"	"BQ Establish Relations Instance Record"	String
+""	9	"out"	"Establish Relations Establish Relations Service Name"	"BQ Establish Relations Instance Record"	String
+""
+"Get"	"/regulatory-and-legal-authority/{sd-identifier}/maintain-relations/{crbq-identifier}/retrieval"
+""	1	"out"	"Maintain Relations Preconditions"	"BQ Maintain Relations Instance Record"	String
+""	2	"out"	"Maintain Relations Business Unit/Employee Reference"	"BQ Maintain Relations Instance Record"	String
+""	3	"out"	"Maintain Relations Work Schedule"	"BQ Maintain Relations Instance Record"	String
+""	4	"out"	"Maintain Relations Postconditions"	"BQ Maintain Relations Instance Record"	String
+""	5	"out"	"Maintain Relations Maintain Relations Service Type"	"BQ Maintain Relations Instance Record"	String
+""	6	"out"	"Maintain Relations Maintain Relations Service Description"	"BQ Maintain Relations Instance Record"	String
+""	7	"out"	"Maintain Relations Maintain Relations Service Inputs and Ouputs"	"BQ Maintain Relations Instance Record"	String
+""	8	"out"	"Maintain Relations Maintain Relations Service Work Product"	"BQ Maintain Relations Instance Record"	String
+""	9	"out"	"Maintain Relations Maintain Relations Service Name"	"BQ Maintain Relations Instance Record"	String
+""
+"Get"	"/regulatory-and-legal-authority/{sd-identifier}/represent-bank-interests/{crbq-identifier}/retrieval"
+""	1	"out"	"Represent Bank Interests Preconditions"	"BQ Represent Bank Interests Instance Record"	String
+""	2	"out"	"Represent Bank Interests Business Unit/Employee Reference"	"BQ Represent Bank Interests Instance Record"	String
+""	3	"out"	"Represent Bank Interests Work Schedule"	"BQ Represent Bank Interests Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Represent Bank Interests Instance Record"	String
+""	5	"out"	"Represent Bank Interests Postconditions"	"BQ Represent Bank Interests Instance Record"	String
+""	6	"out"	"Represent Bank Interests Service Type"	"BQ Represent Bank Interests Instance Record"	String
+""	7	"out"	"Represent Bank Interests Service Description"	"BQ Represent Bank Interests Instance Record"	String
+""	8	"out"	"Represent Bank Interests Service Inputs and Ouputs"	"BQ Represent Bank Interests Instance Record"	String
+""	9	"out"	"Represent Bank Interests Service Work Product"	"BQ Represent Bank Interests Instance Record"	String
+""	10	"out"	"Represent Bank Interests Service Name"	"BQ Represent Bank Interests Instance Record"	String
+""
+"Get"	"/regulatory-and-legal-authority/{sd-identifier}/troubleshooting/{crbq-identifier}/retrieval"
+""	1	"out"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"out"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	String
+""	3	"out"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Troubleshooting Instance Record"	String
+""	5	"out"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"out"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"out"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"out"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"out"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"out"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Get"	"/regulatory-and-legal-authority/{sd-identifier}/regulatoryandlegal-authority-relationship-managementplan/{crbq-identifier}/retrieval"
+""	1	"out"	"Regulatory&Legal Authority Relationship ManagementPlan Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	2	"out"	"Regulatory&Legal Authority Relationship ManagementPlan Reference"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	3	"out"	"Regulatory&Legal Authority Relationship ManagementPlan Budget Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	4	"out"	"Regulatory&Legal Authority Relationship ManagementPlan Assignment"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	5	"out"	"Regulatory&Legal Authority Relationship ManagementPlan Plan"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	6	"out"	"Regulatory&Legal Authority Relationship ManagementPlan Description"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/establish-relations/{crbq-identifier}/requisition"
+""	1	"inout"	"Establish Relations Preconditions"	"BQ Establish Relations Instance Record"	String
+""	2	"inout"	"Establish Relations Business Unit/Employee Reference"	"BQ Establish Relations Instance Record"	String
+""	3	"inout"	"Establish Relations Work Schedule"	"BQ Establish Relations Instance Record"	String
+""	4	"inout"	"Establish Relations Postconditions"	"BQ Establish Relations Instance Record"	String
+""	5	"inout"	"Establish Relations Establish Relations Service Type"	"BQ Establish Relations Instance Record"	String
+""	6	"inout"	"Establish Relations Establish Relations Service Description"	"BQ Establish Relations Instance Record"	String
+""	7	"inout"	"Establish Relations Establish Relations Service Inputs and Ouputs"	"BQ Establish Relations Instance Record"	String
+""	8	"inout"	"Establish Relations Establish Relations Service Work Product"	"BQ Establish Relations Instance Record"	String
+""	9	"inout"	"Establish Relations Establish Relations Service Name"	"BQ Establish Relations Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/maintain-relations/{crbq-identifier}/requisition"
+""	1	"inout"	"Maintain Relations Preconditions"	"BQ Maintain Relations Instance Record"	String
+""	2	"inout"	"Maintain Relations Business Unit/Employee Reference"	"BQ Maintain Relations Instance Record"	String
+""	3	"inout"	"Maintain Relations Work Schedule"	"BQ Maintain Relations Instance Record"	String
+""	4	"inout"	"Maintain Relations Postconditions"	"BQ Maintain Relations Instance Record"	String
+""	5	"inout"	"Maintain Relations Maintain Relations Service Type"	"BQ Maintain Relations Instance Record"	String
+""	6	"inout"	"Maintain Relations Maintain Relations Service Description"	"BQ Maintain Relations Instance Record"	String
+""	7	"inout"	"Maintain Relations Maintain Relations Service Inputs and Ouputs"	"BQ Maintain Relations Instance Record"	String
+""	8	"inout"	"Maintain Relations Maintain Relations Service Work Product"	"BQ Maintain Relations Instance Record"	String
+""	9	"inout"	"Maintain Relations Maintain Relations Service Name"	"BQ Maintain Relations Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/represent-bank-interests/{crbq-identifier}/requisition"
+""	1	"inout"	"Represent Bank Interests Preconditions"	"BQ Represent Bank Interests Instance Record"	String
+""	2	"inout"	"Represent Bank Interests Business Unit/Employee Reference"	"BQ Represent Bank Interests Instance Record"	String
+""	3	"inout"	"Represent Bank Interests Work Schedule"	"BQ Represent Bank Interests Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Represent Bank Interests Instance Record"	String
+""	5	"inout"	"Represent Bank Interests Postconditions"	"BQ Represent Bank Interests Instance Record"	String
+""	6	"inout"	"Represent Bank Interests Service Type"	"BQ Represent Bank Interests Instance Record"	String
+""	7	"inout"	"Represent Bank Interests Service Description"	"BQ Represent Bank Interests Instance Record"	String
+""	8	"inout"	"Represent Bank Interests Service Inputs and Ouputs"	"BQ Represent Bank Interests Instance Record"	String
+""	9	"inout"	"Represent Bank Interests Service Work Product"	"BQ Represent Bank Interests Instance Record"	String
+""	10	"inout"	"Represent Bank Interests Service Name"	"BQ Represent Bank Interests Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/troubleshooting/{crbq-identifier}/requisition"
+""	1	"inout"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	String
+""	3	"inout"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Troubleshooting Instance Record"	String
+""	5	"inout"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"inout"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/regulatoryandlegal-authority-relationship-managementplan/{crbq-identifier}/requisition"
+""	1	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	2	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Reference"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	3	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Budget Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	4	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Assignment"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	5	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Plan"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	6	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Description"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/establish-relations/{crbq-identifier}/update"
+""	1	"inout"	"Establish Relations Preconditions"	"BQ Establish Relations Instance Record"	String
+""	2	"inout"	"Establish Relations Business Unit/Employee Reference"	"BQ Establish Relations Instance Record"	String
+""	3	"inout"	"Establish Relations Work Schedule"	"BQ Establish Relations Instance Record"	String
+""	4	"inout"	"Establish Relations Postconditions"	"BQ Establish Relations Instance Record"	String
+""	5	"inout"	"Establish Relations Establish Relations Service Type"	"BQ Establish Relations Instance Record"	String
+""	6	"inout"	"Establish Relations Establish Relations Service Description"	"BQ Establish Relations Instance Record"	String
+""	7	"inout"	"Establish Relations Establish Relations Service Inputs and Ouputs"	"BQ Establish Relations Instance Record"	String
+""	8	"inout"	"Establish Relations Establish Relations Service Work Product"	"BQ Establish Relations Instance Record"	String
+""	9	"inout"	"Establish Relations Establish Relations Service Name"	"BQ Establish Relations Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/maintain-relations/{crbq-identifier}/update"
+""	1	"inout"	"Maintain Relations Preconditions"	"BQ Maintain Relations Instance Record"	String
+""	2	"inout"	"Maintain Relations Business Unit/Employee Reference"	"BQ Maintain Relations Instance Record"	String
+""	3	"inout"	"Maintain Relations Work Schedule"	"BQ Maintain Relations Instance Record"	String
+""	4	"inout"	"Maintain Relations Postconditions"	"BQ Maintain Relations Instance Record"	String
+""	5	"inout"	"Maintain Relations Maintain Relations Service Type"	"BQ Maintain Relations Instance Record"	String
+""	6	"inout"	"Maintain Relations Maintain Relations Service Description"	"BQ Maintain Relations Instance Record"	String
+""	7	"inout"	"Maintain Relations Maintain Relations Service Inputs and Ouputs"	"BQ Maintain Relations Instance Record"	String
+""	8	"inout"	"Maintain Relations Maintain Relations Service Work Product"	"BQ Maintain Relations Instance Record"	String
+""	9	"inout"	"Maintain Relations Maintain Relations Service Name"	"BQ Maintain Relations Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/represent-bank-interests/{crbq-identifier}/update"
+""	1	"inout"	"Represent Bank Interests Preconditions"	"BQ Represent Bank Interests Instance Record"	String
+""	2	"inout"	"Represent Bank Interests Business Unit/Employee Reference"	"BQ Represent Bank Interests Instance Record"	String
+""	3	"inout"	"Represent Bank Interests Work Schedule"	"BQ Represent Bank Interests Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Represent Bank Interests Instance Record"	String
+""	5	"inout"	"Represent Bank Interests Postconditions"	"BQ Represent Bank Interests Instance Record"	String
+""	6	"inout"	"Represent Bank Interests Service Type"	"BQ Represent Bank Interests Instance Record"	String
+""	7	"inout"	"Represent Bank Interests Service Description"	"BQ Represent Bank Interests Instance Record"	String
+""	8	"inout"	"Represent Bank Interests Service Inputs and Ouputs"	"BQ Represent Bank Interests Instance Record"	String
+""	9	"inout"	"Represent Bank Interests Service Work Product"	"BQ Represent Bank Interests Instance Record"	String
+""	10	"inout"	"Represent Bank Interests Service Name"	"BQ Represent Bank Interests Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/troubleshooting/{crbq-identifier}/update"
+""	1	"inout"	"Troubleshooting Preconditions"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Troubleshooting Business Unit/Employee Reference"	"BQ Troubleshooting Instance Record"	String
+""	3	"inout"	"Troubleshooting Work Schedule"	"BQ Troubleshooting Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Troubleshooting Instance Record"	String
+""	5	"inout"	"Troubleshooting Postconditions"	"BQ Troubleshooting Instance Record"	String
+""	6	"inout"	"Troubleshooting Service Type"	"BQ Troubleshooting Instance Record"	String
+""	7	"inout"	"Troubleshooting Service Description"	"BQ Troubleshooting Instance Record"	String
+""	8	"inout"	"Troubleshooting Service Inputs and Ouputs"	"BQ Troubleshooting Instance Record"	String
+""	9	"inout"	"Troubleshooting Service Work Product"	"BQ Troubleshooting Instance Record"	String
+""	10	"inout"	"Troubleshooting Service Name"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/regulatory-and-legal-authority/{sd-identifier}/regulatoryandlegal-authority-relationship-managementplan/{crbq-identifier}/update"
+""	1	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	2	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Reference"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	3	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Budget Type"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	4	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Assignment"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	5	"inout"	"Regulatory&Legal Authority Relationship ManagementPlan Plan"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String
+""	6	"in"	"Regulatory&Legal Authority Relationship ManagementPlan Description"	"CR RegulatoryAndLegal Authority Relationship ManagementPlan Instance Record"	String

@@ -1,0 +1,105 @@
+"Service Operations for: "	Payment Execution
+""
+"POST"	"/payment-execution/activation"
+"PUT"	"/payment-execution/{sd-reference-id}/configuration"
+"PUT"	"/payment-execution/{sd-reference-id}/feedback"
+""
+"Post"	"/payment-execution/{sd-identifier}/payment-execution-procedure/{crbq-identifier}/initiation"
+""	1	"out"	"ACH Access Service Session Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	2	"out"	"ACH Access Schedule"	"CR Payment Execution Procedure Instance Record"	String
+""	3	"out"	"Correspondent Service Session Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	4	"out"	"Correspondent Service Access Schedule"	"CR Payment Execution Procedure Instance Record"	String
+""	5	"in"	"Payment Transaction Initiator Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	6	"in"	"Payment Order Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	7	"in"	"Payer Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	8	"in"	"Payer Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	9	"in"	"Payer Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	10	"in"	"Payee Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	11	"in"	"Payee Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	12	"in"	"Payee Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	13	"in"	"Amount"	"CR Payment Execution Procedure Instance Record"	String
+""	14	"in"	"Currency"	"CR Payment Execution Procedure Instance Record"	String
+""	15	"in"	"Date Type"	"CR Payment Execution Procedure Instance Record"	String
+""	16	"in"	"Wash Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	17	"in"	"Intermediary Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	18	"in"	"Payment Mechanism Type"	"CR Payment Execution Procedure Instance Record"	String
+""
+"Put"	"/payment-execution/{sd-identifier}/payment-execution-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Payment Transaction Initiator Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	2	"inout"	"Payment Order Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	3	"inout"	"Payer Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	4	"inout"	"Payer Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	5	"inout"	"Payer Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	6	"inout"	"Payee Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	7	"inout"	"Payee Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	8	"inout"	"Payee Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	9	"inout"	"Amount"	"CR Payment Execution Procedure Instance Record"	String
+""	10	"inout"	"Currency"	"CR Payment Execution Procedure Instance Record"	String
+""	11	"inout"	"Date Type"	"CR Payment Execution Procedure Instance Record"	String
+""	12	"inout"	"Wash Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	13	"inout"	"Intermediary Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	14	"inout"	"Payment Mechanism Type"	"CR Payment Execution Procedure Instance Record"	String
+""
+"Get"	"/payment-execution/{sd-identifier}/payment-execution-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"ACH Access Service Session Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	2	"out"	"ACH Access Schedule"	"CR Payment Execution Procedure Instance Record"	String
+""	3	"out"	"Correspondent Service Session Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	4	"out"	"Correspondent Service Access Schedule"	"CR Payment Execution Procedure Instance Record"	String
+""	5	"out"	"Payment Transaction Initiator Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	6	"out"	"Payment Order Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	7	"out"	"Payer Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	8	"out"	"Payer Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	9	"out"	"Payer Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	10	"out"	"Payee Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	11	"out"	"Payee Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	12	"out"	"Payee Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	13	"out"	"Amount"	"CR Payment Execution Procedure Instance Record"	String
+""	14	"out"	"Currency"	"CR Payment Execution Procedure Instance Record"	String
+""	15	"out"	"Date Type"	"CR Payment Execution Procedure Instance Record"	String
+""	16	"out"	"Wash Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	17	"out"	"Intermediary Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	18	"out"	"Payment Mechanism Type"	"CR Payment Execution Procedure Instance Record"	String
+""
+"Get"	"/payment-execution/{sd-identifier}/payment-mechanism/{crbq-identifier}/retrieval"
+""	1	"out"	"ACH Access Service Session Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	2	"out"	"ACH Access Schedule"	"CR Payment Execution Procedure Instance Record"	String
+""	3	"out"	"Correspondent Service Session Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	4	"out"	"Correspondent Service Access Schedule"	"CR Payment Execution Procedure Instance Record"	String
+""	5	"out"	"Payment Transaction Initiator Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	6	"out"	"Payment Order Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	7	"out"	"Payer Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	8	"out"	"Payer Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	9	"out"	"Payer Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	10	"out"	"Payee Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	11	"out"	"Payee Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	12	"out"	"Payee Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	13	"out"	"Amount"	"CR Payment Execution Procedure Instance Record"	String
+""	14	"out"	"Currency"	"CR Payment Execution Procedure Instance Record"	String
+""	15	"out"	"Date Type"	"CR Payment Execution Procedure Instance Record"	String
+""	16	"out"	"Wash Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	17	"out"	"Intermediary Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	18	"out"	"Payment Mechanism Type"	"CR Payment Execution Procedure Instance Record"	String
+""	19	"out"	"Payment Execution Task Result"	"BQ Payment Mechanism Instance Record"	String
+""
+"Put"	"/payment-execution/{sd-identifier}/payment-execution/{crbq-identifier}/control"
+""
+"Get"	"/payment-execution/{sd-identifier}/payment-execution/{crbq-identifier}/retrieval"
+""	1	"out"	"ACH Access Service Session Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	2	"out"	"ACH Access Schedule"	"CR Payment Execution Procedure Instance Record"	String
+""	3	"out"	"Correspondent Service Session Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	4	"out"	"Correspondent Service Access Schedule"	"CR Payment Execution Procedure Instance Record"	String
+""	5	"out"	"Payment Transaction Initiator Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	6	"out"	"Payment Order Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	7	"out"	"Payer Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	8	"out"	"Payer Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	9	"out"	"Payer Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	10	"out"	"Payee Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	11	"out"	"Payee Bank Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	12	"out"	"Payee Product Instance Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	13	"out"	"Amount"	"CR Payment Execution Procedure Instance Record"	String
+""	14	"out"	"Currency"	"CR Payment Execution Procedure Instance Record"	String
+""	15	"out"	"Date Type"	"CR Payment Execution Procedure Instance Record"	String
+""	16	"out"	"Wash Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	17	"out"	"Intermediary Account Reference"	"CR Payment Execution Procedure Instance Record"	Object
+""	18	"out"	"Payment Mechanism Type"	"CR Payment Execution Procedure Instance Record"	String
+""	19	"out"	"Payment Execution Task Result"	"BQ Payment Execution Instance Record"	String

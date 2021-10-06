@@ -1,0 +1,121 @@
+"Service Operations for: "	Production Release
+""
+"POST"	"/production-release/activation"
+"PUT"	"/production-release/{sd-reference-id}/configuration"
+"PUT"	"/production-release/{sd-reference-id}/feedback"
+""
+"Post"	"/production-release/{sd-identifier}/production-system-assessment/{crbq-identifier}/evaluation"
+""	1	"inout"	"Production Release Name"	"CR Production System Assessment Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"CR Production System Assessment Instance Record"	Object
+""	3	"inout"	"Production Release Type"	"CR Production System Assessment Instance Record"	String
+""	4	"inout"	"Production Release Description"	"CR Production System Assessment Instance Record"	String
+""	5	"inout"	"Production Release Test Profile"	"CR Production System Assessment Instance Record"	String
+""	6	"inout"	"Production Release Test Schedule"	"CR Production System Assessment Instance Record"	String
+""	7	"out"	"Production Release Consolidation Record"	"CR Production System Assessment Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Production System Assessment Instance Record"	Object
+""	9	"inout"	"Date Type"	"CR Production System Assessment Instance Record"	String
+""
+"Put"	"/production-release/{sd-identifier}/production-system-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Production Release Name"	"CR Production System Assessment Instance Record"	String
+""	2	"inout"	"Employee/Business Unit Reference"	"CR Production System Assessment Instance Record"	Object
+""	3	"inout"	"Production Release Type"	"CR Production System Assessment Instance Record"	String
+""	4	"inout"	"Production Release Description"	"CR Production System Assessment Instance Record"	String
+""	5	"inout"	"Production Release Test Profile"	"CR Production System Assessment Instance Record"	String
+""	6	"inout"	"Production Release Test Schedule"	"CR Production System Assessment Instance Record"	String
+""	7	"inout"	"Production Release Consolidation Record"	"CR Production System Assessment Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"CR Production System Assessment Instance Record"	Object
+""	9	"inout"	"Date Type"	"CR Production System Assessment Instance Record"	String
+""
+"Put"	"/production-release/{sd-identifier}/production-system-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/production-release/{sd-identifier}/production-system-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Production Release Name"	"CR Production System Assessment Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"CR Production System Assessment Instance Record"	Object
+""	3	"inout"	"Production Release Type"	"CR Production System Assessment Instance Record"	String
+""	4	"inout"	"Production Release Description"	"CR Production System Assessment Instance Record"	String
+""	5	"inout"	"Production Release Test Profile"	"CR Production System Assessment Instance Record"	String
+""	6	"inout"	"Production Release Test Schedule"	"CR Production System Assessment Instance Record"	String
+""	7	"out"	"Production Release Consolidation Record"	"CR Production System Assessment Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Production System Assessment Instance Record"	Object
+""	9	"inout"	"Date Type"	"CR Production System Assessment Instance Record"	String
+""
+"Put"	"/production-release/{sd-identifier}/production-system-assessment/{crbq-identifier}/grant"
+""
+"Get"	"/production-release/{sd-identifier}/production-system-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Production Release Name"	"CR Production System Assessment Instance Record"	String
+""	2	"out"	"Employee/Business Unit Reference"	"CR Production System Assessment Instance Record"	Object
+""	3	"out"	"Production Release Type"	"CR Production System Assessment Instance Record"	String
+""	4	"out"	"Production Release Description"	"CR Production System Assessment Instance Record"	String
+""	5	"out"	"Production Release Test Profile"	"CR Production System Assessment Instance Record"	String
+""	6	"out"	"Production Release Test Schedule"	"CR Production System Assessment Instance Record"	String
+""	7	"out"	"Production Release Consolidation Record"	"CR Production System Assessment Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Production System Assessment Instance Record"	Object
+""	9	"out"	"Date Type"	"CR Production System Assessment Instance Record"	String
+""
+"Put"	"/production-release/{sd-identifier}/functional-risk/{crbq-identifier}/exchange"
+""
+"Get"	"/production-release/{sd-identifier}/functional-risk/{crbq-identifier}/retrieval"
+""	1	"out"	"Production Release Name"	"CR Production System Assessment Instance Record"	String
+""	2	"out"	"Employee/Business Unit Reference"	"CR Production System Assessment Instance Record"	Object
+""	3	"out"	"Production Release Type"	"CR Production System Assessment Instance Record"	String
+""	4	"out"	"Production Release Description"	"CR Production System Assessment Instance Record"	String
+""	5	"out"	"Production Release Test Profile"	"CR Production System Assessment Instance Record"	String
+""	6	"out"	"Production Release Test Schedule"	"CR Production System Assessment Instance Record"	String
+""	7	"out"	"Production Release Consolidation Record"	"CR Production System Assessment Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Production System Assessment Instance Record"	Object
+""	9	"out"	"Date Type"	"CR Production System Assessment Instance Record"	String
+""	10	"out"	"Functional Risk System Test Type"	"BQ Functional Risk Instance Record"	String
+""	11	"out"	"Functional Risk System Test Description"	"BQ Functional Risk Instance Record"	String
+""	12	"out"	"Functional Risk System Test Work Product"	"BQ Functional Risk Instance Record"	String
+""	13	"out"	"Functional Risk System Test Result"	"BQ Functional Risk Instance Record"	String
+""
+"Put"	"/production-release/{sd-identifier}/production-risk/{crbq-identifier}/exchange"
+""
+"Get"	"/production-release/{sd-identifier}/production-risk/{crbq-identifier}/retrieval"
+""	1	"out"	"Production Release Name"	"CR Production System Assessment Instance Record"	String
+""	2	"out"	"Employee/Business Unit Reference"	"CR Production System Assessment Instance Record"	Object
+""	3	"out"	"Production Release Type"	"CR Production System Assessment Instance Record"	String
+""	4	"out"	"Production Release Description"	"CR Production System Assessment Instance Record"	String
+""	5	"out"	"Production Release Test Profile"	"CR Production System Assessment Instance Record"	String
+""	6	"out"	"Production Release Test Schedule"	"CR Production System Assessment Instance Record"	String
+""	7	"out"	"Production Release Consolidation Record"	"CR Production System Assessment Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Production System Assessment Instance Record"	Object
+""	9	"out"	"Date Type"	"CR Production System Assessment Instance Record"	String
+""	10	"out"	"Production Risk System Test Type"	"BQ Production Risk Instance Record"	String
+""	11	"out"	"Production Risk System Test Description"	"BQ Production Risk Instance Record"	String
+""	12	"out"	"Production Risk System Test Work Product"	"BQ Production Risk Instance Record"	String
+""	13	"out"	"Production Risk System Test Result"	"BQ Production Risk Instance Record"	String
+""
+"Put"	"/production-release/{sd-identifier}/business-risk/{crbq-identifier}/exchange"
+""
+"Get"	"/production-release/{sd-identifier}/business-risk/{crbq-identifier}/retrieval"
+""	1	"out"	"Production Release Name"	"CR Production System Assessment Instance Record"	String
+""	2	"out"	"Employee/Business Unit Reference"	"CR Production System Assessment Instance Record"	Object
+""	3	"out"	"Production Release Type"	"CR Production System Assessment Instance Record"	String
+""	4	"out"	"Production Release Description"	"CR Production System Assessment Instance Record"	String
+""	5	"out"	"Production Release Test Profile"	"CR Production System Assessment Instance Record"	String
+""	6	"out"	"Production Release Test Schedule"	"CR Production System Assessment Instance Record"	String
+""	7	"out"	"Production Release Consolidation Record"	"CR Production System Assessment Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Production System Assessment Instance Record"	Object
+""	9	"out"	"Date Type"	"CR Production System Assessment Instance Record"	String
+""	10	"out"	"Business Risk System Test Type"	"BQ Business Risk Instance Record"	String
+""	11	"out"	"Business Risk System Test Description"	"BQ Business Risk Instance Record"	String
+""	12	"out"	"Business Risk Test Work Product"	"BQ Business Risk Instance Record"	String
+""	13	"out"	"Business Risk Test Result"	"BQ Business Risk Instance Record"	String
+""
+"Put"	"/production-release/{sd-identifier}/operational-risk/{crbq-identifier}/exchange"
+""
+"Get"	"/production-release/{sd-identifier}/operational-risk/{crbq-identifier}/retrieval"
+""	1	"out"	"Production Release Name"	"CR Production System Assessment Instance Record"	String
+""	2	"out"	"Employee/Business Unit Reference"	"CR Production System Assessment Instance Record"	Object
+""	3	"out"	"Production Release Type"	"CR Production System Assessment Instance Record"	String
+""	4	"out"	"Production Release Description"	"CR Production System Assessment Instance Record"	String
+""	5	"out"	"Production Release Test Profile"	"CR Production System Assessment Instance Record"	String
+""	6	"out"	"Production Release Test Schedule"	"CR Production System Assessment Instance Record"	String
+""	7	"out"	"Production Release Consolidation Record"	"CR Production System Assessment Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Production System Assessment Instance Record"	Object
+""	9	"out"	"Date Type"	"CR Production System Assessment Instance Record"	String
+""	10	"out"	"Operational Risk System Test Type"	"BQ Operational Risk Instance Record"	String
+""	11	"out"	"Operational Risk System Test Description"	"BQ Operational Risk Instance Record"	String
+""	12	"out"	"Operational Risk System Test Work Product"	"BQ Operational Risk Instance Record"	String
+""	13	"out"	"Operational Risk System Test Result"	"BQ Operational Risk Instance Record"	String

@@ -1,0 +1,5 @@
+"Service Operations for: "	Liquidity Risk Models
+"Control Record Model for Liquidity Risk Models is not defined"
+"POST"	"/liquidity-risk-models/activation"
+"PUT"	"/liquidity-risk-models/{sd-reference-id}/configuration"
+"PUT"	"/liquidity-risk-models/{sd-reference-id}/feedback"

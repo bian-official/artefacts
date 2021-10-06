@@ -1,0 +1,13 @@
+"Service Domain specification for eTrading Workbench"
+"Business Area"	Customers
+"Business Domain"	Investment Services
+"Service Domain"	eTrading Workbench
+"Role Definition"	"Operate the distributed consumer e-trading facility (local application and network connectivity to the bank). This environment hosts/supports a financial facility type product (service domain Consumer Investments) that customer use to trade securities on their own account through the bank. From the workbench environment using consumer investments a customer can initiate the execution of securities trades against their facility as well as applying service/facility fees and charges. The consumer investments capability accessed through the workbench integrates with the supporting customer accounting facilities which can include more complex margin accounts (and margin call initiation) as necessary"
+"Example of use"	"A consumer customer logs on to the E-branch web portal to access their e-trading account, tracks prices and research relating to his portfolio and executes and sale/purchase pair of transactions."
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	eTradingWorkbench
+"Generic Artifact"	OperatingSession
+"Control Record"	eTradingWorkbenchOperatingSession
+"Registration Status"	Registered

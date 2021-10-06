@@ -1,0 +1,13 @@
+"Service Domain specification for Dealer Workbench"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Dealer Workbench
+"Role Definition"	"Operate a dealer workbench, combining information feeds, deal capture, blotter, pricing tools and P&L analysis - this collection of capabilities is often referred to as the dealer position"
+"Example of use"	"A trader assembles market price and news data, analyses a number of managed positions and determines and executes trades to benefit. The trading activity is tracked to maintain the trader's cumulative P&L position"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	TradingDesk
+"Generic Artifact"	OperatingSession
+"Control Record"	TradingDeskOperatingSession
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Payment Execution"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Payment Execution
+"Role Definition"	"Payment Execution handles the back-end processing of a movement funds from a debtor account to a creditor account. Payments need to have been authorized and validated against customer/bank agreements before being instructed to Payment Execution. Payment Execution then determines whether debtor and creditor accounts are held within the bank and if not selects the appropriate payment mechanism/channel to use to complete the transfer. It is responsible for ensuring that both (or neither) sides of the exchange are completed successfully"
+"Example of use"	"Example of use:. Funds are transferred from a customer's account with the bank to a payee account held at another bank"
+"Executive Summary"	"This service domains processes the movement of funds between accounts within the bank or to/from an account held with another bank, selecting the appropriate payment mechanism"
+"Key Features"	"Determine the appropriate payment mechanism. Retrieve counterparty payment instructions/preferences. Generate creditor and debtor instructions. Confirm (and report) both legs of the movement are completed"
+"Functional Pattern"	Process
+"Asset Type"	PaymentExecution
+"Generic Artifact"	Procedure
+"Control Record"	PaymentExecutionProcedure
+"Registration Status"	Registered

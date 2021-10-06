@@ -1,0 +1,140 @@
+"Control Record Model for: "	Merchandising Loan
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Merchandising Loan Arrangement Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Parameter Type	"A Classification value that distinguishes between arrangements according to the type of business services within Merchandising Loan Arrangement"	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Selected Option	"A selected optional business service as subject matter of Merchandising Loan Arrangement"	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Type	"The type of Merchandising Loan Arrangement"	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Reference	"Reference to Merchandising Loan Arrangement"	Object
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Schedule	"Timetable to fulfill Merchandising Loan Arrangement"	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Status	"The status of Merchandising Loan Arrangement"	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Associated Party	"Reference to the party who is involved in Merchandising Loan Arrangement"	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Currency	"The curreny which is arranged in Merchandising Loan Arrangement"	CurrencyCode
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Regulation Reference	"Reference to the regulation which is defined in Merchandising Loan Arrangement"	Object
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Regulation Type	"A Classification that distinguishes between the regularity domains of Merchandising Loan Arrangement"	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Jurisdiction	"Reference to the jurisdiction that is assigned to Merchandising Loan Arrangement in case of legal dispute."	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Booking Location	"The financial accounting unit into which the financial events, with regard to the origination and fulfillment of the agreement in the context of Merchandising Loan Arrangement, are entered."	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Account Type	"The type of account which is linked to Merchandising Loan Arrangement"	String
+"CR"	CR Merchandising Loan Arrangement Instance Record	Merchandising Loan Arrangement Account Reference	"Reference to the account which is linked to Merchandising Loan Arrangement"	Object
+"BQ"	BQ Withdrawals Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Withdrawals Instance Record	Withdrawals Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Withdrawals Instance Record	Withdrawals Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Withdrawals Instance Record	Withdrawal Processing	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Withdrawals Instance Record	Withdrawals Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Withdrawals Instance Record	Withdrawals Withdrawal Processing Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Withdrawals Instance Record	Withdrawals Withdrawal Processing Service Description	"Description of the performed business service"	String
+"BQ"	BQ Withdrawals Instance Record	Withdrawals Withdrawal Processing Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Withdrawals Instance Record	Withdrawals Withdrawal Processing Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Withdrawals Instance Record	Withdrawals Withdrawal Processing Service Name	""	String
+"BQ"	BQ Financial Instrument Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument Financial Instrument Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument Financial Instrument Service Description	"Description of the performed business service"	String
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument Financial Instrument Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument Financial Instrument Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Financial Instrument Instance Record	Financial Instrument Financial Instrument Service Name	""	String
+"BQ"	BQ Financial Accounting Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting Financial Accounting Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting Financial Accounting Service Description	"Description of the performed business service"	String
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting Financial Accounting Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting Financial Accounting Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Financial Accounting Instance Record	Financial Accounting Financial Accounting Service Name	""	String
+"BQ"	BQ Sweep Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Sweep Instance Record	Sweep Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Sweep Instance Record	Sweep Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Sweep Instance Record	Business Service	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Sweep Instance Record	Sweep Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Sweep Instance Record	Sweep Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Sweep Instance Record	Sweep Service Description	"Description of the performed business service"	String
+"BQ"	BQ Sweep Instance Record	Sweep Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Sweep Instance Record	Sweep Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Sweep Instance Record	Sweep Service Name	""	String
+"BQ"	BQ Issued Device Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Issued Device Instance Record	Issued Device Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Issued Device Instance Record	Business Service	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Issued Device Instance Record	Issued Device Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Service Description	"Description of the performed business service"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Service Name	""	String
+"BQ"	BQ Lien Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Lien Instance Record	Lien Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Lien Instance Record	Lien Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Lien Instance Record	Business Service	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Lien Instance Record	Lien Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Lien Instance Record	Lien Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Lien Instance Record	Lien Service Description	"Description of the performed business service"	String
+"BQ"	BQ Lien Instance Record	Lien Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Lien Instance Record	Lien Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Lien Instance Record	Lien Service Name	""	String
+"BQ"	BQ Payments Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Payments Instance Record	Payments Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Payments Instance Record	Payments Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Payments Instance Record	Business Service	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Payments Instance Record	Payments Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Payments Instance Record	Payments Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Payments Instance Record	Payments Service Description	"Description of the performed business service"	String
+"BQ"	BQ Payments Instance Record	Payments Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Payments Instance Record	Payments Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Payments Instance Record	Payments Service Name	""	String
+"BQ"	BQ Fees Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Fees Instance Record	Fees Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Fees Instance Record	Fees Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Fees Instance Record	Business Service	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Fees Instance Record	Fees Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Fees Instance Record	Fees Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Fees Instance Record	Fees Service Description	"Description of the performed business service"	String
+"BQ"	BQ Fees Instance Record	Fees Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Fees Instance Record	Fees Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Fees Instance Record	Fees Service Name	""	String
+"BQ"	BQ Deposits Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Deposits Instance Record	Deposits Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Deposits Instance Record	Deposits Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Deposits Instance Record	Deposit Processing	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Deposits Instance Record	Deposits Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Deposits Instance Record	Deposits Deposit Processing Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Deposits Instance Record	Deposits Deposit Processing Service Description	"Description of the performed business service"	String
+"BQ"	BQ Deposits Instance Record	Deposits Deposit Processing Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Deposits Instance Record	Deposits Deposit Processing Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Deposits Instance Record	Deposits Deposit Processing Service Name	""	String
+"BQ"	BQ Collateral Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Collateral Instance Record	Collateral Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Collateral Instance Record	Collateral Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Collateral Instance Record	Business Service	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Collateral Instance Record	Collateral Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Collateral Instance Record	Collateral Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Collateral Instance Record	Collateral Service Description	"Description of the performed business service"	String
+"BQ"	BQ Collateral Instance Record	Collateral Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Collateral Instance Record	Collateral Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Collateral Instance Record	Collateral Service Name	""	String
+"BQ"	BQ Interest Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Interest Instance Record	Interest Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Interest Instance Record	Interest Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Interest Instance Record	Business Service	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Interest Instance Record	Interest Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Interest Instance Record	Interest Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Interest Instance Record	Interest Service Description	"Description of the performed business service"	String
+"BQ"	BQ Interest Instance Record	Interest Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Interest Instance Record	Interest Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Interest Instance Record	Interest Service Name	""	String
+"BQ"	BQ Billing Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Merchandising Loan. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Billing Instance Record	Billing Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Billing Instance Record	Billing Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Billing Instance Record	Business Service	"The Merchandising Loan Arrangement specific Business Service"	Business Service
+"BQ"	BQ Billing Instance Record	Billing Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Billing Instance Record	Billing Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Billing Instance Record	Billing Service Description	"Description of the performed business service"	String
+"BQ"	BQ Billing Instance Record	Billing Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Billing Instance Record	Billing Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Billing Instance Record	Billing Service Name	""	String
+"BQ"	BQ Merchandising Loan Outcome Instance Record	""	""	""
+"BQ"	BQ Merchandising Loan Outcome Instance Record	Merchandising Loan Financial Facility	""	String
+"BQ"	BQ Merchandising Loan Outcome Instance Record	Merchandising Loan Work Product	""	String

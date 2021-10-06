@@ -1,0 +1,100 @@
+"Service Operations for: "	Open Item Management
+""
+"POST"	"/open-item-management/activation"
+"PUT"	"/open-item-management/{sd-reference-id}/configuration"
+"PUT"	"/open-item-management/{sd-reference-id}/feedback"
+""
+"Post"	"/open-item-management/{sd-identifier}/open-item-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Open Item Type"	"CR Open Item Procedure Instance Record"	String
+""	2	"in"	"Open Item Description"	"CR Open Item Procedure Instance Record"	String
+""	3	"in"	"Product Instance Reference"	"CR Open Item Procedure Instance Record"	Object
+""	4	"in"	"Party Reference"	"CR Open Item Procedure Instance Record"	Object
+""	5	"in"	"Loan Repayment Schedule"	"CR Open Item Procedure Instance Record"	String
+""	6	"in"	"Loan Outstanding Balance"	"CR Open Item Procedure Instance Record"	String
+""	7	"in"	"Loan Termination Date"	"CR Open Item Procedure Instance Record"	Date
+""	8	"out"	"Repayment Statement"	"CR Open Item Procedure Instance Record"	String
+""
+"Put"	"/open-item-management/{sd-identifier}/open-item-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Open Item Type"	"CR Open Item Procedure Instance Record"	String
+""	2	"inout"	"Open Item Description"	"CR Open Item Procedure Instance Record"	String
+""	3	"inout"	"Product Instance Reference"	"CR Open Item Procedure Instance Record"	Object
+""	4	"inout"	"Party Reference"	"CR Open Item Procedure Instance Record"	Object
+""	5	"inout"	"Loan Repayment Schedule"	"CR Open Item Procedure Instance Record"	String
+""	6	"inout"	"Loan Outstanding Balance"	"CR Open Item Procedure Instance Record"	String
+""	7	"inout"	"Loan Termination Date"	"CR Open Item Procedure Instance Record"	Date
+""	8	"inout"	"Repayment Statement"	"CR Open Item Procedure Instance Record"	String
+""
+"Put"	"/open-item-management/{sd-identifier}/open-item-procedure/{crbq-identifier}/control"
+""
+"Put"	"/open-item-management/{sd-identifier}/open-item-procedure/{crbq-identifier}/requisition"
+""	1	"inout"	"Open Item Type"	"CR Open Item Procedure Instance Record"	String
+""	2	"inout"	"Open Item Description"	"CR Open Item Procedure Instance Record"	String
+""	3	"inout"	"Product Instance Reference"	"CR Open Item Procedure Instance Record"	Object
+""	4	"inout"	"Party Reference"	"CR Open Item Procedure Instance Record"	Object
+""	5	"inout"	"Loan Repayment Schedule"	"CR Open Item Procedure Instance Record"	String
+""	6	"inout"	"Loan Outstanding Balance"	"CR Open Item Procedure Instance Record"	String
+""	7	"inout"	"Loan Termination Date"	"CR Open Item Procedure Instance Record"	Date
+""	8	"inout"	"Repayment Statement"	"CR Open Item Procedure Instance Record"	String
+""
+"Get"	"/open-item-management/{sd-identifier}/open-item-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Open Item Type"	"CR Open Item Procedure Instance Record"	String
+""	2	"out"	"Open Item Description"	"CR Open Item Procedure Instance Record"	String
+""	3	"out"	"Product Instance Reference"	"CR Open Item Procedure Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Open Item Procedure Instance Record"	Object
+""	5	"out"	"Loan Repayment Schedule"	"CR Open Item Procedure Instance Record"	String
+""	6	"out"	"Loan Outstanding Balance"	"CR Open Item Procedure Instance Record"	String
+""	7	"out"	"Loan Termination Date"	"CR Open Item Procedure Instance Record"	Date
+""	8	"out"	"Repayment Statement"	"CR Open Item Procedure Instance Record"	String
+""
+"Get"	"/open-item-management/{sd-identifier}/tracking/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Billing Procedure Instance Reference"	"BQ Tracking Instance Record"	Object
+""	2	"out"	"Customer Billing Party"	"BQ Tracking Instance Record"	String
+""	3	"out"	"Customer Billing Address"	"BQ Tracking Instance Record"	String
+""	4	"out"	"Customer Billing Period"	"BQ Tracking Instance Record"	String
+""	5	"out"	"Customer Billing Statement"	"BQ Tracking Instance Record"	String
+""	6	"out"	"Customer Billing Amount"	"BQ Tracking Instance Record"	Amount
+""
+"Post"	"/open-item-management/{sd-identifier}/repayment/{crbq-identifier}/initiation"
+""	1	"in"	"Open Item Type"	"CR Open Item Procedure Instance Record"	String
+""	2	"in"	"Open Item Description"	"CR Open Item Procedure Instance Record"	String
+""	3	"in"	"Product Instance Reference"	"CR Open Item Procedure Instance Record"	Object
+""	4	"in"	"Party Reference"	"CR Open Item Procedure Instance Record"	Object
+""	5	"in"	"Loan Repayment Schedule"	"CR Open Item Procedure Instance Record"	String
+""	6	"in"	"Loan Outstanding Balance"	"CR Open Item Procedure Instance Record"	String
+""	7	"in"	"Loan Termination Date"	"CR Open Item Procedure Instance Record"	Date
+""	8	"in"	"Repayment Statement"	"CR Open Item Procedure Instance Record"	String
+""	9	"in"	"Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	10	"in"	"Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	11	"in"	"Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	12	"in"	"Transaction Type"	"BQ Repayment Instance Record"	String
+""	13	"in"	"Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	14	"in"	"Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	15	"inout"	"Transaction Date"	"BQ Repayment Instance Record"	Date
+""
+"Put"	"/open-item-management/{sd-identifier}/repayment/{crbq-identifier}/update"
+""	1	"inout"	"Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	2	"inout"	"Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	3	"inout"	"Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	4	"inout"	"Transaction Type"	"BQ Repayment Instance Record"	String
+""	5	"inout"	"Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	6	"inout"	"Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	7	"inout"	"Transaction Date"	"BQ Repayment Instance Record"	Date
+""
+"Put"	"/open-item-management/{sd-identifier}/repayment/{crbq-identifier}/exchange"
+""
+"Put"	"/open-item-management/{sd-identifier}/repayment/{crbq-identifier}/execution"
+""	1	"inout"	"Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	2	"inout"	"Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	3	"inout"	"Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	4	"inout"	"Transaction Type"	"BQ Repayment Instance Record"	String
+""	5	"inout"	"Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	6	"inout"	"Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	7	"inout"	"Transaction Date"	"BQ Repayment Instance Record"	Date
+""
+"Get"	"/open-item-management/{sd-identifier}/repayment/{crbq-identifier}/retrieval"
+""	1	"out"	"Open Item Type"	"CR Open Item Procedure Instance Record"	String
+""	2	"out"	"Open Item Description"	"CR Open Item Procedure Instance Record"	String
+""	3	"out"	"Product Instance Reference"	"CR Open Item Procedure Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Open Item Procedure Instance Record"	Object
+""	5	"out"	"Loan Repayment Schedule"	"CR Open Item Procedure Instance Record"	String
+""	6	"out"	"Loan Outstanding Balance"	"CR Open Item Procedure Instance Record"	String

@@ -1,0 +1,13 @@
+"Service Domain specification for System Deployment"
+"Business Area"	Resource Management
+"Business Domain"	Platform Operations
+"Service Domain"	System Deployment
+"Role Definition"	"Plan and execute the production roll-out of new and enhanced systems solutions, including pre-planning, training, acceptance testing and production cutover and adoption support"
+"Example of use"	"A new version of a production system is rolled out, with the pre-cutover alignment, training and facility set up in advance of the roll-out"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Develop
+"Asset Type"	ITSystemDeployment
+"Generic Artifact"	Development
+"Control Record"	ITSystemDeploymentProject
+"Registration Status"	Registered

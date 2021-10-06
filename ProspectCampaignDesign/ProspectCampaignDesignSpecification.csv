@@ -1,0 +1,13 @@
+"Service Domain specification for Prospect Campaign Design"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Prospect Campaign Design
+"Role Definition"	"This Service Domain designs and refines prospect campaigns (or integrates designs from external campaign specialists). Prospect campaigns target new customer acquisition and are typically proactive (involving prospect targeting, contact and solicitation). Version numbering is used to track the impact of changes made to campaigns over their usage."
+"Example of use"	"A prospect acquisition campaign is updated to provide amended/improved pricing terms that can be offered to targeted prospects poor take-up rate has been detected for the campaign"
+"Executive Summary"	"Design and refine prospect campaign specifications based on their impact"
+"Key Features"	"Define the target profile/impact of a campaign. Specify a prospect campaign. Track the impact of a campaign. Refine/reconfigure a campaign"
+"Functional Pattern"	Design
+"Asset Type"	ProspectCampaign
+"Generic Artifact"	Specification
+"Control Record"	ProspectCampaignSpecification
+"Registration Status"	Registered

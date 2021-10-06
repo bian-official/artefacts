@@ -1,0 +1,5 @@
+"Service Operations for: "	Employee Payroll And Incentives
+"Control Record Model for Employee Payroll And Incentives is not defined"
+"POST"	"/employee-payroll-and-incentives/activation"
+"PUT"	"/employee-payroll-and-incentives/{sd-reference-id}/configuration"
+"PUT"	"/employee-payroll-and-incentives/{sd-reference-id}/feedback"

@@ -1,0 +1,5 @@
+"Service Operations for: "	Sub Custodian Agreement
+"Control Record Model for Sub Custodian Agreement is not defined"
+"POST"	"/sub-custodian-agreement/activation"
+"PUT"	"/sub-custodian-agreement/{sd-reference-id}/configuration"
+"PUT"	"/sub-custodian-agreement/{sd-reference-id}/feedback"

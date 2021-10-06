@@ -1,0 +1,75 @@
+"Control Record Model for: "	Investment Account
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Corporate Action Instance Record	""	""	""
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Type	"The type of corporate action that can be applied"	String
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Application Schedule	"The processing schedule for applying the type of corporate action to the investment account"	String
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Instrument Type	"The instrument type that the corporate action impacts (will be one that the investment account tracks)"	String
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Transaction	"Details of the transaction and its impact on the securities holding in the investment account"	String
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Transaction Type	"The type of corporate action applied to the securities holdings"	String
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Transaction Description	"Details describing the purpose and impact of processing the action"	String
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Work Products	"File of consolidated notes, forms and documents for the corporate action"	String
+"BQ"	BQ Corporate Action Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Transaction Result	"The outcome of applying the action to the account (can be simple confirmation)"	String
+"BQ"	BQ Corporate Action Instance Record	Corporate Action Transaction Date	"The date and time the corporate action was processed to the account"	Date
+"CR"	CR Investment Account Arrangement Instance Record	""	""	""
+"CR"	CR Investment Account Arrangement Instance Record	Product Instance Reference	"Reference to the investment account product instance"	Object
+"CR"	CR Investment Account Arrangement Instance Record	Investment Account Number	"The associated investment account number in any suitable format"	String
+"CR"	CR Investment Account Arrangement Instance Record	Customer Reference	"Reference to the account primary party/owner"	Object
+"CR"	CR Investment Account Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the account for booking purposes"	Object
+"CR"	CR Investment Account Arrangement Instance Record	Linked Cash Account	"Definition of the linked cash account used as the source or target of cash to support securities deposits and withdrawals"	String
+"CR"	CR Investment Account Arrangement Instance Record	Link Type	"The type and purpose for the link (e.g. funding/margin account)"	String
+"CR"	CR Investment Account Arrangement Instance Record	Account Details	"Details of the linked cash account"	String
+"CR"	CR Investment Account Arrangement Instance Record	Investment Account Type	"The type of investment account (e.g. discretionary, retirement, margin, restricted instrument category - securities, off-balance sheet)"	String
+"CR"	CR Investment Account Arrangement Instance Record	Investment Account Instrument Profile	"Details the range of instruments that are tracked by the facility (each instrument has its own transaction record/holding position"	String
+"CR"	CR Investment Account Arrangement Instance Record	Investment Account Instrument Record	"Details for an individual tracked instrument type - the investment account can track the holdings for multiple securities"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Type	"Reference to the type of investment instrument being tracked (e.g. equity, commodity, FX/MM, derivative)"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Reference	"The specific instrument trading identifier (e.g. NASDAQ Id)"	Object
+"CR"	CR Investment Account Arrangement Instance Record	Trading Marketplace Reference	"Reference to the market where the instrument is quoted/traded (e.g. ISE Equities Marketplace)"	Object
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Position Record	"Position limits and holding position that are tracked by the account"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Position Limit Type	"The type of position maintained for the account (e.g. min/max holdings,)"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Position Limit Settings	"The position definition, associated limit settings and rules"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Position Holding	"The current calculated holding/position"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Processing Schedule	"Details of known scheduled events related to the instrument (e.g. dividend payment date)"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Event Type	"The type of event impacting the state of the instrument (e.g. corporate actions)"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Event Description	"Details of the event associated actions or impact"	String
+"CR"	CR Investment Account Arrangement Instance Record	Instrument Event Date	"The date/time the event is anticipated/occurs"	Date
+"CR"	CR Investment Account Arrangement Instance Record	Tax Reference	"Reference identifier linking the investment account to appropriate tax handling"	Object
+"CR"	CR Investment Account Arrangement Instance Record	Entitlement Option Definition	"The definition of an applicable entitlement option"	String
+"CR"	CR Investment Account Arrangement Instance Record	Entitlement Option Setting	"The setting for the entitlement option"	String
+"CR"	CR Investment Account Arrangement Instance Record	Restriction Option Definition	"The definition of an applicable restriction option"	String
+"CR"	CR Investment Account Arrangement Instance Record	Restriction Option Setting	"The setting for the restriction option"	String
+"CR"	CR Investment Account Arrangement Instance Record	Linked Accounts	"Definition of the associations to the account"	String
+"CR"	CR Investment Account Arrangement Instance Record	Date Type	"Key dates associated with the investment account (e.g. opening date, closing date)"	String
+"CR"	CR Investment Account Arrangement Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	""	""	""
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Deposit Type	"The type of securities deposit transaction that can be applied to the investment account (e.g. immediate, scheduled, earmarked)"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Withdrawal Type	"The type of securities withdrawal transaction that can be applied to the account (e.g. immediate, scheduled, earmarked)"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Deposit Transaction	"Details of the securities deposit transaction"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Deposit Transaction Source Reference	"Identifies the source of the deposit"	Object
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Deposit Transaction Deposit Type	"The type of securities deposit made with the transaction"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Deposit Transaction Description	"Any necessary details describing the purpose or reference properties of the deposit"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Deposit Transaction Amount	"The volume or value of securities deposited"	Amount
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Deposit Transaction Date	"The date and time the deposit was initiated"	Date
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Withdrawal Transaction	"Details of the securities withdrawal transaction"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Withdrawal Transaction Source Reference	"Identifies the target for the withdrawal"	Object
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Withdrawal Transaction Withdrawal Type	"The type of securities withdrawal made with the transaction"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Withdrawal Transaction Description	"Any necessary details describing the purpose or reference properties of the withdrawal"	String
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Withdrawal Transaction Amount	"The volume or value of the withdrawn securities"	Amount
+"BQ"	BQ Deposits and Withdrawals Instance Record	Securities Withdrawal Transaction Date	"The date and time the withdrawal was initiated"	Date
+"BQ"	BQ Service Fees Instance Record	""	""	""
+"BQ"	BQ Service Fees Instance Record	Fee Configuration Profile	"The profile of applicable fees and penalties"	String
+"BQ"	BQ Service Fees Instance Record	Fee Definition	"Definition of the fee or penalty including when and how to apply"	String
+"BQ"	BQ Service Fees Instance Record	Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Service Fees Instance Record	Fee Application Record	"The record of applied fees and penalties including transactions and accrued amounts"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction	"A record of an applied fee or penalty"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Description	"General description of the fee or penalty transaction"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Fee Charge	"The derived fee or penalty amount applied"	String
+"BQ"	BQ Service Fees Instance Record	Payment Order Procedure Instance Reference	"Reference to the payment order raised to apply the fees (will move funds to/from the appropriate accounts)"	Object
+"BQ"	BQ Service Fees Instance Record	Fee Projections and Commitments	"A record of projected fees and penalties"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Description	"General description of the projected fee or penalty"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Type	"The fee or penalty type"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Charge	"The anticipated fee or penalty amount"	String
+"BQ"	BQ Service Fees Instance Record	Fee Accrual Amount	"Tracking of accumulated fees and penalties"	Amount
+"BQ"	BQ Service Fees Instance Record	Accrual Fee Type	"The fee or penalty type being tracked"	String
+"BQ"	BQ Service Fees Instance Record	Accrual Fee Charge	"The accrued amount of fees and penalties"	String

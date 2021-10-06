@@ -1,0 +1,5 @@
+"Service Operations for: "	Systems Assurance
+"Control Record Model for Systems Assurance is not defined"
+"POST"	"/systems-assurance/activation"
+"PUT"	"/systems-assurance/{sd-reference-id}/configuration"
+"PUT"	"/systems-assurance/{sd-reference-id}/feedback"

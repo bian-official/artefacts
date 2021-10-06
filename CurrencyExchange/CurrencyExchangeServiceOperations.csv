@@ -1,0 +1,175 @@
+"Service Operations for: "	Currency Exchange
+""
+"POST"	"/currency-exchange/activation"
+"PUT"	"/currency-exchange/{sd-reference-id}/configuration"
+"PUT"	"/currency-exchange/{sd-reference-id}/feedback"
+""
+"Put"	"/currency-exchange/{sd-identifier}/currency-exchange-transaction/{crbq-identifier}/control"
+""	1	"inout"	"Currency Exchange Transaction Parameter Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	2	"inout"	"Currency Exchange Transaction Selected Option"	"CR Currency Exchange Transaction Instance Record"	String
+""	3	"inout"	"Currency Exchange Transaction Status"	"CR Currency Exchange Transaction Instance Record"	String
+""	4	"in"	"Currency Exchange Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	5	"in"	"Currency Exchange Transaction Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/fxtransaction-capture/{crbq-identifier}/exchange"
+""	1	"inout"	"FXTransaction Capture Preconditions"	"BQ FXTransaction Capture Instance Record"	String
+""	2	"inout"	"FXTransaction Capture Task Schedule"	"BQ FXTransaction Capture Instance Record"	String
+""	3	"inout"	"FX Transaction Capture"	"BQ FXTransaction Capture Instance Record"	Business Service
+""	4	"inout"	"FXTransaction Capture Postconditions"	"BQ FXTransaction Capture Instance Record"	String
+""	5	"inout"	"FXTransaction Capture FX Transaction Capture Service Type"	"BQ FXTransaction Capture Instance Record"	String
+""	6	"inout"	"FXTransaction Capture FX Transaction Capture Service Description"	"BQ FXTransaction Capture Instance Record"	String
+""	7	"inout"	"FXTransaction Capture FX Transaction Capture Service Inputs and Ouputs"	"BQ FXTransaction Capture Instance Record"	String
+""	8	"inout"	"FXTransaction Capture FX Transaction Capture Service Work Product"	"BQ FXTransaction Capture Instance Record"	String
+""	9	"inout"	"FXTransaction Capture FX Transaction Capture Service Name"	"BQ FXTransaction Capture Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/currency-exchange-transaction/{crbq-identifier}/exchange"
+""	1	"inout"	"Currency Exchange Transaction Parameter Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	2	"inout"	"Currency Exchange Transaction Selected Option"	"CR Currency Exchange Transaction Instance Record"	String
+""	3	"inout"	"Currency Exchange Transaction Status"	"CR Currency Exchange Transaction Instance Record"	String
+""	4	"in"	"Currency Exchange Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	5	"in"	"Currency Exchange Transaction Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/document-handling/{crbq-identifier}/execution"
+""	1	"inout"	"Document Handling Preconditions"	"BQ Document Handling Instance Record"	String
+""	2	"inout"	"Document Handling Task Schedule"	"BQ Document Handling Instance Record"	String
+""	3	"inout"	"Document Services"	"BQ Document Handling Instance Record"	Business Service
+""	4	"inout"	"Document Handling Postconditions"	"BQ Document Handling Instance Record"	String
+""	5	"inout"	"Document Handling Document Services Service Type"	"BQ Document Handling Instance Record"	String
+""	6	"inout"	"Document Handling Document Services Service Description"	"BQ Document Handling Instance Record"	String
+""	7	"inout"	"Document Handling Document Services Service Inputs and Ouputs"	"BQ Document Handling Instance Record"	String
+""	8	"inout"	"Document Handling Document Services Service Work Product"	"BQ Document Handling Instance Record"	String
+""	9	"inout"	"Document Handling Document Services Service Name"	"BQ Document Handling Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/currency-exchange-transaction/{crbq-identifier}/execution"
+""	1	"inout"	"Currency Exchange Transaction Parameter Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	2	"inout"	"Currency Exchange Transaction Selected Option"	"CR Currency Exchange Transaction Instance Record"	String
+""	3	"inout"	"Currency Exchange Transaction Status"	"CR Currency Exchange Transaction Instance Record"	String
+""	4	"in"	"Currency Exchange Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	5	"in"	"Currency Exchange Transaction Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""
+"Post"	"/currency-exchange/{sd-identifier}/document-handling/{crbq-identifier}/initiation"
+""	1	"inout"	"Document Handling Preconditions"	"BQ Document Handling Instance Record"	String
+""	2	"inout"	"Document Handling Task Schedule"	"BQ Document Handling Instance Record"	String
+""	3	"inout"	"Document Services"	"BQ Document Handling Instance Record"	Business Service
+""	4	"inout"	"Document Handling Postconditions"	"BQ Document Handling Instance Record"	String
+""	5	"inout"	"Document Handling Document Services Service Type"	"BQ Document Handling Instance Record"	String
+""	6	"inout"	"Document Handling Document Services Service Description"	"BQ Document Handling Instance Record"	String
+""	7	"inout"	"Document Handling Document Services Service Inputs and Ouputs"	"BQ Document Handling Instance Record"	String
+""	8	"inout"	"Document Handling Document Services Service Work Product"	"BQ Document Handling Instance Record"	String
+""	9	"inout"	"Document Handling Document Services Service Name"	"BQ Document Handling Instance Record"	String
+""
+"Post"	"/currency-exchange/{sd-identifier}/fxtransaction-capture/{crbq-identifier}/initiation"
+""	1	"inout"	"FXTransaction Capture Preconditions"	"BQ FXTransaction Capture Instance Record"	String
+""	2	"inout"	"FXTransaction Capture Task Schedule"	"BQ FXTransaction Capture Instance Record"	String
+""	3	"inout"	"FX Transaction Capture"	"BQ FXTransaction Capture Instance Record"	Business Service
+""	4	"inout"	"FXTransaction Capture Postconditions"	"BQ FXTransaction Capture Instance Record"	String
+""	5	"inout"	"FXTransaction Capture FX Transaction Capture Service Type"	"BQ FXTransaction Capture Instance Record"	String
+""	6	"inout"	"FXTransaction Capture FX Transaction Capture Service Description"	"BQ FXTransaction Capture Instance Record"	String
+""	7	"inout"	"FXTransaction Capture FX Transaction Capture Service Inputs and Ouputs"	"BQ FXTransaction Capture Instance Record"	String
+""	8	"inout"	"FXTransaction Capture FX Transaction Capture Service Work Product"	"BQ FXTransaction Capture Instance Record"	String
+""	9	"inout"	"FXTransaction Capture FX Transaction Capture Service Name"	"BQ FXTransaction Capture Instance Record"	String
+""
+"Post"	"/currency-exchange/{sd-identifier}/fxtransaction-pricing/{crbq-identifier}/initiation"
+""	1	"inout"	"FXTransaction Pricing Preconditions"	"BQ FXTransaction Pricing Instance Record"	String
+""	2	"inout"	"FXTransaction Pricing Task Schedule"	"BQ FXTransaction Pricing Instance Record"	String
+""	3	"inout"	"OTC FX Transaction Pricing"	"BQ FXTransaction Pricing Instance Record"	Business Service
+""	4	"inout"	"FXTransaction Pricing Postconditions"	"BQ FXTransaction Pricing Instance Record"	String
+""	5	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Type"	"BQ FXTransaction Pricing Instance Record"	String
+""	6	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Description"	"BQ FXTransaction Pricing Instance Record"	String
+""	7	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Inputs and Ouputs"	"BQ FXTransaction Pricing Instance Record"	String
+""	8	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Work Product"	"BQ FXTransaction Pricing Instance Record"	String
+""	9	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Name"	"BQ FXTransaction Pricing Instance Record"	String
+""
+"Post"	"/currency-exchange/{sd-identifier}/currency-exchange-transaction/{crbq-identifier}/initiation"
+""	1	"inout"	"Currency Exchange Transaction Parameter Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	2	"inout"	"Currency Exchange Transaction Selected Option"	"CR Currency Exchange Transaction Instance Record"	String
+""	3	"inout"	"Currency Exchange Transaction Status"	"CR Currency Exchange Transaction Instance Record"	String
+""	4	"in"	"Currency Exchange Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	5	"in"	"Currency Exchange Transaction Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""
+"Get"	"/currency-exchange/{sd-identifier}/document-handling/{crbq-identifier}/retrieval"
+""	1	"out"	"Document Handling Preconditions"	"BQ Document Handling Instance Record"	String
+""	2	"out"	"Document Handling Task Schedule"	"BQ Document Handling Instance Record"	String
+""	3	"out"	"Document Services"	"BQ Document Handling Instance Record"	Business Service
+""	4	"out"	"Document Handling Postconditions"	"BQ Document Handling Instance Record"	String
+""	5	"out"	"Document Handling Document Services Service Type"	"BQ Document Handling Instance Record"	String
+""	6	"out"	"Document Handling Document Services Service Description"	"BQ Document Handling Instance Record"	String
+""	7	"out"	"Document Handling Document Services Service Inputs and Ouputs"	"BQ Document Handling Instance Record"	String
+""	8	"out"	"Document Handling Document Services Service Work Product"	"BQ Document Handling Instance Record"	String
+""	9	"out"	"Document Handling Document Services Service Name"	"BQ Document Handling Instance Record"	String
+""
+"Get"	"/currency-exchange/{sd-identifier}/fxtransaction-capture/{crbq-identifier}/retrieval"
+""	1	"out"	"FXTransaction Capture Preconditions"	"BQ FXTransaction Capture Instance Record"	String
+""	2	"out"	"FXTransaction Capture Task Schedule"	"BQ FXTransaction Capture Instance Record"	String
+""	3	"out"	"FX Transaction Capture"	"BQ FXTransaction Capture Instance Record"	Business Service
+""	4	"out"	"FXTransaction Capture Postconditions"	"BQ FXTransaction Capture Instance Record"	String
+""	5	"out"	"FXTransaction Capture FX Transaction Capture Service Type"	"BQ FXTransaction Capture Instance Record"	String
+""	6	"out"	"FXTransaction Capture FX Transaction Capture Service Description"	"BQ FXTransaction Capture Instance Record"	String
+""	7	"out"	"FXTransaction Capture FX Transaction Capture Service Inputs and Ouputs"	"BQ FXTransaction Capture Instance Record"	String
+""	8	"out"	"FXTransaction Capture FX Transaction Capture Service Work Product"	"BQ FXTransaction Capture Instance Record"	String
+""	9	"out"	"FXTransaction Capture FX Transaction Capture Service Name"	"BQ FXTransaction Capture Instance Record"	String
+""
+"Get"	"/currency-exchange/{sd-identifier}/fxtransaction-pricing/{crbq-identifier}/retrieval"
+""	1	"out"	"FXTransaction Pricing Preconditions"	"BQ FXTransaction Pricing Instance Record"	String
+""	2	"out"	"FXTransaction Pricing Task Schedule"	"BQ FXTransaction Pricing Instance Record"	String
+""	3	"out"	"OTC FX Transaction Pricing"	"BQ FXTransaction Pricing Instance Record"	Business Service
+""	4	"out"	"FXTransaction Pricing Postconditions"	"BQ FXTransaction Pricing Instance Record"	String
+""	5	"out"	"FXTransaction Pricing OTC FX Transaction Pricing Service Type"	"BQ FXTransaction Pricing Instance Record"	String
+""	6	"out"	"FXTransaction Pricing OTC FX Transaction Pricing Service Description"	"BQ FXTransaction Pricing Instance Record"	String
+""	7	"out"	"FXTransaction Pricing OTC FX Transaction Pricing Service Inputs and Ouputs"	"BQ FXTransaction Pricing Instance Record"	String
+""	8	"out"	"FXTransaction Pricing OTC FX Transaction Pricing Service Work Product"	"BQ FXTransaction Pricing Instance Record"	String
+""	9	"out"	"FXTransaction Pricing OTC FX Transaction Pricing Service Name"	"BQ FXTransaction Pricing Instance Record"	String
+""
+"Get"	"/currency-exchange/{sd-identifier}/currency-exchange-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Currency Exchange Transaction Parameter Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	2	"out"	"Currency Exchange Transaction Selected Option"	"CR Currency Exchange Transaction Instance Record"	String
+""	3	"out"	"Currency Exchange Transaction Status"	"CR Currency Exchange Transaction Instance Record"	String
+""	4	"out"	"Currency Exchange Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	5	"out"	"Currency Exchange Transaction Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/currency-exchange-transaction/{crbq-identifier}/requisition"
+""	1	"inout"	"Currency Exchange Transaction Parameter Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	2	"inout"	"Currency Exchange Transaction Selected Option"	"CR Currency Exchange Transaction Instance Record"	String
+""	3	"inout"	"Currency Exchange Transaction Status"	"CR Currency Exchange Transaction Instance Record"	String
+""	4	"in"	"Currency Exchange Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	5	"in"	"Currency Exchange Transaction Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/document-handling/{crbq-identifier}/update"
+""	1	"inout"	"Document Handling Preconditions"	"BQ Document Handling Instance Record"	String
+""	2	"inout"	"Document Handling Task Schedule"	"BQ Document Handling Instance Record"	String
+""	3	"inout"	"Document Services"	"BQ Document Handling Instance Record"	Business Service
+""	4	"inout"	"Document Handling Postconditions"	"BQ Document Handling Instance Record"	String
+""	5	"inout"	"Document Handling Document Services Service Type"	"BQ Document Handling Instance Record"	String
+""	6	"inout"	"Document Handling Document Services Service Description"	"BQ Document Handling Instance Record"	String
+""	7	"inout"	"Document Handling Document Services Service Inputs and Ouputs"	"BQ Document Handling Instance Record"	String
+""	8	"inout"	"Document Handling Document Services Service Work Product"	"BQ Document Handling Instance Record"	String
+""	9	"inout"	"Document Handling Document Services Service Name"	"BQ Document Handling Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/fxtransaction-capture/{crbq-identifier}/update"
+""	1	"inout"	"FXTransaction Capture Preconditions"	"BQ FXTransaction Capture Instance Record"	String
+""	2	"inout"	"FXTransaction Capture Task Schedule"	"BQ FXTransaction Capture Instance Record"	String
+""	3	"inout"	"FX Transaction Capture"	"BQ FXTransaction Capture Instance Record"	Business Service
+""	4	"inout"	"FXTransaction Capture Postconditions"	"BQ FXTransaction Capture Instance Record"	String
+""	5	"inout"	"FXTransaction Capture FX Transaction Capture Service Type"	"BQ FXTransaction Capture Instance Record"	String
+""	6	"inout"	"FXTransaction Capture FX Transaction Capture Service Description"	"BQ FXTransaction Capture Instance Record"	String
+""	7	"inout"	"FXTransaction Capture FX Transaction Capture Service Inputs and Ouputs"	"BQ FXTransaction Capture Instance Record"	String
+""	8	"inout"	"FXTransaction Capture FX Transaction Capture Service Work Product"	"BQ FXTransaction Capture Instance Record"	String
+""	9	"inout"	"FXTransaction Capture FX Transaction Capture Service Name"	"BQ FXTransaction Capture Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/fxtransaction-pricing/{crbq-identifier}/update"
+""	1	"inout"	"FXTransaction Pricing Preconditions"	"BQ FXTransaction Pricing Instance Record"	String
+""	2	"inout"	"FXTransaction Pricing Task Schedule"	"BQ FXTransaction Pricing Instance Record"	String
+""	3	"inout"	"OTC FX Transaction Pricing"	"BQ FXTransaction Pricing Instance Record"	Business Service
+""	4	"inout"	"FXTransaction Pricing Postconditions"	"BQ FXTransaction Pricing Instance Record"	String
+""	5	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Type"	"BQ FXTransaction Pricing Instance Record"	String
+""	6	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Description"	"BQ FXTransaction Pricing Instance Record"	String
+""	7	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Inputs and Ouputs"	"BQ FXTransaction Pricing Instance Record"	String
+""	8	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Work Product"	"BQ FXTransaction Pricing Instance Record"	String
+""	9	"inout"	"FXTransaction Pricing OTC FX Transaction Pricing Service Name"	"BQ FXTransaction Pricing Instance Record"	String
+""
+"Put"	"/currency-exchange/{sd-identifier}/currency-exchange-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Currency Exchange Transaction Parameter Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	2	"inout"	"Currency Exchange Transaction Selected Option"	"CR Currency Exchange Transaction Instance Record"	String
+""	3	"inout"	"Currency Exchange Transaction Status"	"CR Currency Exchange Transaction Instance Record"	String
+""	4	"in"	"Currency Exchange Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String
+""	5	"in"	"Currency Exchange Transaction Transaction Type"	"CR Currency Exchange Transaction Instance Record"	String

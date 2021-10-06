@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Instrument Valuation Models"
+"Business Area"	Business Development
+"Business Domain"	Models And Analytics
+"Service Domain"	Financial Instrument Valuation Models
+"Role Definition"	"Develop and maintain a portfolio of valuation models considering currency, interest rate, instrument quotes, indices, commodity prices and other market, liquidity and credit risk factors. Support the use of these models in trading and pricing activity"
+"Example of use"	"Financial engineers assess the coverage and currency of the portfolio of valuation models and update certain models accordingly"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	MarketAssetValuationModel
+"Generic Artifact"	Specification
+"Control Record"	MarketAssetValuationModelSpecification
+"Registration Status"	Registered

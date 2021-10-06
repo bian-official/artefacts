@@ -1,0 +1,13 @@
+"Service Domain specification for Party Reference Data Directory"
+"Business Area"	Customers
+"Business Domain"	Party Reference
+"Service Domain"	Party Reference Data Directory
+"Role Definition"	"The party reference data directory service domain maintains a potentially wide range of party reference data that might be used in any interaction between the bank and the party including relationship development, sales/marketing, servicing and product delivery. This can include general reference and contact details, party associations, demographic details and some servicing preferences. Different information may be maintained for different party types such as individuals, corporates, partners"
+"Example of use"	"Example of use:. Party reference details are accessed to pre-populate an application form for a new product opportunity with a customer"
+"Executive Summary"	"This service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information"
+"Key Features"	"Maintain party reference information. Maintain party demographic indicators. Maintain party roles, associations and relationships. Maintain customer bank contacts"
+"Functional Pattern"	Catalog
+"Asset Type"	PartyReferenceData
+"Generic Artifact"	DirectoryEntry
+"Control Record"	PartyReferenceDataDirectoryEntry
+"Registration Status"	Registered

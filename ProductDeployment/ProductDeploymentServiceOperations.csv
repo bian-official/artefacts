@@ -1,0 +1,303 @@
+"Service Operations for: "	Product Deployment
+""
+"POST"	"/product-deployment/activation"
+"PUT"	"/product-deployment/{sd-reference-id}/configuration"
+"PUT"	"/product-deployment/{sd-reference-id}/feedback"
+""
+"Post"	"/product-deployment/{sd-identifier}/productandservice-deployment-development/{crbq-identifier}/creation"
+""	1	"inout"	"Product/Service Deployment Project Name"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Project Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Project Description"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	8	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/productandservice-deployment-development/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Deployment Project Name"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Project Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Project Description"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	8	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/productandservice-deployment-development/{crbq-identifier}/control"
+""
+"Put"	"/product-deployment/{sd-identifier}/productandservice-deployment-development/{crbq-identifier}/exchange"
+""
+"Put"	"/product-deployment/{sd-identifier}/productandservice-deployment-development/{crbq-identifier}/capture"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/productandservice-deployment-development/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Deployment Project Name"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Project Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Project Description"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	8	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/productandservice-deployment-development/{crbq-identifier}/grant"
+""
+"Get"	"/product-deployment/{sd-identifier}/productandservice-deployment-development/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Deployment Project Name"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"out"	"Product/Service Deployment Project Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"out"	"Product/Service Deployment Project Description"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"out"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"out"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"out"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	7	"out"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	8	"out"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/systems/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Systems Requirements"	"BQ Systems Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Systems Requirements Work Products"	"BQ Systems Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Systems Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Systems Requirements Task Specification"	"BQ Systems Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/systems/{crbq-identifier}/exchange"
+""
+"Put"	"/product-deployment/{sd-identifier}/systems/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Systems Requirements"	"BQ Systems Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Systems Requirements Work Products"	"BQ Systems Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Systems Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Systems Requirements Task Specification"	"BQ Systems Instance Record"	String
+""
+"Get"	"/product-deployment/{sd-identifier}/systems/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"out"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"out"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"out"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"out"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"out"	"Product/Service Deployment Systems Requirements"	"BQ Systems Instance Record"	String
+""	7	"out"	"Product/Service Deployment Systems Requirements Work Products"	"BQ Systems Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ Systems Instance Record"	Object
+""	9	"out"	"Product/Service Deployment Systems Requirements Task Specification"	"BQ Systems Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/it-operations/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment IT Operations Requirements"	"BQ IT Operations Instance Record"	String
+""	7	"inout"	"Product/Service Deployment IT Operations Requirements Work Products"	"BQ IT Operations Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ IT Operations Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment IT Operations Requirements Task Specification"	"BQ IT Operations Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/it-operations/{crbq-identifier}/exchange"
+""
+"Put"	"/product-deployment/{sd-identifier}/it-operations/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment IT Operations Requirements"	"BQ IT Operations Instance Record"	String
+""	7	"inout"	"Product/Service Deployment IT Operations Requirements Work Products"	"BQ IT Operations Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ IT Operations Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment IT Operations Requirements Task Specification"	"BQ IT Operations Instance Record"	String
+""
+"Get"	"/product-deployment/{sd-identifier}/it-operations/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"out"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"out"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"out"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"out"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"out"	"Product/Service Deployment IT Operations Requirements"	"BQ IT Operations Instance Record"	String
+""	7	"out"	"Product/Service Deployment IT Operations Requirements Work Products"	"BQ IT Operations Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ IT Operations Instance Record"	Object
+""	9	"out"	"Product/Service Deployment IT Operations Requirements Task Specification"	"BQ IT Operations Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/hr-operations/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment HR Operations Requirements"	"BQ HR Operations Instance Record"	String
+""	7	"inout"	"Product/Service Deployment HR Operations Requirements Work Products"	"BQ HR Operations Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ HR Operations Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment HR Operations Requirements Task Specification"	"BQ HR Operations Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/hr-operations/{crbq-identifier}/exchange"
+""
+"Put"	"/product-deployment/{sd-identifier}/hr-operations/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment HR Operations Requirements"	"BQ HR Operations Instance Record"	String
+""	7	"inout"	"Product/Service Deployment HR Operations Requirements Work Products"	"BQ HR Operations Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ HR Operations Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment HR Operations Requirements Task Specification"	"BQ HR Operations Instance Record"	String
+""
+"Get"	"/product-deployment/{sd-identifier}/hr-operations/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"out"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"out"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"out"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"out"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"out"	"Product/Service Deployment HR Operations Requirements"	"BQ HR Operations Instance Record"	String
+""	7	"out"	"Product/Service Deployment HR Operations Requirements Work Products"	"BQ HR Operations Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ HR Operations Instance Record"	Object
+""	9	"out"	"Product/Service Deployment HR Operations Requirements Task Specification"	"BQ HR Operations Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/sales-and-marketing/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Sales and Marketing Requirements"	"BQ Sales and Marketing Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Sales and Marketing Requirements Work Products"	"BQ Sales and Marketing Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Sales and Marketing Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Sales and Marketing Requirements Task Specification"	"BQ Sales and Marketing Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/sales-and-marketing/{crbq-identifier}/exchange"
+""
+"Put"	"/product-deployment/{sd-identifier}/sales-and-marketing/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Sales and Marketing Requirements"	"BQ Sales and Marketing Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Sales and Marketing Requirements Work Products"	"BQ Sales and Marketing Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Sales and Marketing Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Sales and Marketing Requirements Task Specification"	"BQ Sales and Marketing Instance Record"	String
+""
+"Get"	"/product-deployment/{sd-identifier}/sales-and-marketing/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"out"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"out"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"out"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"out"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"out"	"Product/Service Deployment Sales and Marketing Requirements"	"BQ Sales and Marketing Instance Record"	String
+""	7	"out"	"Product/Service Deployment Sales and Marketing Requirements Work Products"	"BQ Sales and Marketing Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ Sales and Marketing Instance Record"	Object
+""	9	"out"	"Product/Service Deployment Sales and Marketing Requirements Task Specification"	"BQ Sales and Marketing Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/servicing/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Servicing Requirements"	"BQ Servicing Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Servicing Requirements Work Products"	"BQ Servicing Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Servicing Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Servicing Requirements Task Specification"	"BQ Servicing Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/servicing/{crbq-identifier}/exchange"
+""
+"Put"	"/product-deployment/{sd-identifier}/servicing/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Servicing Requirements"	"BQ Servicing Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Servicing Requirements Work Products"	"BQ Servicing Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Servicing Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Servicing Requirements Task Specification"	"BQ Servicing Instance Record"	String
+""
+"Get"	"/product-deployment/{sd-identifier}/servicing/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"out"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"out"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"out"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"out"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"out"	"Product/Service Deployment Servicing Requirements"	"BQ Servicing Instance Record"	String
+""	7	"out"	"Product/Service Deployment Servicing Requirements Work Products"	"BQ Servicing Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ Servicing Instance Record"	Object
+""	9	"out"	"Product/Service Deployment Servicing Requirements Task Specification"	"BQ Servicing Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/production/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Production Requirements"	"BQ Production Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Production Requirements Work Products"	"BQ Production Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Production Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Production Requirements Task Specification"	"BQ Production Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/production/{crbq-identifier}/exchange"
+""
+"Put"	"/product-deployment/{sd-identifier}/production/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Production Requirements"	"BQ Production Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Production Requirements Work Products"	"BQ Production Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Production Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Production Requirements Task Specification"	"BQ Production Instance Record"	String
+""
+"Get"	"/product-deployment/{sd-identifier}/production/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"out"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"out"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"out"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"out"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"out"	"Product/Service Deployment Production Requirements"	"BQ Production Instance Record"	String
+""	7	"out"	"Product/Service Deployment Production Requirements Work Products"	"BQ Production Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ Production Instance Record"	Object
+""	9	"out"	"Product/Service Deployment Production Requirements Task Specification"	"BQ Production Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/production-support/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Production Support Requirements"	"BQ Production Support Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Production Support Requirements Work Products"	"BQ Production Support Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Production Support Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Production Support Requirements Task Specification"	"BQ Production Support Instance Record"	String
+""
+"Put"	"/product-deployment/{sd-identifier}/production-support/{crbq-identifier}/exchange"
+""
+"Put"	"/product-deployment/{sd-identifier}/production-support/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"inout"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"inout"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"inout"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"inout"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"inout"	"Product/Service Deployment Production Support Requirements"	"BQ Production Support Instance Record"	String
+""	7	"inout"	"Product/Service Deployment Production Support Requirements Work Products"	"BQ Production Support Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Production Support Instance Record"	Object
+""	9	"inout"	"Product/Service Deployment Production Support Requirements Task Specification"	"BQ Production Support Instance Record"	String
+""
+"Get"	"/product-deployment/{sd-identifier}/production-support/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Deployment Implementation Plan"	"CR ProductandService Deployment Development Instance Record"	String
+""	2	"out"	"Product/Service Deployment Budget"	"CR ProductandService Deployment Development Instance Record"	String
+""	3	"out"	"Product/Service Deployment Organization"	"CR ProductandService Deployment Development Instance Record"	String
+""	4	"out"	"Product/Service Deployment Schedule"	"CR ProductandService Deployment Development Instance Record"	String
+""	5	"out"	"Date Type"	"CR ProductandService Deployment Development Instance Record"	String
+""	6	"out"	"Product/Service Deployment Production Support Requirements"	"BQ Production Support Instance Record"	String
+""	7	"out"	"Product/Service Deployment Production Support Requirements Work Products"	"BQ Production Support Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ Production Support Instance Record"	Object
+""	9	"out"	"Product/Service Deployment Production Support Requirements Task Specification"	"BQ Production Support Instance Record"	String

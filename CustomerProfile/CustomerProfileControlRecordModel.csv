@@ -1,0 +1,19 @@
+"Control Record Model for: "	Customer Profile
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Alert Instance Record	""	""	""
+"BQ"	BQ Alert Instance Record	Customer Relationship Alert Type	"Defines the type of alert (e.g. detected potential fraud)"	String
+"BQ"	BQ Alert Instance Record	Customer Relationship Alert	"The maintained alert value (historical values may be retained as appropriate)"	String
+"BQ"	BQ Alert Instance Record	Customer Relationship Alert Narrative	"Explanation/description for given alert value if necessary"	String
+"BQ"	BQ Alert Instance Record	Customer Relationship Alert Valid From/To Date	"Indication when the alert value is updated and time until given value applies/is relevant as appropriate"	Date
+"BQ"	BQ Status Instance Record	""	""	""
+"BQ"	BQ Status Instance Record	Customer Relationship Status Type	"Defines the type of status (e.g. account in distress)"	String
+"BQ"	BQ Status Instance Record	Customer Relationship Status	"The maintained state value (historical values may be retained as appropriate)"	String
+"BQ"	BQ Status Instance Record	Customer Relationship Status Narrative	"Explanation/description for given status value if necessary"	String
+"BQ"	BQ Status Instance Record	Customer Relationship Status Valid From/To Date	"Indication when the status value is updated and time until given value applies/is relevant as appropriate"	Date
+"CR"	CR Party State Instance Record	""	""	""
+"CR"	CR Party State Instance Record	Customer Reference	"Reference to the customer for the profile"	Object
+"BQ"	BQ Rating Instance Record	""	""	""
+"BQ"	BQ Rating Instance Record	Customer Relationship Rating Type	"Defines the type of rating (e.g. credit rating)"	String
+"BQ"	BQ Rating Instance Record	Customer Relationship Rating	"The maintained rating value (historical values may be retained as appropriate)"	String
+"BQ"	BQ Rating Instance Record	Customer Relationship Rating Narrative	"Explanation/description for given rating value if necessary"	String
+"BQ"	BQ Rating Instance Record	Customer Relationship Rating Valid From/To Date	"Indication when the rate value is updated and time until given value applies/is relevant as appropriate"	Date

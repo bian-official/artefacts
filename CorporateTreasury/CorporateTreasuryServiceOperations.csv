@@ -1,0 +1,68 @@
+"Service Operations for: "	Corporate Treasury
+""
+"POST"	"/corporate-treasury/activation"
+"PUT"	"/corporate-treasury/{sd-reference-id}/configuration"
+"PUT"	"/corporate-treasury/{sd-reference-id}/feedback"
+""
+"Put"	"/corporate-treasury/{sd-identifier}/corporate-treasury-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Treasury Planning Policies & Guidelines"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	2	"inout"	"Treasury Plan Operating Parameters"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	3	"inout"	"Treasury Plan Goals"	"CR Corporate Treasury Management Plan Instance Record"	String
+""
+"Put"	"/corporate-treasury/{sd-identifier}/corporate-treasury-management-plan/{crbq-identifier}/capture"
+""
+"Get"	"/corporate-treasury/{sd-identifier}/corporate-treasury-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Treasury Planning Policies & Guidelines"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	2	"out"	"Treasury Plan Operating Parameters"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	3	"out"	"Treasury Plan Goals"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	4	"out"	"Enterprise Financial Statements"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	5	"out"	"Enterprise Balance Sheet Detailed Content"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	6	"out"	"Enterprise Bank Accounting & Cash Management Records"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	7	"out"	"Capital/Wholesale Market Transactions"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	8	"out"	"Currency and Rate Risk Analysis"	"CR Corporate Treasury Management Plan Instance Record"	Rate
+""
+"Put"	"/corporate-treasury/{sd-identifier}/liquidity/{crbq-identifier}/capture"
+""	1	"in"	"Enterprise Large Payment Transaction Records"	"BQ Liquidity Instance Record"	String
+""
+"Get"	"/corporate-treasury/{sd-identifier}/liquidity/{crbq-identifier}/retrieval"
+""	1	"out"	"Enterprise Bank Accounting & Cash Management Records"	"CR Corporate Treasury Management Plan Instance Record"	String
+""	2	"out"	"Currency and Rate Risk Analysis"	"CR Corporate Treasury Management Plan Instance Record"	Rate
+""	3	"out"	"Enterprise Liquidity/Cash Management Analysis"	"BQ Liquidity Instance Record"	String
+""	4	"out"	"Enterprise Large Payment Transaction Records"	"BQ Liquidity Instance Record"	String
+""	5	"out"	"Business Unit Financial Reports"	"BQ Liquidity Instance Record"	String
+""	6	"out"	"Liquidity Resolution Task"	"BQ Liquidity Instance Record"	String
+""
+"Get"	"/corporate-treasury/{sd-identifier}/tactical-funding/{crbq-identifier}/retrieval"
+""	1	"out"	"Capital Adequacy Requirements"	"BQ Tactical Funding Instance Record"	String
+""	2	"out"	"Bank Positions and Hedging Requirements"	"BQ Tactical Funding Instance Record"	String
+""	3	"out"	"Enterprise Balance Sheet Positions"	"BQ Tactical Funding Instance Record"	String
+""	4	"out"	"Tactical Funding Resolution Task"	"BQ Tactical Funding Instance Record"	String
+""
+"Put"	"/corporate-treasury/{sd-identifier}/strategic-funding/{crbq-identifier}/capture"
+""	1	"in"	"ECM/DCM Market Transactions"	"BQ Strategic Funding Instance Record"	String
+""	2	"in"	"Strategic Investment Holdings/Transactions"	"BQ Strategic Funding Instance Record"	String
+""
+"Get"	"/corporate-treasury/{sd-identifier}/strategic-funding/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Performance and Balance Sheet Projections"	"BQ Strategic Funding Instance Record"	String
+""	2	"out"	"ECM/DCM Market Transactions"	"BQ Strategic Funding Instance Record"	String
+""	3	"out"	"Strategic Investment Holdings/Transactions"	"BQ Strategic Funding Instance Record"	String
+""	4	"out"	"Enterprise Balance Sheet Positions"	"BQ Strategic Funding Instance Record"	String
+""	5	"out"	"Strategic Funding Resolution Task"	"BQ Strategic Funding Instance Record"	String
+""
+"Put"	"/corporate-treasury/{sd-identifier}/securitization/{crbq-identifier}/update"
+""	1	"inout"	"Securitization Tranche Record"	"BQ Securitization Instance Record"	String
+""	2	"inout"	"Securitization Task"	"BQ Securitization Instance Record"	String
+""
+"Get"	"/corporate-treasury/{sd-identifier}/securitization/{crbq-identifier}/retrieval"
+""	1	"out"	"Bank Securitization Policies and guidelines"	"BQ Securitization Instance Record"	String
+""	2	"out"	"Securitization Tranche Reference"	"BQ Securitization Instance Record"	Object
+""	3	"out"	"Securitization Tranche Record"	"BQ Securitization Instance Record"	String
+""	4	"out"	"Securitization Task"	"BQ Securitization Instance Record"	String
+""
+"Get"	"/corporate-treasury/{sd-identifier}/bank-rates/{crbq-identifier}/retrieval"
+""	1	"out"	"Bank Rate Type"	"BQ Bank Rates Instance Record"	String
+""	2	"out"	"Bank Rate Value"	"BQ Bank Rates Instance Record"	Rate
+""	3	"out"	"Bank Rate Value Date"	"BQ Bank Rates Instance Record"	Date
+""	4	"out"	"Bank Rate Value History"	"BQ Bank Rates Instance Record"	Rate
+""	5	"out"	"Bank Rate Record Reference"	"BQ Bank Rates Instance Record"	Object
+""	6	"out"	"Bank Rate Record Date"	"BQ Bank Rates Instance Record"	Date

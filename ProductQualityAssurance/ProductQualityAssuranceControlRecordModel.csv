@@ -1,0 +1,57 @@
+"Control Record Model for: "	Product Quality Assurance
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Product and  Service Assessment Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Quality Assurance. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Parameter Type	"A Classification value that distinguishes between Assessments according to type of concern defined within Product and  Service Assessment . Eg Market Analysis, Risk Analysis, Perfomance Analysis, etc."	String
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Selected Option	"A selected optional business service as subject matter of assessment"	String
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Type	"The type of Product and  Service Assessment"	String
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Reference	"Reference to Product and  Service Assessment"	Object
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Request	"Request to assess ProductandService"	String
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Schedule	"Timetable to assess ProductandService"	String
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Status	"The status of Product and  Service Assessment"	String
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Usage Log	"Reference to the log of (usage) ativities/events of Product and  Service Assessment"	String
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Associated Party	"Party who is involved in Product and  Service Assessment"	String
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment ServiceProvider Reference	"Reference to the party who has provided Product and  Service Assessment"	Object
+"CR"	CR Product and  Service Assessment Instance Record	Product and  Service Assessment Requester Reference	"Reference to the party who has requested Product and  Service Assessment"	Object
+"BQ"	BQ Product Quality Assurance Outcome Instance Record	""	""	""
+"BQ"	BQ Product Quality Assurance Outcome Instance Record	Product Quality Assurance Work Product	""	String
+"BQ"	BQ Product Quality Assurance Outcome Instance Record	Product Quality Assurance Assessment Type	""	String
+"BQ"	BQ Usability Checks Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Quality Assurance. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Usability Checks Instance Record	Usability Checks Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Usability Checks Instance Record	Usability Checks Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Usability Checks Instance Record	Usability Checks Version Number	"The test version employed"	String
+"BQ"	BQ Usability Checks Instance Record	Usability Checks	"The Product and  Service Assessment specific  Business Service"	Business Service
+"BQ"	BQ Usability Checks Instance Record	Usability Checks Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Usability Checks Instance Record	Usability Checks Service Description	"Description of the performed business service"	String
+"BQ"	BQ Usability Checks Instance Record	Usability Checks Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Usability Checks Instance Record	Usability Checks Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Usability Checks Instance Record	Usability Checks Service Name	""	String
+"BQ"	BQ Functional Consistency Checks Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Quality Assurance. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks Version Number	"The test version employed"	String
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks	"The Product and  Service Assessment specific  Business Service"	Business Service
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks Service Description	"Description of the performed business service"	String
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Functional Consistency Checks Instance Record	Functional Consistency Checks Service Name	""	String
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Quality Assurance. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and  Performance Checks Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and  Performance Checks Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and  Performance Checks Version Number	"The test version employed"	String
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and Performance Checks	"The Product and  Service Assessment specific  Business Service"	Business Service
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and Performance Checks Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and Performance Checks Service Description	"Description of the performed business service"	String
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and Performance Checks Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and Performance Checks Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Resiliency and  Performance Checks Instance Record	Resiliency and Performance Checks Service Name	""	String
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Quality Assurance. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and  Integrity Checks Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and  Integrity Checks Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and  Integrity Checks Version Number	"The test version employed"	String
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and Integrity Checks	"The Product and  Service Assessment specific  Business Service"	Business Service
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and Integrity Checks Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and Integrity Checks Service Description	"Description of the performed business service"	String
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and Integrity Checks Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and Integrity Checks Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Processing Error and  Integrity Checks Instance Record	Processing Error and Integrity Checks Service Name	""	String

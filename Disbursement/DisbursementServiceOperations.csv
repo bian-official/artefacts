@@ -1,0 +1,69 @@
+"Service Operations for: "	Disbursement
+""
+"POST"	"/disbursement/activation"
+"PUT"	"/disbursement/{sd-reference-id}/configuration"
+"PUT"	"/disbursement/{sd-reference-id}/feedback"
+""
+"Post"	"/disbursement/{sd-identifier}/disbursement-transaction/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	2	"in"	"Authorizing Employee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	4	"in"	"Funding Account Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	5	"in"	"Payee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	6	"in"	"Payee Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	7	"in"	"Payee Bank Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	8	"in"	"Amount"	"CR Disbursement Transaction Instance Record"	String
+""	9	"in"	"Currency"	"CR Disbursement Transaction Instance Record"	String
+""	10	"inout"	"Value Date"	"CR Disbursement Transaction Instance Record"	Date
+""
+"Put"	"/disbursement/{sd-identifier}/disbursement-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	2	"inout"	"Authorizing Employee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	3	"inout"	"Customer Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	4	"inout"	"Funding Account Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	5	"inout"	"Payee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	6	"inout"	"Payee Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	7	"inout"	"Payee Bank Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	8	"inout"	"Amount"	"CR Disbursement Transaction Instance Record"	String
+""	9	"inout"	"Currency"	"CR Disbursement Transaction Instance Record"	String
+""	10	"inout"	"Value Date"	"CR Disbursement Transaction Instance Record"	Date
+""
+"Put"	"/disbursement/{sd-identifier}/disbursement-transaction/{crbq-identifier}/control"
+""
+"Put"	"/disbursement/{sd-identifier}/disbursement-transaction/{crbq-identifier}/exchange"
+""
+"Put"	"/disbursement/{sd-identifier}/disbursement-transaction/{crbq-identifier}/execution"
+""	1	"inout"	"Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	2	"inout"	"Authorizing Employee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	3	"inout"	"Customer Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	4	"inout"	"Funding Account Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	5	"inout"	"Payee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	6	"inout"	"Payee Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	7	"inout"	"Payee Bank Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	8	"inout"	"Amount"	"CR Disbursement Transaction Instance Record"	String
+""	9	"inout"	"Currency"	"CR Disbursement Transaction Instance Record"	String
+""	10	"inout"	"Value Date"	"CR Disbursement Transaction Instance Record"	Date
+""
+"Put"	"/disbursement/{sd-identifier}/disbursement-transaction/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	2	"inout"	"Authorizing Employee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	3	"inout"	"Customer Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	4	"inout"	"Funding Account Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	5	"inout"	"Payee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	6	"inout"	"Payee Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	7	"inout"	"Payee Bank Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	8	"inout"	"Amount"	"CR Disbursement Transaction Instance Record"	String
+""	9	"inout"	"Currency"	"CR Disbursement Transaction Instance Record"	String
+""	10	"inout"	"Value Date"	"CR Disbursement Transaction Instance Record"	Date
+""
+"Get"	"/disbursement/{sd-identifier}/disbursement-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	2	"out"	"Authorizing Employee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	4	"out"	"Funding Account Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	5	"out"	"Payee Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	6	"out"	"Payee Product Instance Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	7	"out"	"Payee Bank Reference"	"CR Disbursement Transaction Instance Record"	Object
+""	8	"out"	"Amount"	"CR Disbursement Transaction Instance Record"	String
+""	9	"out"	"Currency"	"CR Disbursement Transaction Instance Record"	String
+""	10	"out"	"Value Date"	"CR Disbursement Transaction Instance Record"	Date

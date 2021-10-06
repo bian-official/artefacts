@@ -1,0 +1,137 @@
+"Service Operations for: "	Customer Campaign Design
+""
+"POST"	"/customer-campaign-design/activation"
+"PUT"	"/customer-campaign-design/{sd-reference-id}/configuration"
+"PUT"	"/customer-campaign-design/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-campaign-design/{sd-identifier}/customer-campaign-specification/{crbq-identifier}/creation"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Specification Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Specification Instance Record"	String
+""	3	"inout"	"Customer Campaign Metrics"	"CR Customer Campaign Specification Instance Record"	String
+""	4	"inout"	"Customer Campaign Metric Definition"	"CR Customer Campaign Specification Instance Record"	String
+""	5	"inout"	"Customer Campaign Metric Goal"	"CR Customer Campaign Specification Instance Record"	String
+""	6	"out"	"Customer Campaign Product/Service Usage"	"CR Customer Campaign Specification Instance Record"	String
+""	7	"out"	"Customer Campaign Product/Service Type"	"CR Customer Campaign Specification Instance Record"	String
+""	8	"out"	"Product/Service Campaign Engagement Description"	"CR Customer Campaign Specification Instance Record"	String
+""	9	"out"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Customer Campaign Specification Instance Record"	String
+""	10	"out"	"Customer Campaign Execution Guidelines"	"CR Customer Campaign Specification Instance Record"	String
+""	11	"out"	"Customer Campaign Eligibility"	"CR Customer Campaign Specification Instance Record"	String
+""	12	"out"	"Customer Campaign Qualifications"	"CR Customer Campaign Specification Instance Record"	String
+""	13	"out"	"Customer Campaign Interaction Guide"	"CR Customer Campaign Specification Instance Record"	String
+""	14	"out"	"Customer Campaign Consumables"	"CR Customer Campaign Specification Instance Record"	String
+""	15	"out"	"Customer Campaign Consumable Type"	"CR Customer Campaign Specification Instance Record"	String
+""	16	"out"	"Customer Campaign Consumable Description"	"CR Customer Campaign Specification Instance Record"	String
+""	17	"inout"	"Customer Campaign Performance Record"	"CR Customer Campaign Specification Instance Record"	String
+""	18	"inout"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	19	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	20	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Specification Instance Record"	String
+""	21	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Specification Instance Record"	String
+""	22	"in"	"Customer Campaign Procedure Result"	"CR Customer Campaign Specification Instance Record"	String
+""
+"Put"	"/customer-campaign-design/{sd-identifier}/customer-campaign-specification/{crbq-identifier}/update"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Specification Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Specification Instance Record"	String
+""	3	"inout"	"Customer Campaign Metrics"	"CR Customer Campaign Specification Instance Record"	String
+""	4	"inout"	"Customer Campaign Metric Definition"	"CR Customer Campaign Specification Instance Record"	String
+""	5	"inout"	"Customer Campaign Metric Goal"	"CR Customer Campaign Specification Instance Record"	String
+""	6	"inout"	"Customer Campaign Product/Service Usage"	"CR Customer Campaign Specification Instance Record"	String
+""	7	"inout"	"Customer Campaign Product/Service Type"	"CR Customer Campaign Specification Instance Record"	String
+""	8	"inout"	"Product/Service Campaign Engagement Description"	"CR Customer Campaign Specification Instance Record"	String
+""	9	"inout"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Customer Campaign Specification Instance Record"	String
+""	10	"inout"	"Customer Campaign Execution Guidelines"	"CR Customer Campaign Specification Instance Record"	String
+""	11	"inout"	"Customer Campaign Eligibility"	"CR Customer Campaign Specification Instance Record"	String
+""	12	"inout"	"Customer Campaign Qualifications"	"CR Customer Campaign Specification Instance Record"	String
+""	13	"inout"	"Customer Campaign Interaction Guide"	"CR Customer Campaign Specification Instance Record"	String
+""	14	"inout"	"Customer Campaign Consumables"	"CR Customer Campaign Specification Instance Record"	String
+""	15	"inout"	"Customer Campaign Consumable Type"	"CR Customer Campaign Specification Instance Record"	String
+""	16	"inout"	"Customer Campaign Consumable Description"	"CR Customer Campaign Specification Instance Record"	String
+""	17	"inout"	"Customer Campaign Performance Record"	"CR Customer Campaign Specification Instance Record"	String
+""	18	"inout"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	19	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	20	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Specification Instance Record"	String
+""	21	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Specification Instance Record"	String
+""	22	"inout"	"Customer Campaign Procedure Result"	"CR Customer Campaign Specification Instance Record"	String
+""
+"Put"	"/customer-campaign-design/{sd-identifier}/customer-campaign-specification/{crbq-identifier}/control"
+""
+"Put"	"/customer-campaign-design/{sd-identifier}/customer-campaign-specification/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-campaign-design/{sd-identifier}/customer-campaign-specification/{crbq-identifier}/capture"
+""	1	"inout"	"Customer Campaign Performance Record"	"CR Customer Campaign Specification Instance Record"	String
+""	2	"inout"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	4	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Specification Instance Record"	String
+""	5	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Specification Instance Record"	String
+""	6	"in"	"Customer Campaign Procedure Result"	"CR Customer Campaign Specification Instance Record"	String
+""
+"Put"	"/customer-campaign-design/{sd-identifier}/customer-campaign-specification/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Specification Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Specification Instance Record"	String
+""	3	"inout"	"Customer Campaign Metrics"	"CR Customer Campaign Specification Instance Record"	String
+""	4	"inout"	"Customer Campaign Metric Definition"	"CR Customer Campaign Specification Instance Record"	String
+""	5	"inout"	"Customer Campaign Metric Goal"	"CR Customer Campaign Specification Instance Record"	String
+""	6	"out"	"Customer Campaign Product/Service Usage"	"CR Customer Campaign Specification Instance Record"	String
+""	7	"out"	"Customer Campaign Product/Service Type"	"CR Customer Campaign Specification Instance Record"	String
+""	8	"out"	"Product/Service Campaign Engagement Description"	"CR Customer Campaign Specification Instance Record"	String
+""	9	"out"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Customer Campaign Specification Instance Record"	String
+""	10	"out"	"Customer Campaign Execution Guidelines"	"CR Customer Campaign Specification Instance Record"	String
+""	11	"out"	"Customer Campaign Eligibility"	"CR Customer Campaign Specification Instance Record"	String
+""	12	"out"	"Customer Campaign Qualifications"	"CR Customer Campaign Specification Instance Record"	String
+""	13	"out"	"Customer Campaign Interaction Guide"	"CR Customer Campaign Specification Instance Record"	String
+""	14	"out"	"Customer Campaign Consumables"	"CR Customer Campaign Specification Instance Record"	String
+""	15	"out"	"Customer Campaign Consumable Type"	"CR Customer Campaign Specification Instance Record"	String
+""	16	"out"	"Customer Campaign Consumable Description"	"CR Customer Campaign Specification Instance Record"	String
+""	17	"inout"	"Customer Campaign Performance Record"	"CR Customer Campaign Specification Instance Record"	String
+""	18	"inout"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	19	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	20	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Specification Instance Record"	String
+""	21	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Specification Instance Record"	String
+""	22	"in"	"Customer Campaign Procedure Result"	"CR Customer Campaign Specification Instance Record"	String
+""
+"Put"	"/customer-campaign-design/{sd-identifier}/customer-campaign-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Specification Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Specification Instance Record"	String
+""	3	"inout"	"Customer Campaign Metrics"	"CR Customer Campaign Specification Instance Record"	String
+""	4	"inout"	"Customer Campaign Metric Definition"	"CR Customer Campaign Specification Instance Record"	String
+""	5	"inout"	"Customer Campaign Metric Goal"	"CR Customer Campaign Specification Instance Record"	String
+""	6	"out"	"Customer Campaign Product/Service Usage"	"CR Customer Campaign Specification Instance Record"	String
+""	7	"out"	"Customer Campaign Product/Service Type"	"CR Customer Campaign Specification Instance Record"	String
+""	8	"out"	"Product/Service Campaign Engagement Description"	"CR Customer Campaign Specification Instance Record"	String
+""	9	"out"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Customer Campaign Specification Instance Record"	String
+""	10	"out"	"Customer Campaign Execution Guidelines"	"CR Customer Campaign Specification Instance Record"	String
+""	11	"out"	"Customer Campaign Eligibility"	"CR Customer Campaign Specification Instance Record"	String
+""	12	"out"	"Customer Campaign Qualifications"	"CR Customer Campaign Specification Instance Record"	String
+""	13	"out"	"Customer Campaign Interaction Guide"	"CR Customer Campaign Specification Instance Record"	String
+""	14	"out"	"Customer Campaign Consumables"	"CR Customer Campaign Specification Instance Record"	String
+""	15	"out"	"Customer Campaign Consumable Type"	"CR Customer Campaign Specification Instance Record"	String
+""	16	"out"	"Customer Campaign Consumable Description"	"CR Customer Campaign Specification Instance Record"	String
+""	17	"inout"	"Customer Campaign Performance Record"	"CR Customer Campaign Specification Instance Record"	String
+""	18	"inout"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	19	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	20	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Specification Instance Record"	String
+""	21	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Specification Instance Record"	String
+""	22	"in"	"Customer Campaign Procedure Result"	"CR Customer Campaign Specification Instance Record"	String
+""
+"Get"	"/customer-campaign-design/{sd-identifier}/customer-campaign-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Campaign Type"	"CR Customer Campaign Specification Instance Record"	String
+""	2	"out"	"Customer Campaign Description"	"CR Customer Campaign Specification Instance Record"	String
+""	3	"out"	"Customer Campaign Metrics"	"CR Customer Campaign Specification Instance Record"	String
+""	4	"out"	"Customer Campaign Metric Definition"	"CR Customer Campaign Specification Instance Record"	String
+""	5	"out"	"Customer Campaign Metric Goal"	"CR Customer Campaign Specification Instance Record"	String
+""	6	"out"	"Customer Campaign Product/Service Usage"	"CR Customer Campaign Specification Instance Record"	String
+""	7	"out"	"Customer Campaign Product/Service Type"	"CR Customer Campaign Specification Instance Record"	String
+""	8	"out"	"Product/Service Campaign Engagement Description"	"CR Customer Campaign Specification Instance Record"	String
+""	9	"out"	"Product/Service Campaign Transfer Pricing Arrangement"	"CR Customer Campaign Specification Instance Record"	String
+""	10	"out"	"Customer Campaign Execution Guidelines"	"CR Customer Campaign Specification Instance Record"	String
+""	11	"out"	"Customer Campaign Eligibility"	"CR Customer Campaign Specification Instance Record"	String
+""	12	"out"	"Customer Campaign Qualifications"	"CR Customer Campaign Specification Instance Record"	String
+""	13	"out"	"Customer Campaign Interaction Guide"	"CR Customer Campaign Specification Instance Record"	String
+""	14	"out"	"Customer Campaign Consumables"	"CR Customer Campaign Specification Instance Record"	String
+""	15	"out"	"Customer Campaign Consumable Type"	"CR Customer Campaign Specification Instance Record"	String
+""	16	"out"	"Customer Campaign Consumable Description"	"CR Customer Campaign Specification Instance Record"	String
+""	17	"out"	"Customer Campaign Performance Record"	"CR Customer Campaign Specification Instance Record"	String
+""	18	"out"	"Customer Campaign Procedure Instance Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	19	"out"	"Employee/Business Unit Reference"	"CR Customer Campaign Specification Instance Record"	Object
+""	20	"out"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Specification Instance Record"	String
+""	21	"out"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Specification Instance Record"	String
+""	22	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Specification Instance Record"	String

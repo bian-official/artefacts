@@ -1,0 +1,13 @@
+"Service Domain specification for Correspondent Bank"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Correspondent Bank
+"Role Definition"	"This Service Domain handles incoming and outgoing payment clearing and settlement messages to the bank's correspondent banking partners. The actual message transmission is delegated to the Financial Message Gateway service domain. Correspondent Bank administers the mirror accounting for interbank payments undertaking the underlying account reconciliation tasks."
+"Example of use"	"Transfer funds from a customer account with the bank to an account with another bank."
+"Executive Summary"	"This service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners.  This includes handling the clearing and settlement of payments to/from the correspondent banks, typically using the SWIFT payment network."
+"Key Features"	"Handle correspondent payment transactions. Maintain and reconcile shadow accounting. Generate and process SWIFT messages"
+"Functional Pattern"	Fulfill
+"Asset Type"	CorrespondentBank
+"Generic Artifact"	Facility (rename)
+"Control Record"	CorrespondentBankArrangement
+"Registration Status"	Registered

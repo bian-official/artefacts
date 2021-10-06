@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Finance
+"Control Record Model for Corporate Finance is not defined"
+"POST"	"/corporate-finance/activation"
+"PUT"	"/corporate-finance/{sd-reference-id}/configuration"
+"PUT"	"/corporate-finance/{sd-reference-id}/feedback"

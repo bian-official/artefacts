@@ -1,0 +1,60 @@
+"Control Record Model for: "	Knowledge Exchange
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	""	"Operate equipment and/or a largely automated facility  within Knowledge Exchange. . Example: Operate the bank's internal intranet facility."	""
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session Schedule	"The timetable of Intellectual Property Exchange Operating Session"	String
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session Status	"The status of Intellectual Property Exchange Operating Session"	String
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session Usage Log	"Reference to the log of (usage) ativities/events  of Intellectual Property Exchange Operating Session"	String
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session Reference	"Reference to the party who is involved in Intellectual Property Exchange Operating Session"	Object
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session ServiceProvider Reference	"Reference to the party who provides the services of Intellectual Property Exchange Operating Session "	Object
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session Type	"A Classification value that distinguishes between the type of operations within Intellectual Property Exchange Operating Session "	String
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session Service Provider Schedule	"The schedule according to which the service provider will operate the Intellectual Property Exchange Operating Session"	String
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session Service Type	"A Classification value that distinguishes between the type of services within Intellectual Property Exchange Operating Session "	String
+"CR"	CR Intellectual Property Exchange Operating Session Instance Record	Intellectual Property Exchange Operating Session Service Configuration	"The configuration of Intellectual Property Exchange Operating Session"	String
+"BQ"	BQ Capture and  Classification Instance Record	""	"Operate equipment and/or a largely automated facility  within Knowledge Exchange. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Capture and  Classification Instance Record	Capture and  Classification Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Capture and  Classification Instance Record	Capture and  Classification Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Capture and  Classification Instance Record	Content Capture and Classification	"The Intellectual Property Exchange Operating Session specific Business Service"	Business Service
+"BQ"	BQ Capture and  Classification Instance Record	Content Capture and Classification Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Capture and  Classification Instance Record	Content Capture and Classification Service Description	"Description of the performed business service"	String
+"BQ"	BQ Capture and  Classification Instance Record	Content Capture and Classification Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Capture and  Classification Instance Record	Content Capture and Classification Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Capture and  Classification Instance Record	Content Capture and Classification Service Name	""	String
+"BQ"	BQ Indexing and  Publication Instance Record	""	"Operate equipment and/or a largely automated facility  within Knowledge Exchange. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Indexing and  Publication Instance Record	Indexing and  Publication Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Indexing and  Publication Instance Record	Indexing and  Publication Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Indexing and  Publication Instance Record	Content Indexing and Publication	"The Intellectual Property Exchange Operating Session specific Business Service"	Business Service
+"BQ"	BQ Indexing and  Publication Instance Record	Content Indexing and Publication Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Indexing and  Publication Instance Record	Content Indexing and Publication Service Description	"Description of the performed business service"	String
+"BQ"	BQ Indexing and  Publication Instance Record	Content Indexing and Publication Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Indexing and  Publication Instance Record	Content Indexing and Publication Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Indexing and  Publication Instance Record	Content Indexing and Publication Service Name	""	String
+"BQ"	BQ Review,Refinement and  Editing Instance Record	""	"Operate equipment and/or a largely automated facility  within Knowledge Exchange. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Review,Refinement and  Editing Instance Record	Review,Refinement and  Editing Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Review,Refinement and  Editing Instance Record	Review,Refinement and  Editing Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Review,Refinement and  Editing Instance Record	Content Review, Refinement and Editing	"The Intellectual Property Exchange Operating Session specific Business Service"	Business Service
+"BQ"	BQ Review,Refinement and  Editing Instance Record	Content Review, Refinement and Editing Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Review,Refinement and  Editing Instance Record	Content Review, Refinement and Editing Service Description	"Description of the performed business service"	String
+"BQ"	BQ Review,Refinement and  Editing Instance Record	Content Review, Refinement and Editing Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Review,Refinement and  Editing Instance Record	Content Review, Refinement and Editing Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Review,Refinement and  Editing Instance Record	Content Review, Refinement and Editing Service Name	""	String
+"BQ"	BQ Archiving Instance Record	""	"Operate equipment and/or a largely automated facility  within Knowledge Exchange. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Archiving Instance Record	Archiving Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Archiving Instance Record	Archiving Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Archiving Instance Record	Content Archiving	"The Intellectual Property Exchange Operating Session specific Business Service"	Business Service
+"BQ"	BQ Archiving Instance Record	Content Archiving Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Archiving Instance Record	Content Archiving Service Description	"Description of the performed business service"	String
+"BQ"	BQ Archiving Instance Record	Content Archiving Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Archiving Instance Record	Content Archiving Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Archiving Instance Record	Content Archiving Service Name	""	String
+"BQ"	BQ Knowledge Exchange Outcome Instance Record	""	""	""
+"BQ"	BQ Knowledge Exchange Outcome Instance Record	Knowledge Exchange Incident	""	String
+"BQ"	BQ Knowledge Exchange Outcome Instance Record	Knowledge Exchange Provision	""	String
+"BQ"	BQ Maintenance and  Access Administration Instance Record	""	"Operate equipment and/or a largely automated facility  within Knowledge Exchange. . Example: Operate the bank's internal intranet facility."	""
+"BQ"	BQ Maintenance and  Access Administration Instance Record	Maintenance and  Access Administration Preconditions	"The required status/situation and or tasks that need to be completed prior to the invocation of the feature"	String
+"BQ"	BQ Maintenance and  Access Administration Instance Record	Maintenance and  Access Administration Function Schedule	"The schedule and timing of the function"	String
+"BQ"	BQ Maintenance and  Access Administration Instance Record	Content Maintenance and Access Administration	"The Intellectual Property Exchange Operating Session specific Business Service"	Business Service
+"BQ"	BQ Maintenance and  Access Administration Instance Record	Content Maintenance and Access Administration Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Maintenance and  Access Administration Instance Record	Content Maintenance and Access Administration Service Description	"Description of the performed business service"	String
+"BQ"	BQ Maintenance and  Access Administration Instance Record	Content Maintenance and Access Administration Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Maintenance and  Access Administration Instance Record	Content Maintenance and Access Administration Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Maintenance and  Access Administration Instance Record	Content Maintenance and Access Administration Service Name	""	String

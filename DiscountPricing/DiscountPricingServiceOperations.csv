@@ -1,0 +1,5 @@
+"Service Operations for: "	Discount Pricing
+"Control Record Model for Discount Pricing is not defined"
+"POST"	"/discount-pricing/activation"
+"PUT"	"/discount-pricing/{sd-reference-id}/configuration"
+"PUT"	"/discount-pricing/{sd-reference-id}/feedback"

@@ -1,0 +1,5 @@
+"Service Operations for: "	Organization Direction
+"Control Record Model for Organization Direction is not defined"
+"POST"	"/organization-direction/activation"
+"PUT"	"/organization-direction/{sd-reference-id}/configuration"
+"PUT"	"/organization-direction/{sd-reference-id}/feedback"

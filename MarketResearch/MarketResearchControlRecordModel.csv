@@ -1,0 +1,13 @@
+"Control Record Model for: "	Market Research
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR General Market Research Directory Entry Instance Record	""	""	""
+"CR"	CR General Market Research Directory Entry Instance Record	General Market Research Viewpoint Type	"The type of research view provided by the research (e.g. competitor research)"	String
+"CR"	CR General Market Research Directory Entry Instance Record	General Market Research Viewpoint Description	"A description of the available market research consolidated for this maintained viewpoint"	String
+"CR"	CR General Market Research Directory Entry Instance Record	Referenced Market Research Record	"The externally sourced reports that are used to assemble the research viewpoint"	String
+"CR"	CR General Market Research Directory Entry Instance Record	Market Research Report Type Reference	"Reference to a specific type of predefined market research report or database"	String
+"CR"	CR General Market Research Directory Entry Instance Record	Market Research Report Type Definition	"Describes the available market research report content (e.g. customer social network usage analysis)"	String
+"CR"	CR General Market Research Directory Entry Instance Record	Market Research Report Version/Period	"Defines the version and period covered by the research"	String
+"CR"	CR General Market Research Directory Entry Instance Record	Market Research Report	"Is the content of the report or database in any suitable form"	String
+"CR"	CR General Market Research Directory Entry Instance Record	General Market Research Viewpoint Usage	"Usage record of the research viewpoint"	String
+"CR"	CR General Market Research Directory Entry Instance Record	Market Research Report Request	"Details of the research request"	String
+"CR"	CR General Market Research Directory Entry Instance Record	Employee/Business Unit Reference	"The employee/business unit requesting the research"	Object

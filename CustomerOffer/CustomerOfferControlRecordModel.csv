@@ -1,0 +1,66 @@
+"Control Record Model for: "	Customer Offer
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Facility Application Instance Record	""	"Information about the selected product features/options, schedule and agreed pricing and fees/penalties in the product application. . . "	""
+"BQ"	BQ Facility Application Instance Record	Facility Option	"Product feature selected in the customer offering. "	String
+"BQ"	BQ Facility Application Instance Record	Facility Option Description	"Description of the facility option"	String
+"BQ"	BQ Facility Application Instance Record	Facility Option Setting	"The option setting as agreed/defined with the customer"	String
+"BQ"	BQ Facility Application Instance Record	Facility Pricing	"The allowed pricing includes ranges by customer measures e.g. credit grade"	String
+"BQ"	BQ Facility Application Instance Record	Negotiation Guidelines/Rules	"Guidelines for the allowed situation-based pricing adjustments (to maximize margins)"	String
+"BQ"	BQ Facility Application Instance Record	Agreed Pricing	"The agreed pricing  (covers all negotiable prices/fees/penalties as necessary)"	String
+"BQ"	BQ Facility Application Instance Record	Pricing Adjustments	""	String
+"BQ"	BQ Facility Application Instance Record	Facility Schedule	"Duration of facility e.g., duration of loan"	String
+"CR"	CR Customer Offer Procedure Instance Record	""	"The customer offer procedure record, combines the result of all underlying work steps"	""
+"CR"	CR Customer Offer Procedure Instance Record	Customer Reference	"Reference to the associated customer (can currently be a person or a company)"	Object
+"CR"	CR Customer Offer Procedure Instance Record	Party Reference	"Reference to the legal entity (typically the customer)"	Object
+"CR"	CR Customer Offer Procedure Instance Record	ProductandService Type	"The type of product or service that is being offered"	String
+"CR"	CR Customer Offer Procedure Instance Record	Customer Offer Processing Schedule	"Defines scheduled update/review tasks covering all tracked properties"	String
+"CR"	CR Customer Offer Procedure Instance Record	Customer Offer Processing Task	"Tasks performed to maintain/verify the life-cycle status"	String
+"CR"	CR Customer Offer Procedure Instance Record	Customer Offer Processing Task Type	"The type of task performed (each BQ constitutes an optional task instance)"	String
+"CR"	CR Customer Offer Procedure Instance Record	Employee/Business Unit Reference	"Employees involved in completing the offer task"	Object
+"CR"	CR Customer Offer Procedure Instance Record	Customer Offer Processing Task Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"CR"	CR Customer Offer Procedure Instance Record	Customer Offer Processing Task Result	"The outcome of the task  (will be used to update the Customer Offer Procedure Instance Record)"	String
+"BQ"	BQ Compliance Instance Record	""	"Handles any regulatory compliance checks and reporting requirements. "	""
+"BQ"	BQ Compliance Instance Record	Regulatory Compliance Check Type	"The required check"	String
+"BQ"	BQ Compliance Instance Record	Regulatory Compliance Check Requirement	"Description of the compliance requirements"	String
+"BQ"	BQ Compliance Instance Record	Regulatory Compliance Check Submission	"The submitted offer related materials"	String
+"BQ"	BQ Compliance Instance Record	Regulatory Compliance Adjustment Requirement	"Any required changes to the offer needed to comply"	String
+"BQ"	BQ Compliance Instance Record	Regulatory Compliance Check Assessment	"The result of the compliance assessment"	String
+"BQ"	BQ Underwriting Instance Record	""	"Handles the underwriting decision when needed. "	""
+"BQ"	BQ Underwriting Instance Record	Customer Income Statement	"A statement of income over a required duration in a suitable format"	String
+"BQ"	BQ Underwriting Instance Record	Customer Debt Statement	"The provided debt statements may combine bank and non-bank managed debt details"	String
+"BQ"	BQ Underwriting Instance Record	Customer Asset Statement	"The provided asset statement may combine bank and known non-bank managed assets"	String
+"BQ"	BQ Underwriting Instance Record	Underwriting Assessment Reference	"The outcome of the underwriting assessment"	Object
+"BQ"	BQ Disclosures Instance Record	""	"Handles the issuance and acceptance of required disclosures. "	""
+"BQ"	BQ Disclosures Instance Record	Disclosure Type	"The type of disclosure (e.g. verbal, requiring signature)"	String
+"BQ"	BQ Disclosures Instance Record	Disclosure Text/Description	"The presented disclosure for customer review in any suitable format"	String
+"BQ"	BQ Disclosures Instance Record	Customer Acceptance Indicator	"An indicator that the disclosure has been accepted (indicates signature obtained as necessary)"	Boolean
+"BQ"	BQ Disclosures Instance Record	Document Reference (for customer signature/acceptance record)	"The customer signature/acceptance record"	Object
+"BQ"	BQ Collateral Instance Record	""	"Handling the evaluation and allocation of collateral. "	""
+"BQ"	BQ Collateral Instance Record	Collateral Requirement	"The required collateral amount for the offer"	String
+"BQ"	BQ Collateral Instance Record	Collateral Earmark Reference	"Reference to earmarked collateral during the offer procedure"	Object
+"BQ"	BQ Collateral Instance Record	Collateral Asset Reference	"Reference to the related collateral asset (e.g. property)"	Object
+"BQ"	BQ Audit Instance Record	""	"Handles any internal audit compliance checks and reporting requirements. "	""
+"BQ"	BQ Audit Instance Record	Guideline Compliance Check Type	"The required compliance check"	String
+"BQ"	BQ Audit Instance Record	Guideline Compliance Check Requirement	"Description of the compliance requirements"	String
+"BQ"	BQ Audit Instance Record	Guideline Compliance Check Submission	"The submitted offer related materials"	String
+"BQ"	BQ Audit Instance Record	Guideline Compliance Adjustment Requirement	"Any required changes to the offer needed to comply"	String
+"BQ"	BQ Audit Instance Record	Guideline Compliance Check Assessment	"The result of the compliance assessment"	String
+"BQ"	BQ Booking Instance Record	""	"Handles the booking of the asset or liability to the appropriate unit. "	""
+"BQ"	BQ Booking Instance Record	Business Unit Reference	"Defines the booking entity"	Object
+"BQ"	BQ Booking Instance Record	Asset/Liability Type	"Defines the booking rules (e.g. booking  value ratios)"	String
+"BQ"	BQ Booking Instance Record	Amount	"The principle amount for booking"	String
+"BQ"	BQ Credit Instance Record	""	"Handles the required credit checks and assessments. "	""
+"BQ"	BQ Credit Instance Record	Customer Credit Rating	"The customer's current credit rating"	String
+"BQ"	BQ Credit Instance Record	Credit Authorization Decision Reference	"Reference to the authorization if an aspect of the offer procedure"	Object
+"BQ"	BQ Credit Instance Record	Credit Authorization Decision	"The credit decision (indicates credit position is adequate for the offer)"	String
+"BQ"	BQ Agreement Instance Record	""	"Handles the set-up of the master agreement and product specific terms and conditions"	""
+"BQ"	BQ Agreement Instance Record	Customer Agreement Instance Reference	"Reference to the associated master agreement that is accessed during the offer procedure"	Object
+"BQ"	BQ Agreement Instance Record	Sales Product Agreement Instance Reference	"Reference to the product specific agreement that is set-up as a result of the offer procedure (when successful)"	Object
+"BQ"	BQ Product Initialization Instance Record	""	"At the successful completion of required tasks, the product is initialized. "	""
+"BQ"	BQ Product Initialization Instance Record	Product Instance Reference	"Reference to a specific product instance if the offer is accepted and the product set-up initiated"	Object
+"BQ"	BQ Correspondence and Documents Instance Record	""	""	""
+"BQ"	BQ Correspondence and Documents Instance Record	Customer Offer Required Documents	"Description of the required documents and time limits on receipt where appropriate"	String
+"BQ"	BQ Correspondence and Documents Instance Record	Correspondence Instance Reference	"Reference to the correspondence generated and received"	Object
+"BQ"	BQ Correspondence and Documents Instance Record	Correspondence Content	"Correspondence content - messages sent to and received from involved parties"	String
+"BQ"	BQ Correspondence and Documents Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents"	Object
+"BQ"	BQ Correspondence and Documents Instance Record	Document Content	"Document copy/content - legal or significant documents created & referenced"	String

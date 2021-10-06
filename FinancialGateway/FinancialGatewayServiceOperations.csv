@@ -1,0 +1,97 @@
+"Service Operations for: "	Financial Gateway
+""
+"POST"	"/financial-gateway/activation"
+"PUT"	"/financial-gateway/{sd-reference-id}/configuration"
+"PUT"	"/financial-gateway/{sd-reference-id}/feedback"
+""
+"Post"	"/financial-gateway/{sd-identifier}/financial-gateway-operating-session/{crbq-identifier}/initiation"
+""	1	"in"	"Financial Gateway Service Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	2	"out"	"Financial Gateway Service Session Statistics"	"CR Financial Gateway Operating Session Instance Record"	String
+""	3	"inout"	"Financial Gateway Service Session Report Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	4	"inout"	"Financial Gateway Service Session Date"	"CR Financial Gateway Operating Session Instance Record"	Date
+""	5	"inout"	"Financial Gateway Service Session Issue Record"	"CR Financial Gateway Operating Session Instance Record"	String
+""	6	"in"	"Employee/Business Unit Reference"	"CR Financial Gateway Operating Session Instance Record"	Object
+""	7	"in"	"Message Reference"	"CR Financial Gateway Operating Session Instance Record"	Object
+""	8	"in"	"Production Issue Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	9	"in"	"Production Issue Description"	"CR Financial Gateway Operating Session Instance Record"	String
+""	10	"out"	"Production Issue Diagnosis"	"CR Financial Gateway Operating Session Instance Record"	String
+""	11	"out"	"Production Issue Resolution Task"	"CR Financial Gateway Operating Session Instance Record"	String
+""	12	"out"	"Production Issue Record"	"CR Financial Gateway Operating Session Instance Record"	String
+""	13	"out"	"Production Issue Status"	"CR Financial Gateway Operating Session Instance Record"	String
+""
+"Put"	"/financial-gateway/{sd-identifier}/financial-gateway-operating-session/{crbq-identifier}/update"
+""	1	"inout"	"Financial Gateway Service Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	2	"inout"	"Financial Gateway Service Session Statistics"	"CR Financial Gateway Operating Session Instance Record"	String
+""	3	"inout"	"Financial Gateway Service Session Report Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	4	"inout"	"Financial Gateway Service Session Date"	"CR Financial Gateway Operating Session Instance Record"	Date
+""	5	"inout"	"Financial Gateway Service Session Issue Record"	"CR Financial Gateway Operating Session Instance Record"	String
+""	6	"inout"	"Employee/Business Unit Reference"	"CR Financial Gateway Operating Session Instance Record"	Object
+""	7	"inout"	"Message Reference"	"CR Financial Gateway Operating Session Instance Record"	Object
+""	8	"inout"	"Production Issue Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	9	"inout"	"Production Issue Description"	"CR Financial Gateway Operating Session Instance Record"	String
+""	10	"inout"	"Production Issue Diagnosis"	"CR Financial Gateway Operating Session Instance Record"	String
+""	11	"inout"	"Production Issue Resolution Task"	"CR Financial Gateway Operating Session Instance Record"	String
+""	12	"inout"	"Production Issue Record"	"CR Financial Gateway Operating Session Instance Record"	String
+""	13	"inout"	"Production Issue Status"	"CR Financial Gateway Operating Session Instance Record"	String
+""
+"Put"	"/financial-gateway/{sd-identifier}/financial-gateway-operating-session/{crbq-identifier}/control"
+""
+"Put"	"/financial-gateway/{sd-identifier}/financial-gateway-operating-session/{crbq-identifier}/requisition"
+""	1	"inout"	"Financial Gateway Service Session Issue Record"	"CR Financial Gateway Operating Session Instance Record"	String
+""	2	"inout"	"Employee/Business Unit Reference"	"CR Financial Gateway Operating Session Instance Record"	Object
+""	3	"inout"	"Message Reference"	"CR Financial Gateway Operating Session Instance Record"	Object
+""	4	"inout"	"Production Issue Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	5	"inout"	"Production Issue Description"	"CR Financial Gateway Operating Session Instance Record"	String
+""	6	"out"	"Production Issue Diagnosis"	"CR Financial Gateway Operating Session Instance Record"	String
+""	7	"out"	"Production Issue Resolution Task"	"CR Financial Gateway Operating Session Instance Record"	String
+""	8	"out"	"Production Issue Record"	"CR Financial Gateway Operating Session Instance Record"	String
+""	9	"out"	"Production Issue Status"	"CR Financial Gateway Operating Session Instance Record"	String
+""
+"Get"	"/financial-gateway/{sd-identifier}/financial-gateway-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Gateway Service Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	2	"out"	"Financial Gateway Service Session Statistics"	"CR Financial Gateway Operating Session Instance Record"	String
+""	3	"out"	"Financial Gateway Service Session Report Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	4	"out"	"Financial Gateway Service Session Date"	"CR Financial Gateway Operating Session Instance Record"	Date
+""	5	"out"	"Financial Gateway Service Session Issue Record"	"CR Financial Gateway Operating Session Instance Record"	String
+""	6	"out"	"Employee/Business Unit Reference"	"CR Financial Gateway Operating Session Instance Record"	Object
+""	7	"out"	"Message Reference"	"CR Financial Gateway Operating Session Instance Record"	Object
+""	8	"out"	"Production Issue Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	9	"out"	"Production Issue Description"	"CR Financial Gateway Operating Session Instance Record"	String
+""	10	"out"	"Production Issue Diagnosis"	"CR Financial Gateway Operating Session Instance Record"	String
+""	11	"out"	"Production Issue Resolution Task"	"CR Financial Gateway Operating Session Instance Record"	String
+""	12	"out"	"Production Issue Record"	"CR Financial Gateway Operating Session Instance Record"	String
+""	13	"out"	"Production Issue Status"	"CR Financial Gateway Operating Session Instance Record"	String
+""
+"Post"	"/financial-gateway/{sd-identifier}/inbound/{crbq-identifier}/initiation"
+""	1	"in"	"Financial Gateway Service Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	2	"inout"	"Financial Gateway Service Session Statistics"	"CR Financial Gateway Operating Session Instance Record"	String
+""	3	"in"	"Financial Gateway Inbound Message Type"	"BQ Inbound Instance Record"	String
+""	4	"in"	"Financial Gateway Inbound Message Record"	"BQ Inbound Instance Record"	String
+""	5	"in"	"Financial Gateway Inbound Message Receiver"	"BQ Inbound Instance Record"	String
+""	6	"inout"	"Financial Gateway Inbound Message Status"	"BQ Inbound Instance Record"	String
+""
+"Get"	"/financial-gateway/{sd-identifier}/inbound/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Gateway Service Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	2	"out"	"Financial Gateway Service Session Statistics"	"CR Financial Gateway Operating Session Instance Record"	String
+""	3	"out"	"Financial Gateway Inbound Message Type"	"BQ Inbound Instance Record"	String
+""	4	"out"	"Financial Gateway Inbound Message Record"	"BQ Inbound Instance Record"	String
+""	5	"out"	"Financial Gateway Inbound Message Receiver"	"BQ Inbound Instance Record"	String
+""	6	"out"	"Financial Gateway Inbound Message Status"	"BQ Inbound Instance Record"	String
+""
+"Post"	"/financial-gateway/{sd-identifier}/outbound/{crbq-identifier}/initiation"
+""	1	"in"	"Financial Gateway Service Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	2	"inout"	"Financial Gateway Service Session Statistics"	"CR Financial Gateway Operating Session Instance Record"	String
+""	3	"in"	"Financial Gateway Outbound Message Type"	"BQ Outbound Instance Record"	String
+""	4	"in"	"Financial Gateway Outbound Message Record"	"BQ Outbound Instance Record"	String
+""	5	"in"	"Financial Gateway Outbound Message Sender"	"BQ Outbound Instance Record"	String
+""	6	"in"	"Financial Gateway Outbound Message Receiver"	"BQ Outbound Instance Record"	String
+""	7	"inout"	"Financial Gateway Outbound Message Status"	"BQ Outbound Instance Record"	String
+""
+"Get"	"/financial-gateway/{sd-identifier}/outbound/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Gateway Service Type"	"CR Financial Gateway Operating Session Instance Record"	String
+""	2	"out"	"Financial Gateway Service Session Statistics"	"CR Financial Gateway Operating Session Instance Record"	String
+""	3	"out"	"Financial Gateway Outbound Message Type"	"BQ Outbound Instance Record"	String
+""	4	"out"	"Financial Gateway Outbound Message Record"	"BQ Outbound Instance Record"	String
+""	5	"out"	"Financial Gateway Outbound Message Sender"	"BQ Outbound Instance Record"	String
+""	6	"out"	"Financial Gateway Outbound Message Receiver"	"BQ Outbound Instance Record"	String
+""	7	"out"	"Financial Gateway Outbound Message Status"	"BQ Outbound Instance Record"	String

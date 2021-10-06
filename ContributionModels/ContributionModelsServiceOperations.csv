@@ -1,0 +1,5 @@
+"Service Operations for: "	Contribution Models
+"Control Record Model for Contribution Models is not defined"
+"POST"	"/contribution-models/activation"
+"PUT"	"/contribution-models/{sd-reference-id}/configuration"
+"PUT"	"/contribution-models/{sd-reference-id}/feedback"

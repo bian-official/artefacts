@@ -1,0 +1,5 @@
+"Service Operations for: "	Equipment Maintenance
+"Control Record Model for Equipment Maintenance is not defined"
+"POST"	"/equipment-maintenance/activation"
+"PUT"	"/equipment-maintenance/{sd-reference-id}/configuration"
+"PUT"	"/equipment-maintenance/{sd-reference-id}/feedback"

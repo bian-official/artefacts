@@ -1,0 +1,37 @@
+"Control Record Model for: "	Customer Behavior Models
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Production Instance Record	""	""	""
+"BQ"	BQ Production Instance Record	Customer Behavior Model Operational Requirements	"Specification of the operational and technical requirements"	String
+"BQ"	BQ Production Instance Record	Customer Behavior Model Allowed Usage	"Defines rules and suitability for model usage"	String
+"BQ"	BQ Production Instance Record	Customer Behavior Model Usage Guidelines	"Provides guidance on the use of the model"	String
+"BQ"	BQ Functional Requirements Instance Record	""	""	""
+"BQ"	BQ Functional Requirements Instance Record	Customer Behavior Model Design Task Reference	"Reference to a type of functional requirements specification activity"	Object
+"BQ"	BQ Functional Requirements Instance Record	Customer Behavior Model Design Task Record	"The record of work products used for the design task"	String
+"BQ"	BQ Functional Requirements Instance Record	Customer/Market Data Service Reference	"Reference to external service information provider used to obtain example production data for design"	Object
+"BQ"	BQ Functional Requirements Instance Record	Customer/Market Data Record	"Record of example production data file"	String
+"BQ"	BQ Functional Requirements Instance Record	Customer Behavior Model Feedback Record	"User provided and solicited feedback, suggestions for model refinement"	String
+"BQ"	BQ Functional Requirements Instance Record	Customer Behavior Model Requirements Specification	"The model functional requirements specification (with versioning as appropriate)"	String
+"BQ"	BQ Testing Instance Record	""	""	""
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Test Reference	"Reference to a type of test"	Object
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Test Type	"Defines the type of test (e.g. unit, integration, load, user acceptance etc.)"	String
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Test Harness Reference	"Reference to the testing environment used to apply the test"	Object
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Test Result	"Record of testing applied to the model"	String
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Testing Task Reference	"Reference to a type of testing activity"	Object
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Testing Task Record	"The record of work products used for this testing activity"	String
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Compliance Task Reference	"Reference to compliance conformance check for the specification"	Object
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Compliance Task Record	"Record of the compliance conformance check for the specification"	String
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Compliance Test Reference	"Reference to a compliance task performed against the specification"	Object
+"BQ"	BQ Testing Instance Record	Customer Behavior Model Compliance Test Type	"Record of the compliance test applied to the specification"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	""	""	""
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Type	"The type or category of behavior model (e.g. life event detection)"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Purpose	"A description of the model that clarifies the intended analysis/insights provided"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Deployment	"Maintains the current deployment configuration of the model"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Employee/Business Unit Reference	"Reference to the business units where the model is deployed and in use"	Object
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Deployment Configuration	"Details of the deployment for reference"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Deployment Task Reference	"Reference to deployment task"	Object
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Deployment Task Record	"Recorded details of a deployment task"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Status	"The operational and development status of the model (e.g. under development, available, under review)"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Usage	"Tracking deployment and usage frequency"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Impact	"Track reporting of the impact/accuracy of the model's insights"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model Version	"Release version of available model plus version history as appropriate"	String
+"CR"	CR Customer Behavior Model Specification Instance Record	Customer Behavior Model	"The deployable model in any appropriate form (including historical versions as appropriate)"	String

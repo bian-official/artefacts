@@ -1,0 +1,13 @@
+"Service Domain specification for Products and Services Direction"
+"Business Area"	Business Management
+"Business Domain"	Business Direction
+"Service Domain"	Products and Services Direction
+"Role Definition"	"Develop and communicate product and service policies and adapt in response to changing needs and to practical experience"
+"Example of use"	"Senior product and service management assess performance and define the policies governing product and service delivery"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Direct
+"Asset Type"	ProductsAndServices
+"Generic Artifact"	Strategy
+"Control Record"	ProductsAndServicesStrategy
+"Registration Status"	Registered

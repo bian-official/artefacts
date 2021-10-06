@@ -1,0 +1,13 @@
+"Service Domain specification for Factoring"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Factoring
+"Role Definition"	"Factoring services allows for a bank to buy a customers sell accounts receivable at discount to provide advanced income to improve short term liquidity"
+"Example of use"	"The Bank buys (factors) a batch of customer invoices to provide short term liquidity"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	Factoring
+"Generic Artifact"	Facility (rename)
+"Control Record"	FactoringArrangement
+"Registration Status"	Registered

@@ -1,0 +1,57 @@
+"Control Record Model for: "	Systems Administration
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR ITSystem Administrative Plan Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Systems Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"CR"	CR ITSystem Administrative Plan Instance Record	ITSystem Administrative Plan Budget Type	"A Classification value that distinguishes between Budgets within ITSystem Administrative Plan according to the type of resource and/or activity that is budgetted"	String
+"CR"	CR ITSystem Administrative Plan Instance Record	ITSystem Administrative Plan Budget	"An estimate of costs, revenues, and resources  over a specified period which is defined for ITSystem Administrative Plan"	String
+"CR"	CR ITSystem Administrative Plan Instance Record	ITSystem Administrative Plan Assignment	"The allocation of someone or something which is specified for ITSystem Administrative Plan"	String
+"CR"	CR ITSystem Administrative Plan Instance Record	ITSystem Administrative Plan Plan	"A plan that defines clerical support for ITSystem"	String
+"CR"	CR ITSystem Administrative Plan Instance Record	ITSystem Administrative Plan Reference	"Party who is involved in  ITSystem Administrative Plan"	Object
+"BQ"	BQ Inventory Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Systems Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Inventory Instance Record	Inventory Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Inventory Instance Record	Inventory Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Inventory Instance Record	Inventory Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Inventory Instance Record	Business Service	"The ITSystem Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Inventory Instance Record	Inventory Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Inventory Instance Record	Inventory Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Inventory Instance Record	Inventory Service Description	"Description of the performed business service"	String
+"BQ"	BQ Inventory Instance Record	Inventory Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Inventory Instance Record	Inventory Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Inventory Instance Record	Inventory Service Name	""	String
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Systems Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and Resilience	"The ITSystem Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Capacity Planning and Resilience Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Capacity Planning and Resilience Service Description	"Description of the performed business service"	String
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Capacity Planning and Resilience Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Capacity Planning and Resilience Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Capacity Planning and  Resilience Instance Record	Capacity Planning and  Resilience Capacity Planning and Resilience Service Name	""	String
+"BQ"	BQ Systems Administration Outcome Instance Record	""	""	""
+"BQ"	BQ Systems Administration Outcome Instance Record	Systems Administration Performance Analysis	""	String
+"BQ"	BQ Systems Administration Outcome Instance Record	Systems Administration Activity Analysis	""	String
+"BQ"	BQ Systems Administration Outcome Instance Record	Systems Administration Administrative Plan	""	String
+"BQ"	BQ Systems Administration Outcome Instance Record	Systems Administration Administration Task	""	String
+"BQ"	BQ Assurance Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Systems Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Assurance Instance Record	Assurance Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Assurance Instance Record	Assurance Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Assurance Instance Record	Assurance Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Assurance Instance Record	Collateral Item Assurance	"The ITSystem Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Assurance Instance Record	Assurance Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Description	"Description of the performed business service"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Assurance Instance Record	Assurance Collateral Item Assurance Service Name	""	String
+"BQ"	BQ Configuration Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Systems Administration. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Configuration Instance Record	Configuration Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Configuration Instance Record	Configuration Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Configuration Instance Record	Configuration Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Configuration Instance Record	Systems Configuration Administration	"The ITSystem Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Configuration Instance Record	Configuration Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Configuration Instance Record	Configuration Systems Configuration Administration Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Configuration Instance Record	Configuration Systems Configuration Administration Service Description	"Description of the performed business service"	String
+"BQ"	BQ Configuration Instance Record	Configuration Systems Configuration Administration Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Configuration Instance Record	Configuration Systems Configuration Administration Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Configuration Instance Record	Configuration Systems Configuration Administration Service Name	""	String

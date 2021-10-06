@@ -1,0 +1,13 @@
+"Control Record Model for: "	Correspondent Bank Data Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Correspondent Bank Directory Entry Instance Record	""	""	""
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Correspondent Bank Reference	"Reference to the correspondent bank (e.g. BIC Codes)"	Object
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Clearing/Sort Codes	"Clearing and sorting code used in payment processing"	String
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Contact Addresses	"Contact details for key parties at the bank"	String
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Legal Entity Identifiers	"One or more associated legal entity references associated with the bank"	String
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Bank Hierarchy	"A description of the legal entity hierarchy at the bank"	String
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Holiday/Time zone Schedule	"A reference to the bank calendar details for payment processing"	String
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Vostro Account Reference	"Reference to associated vostro account (your money at our bank)"	Object
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Nostro Mirror Account Reference	"Reference to associated nostro account (our money at your bank)"	Object
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Correspondent Bank Agreement Reference	"Reference to the bank agreement (that will detail limits, fees, preferred payments mechanism)"	Object
+"CR"	CR Correspondent Bank Directory Entry Instance Record	Correspondent Bank Agreement	"The correspondent bank agreement (details agreed limits, fees, preferred payments mechanism, etc.)"	String

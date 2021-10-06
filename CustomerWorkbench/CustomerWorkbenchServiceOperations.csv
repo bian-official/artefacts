@@ -1,0 +1,146 @@
+"Service Operations for: "	Customer Workbench
+""
+"POST"	"/customer-workbench/activation"
+"PUT"	"/customer-workbench/{sd-reference-id}/configuration"
+"PUT"	"/customer-workbench/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-workbench/{sd-identifier}/customer-workbench-operating-session/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Workbench Operating Session Instance Record"	Object
+""	2	"in"	"Customer Workbench Device Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	3	"in"	"Customer Workbench Device Registration"	"CR Customer Workbench Operating Session Instance Record"	String
+""	4	"in"	"Customer Workbench Device Manufacturer"	"CR Customer Workbench Operating Session Instance Record"	String
+""	5	"in"	"Customer Workbench Device Operating System/Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	6	"inout"	"Customer Workbench Device Access Permissions"	"CR Customer Workbench Operating Session Instance Record"	String
+""	7	"in"	"Installed Bank Application Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	8	"in"	"Installed Bank Application Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	9	"in"	"Last Update Date/Time"	"CR Customer Workbench Operating Session Instance Record"	Date
+""
+"Put"	"/customer-workbench/{sd-identifier}/customer-workbench-operating-session/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Workbench Operating Session Instance Record"	Object
+""	2	"inout"	"Customer Workbench Device Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	3	"inout"	"Customer Workbench Device Registration"	"CR Customer Workbench Operating Session Instance Record"	String
+""	4	"inout"	"Customer Workbench Device Manufacturer"	"CR Customer Workbench Operating Session Instance Record"	String
+""	5	"inout"	"Customer Workbench Device Operating System/Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	6	"inout"	"Customer Workbench Device Access Permissions"	"CR Customer Workbench Operating Session Instance Record"	String
+""	7	"inout"	"Installed Bank Application Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	8	"inout"	"Installed Bank Application Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	9	"inout"	"Last Update Date/Time"	"CR Customer Workbench Operating Session Instance Record"	Date
+""
+"Put"	"/customer-workbench/{sd-identifier}/customer-workbench-operating-session/{crbq-identifier}/control"
+""
+"Get"	"/customer-workbench/{sd-identifier}/customer-workbench-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Workbench Operating Session Instance Record"	Object
+""	2	"out"	"Customer Workbench Device Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	3	"out"	"Customer Workbench Device Registration"	"CR Customer Workbench Operating Session Instance Record"	String
+""	4	"out"	"Customer Workbench Device Manufacturer"	"CR Customer Workbench Operating Session Instance Record"	String
+""	5	"out"	"Customer Workbench Device Operating System/Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	6	"out"	"Customer Workbench Device Access Permissions"	"CR Customer Workbench Operating Session Instance Record"	String
+""	7	"out"	"Installed Bank Application Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	8	"out"	"Installed Bank Application Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	9	"out"	"Last Update Date/Time"	"CR Customer Workbench Operating Session Instance Record"	Date
+""
+"Post"	"/customer-workbench/{sd-identifier}/sw-update/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Workbench Operating Session Instance Record"	Object
+""	2	"in"	"Customer Workbench Device Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	3	"in"	"Customer Workbench Device Registration"	"CR Customer Workbench Operating Session Instance Record"	String
+""	4	"in"	"Customer Workbench Device Manufacturer"	"CR Customer Workbench Operating Session Instance Record"	String
+""	5	"in"	"Customer Workbench Device Operating System/Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	6	"in"	"Customer Workbench Device Access Permissions"	"CR Customer Workbench Operating Session Instance Record"	String
+""	7	"inout"	"Installed Bank Application Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	8	"inout"	"Installed Bank Application Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	9	"inout"	"Last Update Date/Time"	"CR Customer Workbench Operating Session Instance Record"	Date
+""	10	"in"	"SW Update Application"	"BQ SW Update Instance Record"	String
+""	11	"in"	"SW Update Version"	"BQ SW Update Instance Record"	String
+""	12	"in"	"SW Update Image"	"BQ SW Update Instance Record"	String
+""
+"Put"	"/customer-workbench/{sd-identifier}/sw-update/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-workbench/{sd-identifier}/sw-update/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Workbench Operating Session Instance Record"	Object
+""	2	"out"	"Customer Workbench Device Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	3	"out"	"Customer Workbench Device Registration"	"CR Customer Workbench Operating Session Instance Record"	String
+""	4	"out"	"Customer Workbench Device Manufacturer"	"CR Customer Workbench Operating Session Instance Record"	String
+""	5	"out"	"Customer Workbench Device Operating System/Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	6	"out"	"Customer Workbench Device Access Permissions"	"CR Customer Workbench Operating Session Instance Record"	String
+""	7	"out"	"Installed Bank Application Type"	"CR Customer Workbench Operating Session Instance Record"	String
+""	8	"out"	"Installed Bank Application Version Number"	"CR Customer Workbench Operating Session Instance Record"	String
+""	9	"out"	"Last Update Date/Time"	"CR Customer Workbench Operating Session Instance Record"	Date
+""	10	"out"	"SW Update Application"	"BQ SW Update Instance Record"	String
+""	11	"out"	"SW Update Version"	"BQ SW Update Instance Record"	String
+""	12	"out"	"SW Update Image"	"BQ SW Update Instance Record"	String
+""
+"Post"	"/customer-workbench/{sd-identifier}/broadcast/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Workbench Broadcast Record"	"BQ Broadcast Instance Record"	String
+""	2	"inout"	"Customer Workbench Broadcast Record Date/Time"	"BQ Broadcast Instance Record"	Date
+""
+"Put"	"/customer-workbench/{sd-identifier}/broadcast/{crbq-identifier}/requisition"
+""	1	"out"	"Customer Workbench Broadcast Record"	"BQ Broadcast Instance Record"	String
+""	2	"out"	"Customer Workbench Broadcast Record Date/Time"	"BQ Broadcast Instance Record"	Date
+""
+"Post"	"/customer-workbench/{sd-identifier}/browsing/{crbq-identifier}/initiation"
+""	1	"in"	"Customer URL"	"BQ Browsing Instance Record"	String
+""	2	"in"	"Bank Website URL"	"BQ Browsing Instance Record"	String
+""
+"Put"	"/customer-workbench/{sd-identifier}/browsing/{crbq-identifier}/execution"
+""	1	"in"	"Customer URL"	"BQ Browsing Instance Record"	String
+""	2	"in"	"Bank Website URL"	"BQ Browsing Instance Record"	String
+""
+"Get"	"/customer-workbench/{sd-identifier}/browsing/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer URL"	"BQ Browsing Instance Record"	String
+""	2	"out"	"Bank Website URL"	"BQ Browsing Instance Record"	String
+""
+"Post"	"/customer-workbench/{sd-identifier}/contact/{crbq-identifier}/initiation"
+""	1	"out"	"Contact Start/End Time"	"BQ Contact Instance Record"	String
+""	2	"out"	"Contact Activity Log"	"BQ Contact Instance Record"	String
+""
+"Put"	"/customer-workbench/{sd-identifier}/contact/{crbq-identifier}/update"
+""
+"Put"	"/customer-workbench/{sd-identifier}/contact/{crbq-identifier}/execution"
+""	1	"out"	"Contact Start/End Time"	"BQ Contact Instance Record"	String
+""	2	"out"	"Contact Activity Log"	"BQ Contact Instance Record"	String
+""
+"Put"	"/customer-workbench/{sd-identifier}/contact/{crbq-identifier}/requisition"
+""	1	"out"	"Contact Start/End Time"	"BQ Contact Instance Record"	String
+""	2	"out"	"Contact Activity Log"	"BQ Contact Instance Record"	String
+""
+"Get"	"/customer-workbench/{sd-identifier}/contact/{crbq-identifier}/retrieval"
+""	1	"out"	"Contact Start/End Time"	"BQ Contact Instance Record"	String
+""	2	"out"	"Contact Activity Log"	"BQ Contact Instance Record"	String
+""
+"Post"	"/customer-workbench/{sd-identifier}/productandservice-access/{crbq-identifier}/initiation"
+""	1	"inout"	"Contact Start/End Time"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Contact Activity Log"	"BQ Contact Instance Record"	String
+""	3	"in"	"Customer Details/Preferences"	"BQ ProductandService Access Instance Record"	String
+""	4	"in"	"Product/Service Menu"	"BQ ProductandService Access Instance Record"	String
+""	5	"in"	"Product/Service Menu Access Log"	"BQ ProductandService Access Instance Record"	String
+""	6	"inout"	"Access Start/End Time"	"BQ ProductandService Access Instance Record"	String
+""	7	"inout"	"Customer Resident Files"	"BQ ProductandService Access Instance Record"	String
+""
+"Put"	"/customer-workbench/{sd-identifier}/productandservice-access/{crbq-identifier}/update"
+""
+"Put"	"/customer-workbench/{sd-identifier}/productandservice-access/{crbq-identifier}/execution"
+""	1	"inout"	"Contact Start/End Time"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Contact Activity Log"	"BQ Contact Instance Record"	String
+""	3	"in"	"Customer Details/Preferences"	"BQ ProductandService Access Instance Record"	String
+""	4	"in"	"Product/Service Menu"	"BQ ProductandService Access Instance Record"	String
+""	5	"in"	"Product/Service Menu Access Log"	"BQ ProductandService Access Instance Record"	String
+""	6	"inout"	"Access Start/End Time"	"BQ ProductandService Access Instance Record"	String
+""	7	"inout"	"Customer Resident Files"	"BQ ProductandService Access Instance Record"	String
+""
+"Put"	"/customer-workbench/{sd-identifier}/productandservice-access/{crbq-identifier}/requisition"
+""	1	"inout"	"Contact Start/End Time"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Contact Activity Log"	"BQ Contact Instance Record"	String
+""	3	"in"	"Customer Details/Preferences"	"BQ ProductandService Access Instance Record"	String
+""	4	"in"	"Product/Service Menu"	"BQ ProductandService Access Instance Record"	String
+""	5	"in"	"Product/Service Menu Access Log"	"BQ ProductandService Access Instance Record"	String
+""	6	"inout"	"Access Start/End Time"	"BQ ProductandService Access Instance Record"	String
+""	7	"inout"	"Customer Resident Files"	"BQ ProductandService Access Instance Record"	String
+""
+"Get"	"/customer-workbench/{sd-identifier}/productandservice-access/{crbq-identifier}/retrieval"
+""	1	"out"	"Contact Start/End Time"	"BQ Contact Instance Record"	String
+""	2	"out"	"Contact Activity Log"	"BQ Contact Instance Record"	String
+""	3	"out"	"Customer Details/Preferences"	"BQ ProductandService Access Instance Record"	String
+""	4	"out"	"Product/Service Menu"	"BQ ProductandService Access Instance Record"	String
+""	5	"out"	"Product/Service Menu Access Log"	"BQ ProductandService Access Instance Record"	String
+""	6	"out"	"Access Start/End Time"	"BQ ProductandService Access Instance Record"	String
+""	7	"out"	"Customer Resident Files"	"BQ ProductandService Access Instance Record"	String

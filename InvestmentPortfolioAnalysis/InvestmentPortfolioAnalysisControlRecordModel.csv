@@ -1,0 +1,23 @@
+"Control Record Model for: "	Investment Portfolio Analysis
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Performance Analysis Instance Record	""	""	""
+"BQ"	BQ Performance Analysis Instance Record	Investment Portfolio Performance Analysis Type	"Defines the type of analysis/algorithm used to evaluate and compare the investment portfolio performance to prevailing market measures"	String
+"BQ"	BQ Performance Analysis Instance Record	Investment Portfolio Performance Analysis Task	"Record of a task to perform a selected type of performance analysis on an investment portfolio"	String
+"BQ"	BQ Performance Analysis Instance Record	Investment Performance Request Specification	"The specific details of the performance analysis (can be a default/standard analysis or a specialist/ad-hoc request)"	String
+"BQ"	BQ Performance Analysis Instance Record	Investment Performance Model Reference	"Reference to the performance analysis model used"	Object
+"BQ"	BQ Performance Analysis Instance Record	Investment Performance ProductandService Activity Report	"The data file, report of investment transaction details used in the analysis"	String
+"BQ"	BQ Performance Analysis Instance Record	Investment Performance Financial Market Research Report	"The content of selected financial market research report or market transaction database in any suitable form used for comparisons"	String
+"BQ"	BQ Performance Analysis Instance Record	Investment Performance Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Performance Analysis Instance Record	Investment Performance Request Result	"The output from executing the selected performance analysis"	String
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	""	""	""
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Product Instance Reference	"Reference to the investment portfolio product instance"	Object
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Customer Reference	"Reference to the account primary party/owner"	Object
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Employee/Business Unit Reference	"The employee/business unit with the relationship management responsibilities for the customer"	Object
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Investment Portfolio Instance Reference	"Reference to the investment portfolio record of all holdings"	Object
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Investment Portfolio Analysis Schedule	"The schedule for performing investment portfolio analysis for the account"	String
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Investment Account Arrangement Instance Reference	"Reference to the underlying investment account"	Object
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Investment Portfolio Analysis Report	"A consolidated report containing the results of performance analyses applied to the investment portfolio"	String
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Investment Portfolio Analysis Type	"Defines a type of performance analysis performed (e.g. standard regular scheduled review, specialist review, customer requested review)"	String
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Investment Portfolio Analysis Result	"The consolidated report of the performance evaluation and comparisons from the analysis"	String
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Investment Portfolio Analysis Reporting Date	"The date/time the performance report was completed"	Date
+"CR"	CR Managed Investment Portfolio Analysis Instance Record	Document Directory Entry Instance Reference	"Reference to associated performance analysis reporting documents"	Object

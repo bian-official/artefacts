@@ -1,0 +1,13 @@
+"Service Domain specification for Loan"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Loan
+"Role Definition"	"The loan product represents a generic loan capability that may include different properties/features depending on a bank's preferences and policies. The loan may or may not be secured by collateral."
+"Example of use"	"Example of use:. An established and valued bank customer applies for and gets a loan for a home improvement project. "
+"Executive Summary"	"This service domain handles the fulfillment of a general loan product. This includes the initial set-up of the loan facility and the completion of scheduled and ad-hoc product processing tasks"
+"Key Features"	"Set-up a loan facility. Handle deposits and withdrawals. Provide statements and assessment reports on the loan. Support loan restructuring"
+"Functional Pattern"	Fulfill
+"Asset Type"	Loan
+"Generic Artifact"	Facility (rename)
+"Control Record"	LoanArrangement
+"Registration Status"	Registered

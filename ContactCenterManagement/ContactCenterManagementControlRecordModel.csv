@@ -1,0 +1,21 @@
+"Control Record Model for: "	Contact Center Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Contact Center Management Plan Instance Record	""	""	""
+"CR"	CR Contact Center Management Plan Instance Record	Contact Center Management Plan Period	"The time period addressed by the management plan (typically this will include setting the default daily operating goals and arrangements for the contact center that is periodically updated)"	String
+"CR"	CR Contact Center Management Plan Instance Record	Contact Center Usage Policies And Guidelines	"The policies and guidelines for contact center employees and service users"	String
+"CR"	CR Contact Center Management Plan Instance Record	Contact Center Service Performance Goals	"The target and actual service performance goals that are tracked by contact center management"	String
+"CR"	CR Contact Center Management Plan Instance Record	Contact Center Service Schedule	"The target and actual contact center service schedule - recording planned and actual service availability and outages (includes any partial service access constraints or restrictions for a 24/7 service)"	String
+"CR"	CR Contact Center Management Plan Instance Record	Contact Center Service Operating Configuration	"The default contact center operational configuration (Note this can include some latitude for position assignment changes to be made during day to day operations with service calls to the Contact Center Operations service domain)"	String
+"CR"	CR Contact Center Management Plan Instance Record	Contact Center Resource Plan	"Details the number and skill profile of the contact center staff (target and actual)"	String
+"CR"	CR Contact Center Management Plan Instance Record	Contact Center Training Plan	"Details of staff training and certification activity"	String
+"BQ"	BQ Performance Instance Record	""	""	""
+"BQ"	BQ Performance Instance Record	Contact Center Position Utilization	"Record of the contact center position target and actual utilization"	String
+"BQ"	BQ Performance Instance Record	Contact Center Loading Projections	"Estimated projected contact center resource requirements and utilization and loading based on historical patterns and anticipated activity"	String
+"BQ"	BQ Performance Instance Record	Contact Center Service Statistics	"Tracked activity and performance statistics used to manage the contact center set-up and to inform staff training"	String
+"BQ"	BQ Performance Instance Record	Contact Center Service Statistic Type	"The type of activity that is tracked and analyzed (e.g. wait time, average handle time, dropped call ratio, resolution rate)"	String
+"BQ"	BQ Performance Instance Record	Contact Center Service Statistic Value	"The statistical analysis that can include historical and trended views of the activity"	String
+"BQ"	BQ Performance Instance Record	Contact Center Service Statistic Interpretation	"The evaluation of the root cause or comparative assessments of the analysis"	String
+"BQ"	BQ Performance Instance Record	Contact Center Service Statistic Recommendation	"Service/configuration amendment recommendations arising from the statistical analysis"	String
+"BQ"	BQ Troubleshooting Instance Record	""	""	""
+"BQ"	BQ Troubleshooting Instance Record	Contact Center Production Issue Record	"A record of any production issues arising during the session (see Advanced Voice Channel Operations for detailed content)"	String
+"BQ"	BQ Troubleshooting Instance Record	Contact Center Issue Analysis And Recommended Response	"A record of the root cause analysis for recurring issues and suggested remedial action"	String

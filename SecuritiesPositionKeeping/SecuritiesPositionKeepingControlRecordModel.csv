@@ -1,0 +1,27 @@
+"Control Record Model for: "	Securities Position Keeping
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Securities Position Log Instance Record	""	""	""
+"CR"	CR Securities Position Log Instance Record	Securities Transaction Log Type	"The type of securities transaction log (e.g. equities, derivatives, all)"	String
+"CR"	CR Securities Position Log Instance Record	Product Instance Reference	"The product/service investment account for which this is the securities transaction log"	Object
+"CR"	CR Securities Position Log Instance Record	Customer Reference	"Reference to the product or service account holder/customer for the log if appropriate"	Object
+"CR"	CR Securities Position Log Instance Record	Counterparty Reference	"Reference to a counterparty for the log if appropriate (e.g. merchant reference, corporate reference)"	Object
+"CR"	CR Securities Position Log Instance Record	Securities Position Log Instrument Profile	"Details the range of instruments that are tracked by the log (each instrument has its own transaction record/holding position"	String
+"CR"	CR Securities Position Log Instance Record	Securities Position Log Instrument Record	"Details for an individual tracked instrument type - (the log track transactions for multiple securities/instruments)"	String
+"CR"	CR Securities Position Log Instance Record	Securities Instrument Type	"Reference to the type of investment instrument being tracked (e.g. equity, commodity, FX/MM, derivative)"	String
+"CR"	CR Securities Position Log Instance Record	Securities Instrument Reference	"The specific instrument trading identifier (e.g. NASDAQ Id)"	Object
+"CR"	CR Securities Position Log Instance Record	Securities Position Limits	"Basic position limits that are maintained as an aspect of the log (these can include securities holdings and related instrument properties such as associated dividends entitlements)"	String
+"CR"	CR Securities Position Log Instance Record	Securities Position Limit Type	"The type of position maintained for the log (e.g. cumulative balance)"	String
+"CR"	CR Securities Position Log Instance Record	Securities Position Limit Settings	"The position definition, associated limit settings and rules"	String
+"CR"	CR Securities Position Log Instance Record	Securities Position Limit Value	"The current calculated position"	String
+"CR"	CR Securities Position Log Instance Record	Securities Amount Block	"Support for recording blocks on the log position (handling is by the associated investment account fulfillment service domain)"	Amount
+"CR"	CR Securities Position Log Instance Record	Securities Amount Block Type	"The type of block applied to the tracked securities position (e.g. pending, final)"	String
+"CR"	CR Securities Position Log Instance Record	Priority	"Priority classification for the block"	String
+"CR"	CR Securities Position Log Instance Record	Amount	"The amount of the block"	String
+"CR"	CR Securities Position Log Instance Record	Date Type	"The type of key dates associated with the block  (e.g. start, expiry)"	String
+"CR"	CR Securities Position Log Instance Record	Date	"Value of the specific date type"	String
+"CR"	CR Securities Position Log Instance Record	Initiation Date	"The date and time the log was initiated. Note the log will have a complex internal calendar structure for extract and reporting"	Date
+"CR"	CR Securities Position Log Instance Record	Status	"The status of the log entry (e.g. active, in-suspense etc.)"	String
+"BQ"	BQ Securities Transaction Capture Instance Record	""	""	""
+"BQ"	BQ Securities Transaction Capture Instance Record	Securities Posting Type	"The type of securities transaction (e.g. bought amount, sold amount, dividend payment)"	String
+"BQ"	BQ Securities Transaction Capture Instance Record	Securities Posting Transaction	"The logged securities transaction. Note the log can handle a range of transactions covering bought and sold amounts and securities instrument related transactions such as dividend payments"	String
+"BQ"	BQ Securities Transaction Capture Instance Record	Securities Posting Value Date	"The date of the securities transaction"	Date

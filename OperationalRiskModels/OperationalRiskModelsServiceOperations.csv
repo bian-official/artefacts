@@ -1,0 +1,5 @@
+"Service Operations for: "	Operational Risk Models
+"Control Record Model for Operational Risk Models is not defined"
+"POST"	"/operational-risk-models/activation"
+"PUT"	"/operational-risk-models/{sd-reference-id}/configuration"
+"PUT"	"/operational-risk-models/{sd-reference-id}/feedback"

@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Behavior Insights"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Behavior Insights
+"Role Definition"	"This service domain references the range of customer historical data maintained by the Customer Event History service domain to develop behavioral insights into customers. This analysis can support sales and marketing activity (e.g. by determining the likely response to sales efforts based on passed performance) as well as identifying changes in status and behavior that might influence the desired product mix for a customer. The actual analysis routines are developed/maintained by the Customer Behavior Models service domain"
+"Example of use"	"A regular analysis of customer event histories is used to update the maintained range of customer behavioral insights. The updated results are notified to the Customer Relationship Management and Party Profile Service Domains as appropriate"
+"Executive Summary"	"This service domain applies behavioral analysis to customer event history to maintain a range of customer ratings/scores (such as 'propensity to buy') and to detect life events or trends"
+"Key Features"	"Consolidate customer activity data from internal and external sources. Select and apply analyses to the historical customer data. Maintain/derive insights into behavior and preferences"
+"Functional Pattern"	Analyze
+"Asset Type"	CustomerBehavior
+"Generic Artifact"	Analysis
+"Control Record"	CustomerBehaviorAnalysis
+"Registration Status"	Registered

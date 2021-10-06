@@ -1,0 +1,215 @@
+"Service Operations for: "	Promotional Events
+""
+"POST"	"/promotional-events/activation"
+"PUT"	"/promotional-events/{sd-reference-id}/configuration"
+"PUT"	"/promotional-events/{sd-reference-id}/feedback"
+""
+"Post"	"/promotional-events/{sd-identifier}/promotional-event-management-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"out"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""
+"Put"	"/promotional-events/{sd-identifier}/promotional-event-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Metric Goal"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""
+"Put"	"/promotional-events/{sd-identifier}/promotional-event-management-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""
+"Put"	"/promotional-events/{sd-identifier}/promotional-event-management-plan/{crbq-identifier}/grant"
+""
+"Get"	"/promotional-events/{sd-identifier}/promotional-event-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"out"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"out"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"out"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"out"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"out"	"Promotional Event Metric Goal"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"out"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"out"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""
+"Put"	"/promotional-events/{sd-identifier}/market-tracking/{crbq-identifier}/update"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	9	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	10	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	11	"inout"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	12	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Put"	"/promotional-events/{sd-identifier}/market-tracking/{crbq-identifier}/execution"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	9	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	10	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	11	"inout"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	12	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Put"	"/promotional-events/{sd-identifier}/market-tracking/{crbq-identifier}/requisition"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	9	"inout"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	10	"inout"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	11	"inout"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	12	"inout"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Get"	"/promotional-events/{sd-identifier}/market-tracking/{crbq-identifier}/retrieval"
+""	1	"out"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"out"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"out"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"out"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"out"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"out"	"Promotional Event Metric Goal"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"out"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"out"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	9	"out"	"Market Tracking Work Task Type"	"BQ Market Tracking Instance Record"	String
+""	10	"out"	"General Market Research Directory Entry Instance Reference"	"BQ Market Tracking Instance Record"	Object
+""	11	"out"	"Market Tracking Work Task Work Products"	"BQ Market Tracking Instance Record"	String
+""	12	"out"	"Market Tracking Work Task Result"	"BQ Market Tracking Instance Record"	String
+""	13	"out"	"Market Tracking Work Task Date-Time"	"BQ Market Tracking Instance Record"	Date
+""
+"Post"	"/promotional-events/{sd-identifier}/impact-assessment/{crbq-identifier}/creation"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Impact Assessment Work Task Type"	"BQ Impact Assessment Instance Record"	String
+""	9	"inout"	"Impact Assessment Work Task Work Products"	"BQ Impact Assessment Instance Record"	String
+""	10	"out"	"Impact Assessment Work Task Result"	"BQ Impact Assessment Instance Record"	String
+""	11	"inout"	"Impact Assessment Work Task Date-Time"	"BQ Impact Assessment Instance Record"	Date
+""
+"Put"	"/promotional-events/{sd-identifier}/impact-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Impact Assessment Work Task Type"	"BQ Impact Assessment Instance Record"	String
+""	9	"inout"	"Impact Assessment Work Task Work Products"	"BQ Impact Assessment Instance Record"	String
+""	10	"inout"	"Impact Assessment Work Task Result"	"BQ Impact Assessment Instance Record"	String
+""	11	"inout"	"Impact Assessment Work Task Date-Time"	"BQ Impact Assessment Instance Record"	Date
+""
+"Put"	"/promotional-events/{sd-identifier}/impact-assessment/{crbq-identifier}/execution"
+""
+"Put"	"/promotional-events/{sd-identifier}/impact-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Impact Assessment Work Task Type"	"BQ Impact Assessment Instance Record"	String
+""	9	"inout"	"Impact Assessment Work Task Work Products"	"BQ Impact Assessment Instance Record"	String
+""	10	"inout"	"Impact Assessment Work Task Result"	"BQ Impact Assessment Instance Record"	String
+""	11	"inout"	"Impact Assessment Work Task Date-Time"	"BQ Impact Assessment Instance Record"	Date
+""
+"Get"	"/promotional-events/{sd-identifier}/impact-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"out"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"out"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"out"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"out"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"out"	"Promotional Event Metric Goal"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"out"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"out"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	9	"out"	"Impact Assessment Work Task Type"	"BQ Impact Assessment Instance Record"	String
+""	10	"out"	"Impact Assessment Work Task Work Products"	"BQ Impact Assessment Instance Record"	String
+""	11	"out"	"Impact Assessment Work Task Result"	"BQ Impact Assessment Instance Record"	String
+""	12	"out"	"Impact Assessment Work Task Date-Time"	"BQ Impact Assessment Instance Record"	Date
+""
+"Post"	"/promotional-events/{sd-identifier}/participation/{crbq-identifier}/creation"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Metric Goal"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	9	"inout"	"Promotional Event Participation Instance Reference"	"BQ Participation Instance Record"	Object
+""	10	"inout"	"Promotional Event Sponsorship Budget"	"BQ Participation Instance Record"	String
+""	11	"inout"	"Employee/Business Unit Reference"	"BQ Participation Instance Record"	Object
+""	12	"inout"	"Promotional Event Execution Schedule"	"BQ Participation Instance Record"	String
+""	13	"inout"	"Promotional Event Result"	"BQ Participation Instance Record"	String
+""
+"Put"	"/promotional-events/{sd-identifier}/participation/{crbq-identifier}/update"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Metric Goal"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	9	"inout"	"Promotional Event Participation Instance Reference"	"BQ Participation Instance Record"	Object
+""	10	"inout"	"Promotional Event Sponsorship Budget"	"BQ Participation Instance Record"	String
+""	11	"inout"	"Employee/Business Unit Reference"	"BQ Participation Instance Record"	Object
+""	12	"inout"	"Promotional Event Execution Schedule"	"BQ Participation Instance Record"	String
+""	13	"inout"	"Promotional Event Result"	"BQ Participation Instance Record"	String
+""
+"Put"	"/promotional-events/{sd-identifier}/participation/{crbq-identifier}/requisition"
+""	1	"inout"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"inout"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"inout"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"inout"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"inout"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"inout"	"Promotional Event Metric Goal"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"inout"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"inout"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	9	"inout"	"Promotional Event Participation Instance Reference"	"BQ Participation Instance Record"	Object
+""	10	"inout"	"Promotional Event Sponsorship Budget"	"BQ Participation Instance Record"	String
+""	11	"inout"	"Employee/Business Unit Reference"	"BQ Participation Instance Record"	Object
+""	12	"inout"	"Promotional Event Execution Schedule"	"BQ Participation Instance Record"	String
+""	13	"inout"	"Promotional Event Result"	"BQ Participation Instance Record"	String
+""
+"Get"	"/promotional-events/{sd-identifier}/participation/{crbq-identifier}/retrieval"
+""	1	"out"	"Promotional Event Portfolio"	"CR Promotional Event Management Plan Instance Record"	String
+""	2	"out"	"Promotional Event Type"	"CR Promotional Event Management Plan Instance Record"	String
+""	3	"out"	"Promotional Event Description"	"CR Promotional Event Management Plan Instance Record"	String
+""	4	"out"	"Promotional Event Metrics"	"CR Promotional Event Management Plan Instance Record"	String
+""	5	"out"	"Promotional Event Metric Definition"	"CR Promotional Event Management Plan Instance Record"	String
+""	6	"out"	"Promotional Event Metric Goal"	"CR Promotional Event Management Plan Instance Record"	String
+""	7	"out"	"Promotional Event Schedule"	"CR Promotional Event Management Plan Instance Record"	String
+""	8	"out"	"Promotional Event Performance Record"	"CR Promotional Event Management Plan Instance Record"	String
+""	9	"out"	"Promotional Event Participation Instance Reference"	"BQ Participation Instance Record"	Object
+""	10	"out"	"Promotional Event Sponsorship Budget"	"BQ Participation Instance Record"	String
+""	11	"out"	"Employee/Business Unit Reference"	"BQ Participation Instance Record"	Object
+""	12	"out"	"Promotional Event Execution Schedule"	"BQ Participation Instance Record"	String
+""	13	"out"	"Promotional Event Result"	"BQ Participation Instance Record"	String

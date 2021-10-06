@@ -1,0 +1,13 @@
+"Service Domain specification for Knowledge Exchange"
+"Business Area"	Business Development
+"Business Domain"	Intelectual Property And Knowledge
+"Service Domain"	Knowledge Exchange
+"Role Definition"	"This service domains implements a general facility that enables the enterprise to consolidate, classify and provide structured access to all types of information gleaned from the workforce during their day to day execution of business. This includes market intelligence, product and procedural insights and expertise, identified competitor and customer practices and insights and any other form of general knowledge of potential value to inform business activity and support continual improvement"
+"Example of use"	"Example of use:. An employee identifies a way to streamline some aspect of customer servicing and publishes the approach to the knowledge base for consideration and comment from their peers"
+"Executive Summary"	"Consolidate, classify and provide structured access to consolidated market intelligence, product and procedural knowledge gained from the workforce in the execution of business to inform business activity and support continual improvement"
+"Key Features"	"Knowledge capture and subject classification. Knowledge review/filtering and refinement/repackaging. Knowledge indexing and publication. Knowledge maintenance and access administration"
+"Functional Pattern"	Operate
+"Asset Type"	IntellectualPropertyExchange
+"Generic Artifact"	OperatingSession
+"Control Record"	IntellectualPropertyExchangeOperatingSession
+"Registration Status"	Registered

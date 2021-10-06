@@ -1,0 +1,5 @@
+"Service Operations for: "	Company Billing and Payments
+"Control Record Model for Company Billing and Payments is not defined"
+"POST"	"/company-billing-and-payments/activation"
+"PUT"	"/company-billing-and-payments/{sd-reference-id}/configuration"
+"PUT"	"/company-billing-and-payments/{sd-reference-id}/feedback"

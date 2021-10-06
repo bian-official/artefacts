@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Portfolio"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Customer Portfolio
+"Role Definition"	"Maintain a portfolio of view of the customer base with key customer data and consolidated activity details to support profitability and performance analysis across many possible customer segment dimensions"
+"Example of use"	"Business development review customer segment performance in order to target customer relationship management priorities"
+"Executive Summary"	"Maintain a portfolio of analytical views of the customer base to support customer segment profitability and performance analysis"
+"Key Features"	"Consolidate customer relationship performance data. Obtain comparative market research on customer relationship profitability. Conduct analysis of customer segment performance. Propose initiatives to improve customer segment performance"
+"Functional Pattern"	Analyze
+"Asset Type"	CustomerSegment
+"Generic Artifact"	Analysis
+"Control Record"	CustomerSegmentAnalysis
+"Registration Status"	Registered

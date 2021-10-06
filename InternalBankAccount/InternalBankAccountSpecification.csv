@@ -1,0 +1,13 @@
+"Service Domain specification for Internal Bank Account"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Internal Bank Account
+"Role Definition"	"The Internal Bank Accounts Service Domain manages holding accounts, mirror accounts, etc. that are required for the booking of that part of a transaction in the bank world (so not in the accounting world) that is not to be booked on a customer account. This is typically the case when amounts cannot immediately be booked on a final account for duty seggregation or processing reasons or in order to mirror bookings on external accounts, like nostro accounts."
+"Example of use"	"The settlement of an on outgoing credit transfer via SWIFT is done by instructing a correspondent bank to debit the amount from the account this bank has with the correspondent bank. In this bank's books a nostro account (Internal Bank Account) will be used to mirror this booking on the account with the correspondent.. At the creditor bank, in the case of an outgoing direct debit instruction, the Corporate Current Account of the customer (the creditor) will be credited immediately and the amount will be booked debit on a holding account (Internal Bank Account), to be cleared when the settlement from the debtor's bank comes in."
+"Executive Summary"	"This Service Domain manages the banking-related accounts that are not owned by customers. These are not general ledger accounts. Typical examples are holding accounts and mirror accounts."
+"Key Features"	"- Open Internal Bank Account. - Get Uncleared Transactions. - Get Balance. - Provide Report on Movements"
+"Functional Pattern"	Fulfill
+"Asset Type"	InternalBankAccount
+"Generic Artifact"	Facility (rename)
+"Control Record"	InternalBankAccountArrangement
+"Registration Status"	Provisional

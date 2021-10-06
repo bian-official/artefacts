@@ -1,0 +1,101 @@
+"Service Operations for: "	Special Pricing Conditions
+""
+"POST"	"/special-pricing-conditions/activation"
+"PUT"	"/special-pricing-conditions/{sd-reference-id}/configuration"
+"PUT"	"/special-pricing-conditions/{sd-reference-id}/feedback"
+""
+"Put"	"/special-pricing-conditions/{sd-identifier}/special-pricing-conditions-directory-entry/{crbq-identifier}/control"
+""	1	"in"	"Special Pricing Conditions Directory Entry Description"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	2	"inout"	"Special Pricing Conditions Directory Entry Schedule"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	3	"inout"	"Special Pricing Conditions Directory Entry Version"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	4	"inout"	"Special Pricing Conditions Directory Entry Status"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	5	"inout"	"Special Pricing Conditions Directory Entry Usage Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	6	"inout"	"Special Pricing Conditions Directory Entry Update Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	7	"inout"	"Special Pricing Conditions Directory Entry Service Configuration"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""
+"Put"	"/special-pricing-conditions/{sd-identifier}/special-pricing-conditions-directory-entry/{crbq-identifier}/exchange"
+""	1	"in"	"Special Pricing Conditions Directory Entry Description"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	2	"inout"	"Special Pricing Conditions Directory Entry Schedule"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	3	"inout"	"Special Pricing Conditions Directory Entry Version"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	4	"inout"	"Special Pricing Conditions Directory Entry Status"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	5	"inout"	"Special Pricing Conditions Directory Entry Usage Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	6	"inout"	"Special Pricing Conditions Directory Entry Update Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	7	"inout"	"Special Pricing Conditions Directory Entry Service Configuration"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""
+"Put"	"/special-pricing-conditions/{sd-identifier}/special-pricing-conditions-directory-entry/{crbq-identifier}/execution"
+""	1	"in"	"Special Pricing Conditions Directory Entry Description"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	2	"inout"	"Special Pricing Conditions Directory Entry Schedule"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	3	"inout"	"Special Pricing Conditions Directory Entry Version"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	4	"inout"	"Special Pricing Conditions Directory Entry Status"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	5	"inout"	"Special Pricing Conditions Directory Entry Usage Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	6	"inout"	"Special Pricing Conditions Directory Entry Update Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	7	"inout"	"Special Pricing Conditions Directory Entry Service Configuration"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""
+"Post"	"/special-pricing-conditions/{sd-identifier}/pricing-terms/{crbq-identifier}/initiation"
+""	1	"inout"	"Pricing Terms Preconditions"	"BQ Pricing Terms Instance Record"	String
+""	2	"inout"	"Pricing Terms Property Schedule"	"BQ Pricing Terms Instance Record"	String
+""	3	"inout"	"Pricing Terms Version Number"	"BQ Pricing Terms Instance Record"	String
+""	4	"inout"	"Special Pricing terms"	"BQ Pricing Terms Instance Record"	Business Service
+""	5	"inout"	"Special Pricing terms Service Type"	"BQ Pricing Terms Instance Record"	String
+""	6	"inout"	"Special Pricing terms Service Description"	"BQ Pricing Terms Instance Record"	String
+""	7	"inout"	"Special Pricing terms Service Inputs and Ouputs"	"BQ Pricing Terms Instance Record"	String
+""	8	"inout"	"Special Pricing terms Service Work Product"	"BQ Pricing Terms Instance Record"	String
+""	9	"inout"	"Special Pricing terms Service Name"	"BQ Pricing Terms Instance Record"	String
+""
+"Post"	"/special-pricing-conditions/{sd-identifier}/special-pricing-conditions-directory-entry/{crbq-identifier}/initiation"
+""	1	"in"	"Special Pricing Conditions Directory Entry Description"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	2	"inout"	"Special Pricing Conditions Directory Entry Schedule"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	3	"inout"	"Special Pricing Conditions Directory Entry Version"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	4	"inout"	"Special Pricing Conditions Directory Entry Status"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	5	"inout"	"Special Pricing Conditions Directory Entry Usage Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	6	"inout"	"Special Pricing Conditions Directory Entry Update Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	7	"inout"	"Special Pricing Conditions Directory Entry Service Configuration"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""
+"Get"	"/special-pricing-conditions/{sd-identifier}/pricing-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Pricing Terms Preconditions"	"BQ Pricing Terms Instance Record"	String
+""	2	"out"	"Pricing Terms Property Schedule"	"BQ Pricing Terms Instance Record"	String
+""	3	"out"	"Pricing Terms Version Number"	"BQ Pricing Terms Instance Record"	String
+""	4	"out"	"Special Pricing terms"	"BQ Pricing Terms Instance Record"	Business Service
+""	5	"out"	"Special Pricing terms Service Type"	"BQ Pricing Terms Instance Record"	String
+""	6	"out"	"Special Pricing terms Service Description"	"BQ Pricing Terms Instance Record"	String
+""	7	"out"	"Special Pricing terms Service Inputs and Ouputs"	"BQ Pricing Terms Instance Record"	String
+""	8	"out"	"Special Pricing terms Service Work Product"	"BQ Pricing Terms Instance Record"	String
+""	9	"out"	"Special Pricing terms Service Name"	"BQ Pricing Terms Instance Record"	String
+""
+"Get"	"/special-pricing-conditions/{sd-identifier}/special-pricing-conditions-directory-entry/{crbq-identifier}/retrieval"
+""	1	"out"	"Special Pricing Conditions Directory Entry Description"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	2	"out"	"Special Pricing Conditions Directory Entry Schedule"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	3	"out"	"Special Pricing Conditions Directory Entry Version"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	4	"out"	"Special Pricing Conditions Directory Entry Status"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	5	"out"	"Special Pricing Conditions Directory Entry Usage Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	6	"out"	"Special Pricing Conditions Directory Entry Update Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	7	"out"	"Special Pricing Conditions Directory Entry Service Configuration"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""
+"Put"	"/special-pricing-conditions/{sd-identifier}/special-pricing-conditions-directory-entry/{crbq-identifier}/requisition"
+""	1	"in"	"Special Pricing Conditions Directory Entry Description"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	2	"inout"	"Special Pricing Conditions Directory Entry Schedule"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	3	"inout"	"Special Pricing Conditions Directory Entry Version"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	4	"inout"	"Special Pricing Conditions Directory Entry Status"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	5	"inout"	"Special Pricing Conditions Directory Entry Usage Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	6	"inout"	"Special Pricing Conditions Directory Entry Update Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	7	"inout"	"Special Pricing Conditions Directory Entry Service Configuration"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""
+"Put"	"/special-pricing-conditions/{sd-identifier}/pricing-terms/{crbq-identifier}/update"
+""	1	"inout"	"Pricing Terms Preconditions"	"BQ Pricing Terms Instance Record"	String
+""	2	"inout"	"Pricing Terms Property Schedule"	"BQ Pricing Terms Instance Record"	String
+""	3	"inout"	"Pricing Terms Version Number"	"BQ Pricing Terms Instance Record"	String
+""	4	"inout"	"Special Pricing terms"	"BQ Pricing Terms Instance Record"	Business Service
+""	5	"inout"	"Special Pricing terms Service Type"	"BQ Pricing Terms Instance Record"	String
+""	6	"inout"	"Special Pricing terms Service Description"	"BQ Pricing Terms Instance Record"	String
+""	7	"inout"	"Special Pricing terms Service Inputs and Ouputs"	"BQ Pricing Terms Instance Record"	String
+""	8	"inout"	"Special Pricing terms Service Work Product"	"BQ Pricing Terms Instance Record"	String
+""	9	"inout"	"Special Pricing terms Service Name"	"BQ Pricing Terms Instance Record"	String
+""
+"Put"	"/special-pricing-conditions/{sd-identifier}/special-pricing-conditions-directory-entry/{crbq-identifier}/update"
+""	1	"in"	"Special Pricing Conditions Directory Entry Description"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	2	"inout"	"Special Pricing Conditions Directory Entry Schedule"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	3	"inout"	"Special Pricing Conditions Directory Entry Version"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	4	"inout"	"Special Pricing Conditions Directory Entry Status"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	5	"inout"	"Special Pricing Conditions Directory Entry Usage Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	6	"inout"	"Special Pricing Conditions Directory Entry Update Log"	"CR Special Pricing Conditions Directory Entry Instance Record"	String
+""	7	"inout"	"Special Pricing Conditions Directory Entry Service Configuration"	"CR Special Pricing Conditions Directory Entry Instance Record"	String

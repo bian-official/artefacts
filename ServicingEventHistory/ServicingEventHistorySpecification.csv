@@ -1,0 +1,13 @@
+"Service Domain specification for Servicing Event History"
+"Business Area"	Channels
+"Business Domain"	Servicing
+"Service Domain"	Servicing Event History
+"Role Definition"	"The Servicing Event History service domain captures the details of servicing activity to support root cause analysis. The information captured can include summary details of the servicing activity, product access details and click-stream/voice records as necessary. The captured detail can be analyzed for staff assessment and training and to support procedural refinements"
+"Example of use"	"A servicing contact is concluded and the contact details and result is captured. In cases the call is recorded"
+"Executive Summary"	"This service domain captures, classifies and stores servicing activity and events to support root cause analysis"
+"Key Features"	"Log customer servicing event activity for the representative. Log servicing issues and other activity. Support servicing log data extracts. Maintain activity statistics and accumulators"
+"Functional Pattern"	Track
+"Asset Type"	ServicingEvent
+"Generic Artifact"	Log
+"Control Record"	ServicingEventLog
+"Registration Status"	Registered

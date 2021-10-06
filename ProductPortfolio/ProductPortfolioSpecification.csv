@@ -1,0 +1,13 @@
+"Service Domain specification for Product Portfolio"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Product Portfolio
+"Role Definition"	"Maintain a portfolio of view of the bank's products with key product performance data and consolidated activity details to support profitability and performance analysis across the product portfolio"
+"Example of use"	"Business development review product performance in order to target product design,  marketing, sales, pricing and delivery priorities"
+"Executive Summary"	"Maintain a portfolio of analytical views of the product portfolio to support product profitability and performance analysis"
+"Key Features"	"Consolidate product performance data. Obtain comparative market research on competitor product activity/profitability. Conduct analysis of product performance. Propose initiatives to improve product profitability/performance"
+"Functional Pattern"	Analyze
+"Asset Type"	ProductPortfolio
+"Generic Artifact"	Analysis
+"Control Record"	ProductPortfolioAnalysis
+"Registration Status"	Registered

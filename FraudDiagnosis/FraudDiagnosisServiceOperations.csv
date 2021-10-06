@@ -1,0 +1,81 @@
+"Service Operations for: "	Fraud Diagnosis
+""
+"POST"	"/fraud-diagnosis/activation"
+"PUT"	"/fraud-diagnosis/{sd-reference-id}/configuration"
+"PUT"	"/fraud-diagnosis/{sd-reference-id}/feedback"
+""
+"Post"	"/fraud-diagnosis/{sd-identifier}/fraud-diagnosis-analysis/{crbq-identifier}/evaluation"
+""	1	"in"	"Product Production Session Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	2	"inout"	"Fraud Diagnosis Evaluation Profile"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	3	"in"	"Fraud Diagnosis Transaction Consolidation Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	4	"in"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	5	"in"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	6	"out"	"Fraud Diagnosis Determination"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	7	"out"	"Fraud Diagnosis Recommendation"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""
+"Put"	"/fraud-diagnosis/{sd-identifier}/fraud-diagnosis-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Product Production Session Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	2	"inout"	"Fraud Diagnosis Evaluation Profile"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	3	"inout"	"Fraud Diagnosis Transaction Consolidation Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	4	"inout"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	5	"inout"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""
+"Put"	"/fraud-diagnosis/{sd-identifier}/fraud-diagnosis-analysis/{crbq-identifier}/exchange"
+""
+"Put"	"/fraud-diagnosis/{sd-identifier}/fraud-diagnosis-analysis/{crbq-identifier}/requisition"
+""
+"Get"	"/fraud-diagnosis/{sd-identifier}/fraud-diagnosis-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Production Session Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	2	"out"	"Fraud Diagnosis Evaluation Profile"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	3	"out"	"Fraud Diagnosis Transaction Consolidation Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	4	"out"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	5	"out"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	6	"out"	"Fraud Diagnosis Determination"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	7	"out"	"Fraud Diagnosis Recommendation"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""
+"Get"	"/fraud-diagnosis/{sd-identifier}/customer-behavior/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Production Session Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	2	"out"	"Fraud Diagnosis Evaluation Profile"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	3	"out"	"Fraud Diagnosis Transaction Consolidation Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	4	"out"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	5	"out"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	6	"out"	"Fraud Diagnosis Determination"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	7	"out"	"Fraud Diagnosis Recommendation"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	8	"out"	"Customer Behavior Analysis Result"	"BQ Customer Behavior Instance Record"	String
+""	9	"out"	"Customer Behavior Analysis Work Product"	"BQ Customer Behavior Instance Record"	String
+""
+"Get"	"/fraud-diagnosis/{sd-identifier}/economic-model/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Production Session Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	2	"out"	"Fraud Diagnosis Evaluation Profile"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	3	"out"	"Fraud Diagnosis Transaction Consolidation Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	4	"out"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	5	"out"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	6	"out"	"Fraud Diagnosis Determination"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	7	"out"	"Fraud Diagnosis Recommendation"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	8	"out"	"Economic Model Analysis Result"	"BQ Economic Model Instance Record"	String
+""	9	"out"	"Economic Model Work Product"	"BQ Economic Model Instance Record"	String
+""
+"Put"	"/fraud-diagnosis/{sd-identifier}/analyst-review/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Reference"	"BQ Analyst Review Instance Record"	Object
+""	2	"out"	"Outbound Contact Reference"	"BQ Analyst Review Instance Record"	Object
+""	3	"out"	"Analyst Review Analysis Result"	"BQ Analyst Review Instance Record"	String
+""	4	"out"	"Analyst Review Work Product"	"BQ Analyst Review Instance Record"	String
+""	5	"out"	"Analyst Review Recommended Action"	"BQ Analyst Review Instance Record"	String
+""
+"Get"	"/fraud-diagnosis/{sd-identifier}/analyst-review/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Production Session Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	2	"out"	"Fraud Diagnosis Evaluation Profile"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	3	"out"	"Fraud Diagnosis Transaction Consolidation Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	4	"out"	"Fraud Evaluation Production Anomaly Record"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	5	"out"	"Fraud Evaluation Production Anomaly Production Transaction Reference"	"CR Fraud Diagnosis Analysis Instance Record"	Object
+""	6	"out"	"Fraud Diagnosis Determination"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	7	"out"	"Fraud Diagnosis Recommendation"	"CR Fraud Diagnosis Analysis Instance Record"	String
+""	8	"out"	"Customer Behavior Analysis Result"	"BQ Customer Behavior Instance Record"	String
+""	9	"out"	"Customer Behavior Analysis Work Product"	"BQ Customer Behavior Instance Record"	String
+""	10	"out"	"Economic Model Analysis Result"	"BQ Economic Model Instance Record"	String
+""	11	"out"	"Economic Model Work Product"	"BQ Economic Model Instance Record"	String
+""	12	"out"	"Customer Reference"	"BQ Analyst Review Instance Record"	Object
+""	13	"out"	"Outbound Contact Reference"	"BQ Analyst Review Instance Record"	Object
+""	14	"out"	"Analyst Review Analysis Result"	"BQ Analyst Review Instance Record"	String
+""	15	"out"	"Analyst Review Work Product"	"BQ Analyst Review Instance Record"	String
+""	16	"out"	"Analyst Review Recommended Action"	"BQ Analyst Review Instance Record"	String

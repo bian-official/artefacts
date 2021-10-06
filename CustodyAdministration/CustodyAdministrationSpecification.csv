@@ -1,0 +1,13 @@
+"Service Domain specification for Custody Administration"
+"Business Area"	Operations
+"Business Domain"	Custody, Collateral And Documents
+"Service Domain"	Custody Administration
+"Role Definition"	"Administer the securities scrip (paper and electronic) holdings for a custodial arrangement. This includes administering the physical movements of securities, safe storage, the processing of associated dividends and interest and securities reporting"
+"Example of use"	"Example of use:. A customer uses the banks custodial services to handle their investment portfolio holdings"
+"Executive Summary"	"A service to provide safe custody services for marketable securities for bank customers"
+"Key Features"	"Administer securities movements. Arrange safe storage. Process dividends and interest against securities. Report on securities holdings. Determine and apply service fees"
+"Functional Pattern"	Fulfill
+"Asset Type"	Custody
+"Generic Artifact"	Facility (rename)
+"Control Record"	CustodyArrangement
+"Registration Status"	Registered

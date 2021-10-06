@@ -1,0 +1,13 @@
+"Service Domain specification for Prospect Campaign Execution"
+"Business Area"	Customers
+"Business Domain"	Sales
+"Service Domain"	Prospect Campaign Execution
+"Role Definition"	"Handle the deployment, execution and on-going refinement of a prospect campaign. This includes many types of proactive prospect acquisition campaigns. The campaign execution process performs the initial selection and confirmation/validation of candidate lists and includes providing critical feedback on the impact of the campaign to the design unit to support re-calibration and refinement of the specification based on practical experience"
+"Example of use"	"A bank implements a targeted take-one mailshot acquisition campaign to attract additional customers"
+"Executive Summary"	"Execute a prospect campaign (version) and track and respond to impact"
+"Key Features"	"Candidate prospect selection/identification (list development). Prospect interaction and response capture. Campaign performance analysis and feedback"
+"Functional Pattern"	Process
+"Asset Type"	ProspectCampaign
+"Generic Artifact"	Procedure
+"Control Record"	ProspectCampaignProcedure
+"Registration Status"	Registered

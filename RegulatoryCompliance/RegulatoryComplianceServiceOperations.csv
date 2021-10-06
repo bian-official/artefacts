@@ -1,0 +1,60 @@
+"Service Operations for: "	Regulatory Compliance
+""
+"POST"	"/regulatory-compliance/activation"
+"PUT"	"/regulatory-compliance/{sd-reference-id}/configuration"
+"PUT"	"/regulatory-compliance/{sd-reference-id}/feedback"
+""
+"Post"	"/regulatory-compliance/{sd-identifier}/regulatory-compliance-assessment/{crbq-identifier}/evaluation"
+""	1	"inout"	"Regulatory Assessment Type"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	2	"in"	"Business Unit Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	3	"in"	"Product/Service Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	4	"in"	"Customer Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	5	"in"	"Regulatory Authority Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	6	"in"	"Regulation Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	7	"out"	"Regulation Definition"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	8	"out"	"Regulation Compliance and Reporting Requirements"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	9	"out"	"Regulation Accountability"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	10	"out"	"Regulation Penalties"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	11	"out"	"Regulation Guideline"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	12	"inout"	"Document Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	13	"inout"	"Regulatory Assessment Work Products"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	14	"out"	"Regulatory Assessment Result"	"CR Regulatory Compliance Assessment Instance Record"	String
+""
+"Put"	"/regulatory-compliance/{sd-identifier}/regulatory-compliance-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Regulatory Assessment Type"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	2	"inout"	"Business Unit Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	3	"inout"	"Product/Service Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	4	"inout"	"Customer Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	5	"inout"	"Regulatory Authority Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	6	"inout"	"Regulation Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	7	"inout"	"Document Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	8	"inout"	"Regulatory Assessment Work Products"	"CR Regulatory Compliance Assessment Instance Record"	String
+""
+"Put"	"/regulatory-compliance/{sd-identifier}/regulatory-compliance-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/regulatory-compliance/{sd-identifier}/regulatory-compliance-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Regulatory Assessment Type"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	2	"inout"	"Business Unit Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	3	"inout"	"Product/Service Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	4	"inout"	"Customer Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	5	"inout"	"Regulatory Authority Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	6	"inout"	"Regulation Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	7	"inout"	"Document Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	8	"inout"	"Regulatory Assessment Work Products"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	9	"out"	"Regulatory Assessment Result"	"CR Regulatory Compliance Assessment Instance Record"	String
+""
+"Get"	"/regulatory-compliance/{sd-identifier}/regulatory-compliance-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Regulatory Assessment Type"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	2	"out"	"Business Unit Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	3	"out"	"Product/Service Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	4	"out"	"Customer Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	5	"out"	"Regulatory Authority Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	6	"out"	"Regulation Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	7	"out"	"Regulation Definition"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	8	"out"	"Regulation Compliance and Reporting Requirements"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	9	"out"	"Regulation Accountability"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	10	"out"	"Regulation Penalties"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	11	"out"	"Regulation Guideline"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	12	"out"	"Document Reference"	"CR Regulatory Compliance Assessment Instance Record"	Object
+""	13	"out"	"Regulatory Assessment Work Products"	"CR Regulatory Compliance Assessment Instance Record"	String
+""	14	"out"	"Regulatory Assessment Result"	"CR Regulatory Compliance Assessment Instance Record"	String

@@ -1,0 +1,221 @@
+"Service Operations for: "	Contact Handler
+""
+"POST"	"/contact-handler/activation"
+"PUT"	"/contact-handler/{sd-reference-id}/configuration"
+"PUT"	"/contact-handler/{sd-reference-id}/feedback"
+""
+"Post"	"/contact-handler/{sd-identifier}/customer-contact-operating-session/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"in"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"in"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"inout"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	5	"in"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	6	"in"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"out"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"out"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"in"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	10	"in"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	11	"in"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"inout"	"Customer Contact Record Servicing Position Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	13	"inout"	"Customer Contact Record Servicing Resource Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	14	"inout"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"in"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	16	"in"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	17	"out"	"Customer Contact Record Duration"	"CR Customer Contact Operating Session Instance Record"	String
+""	18	"out"	"Customer Contact Record Result"	"CR Customer Contact Operating Session Instance Record"	String
+""
+"Put"	"/contact-handler/{sd-identifier}/customer-contact-operating-session/{crbq-identifier}/update"
+""	1	"inout"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"inout"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"inout"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"inout"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	5	"inout"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	6	"inout"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"inout"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"inout"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"inout"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	10	"inout"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	11	"inout"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"inout"	"Customer Contact Record Servicing Position Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	13	"inout"	"Customer Contact Record Servicing Resource Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	14	"inout"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"inout"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	16	"inout"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	17	"inout"	"Customer Contact Record Duration"	"CR Customer Contact Operating Session Instance Record"	String
+""	18	"inout"	"Customer Contact Record Result"	"CR Customer Contact Operating Session Instance Record"	String
+""
+"Put"	"/contact-handler/{sd-identifier}/customer-contact-operating-session/{crbq-identifier}/control"
+""
+"Put"	"/contact-handler/{sd-identifier}/customer-contact-operating-session/{crbq-identifier}/exchange"
+""
+"Put"	"/contact-handler/{sd-identifier}/customer-contact-operating-session/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"inout"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"inout"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"inout"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""
+"Put"	"/contact-handler/{sd-identifier}/customer-contact-operating-session/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"inout"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"inout"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"inout"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""
+"Get"	"/contact-handler/{sd-identifier}/customer-contact-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"out"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"out"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"out"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	5	"out"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	6	"out"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"out"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"out"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"out"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	10	"out"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	11	"out"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"out"	"Customer Contact Record Servicing Position Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	13	"out"	"Customer Contact Record Servicing Resource Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	14	"out"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"out"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	16	"out"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	17	"out"	"Customer Contact Record Duration"	"CR Customer Contact Operating Session Instance Record"	String
+""	18	"out"	"Customer Contact Record Result"	"CR Customer Contact Operating Session Instance Record"	String
+""
+"Get"	"/contact-handler/{sd-identifier}/authentication/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"out"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"out"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"out"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	5	"out"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	6	"out"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"out"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"out"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"out"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	10	"out"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	11	"out"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"out"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	13	"out"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	14	"out"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"out"	"Authentication Task Record"	"BQ Authentication Instance Record"	String
+""
+"Get"	"/contact-handler/{sd-identifier}/routing/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"out"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"out"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"out"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	5	"out"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	6	"out"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"out"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"out"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"out"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	10	"out"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	11	"out"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"out"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	13	"out"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	14	"out"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"out"	"Routing Task Record"	"BQ Routing Instance Record"	String
+""
+"Post"	"/contact-handler/{sd-identifier}/session/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"in"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"in"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"in"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	5	"in"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	6	"in"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"inout"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"inout"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"in"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	10	"in"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	11	"in"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"in"	"Customer Contact Record Servicing Position Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	13	"in"	"Customer Contact Record Servicing Resource Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	14	"inout"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"out"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	16	"out"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	17	"inout"	"Customer Contact Record Duration"	"CR Customer Contact Operating Session Instance Record"	String
+""	18	"inout"	"Customer Contact Record Result"	"CR Customer Contact Operating Session Instance Record"	String
+""	19	"out"	"Session Task Record"	"BQ Session Instance Record"	String
+""	20	"out"	"Session Result"	"BQ Session Instance Record"	String
+""
+"Put"	"/contact-handler/{sd-identifier}/session/{crbq-identifier}/update"
+""	1	"inout"	"Customer Contact Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	2	"inout"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"inout"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	4	"inout"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	5	"inout"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	6	"inout"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"inout"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"inout"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"inout"	"Customer Contact Record Servicing Position Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	10	"inout"	"Customer Contact Record Servicing Resource Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	11	"inout"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"inout"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	13	"inout"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	14	"inout"	"Customer Contact Record Duration"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"inout"	"Customer Contact Record Result"	"CR Customer Contact Operating Session Instance Record"	String
+""
+"Put"	"/contact-handler/{sd-identifier}/session/{crbq-identifier}/control"
+""
+"Put"	"/contact-handler/{sd-identifier}/session/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Contact Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	2	"inout"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""
+"Get"	"/contact-handler/{sd-identifier}/session/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Contact Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	2	"out"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"out"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	4	"out"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	5	"out"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	6	"out"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"out"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"out"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"out"	"Customer Contact Record Servicing Position Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	10	"out"	"Customer Contact Record Servicing Resource Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	11	"out"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"out"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	13	"out"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	14	"out"	"Customer Contact Record Duration"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"out"	"Customer Contact Record Result"	"CR Customer Contact Operating Session Instance Record"	String
+""	16	"out"	"Session Task Record"	"BQ Session Instance Record"	String
+""	17	"out"	"Session Result"	"BQ Session Instance Record"	String
+""
+"Put"	"/contact-handler/{sd-identifier}/history/{crbq-identifier}/update"
+""	1	"inout"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"inout"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"inout"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"inout"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	5	"inout"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	6	"inout"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"inout"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"inout"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"inout"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	10	"inout"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	11	"inout"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"inout"	"Customer Contact Record Servicing Position Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	13	"inout"	"Customer Contact Record Servicing Resource Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	14	"inout"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"inout"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	16	"inout"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	17	"inout"	"Customer Contact Record Duration"	"CR Customer Contact Operating Session Instance Record"	String
+""	18	"inout"	"Customer Contact Record Result"	"CR Customer Contact Operating Session Instance Record"	String
+""	19	"inout"	"History Task Record"	"BQ History Instance Record"	String
+""
+"Get"	"/contact-handler/{sd-identifier}/history/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Contact Inbound or Outbound Indicator"	"CR Customer Contact Operating Session Instance Record"	Boolean
+""	2	"out"	"eBranch Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	3	"out"	"Advanced Voice Service Operating Session Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	4	"out"	"Customer Contact Record Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	5	"out"	"Customer Contact Record Customer Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	6	"out"	"Customer Contact Record Contact Device"	"CR Customer Contact Operating Session Instance Record"	String
+""	7	"out"	"Customer Contact Record Authentication Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	8	"out"	"Customer Contact Record Routing Selection Status"	"CR Customer Contact Operating Session Instance Record"	String
+""	9	"out"	"Customer Contact Record Menu Selection"	"CR Customer Contact Operating Session Instance Record"	String
+""	10	"out"	"Customer Contact Record Servicing Request"	"CR Customer Contact Operating Session Instance Record"	String
+""	11	"out"	"Customer Contact Record Servicing Event History"	"CR Customer Contact Operating Session Instance Record"	String
+""	12	"out"	"Customer Contact Record Servicing Position Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	13	"out"	"Customer Contact Record Servicing Resource Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	14	"out"	"Customer Contact Record Activity Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	15	"out"	"Customer Contact Dialogue Reference"	"CR Customer Contact Operating Session Instance Record"	Object
+""	16	"out"	"Customer Contact Dialogue Record"	"CR Customer Contact Operating Session Instance Record"	String
+""	17	"out"	"Customer Contact Record Duration"	"CR Customer Contact Operating Session Instance Record"	String
+""	18	"out"	"Customer Contact Record Result"	"CR Customer Contact Operating Session Instance Record"	String
+""	19	"out"	"History Task Record"	"BQ History Instance Record"	String

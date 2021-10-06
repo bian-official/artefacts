@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Case Management"
+"Business Area"	Customers
+"Business Domain"	Customer Care
+"Service Domain"	Customer Case Management
+"Role Definition"	"Manage customer case handling, track the effectiveness and impact of case resolution. Evaluate and confirm that the decision making rules and thresholds are well balanced in terms of equitable determination with general customer and merchant acceptance of the process. Ensure and that sufficient and appropriately trained resources are available "
+"Example of use"	"Customer case handling is assessed over a period and the rules and thresholds guiding resolution decisions recalibrated"
+"Executive Summary"	"Track and assess case load and resolution activity - allocate resources as necessary to optimize case resolution performance"
+"Key Features"	"Define and refine the guiding principles and rules for case resolution. Assess effectiveness of the case processing function. Determine and monitor staffing levels and utilization"
+"Functional Pattern"	Manage
+"Asset Type"	CustomerCase
+"Generic Artifact"	ManagementPlan
+"Control Record"	CustomerCaseManagementPlan
+"Registration Status"	Registered

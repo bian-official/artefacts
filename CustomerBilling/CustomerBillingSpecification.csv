@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Billing"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Customer Billing
+"Role Definition"	"This service domain provides a general customer billing service. The service domain is provided with the applicable fees and charges that are authorized for invoicing typically by a product or service fulfillment service domain. Processing can include verification and authorizations steps and the invoice could be issued as a single transaction or a schedule of transactions."
+"Example of use"	"An invoice is raised for the fees and commissions applicable to a managed investment portfolio"
+"Executive Summary"	"This service domains provides a central service to compose, issue and track customer billing and invoices"
+"Key Features"	"Process/issue customer invoices (on request from fulfillment). Issue reminders against unpaid invoices. Track and report on customer payments against invoices"
+"Functional Pattern"	Process
+"Asset Type"	CustomerBilling
+"Generic Artifact"	Procedure
+"Control Record"	CustomerBillingProcedure
+"Registration Status"	Registered

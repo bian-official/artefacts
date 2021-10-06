@@ -1,0 +1,89 @@
+"Service Operations for: "	Product Inventory Item Management
+""
+"POST"	"/product-inventory-item-management/activation"
+"PUT"	"/product-inventory-item-management/{sd-reference-id}/configuration"
+"PUT"	"/product-inventory-item-management/{sd-reference-id}/feedback"
+""
+"Put"	"/product-inventory-item-management/{sd-identifier}/product-inventory-allocation/{crbq-identifier}/update"
+""	1	"inout"	"Product Inventory Allocation Service Schedule"	"CR Product Inventory Allocation Instance Record"	String
+""	2	"inout"	"Product Inventory Holdings"	"CR Product Inventory Allocation Instance Record"	String
+""	3	"inout"	"Product/Service Type"	"CR Product Inventory Allocation Instance Record"	String
+""	4	"inout"	"Product Inventory Item Type"	"CR Product Inventory Allocation Instance Record"	String
+""	5	"inout"	"Product Inventory Item Record"	"CR Product Inventory Allocation Instance Record"	String
+""	6	"inout"	"Product Inventory Item Description"	"CR Product Inventory Allocation Instance Record"	String
+""	7	"inout"	"Product Inventory Item Supplier Details"	"CR Product Inventory Allocation Instance Record"	String
+""	8	"inout"	"Product Inventory Used Locations"	"CR Product Inventory Allocation Instance Record"	String
+""
+"Put"	"/product-inventory-item-management/{sd-identifier}/product-inventory-allocation/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Inventory Allocation Service Schedule"	"CR Product Inventory Allocation Instance Record"	String
+""	2	"inout"	"Product Inventory Holdings"	"CR Product Inventory Allocation Instance Record"	String
+""	3	"inout"	"Product/Service Type"	"CR Product Inventory Allocation Instance Record"	String
+""	4	"inout"	"Product Inventory Item Type"	"CR Product Inventory Allocation Instance Record"	String
+""	5	"inout"	"Product Inventory Item Record"	"CR Product Inventory Allocation Instance Record"	String
+""	6	"out"	"Product Inventory Item Description"	"CR Product Inventory Allocation Instance Record"	String
+""	7	"inout"	"Product Inventory Item Supplier Details"	"CR Product Inventory Allocation Instance Record"	String
+""	8	"inout"	"Product Inventory Used Locations"	"CR Product Inventory Allocation Instance Record"	String
+""
+"Get"	"/product-inventory-item-management/{sd-identifier}/product-inventory-allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Inventory Allocation Service Schedule"	"CR Product Inventory Allocation Instance Record"	String
+""	2	"out"	"Product Inventory Holdings"	"CR Product Inventory Allocation Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Product Inventory Allocation Instance Record"	String
+""	4	"out"	"Product Inventory Item Type"	"CR Product Inventory Allocation Instance Record"	String
+""	5	"out"	"Product Inventory Item Record"	"CR Product Inventory Allocation Instance Record"	String
+""	6	"out"	"Product Inventory Item Description"	"CR Product Inventory Allocation Instance Record"	String
+""	7	"out"	"Product Inventory Item Supplier Details"	"CR Product Inventory Allocation Instance Record"	String
+""	8	"out"	"Product Inventory Used Locations"	"CR Product Inventory Allocation Instance Record"	String
+""
+"Post"	"/product-inventory-item-management/{sd-identifier}/assignment/{crbq-identifier}/provisioning"
+""	1	"inout"	"Product Inventory Allocation Service Schedule"	"CR Product Inventory Allocation Instance Record"	String
+""	2	"inout"	"Product Inventory Holdings"	"CR Product Inventory Allocation Instance Record"	String
+""	3	"inout"	"Product/Service Type"	"CR Product Inventory Allocation Instance Record"	String
+""	4	"inout"	"Product Inventory Item Type"	"CR Product Inventory Allocation Instance Record"	String
+""	5	"inout"	"Product Inventory Item Record"	"CR Product Inventory Allocation Instance Record"	String
+""	6	"out"	"Product Inventory Item Description"	"CR Product Inventory Allocation Instance Record"	String
+""	7	"inout"	"Product Inventory Item Supplier Details"	"CR Product Inventory Allocation Instance Record"	String
+""	8	"inout"	"Product Inventory Used Locations"	"CR Product Inventory Allocation Instance Record"	String
+""	9	"inout"	"Product Inventory Assignment Request Type"	"BQ Assignment Instance Record"	String
+""	10	"inout"	"Product Inventory Assignment Request Record"	"BQ Assignment Instance Record"	String
+""	11	"out"	"Product Inventory Assignment Delivery Record"	"BQ Assignment Instance Record"	String
+""	12	"out"	"Product Inventory Assignment Costs"	"BQ Assignment Instance Record"	String
+""	13	"inout"	"Date Type"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/product-inventory-item-management/{sd-identifier}/assignment/{crbq-identifier}/update"
+""	1	"inout"	"Product Inventory Assignment Request Type"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Product Inventory Assignment Request Record"	"BQ Assignment Instance Record"	String
+""	3	"inout"	"Product Inventory Assignment Delivery Record"	"BQ Assignment Instance Record"	String
+""	4	"inout"	"Product Inventory Assignment Costs"	"BQ Assignment Instance Record"	String
+""	5	"inout"	"Date Type"	"BQ Assignment Instance Record"	String
+""
+"Put"	"/product-inventory-item-management/{sd-identifier}/assignment/{crbq-identifier}/exchange"
+""
+"Put"	"/product-inventory-item-management/{sd-identifier}/assignment/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Inventory Allocation Service Schedule"	"CR Product Inventory Allocation Instance Record"	String
+""	2	"inout"	"Product Inventory Holdings"	"CR Product Inventory Allocation Instance Record"	String
+""	3	"inout"	"Product/Service Type"	"CR Product Inventory Allocation Instance Record"	String
+""	4	"inout"	"Product Inventory Item Type"	"CR Product Inventory Allocation Instance Record"	String
+""	5	"inout"	"Product Inventory Item Record"	"CR Product Inventory Allocation Instance Record"	String
+""	6	"out"	"Product Inventory Item Description"	"CR Product Inventory Allocation Instance Record"	String
+""	7	"inout"	"Product Inventory Item Supplier Details"	"CR Product Inventory Allocation Instance Record"	String
+""	8	"inout"	"Product Inventory Used Locations"	"CR Product Inventory Allocation Instance Record"	String
+""	9	"inout"	"Product Inventory Assignment Request Type"	"BQ Assignment Instance Record"	String
+""	10	"inout"	"Product Inventory Assignment Request Record"	"BQ Assignment Instance Record"	String
+""	11	"inout"	"Product Inventory Assignment Delivery Record"	"BQ Assignment Instance Record"	String
+""	12	"out"	"Product Inventory Assignment Costs"	"BQ Assignment Instance Record"	String
+""	13	"inout"	"Date Type"	"BQ Assignment Instance Record"	String
+""
+"Get"	"/product-inventory-item-management/{sd-identifier}/assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Inventory Allocation Service Schedule"	"CR Product Inventory Allocation Instance Record"	String
+""	2	"out"	"Product Inventory Holdings"	"CR Product Inventory Allocation Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Product Inventory Allocation Instance Record"	String
+""	4	"out"	"Product Inventory Item Type"	"CR Product Inventory Allocation Instance Record"	String
+""	5	"out"	"Product Inventory Item Record"	"CR Product Inventory Allocation Instance Record"	String
+""	6	"out"	"Product Inventory Item Description"	"CR Product Inventory Allocation Instance Record"	String
+""	7	"out"	"Product Inventory Item Supplier Details"	"CR Product Inventory Allocation Instance Record"	String
+""	8	"out"	"Product Inventory Used Locations"	"CR Product Inventory Allocation Instance Record"	String
+""	9	"out"	"Product Inventory Assignment Request Type"	"BQ Assignment Instance Record"	String
+""	10	"out"	"Product Inventory Assignment Request Record"	"BQ Assignment Instance Record"	String
+""	11	"out"	"Product Inventory Assignment Delivery Record"	"BQ Assignment Instance Record"	String
+""	12	"out"	"Product Inventory Assignment Costs"	"BQ Assignment Instance Record"	String
+""	13	"out"	"Date Type"	"BQ Assignment Instance Record"	String

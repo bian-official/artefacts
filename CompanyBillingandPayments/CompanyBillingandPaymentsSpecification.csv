@@ -1,0 +1,13 @@
+"Service Domain specification for Company Billing and Payments"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Financial Control
+"Service Domain"	Company Billing and Payments
+"Role Definition"	"Handle the company billing and payments activity for company sales and purchases"
+"Example of use"	"Company payments are processed"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	EnterpriseBillingAndPayments
+"Generic Artifact"	Procedure
+"Control Record"	EnterpriseBillingAndPaymentsProcedure
+"Registration Status"	Registered

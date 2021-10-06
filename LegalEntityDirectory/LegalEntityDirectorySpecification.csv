@@ -1,0 +1,13 @@
+"Service Domain specification for Legal Entity Directory"
+"Business Area"	Customers
+"Business Domain"	Party Reference
+"Service Domain"	Legal Entity Directory
+"Role Definition"	"Maintain the legal entity structure including ownership, subsidiaries and partnership details"
+"Example of use"	"Party legal entity details are checked for the financial booking of a major loan"
+"Executive Summary"	"This service domain maintains details of the legal entity structure of the party including dependents and associations for individuals and ownership/subsidiary structures for corporations. Some financial indicators and product coverage/activity details can be included where this defines the nature of the legal entity relationship in particular for corporate entities"
+"Key Features"	"Maintain legal entity reference details for bank customers. Track/update legal entity details based on market research and reports. Process legal entity detail updates from customers/bank sources. Confirm/provide legal entity details for transaction processing tasks"
+"Functional Pattern"	Catalog
+"Asset Type"	LegalEntity
+"Generic Artifact"	DirectoryEntry
+"Control Record"	LegalEntityDirectoryEntry
+"Registration Status"	Registered

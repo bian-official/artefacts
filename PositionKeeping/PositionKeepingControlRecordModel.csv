@@ -1,0 +1,29 @@
+"Control Record Model for: "	Position Keeping
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Financial Position Log Instance Record	""	""	""
+"CR"	CR Financial Position Log Instance Record	Transaction Log Type	"The type of financial transaction log (e.g. customer transactions)"	String
+"CR"	CR Financial Position Log Instance Record	Product Instance Reference	"The product/service for which this is a financial transaction log"	Object
+"CR"	CR Financial Position Log Instance Record	Customer Reference	"Reference to the product or service account holder/customer for the log if appropriate"	Object
+"CR"	CR Financial Position Log Instance Record	Counterparty Reference	"Reference to a counterparty for the log if appropriate (e.g. merchant reference, card network reference)"	Object
+"CR"	CR Financial Position Log Instance Record	Base Currency	"The currency for the logged  transactions"	CurrencyCode
+"CR"	CR Financial Position Log Instance Record	Interest Application Record	"The record of applied interest if interest calculations are supported"	String
+"CR"	CR Financial Position Log Instance Record	Interest Transaction	"A record of applied interest"	String
+"CR"	CR Financial Position Log Instance Record	Transaction Description	"General description of the interest transaction"	String
+"CR"	CR Financial Position Log Instance Record	Transaction Rate Type	"Applicable rate type"	String
+"CR"	CR Financial Position Log Instance Record	Transaction Interest Charge	"The derived interest amount to be applied"	String
+"CR"	CR Financial Position Log Instance Record	Managed Position Limits	"Basic position limits that are maintained as an aspect of the log"	String
+"CR"	CR Financial Position Log Instance Record	Position Limit Type	"The type of position maintained for the log (e.g. cumulative balance)"	String
+"CR"	CR Financial Position Log Instance Record	Position Limit Settings	"The position definition, associated limit settings and rules"	String
+"CR"	CR Financial Position Log Instance Record	Position Limit Value	"The current calculated position"	String
+"CR"	CR Financial Position Log Instance Record	Amount Block	"Support for recording blocks on the log position (handling is by the associated fulfillment service domain)"	String
+"CR"	CR Financial Position Log Instance Record	Amount Block Type	"The type of block applied to the tracked position (e.g. pending, final)"	String
+"CR"	CR Financial Position Log Instance Record	Priority	"Priority classification for the block"	String
+"CR"	CR Financial Position Log Instance Record	Amount	"The amount of the block"	String
+"CR"	CR Financial Position Log Instance Record	Date Type	"The type of key dates associated with the block  (e.g. start, expiry)"	String
+"CR"	CR Financial Position Log Instance Record	Date	"Value of the specific date type"	String
+"CR"	CR Financial Position Log Instance Record	Initiation Date	"The date and time the log was initiated. Note the log will have a complex internal calendar structure for extract and reporting"	Date
+"CR"	CR Financial Position Log Instance Record	Status	"The status of the log entry (e.g. active, in-suspense etc.)"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	""	""	""
+"BQ"	BQ Financial Transaction Capture Instance Record	Posting Description	"The description of purpose of the financial transaction"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	Posting Transaction	"The logged financial transaction. Note the log can be structured with double entry representations (i.e. capture credit/debit pair)"	String
+"BQ"	BQ Financial Transaction Capture Instance Record	Posting Value Date	"The date of the transaction"	Date

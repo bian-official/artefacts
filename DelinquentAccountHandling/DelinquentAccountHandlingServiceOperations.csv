@@ -1,0 +1,329 @@
+"Service Operations for: "	Delinquent Account Handling
+""
+"POST"	"/delinquent-account-handling/activation"
+"PUT"	"/delinquent-account-handling/{sd-reference-id}/configuration"
+"PUT"	"/delinquent-account-handling/{sd-reference-id}/feedback"
+""
+"Post"	"/delinquent-account-handling/{sd-identifier}/delinquent-account-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"in"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"in"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"in"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"in"	"Bank Branch/Location Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	6	"in"	"Issued Device"	"CR Delinquent Account Procedure Instance Record"	String
+""	7	"in"	"Account Currency"	"CR Delinquent Account Procedure Instance Record"	CurrencyCode
+""	8	"in"	"Tax Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	9	"in"	"Associations"	"CR Delinquent Account Procedure Instance Record"	String
+""	10	"in"	"Association Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	11	"in"	"Association Obligation/Entitlement"	"CR Delinquent Account Procedure Instance Record"	String
+""	12	"in"	"Association Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	13	"in"	"Linked Accounts"	"CR Delinquent Account Procedure Instance Record"	String
+""	14	"in"	"Link Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	15	"in"	"Account Details"	"CR Delinquent Account Procedure Instance Record"	String
+""	16	"in"	"Position Limits"	"CR Delinquent Account Procedure Instance Record"	String
+""	17	"in"	"Position Limit Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	18	"in"	"Position Limit Settings"	"CR Delinquent Account Procedure Instance Record"	String
+""	19	"in"	"Position Limit Value"	"CR Delinquent Account Procedure Instance Record"	String
+""	20	"in"	"Collateral Asset Allocation Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	21	"in"	"Collateral Asset Allocation Profile"	"CR Delinquent Account Procedure Instance Record"	String
+""	22	"inout"	"Date Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	23	"in"	"Billing Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	24	"in"	"Billing Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	25	"in"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	26	"in"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	27	"in"	"Product Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	28	"in"	"Product Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	29	"in"	"Interest Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	30	"in"	"Interest Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	31	"in"	"Fee Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	32	"in"	"Fee Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	33	"in"	"Credit Plan Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	34	"in"	"Credit Plan Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	35	"out"	"Delinquent Account Processing Schedule"	"CR Delinquent Account Procedure Instance Record"	String
+""
+"Put"	"/delinquent-account-handling/{sd-identifier}/delinquent-account-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"inout"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"inout"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"inout"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"inout"	"Bank Branch/Location Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	6	"inout"	"Issued Device"	"CR Delinquent Account Procedure Instance Record"	String
+""	7	"inout"	"Account Currency"	"CR Delinquent Account Procedure Instance Record"	CurrencyCode
+""	8	"inout"	"Tax Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	9	"inout"	"Associations"	"CR Delinquent Account Procedure Instance Record"	String
+""	10	"inout"	"Association Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	11	"inout"	"Association Obligation/Entitlement"	"CR Delinquent Account Procedure Instance Record"	String
+""	12	"inout"	"Association Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	13	"inout"	"Linked Accounts"	"CR Delinquent Account Procedure Instance Record"	String
+""	14	"inout"	"Link Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	15	"inout"	"Account Details"	"CR Delinquent Account Procedure Instance Record"	String
+""	16	"inout"	"Position Limits"	"CR Delinquent Account Procedure Instance Record"	String
+""	17	"inout"	"Position Limit Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	18	"inout"	"Position Limit Settings"	"CR Delinquent Account Procedure Instance Record"	String
+""	19	"inout"	"Position Limit Value"	"CR Delinquent Account Procedure Instance Record"	String
+""	20	"inout"	"Collateral Asset Allocation Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	21	"inout"	"Collateral Asset Allocation Profile"	"CR Delinquent Account Procedure Instance Record"	String
+""	22	"inout"	"Date Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	23	"inout"	"Billing Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	24	"inout"	"Billing Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	25	"inout"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	26	"inout"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	27	"inout"	"Product Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	28	"inout"	"Product Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	29	"inout"	"Interest Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	30	"inout"	"Interest Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	31	"inout"	"Fee Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	32	"inout"	"Fee Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	33	"inout"	"Credit Plan Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	34	"inout"	"Credit Plan Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	35	"inout"	"Delinquent Account Processing Schedule"	"CR Delinquent Account Procedure Instance Record"	String
+""
+"Put"	"/delinquent-account-handling/{sd-identifier}/delinquent-account-procedure/{crbq-identifier}/control"
+""
+"Put"	"/delinquent-account-handling/{sd-identifier}/delinquent-account-procedure/{crbq-identifier}/execution"
+""
+"Get"	"/delinquent-account-handling/{sd-identifier}/delinquent-account-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"out"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"out"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"out"	"Bank Branch/Location Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	6	"out"	"Issued Device"	"CR Delinquent Account Procedure Instance Record"	String
+""	7	"out"	"Account Currency"	"CR Delinquent Account Procedure Instance Record"	CurrencyCode
+""	8	"out"	"Tax Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	9	"out"	"Associations"	"CR Delinquent Account Procedure Instance Record"	String
+""	10	"out"	"Association Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	11	"out"	"Association Obligation/Entitlement"	"CR Delinquent Account Procedure Instance Record"	String
+""	12	"out"	"Association Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	13	"out"	"Linked Accounts"	"CR Delinquent Account Procedure Instance Record"	String
+""	14	"out"	"Link Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	15	"out"	"Account Details"	"CR Delinquent Account Procedure Instance Record"	String
+""	16	"out"	"Position Limits"	"CR Delinquent Account Procedure Instance Record"	String
+""	17	"out"	"Position Limit Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	18	"out"	"Position Limit Settings"	"CR Delinquent Account Procedure Instance Record"	String
+""	19	"out"	"Position Limit Value"	"CR Delinquent Account Procedure Instance Record"	String
+""	20	"out"	"Collateral Asset Allocation Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	21	"out"	"Collateral Asset Allocation Profile"	"CR Delinquent Account Procedure Instance Record"	String
+""	22	"out"	"Date Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	23	"out"	"Billing Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	24	"out"	"Billing Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	25	"out"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	26	"out"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	27	"out"	"Product Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	28	"out"	"Product Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	29	"out"	"Interest Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	30	"out"	"Interest Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	31	"out"	"Fee Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	32	"out"	"Fee Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	33	"out"	"Credit Plan Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	34	"out"	"Credit Plan Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	35	"out"	"Delinquent Account Processing Schedule"	"CR Delinquent Account Procedure Instance Record"	String
+""
+"Get"	"/delinquent-account-handling/{sd-identifier}/assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"out"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"out"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"out"	"Bank Branch/Location Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	6	"out"	"Issued Device"	"CR Delinquent Account Procedure Instance Record"	String
+""	7	"out"	"Account Currency"	"CR Delinquent Account Procedure Instance Record"	CurrencyCode
+""	8	"out"	"Tax Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	9	"out"	"Associations"	"CR Delinquent Account Procedure Instance Record"	String
+""	10	"out"	"Association Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	11	"out"	"Association Obligation/Entitlement"	"CR Delinquent Account Procedure Instance Record"	String
+""	12	"out"	"Association Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	13	"out"	"Linked Accounts"	"CR Delinquent Account Procedure Instance Record"	String
+""	14	"out"	"Link Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	15	"out"	"Account Details"	"CR Delinquent Account Procedure Instance Record"	String
+""	16	"out"	"Position Limits"	"CR Delinquent Account Procedure Instance Record"	String
+""	17	"out"	"Position Limit Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	18	"out"	"Position Limit Settings"	"CR Delinquent Account Procedure Instance Record"	String
+""	19	"out"	"Position Limit Value"	"CR Delinquent Account Procedure Instance Record"	String
+""	20	"out"	"Collateral Asset Allocation Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	21	"out"	"Collateral Asset Allocation Profile"	"CR Delinquent Account Procedure Instance Record"	String
+""	22	"out"	"Date Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	23	"out"	"Billing Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	24	"out"	"Billing Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	25	"out"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	26	"out"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	27	"out"	"Product Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	28	"out"	"Product Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	29	"out"	"Interest Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	30	"out"	"Interest Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	31	"out"	"Fee Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	32	"out"	"Fee Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	33	"out"	"Credit Plan Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	34	"out"	"Credit Plan Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	35	"out"	"Delinquent Account Processing Schedule"	"CR Delinquent Account Procedure Instance Record"	String
+""	36	"out"	"Delinquent Account Assessment Work Product"	"BQ Assessment Instance Record"	String
+""	37	"out"	"Delinquent Account Assessment Record"	"BQ Assessment Instance Record"	String
+""
+"Post"	"/delinquent-account-handling/{sd-identifier}/contact/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"in"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"in"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"in"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"in"	"Bank Branch/Location Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	6	"in"	"Issued Device"	"CR Delinquent Account Procedure Instance Record"	String
+""	7	"in"	"Account Currency"	"CR Delinquent Account Procedure Instance Record"	CurrencyCode
+""	8	"in"	"Tax Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	9	"in"	"Associations"	"CR Delinquent Account Procedure Instance Record"	String
+""	10	"in"	"Association Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	11	"in"	"Association Obligation/Entitlement"	"CR Delinquent Account Procedure Instance Record"	String
+""	12	"in"	"Association Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	13	"in"	"Linked Accounts"	"CR Delinquent Account Procedure Instance Record"	String
+""	14	"in"	"Link Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	15	"in"	"Account Details"	"CR Delinquent Account Procedure Instance Record"	String
+""	16	"in"	"Position Limits"	"CR Delinquent Account Procedure Instance Record"	String
+""	17	"in"	"Position Limit Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	18	"in"	"Position Limit Settings"	"CR Delinquent Account Procedure Instance Record"	String
+""	19	"in"	"Position Limit Value"	"CR Delinquent Account Procedure Instance Record"	String
+""	20	"in"	"Collateral Asset Allocation Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	21	"in"	"Collateral Asset Allocation Profile"	"CR Delinquent Account Procedure Instance Record"	String
+""	22	"inout"	"Date Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	23	"in"	"Billing Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	24	"in"	"Billing Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	25	"in"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	26	"in"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	27	"in"	"Product Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	28	"in"	"Product Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	29	"in"	"Interest Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	30	"in"	"Interest Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	31	"in"	"Fee Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	32	"in"	"Fee Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	33	"in"	"Credit Plan Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	34	"in"	"Credit Plan Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	35	"inout"	"Delinquent Account Processing Schedule"	"CR Delinquent Account Procedure Instance Record"	String
+""	36	"out"	"Customer Delinquent Account Contact Record"	"BQ Contact Instance Record"	String
+""	37	"out"	"Contact Message"	"BQ Contact Instance Record"	String
+""	38	"out"	"Contact Date"	"BQ Contact Instance Record"	Date
+""	39	"out"	"Contact Result"	"BQ Contact Instance Record"	String
+""	40	"out"	"Document Directory Entry Instance Reference"	"BQ Contact Instance Record"	Object
+""	41	"out"	"Document Content"	"BQ Contact Instance Record"	String
+""	42	"out"	"Correspondence Instance Reference"	"BQ Contact Instance Record"	Object
+""	43	"out"	"Correspondence Content"	"BQ Contact Instance Record"	String
+""	44	"out"	"Delinquent Account Contact Result"	"BQ Contact Instance Record"	String
+""	45	"out"	"Delinquent Account Contact Work Product"	"BQ Contact Instance Record"	String
+""
+"Put"	"/delinquent-account-handling/{sd-identifier}/contact/{crbq-identifier}/requisition"
+""	1	"out"	"Customer Delinquent Account Contact Record"	"BQ Contact Instance Record"	String
+""	2	"out"	"Contact Message"	"BQ Contact Instance Record"	String
+""	3	"out"	"Contact Date"	"BQ Contact Instance Record"	Date
+""	4	"out"	"Contact Result"	"BQ Contact Instance Record"	String
+""	5	"out"	"Document Directory Entry Instance Reference"	"BQ Contact Instance Record"	Object
+""	6	"out"	"Document Content"	"BQ Contact Instance Record"	String
+""	7	"out"	"Correspondence Instance Reference"	"BQ Contact Instance Record"	Object
+""	8	"out"	"Correspondence Content"	"BQ Contact Instance Record"	String
+""
+"Get"	"/delinquent-account-handling/{sd-identifier}/contact/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"out"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"out"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"out"	"Bank Branch/Location Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	6	"out"	"Issued Device"	"CR Delinquent Account Procedure Instance Record"	String
+""	7	"out"	"Account Currency"	"CR Delinquent Account Procedure Instance Record"	CurrencyCode
+""	8	"out"	"Tax Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	9	"out"	"Associations"	"CR Delinquent Account Procedure Instance Record"	String
+""	10	"out"	"Association Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	11	"out"	"Association Obligation/Entitlement"	"CR Delinquent Account Procedure Instance Record"	String
+""	12	"out"	"Association Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	13	"out"	"Linked Accounts"	"CR Delinquent Account Procedure Instance Record"	String
+""	14	"out"	"Link Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	15	"out"	"Account Details"	"CR Delinquent Account Procedure Instance Record"	String
+""	16	"out"	"Position Limits"	"CR Delinquent Account Procedure Instance Record"	String
+""	17	"out"	"Position Limit Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	18	"out"	"Position Limit Settings"	"CR Delinquent Account Procedure Instance Record"	String
+""	19	"out"	"Position Limit Value"	"CR Delinquent Account Procedure Instance Record"	String
+""	20	"out"	"Collateral Asset Allocation Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	21	"out"	"Collateral Asset Allocation Profile"	"CR Delinquent Account Procedure Instance Record"	String
+""	22	"out"	"Date Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	23	"out"	"Billing Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	24	"out"	"Billing Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	25	"out"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	26	"out"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	27	"out"	"Product Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	28	"out"	"Product Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	29	"out"	"Interest Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	30	"out"	"Interest Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	31	"out"	"Fee Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	32	"out"	"Fee Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	33	"out"	"Credit Plan Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	34	"out"	"Credit Plan Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	35	"out"	"Delinquent Account Processing Schedule"	"CR Delinquent Account Procedure Instance Record"	String
+""	36	"out"	"Customer Delinquent Account Contact Record"	"BQ Contact Instance Record"	String
+""	37	"out"	"Contact Message"	"BQ Contact Instance Record"	String
+""	38	"out"	"Contact Date"	"BQ Contact Instance Record"	Date
+""	39	"out"	"Contact Result"	"BQ Contact Instance Record"	String
+""	40	"out"	"Document Directory Entry Instance Reference"	"BQ Contact Instance Record"	Object
+""	41	"out"	"Document Content"	"BQ Contact Instance Record"	String
+""	42	"out"	"Correspondence Instance Reference"	"BQ Contact Instance Record"	Object
+""	43	"out"	"Correspondence Content"	"BQ Contact Instance Record"	String
+""
+"Post"	"/delinquent-account-handling/{sd-identifier}/payment/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"in"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"in"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"in"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"inout"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	6	"out"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""
+"Put"	"/delinquent-account-handling/{sd-identifier}/payment/{crbq-identifier}/update"
+""	1	"inout"	"Payment Transaction Reference"	"BQ Payment Instance Record"	Object
+""
+"Put"	"/delinquent-account-handling/{sd-identifier}/payment/{crbq-identifier}/exchange"
+""
+"Get"	"/delinquent-account-handling/{sd-identifier}/payment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"out"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"out"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"out"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	6	"out"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""
+"Put"	"/delinquent-account-handling/{sd-identifier}/resolution/{crbq-identifier}/update"
+""	1	"inout"	"Delinquent Account Resolution Task Result"	"BQ Resolution Instance Record"	String
+""	2	"inout"	"Delinquent Account Resolution Action Plan"	"BQ Resolution Instance Record"	String
+""	3	"inout"	"Delinquent Account Resolution Work Product"	"BQ Resolution Instance Record"	String
+""
+"Put"	"/delinquent-account-handling/{sd-identifier}/resolution/{crbq-identifier}/exchange"
+""
+"Get"	"/delinquent-account-handling/{sd-identifier}/resolution/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	2	"out"	"Product Account Number"	"CR Delinquent Account Procedure Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	4	"out"	"Customer Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	5	"out"	"Bank Branch/Location Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	6	"out"	"Issued Device"	"CR Delinquent Account Procedure Instance Record"	String
+""	7	"out"	"Account Currency"	"CR Delinquent Account Procedure Instance Record"	CurrencyCode
+""	8	"out"	"Tax Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	9	"out"	"Associations"	"CR Delinquent Account Procedure Instance Record"	String
+""	10	"out"	"Association Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	11	"out"	"Association Obligation/Entitlement"	"CR Delinquent Account Procedure Instance Record"	String
+""	12	"out"	"Association Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	13	"out"	"Linked Accounts"	"CR Delinquent Account Procedure Instance Record"	String
+""	14	"out"	"Link Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	15	"out"	"Account Details"	"CR Delinquent Account Procedure Instance Record"	String
+""	16	"out"	"Position Limits"	"CR Delinquent Account Procedure Instance Record"	String
+""	17	"out"	"Position Limit Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	18	"out"	"Position Limit Settings"	"CR Delinquent Account Procedure Instance Record"	String
+""	19	"out"	"Position Limit Value"	"CR Delinquent Account Procedure Instance Record"	String
+""	20	"out"	"Collateral Asset Allocation Instance Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	21	"out"	"Collateral Asset Allocation Profile"	"CR Delinquent Account Procedure Instance Record"	String
+""	22	"out"	"Date Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	23	"out"	"Billing Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	24	"out"	"Billing Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	25	"out"	"Payment Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	26	"out"	"Payment Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	27	"out"	"Product Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	28	"out"	"Product Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	29	"out"	"Interest Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	30	"out"	"Interest Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	31	"out"	"Fee Transactions"	"CR Delinquent Account Procedure Instance Record"	String
+""	32	"out"	"Fee Transaction Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	33	"out"	"Credit Plan Reference"	"CR Delinquent Account Procedure Instance Record"	Object
+""	34	"out"	"Credit Plan Type"	"CR Delinquent Account Procedure Instance Record"	String
+""	35	"out"	"Delinquent Account Processing Schedule"	"CR Delinquent Account Procedure Instance Record"	String
+""	36	"out"	"Delinquent Account Resolution Task Result"	"BQ Resolution Instance Record"	String
+""	37	"out"	"Delinquent Account Resolution Action Plan"	"BQ Resolution Instance Record"	String
+""	38	"out"	"Delinquent Account Resolution Work Product"	"BQ Resolution Instance Record"	String

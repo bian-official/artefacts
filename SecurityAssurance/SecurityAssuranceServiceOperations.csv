@@ -1,0 +1,5 @@
+"Service Operations for: "	Security Assurance
+"Control Record Model for Security Assurance is not defined"
+"POST"	"/security-assurance/activation"
+"PUT"	"/security-assurance/{sd-reference-id}/configuration"
+"PUT"	"/security-assurance/{sd-reference-id}/feedback"

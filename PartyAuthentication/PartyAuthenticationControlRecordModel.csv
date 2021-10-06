@@ -1,0 +1,46 @@
+"Control Record Model for: "	Party Authentication
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Question Instance Record	""	""	""
+"BQ"	BQ Question Instance Record	Authentication Secret Question Reference	"Reference to the selected secret question"	Object
+"BQ"	BQ Question Instance Record	Authentication Secret Question Template	"Template includes the question text and provided customer response - given value is compared to the stored value"	String
+"BQ"	BQ Question Instance Record	Authentication Secret Question Value	"This is the stored value, the provided value is compared to this"	String
+"BQ"	BQ Question Instance Record	Secret Question Test Result	"The result of the secret question check"	String
+"BQ"	BQ Password Instance Record	""	""	""
+"BQ"	BQ Password Instance Record	Authentication Reference Data Reference	"Reference to a customer reference data item to be compared with submitted value"	Object
+"BQ"	BQ Password Instance Record	Authentication Reference Data Type	"Defines reference data item type submitted for comparison"	String
+"BQ"	BQ Password Instance Record	Authentication Reference Data Value	"The customer provided value is matched to the bank's maintained value"	Object
+"BQ"	BQ Password Instance Record	Authentication Password Reference	"Reference to an issued password"	Object
+"BQ"	BQ Password Instance Record	Authentication Password Template	"Defines allowed values/format for an issued password"	String
+"BQ"	BQ Password Instance Record	Authentication Password Stored Value	"The bank maintained value (can be customer provided or a bank generated value - encryption applies)"	String
+"BQ"	BQ Password Instance Record	Authentication Password Valid From/To Date	"The valid period for the stored password"	Date
+"BQ"	BQ Password Instance Record	Authentication Password Presented Value	"The customer provided value is matched to the bank's maintained value"	String
+"BQ"	BQ Password Instance Record	Authentication Password Test Result	"The result of the reference data and password checks"	String
+"BQ"	BQ Behavior Instance Record	""	""	""
+"BQ"	BQ Behavior Instance Record	Authentication Behavior Type	"The type of behavioral record being used for authentication"	String
+"BQ"	BQ Behavior Instance Record	Authentication Behavior Record	"The behavioral record submitted for authentication"	String
+"BQ"	BQ Behavior Instance Record	Registered Behavior Instance Reference	"Reference to the registered customer behavioral record"	Object
+"BQ"	BQ Behavior Instance Record	Behavior Test Result	"The result of the behavioral check"	String
+"BQ"	BQ Document Instance Record	""	""	""
+"BQ"	BQ Document Instance Record	Authentication Document Reference	"Reference to the document and document type being presented for authentication"	Object
+"BQ"	BQ Document Instance Record	Authentication Document Content	"The submitted document content in any appropriate format/media (e.g. scan)"	String
+"BQ"	BQ Document Instance Record	Document Directory Entry Instance Reference	"The document reference for the authentication document"	Object
+"BQ"	BQ Document Instance Record	Document Content	"The stored document - available in any suitable media for comparison"	String
+"BQ"	BQ Document Instance Record	Authentication Document Comparison Test Result	"The result of comparing the presented document to the stored value"	String
+"BQ"	BQ Biometric Instance Record	""	""	""
+"BQ"	BQ Biometric Instance Record	Authentication Biometric Type	"The type of biometric record being used for authentication"	String
+"BQ"	BQ Biometric Instance Record	Authentication Biometric Record	"The biometric record submitted for authentication (e.g. face scan, fingerprint, signature)"	String
+"BQ"	BQ Biometric Instance Record	Registered Biometric Instance Reference	"The registered customer biometric record reference - maintained as an issued device instance"	Object
+"BQ"	BQ Biometric Instance Record	Biometric Test Result	"The result of the biometric check"	String
+"BQ"	BQ Device Instance Record	""	""	""
+"BQ"	BQ Device Instance Record	Authentication Device Reference	"Reference to the device being used for authentication"	Object
+"BQ"	BQ Device Instance Record	Authentication Device Property Value	"Property of the device being used to authenticate (e.g. phone number, URL)"	String
+"BQ"	BQ Device Instance Record	Issued Device Instance Reference	"Reference to the customer issued device"	Object
+"BQ"	BQ Device Instance Record	Issued Device Property Value	"The registered customer device properties - maintained by SD-Issued Device Administration"	String
+"BQ"	BQ Device Instance Record	Device Test Result	"The result of the device check"	String
+"CR"	CR Party Authentication Assessment Instance Record	""	""	""
+"CR"	CR Party Authentication Assessment Instance Record	Customer Reference	"Reference to the customer as the authentication subject"	Object
+"CR"	CR Party Authentication Assessment Instance Record	Party Reference	"Reference to the party or legal entity as the authentication subject"	Object
+"CR"	CR Party Authentication Assessment Instance Record	Party Authentication Assessment Profile	"Details the types of authentication assessments that are combined into the overall evaluation"	String
+"CR"	CR Party Authentication Assessment Instance Record	Authentication Type	"Reference to the different types of authentication assessment"	String
+"CR"	CR Party Authentication Assessment Instance Record	Party Authentication Consolidation Record	"The combination of the different assessment results used in the authentication determination"	String
+"CR"	CR Party Authentication Assessment Instance Record	Customer Contact Authentication Level	"The required value and value returned as a result of the authentication task, defining the level of identity assurance achieved - valid for the duration of the current contact"	String

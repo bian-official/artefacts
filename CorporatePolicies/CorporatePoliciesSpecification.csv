@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Policies"
+"Business Area"	Business Management
+"Business Domain"	Business Direction
+"Service Domain"	Corporate Policies
+"Role Definition"	"Develop and communicate corporate policies that govern business execution"
+"Example of use"	"Corporate policies are defined and published across the enterprise"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	CorporatePolicy
+"Generic Artifact"	Specification
+"Control Record"	CorporatePolicySpecification
+"Registration Status"	Registered

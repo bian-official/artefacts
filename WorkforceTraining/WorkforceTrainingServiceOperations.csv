@@ -1,0 +1,5 @@
+"Service Operations for: "	Workforce Training
+"Control Record Model for Workforce Training is not defined"
+"POST"	"/workforce-training/activation"
+"PUT"	"/workforce-training/{sd-reference-id}/configuration"
+"PUT"	"/workforce-training/{sd-reference-id}/feedback"

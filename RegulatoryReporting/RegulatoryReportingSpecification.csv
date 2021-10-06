@@ -1,0 +1,13 @@
+"Service Domain specification for Regulatory Reporting"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Compliance
+"Service Domain"	Regulatory Reporting
+"Role Definition"	"The service domain handles the bank's regulatory reporting obligations. This includes the consolidation and presentation of information in regulatory reports and disclosures and handling the response to regulatory requests for information as part of ongoing regulator relations. It also handles the scheduled consolidation, formatting and delivery of the range of compliance reports including 'on-line' trade reporting and after the event transaction analysis reporting"
+"Example of use"	"Trading activity is reported to the exchange to comply with regulatory reporting requirements"
+"Executive Summary"	"This service domain administers and orchestrates the tasks required to meet the bank's regulatory reporting obligations"
+"Key Features"	"Consolidate regulatory reporting materials and assemble reports. Delivery scheduled and ad-hoc reports to regulators. Handle regulator's reporting requests and responses. Oversee on-line/production transaction regulatory reporting"
+"Functional Pattern"	Administer
+"Asset Type"	RegulatoryCompliance
+"Generic Artifact"	AdministrativePlan
+"Control Record"	RegulatoryComplianceAdministrativePlan
+"Registration Status"	Registered

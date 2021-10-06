@@ -1,0 +1,5 @@
+"Service Operations for: "	Dunning
+"Control Record Model for Dunning is not defined"
+"POST"	"/dunning/activation"
+"PUT"	"/dunning/{sd-reference-id}/configuration"
+"PUT"	"/dunning/{sd-reference-id}/feedback"

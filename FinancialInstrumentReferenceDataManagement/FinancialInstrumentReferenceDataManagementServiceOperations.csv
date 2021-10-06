@@ -1,0 +1,5 @@
+"Service Operations for: "	Financial Instrument Reference Data Management
+"Control Record Model for Financial Instrument Reference Data Management is not defined"
+"POST"	"/financial-instrument-reference-data-management/activation"
+"PUT"	"/financial-instrument-reference-data-management/{sd-reference-id}/configuration"
+"PUT"	"/financial-instrument-reference-data-management/{sd-reference-id}/feedback"

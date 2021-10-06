@@ -1,0 +1,13 @@
+"Service Domain specification for Issued Device Administration"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Issued Device Administration
+"Role Definition"	"This service domain administers the inventory management and allocation/issuance for all issued devices and materials (e.g. cards). This covers credit/debit cards and can include other identification/authentication devices such as keychain fobs. it also handles virtual token inventory such as passwords, secret questions and biometric records (signatures, voice/image). An aspect of the administration includes maintaining device reference details and states such as operating system release and age/duration in use. Specific product/service access permissions can be associated with an issued device"
+"Example of use"	"A card is cancelled and a replacement card is generated and issued for a customer reporting a stolen card"
+"Executive Summary"	"This service domain administers the issuance of authentication tokens to customers and third party service providers. Tokens here include physical devices such as cards, fobs, readers and intangible 'devices' such as passwords and secret questions. Administration includes version tracking, replacement and duration/frequency limits. Specific product/service access permissions may be associated with an issued token when appropriate"
+"Key Features"	"Administer the issuance/set-up/registration of authentication devices. Maintain/update issued device status. Maintain/update permissions associated with issued devices. Process issued device status updates/alerts"
+"Functional Pattern"	Allocate
+"Asset Type"	IssuedDevice
+"Generic Artifact"	Allocation
+"Control Record"	IssuedDeviceAllocation
+"Registration Status"	Registered

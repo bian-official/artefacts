@@ -1,0 +1,22 @@
+"Control Record Model for: "	Fraud Diagnosis
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Customer Behavior Instance Record	""	""	""
+"BQ"	BQ Customer Behavior Instance Record	Customer Behavior Analysis Result	"The production transaction customer behavior analysis results"	String
+"BQ"	BQ Customer Behavior Instance Record	Customer Behavior Analysis Work Product	"Work documentation, forms and schedules produced and referenced during the analysis (for future reference)"	String
+"CR"	CR Fraud Diagnosis Analysis Instance Record	""	""	""
+"CR"	CR Fraud Diagnosis Analysis Instance Record	Product Production Session Reference	"Reference to the product fulfillment production session for which fraud diagnosis is performed"	Object
+"CR"	CR Fraud Diagnosis Analysis Instance Record	Fraud Diagnosis Evaluation Profile	"Details the types of fraud diagnosis algorithms and tests are applied"	String
+"CR"	CR Fraud Diagnosis Analysis Instance Record	Fraud Diagnosis Transaction Consolidation Record	"The production transaction details that are submitted for fraud diagnosis"	String
+"CR"	CR Fraud Diagnosis Analysis Instance Record	Fraud Evaluation Production Anomaly Record	"Details of detected out of pattern production activity that could be fraud highlighted by Fraud Evaluation"	String
+"CR"	CR Fraud Diagnosis Analysis Instance Record	Fraud Evaluation Production Anomaly Production Transaction Reference	"Reference to the one or more production transactions isolated by the fraud evaluation tests identified by Fraud Evaluation"	Object
+"CR"	CR Fraud Diagnosis Analysis Instance Record	Fraud Diagnosis Determination	"Details the conclusion of the analysis and determination (e.g. diagnosis of likely fraud)"	String
+"CR"	CR Fraud Diagnosis Analysis Instance Record	Fraud Diagnosis Recommendation	"Details the recommended action in response to the analysis (e.g. accept or reject the transaction, flag account for fraud)"	String
+"BQ"	BQ Economic Model Instance Record	""	""	""
+"BQ"	BQ Economic Model Instance Record	Economic Model Analysis Result	"The result of the economic model, including the recommended response"	String
+"BQ"	BQ Economic Model Instance Record	Economic Model Work Product	"Work documentation, forms and schedules produced and referenced during the analysis (for future reference)"	String
+"BQ"	BQ Analyst Review Instance Record	""	""	""
+"BQ"	BQ Analyst Review Instance Record	Customer Reference	"Reference to the customer, extracted from the financial transaction details, used to access customer details"	Object
+"BQ"	BQ Analyst Review Instance Record	Outbound Contact Reference	"Reference to an outbound contact established with the customer"	Object
+"BQ"	BQ Analyst Review Instance Record	Analyst Review Analysis Result	"The result of the economic model, including the recommended response"	String
+"BQ"	BQ Analyst Review Instance Record	Analyst Review Work Product	"Work documentation, forms and schedules produced and referenced during the analysis (for future reference)"	String
+"BQ"	BQ Analyst Review Instance Record	Analyst Review Recommended Action	"The recommended action resulting from the analysts review"	String

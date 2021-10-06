@@ -1,0 +1,13 @@
+"Service Domain specification for Product Expert Sales Support"
+"Business Area"	Customers
+"Business Domain"	Sales
+"Service Domain"	Product Expert Sales Support
+"Role Definition"	"Track availability and utilization and assign product specialists to support sales activity (for both internal customer up-sell and external prospect acquisition activity). This can include the administration of customer fees/charges if applicable"
+"Example of use"	"A relationship manager requests specialist support for a customer seeking investment product selection advice"
+"Executive Summary"	"Administer the availability and allocation of product specialists to support sales activity"
+"Key Features"	"Track the availability of specialist product support . Assign resources in response to support requests. Obtain and process feedback from customers as to the effectiveness and impact of support"
+"Functional Pattern"	Administer
+"Asset Type"	SalesSpecialistSupport
+"Generic Artifact"	AdministrativePlan
+"Control Record"	SalesSpecialistSupportAdministrativePlan
+"Registration Status"	Registered

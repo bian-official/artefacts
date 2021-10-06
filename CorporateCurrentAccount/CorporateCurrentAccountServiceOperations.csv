@@ -1,0 +1,465 @@
+"Service Operations for: "	Corporate Current Account
+""
+"POST"	"/corporate-current-account/activation"
+"PUT"	"/corporate-current-account/{sd-reference-id}/configuration"
+"PUT"	"/corporate-current-account/{sd-reference-id}/feedback"
+""
+"Post"	"/corporate-current-account/{sd-identifier}/corporate-current-account-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	5	"in"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	6	"inout"	"Account Currency"	"CR Corporate Current Account Arrangement Instance Record"	CurrencyCode
+""	7	"in"	"Tax Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	8	"out"	"Entitlement Option Definition"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"inout"	"Entitlement Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"out"	"Restriction Option Definition"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"inout"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	12	"in"	"Associations"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	13	"in"	"Association Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	14	"in"	"Association Obligation/Entitlement"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	15	"in"	"Association Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	16	"in"	"Linked Accounts"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	17	"in"	"Link Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	18	"in"	"Account Details"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	19	"inout"	"Position Limits"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	20	"out"	"Position Limit Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	21	"inout"	"Position Limit Settings"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	22	"out"	"Position Limit Value"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	23	"inout"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/corporate-current-account-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"inout"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	4	"inout"	"Bank Branch/Location Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	5	"inout"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	6	"inout"	"Account Currency"	"CR Corporate Current Account Arrangement Instance Record"	CurrencyCode
+""	7	"inout"	"Tax Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	8	"inout"	"Entitlement Option Definition"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"inout"	"Entitlement Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"inout"	"Restriction Option Definition"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"inout"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	12	"inout"	"Associations"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	13	"inout"	"Association Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	14	"inout"	"Association Obligation/Entitlement"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	15	"inout"	"Association Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	16	"inout"	"Linked Accounts"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	17	"inout"	"Link Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	18	"inout"	"Account Details"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	19	"inout"	"Position Limits"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	20	"inout"	"Position Limit Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	21	"inout"	"Position Limit Settings"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	22	"inout"	"Position Limit Value"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	23	"inout"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/corporate-current-account-arrangement/{crbq-identifier}/control"
+""
+"Get"	"/corporate-current-account/{sd-identifier}/corporate-current-account-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"out"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	5	"out"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	6	"out"	"Account Currency"	"CR Corporate Current Account Arrangement Instance Record"	CurrencyCode
+""	7	"out"	"Tax Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	8	"out"	"Entitlement Option Definition"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"out"	"Entitlement Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"out"	"Restriction Option Definition"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"out"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	12	"out"	"Associations"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	13	"out"	"Association Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	14	"out"	"Association Obligation/Entitlement"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	15	"out"	"Association Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	16	"out"	"Linked Accounts"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	17	"out"	"Link Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	18	"out"	"Account Details"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	19	"out"	"Position Limits"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	20	"out"	"Position Limit Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	21	"out"	"Position Limit Settings"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	22	"out"	"Position Limit Value"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	23	"out"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""
+"Get"	"/corporate-current-account/{sd-identifier}/interest/{crbq-identifier}/retrieval"
+""	1	"out"	"Interest Rate Type"	"BQ Interest Instance Record"	String
+""	2	"out"	"Interest Rate Application Schedule"	"BQ Interest Instance Record"	Rate
+""	3	"out"	"Interest Rate Configuration"	"BQ Interest Instance Record"	Rate
+""	4	"out"	"Interest Application Record"	"BQ Interest Instance Record"	String
+""	5	"out"	"Interest Transaction"	"BQ Interest Instance Record"	String
+""	6	"out"	"Transaction Description"	"BQ Interest Instance Record"	String
+""	7	"out"	"Transaction Rate Type"	"BQ Interest Instance Record"	String
+""	8	"out"	"Transaction Interest Charge"	"BQ Interest Instance Record"	String
+""	9	"out"	"Interest Accrual Amount"	"BQ Interest Instance Record"	Amount
+""	10	"out"	"Interest Accrual Type"	"BQ Interest Instance Record"	String
+""	11	"out"	"Interest Accrual Charge"	"BQ Interest Instance Record"	String
+""
+"Post"	"/corporate-current-account/{sd-identifier}/service-fees/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"in"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"in"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	4	"in"	"Account Currency"	"CR Corporate Current Account Arrangement Instance Record"	CurrencyCode
+""	5	"in"	"Tax Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	6	"in"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	7	"in"	"Linked Accounts"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	8	"in"	"Link Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"in"	"Account Details"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"in"	"Position Limit Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"in"	"Position Limit Settings"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	12	"in"	"Position Limit Value"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	13	"inout"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	14	"in"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	15	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	16	"in"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/service-fees/{crbq-identifier}/execution"
+""	1	"inout"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	2	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	3	"in"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""	4	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	5	"inout"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	6	"in"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	7	"inout"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	8	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	9	"inout"	"Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	10	"in"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	11	"inout"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	12	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	13	"out"	"Fee Accrual Amount"	"BQ Service Fees Instance Record"	Amount
+""	14	"inout"	"Accrual Fee Type"	"BQ Service Fees Instance Record"	String
+""	15	"out"	"Accrual Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Get"	"/corporate-current-account/{sd-identifier}/service-fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	2	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	3	"out"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""	4	"out"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	5	"out"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	6	"out"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	7	"out"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	8	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	9	"out"	"Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	10	"out"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	11	"out"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	12	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	13	"out"	"Fee Accrual Amount"	"BQ Service Fees Instance Record"	Amount
+""	14	"out"	"Accrual Fee Type"	"BQ Service Fees Instance Record"	String
+""	15	"out"	"Accrual Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Post"	"/corporate-current-account/{sd-identifier}/account-lien/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"in"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	5	"in"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	6	"out"	"Entitlement Option Definition"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	7	"in"	"Entitlement Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	8	"out"	"Restriction Option Definition"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"in"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"inout"	"Linked Accounts"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"in"	"Link Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	12	"in"	"Account Details"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	13	"in"	"Position Limit Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	14	"inout"	"Position Limit Settings"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	15	"out"	"Position Limit Value"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	16	"inout"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	17	"in"	"Lien Type"	"BQ Account Lien Instance Record"	String
+""	18	"inout"	"Lien Definition"	"BQ Account Lien Instance Record"	String
+""	19	"in"	"Lien Processing Option"	"BQ Account Lien Instance Record"	String
+""	20	"inout"	"Lien Record"	"BQ Account Lien Instance Record"	String
+""	21	"in"	"Lien Originator"	"BQ Account Lien Instance Record"	String
+""	22	"in"	"Lien Purpose"	"BQ Account Lien Instance Record"	String
+""	23	"in"	"Lien Amount"	"BQ Account Lien Instance Record"	Amount
+""	24	"in"	"Lien Start Date"	"BQ Account Lien Instance Record"	Date
+""	25	"in"	"Lien Expiry Date"	"BQ Account Lien Instance Record"	Date
+""	26	"in"	"Lien Status"	"BQ Account Lien Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/account-lien/{crbq-identifier}/update"
+""	1	"inout"	"Lien Type"	"BQ Account Lien Instance Record"	String
+""	2	"inout"	"Lien Processing Option"	"BQ Account Lien Instance Record"	String
+""	3	"inout"	"Lien Record"	"BQ Account Lien Instance Record"	String
+""	4	"inout"	"Lien Originator"	"BQ Account Lien Instance Record"	String
+""	5	"inout"	"Lien Purpose"	"BQ Account Lien Instance Record"	String
+""	6	"inout"	"Lien Amount"	"BQ Account Lien Instance Record"	Amount
+""	7	"inout"	"Lien Start Date"	"BQ Account Lien Instance Record"	Date
+""	8	"inout"	"Lien Expiry Date"	"BQ Account Lien Instance Record"	Date
+""	9	"inout"	"Lien Status"	"BQ Account Lien Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/account-lien/{crbq-identifier}/exchange"
+""
+"Get"	"/corporate-current-account/{sd-identifier}/account-lien/{crbq-identifier}/retrieval"
+""	1	"out"	"Lien Type"	"BQ Account Lien Instance Record"	String
+""	2	"out"	"Lien Definition"	"BQ Account Lien Instance Record"	String
+""	3	"out"	"Lien Processing Option"	"BQ Account Lien Instance Record"	String
+""	4	"out"	"Lien Record"	"BQ Account Lien Instance Record"	String
+""	5	"out"	"Lien Originator"	"BQ Account Lien Instance Record"	String
+""	6	"out"	"Lien Purpose"	"BQ Account Lien Instance Record"	String
+""	7	"out"	"Lien Amount"	"BQ Account Lien Instance Record"	Amount
+""	8	"out"	"Lien Start Date"	"BQ Account Lien Instance Record"	Date
+""	9	"out"	"Lien Expiry Date"	"BQ Account Lien Instance Record"	Date
+""	10	"out"	"Lien Status"	"BQ Account Lien Instance Record"	String
+""
+"Post"	"/corporate-current-account/{sd-identifier}/account-sweep/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"in"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	5	"in"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	6	"in"	"Account Currency"	"CR Corporate Current Account Arrangement Instance Record"	CurrencyCode
+""	7	"in"	"Tax Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	8	"in"	"Entitlement Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"in"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"in"	"Linked Accounts"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"in"	"Link Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	12	"in"	"Account Details"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	13	"inout"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	14	"in"	"Account Sweep Type"	"BQ Account Sweep Instance Record"	String
+""	15	"out"	"Account Sweep Definition"	"BQ Account Sweep Instance Record"	String
+""	16	"inout"	"Account Sweep Application Schedule"	"BQ Account Sweep Instance Record"	String
+""	17	"in"	"Account Sweep Configuration"	"BQ Account Sweep Instance Record"	String
+""	18	"in"	"Target Account"	"BQ Account Sweep Instance Record"	String
+""	19	"in"	"Sweep Mandate"	"BQ Account Sweep Instance Record"	String
+""	20	"in"	"Sweep Processing Schedule"	"BQ Account Sweep Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/account-sweep/{crbq-identifier}/update"
+""	1	"inout"	"Account Sweep Type"	"BQ Account Sweep Instance Record"	String
+""	2	"inout"	"Account Sweep Definition"	"BQ Account Sweep Instance Record"	String
+""	3	"inout"	"Account Sweep Application Schedule"	"BQ Account Sweep Instance Record"	String
+""	4	"inout"	"Account Sweep Configuration"	"BQ Account Sweep Instance Record"	String
+""	5	"inout"	"Target Account"	"BQ Account Sweep Instance Record"	String
+""	6	"inout"	"Sweep Mandate"	"BQ Account Sweep Instance Record"	String
+""	7	"inout"	"Sweep Processing Schedule"	"BQ Account Sweep Instance Record"	String
+""	8	"inout"	"Sweep Application Record"	"BQ Account Sweep Instance Record"	String
+""	9	"inout"	"Account Sweep Target Account"	"BQ Account Sweep Instance Record"	String
+""	10	"inout"	"Account Sweep Amount"	"BQ Account Sweep Instance Record"	Amount
+""	11	"inout"	"Account Sweep Execution Date"	"BQ Account Sweep Instance Record"	Date
+""
+"Put"	"/corporate-current-account/{sd-identifier}/account-sweep/{crbq-identifier}/execution"
+""	1	"in"	"Sweep Application Record"	"BQ Account Sweep Instance Record"	String
+""	2	"in"	"Account Sweep Target Account"	"BQ Account Sweep Instance Record"	String
+""	3	"in"	"Account Sweep Amount"	"BQ Account Sweep Instance Record"	Amount
+""	4	"in"	"Account Sweep Execution Date"	"BQ Account Sweep Instance Record"	Date
+""
+"Get"	"/corporate-current-account/{sd-identifier}/account-sweep/{crbq-identifier}/retrieval"
+""	1	"out"	"Account Sweep Type"	"BQ Account Sweep Instance Record"	String
+""	2	"out"	"Account Sweep Definition"	"BQ Account Sweep Instance Record"	String
+""	3	"out"	"Account Sweep Application Schedule"	"BQ Account Sweep Instance Record"	String
+""	4	"out"	"Account Sweep Configuration"	"BQ Account Sweep Instance Record"	String
+""	5	"out"	"Target Account"	"BQ Account Sweep Instance Record"	String
+""	6	"out"	"Sweep Mandate"	"BQ Account Sweep Instance Record"	String
+""	7	"out"	"Sweep Processing Schedule"	"BQ Account Sweep Instance Record"	String
+""	8	"out"	"Sweep Application Record"	"BQ Account Sweep Instance Record"	String
+""	9	"out"	"Account Sweep Target Account"	"BQ Account Sweep Instance Record"	String
+""	10	"out"	"Account Sweep Amount"	"BQ Account Sweep Instance Record"	Amount
+""	11	"out"	"Account Sweep Execution Date"	"BQ Account Sweep Instance Record"	Date
+""
+"Post"	"/corporate-current-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"in"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	5	"in"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	6	"in"	"Account Currency"	"CR Corporate Current Account Arrangement Instance Record"	CurrencyCode
+""	7	"in"	"Entitlement Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	8	"in"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"in"	"Position Limit Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"out"	"Position Limit Value"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	12	"in"	"Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	13	"in"	"Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	14	"in"	"Account Limit Breach Response"	"BQ Deposits and Withdrawals Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/update"
+""	1	"inout"	"Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	2	"inout"	"Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	3	"inout"	"Account Limit Breach Response"	"BQ Deposits and Withdrawals Instance Record"	String
+""	4	"inout"	"Deposit Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	5	"inout"	"Deposit Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	6	"inout"	"Deposit Transaction Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	7	"inout"	"Deposit Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	8	"inout"	"Deposit Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	9	"inout"	"Deposit Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""	10	"inout"	"Withdrawal Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	11	"inout"	"Withdrawal Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	12	"inout"	"Withdrawal Transaction Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	13	"inout"	"Withdrawal Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	14	"inout"	"Withdrawal Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	15	"inout"	"Withdrawal Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""
+"Put"	"/corporate-current-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/execution"
+""	1	"in"	"Deposit Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	2	"in"	"Deposit Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	3	"in"	"Deposit Transaction Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	4	"in"	"Deposit Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	5	"in"	"Deposit Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	6	"inout"	"Deposit Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""	7	"in"	"Withdrawal Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	8	"in"	"Withdrawal Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	9	"in"	"Withdrawal Transaction Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	10	"in"	"Withdrawal Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	11	"in"	"Withdrawal Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	12	"inout"	"Withdrawal Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""
+"Get"	"/corporate-current-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/retrieval"
+""	1	"out"	"Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	2	"out"	"Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	3	"out"	"Account Limit Breach Response"	"BQ Deposits and Withdrawals Instance Record"	String
+""	4	"out"	"Deposit Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	5	"out"	"Deposit Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	6	"out"	"Deposit Transaction Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	7	"out"	"Deposit Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	8	"out"	"Deposit Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	9	"out"	"Deposit Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""	10	"out"	"Withdrawal Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	11	"out"	"Withdrawal Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	12	"out"	"Withdrawal Transaction Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	13	"out"	"Withdrawal Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	14	"out"	"Withdrawal Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	15	"out"	"Withdrawal Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""
+"Post"	"/corporate-current-account/{sd-identifier}/payments/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"in"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	5	"in"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	6	"in"	"Account Currency"	"CR Corporate Current Account Arrangement Instance Record"	CurrencyCode
+""	7	"out"	"Tax Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	8	"in"	"Entitlement Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"in"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"out"	"Association Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"out"	"Association Obligation/Entitlement"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	12	"out"	"Association Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	13	"out"	"Position Limit Settings"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	14	"in"	"Position Limit Value"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	15	"inout"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	16	"in"	"Payment Type"	"BQ Payments Instance Record"	String
+""	17	"inout"	"Payment Definition"	"BQ Payments Instance Record"	String
+""	18	"out"	"Payment Processing Option Definition"	"BQ Payments Instance Record"	String
+""	19	"in"	"Payment Processing Option Setting"	"BQ Payments Instance Record"	String
+""	20	"in"	"Payment Configuration"	"BQ Payments Instance Record"	String
+""	21	"in"	"Payment Schedule"	"BQ Payments Instance Record"	String
+""	22	"in"	"Direct Debit Mandate Reference"	"BQ Payments Instance Record"	Object
+""	23	"in"	"Direct Debit Mandate Settings"	"BQ Payments Instance Record"	String
+""	24	"in"	"Bill Pay Mandate Reference"	"BQ Payments Instance Record"	Object
+""	25	"in"	"Bill Pay Mandate Settings"	"BQ Payments Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/payments/{crbq-identifier}/update"
+""	1	"inout"	"Payment Type"	"BQ Payments Instance Record"	String
+""	2	"inout"	"Payment Processing Option Definition"	"BQ Payments Instance Record"	String
+""	3	"inout"	"Payment Processing Option Setting"	"BQ Payments Instance Record"	String
+""	4	"inout"	"Payment Configuration"	"BQ Payments Instance Record"	String
+""	5	"inout"	"Payment Schedule"	"BQ Payments Instance Record"	String
+""	6	"inout"	"Direct Debit Mandate Reference"	"BQ Payments Instance Record"	Object
+""	7	"inout"	"Direct Debit Mandate Settings"	"BQ Payments Instance Record"	String
+""	8	"inout"	"Bill Pay Mandate Reference"	"BQ Payments Instance Record"	Object
+""	9	"inout"	"Bill Pay Mandate Settings"	"BQ Payments Instance Record"	String
+""	10	"inout"	"Payment Transaction"	"BQ Payments Instance Record"	String
+""	11	"inout"	"Payment Transaction Type"	"BQ Payments Instance Record"	String
+""	12	"inout"	"Payment Transaction Payee Reference"	"BQ Payments Instance Record"	Object
+""	13	"inout"	"Payment Transaction Payee Account Reference"	"BQ Payments Instance Record"	Object
+""	14	"inout"	"Payment Transaction Payee Bank Reference"	"BQ Payments Instance Record"	Object
+""	15	"inout"	"Payment Transaction Amount"	"BQ Payments Instance Record"	Amount
+""	16	"inout"	"Payment Transaction Fee Type"	"BQ Payments Instance Record"	String
+""	17	"inout"	"Payment Transaction Fee Charge"	"BQ Payments Instance Record"	String
+""	18	"inout"	"Payment Transaction Date"	"BQ Payments Instance Record"	Date
+""	19	"inout"	"Payment Transaction Payment Mechanism"	"BQ Payments Instance Record"	String
+""	20	"inout"	"Payment Transaction Payment Purpose"	"BQ Payments Instance Record"	String
+""	21	"inout"	"Payment Transaction Bank Branch/Location Reference"	"BQ Payments Instance Record"	Object
+""	22	"out"	"Payment Transaction Status"	"BQ Payments Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/payments/{crbq-identifier}/exchange"
+""
+"Put"	"/corporate-current-account/{sd-identifier}/payments/{crbq-identifier}/execution"
+""	1	"in"	"Payment Transaction"	"BQ Payments Instance Record"	String
+""	2	"in"	"Payment Transaction Type"	"BQ Payments Instance Record"	String
+""	3	"in"	"Payment Transaction Payee Reference"	"BQ Payments Instance Record"	Object
+""	4	"in"	"Payment Transaction Payee Account Reference"	"BQ Payments Instance Record"	Object
+""	5	"in"	"Payment Transaction Payee Bank Reference"	"BQ Payments Instance Record"	Object
+""	6	"in"	"Payment Transaction Amount"	"BQ Payments Instance Record"	Amount
+""	7	"in"	"Payment Transaction Fee Type"	"BQ Payments Instance Record"	String
+""	8	"in"	"Payment Transaction Fee Charge"	"BQ Payments Instance Record"	String
+""	9	"inout"	"Payment Transaction Date"	"BQ Payments Instance Record"	Date
+""	10	"in"	"Payment Transaction Payment Mechanism"	"BQ Payments Instance Record"	String
+""	11	"in"	"Payment Transaction Payment Purpose"	"BQ Payments Instance Record"	String
+""	12	"in"	"Payment Transaction Bank Branch/Location Reference"	"BQ Payments Instance Record"	Object
+""	13	"inout"	"Payment Transaction Status"	"BQ Payments Instance Record"	String
+""
+"Get"	"/corporate-current-account/{sd-identifier}/payments/{crbq-identifier}/retrieval"
+""	1	"out"	"Payment Type"	"BQ Payments Instance Record"	String
+""	2	"out"	"Payment Definition"	"BQ Payments Instance Record"	String
+""	3	"out"	"Payment Processing Option Definition"	"BQ Payments Instance Record"	String
+""	4	"out"	"Payment Processing Option Setting"	"BQ Payments Instance Record"	String
+""	5	"out"	"Payment Configuration"	"BQ Payments Instance Record"	String
+""	6	"out"	"Payment Schedule"	"BQ Payments Instance Record"	String
+""	7	"out"	"Direct Debit Mandate Reference"	"BQ Payments Instance Record"	Object
+""	8	"out"	"Direct Debit Mandate Settings"	"BQ Payments Instance Record"	String
+""	9	"out"	"Bill Pay Mandate Reference"	"BQ Payments Instance Record"	Object
+""	10	"out"	"Bill Pay Mandate Settings"	"BQ Payments Instance Record"	String
+""	11	"out"	"Payment Transaction"	"BQ Payments Instance Record"	String
+""	12	"out"	"Payment Transaction Type"	"BQ Payments Instance Record"	String
+""	13	"out"	"Payment Transaction Payee Reference"	"BQ Payments Instance Record"	Object
+""	14	"out"	"Payment Transaction Payee Account Reference"	"BQ Payments Instance Record"	Object
+""	15	"out"	"Payment Transaction Payee Bank Reference"	"BQ Payments Instance Record"	Object
+""	16	"out"	"Payment Transaction Amount"	"BQ Payments Instance Record"	Amount
+""	17	"out"	"Payment Transaction Fee Type"	"BQ Payments Instance Record"	String
+""	18	"out"	"Payment Transaction Fee Charge"	"BQ Payments Instance Record"	String
+""	19	"out"	"Payment Transaction Date"	"BQ Payments Instance Record"	Date
+""	20	"out"	"Payment Transaction Payment Mechanism"	"BQ Payments Instance Record"	String
+""	21	"out"	"Payment Transaction Payment Purpose"	"BQ Payments Instance Record"	String
+""	22	"out"	"Payment Transaction Bank Branch/Location Reference"	"BQ Payments Instance Record"	Object
+""	23	"out"	"Payment Transaction Status"	"BQ Payments Instance Record"	String
+""
+"Post"	"/corporate-current-account/{sd-identifier}/issued-device/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	2	"in"	"Corporate Current Account Number"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	5	"in"	"Account Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	6	"in"	"Account Currency"	"CR Corporate Current Account Arrangement Instance Record"	CurrencyCode
+""	7	"in"	"Entitlement Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	8	"in"	"Restriction Option Setting"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	9	"out"	"Association Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	10	"out"	"Association Obligation/Entitlement"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	11	"out"	"Association Reference"	"CR Corporate Current Account Arrangement Instance Record"	Object
+""	12	"out"	"Position Limit Settings"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	13	"in"	"Position Limit Value"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	14	"inout"	"Date Type"	"CR Corporate Current Account Arrangement Instance Record"	String
+""	15	"in"	"Issued Device Type"	"BQ Issued Device Instance Record"	String
+""	16	"inout"	"Issued Device Description"	"BQ Issued Device Instance Record"	String
+""	17	"inout"	"Issued Device Option Definition"	"BQ Issued Device Instance Record"	String
+""	18	"inout"	"Issued Device Option Setting"	"BQ Issued Device Instance Record"	String
+""	19	"inout"	"Issued Device Property"	"BQ Issued Device Instance Record"	String
+""	20	"inout"	"Issued Device Property Type"	"BQ Issued Device Instance Record"	String
+""	21	"inout"	"Issued Device Property Value"	"BQ Issued Device Instance Record"	String
+""	22	"inout"	"Issued Device Status"	"BQ Issued Device Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/issued-device/{crbq-identifier}/update"
+""	1	"inout"	"Issued Device Type"	"BQ Issued Device Instance Record"	String
+""	2	"inout"	"Issued Device Description"	"BQ Issued Device Instance Record"	String
+""	3	"inout"	"Issued Device Option Definition"	"BQ Issued Device Instance Record"	String
+""	4	"inout"	"Issued Device Option Setting"	"BQ Issued Device Instance Record"	String
+""	5	"inout"	"Issued Device Property"	"BQ Issued Device Instance Record"	String
+""	6	"inout"	"Issued Device Property Type"	"BQ Issued Device Instance Record"	String
+""	7	"inout"	"Issued Device Property Value"	"BQ Issued Device Instance Record"	String
+""	8	"inout"	"Issued Device Status"	"BQ Issued Device Instance Record"	String
+""
+"Put"	"/corporate-current-account/{sd-identifier}/issued-device/{crbq-identifier}/requisition"
+""	1	"in"	"Issued Device Type"	"BQ Issued Device Instance Record"	String
+""	2	"out"	"Issued Device Description"	"BQ Issued Device Instance Record"	String
+""	3	"out"	"Issued Device Option Definition"	"BQ Issued Device Instance Record"	String
+""	4	"inout"	"Issued Device Option Setting"	"BQ Issued Device Instance Record"	String
+""	5	"in"	"Issued Device Property"	"BQ Issued Device Instance Record"	String
+""	6	"out"	"Issued Device Property Type"	"BQ Issued Device Instance Record"	String
+""	7	"inout"	"Issued Device Property Value"	"BQ Issued Device Instance Record"	String
+""	8	"inout"	"Issued Device Status"	"BQ Issued Device Instance Record"	String
+""
+"Get"	"/corporate-current-account/{sd-identifier}/issued-device/{crbq-identifier}/retrieval"
+""	1	"out"	"Issued Device Type"	"BQ Issued Device Instance Record"	String
+""	2	"out"	"Issued Device Description"	"BQ Issued Device Instance Record"	String
+""	3	"out"	"Issued Device Option Definition"	"BQ Issued Device Instance Record"	String
+""	4	"out"	"Issued Device Option Setting"	"BQ Issued Device Instance Record"	String
+""	5	"out"	"Issued Device Property"	"BQ Issued Device Instance Record"	String
+""	6	"out"	"Issued Device Property Type"	"BQ Issued Device Instance Record"	String
+""	7	"out"	"Issued Device Property Value"	"BQ Issued Device Instance Record"	String
+""	8	"out"	"Issued Device Status"	"BQ Issued Device Instance Record"	String

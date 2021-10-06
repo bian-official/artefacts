@@ -1,0 +1,13 @@
+"Service Domain specification for Employee Assignment"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Employee Assignment
+"Role Definition"	"Orchestrate the assignment of individuals and groups to work tasks and positions, track current and projected utilization to inform resource planning and performance assessments"
+"Example of use"	"New employees are formally assigned to business unit headcount"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Allocate
+"Asset Type"	Employee
+"Generic Artifact"	Allocation
+"Control Record"	EmployeeAllocation
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Limit and Exposure Management
+"Control Record Model for Limit and Exposure Management is not defined"
+"POST"	"/limit-and-exposure-management/activation"
+"PUT"	"/limit-and-exposure-management/{sd-reference-id}/configuration"
+"PUT"	"/limit-and-exposure-management/{sd-reference-id}/feedback"

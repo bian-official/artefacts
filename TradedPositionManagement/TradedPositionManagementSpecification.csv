@@ -1,0 +1,13 @@
+"Service Domain specification for Traded Position Management"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Traded Position Management
+"Role Definition"	""
+"Example of use"	"A number of trading positions trade in different securities/markets for profit/speculation/risk and liquidity management"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Transact
+"Asset Type"	TradedPosition
+"Generic Artifact"	Transaction
+"Control Record"	TradedPositionTransaction
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Strategy
+"Control Record Model for Corporate Strategy is not defined"
+"POST"	"/corporate-strategy/activation"
+"PUT"	"/corporate-strategy/{sd-reference-id}/configuration"
+"PUT"	"/corporate-strategy/{sd-reference-id}/feedback"

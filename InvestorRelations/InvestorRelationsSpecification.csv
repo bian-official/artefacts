@@ -1,0 +1,13 @@
+"Service Domain specification for Investor Relations"
+"Business Area"	Business Management
+"Business Domain"	Corporate Relations
+"Service Domain"	Investor Relations
+"Role Definition"	"Maintain investor relations, publish annual reports, interim statement and host investor meetings as necessary and appropriate"
+"Example of use"	"Investor presentation is organized to present the annual report"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Enroll
+"Asset Type"	Investor
+"Generic Artifact"	Membership
+"Control Record"	InvestorMembership
+"Registration Status"	Registered

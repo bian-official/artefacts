@@ -1,0 +1,13 @@
+"Service Domain specification for Reward Points Account"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Reward Points Account
+"Role Definition"	"Track/log the allocation and remittance of rewards points. The service domain acts as a transaction log similar where the instrument is not subject to interest considerations (as with cash) but may have a finite life-time with expiry dates on reward points"
+"Example of use"	"Example of use:. A customer transaction that generates reward points is captured on the log, resulting in an increase in their available point balance"
+"Executive Summary"	"Administer the booking and remittance of rewards points"
+"Key Features"	"Capture reward points awards and remittance transactions. Process reward point expiry terms for limited life reward points"
+"Functional Pattern"	Track
+"Asset Type"	RewardPoints
+"Generic Artifact"	Log
+"Control Record"	RewardPointsLog
+"Registration Status"	Registered

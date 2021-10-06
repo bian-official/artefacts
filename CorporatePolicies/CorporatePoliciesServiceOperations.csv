@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Policies
+"Control Record Model for Corporate Policies is not defined"
+"POST"	"/corporate-policies/activation"
+"PUT"	"/corporate-policies/{sd-reference-id}/configuration"
+"PUT"	"/corporate-policies/{sd-reference-id}/feedback"

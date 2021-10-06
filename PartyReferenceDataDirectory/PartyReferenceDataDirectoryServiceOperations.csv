@@ -1,0 +1,157 @@
+"Service Operations for: "	Party Reference Data Directory
+""
+"POST"	"/party-reference-data-directory/activation"
+"PUT"	"/party-reference-data-directory/{sd-reference-id}/configuration"
+"PUT"	"/party-reference-data-directory/{sd-reference-id}/feedback"
+""
+"Post"	"/party-reference-data-directory/{sd-identifier}/party-reference-data-directory-entry/{crbq-identifier}/registration"
+""	1	"in"	"Date Type"	"CR Party Reference Data Directory Entry Instance Record"	String
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/party-reference-data-directory-entry/{crbq-identifier}/update"
+""	1	"inout"	"Date Type"	"CR Party Reference Data Directory Entry Instance Record"	String
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/party-reference-data-directory-entry/{crbq-identifier}/control"
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/demographics/{crbq-identifier}/exchange"
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/party-reference-data-directory-entry/{crbq-identifier}/requisition"
+""	1	"in"	"Date Type"	"CR Party Reference Data Directory Entry Instance Record"	String
+""
+"Get"	"/party-reference-data-directory/{sd-identifier}/party-reference-data-directory-entry/{crbq-identifier}/retrieval"
+""	1	"out"	"Date Type"	"CR Party Reference Data Directory Entry Instance Record"	String
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/reference/{crbq-identifier}/update"
+""	1	"inout"	"Date"	"CR Party Reference Data Directory Entry Instance Record"	String
+""	2	"inout"	"Party Legal Entity Reference"	"BQ Reference Instance Record"	Object
+""	3	"inout"	"Party Name/Salutation"	"BQ Reference Instance Record"	String
+""	4	"inout"	"Government Issued Identity Reference"	"BQ Reference Instance Record"	Object
+""	5	"inout"	"Government Issued Document Details"	"BQ Reference Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"BQ Reference Instance Record"	Object
+""	7	"inout"	"Residency Status"	"BQ Reference Instance Record"	String
+""	8	"inout"	"Date of Birth"	"BQ Reference Instance Record"	String
+""	9	"inout"	"Nationality"	"BQ Reference Instance Record"	String
+""	10	"inout"	"Residential Address"	"BQ Reference Instance Record"	String
+""	11	"inout"	"eMail Address"	"BQ Reference Instance Record"	String
+""	12	"inout"	"Cell/Phone Number"	"BQ Reference Instance Record"	String
+""	13	"inout"	"Social Network Contacts"	"BQ Reference Instance Record"	String
+""	14	"inout"	"Political Exposure Type"	"BQ Reference Instance Record"	String
+""	15	"inout"	"Political Exposure Description Record"	"BQ Reference Instance Record"	String
+""	16	"inout"	"Corporate Customer Reference"	"BQ Reference Instance Record"	Object
+""	17	"inout"	"Corporate Customer Legal Entity Reference"	"BQ Reference Instance Record"	Object
+""	18	"inout"	"Corporate Address"	"BQ Reference Instance Record"	String
+""	19	"inout"	"Company Officer Reference"	"BQ Reference Instance Record"	Object
+""	20	"inout"	"Company Officer Role"	"BQ Reference Instance Record"	String
+""	21	"inout"	"Customer Since Date"	"BQ Reference Instance Record"	Date
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/party-reference-data-directory-entry/{crbq-identifier}/exchange"
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/party-reference-data-directory-entry/{crbq-identifier}/execution"
+""	1	"in"	"Party Legal Entity Reference"	"BQ Reference Instance Record"	Object
+""	2	"in"	"Party Name/Salutation"	"BQ Reference Instance Record"	String
+""	3	"in"	"Government Issued Identity Reference"	"BQ Reference Instance Record"	Object
+""	4	"in"	"Government Issued Document Details"	"BQ Reference Instance Record"	String
+""	5	"in"	"Document Directory Entry Instance Reference"	"BQ Reference Instance Record"	Object
+""	6	"in"	"Residency Status"	"BQ Reference Instance Record"	String
+""	7	"in"	"Date of Birth"	"BQ Reference Instance Record"	String
+""	8	"in"	"Nationality"	"BQ Reference Instance Record"	String
+""	9	"in"	"Residential Address"	"BQ Reference Instance Record"	String
+""	10	"in"	"eMail Address"	"BQ Reference Instance Record"	String
+""	11	"in"	"Cell/Phone Number"	"BQ Reference Instance Record"	String
+""	12	"in"	"Social Network Contacts"	"BQ Reference Instance Record"	String
+""	13	"in"	"Political Exposure Type"	"BQ Reference Instance Record"	String
+""	14	"in"	"Political Exposure Description Record"	"BQ Reference Instance Record"	String
+""	15	"in"	"Corporate Customer Reference"	"BQ Reference Instance Record"	Object
+""	16	"in"	"Corporate Customer Legal Entity Reference"	"BQ Reference Instance Record"	Object
+""	17	"in"	"Corporate Address"	"BQ Reference Instance Record"	String
+""	18	"in"	"Company Officer Reference"	"BQ Reference Instance Record"	Object
+""	19	"in"	"Company Officer Role"	"BQ Reference Instance Record"	String
+""	20	"in"	"Customer Since Date"	"BQ Reference Instance Record"	Date
+""	21	"in"	"Employee Reference"	"BQ Associations Instance Record"	Object
+""	22	"in"	"Associate Reference"	"BQ Associations Instance Record"	Object
+""	23	"in"	"Associate Type"	"BQ Associations Instance Record"	String
+""	24	"in"	"Associate Obligation/Dependency Description"	"BQ Associations Instance Record"	String
+""	25	"in"	"Association Valid From/To Date"	"BQ Associations Instance Record"	Date
+""	26	"in"	"Product Instance Reference"	"BQ Associations Instance Record"	Object
+""	27	"in"	"Preferred Beneficiary"	"BQ Associations Instance Record"	Preferred Beneficiary
+""	28	"in"	"Proxy/Representative/Power of Attorney Reference"	"BQ Associations Instance Record"	Object
+""	29	"in"	"Socio-Economic Classification"	"BQ Demographics Instance Record"	String
+""	30	"in"	"Ethnicity/Religion"	"BQ Demographics Instance Record"	String
+""	31	"in"	"Employment"	"BQ Demographics Instance Record"	String
+""	32	"in"	"Employment History"	"BQ Demographics Instance Record"	String
+""	33	"in"	"Education History"	"BQ Demographics Instance Record"	String
+""	34	"in"	"Servicing Constraints"	"BQ Demographics Instance Record"	String
+""	35	"in"	"Bank Relation Type"	"BQ Bank Relations Instance Record"	String
+""	36	"in"	"Business Unit/Employee Reference"	"BQ Bank Relations Instance Record"	Object
+""
+"Get"	"/party-reference-data-directory/{sd-identifier}/reference/{crbq-identifier}/retrieval"
+""	1	"out"	"Date Type"	"CR Party Reference Data Directory Entry Instance Record"	String
+""	2	"out"	"Party Legal Entity Reference"	"BQ Reference Instance Record"	Object
+""	3	"out"	"Party Name/Salutation"	"BQ Reference Instance Record"	String
+""	4	"out"	"Government Issued Identity Reference"	"BQ Reference Instance Record"	Object
+""	5	"out"	"Government Issued Document Details"	"BQ Reference Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"BQ Reference Instance Record"	Object
+""	7	"out"	"Residency Status"	"BQ Reference Instance Record"	String
+""	8	"out"	"Date of Birth"	"BQ Reference Instance Record"	String
+""	9	"out"	"Nationality"	"BQ Reference Instance Record"	String
+""	10	"out"	"Residential Address"	"BQ Reference Instance Record"	String
+""	11	"out"	"eMail Address"	"BQ Reference Instance Record"	String
+""	12	"out"	"Cell/Phone Number"	"BQ Reference Instance Record"	String
+""	13	"out"	"Social Network Contacts"	"BQ Reference Instance Record"	String
+""	14	"out"	"Political Exposure Type"	"BQ Reference Instance Record"	String
+""	15	"out"	"Political Exposure Description Record"	"BQ Reference Instance Record"	String
+""	16	"out"	"Corporate Customer Reference"	"BQ Reference Instance Record"	Object
+""	17	"out"	"Corporate Customer Legal Entity Reference"	"BQ Reference Instance Record"	Object
+""	18	"out"	"Corporate Address"	"BQ Reference Instance Record"	String
+""	19	"out"	"Company Officer Reference"	"BQ Reference Instance Record"	Object
+""	20	"out"	"Company Officer Role"	"BQ Reference Instance Record"	String
+""	21	"out"	"Customer Since Date"	"BQ Reference Instance Record"	Date
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/associations/{crbq-identifier}/update"
+""	1	"inout"	"Date"	"CR Party Reference Data Directory Entry Instance Record"	String
+""	2	"inout"	"Employee Reference"	"BQ Associations Instance Record"	Object
+""	3	"inout"	"Associate Reference"	"BQ Associations Instance Record"	Object
+""	4	"inout"	"Associate Type"	"BQ Associations Instance Record"	String
+""	5	"inout"	"Associate Obligation/Dependency Description"	"BQ Associations Instance Record"	String
+""	6	"inout"	"Association Valid From/To Date"	"BQ Associations Instance Record"	Date
+""	7	"inout"	"Product Instance Reference"	"BQ Associations Instance Record"	Object
+""	8	"inout"	"Preferred Beneficiary"	"BQ Associations Instance Record"	Preferred Beneficiary
+""	9	"inout"	"Proxy/Representative/Power of Attorney Reference"	"BQ Associations Instance Record"	Object
+""
+"Get"	"/party-reference-data-directory/{sd-identifier}/associations/{crbq-identifier}/retrieval"
+""	1	"out"	"Date Type"	"CR Party Reference Data Directory Entry Instance Record"	String
+""	2	"out"	"Employee Reference"	"BQ Associations Instance Record"	Object
+""	3	"out"	"Associate Reference"	"BQ Associations Instance Record"	Object
+""	4	"out"	"Associate Type"	"BQ Associations Instance Record"	String
+""	5	"out"	"Associate Obligation/Dependency Description"	"BQ Associations Instance Record"	String
+""	6	"out"	"Association Valid From/To Date"	"BQ Associations Instance Record"	Date
+""	7	"out"	"Product Instance Reference"	"BQ Associations Instance Record"	Object
+""	8	"out"	"Preferred Beneficiary"	"BQ Associations Instance Record"	Preferred Beneficiary
+""	9	"out"	"Proxy/Representative/Power of Attorney Reference"	"BQ Associations Instance Record"	Object
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/demographics/{crbq-identifier}/update"
+""	1	"inout"	"Date"	"CR Party Reference Data Directory Entry Instance Record"	String
+""	2	"inout"	"Socio-Economic Classification"	"BQ Demographics Instance Record"	String
+""	3	"inout"	"Ethnicity/Religion"	"BQ Demographics Instance Record"	String
+""	4	"inout"	"Employment"	"BQ Demographics Instance Record"	String
+""	5	"inout"	"Employment History"	"BQ Demographics Instance Record"	String
+""	6	"inout"	"Education History"	"BQ Demographics Instance Record"	String
+""	7	"inout"	"Servicing Constraints"	"BQ Demographics Instance Record"	String
+""
+"Get"	"/party-reference-data-directory/{sd-identifier}/demographics/{crbq-identifier}/retrieval"
+""	1	"out"	"Date Type"	"CR Party Reference Data Directory Entry Instance Record"	String
+""	2	"out"	"Socio-Economic Classification"	"BQ Demographics Instance Record"	String
+""	3	"out"	"Ethnicity/Religion"	"BQ Demographics Instance Record"	String
+""	4	"out"	"Employment"	"BQ Demographics Instance Record"	String
+""	5	"out"	"Employment History"	"BQ Demographics Instance Record"	String
+""	6	"out"	"Education History"	"BQ Demographics Instance Record"	String
+""	7	"out"	"Servicing Constraints"	"BQ Demographics Instance Record"	String
+""
+"Put"	"/party-reference-data-directory/{sd-identifier}/bank-relations/{crbq-identifier}/update"
+""	1	"inout"	"Date"	"CR Party Reference Data Directory Entry Instance Record"	String
+""	2	"inout"	"Bank Relation Type"	"BQ Bank Relations Instance Record"	String
+""	3	"inout"	"Business Unit/Employee Reference"	"BQ Bank Relations Instance Record"	Object
+""
+"Get"	"/party-reference-data-directory/{sd-identifier}/bank-relations/{crbq-identifier}/retrieval"
+""	1	"out"	"Date Type"	"CR Party Reference Data Directory Entry Instance Record"	String
+""	2	"out"	"Bank Relation Type"	"BQ Bank Relations Instance Record"	String
+""	3	"out"	"Business Unit/Employee Reference"	"BQ Bank Relations Instance Record"	Object

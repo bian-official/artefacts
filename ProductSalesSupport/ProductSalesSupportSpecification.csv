@@ -1,0 +1,13 @@
+"Service Domain specification for Product Sales Support"
+"Business Area"	Customers
+"Business Domain"	Sales
+"Service Domain"	Product Sales Support
+"Role Definition"	"Provide specialist support advice to customers for products and services on offer"
+"Example of use"	"An established corporate customer arranges a meeting with a specialist to discuss short term funding options"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	ProductSalesSupport
+"Generic Artifact"	AdministrativePlan
+"Control Record"	ProductSalesSupportAdministrativePlan
+"Registration Status"	Registered

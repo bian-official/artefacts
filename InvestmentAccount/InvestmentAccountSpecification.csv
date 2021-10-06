@@ -1,0 +1,13 @@
+"Service Domain specification for Investment Account"
+"Business Area"	Operations
+"Business Domain"	Custody, Collateral And Documents
+"Service Domain"	Investment Account
+"Role Definition"	"The Investment Account is a facility used to maintain the non-cash holdings for a customer. It handles the deposit and withdrawal of securities and can maintain records for multiple securities/instruments. It also reflects the results of corporate actions as handled/orchestrated by the Corporate Events Service Domain (such as dividend payments, splits, etc.)"
+"Example of use"	"An investment customer maintains an investment portfolio and the holdings are maintained in the Investment Account"
+"Executive Summary"	"This service domain handles the non-cash holdings positions for a customer, covering multiple instruments as necessary"
+"Key Features"	"Set-up investment account facilities. Process securities deposits and withdrawals. Process the results of corporate events. Process fees and apply interest charges. Provide balance/statements and reports"
+"Functional Pattern"	Fulfill
+"Asset Type"	InvestmentAccount
+"Generic Artifact"	Facility (rename)
+"Control Record"	InvestmentAccountArrangement
+"Registration Status"	Provisional

@@ -1,0 +1,5 @@
+"Service Operations for: "	Financial Statements
+"Control Record Model for Financial Statements is not defined"
+"POST"	"/financial-statements/activation"
+"PUT"	"/financial-statements/{sd-reference-id}/configuration"
+"PUT"	"/financial-statements/{sd-reference-id}/feedback"

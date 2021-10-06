@@ -1,0 +1,5 @@
+"Service Operations for: "	Investor Relations
+"Control Record Model for Investor Relations is not defined"
+"POST"	"/investor-relations/activation"
+"PUT"	"/investor-relations/{sd-reference-id}/configuration"
+"PUT"	"/investor-relations/{sd-reference-id}/feedback"

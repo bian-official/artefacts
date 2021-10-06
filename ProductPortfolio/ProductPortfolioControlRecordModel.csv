@@ -1,0 +1,22 @@
+"Control Record Model for: "	Product Portfolio
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Product Portfolio Analysis Instance Record	""	""	""
+"CR"	CR Product Portfolio Analysis Instance Record	Product Portfolio Make-up	"Definition of the product portfolio"	String
+"CR"	CR Product Portfolio Analysis Instance Record	Product Type	"The product type within the portfolio analysis"	String
+"CR"	CR Product Portfolio Analysis Instance Record	Product Type Definition	"Specific properties and characteristics of the product that provide context for the performance analysis"	String
+"CR"	CR Product Portfolio Analysis Instance Record	Product Portfolio Performance Goals	"Definition of the performance goals for products as defined by senior management functions (target/anticipated and actual as assessed)."	String
+"CR"	CR Product Portfolio Analysis Instance Record	Product Portfolio Analysis Schedule	"The schedule for performing product portfolio analysis for the enterprise or division"	String
+"CR"	CR Product Portfolio Analysis Instance Record	Product Portfolio Analysis Report	"A consolidated report containing the results of performance analyses applied to the products making up the overall portfolio"	String
+"CR"	CR Product Portfolio Analysis Instance Record	Product Analysis Type	"Defines a type of performance analysis performed to products in the portfolio (e.g. scheduled review, specialized analysis, sensitivity assessment/projection)"	String
+"CR"	CR Product Portfolio Analysis Instance Record	Product Analysis Result	"The consolidated report of the performance evaluation and comparisons from the analysis"	String
+"CR"	CR Product Portfolio Analysis Instance Record	Product Analysis Reporting Date	"The date/time the performance report was completed"	Date
+"CR"	CR Product Portfolio Analysis Instance Record	Document Directory Entry Instance Reference	"Reference to associated performance analysis reporting documents"	Object
+"BQ"	BQ Performance Analysis Instance Record	""	""	""
+"BQ"	BQ Performance Analysis Instance Record	Product Performance Analysis Type	"Defines the type of analysis/algorithm used to evaluate and compare the product performance to prevailing market measures"	String
+"BQ"	BQ Performance Analysis Instance Record	Product Performance Analysis Task	"Record of a task to perform a selected type of performance analysis on a product within the portfolio"	String
+"BQ"	BQ Performance Analysis Instance Record	Product Performance Request Specification	"The specific details of the performance analysis (can be a default/standard scheduled analysis or a specialist/ad-hoc request)"	String
+"BQ"	BQ Performance Analysis Instance Record	Product Performance Model Reference	"Reference to the performance analysis model used"	Object
+"BQ"	BQ Performance Analysis Instance Record	Product Performance ProductandService Activity Report	"The data file, report of product related transaction details used in the analysis"	String
+"BQ"	BQ Performance Analysis Instance Record	Product Performance Financial Market Research Report	"The content of selected financial market research report or market transaction database in any suitable form used for comparisons when appropriate"	String
+"BQ"	BQ Performance Analysis Instance Record	Product Performance Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Performance Analysis Instance Record	Product Performance Request Result	"The output from executing the selected product performance analysis"	String

@@ -1,0 +1,254 @@
+"Service Operations for: "	Correspondence
+""
+"POST"	"/correspondence/activation"
+"PUT"	"/correspondence/{sd-reference-id}/configuration"
+"PUT"	"/correspondence/{sd-reference-id}/feedback"
+""
+"Post"	"/correspondence/{sd-identifier}/correspondence-operating-session/{crbq-identifier}/initiation"
+""	1	"out"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"inout"	"Correspondence Service Session Report Type"	"CR Correspondence Operating Session Instance Record"	String
+""	3	"out"	"Correspondence Service Session Date"	"CR Correspondence Operating Session Instance Record"	Date
+""
+"Put"	"/correspondence/{sd-identifier}/correspondence-operating-session/{crbq-identifier}/update"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"inout"	"Correspondence Service Session Report Type"	"CR Correspondence Operating Session Instance Record"	String
+""	3	"inout"	"Correspondence Service Session Date"	"CR Correspondence Operating Session Instance Record"	Date
+""
+"Put"	"/correspondence/{sd-identifier}/correspondence-operating-session/{crbq-identifier}/control"
+""
+"Put"	"/correspondence/{sd-identifier}/correspondence-operating-session/{crbq-identifier}/execution"
+""	1	"in"	"Correspondence Service Session Report Type"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"out"	"Correspondence Service Session Date"	"CR Correspondence Operating Session Instance Record"	Date
+""
+"Put"	"/correspondence/{sd-identifier}/correspondence-operating-session/{crbq-identifier}/requisition"
+""
+"Get"	"/correspondence/{sd-identifier}/correspondence-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"out"	"Correspondence Service Session Report Type"	"CR Correspondence Operating Session Instance Record"	String
+""	3	"out"	"Correspondence Service Session Date"	"CR Correspondence Operating Session Instance Record"	Date
+""	4	"out"	"Correspondence Source Reference"	"BQ Outbound Instance Record"	Object
+""	5	"out"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	6	"out"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	7	"out"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	8	"out"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	9	"out"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	10	"out"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	11	"out"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	12	"out"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	13	"out"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	14	"out"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	15	"out"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	16	"out"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	17	"out"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	18	"out"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	19	"out"	"Date Type"	"BQ Outbound Instance Record"	String
+""
+"Post"	"/correspondence/{sd-identifier}/outbound/{crbq-identifier}/initiation"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"in"	"Correspondence Source Reference"	"BQ Outbound Instance Record"	Object
+""	3	"in"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	4	"in"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	5	"in"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	6	"in"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	7	"in"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	8	"in"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	9	"in"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	10	"in"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	11	"in"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	12	"in"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	13	"in"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	14	"in"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	15	"in"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	16	"in"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	17	"inout"	"Date Type"	"BQ Outbound Instance Record"	String
+""
+"Put"	"/correspondence/{sd-identifier}/outbound/{crbq-identifier}/update"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"inout"	"Correspondence Source Reference"	"BQ Outbound Instance Record"	Object
+""	3	"inout"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	4	"inout"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	5	"inout"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	6	"inout"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	7	"inout"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	8	"inout"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	9	"inout"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	10	"inout"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	11	"inout"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	12	"inout"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	13	"inout"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	14	"inout"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	15	"inout"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	16	"inout"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	17	"inout"	"Date Type"	"BQ Outbound Instance Record"	String
+""
+"Get"	"/correspondence/{sd-identifier}/outbound/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"out"	"Correspondence Source Reference"	"BQ Outbound Instance Record"	Object
+""	3	"out"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	4	"out"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	5	"out"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	6	"out"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	7	"out"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	8	"out"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	9	"out"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	10	"out"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	11	"out"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	12	"out"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	13	"out"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	14	"out"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	15	"out"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	16	"out"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	17	"out"	"Date Type"	"BQ Outbound Instance Record"	String
+""
+"Post"	"/correspondence/{sd-identifier}/outbound-with-response/{crbq-identifier}/initiation"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"in"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	3	"in"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	4	"in"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	5	"in"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	6	"in"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	7	"in"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	8	"in"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	9	"in"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	10	"in"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	11	"in"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	12	"in"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	13	"in"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	14	"in"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	15	"in"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	16	"inout"	"Date Type"	"BQ Outbound Instance Record"	String
+""	17	"in"	"Response Due Date"	"BQ Outbound With Response Instance Record"	Date
+""	18	"in"	"Response Correspondence Reference"	"BQ Outbound With Response Instance Record"	Object
+""	19	"in"	"Response Correspondence Record"	"BQ Outbound With Response Instance Record"	String
+""
+"Put"	"/correspondence/{sd-identifier}/outbound-with-response/{crbq-identifier}/update"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"inout"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	3	"inout"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	4	"inout"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	5	"inout"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	6	"inout"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	7	"inout"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	8	"inout"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	9	"inout"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	10	"inout"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	11	"inout"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	12	"inout"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	13	"inout"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	14	"inout"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	15	"inout"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	16	"inout"	"Date Type"	"BQ Outbound Instance Record"	String
+""	17	"inout"	"Response Due Date"	"BQ Outbound With Response Instance Record"	Date
+""	18	"inout"	"Response Correspondence Reference"	"BQ Outbound With Response Instance Record"	Object
+""	19	"inout"	"Response Correspondence Record"	"BQ Outbound With Response Instance Record"	String
+""
+"Get"	"/correspondence/{sd-identifier}/outbound-with-response/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"out"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	3	"out"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	4	"out"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	5	"out"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	6	"out"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	7	"out"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	8	"out"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	9	"out"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	10	"out"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	11	"out"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	12	"out"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	13	"out"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	14	"out"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	15	"out"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	16	"out"	"Date Type"	"BQ Outbound Instance Record"	String
+""	17	"out"	"Response Due Date"	"BQ Outbound With Response Instance Record"	Date
+""	18	"out"	"Response Correspondence Reference"	"BQ Outbound With Response Instance Record"	Object
+""	19	"out"	"Response Correspondence Record"	"BQ Outbound With Response Instance Record"	String
+""
+"Post"	"/correspondence/{sd-identifier}/inbound/{crbq-identifier}/initiation"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"in"	"Inbound Correspondence Instance Reference"	"BQ Inbound Instance Record"	Object
+""	3	"in"	"Inbound Correspondence Record"	"BQ Inbound Instance Record"	String
+""	4	"in"	"Inbound Correspondence Type (e.g. unsolicited message, product/service related, complaint)"	"BQ Inbound Instance Record"	String
+""	5	"in"	"Inbound Correspondence Content"	"BQ Inbound Instance Record"	String
+""	6	"in"	"Inbound Correspondence Addressee"	"BQ Inbound Instance Record"	String
+""	7	"in"	"Inbound Correspondence Customer Reference"	"BQ Inbound Instance Record"	Object
+""	8	"in"	"Inbound Correspondence Employee/Business Unit Reference"	"BQ Inbound Instance Record"	Object
+""	9	"inout"	"Date Type"	"BQ Inbound Instance Record"	String
+""
+"Put"	"/correspondence/{sd-identifier}/inbound/{crbq-identifier}/update"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"inout"	"Inbound Correspondence Instance Reference"	"BQ Inbound Instance Record"	Object
+""	3	"inout"	"Inbound Correspondence Record"	"BQ Inbound Instance Record"	String
+""	4	"inout"	"Inbound Correspondence Type (e.g. unsolicited message, product/service related, complaint)"	"BQ Inbound Instance Record"	String
+""	5	"inout"	"Inbound Correspondence Content"	"BQ Inbound Instance Record"	String
+""	6	"inout"	"Inbound Correspondence Addressee"	"BQ Inbound Instance Record"	String
+""	7	"inout"	"Inbound Correspondence Customer Reference"	"BQ Inbound Instance Record"	Object
+""	8	"inout"	"Inbound Correspondence Employee/Business Unit Reference"	"BQ Inbound Instance Record"	Object
+""	9	"inout"	"Date Type"	"BQ Inbound Instance Record"	String
+""
+"Get"	"/correspondence/{sd-identifier}/inbound/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"out"	"Inbound Correspondence Instance Reference"	"BQ Inbound Instance Record"	Object
+""	3	"out"	"Inbound Correspondence Record"	"BQ Inbound Instance Record"	String
+""	4	"out"	"Inbound Correspondence Type (e.g. unsolicited message, product/service related, complaint)"	"BQ Inbound Instance Record"	String
+""	5	"out"	"Inbound Correspondence Content"	"BQ Inbound Instance Record"	String
+""	6	"out"	"Inbound Correspondence Addressee"	"BQ Inbound Instance Record"	String
+""	7	"out"	"Inbound Correspondence Customer Reference"	"BQ Inbound Instance Record"	Object
+""	8	"out"	"Inbound Correspondence Employee/Business Unit Reference"	"BQ Inbound Instance Record"	Object
+""	9	"out"	"Date Type"	"BQ Inbound Instance Record"	String
+""
+"Post"	"/correspondence/{sd-identifier}/block-mailing/{crbq-identifier}/initiation"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"in"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	3	"in"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	4	"in"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	5	"in"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	6	"in"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	7	"in"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	8	"in"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	9	"in"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	10	"in"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	11	"in"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	12	"in"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	13	"in"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	14	"in"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	15	"in"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	16	"inout"	"Date Type"	"BQ Outbound Instance Record"	String
+""	17	"inout"	"Block mailing Record"	"BQ Block Mailing Instance Record"	String
+""
+"Put"	"/correspondence/{sd-identifier}/block-mailing/{crbq-identifier}/update"
+""	1	"inout"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"inout"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	3	"inout"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	4	"inout"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	5	"inout"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	6	"inout"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	7	"inout"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	8	"inout"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	9	"inout"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	10	"inout"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	11	"inout"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	12	"inout"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	13	"inout"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	14	"inout"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	15	"inout"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	16	"inout"	"Date Type"	"BQ Outbound Instance Record"	String
+""	17	"inout"	"Block mailing Record"	"BQ Block Mailing Instance Record"	String
+""
+"Get"	"/correspondence/{sd-identifier}/block-mailing/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondence Service Session Statistics"	"CR Correspondence Operating Session Instance Record"	String
+""	2	"out"	"Correspondence Record"	"BQ Outbound Instance Record"	String
+""	3	"out"	"Correspondence Type"	"BQ Outbound Instance Record"	String
+""	4	"out"	"Correspondence Template Reference"	"BQ Outbound Instance Record"	Object
+""	5	"out"	"Correspondence Template Record"	"BQ Outbound Instance Record"	String
+""	6	"out"	"Correspondence Content"	"BQ Outbound Instance Record"	String
+""	7	"out"	"Correspondence Media/Channel"	"BQ Outbound Instance Record"	String
+""	8	"out"	"Correspondence Addressee"	"BQ Outbound Instance Record"	String
+""	9	"out"	"Customer Reference"	"BQ Outbound Instance Record"	Object
+""	10	"out"	"Channel Access Preference Reference"	"BQ Outbound Instance Record"	Object
+""	11	"out"	"Channel Access Preference Profile"	"BQ Outbound Instance Record"	String
+""	12	"out"	"Channel Access Channel/Device Type"	"BQ Outbound Instance Record"	String
+""	13	"out"	"Channel Access Channel/Device Type Preference"	"BQ Outbound Instance Record"	String
+""	14	"out"	"Product/Service Type"	"BQ Outbound Instance Record"	String
+""	15	"out"	"Employee/Business Unit Reference"	"BQ Outbound Instance Record"	Object
+""	16	"out"	"Date Type"	"BQ Outbound Instance Record"	String
+""	17	"out"	"Block mailing Record"	"BQ Block Mailing Instance Record"	String

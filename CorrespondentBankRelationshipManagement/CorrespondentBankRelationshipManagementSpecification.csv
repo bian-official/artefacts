@@ -1,0 +1,13 @@
+"Service Domain specification for Correspondent Bank Relationship Management"
+"Business Area"	Operations
+"Business Domain"	External Agency
+"Service Domain"	Correspondent Bank Relationship Management
+"Role Definition"	"Handle the negotiation, development and tracking of reciprocal correspondent relationships"
+"Example of use"	"A bank establishes and maintains a correspondent relationship for international payments and trade finance representation in a foreign country"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	CorrepondentBankRelationship
+"Generic Artifact"	ManagementPlan
+"Control Record"	CorrepondentBankRelationshipManagementPlan
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Current Account"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Corporate Current Account
+"Role Definition"	"The Corporate Current Account is a financial facility that represents the general checking account facility at the core of corporate banking activity. There is a range of supporting features that make up the standard facility (checks/cheques, standing orders, debit cards, phone and on-line banking services etc.). The fulfillment can include a range of optional services, fees and interest payments and penalties and will often be bundled and or underlie/support other financial facilities and financial transactions"
+"Example of use"	"A corporate customer established a corporate current account with the bank and requests a series of services (e.g., request printed statements, initiate a transfer, set up a standing order)"
+"Executive Summary"	"This service domain orchestrates a corporate checking/demand deposit account. The typical range of services and fees covers payments and deposits, standing orders, sweeps, liens, check and debit card access."
+"Key Features"	"Set-up corporate current account facilities. Issue cards, check-books for an account. Process deposits and withdrawals. Handle standing orders and direct debits. Process fees and apply interest charges. Provide balance/statements and reports"
+"Functional Pattern"	Fulfill
+"Asset Type"	CorporateCurrentAccount
+"Generic Artifact"	Facility (rename)
+"Control Record"	CorporateCurrentAccountArrangement
+"Registration Status"	Registered

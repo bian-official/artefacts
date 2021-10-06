@@ -1,0 +1,41 @@
+"Control Record Model for: "	Issued Device Administration
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Question Assignment Instance Record	""	""	""
+"BQ"	BQ Question Assignment Instance Record	Format Rules	"Defines the minimum requirements for answers"	String
+"BQ"	BQ Question Assignment Instance Record	Recent Values	"Recent values maintained to eliminate repeated values"	String
+"BQ"	BQ Question Assignment Instance Record	Request Text	"Used to select secret questions and access prompts"	String
+"BQ"	BQ Question Assignment Instance Record	Response Text	"The stored response value possibly in suitably encrypted form"	String
+"BQ"	BQ Question Assignment Instance Record	Usage Log	"The timing and frequency of access/use - includes errors for fraud detection"	String
+"CR"	CR Issued Device Allocation Instance Record	""	""	""
+"CR"	CR Issued Device Allocation Instance Record	Customer Reference	"Reference to the holder of the issued device"	Object
+"CR"	CR Issued Device Allocation Instance Record	Product Instance Reference	"Linked products and services, there can be many"	Object
+"CR"	CR Issued Device Allocation Instance Record	Issued Device Type	"The type of device allocated (used to reference assignment type)"	String
+"CR"	CR Issued Device Allocation Instance Record	Associated Permissions	"Access/usage entitlements, can be by product instance (e.g. value, location, frequency and duration access constraints)"	String
+"CR"	CR Issued Device Allocation Instance Record	Issue Date	"The date the issued device is registered"	Date
+"CR"	CR Issued Device Allocation Instance Record	Valid From-To Date	"The refresh period for the issued device"	Date
+"BQ"	BQ Password Assignment Instance Record	""	""	""
+"BQ"	BQ Password Assignment Instance Record	Format Rules	"The required format or minimum requirements for the password (e.g. 8 chars)"	String
+"BQ"	BQ Password Assignment Instance Record	Recent Values	"Recent values maintained to eliminate repeated values"	String
+"BQ"	BQ Password Assignment Instance Record	Password Value	"The stored value possibly in suitably encrypted form"	String
+"BQ"	BQ Password Assignment Instance Record	Usage Log	"The timing and frequency of access/use - includes errors for fraud detection"	String
+"BQ"	BQ Cheques Assignment Instance Record	""	""	""
+"BQ"	BQ Cheques Assignment Instance Record	Issued Device Template/Values	"Cheque template (e.g. customer account/branch reference, print image/personalization)"	String
+"BQ"	BQ Cheques Assignment Instance Record	Issue Location	"The delivery address for distribution"	String
+"BQ"	BQ Cheques Assignment Instance Record	Sequence Number	"The tracked sequence numbering (e.g. cheque number range issued)"	String
+"BQ"	BQ Device Assignment Instance Record	""	""	""
+"BQ"	BQ Device Assignment Instance Record	Issued Device Serial Number	"Serial number or other unique identifier"	String
+"BQ"	BQ Device Assignment Instance Record	Version Number	"Operating system version for smart devices"	String
+"BQ"	BQ Device Assignment Instance Record	Customer Customization Reference	"Used for device personalization"	Object
+"BQ"	BQ Device Assignment Instance Record	Delivery method	"Details how device and replacements are distributed (e.g. mail, courier, collect at branch, kiosk)"	String
+"BQ"	BQ Device Assignment Instance Record	Issue Location	"The delivery address or tracked location if appropriate"	String
+"BQ"	BQ Device Assignment Instance Record	Issued Device Configuration	"Device stored values such as mag strip/chip settings"	String
+"BQ"	BQ Device Assignment Instance Record	Usage Log	"The timing and frequency of access/use - includes errors for fraud detection"	String
+"BQ"	BQ Reader Assignment Instance Record	""	""	""
+"BQ"	BQ Reader Assignment Instance Record	Issued Reader Device Serial Number	"Serial number or other unique identifier"	String
+"BQ"	BQ Reader Assignment Instance Record	Version Number	"Operating system version for smart devices"	String
+"BQ"	BQ Reader Assignment Instance Record	Issue Location	"The delivery address or tracked location if appropriate"	String
+"BQ"	BQ Reader Assignment Instance Record	Issued Device Configuration	"The reader configuration or set-up details as appropriate"	String
+"BQ"	BQ Reader Assignment Instance Record	Usage Log	"The timing and frequency of access/use - includes errors for fraud detection"	String
+"BQ"	BQ Biometric Assignment Instance Record	""	""	""
+"BQ"	BQ Biometric Assignment Instance Record	Biometric Type	"Type of biometric record being used (e.g. face, fingerprint, signature)"	String
+"BQ"	BQ Biometric Assignment Instance Record	Biometric Registered Detail	"The stored biometric value possibly in suitably encrypted form"	String

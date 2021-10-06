@@ -1,0 +1,18 @@
+"Control Record Model for: "	Investment Portfolio Planning
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	""	""	""
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Customer Reference	"Reference to the associated customer for the investment portfolio"	Object
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Legal Entity Reference	"Reference to the legal entity that is the subject of the agreement"	Object
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Investment Portfolio Instance Reference	"Reference to the investment portfolio record of all holdings governed by this agreement"	Object
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Investment Portfolio Agreement Type	"The type of investment portfolio agreement (e.g. discretionary, trust )"	String
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Investment Portfolio Agreement Jurisdiction	"The contractual jurisdiction or coverage of the investment portfolio agreement (e.g. "governed by State")"	String
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Investment Portfolio Agreement Valid From/To Date	"The term of the agreement"	Date
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Investment Portfolio Agreement Signatories/Responsible Parties	"Reference to signatories"	String
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Document Directory Entry Instance Reference	"Reference to any associated documents, (e.g. signed agreement document, disclosures)"	Object
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Customer Agreement Instance Reference	"Reference to the customer master agreement that governs the product agreement"	Object
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Party Relationship Procedure Instance Reference	"Reference to KYC/Regulatory assessments maintained by the Party Life-Cycle Management Service Domain"	Object
+"CR"	CR Managed Investment Portfolio Agreement Instance Record	Managed Investment Portfolio Agreement	"The consolidated view of all of the constituent investment policy terms and conditions in any suitable format"	String
+"BQ"	BQ Investment Terms Instance Record	""	""	""
+"BQ"	BQ Investment Terms Instance Record	Investment Portfolio Agreement Term Type	"The type of term (e.g. risk appetite, forbidden securities/sectors)"	String
+"BQ"	BQ Investment Terms Instance Record	Investment Portfolio Agreement Term Description	"Description of the term defining how it is to be interpreted, applicable for behavioral controls (e.g. limit of exposure to a segment property or level of risk)"	String
+"BQ"	BQ Investment Terms Instance Record	Investment Portfolio Agreement Term Constraints	"One or more specific constraint parameters that calibrate the term, applicable for position constraints (e.g. the specific percentage limit of holdings by value that can be applied to a type of security)"	String

@@ -1,0 +1,33 @@
+"Control Record Model for: "	Customer Credit Rating
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Customer Credit Rating State Instance Record	""	""	""
+"CR"	CR Customer Credit Rating State Instance Record	Customer Reference	"Reference to the associated customer (can currently be a person or a company)"	Object
+"CR"	CR Customer Credit Rating State Instance Record	Customer Credit Rating Status Type	"The type of credit status being monitored (e.g. consumer, small business, corporate)"	String
+"CR"	CR Customer Credit Rating State Instance Record	Customer Credit Rating Schedule	"The schedule for refreshing the credit state and supporting analysis, and update history as appropriate"	String
+"CR"	CR Customer Credit Rating State Instance Record	Customer Credit Rating Assessment Record	"The record of the underlying credit assessment performed to support the credit rating state"	String
+"CR"	CR Customer Credit Rating State Instance Record	Assessment Customer Behavior Model Reference	"Reference to the customer behavior model(s) used to develop any underlying analysis for determining the credit state"	Object
+"CR"	CR Customer Credit Rating State Instance Record	Credit Rating Assessment Type	"The type of analysis performed to support the credit state"	String
+"CR"	CR Customer Credit Rating State Instance Record	Credit Rating Assessment Date	"The date and time the supporting credit assessment was developed"	Date
+"CR"	CR Customer Credit Rating State Instance Record	Credit Rating Assessment Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"CR"	CR Customer Credit Rating State Instance Record	Credit Rating Assessment Result	"The resulting report from the credit rating assessment"	String
+"CR"	CR Customer Credit Rating State Instance Record	Customer Credit Rating Record	"A record of the customers credit state"	String
+"CR"	CR Customer Credit Rating State Instance Record	Customer Credit Rating State	"Is the current credit rating or score (typically a ranking value e.g. 1-10)"	String
+"CR"	CR Customer Credit Rating State Instance Record	Customer Credit Rating Assessment	"Any underlying analysis records and results that support the credit rating"	String
+"CR"	CR Customer Credit Rating State Instance Record	Customer Credit Rating Narrative	"A structured report outlining basis for the credit rating"	String
+"CR"	CR Customer Credit Rating State Instance Record	Customer Credit Rating Date	"The date/time the value was last refreshed"	Date
+"BQ"	BQ External Reporting Instance Record	""	""	""
+"BQ"	BQ External Reporting Instance Record	Rating Agency Report Schedule	"The schedule for the upload of the data file/report from the external agency (can be ad-hoc)"	String
+"BQ"	BQ External Reporting Instance Record	Rating Agency Credit Report Type	"Defines the type of credit assessment report provided  (e.g. reference check, credit score, long/short form credit report)"	String
+"BQ"	BQ External Reporting Instance Record	Reference to the rating agency credit report	"Reference to the report provided by the agency"	String
+"BQ"	BQ External Reporting Instance Record	Rating Agency Credit Report	"The customer's credit report from the agency"	String
+"BQ"	BQ External Reporting Instance Record	Rating Agency Credit Report Date	"The date time the credit report was downloaded (content will define refresh history)"	Date
+"BQ"	BQ Internal Reporting Instance Record	""	""	""
+"BQ"	BQ Internal Reporting Instance Record	ProductandService Activity Report Reference	"Reference to the internal bank product and service activity report that is used for the credit assessment"	Object
+"BQ"	BQ Internal Reporting Instance Record	ProductandService Activity Report Schedule	"The schedule for the upload of the data file/report"	String
+"BQ"	BQ Internal Reporting Instance Record	ProductandService Activity Report	"The report data file/report of customer production activity"	String
+"BQ"	BQ Alerts Instance Record	""	""	""
+"BQ"	BQ Alerts Instance Record	Product Instance Reference	"The product/service instance that generated the alert"	Object
+"BQ"	BQ Alerts Instance Record	Employee/Business Unit Reference	"The individual source of the alert - if not automated by production"	Object
+"BQ"	BQ Alerts Instance Record	Customer Credit Alert Type	"The type of alert (e.g. missed payment, limit breach)"	String
+"BQ"	BQ Alerts Instance Record	Customer Credit Alert Description	"Details of the event behind the notification"	String
+"BQ"	BQ Alerts Instance Record	Date	"The date and time of the notification"	String

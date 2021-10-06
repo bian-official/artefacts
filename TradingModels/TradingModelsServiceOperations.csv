@@ -1,0 +1,5 @@
+"Service Operations for: "	Trading Models
+"Control Record Model for Trading Models is not defined"
+"POST"	"/trading-models/activation"
+"PUT"	"/trading-models/{sd-reference-id}/configuration"
+"PUT"	"/trading-models/{sd-reference-id}/feedback"

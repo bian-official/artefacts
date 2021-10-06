@@ -1,0 +1,191 @@
+"Service Operations for: "	Compliance Reporting
+""
+"POST"	"/compliance-reporting/activation"
+"PUT"	"/compliance-reporting/{sd-reference-id}/configuration"
+"PUT"	"/compliance-reporting/{sd-reference-id}/feedback"
+""
+"Put"	"/compliance-reporting/{sd-identifier}/compliance-assessment/{crbq-identifier}/capture"
+""	1	"inout"	"Compliance Assessment Preconditions"	"BQ Compliance Assessment Instance Record"	String
+""	2	"inout"	"Compliance Assessment Business Unit/Employee Reference"	"BQ Compliance Assessment Instance Record"	Object
+""	3	"inout"	"Compliance Assessment Work Schedule"	"BQ Compliance Assessment Instance Record"	String
+""	4	"inout"	"Audit and Reporting"	"BQ Compliance Assessment Instance Record"	Business Service
+""	5	"inout"	"Compliance Assessment Postconditions"	"BQ Compliance Assessment Instance Record"	String
+""	6	"inout"	"Compliance Assessment Audit and Reporting Service Type"	"BQ Compliance Assessment Instance Record"	String
+""	7	"inout"	"Compliance Assessment Audit and Reporting Service Description"	"BQ Compliance Assessment Instance Record"	String
+""	8	"inout"	"Compliance Assessment Audit and Reporting Service Inputs and Ouputs"	"BQ Compliance Assessment Instance Record"	String
+""	9	"inout"	"Compliance Assessment Audit and Reporting Service Work Product"	"BQ Compliance Assessment Instance Record"	String
+""	10	"inout"	"Compliance Assessment Audit and Reporting Service Name"	"BQ Compliance Assessment Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/consolidation/{crbq-identifier}/capture"
+""	1	"inout"	"Consolidation Preconditions"	"BQ Consolidation Instance Record"	String
+""	2	"inout"	"Consolidation Business Unit/Employee Reference"	"BQ Consolidation Instance Record"	Object
+""	3	"inout"	"Consolidation Work Schedule"	"BQ Consolidation Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Consolidation Instance Record"	Business Service
+""	5	"inout"	"Consolidation Postconditions"	"BQ Consolidation Instance Record"	String
+""	6	"inout"	"Consolidation Service Type"	"BQ Consolidation Instance Record"	String
+""	7	"inout"	"Consolidation Service Description"	"BQ Consolidation Instance Record"	String
+""	8	"inout"	"Consolidation Service Inputs and Ouputs"	"BQ Consolidation Instance Record"	String
+""	9	"inout"	"Consolidation Service Work Product"	"BQ Consolidation Instance Record"	String
+""	10	"inout"	"Consolidation Service Name"	"BQ Consolidation Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/remediation/{crbq-identifier}/capture"
+""	1	"inout"	"Remediation Preconditions"	"BQ Remediation Instance Record"	String
+""	2	"inout"	"Remediation Business Unit/Employee Reference"	"BQ Remediation Instance Record"	Object
+""	3	"inout"	"Remediation Work Schedule"	"BQ Remediation Instance Record"	String
+""	4	"inout"	"Remediation Assurance"	"BQ Remediation Instance Record"	Business Service
+""	5	"inout"	"Remediation Postconditions"	"BQ Remediation Instance Record"	String
+""	6	"inout"	"Remediation Remediation Assurance Service Type"	"BQ Remediation Instance Record"	String
+""	7	"inout"	"Remediation Remediation Assurance Service Description"	"BQ Remediation Instance Record"	String
+""	8	"inout"	"Remediation Remediation Assurance Service Inputs and Ouputs"	"BQ Remediation Instance Record"	String
+""	9	"inout"	"Remediation Remediation Assurance Service Work Product"	"BQ Remediation Instance Record"	String
+""	10	"inout"	"Remediation Remediation Assurance Service Name"	"BQ Remediation Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/compliance-reporting-administrative-plan/{crbq-identifier}/capture"
+""	1	"inout"	"Compliance Reporting Administrative Plan Budget Type"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	2	"inout"	"Compliance Reporting Administrative Plan Assignment"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	3	"inout"	"Compliance Reporting Administrative Plan Plan"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	4	"in"	"Compliance Reporting Administrative Plan Reference"	"CR Compliance Reporting Administrative Plan Instance Record"	Object
+""
+"Post"	"/compliance-reporting/{sd-identifier}/remediation/{crbq-identifier}/initiation"
+""	1	"inout"	"Remediation Preconditions"	"BQ Remediation Instance Record"	String
+""	2	"inout"	"Remediation Business Unit/Employee Reference"	"BQ Remediation Instance Record"	Object
+""	3	"inout"	"Remediation Work Schedule"	"BQ Remediation Instance Record"	String
+""	4	"inout"	"Remediation Assurance"	"BQ Remediation Instance Record"	Business Service
+""	5	"inout"	"Remediation Postconditions"	"BQ Remediation Instance Record"	String
+""	6	"inout"	"Remediation Remediation Assurance Service Type"	"BQ Remediation Instance Record"	String
+""	7	"inout"	"Remediation Remediation Assurance Service Description"	"BQ Remediation Instance Record"	String
+""	8	"inout"	"Remediation Remediation Assurance Service Inputs and Ouputs"	"BQ Remediation Instance Record"	String
+""	9	"inout"	"Remediation Remediation Assurance Service Work Product"	"BQ Remediation Instance Record"	String
+""	10	"inout"	"Remediation Remediation Assurance Service Name"	"BQ Remediation Instance Record"	String
+""
+"Post"	"/compliance-reporting/{sd-identifier}/compliance-reporting-administrative-plan/{crbq-identifier}/initiation"
+""	1	"inout"	"Compliance Reporting Administrative Plan Budget Type"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	2	"inout"	"Compliance Reporting Administrative Plan Assignment"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	3	"inout"	"Compliance Reporting Administrative Plan Plan"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	4	"in"	"Compliance Reporting Administrative Plan Reference"	"CR Compliance Reporting Administrative Plan Instance Record"	Object
+""
+"Get"	"/compliance-reporting/{sd-identifier}/compliance-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Compliance Assessment Preconditions"	"BQ Compliance Assessment Instance Record"	String
+""	2	"out"	"Compliance Assessment Business Unit/Employee Reference"	"BQ Compliance Assessment Instance Record"	Object
+""	3	"out"	"Compliance Assessment Work Schedule"	"BQ Compliance Assessment Instance Record"	String
+""	4	"out"	"Audit and Reporting"	"BQ Compliance Assessment Instance Record"	Business Service
+""	5	"out"	"Compliance Assessment Postconditions"	"BQ Compliance Assessment Instance Record"	String
+""	6	"out"	"Compliance Assessment Audit and Reporting Service Type"	"BQ Compliance Assessment Instance Record"	String
+""	7	"out"	"Compliance Assessment Audit and Reporting Service Description"	"BQ Compliance Assessment Instance Record"	String
+""	8	"out"	"Compliance Assessment Audit and Reporting Service Inputs and Ouputs"	"BQ Compliance Assessment Instance Record"	String
+""	9	"out"	"Compliance Assessment Audit and Reporting Service Work Product"	"BQ Compliance Assessment Instance Record"	String
+""	10	"out"	"Compliance Assessment Audit and Reporting Service Name"	"BQ Compliance Assessment Instance Record"	String
+""
+"Get"	"/compliance-reporting/{sd-identifier}/consolidation/{crbq-identifier}/retrieval"
+""	1	"out"	"Consolidation Preconditions"	"BQ Consolidation Instance Record"	String
+""	2	"out"	"Consolidation Business Unit/Employee Reference"	"BQ Consolidation Instance Record"	Object
+""	3	"out"	"Consolidation Work Schedule"	"BQ Consolidation Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Consolidation Instance Record"	Business Service
+""	5	"out"	"Consolidation Postconditions"	"BQ Consolidation Instance Record"	String
+""	6	"out"	"Consolidation Service Type"	"BQ Consolidation Instance Record"	String
+""	7	"out"	"Consolidation Service Description"	"BQ Consolidation Instance Record"	String
+""	8	"out"	"Consolidation Service Inputs and Ouputs"	"BQ Consolidation Instance Record"	String
+""	9	"out"	"Consolidation Service Work Product"	"BQ Consolidation Instance Record"	String
+""	10	"out"	"Consolidation Service Name"	"BQ Consolidation Instance Record"	String
+""
+"Get"	"/compliance-reporting/{sd-identifier}/remediation/{crbq-identifier}/retrieval"
+""	1	"out"	"Remediation Preconditions"	"BQ Remediation Instance Record"	String
+""	2	"out"	"Remediation Business Unit/Employee Reference"	"BQ Remediation Instance Record"	Object
+""	3	"out"	"Remediation Work Schedule"	"BQ Remediation Instance Record"	String
+""	4	"out"	"Remediation Assurance"	"BQ Remediation Instance Record"	Business Service
+""	5	"out"	"Remediation Postconditions"	"BQ Remediation Instance Record"	String
+""	6	"out"	"Remediation Remediation Assurance Service Type"	"BQ Remediation Instance Record"	String
+""	7	"out"	"Remediation Remediation Assurance Service Description"	"BQ Remediation Instance Record"	String
+""	8	"out"	"Remediation Remediation Assurance Service Inputs and Ouputs"	"BQ Remediation Instance Record"	String
+""	9	"out"	"Remediation Remediation Assurance Service Work Product"	"BQ Remediation Instance Record"	String
+""	10	"out"	"Remediation Remediation Assurance Service Name"	"BQ Remediation Instance Record"	String
+""
+"Get"	"/compliance-reporting/{sd-identifier}/compliance-reporting-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Compliance Reporting Administrative Plan Budget Type"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	2	"out"	"Compliance Reporting Administrative Plan Assignment"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	3	"out"	"Compliance Reporting Administrative Plan Plan"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	4	"out"	"Compliance Reporting Administrative Plan Reference"	"CR Compliance Reporting Administrative Plan Instance Record"	Object
+""
+"Put"	"/compliance-reporting/{sd-identifier}/compliance-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Compliance Assessment Preconditions"	"BQ Compliance Assessment Instance Record"	String
+""	2	"inout"	"Compliance Assessment Business Unit/Employee Reference"	"BQ Compliance Assessment Instance Record"	Object
+""	3	"inout"	"Compliance Assessment Work Schedule"	"BQ Compliance Assessment Instance Record"	String
+""	4	"inout"	"Audit and Reporting"	"BQ Compliance Assessment Instance Record"	Business Service
+""	5	"inout"	"Compliance Assessment Postconditions"	"BQ Compliance Assessment Instance Record"	String
+""	6	"inout"	"Compliance Assessment Audit and Reporting Service Type"	"BQ Compliance Assessment Instance Record"	String
+""	7	"inout"	"Compliance Assessment Audit and Reporting Service Description"	"BQ Compliance Assessment Instance Record"	String
+""	8	"inout"	"Compliance Assessment Audit and Reporting Service Inputs and Ouputs"	"BQ Compliance Assessment Instance Record"	String
+""	9	"inout"	"Compliance Assessment Audit and Reporting Service Work Product"	"BQ Compliance Assessment Instance Record"	String
+""	10	"inout"	"Compliance Assessment Audit and Reporting Service Name"	"BQ Compliance Assessment Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/consolidation/{crbq-identifier}/requisition"
+""	1	"inout"	"Consolidation Preconditions"	"BQ Consolidation Instance Record"	String
+""	2	"inout"	"Consolidation Business Unit/Employee Reference"	"BQ Consolidation Instance Record"	Object
+""	3	"inout"	"Consolidation Work Schedule"	"BQ Consolidation Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Consolidation Instance Record"	Business Service
+""	5	"inout"	"Consolidation Postconditions"	"BQ Consolidation Instance Record"	String
+""	6	"inout"	"Consolidation Service Type"	"BQ Consolidation Instance Record"	String
+""	7	"inout"	"Consolidation Service Description"	"BQ Consolidation Instance Record"	String
+""	8	"inout"	"Consolidation Service Inputs and Ouputs"	"BQ Consolidation Instance Record"	String
+""	9	"inout"	"Consolidation Service Work Product"	"BQ Consolidation Instance Record"	String
+""	10	"inout"	"Consolidation Service Name"	"BQ Consolidation Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/remediation/{crbq-identifier}/requisition"
+""	1	"inout"	"Remediation Preconditions"	"BQ Remediation Instance Record"	String
+""	2	"inout"	"Remediation Business Unit/Employee Reference"	"BQ Remediation Instance Record"	Object
+""	3	"inout"	"Remediation Work Schedule"	"BQ Remediation Instance Record"	String
+""	4	"inout"	"Remediation Assurance"	"BQ Remediation Instance Record"	Business Service
+""	5	"inout"	"Remediation Postconditions"	"BQ Remediation Instance Record"	String
+""	6	"inout"	"Remediation Remediation Assurance Service Type"	"BQ Remediation Instance Record"	String
+""	7	"inout"	"Remediation Remediation Assurance Service Description"	"BQ Remediation Instance Record"	String
+""	8	"inout"	"Remediation Remediation Assurance Service Inputs and Ouputs"	"BQ Remediation Instance Record"	String
+""	9	"inout"	"Remediation Remediation Assurance Service Work Product"	"BQ Remediation Instance Record"	String
+""	10	"inout"	"Remediation Remediation Assurance Service Name"	"BQ Remediation Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/compliance-reporting-administrative-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Compliance Reporting Administrative Plan Budget Type"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	2	"inout"	"Compliance Reporting Administrative Plan Assignment"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	3	"inout"	"Compliance Reporting Administrative Plan Plan"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	4	"in"	"Compliance Reporting Administrative Plan Reference"	"CR Compliance Reporting Administrative Plan Instance Record"	Object
+""
+"Put"	"/compliance-reporting/{sd-identifier}/compliance-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Compliance Assessment Preconditions"	"BQ Compliance Assessment Instance Record"	String
+""	2	"inout"	"Compliance Assessment Business Unit/Employee Reference"	"BQ Compliance Assessment Instance Record"	Object
+""	3	"inout"	"Compliance Assessment Work Schedule"	"BQ Compliance Assessment Instance Record"	String
+""	4	"inout"	"Audit and Reporting"	"BQ Compliance Assessment Instance Record"	Business Service
+""	5	"inout"	"Compliance Assessment Postconditions"	"BQ Compliance Assessment Instance Record"	String
+""	6	"inout"	"Compliance Assessment Audit and Reporting Service Type"	"BQ Compliance Assessment Instance Record"	String
+""	7	"inout"	"Compliance Assessment Audit and Reporting Service Description"	"BQ Compliance Assessment Instance Record"	String
+""	8	"inout"	"Compliance Assessment Audit and Reporting Service Inputs and Ouputs"	"BQ Compliance Assessment Instance Record"	String
+""	9	"inout"	"Compliance Assessment Audit and Reporting Service Work Product"	"BQ Compliance Assessment Instance Record"	String
+""	10	"inout"	"Compliance Assessment Audit and Reporting Service Name"	"BQ Compliance Assessment Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/consolidation/{crbq-identifier}/update"
+""	1	"inout"	"Consolidation Preconditions"	"BQ Consolidation Instance Record"	String
+""	2	"inout"	"Consolidation Business Unit/Employee Reference"	"BQ Consolidation Instance Record"	Object
+""	3	"inout"	"Consolidation Work Schedule"	"BQ Consolidation Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Consolidation Instance Record"	Business Service
+""	5	"inout"	"Consolidation Postconditions"	"BQ Consolidation Instance Record"	String
+""	6	"inout"	"Consolidation Service Type"	"BQ Consolidation Instance Record"	String
+""	7	"inout"	"Consolidation Service Description"	"BQ Consolidation Instance Record"	String
+""	8	"inout"	"Consolidation Service Inputs and Ouputs"	"BQ Consolidation Instance Record"	String
+""	9	"inout"	"Consolidation Service Work Product"	"BQ Consolidation Instance Record"	String
+""	10	"inout"	"Consolidation Service Name"	"BQ Consolidation Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/remediation/{crbq-identifier}/update"
+""	1	"inout"	"Remediation Preconditions"	"BQ Remediation Instance Record"	String
+""	2	"inout"	"Remediation Business Unit/Employee Reference"	"BQ Remediation Instance Record"	Object
+""	3	"inout"	"Remediation Work Schedule"	"BQ Remediation Instance Record"	String
+""	4	"inout"	"Remediation Assurance"	"BQ Remediation Instance Record"	Business Service
+""	5	"inout"	"Remediation Postconditions"	"BQ Remediation Instance Record"	String
+""	6	"inout"	"Remediation Remediation Assurance Service Type"	"BQ Remediation Instance Record"	String
+""	7	"inout"	"Remediation Remediation Assurance Service Description"	"BQ Remediation Instance Record"	String
+""	8	"inout"	"Remediation Remediation Assurance Service Inputs and Ouputs"	"BQ Remediation Instance Record"	String
+""	9	"inout"	"Remediation Remediation Assurance Service Work Product"	"BQ Remediation Instance Record"	String
+""	10	"inout"	"Remediation Remediation Assurance Service Name"	"BQ Remediation Instance Record"	String
+""
+"Put"	"/compliance-reporting/{sd-identifier}/compliance-reporting-administrative-plan/{crbq-identifier}/update"
+""	1	"inout"	"Compliance Reporting Administrative Plan Budget Type"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	2	"inout"	"Compliance Reporting Administrative Plan Assignment"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	3	"inout"	"Compliance Reporting Administrative Plan Plan"	"CR Compliance Reporting Administrative Plan Instance Record"	String
+""	4	"in"	"Compliance Reporting Administrative Plan Reference"	"CR Compliance Reporting Administrative Plan Instance Record"	Object

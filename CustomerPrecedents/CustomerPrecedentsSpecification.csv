@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Precedents"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Precedents
+"Role Definition"	"Maintain/track the status of customer precedents"
+"Example of use"	"A range of precedents and terms needs to be tracked and applied across the different products and services to ensure compliance with regulatory and contractual terms. "
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	CustomerPrecedents
+"Generic Artifact"	Procedure
+"Control Record"	CustomerPrecedentsProcedure
+"Registration Status"	Obsolete

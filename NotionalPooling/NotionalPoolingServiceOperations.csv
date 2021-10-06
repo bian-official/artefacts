@@ -1,0 +1,5 @@
+"Service Operations for: "	Notional Pooling
+""
+"POST"	"/notional-pooling/activation"
+"PUT"	"/notional-pooling/{sd-reference-id}/configuration"
+"PUT"	"/notional-pooling/{sd-reference-id}/feedback"

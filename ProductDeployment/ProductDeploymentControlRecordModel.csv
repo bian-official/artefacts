@@ -1,0 +1,47 @@
+"Control Record Model for: "	Product Deployment
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR ProductandService Deployment Development Instance Record	""	""	""
+"CR"	CR ProductandService Deployment Development Instance Record	ProductandService Deployment Project Name	"The reference to and descriptive name of the deployment project"	String
+"CR"	CR ProductandService Deployment Development Instance Record	ProductandService Deployment Project Type	"The type of deployment project (e.g. service update, new product release)"	String
+"CR"	CR ProductandService Deployment Development Instance Record	ProductandService Deployment Project Description	"A description of the scope, goal and make-up of the product deployment project"	String
+"CR"	CR ProductandService Deployment Development Instance Record	ProductandService Deployment Implementation Plan	"The derived deployment execution plan, covering tasks from the completion and acceptance of the deployment plan through to completion of the deployment including post deployment analysis tasks if required. Consolidates the different aspects of the plan. (Captures both planned and actual results)"	String
+"CR"	CR ProductandService Deployment Development Instance Record	ProductandService Deployment Budget	"The financial considerations for the deployment (includes planning and execution)"	String
+"CR"	CR ProductandService Deployment Development Instance Record	ProductandService Deployment Organization	"The organizational aspects of the deployment effort (includes planning and execution)"	String
+"CR"	CR ProductandService Deployment Development Instance Record	ProductandService Deployment Schedule	"The deployment schedule of events, planned and actual (includes planning and execution tasks)"	String
+"CR"	CR ProductandService Deployment Development Instance Record	Date Type	"Key dates associated with the development of the deployment plan (e.g. planning start date, deployment plan approval, deployment plan sign-off)"	String
+"CR"	CR ProductandService Deployment Development Instance Record	Date	"Value of the specific date type"	String
+"BQ"	BQ IT Operations Instance Record	""	""	""
+"BQ"	BQ IT Operations Instance Record	ProductandService Deployment IT Operations Requirements	"The consolidated aspects of the IT operations deployment tasks"	String
+"BQ"	BQ IT Operations Instance Record	ProductandService Deployment IT Operations Requirements Work Products	"File of consolidated deployment planning and deliverable specifications for the task"	String
+"BQ"	BQ IT Operations Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ IT Operations Instance Record	ProductandService Deployment IT Operations Requirements Task Specification	"Details the tasks and deliverables needed to handle the IT operations needs of the deployment"	String
+"BQ"	BQ Systems Instance Record	""	""	""
+"BQ"	BQ Systems Instance Record	ProductandService Deployment Systems Requirements	"The consolidated aspects of the systems deployment tasks"	String
+"BQ"	BQ Systems Instance Record	ProductandService Deployment Systems Requirements Work Products	"File of consolidated deployment planning and deliverable specifications for the task"	String
+"BQ"	BQ Systems Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Systems Instance Record	ProductandService Deployment Systems Requirements Task Specification	"Details the tasks and deliverables needed to handle the systems needs of the deployment"	String
+"BQ"	BQ HR Operations Instance Record	""	""	""
+"BQ"	BQ HR Operations Instance Record	ProductandService Deployment HR Operations Requirements	"The consolidated aspects of the staffing operations deployment tasks"	String
+"BQ"	BQ HR Operations Instance Record	ProductandService Deployment HR Operations Requirements Work Products	"File of consolidated deployment planning and deliverable specifications for the task"	String
+"BQ"	BQ HR Operations Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ HR Operations Instance Record	ProductandService Deployment HR Operations Requirements Task Specification	"Details the tasks and deliverables needed to handle the staffing operations needs of the deployment"	String
+"BQ"	BQ Sales and Marketing Instance Record	""	""	""
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Deployment Sales and Marketing Requirements	"The consolidated aspects of the sales and marketing deployment tasks"	String
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Deployment Sales and Marketing Requirements Work Products	"File of consolidated deployment planning and deliverable specifications for the task"	String
+"BQ"	BQ Sales and Marketing Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Deployment Sales and Marketing Requirements Task Specification	"Details the tasks and deliverables needed to handle the sales and marketing needs of the deployment"	String
+"BQ"	BQ Servicing Instance Record	""	""	""
+"BQ"	BQ Servicing Instance Record	ProductandService Deployment Servicing Requirements	"The consolidated aspects of the servicing deployment tasks"	String
+"BQ"	BQ Servicing Instance Record	ProductandService Deployment Servicing Requirements Work Products	"File of consolidated deployment planning and deliverable specifications for the task"	String
+"BQ"	BQ Servicing Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Servicing Instance Record	ProductandService Deployment Servicing Requirements Task Specification	"Details the tasks and deliverables needed to handle the servicing needs of the deployment"	String
+"BQ"	BQ Production Support Instance Record	""	""	""
+"BQ"	BQ Production Support Instance Record	ProductandService Deployment Production Support Requirements	"The consolidated aspects of the production support deployment tasks"	String
+"BQ"	BQ Production Support Instance Record	ProductandService Deployment Production Support Requirements Work Products	"File of consolidated deployment planning and deliverable specifications for the task"	String
+"BQ"	BQ Production Support Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Production Support Instance Record	ProductandService Deployment Production Support Requirements Task Specification	"Details the tasks and deliverables needed to handle the production support needs of the deployment"	String
+"BQ"	BQ Production Instance Record	""	""	""
+"BQ"	BQ Production Instance Record	ProductandService Deployment Production Requirements	"The consolidated aspects of the production deployment tasks"	String
+"BQ"	BQ Production Instance Record	ProductandService Deployment Production Requirements Work Products	"File of consolidated deployment planning and deliverable specifications for the task"	String
+"BQ"	BQ Production Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Production Instance Record	ProductandService Deployment Production Requirements Task Specification	"Details the tasks and deliverables needed to handle the production needs of the deployment"	String

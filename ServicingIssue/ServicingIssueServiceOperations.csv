@@ -1,0 +1,5 @@
+"Service Operations for: "	Servicing Issue
+"Control Record Model for Servicing Issue is not defined"
+"POST"	"/servicing-issue/activation"
+"PUT"	"/servicing-issue/{sd-reference-id}/configuration"
+"PUT"	"/servicing-issue/{sd-reference-id}/feedback"

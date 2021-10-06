@@ -1,0 +1,76 @@
+"Service Operations for: "	Contact Routing
+""
+"POST"	"/contact-routing/activation"
+"PUT"	"/contact-routing/{sd-reference-id}/configuration"
+"PUT"	"/contact-routing/{sd-reference-id}/feedback"
+""
+"Post"	"/contact-routing/{sd-identifier}/customer-servicing-resource-allocation/{crbq-identifier}/provisioning"
+""	1	"out"	"Servicing Resource Allocation Service Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	2	"inout"	"Servicing Resource Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""	3	"inout"	"Servicing Resource Record"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	4	"inout"	"Servicing Resource Qualification Profile"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	5	"out"	"Servicing Position Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""	6	"inout"	"Servicing Resource Availability Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	7	"inout"	"Servicing Resource Status"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	8	"out"	"Servicing Session Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""
+"Put"	"/contact-routing/{sd-identifier}/customer-servicing-resource-allocation/{crbq-identifier}/update"
+""	1	"inout"	"Servicing Resource Allocation Service Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	2	"inout"	"Servicing Resource Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""	3	"inout"	"Servicing Resource Record"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	4	"inout"	"Servicing Resource Qualification Profile"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	5	"inout"	"Servicing Position Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""	6	"inout"	"Servicing Resource Availability Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	7	"inout"	"Servicing Resource Status"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	8	"inout"	"Servicing Session Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""
+"Put"	"/contact-routing/{sd-identifier}/customer-servicing-resource-allocation/{crbq-identifier}/control"
+""
+"Put"	"/contact-routing/{sd-identifier}/customer-servicing-resource-allocation/{crbq-identifier}/exchange"
+""
+"Put"	"/contact-routing/{sd-identifier}/customer-servicing-resource-allocation/{crbq-identifier}/capture"
+""	1	"inout"	"Servicing Resource Record"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	2	"in"	"Servicing Resource Availability Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	3	"in"	"Servicing Resource Status"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""
+"Get"	"/contact-routing/{sd-identifier}/customer-servicing-resource-allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Servicing Resource Allocation Service Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	2	"out"	"Servicing Resource Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""	3	"out"	"Servicing Resource Record"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	4	"out"	"Servicing Resource Qualification Profile"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	5	"out"	"Servicing Position Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""	6	"out"	"Servicing Resource Availability Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	7	"out"	"Servicing Resource Status"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	8	"out"	"Servicing Session Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""
+"Put"	"/contact-routing/{sd-identifier}/allocation/{crbq-identifier}/requisition"
+""	1	"in"	"Servicing Resource Allocation Service Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	2	"in"	"Servicing Resource Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""	3	"in"	"Servicing Resource Record"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	4	"in"	"Servicing Resource Qualification Profile"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	5	"in"	"Servicing Position Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""	6	"inout"	"Servicing Resource Availability Schedule"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	7	"inout"	"Servicing Resource Status"	"CR Customer Servicing Resource Allocation Instance Record"	String
+""	8	"inout"	"Servicing Session Reference"	"CR Customer Servicing Resource Allocation Instance Record"	Object
+""
+"Put"	"/contact-routing/{sd-identifier}/allocation/{crbq-identifier}/update"
+""	1	"inout"	"Allocation Request Type"	"BQ Allocation Instance Record"	String
+""	2	"inout"	"Customer Servicing Request Record"	"BQ Allocation Instance Record"	String
+""	3	"inout"	"Customer Contact Record"	"BQ Allocation Instance Record"	String
+""	4	"inout"	"Allocation Task Result"	"BQ Allocation Instance Record"	String
+""
+"Put"	"/contact-routing/{sd-identifier}/allocation/{crbq-identifier}/control"
+""
+"Put"	"/contact-routing/{sd-identifier}/allocation/{crbq-identifier}/exchange"
+""
+"Put"	"/contact-routing/{sd-identifier}/allocation/{crbq-identifier}/capture"
+""	1	"in"	"Allocation Request Type"	"BQ Allocation Instance Record"	String
+""	2	"in"	"Customer Servicing Request Record"	"BQ Allocation Instance Record"	String
+""	3	"in"	"Customer Contact Record"	"BQ Allocation Instance Record"	String
+""	4	"out"	"Allocation Task Result"	"BQ Allocation Instance Record"	String
+""
+"Get"	"/contact-routing/{sd-identifier}/allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Allocation Request Type"	"BQ Allocation Instance Record"	String
+""	2	"out"	"Customer Servicing Request Record"	"BQ Allocation Instance Record"	String
+""	3	"out"	"Customer Contact Record"	"BQ Allocation Instance Record"	String
+""	4	"out"	"Allocation Task Result"	"BQ Allocation Instance Record"	String

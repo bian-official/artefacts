@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Compliance"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Financial Control
+"Service Domain"	Financial Compliance
+"Role Definition"	"Track the resolution of detected non compliance finance activities and instances"
+"Example of use"	"A business unit misses its first qtr targets and reacts with corrective actions that are tracked"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	FinancialCompliance
+"Generic Artifact"	Procedure
+"Control Record"	FinancialComplianceProcedure
+"Registration Status"	Registered

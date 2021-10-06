@@ -1,0 +1,192 @@
+"Service Operations for: "	Customer Relationship Management
+""
+"POST"	"/customer-relationship-management/activation"
+"PUT"	"/customer-relationship-management/{sd-reference-id}/configuration"
+"PUT"	"/customer-relationship-management/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-relationship-management/{sd-identifier}/customer-relationship-management-plan/{crbq-identifier}/creation"
+""	1	"in"	"Customer Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	2	"in"	"Employee/Business Unit Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	3	"in"	"Customer Relationship Rating Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	4	"in"	"Customer Insight Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	5	"inout"	"Customer Insight Description"	"CR Customer Relationship Management Plan Instance Record"	String
+""	6	"out"	"Customer Budget"	"CR Customer Relationship Management Plan Instance Record"	String
+""	7	"in"	"Customer Product Coverage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	8	"in"	"Customer Product Usage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	9	"in"	"Customer Product Eligibility Profile"	"CR Customer Relationship Management Plan Instance Record"	String
+""	10	"inout"	"Customer Sales Plan"	"CR Customer Relationship Management Plan Instance Record"	String
+""	11	"out"	"Customer Profitability"	"CR Customer Relationship Management Plan Instance Record"	String
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/customer-relationship-management-plan/{crbq-identifier}/update"
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/customer-relationship-management-plan/{crbq-identifier}/control"
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/customer-relationship-management-plan/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/customer-relationship-management-plan/{crbq-identifier}/requisition"
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/customer-relationship-management-plan/{crbq-identifier}/grant"
+""
+"Get"	"/customer-relationship-management/{sd-identifier}/customer-relationship-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	2	"out"	"Employee/Business Unit Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	3	"out"	"Customer Relationship Rating Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	5	"out"	"Customer Insight Description"	"CR Customer Relationship Management Plan Instance Record"	String
+""	6	"out"	"Customer Budget"	"CR Customer Relationship Management Plan Instance Record"	String
+""	7	"out"	"Customer Product Coverage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	8	"out"	"Customer Product Usage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	9	"out"	"Customer Product Eligibility Profile"	"CR Customer Relationship Management Plan Instance Record"	String
+""	10	"out"	"Customer Sales Plan"	"CR Customer Relationship Management Plan Instance Record"	String
+""	11	"out"	"Customer Profitability"	"CR Customer Relationship Management Plan Instance Record"	String
+""
+"Post"	"/customer-relationship-management/{sd-identifier}/development/{crbq-identifier}/creation"
+""	1	"in"	"Customer Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	2	"in"	"Employee/Business Unit Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	3	"in"	"Customer Relationship Rating Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	4	"in"	"Customer Insight Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	5	"in"	"Customer Insight Description"	"CR Customer Relationship Management Plan Instance Record"	String
+""	6	"inout"	"Customer Budget"	"CR Customer Relationship Management Plan Instance Record"	String
+""	7	"inout"	"Customer Product Coverage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	8	"inout"	"Customer Product Usage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	9	"inout"	"Customer Product Eligibility Profile"	"CR Customer Relationship Management Plan Instance Record"	String
+""	10	"inout"	"Customer Sales Plan"	"CR Customer Relationship Management Plan Instance Record"	String
+""	11	"inout"	"Customer Profitability"	"CR Customer Relationship Management Plan Instance Record"	String
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/development/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	2	"inout"	"Employee/Business Unit Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	3	"inout"	"Customer Relationship Rating Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	4	"inout"	"Customer Insight Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	5	"inout"	"Customer Insight Description"	"CR Customer Relationship Management Plan Instance Record"	String
+""	6	"inout"	"Customer Budget"	"CR Customer Relationship Management Plan Instance Record"	String
+""	7	"inout"	"Customer Product Coverage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	8	"inout"	"Customer Product Usage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	9	"inout"	"Customer Product Eligibility Profile"	"CR Customer Relationship Management Plan Instance Record"	String
+""	10	"inout"	"Customer Sales Plan"	"CR Customer Relationship Management Plan Instance Record"	String
+""	11	"inout"	"Customer Profitability"	"CR Customer Relationship Management Plan Instance Record"	String
+""	12	"inout"	"Relationship Development Task"	"BQ Development Instance Record"	String
+""	13	"inout"	"Customer Development Task Type"	"BQ Development Instance Record"	String
+""	14	"inout"	"Customer Development Task Description"	"BQ Development Instance Record"	String
+""	15	"inout"	"Customer Relationship Development Plan"	"BQ Development Instance Record"	String
+""	16	"inout"	"Customer Development Work Product"	"BQ Development Instance Record"	String
+""	17	"inout"	"Customer Development Task Result"	"BQ Development Instance Record"	String
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/development/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/development/{crbq-identifier}/requisition"
+""	1	"inout"	"Relationship Development Task"	"BQ Development Instance Record"	String
+""	2	"inout"	"Customer Development Task Type"	"BQ Development Instance Record"	String
+""	3	"out"	"Customer Development Task Description"	"BQ Development Instance Record"	String
+""	4	"inout"	"Customer Relationship Development Plan"	"BQ Development Instance Record"	String
+""	5	"in"	"Employee/Business Unit Reference"	"BQ Development Instance Record"	Object
+""	6	"out"	"Customer Development Work Product"	"BQ Development Instance Record"	String
+""	7	"out"	"Customer Development Task Result"	"BQ Development Instance Record"	String
+""
+"Get"	"/customer-relationship-management/{sd-identifier}/development/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	2	"out"	"Employee/Business Unit Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	3	"out"	"Customer Relationship Rating Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	5	"out"	"Customer Insight Description"	"CR Customer Relationship Management Plan Instance Record"	String
+""	6	"out"	"Customer Budget"	"CR Customer Relationship Management Plan Instance Record"	String
+""	7	"out"	"Customer Product Coverage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	8	"out"	"Customer Product Usage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	9	"out"	"Customer Product Eligibility Profile"	"CR Customer Relationship Management Plan Instance Record"	String
+""	10	"out"	"Customer Sales Plan"	"CR Customer Relationship Management Plan Instance Record"	String
+""	11	"out"	"Customer Profitability"	"CR Customer Relationship Management Plan Instance Record"	String
+""	12	"out"	"Relationship Development Task"	"BQ Development Instance Record"	String
+""	13	"out"	"Customer Development Task Type"	"BQ Development Instance Record"	String
+""	14	"out"	"Customer Development Task Description"	"BQ Development Instance Record"	String
+""	15	"out"	"Customer Relationship Development Plan"	"BQ Development Instance Record"	String
+""	16	"out"	"Customer Development Work Product"	"BQ Development Instance Record"	String
+""	17	"out"	"Customer Development Task Result"	"BQ Development Instance Record"	String
+""
+"Post"	"/customer-relationship-management/{sd-identifier}/incident/{crbq-identifier}/creation"
+""	1	"in"	"Customer Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	2	"in"	"Employee/Business Unit Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	3	"in"	"Customer Relationship Rating Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	4	"in"	"Customer Insight Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	5	"in"	"Customer Insight Description"	"CR Customer Relationship Management Plan Instance Record"	String
+""	6	"inout"	"Customer Budget"	"CR Customer Relationship Management Plan Instance Record"	String
+""	7	"inout"	"Customer Product Coverage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	8	"inout"	"Customer Product Usage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	9	"inout"	"Customer Product Eligibility Profile"	"CR Customer Relationship Management Plan Instance Record"	String
+""	10	"inout"	"Customer Sales Plan"	"CR Customer Relationship Management Plan Instance Record"	String
+""	11	"inout"	"Customer Profitability"	"CR Customer Relationship Management Plan Instance Record"	String
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/incident/{crbq-identifier}/update"
+""	1	"inout"	"Relationship Incident Record"	"BQ Incident Instance Record"	String
+""	2	"inout"	"Employee/Business Unit Reference"	"BQ Incident Instance Record"	Object
+""	3	"inout"	"Product/Service Activity Reference"	"BQ Incident Instance Record"	Object
+""	4	"inout"	"Customer Incident Type"	"BQ Incident Instance Record"	String
+""	5	"inout"	"Customer Incident Description"	"BQ Incident Instance Record"	String
+""	6	"inout"	"Customer Incident Resolution"	"BQ Incident Instance Record"	String
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/incident/{crbq-identifier}/control"
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/incident/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/incident/{crbq-identifier}/capture"
+""	1	"inout"	"Relationship Incident Record"	"BQ Incident Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"BQ Incident Instance Record"	Object
+""	3	"in"	"Product/Service Activity Reference"	"BQ Incident Instance Record"	Object
+""	4	"in"	"Customer Incident Type"	"BQ Incident Instance Record"	String
+""	5	"in"	"Customer Incident Description"	"BQ Incident Instance Record"	String
+""	6	"out"	"Customer Incident Resolution"	"BQ Incident Instance Record"	String
+""
+"Get"	"/customer-relationship-management/{sd-identifier}/incident/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	2	"out"	"Employee/Business Unit Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	3	"out"	"Customer Relationship Rating Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	5	"out"	"Customer Insight Description"	"CR Customer Relationship Management Plan Instance Record"	String
+""	6	"out"	"Customer Budget"	"CR Customer Relationship Management Plan Instance Record"	String
+""	7	"out"	"Customer Product Coverage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	8	"out"	"Customer Product Usage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	9	"out"	"Customer Product Eligibility Profile"	"CR Customer Relationship Management Plan Instance Record"	String
+""	10	"out"	"Customer Sales Plan"	"CR Customer Relationship Management Plan Instance Record"	String
+""	11	"out"	"Customer Profitability"	"CR Customer Relationship Management Plan Instance Record"	String
+""	12	"out"	"Relationship Incident Record"	"BQ Incident Instance Record"	String
+""	13	"out"	"Product/Service Activity Reference"	"BQ Incident Instance Record"	Object
+""	14	"out"	"Customer Incident Type"	"BQ Incident Instance Record"	String
+""	15	"out"	"Customer Incident Description"	"BQ Incident Instance Record"	String
+""	16	"out"	"Customer Incident Resolution"	"BQ Incident Instance Record"	String
+""
+"Post"	"/customer-relationship-management/{sd-identifier}/contact/{crbq-identifier}/creation"
+""	1	"inout"	"Customer Relationship Contact History"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Customer Relationship Contact Schedule"	"BQ Contact Instance Record"	String
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/contact/{crbq-identifier}/update"
+""	1	"inout"	"Customer Relationship Contact Record"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Customer Relationship Contact Date"	"BQ Contact Instance Record"	Date
+""	3	"inout"	"Employee Reference"	"BQ Contact Instance Record"	Object
+""	4	"inout"	"Customer Relationship Contact Type"	"BQ Contact Instance Record"	String
+""	5	"inout"	"Customer Relationship Contact Result"	"BQ Contact Instance Record"	String
+""
+"Put"	"/customer-relationship-management/{sd-identifier}/contact/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Relationship Contact Record"	"BQ Contact Instance Record"	String
+""	2	"inout"	"Customer Relationship Contact Date"	"BQ Contact Instance Record"	Date
+""	3	"in"	"Employee Reference"	"BQ Contact Instance Record"	Object
+""	4	"inout"	"Customer Relationship Contact Type"	"BQ Contact Instance Record"	String
+""	5	"out"	"Customer Relationship Contact Result"	"BQ Contact Instance Record"	String
+""
+"Get"	"/customer-relationship-management/{sd-identifier}/contact/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	2	"out"	"Employee/Business Unit Reference"	"CR Customer Relationship Management Plan Instance Record"	Object
+""	3	"out"	"Customer Relationship Rating Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	4	"out"	"Customer Insight Type"	"CR Customer Relationship Management Plan Instance Record"	String
+""	5	"out"	"Customer Insight Description"	"CR Customer Relationship Management Plan Instance Record"	String
+""	6	"out"	"Customer Budget"	"CR Customer Relationship Management Plan Instance Record"	String
+""	7	"out"	"Customer Product Coverage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	8	"out"	"Customer Product Usage"	"CR Customer Relationship Management Plan Instance Record"	String
+""	9	"out"	"Customer Product Eligibility Profile"	"CR Customer Relationship Management Plan Instance Record"	String
+""	10	"out"	"Customer Sales Plan"	"CR Customer Relationship Management Plan Instance Record"	String
+""	11	"out"	"Customer Profitability"	"CR Customer Relationship Management Plan Instance Record"	String
+""	12	"out"	"Customer Relationship Contact History"	"BQ Contact Instance Record"	String
+""	13	"out"	"Customer Relationship Contact Schedule"	"BQ Contact Instance Record"	String
+""	14	"out"	"Customer Relationship Contact Record"	"BQ Contact Instance Record"	String
+""	15	"out"	"Customer Relationship Contact Date"	"BQ Contact Instance Record"	Date
+""	16	"out"	"Employee Reference"	"BQ Contact Instance Record"	Object
+""	17	"out"	"Customer Relationship Contact Type"	"BQ Contact Instance Record"	String
+""	18	"out"	"Customer Relationship Contact Result"	"BQ Contact Instance Record"	String

@@ -1,0 +1,13 @@
+"Service Domain specification for Fixed Asset Register"
+"Business Area"	Resource Management
+"Business Domain"	Buildings And Equipment
+"Service Domain"	Fixed Asset Register
+"Role Definition"	"Maintain a central register of fixed assets, tracking status and applying appropriate depreciation to value representation"
+"Example of use"	"Newly acquired assets are registered as they are allocated to specific business units"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	FixedAssetRegister
+"Generic Artifact"	AdministrativePlan
+"Control Record"	FixedAssetRegisterAdministrativePlan
+"Registration Status"	Registered

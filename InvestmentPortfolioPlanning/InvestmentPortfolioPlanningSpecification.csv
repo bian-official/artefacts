@@ -1,0 +1,13 @@
+"Service Domain specification for Investment Portfolio Planning"
+"Business Area"	Customers
+"Business Domain"	Investment Services
+"Service Domain"	Investment Portfolio Planning
+"Role Definition"	"Agree the customer investment portfolio governing principles, risk appetite, management/trading guidelines and target portfolio profile. Identify any desired/target and 'out of bounds' securities/sectors. Ensure disclosures and related eligibility, suitability and other regulatory obligations are addressed and reflected in the agreement"
+"Example of use"	"A relationship manager established the investment agreement for a customer that is setting up a managed investment portfolio"
+"Executive Summary"	"Agree the policies and required make-up of an investment portfolio and ensure all required bank and regulatory terms and conditions are addressed"
+"Key Features"	"Identify and agree investment portfolio properties and make-up (includes risk appetite). Handle regulatory and bank requirements (e.g. disclosures, suitability, eligibility). Identify any target and securities to avoid. Agree key roles and schedules for the investment portfolio handling"
+"Functional Pattern"	Agree Terms
+"Asset Type"	ManagedInvestmentPortfolio
+"Generic Artifact"	Agreement
+"Control Record"	ManagedInvestmentPortfolioAgreement
+"Registration Status"	Registered

@@ -1,0 +1,17 @@
+"Control Record Model for: "	Direct Debit Mandate
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Mandate Registration Instance Record	""	""	""
+"BQ"	BQ Mandate Registration Instance Record	Direct Debit Mandate Customer Reference	"Reference to the customer providing the mandate to the corporate"	Object
+"BQ"	BQ Mandate Registration Instance Record	Direct Debit Mandate Customer Pseudonym	"The reference used to identify the customer to the corporate subject of the mandate (maintains secrecy of bank's internal reference)"	String
+"BQ"	BQ Mandate Registration Instance Record	Direct Debit Mandate Bank Reference	"The bank holding the payer's account"	Object
+"BQ"	BQ Mandate Registration Instance Record	Direct Debit Mandate Account Reference	"Reference to the payer's account"	Object
+"BQ"	BQ Mandate Registration Instance Record	Direct Debit Mandate Valid Dates	"The period for which the customer mandate is in force"	Date
+"BQ"	BQ Mandate Registration Instance Record	Direct Debit Mandate Terms	"Description of allowed usage details and restrictions that apply to use of the mandate (e.g. maximum amount and frequency)"	String
+"BQ"	BQ Mandate Registration Instance Record	Correspondence Instance Reference	"Reference to the correspondence generated and received with the maintenance of the mandate"	Object
+"BQ"	BQ Mandate Registration Instance Record	Correspondence Content	"Correspondence content - direct debit mandate agreement messages and forms sent and completed by involved parties"	String
+"BQ"	BQ Mandate Registration Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents"	Object
+"BQ"	BQ Mandate Registration Instance Record	Document Content	"Document content - legal documents created & referenced for the mandate"	String
+"CR"	CR Direct Debit Mandate Directory Entry Instance Record	""	""	""
+"CR"	CR Direct Debit Mandate Directory Entry Instance Record	Mandated Customer Reference	"Refers to the corporate entity related to this specific collection of customer mandates"	Object
+"CR"	CR Direct Debit Mandate Directory Entry Instance Record	Mandate Description	"Description of the purpose for this collection of customer mandates"	String
+"CR"	CR Direct Debit Mandate Directory Entry Instance Record	Mandate Collection Valid Period	"The date and time the mandate collection is valid from to (allows for duration limits)"	String

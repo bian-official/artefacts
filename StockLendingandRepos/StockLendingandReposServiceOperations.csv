@@ -1,0 +1,5 @@
+"Service Operations for: "	Stock Lending and Repos
+"Control Record Model for Stock Lending and Repos is not defined"
+"POST"	"/stock-lending-and-repos/activation"
+"PUT"	"/stock-lending-and-repos/{sd-reference-id}/configuration"
+"PUT"	"/stock-lending-and-repos/{sd-reference-id}/feedback"

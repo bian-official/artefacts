@@ -1,0 +1,34 @@
+"Control Record Model for: "	Consumer Advisory Services
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Product Guidance Instance Record	""	""	""
+"BQ"	BQ Product Guidance Instance Record	ProductandService Reference	"Reference to the consumer tax advisory service (used to access guidance materials)"	Object
+"BQ"	BQ Product Guidance Instance Record	Specialist Support Task	"A record of engaging a product specialist to liaise with the customer"	String
+"BQ"	BQ Product Guidance Instance Record	Specialist Employee/Business Unit Reference	"Business unit and or employee reference for the product specialist engaged"	Object
+"BQ"	BQ Product Guidance Instance Record	Specialist Advice Description	"General description of the product specialist advice provided"	String
+"BQ"	BQ Product Guidance Instance Record	Specialist Advice Charge	"The service charge to be made to the customer for the specialist support"	String
+"BQ"	BQ Product Guidance Instance Record	Product Guidance Advice Result	"Summary recommendations arising from the advice that is added to the consolidated record"	String
+"BQ"	BQ Service Fees Instance Record	""	""	""
+"BQ"	BQ Service Fees Instance Record	Fee Application Record	"The record of applied fees for the specialist advice"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction	"A record of an applied fee"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction Description	"General description of the fee"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction Type	"The fee type applied"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction Charge	"The derived fee amount to be charged"	String
+"CR"	CR Consumer Advice Arrangement Instance Record	""	""	""
+"CR"	CR Consumer Advice Arrangement Instance Record	Product Instance Reference	"Reference to the advisory service session"	Object
+"CR"	CR Consumer Advice Arrangement Instance Record	Customer Reference	"Reference to the customer receiving the financial advice"	Object
+"CR"	CR Consumer Advice Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the customer account/relationship for booking purposes"	Object
+"CR"	CR Consumer Advice Arrangement Instance Record	Employee/Business Unit Reference	"Business unit and or employee reference to the source of the financial advice"	Object
+"CR"	CR Consumer Advice Arrangement Instance Record	Consumer Advice Work Products	"File of consolidated notes, forms and documents for the advisory session"	String
+"CR"	CR Consumer Advice Arrangement Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents such as disclosures and acceptance records"	Object
+"CR"	CR Consumer Advice Arrangement Instance Record	Consumer Advice Session Schedule	"Target and actual dates for tasks performed (includes any specialist sessions)"	String
+"CR"	CR Consumer Advice Arrangement Instance Record	Consumer Advice Profile	"Details the types of consumer advice that are combined into the overall evaluation"	String
+"CR"	CR Consumer Advice Arrangement Instance Record	Advice Type	"Reference to the different types of advice"	String
+"CR"	CR Consumer Advice Arrangement Instance Record	Consumer Advice Consolidation Record	"The combination of the different customer advisory assessments provided to the customer"	String
+"CR"	CR Consumer Advice Arrangement Instance Record	Date Type	"Key dates and times associated with the advisory session (e.g. booking date, start date/time)"	String
+"CR"	CR Consumer Advice Arrangement Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Tax Optimization Instance Record	""	""	""
+"BQ"	BQ Tax Optimization Instance Record	ProductandService Reference	"Reference to the consumer tax advisory service (used to access guidance materials)"	Object
+"BQ"	BQ Tax Optimization Instance Record	Tax Optimization Advice Result	"Summary recommendations arising from the advice that is added to the consolidated record"	String
+"BQ"	BQ Financial Planning Instance Record	""	""	""
+"BQ"	BQ Financial Planning Instance Record	ProductandService Reference	"Reference to the financial planning advisory service (used to access guidance materials)"	Object
+"BQ"	BQ Financial Planning Instance Record	Financial Planning Advice Result	"Summary recommendations arising from the advice that is added to the consolidated record"	String

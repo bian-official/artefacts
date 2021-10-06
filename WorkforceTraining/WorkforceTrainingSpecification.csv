@@ -1,0 +1,13 @@
+"Service Domain specification for Workforce Training"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Workforce Training
+"Role Definition"	"Develop and execute a training syllabus covering all general and specific business skills/knowledge requirements and leveraging different training mechanisms and channels as appropriate (classroom, on-line/context based, self taught, desk-side support etc.)"
+"Example of use"	"A training program is developed and provided to the workforce"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	EmployeeTraining
+"Generic Artifact"	AdministrativePlan
+"Control Record"	EmployeeTrainingAdministrativePlan
+"Registration Status"	Registered

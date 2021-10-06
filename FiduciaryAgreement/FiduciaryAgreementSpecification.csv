@@ -1,0 +1,13 @@
+"Service Domain specification for Fiduciary Agreement"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Fiduciary Agreement
+"Role Definition"	"Fulfillment of an arrangement (such as investment management of a trust fund) on behalf of a customer where the banks acts their trusted proxy and acts in compliance with the specific terms of the fiduciary arrangement"
+"Example of use"	"Example of use:. A customer established a fiduciary arrangement with the bank to manage an investment portfolio in accordance with agreed investment guidelines"
+"Executive Summary"	"An agreement where the bank agrees to act on behalf of the customer in a financial matter and in accordance with the agreement terms"
+"Key Features"	"Fiduciary agreement definition. Fiduciary agreement execution. Fiduciary agreement fee processing. Fiduciary agreement assessment and reporting"
+"Functional Pattern"	Fulfill
+"Asset Type"	FiduciaryRelationship
+"Generic Artifact"	Facility (rename)
+"Control Record"	FiduciaryRelationshipArrangement
+"Registration Status"	Registered

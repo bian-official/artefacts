@@ -1,0 +1,197 @@
+"Service Operations for: "	Customer Campaign Execution
+""
+"POST"	"/customer-campaign-execution/activation"
+"PUT"	"/customer-campaign-execution/{sd-reference-id}/configuration"
+"PUT"	"/customer-campaign-execution/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-campaign-execution/{sd-identifier}/customer-campaign-procedure/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"inout"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"inout"	"Customer Campaign Consumables Inventory"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"in"	"Customer Campaign Consumable Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	9	"inout"	"Customer Campaign Consumable Holding"	"CR Customer Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Procedure Instance Record"	String
+""	12	"out"	"Customer Campaign Procedure Lead/Opportunity Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	13	"out"	"Lead/Opportunity Procedure Instance Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/customer-campaign-procedure/{crbq-identifier}/update"
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/customer-campaign-procedure/{crbq-identifier}/control"
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/customer-campaign-procedure/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/customer-campaign-procedure/{crbq-identifier}/execution"
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/customer-campaign-procedure/{crbq-identifier}/requisition"
+""
+"Get"	"/customer-campaign-execution/{sd-identifier}/customer-campaign-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"out"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"out"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"out"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"out"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"out"	"Customer Campaign Consumables Inventory"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"out"	"Customer Campaign Consumable Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	9	"out"	"Customer Campaign Consumable Holding"	"CR Customer Campaign Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Procedure Instance Record"	String
+""	12	"out"	"Customer Campaign Procedure Lead/Opportunity Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	13	"out"	"Lead/Opportunity Procedure Instance Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/candidate-selection/{crbq-identifier}/update"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"inout"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"inout"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"inout"	"Customer Campaign Selection Criteria"	"BQ Candidate Selection Instance Record"	String
+""	9	"inout"	"Customer Campaign Candidate Employee/Business Unit Reference"	"BQ Candidate Selection Instance Record"	Object
+""	10	"inout"	"Customer Campaign Candidate Reference"	"BQ Candidate Selection Instance Record"	Object
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/candidate-selection/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-campaign-execution/{sd-identifier}/candidate-selection/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"out"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"out"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"out"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"out"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"out"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"out"	"Customer Campaign Selection Criteria"	"BQ Candidate Selection Instance Record"	String
+""	9	"out"	"Customer Campaign Candidate Employee/Business Unit Reference"	"BQ Candidate Selection Instance Record"	Object
+""	10	"out"	"Customer Campaign Candidate Reference"	"BQ Candidate Selection Instance Record"	Object
+""
+"Post"	"/customer-campaign-execution/{sd-identifier}/execution/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"inout"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"inout"	"Customer Campaign Consumables Inventory"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"in"	"Customer Campaign Consumable Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	9	"inout"	"Customer Campaign Consumable Holding"	"CR Customer Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Procedure Instance Record"	String
+""	12	"out"	"Customer Campaign Procedure Lead/Opportunity Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	13	"out"	"Lead/Opportunity Procedure Instance Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	14	"inout"	"Customer Campaign Procedure Work Task Type"	"BQ Execution Instance Record"	String
+""	15	"out"	"Customer Campaign Procedure Work Task Description"	"BQ Execution Instance Record"	String
+""	16	"out"	"Customer Campaign Procedure Work Task Work Products"	"BQ Execution Instance Record"	String
+""	17	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	18	"out"	"Customer Campaign Procedure Work Task Result"	"BQ Execution Instance Record"	String
+""	19	"out"	"Customer Campaign Procedure Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/execution/{crbq-identifier}/update"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"inout"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"inout"	"Customer Campaign Consumables Inventory"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"in"	"Customer Campaign Consumable Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	9	"inout"	"Customer Campaign Consumable Holding"	"CR Customer Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Procedure Instance Record"	String
+""	12	"out"	"Customer Campaign Procedure Lead/Opportunity Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	13	"out"	"Lead/Opportunity Procedure Instance Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	14	"inout"	"Customer Campaign Procedure Work Task Type"	"BQ Execution Instance Record"	String
+""	15	"inout"	"Customer Campaign Procedure Work Task Description"	"BQ Execution Instance Record"	String
+""	16	"inout"	"Customer Campaign Procedure Work Task Work Products"	"BQ Execution Instance Record"	String
+""	17	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	18	"inout"	"Customer Campaign Procedure Work Task Result"	"BQ Execution Instance Record"	String
+""	19	"inout"	"Customer Campaign Procedure Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/execution/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Campaign Procedure Work Task Type"	"BQ Execution Instance Record"	String
+""	2	"inout"	"Customer Campaign Procedure Work Task Description"	"BQ Execution Instance Record"	String
+""	3	"inout"	"Customer Campaign Procedure Work Task Work Products"	"BQ Execution Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	5	"inout"	"Customer Campaign Procedure Work Task Result"	"BQ Execution Instance Record"	String
+""	6	"inout"	"Customer Campaign Procedure Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Get"	"/customer-campaign-execution/{sd-identifier}/execution/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"out"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"out"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"out"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"out"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"out"	"Customer Campaign Consumables Inventory"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"out"	"Customer Campaign Consumable Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	9	"out"	"Customer Campaign Consumable Holding"	"CR Customer Campaign Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Procedure Instance Record"	String
+""	12	"out"	"Customer Campaign Procedure Lead/Opportunity Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	13	"out"	"Lead/Opportunity Procedure Instance Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	14	"out"	"Customer Campaign Procedure Work Task Type"	"BQ Execution Instance Record"	String
+""	15	"out"	"Customer Campaign Procedure Work Task Description"	"BQ Execution Instance Record"	String
+""	16	"out"	"Customer Campaign Procedure Work Task Work Products"	"BQ Execution Instance Record"	String
+""	17	"out"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	18	"out"	"Customer Campaign Procedure Work Task Result"	"BQ Execution Instance Record"	String
+""	19	"out"	"Customer Campaign Procedure Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Post"	"/customer-campaign-execution/{sd-identifier}/analysis-feedback/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"inout"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"inout"	"Customer Campaign Consumables Inventory"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"in"	"Customer Campaign Consumable Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	9	"inout"	"Customer Campaign Consumable Holding"	"CR Customer Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Procedure Instance Record"	String
+""	12	"out"	"Customer Campaign Procedure Lead/Opportunity Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	13	"out"	"Lead/Opportunity Procedure Instance Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	14	"out"	"Customer Campaign Procedure Analysis Result"	"BQ Analysis Feedback Instance Record"	String
+""	15	"inout"	"Customer Campaign Procedure Analysis Feedback Result"	"BQ Analysis Feedback Instance Record"	String
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/analysis-feedback/{crbq-identifier}/update"
+""	1	"inout"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"inout"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"inout"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"inout"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"inout"	"Customer Campaign Consumables Inventory"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"in"	"Customer Campaign Consumable Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	9	"inout"	"Customer Campaign Consumable Holding"	"CR Customer Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Procedure Instance Record"	String
+""	12	"out"	"Customer Campaign Procedure Lead/Opportunity Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	13	"out"	"Lead/Opportunity Procedure Instance Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	14	"inout"	"Customer Campaign Procedure Analysis Result"	"BQ Analysis Feedback Instance Record"	String
+""	15	"inout"	"Customer Campaign Procedure Analysis Feedback Result"	"BQ Analysis Feedback Instance Record"	String
+""
+"Put"	"/customer-campaign-execution/{sd-identifier}/analysis-feedback/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Campaign Procedure Analysis Result"	"BQ Analysis Feedback Instance Record"	String
+""	2	"inout"	"Customer Campaign Procedure Analysis Feedback Result"	"BQ Analysis Feedback Instance Record"	String
+""
+"Get"	"/customer-campaign-execution/{sd-identifier}/analysis-feedback/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Campaign Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	2	"out"	"Customer Campaign Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	4	"out"	"Customer Campaign Procedure Set-up"	"CR Customer Campaign Procedure Instance Record"	String
+""	5	"out"	"Customer Campaign Procedure Version Number"	"CR Customer Campaign Procedure Instance Record"	String
+""	6	"out"	"Customer Campaign Schedule"	"CR Customer Campaign Procedure Instance Record"	String
+""	7	"out"	"Customer Campaign Consumables Inventory"	"CR Customer Campaign Procedure Instance Record"	String
+""	8	"out"	"Customer Campaign Consumable Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	9	"out"	"Customer Campaign Consumable Holding"	"CR Customer Campaign Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Customer Campaign Procedure Instance Record"	String
+""	11	"out"	"Customer Campaign Procedure Result"	"CR Customer Campaign Procedure Instance Record"	String
+""	12	"out"	"Customer Campaign Procedure Lead/Opportunity Description"	"CR Customer Campaign Procedure Instance Record"	String
+""	13	"out"	"Lead/Opportunity Procedure Instance Reference"	"CR Customer Campaign Procedure Instance Record"	Object
+""	14	"out"	"Customer Campaign Procedure Analysis Result"	"BQ Analysis Feedback Instance Record"	String
+""	15	"out"	"Customer Campaign Procedure Analysis Feedback Result"	"BQ Analysis Feedback Instance Record"	String

@@ -1,0 +1,475 @@
+"Service Operations for: "	Credit Facility
+""
+"POST"	"/credit-facility/activation"
+"PUT"	"/credit-facility/{sd-reference-id}/configuration"
+"PUT"	"/credit-facility/{sd-reference-id}/feedback"
+""
+"Post"	"/credit-facility/{sd-identifier}/credit-facility-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"in"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"in"	"Party Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	5	"in"	"Customer Agreement Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	6	"in"	"Customer Credit Assessment Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	7	"in"	"Insurance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	8	"in"	"Delinquency/Collection Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	9	"in"	"Bank Branch/Location Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	10	"in"	"Bank Accounting Unit Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	11	"in"	"Credit Facility Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"in"	"Credit Facility Amount"	"CR Credit Facility Arrangement Instance Record"	Amount
+""	13	"in"	"Credit Facility Currency"	"CR Credit Facility Arrangement Instance Record"	CurrencyCode
+""	14	"in"	"Credit Facility Rate Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"in"	"Credit Facility Applicable Rate"	"CR Credit Facility Arrangement Instance Record"	Rate
+""	16	"in"	"Repayment Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	17	"in"	"Interest Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	18	"in"	"Interest Accrual Method"	"CR Credit Facility Arrangement Instance Record"	String
+""	19	"in"	"Credit Facility Origination Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	20	"in"	"Credit Facility Maturity Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	21	"in"	"Collateral Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	22	"in"	"Collateral Allocation"	"CR Credit Facility Arrangement Instance Record"	String
+""	23	"in"	"Tax Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	24	"in"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	25	"in"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	26	"in"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	27	"in"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	28	"in"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	29	"in"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	30	"in"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	31	"in"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	32	"in"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	33	"in"	"Associations"	"CR Credit Facility Arrangement Instance Record"	String
+""	34	"in"	"Association Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	35	"in"	"Association Obligation/Entitlement"	"CR Credit Facility Arrangement Instance Record"	String
+""	36	"in"	"Association Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	37	"in"	"Credit Facility Repayment Schedule"	"CR Credit Facility Arrangement Instance Record"	String
+""	38	"inout"	"Staged Repayment Statement"	"CR Credit Facility Arrangement Instance Record"	String
+""	39	"inout"	"Customer Commentary"	"CR Credit Facility Arrangement Instance Record"	String
+""	40	"out"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	41	"inout"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""
+"Put"	"/credit-facility/{sd-identifier}/credit-facility-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"inout"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"inout"	"Party Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	5	"inout"	"Customer Agreement Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	6	"inout"	"Customer Credit Assessment Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	7	"inout"	"Insurance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	8	"inout"	"Delinquency/Collection Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	9	"inout"	"Bank Branch/Location Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	10	"inout"	"Bank Accounting Unit Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	11	"inout"	"Credit Facility Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"inout"	"Credit Facility Amount"	"CR Credit Facility Arrangement Instance Record"	Amount
+""	13	"inout"	"Credit Facility Currency"	"CR Credit Facility Arrangement Instance Record"	CurrencyCode
+""	14	"inout"	"Credit Facility Rate Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"inout"	"Credit Facility Applicable Rate"	"CR Credit Facility Arrangement Instance Record"	Rate
+""	16	"inout"	"Repayment Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	17	"inout"	"Interest Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	18	"inout"	"Interest Accrual Method"	"CR Credit Facility Arrangement Instance Record"	String
+""	19	"inout"	"Credit Facility Origination Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	20	"inout"	"Credit Facility Maturity Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	21	"inout"	"Collateral Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	22	"inout"	"Collateral Allocation"	"CR Credit Facility Arrangement Instance Record"	String
+""	23	"inout"	"Tax Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	24	"inout"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	25	"inout"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	26	"inout"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	27	"inout"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	28	"inout"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	29	"inout"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	30	"inout"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	31	"inout"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	32	"inout"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	33	"inout"	"Associations"	"CR Credit Facility Arrangement Instance Record"	String
+""	34	"inout"	"Association Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	35	"inout"	"Association Obligation/Entitlement"	"CR Credit Facility Arrangement Instance Record"	String
+""	36	"inout"	"Association Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	37	"inout"	"Credit Facility Repayment Schedule"	"CR Credit Facility Arrangement Instance Record"	String
+""	38	"inout"	"Staged Repayment Statement"	"CR Credit Facility Arrangement Instance Record"	String
+""	39	"inout"	"Customer Commentary"	"CR Credit Facility Arrangement Instance Record"	String
+""	40	"inout"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	41	"inout"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""
+"Put"	"/credit-facility/{sd-identifier}/credit-facility-arrangement/{crbq-identifier}/control"
+""
+"Put"	"/credit-facility/{sd-identifier}/credit-facility-arrangement/{crbq-identifier}/requisition"
+""
+"Put"	"/credit-facility/{sd-identifier}/credit-facility-arrangement/{crbq-identifier}/grant"
+""
+"Get"	"/credit-facility/{sd-identifier}/credit-facility-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"out"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	6	"out"	"Customer Credit Assessment Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	7	"out"	"Insurance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	8	"out"	"Delinquency/Collection Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	9	"out"	"Bank Branch/Location Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	10	"out"	"Bank Accounting Unit Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	11	"out"	"Credit Facility Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"out"	"Credit Facility Amount"	"CR Credit Facility Arrangement Instance Record"	Amount
+""	13	"out"	"Credit Facility Currency"	"CR Credit Facility Arrangement Instance Record"	CurrencyCode
+""	14	"out"	"Credit Facility Rate Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"out"	"Credit Facility Applicable Rate"	"CR Credit Facility Arrangement Instance Record"	Rate
+""	16	"out"	"Repayment Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	17	"out"	"Interest Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	18	"out"	"Interest Accrual Method"	"CR Credit Facility Arrangement Instance Record"	String
+""	19	"out"	"Credit Facility Origination Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	20	"out"	"Credit Facility Maturity Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	21	"out"	"Collateral Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	22	"out"	"Collateral Allocation"	"CR Credit Facility Arrangement Instance Record"	String
+""	23	"out"	"Tax Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	24	"out"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	25	"out"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	26	"out"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	27	"out"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	28	"out"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	29	"out"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	30	"out"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	31	"out"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	32	"out"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	33	"out"	"Associations"	"CR Credit Facility Arrangement Instance Record"	String
+""	34	"out"	"Association Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	35	"out"	"Association Obligation/Entitlement"	"CR Credit Facility Arrangement Instance Record"	String
+""	36	"out"	"Association Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	37	"out"	"Credit Facility Repayment Schedule"	"CR Credit Facility Arrangement Instance Record"	String
+""	38	"out"	"Staged Repayment Statement"	"CR Credit Facility Arrangement Instance Record"	String
+""	39	"out"	"Customer Commentary"	"CR Credit Facility Arrangement Instance Record"	String
+""	40	"out"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	41	"out"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""
+"Get"	"/credit-facility/{sd-identifier}/interest/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"out"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"out"	"Credit Facility Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	4	"out"	"Credit Facility Amount"	"CR Credit Facility Arrangement Instance Record"	Amount
+""	5	"out"	"Credit Facility Currency"	"CR Credit Facility Arrangement Instance Record"	CurrencyCode
+""	6	"out"	"Credit Facility Rate Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	7	"out"	"Credit Facility Applicable Rate"	"CR Credit Facility Arrangement Instance Record"	Rate
+""	8	"out"	"Interest Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	9	"out"	"Interest Accrual Method"	"CR Credit Facility Arrangement Instance Record"	String
+""	10	"out"	"Credit Facility Origination Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	11	"out"	"Credit Facility Maturity Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	12	"out"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	13	"out"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	14	"out"	"Interest Rate Type"	"BQ Interest Instance Record"	String
+""	15	"out"	"Interest Rate Application Schedule"	"BQ Interest Instance Record"	Rate
+""	16	"out"	"Interest Rate Configuration"	"BQ Interest Instance Record"	Rate
+""	17	"out"	"Interest Application Record"	"BQ Interest Instance Record"	String
+""	18	"out"	"Interest Transaction"	"BQ Interest Instance Record"	String
+""	19	"out"	"Transaction Description"	"BQ Interest Instance Record"	String
+""	20	"out"	"Transaction Rate Type"	"BQ Interest Instance Record"	String
+""	21	"out"	"Transaction Interest Charge"	"BQ Interest Instance Record"	String
+""	22	"out"	"Interest Accrual Amount"	"BQ Interest Instance Record"	Amount
+""	23	"out"	"Interest Accrual Type"	"BQ Interest Instance Record"	String
+""	24	"out"	"Interest Accrual Charge"	"BQ Interest Instance Record"	String
+""
+"Put"	"/credit-facility/{sd-identifier}/service-fees/{crbq-identifier}/execution"
+""	1	"inout"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	2	"in"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""	3	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	4	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	5	"inout"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	6	"in"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	7	"inout"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	8	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	9	"inout"	"Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	10	"in"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	11	"inout"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	12	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	13	"out"	"Fee Accrual Amount"	"BQ Service Fees Instance Record"	Amount
+""	14	"inout"	"Accrual Fee Type"	"BQ Service Fees Instance Record"	String
+""	15	"out"	"Accrual Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Get"	"/credit-facility/{sd-identifier}/service-fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"out"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"out"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	5	"out"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	6	"out"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	7	"out"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	8	"out"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	9	"out"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	10	"out"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	11	"out"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"out"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	13	"out"	"Associations"	"CR Credit Facility Arrangement Instance Record"	String
+""	14	"out"	"Association Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"out"	"Association Obligation/Entitlement"	"CR Credit Facility Arrangement Instance Record"	String
+""	16	"out"	"Association Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	17	"out"	"Customer Commentary"	"CR Credit Facility Arrangement Instance Record"	String
+""	18	"out"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	19	"out"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	20	"out"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	21	"out"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""	22	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	23	"out"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	24	"out"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	25	"out"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	26	"out"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	27	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	28	"out"	"Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	29	"out"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	30	"out"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	31	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	32	"out"	"Fee Accrual Amount"	"BQ Service Fees Instance Record"	Amount
+""	33	"out"	"Accrual Fee Type"	"BQ Service Fees Instance Record"	String
+""	34	"out"	"Accrual Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/credit-facility/{sd-identifier}/maintenance/{crbq-identifier}/requisition"
+""	1	"in"	"Maintenance Report Type"	"BQ Maintenance Instance Record"	String
+""	2	"out"	"Credit Facility Tax Report"	"BQ Maintenance Instance Record"	String
+""	3	"out"	"Credit Facility Fee Type"	"BQ Maintenance Instance Record"	String
+""	4	"out"	"Credit Facility Fees"	"BQ Maintenance Instance Record"	String
+""	5	"out"	"Credit Facility Penalties"	"BQ Maintenance Instance Record"	String
+""	6	"out"	"Credit Facility Collateral Valuation"	"BQ Maintenance Instance Record"	String
+""
+"Get"	"/credit-facility/{sd-identifier}/maintenance/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"out"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	6	"out"	"Customer Credit Assessment Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	7	"out"	"Insurance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	8	"out"	"Delinquency/Collection Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	9	"out"	"Bank Branch/Location Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	10	"out"	"Bank Accounting Unit Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	11	"out"	"Credit Facility Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"out"	"Credit Facility Amount"	"CR Credit Facility Arrangement Instance Record"	Amount
+""	13	"out"	"Credit Facility Currency"	"CR Credit Facility Arrangement Instance Record"	CurrencyCode
+""	14	"out"	"Credit Facility Rate Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"out"	"Credit Facility Applicable Rate"	"CR Credit Facility Arrangement Instance Record"	Rate
+""	16	"out"	"Repayment Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	17	"out"	"Interest Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	18	"out"	"Interest Accrual Method"	"CR Credit Facility Arrangement Instance Record"	String
+""	19	"out"	"Credit Facility Origination Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	20	"out"	"Credit Facility Maturity Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	21	"out"	"Collateral Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	22	"out"	"Collateral Allocation"	"CR Credit Facility Arrangement Instance Record"	String
+""	23	"out"	"Tax Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	24	"out"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	25	"out"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	26	"out"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	27	"out"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	28	"out"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	29	"out"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	30	"out"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	31	"out"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	32	"out"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	33	"out"	"Associations"	"CR Credit Facility Arrangement Instance Record"	String
+""	34	"out"	"Association Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	35	"out"	"Association Obligation/Entitlement"	"CR Credit Facility Arrangement Instance Record"	String
+""	36	"out"	"Association Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	37	"out"	"Credit Facility Repayment Schedule"	"CR Credit Facility Arrangement Instance Record"	String
+""	38	"out"	"Staged Repayment Statement"	"CR Credit Facility Arrangement Instance Record"	String
+""	39	"out"	"Customer Commentary"	"CR Credit Facility Arrangement Instance Record"	String
+""	40	"out"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	41	"out"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	42	"out"	"Maintenance Report Type"	"BQ Maintenance Instance Record"	String
+""	43	"out"	"Credit Facility Tax Report"	"BQ Maintenance Instance Record"	String
+""	44	"out"	"Credit Facility Fee Type"	"BQ Maintenance Instance Record"	String
+""	45	"out"	"Credit Facility Fees"	"BQ Maintenance Instance Record"	String
+""	46	"out"	"Credit Facility Penalties"	"BQ Maintenance Instance Record"	String
+""	47	"out"	"Credit Facility Collateral Valuation"	"BQ Maintenance Instance Record"	String
+""
+"Put"	"/credit-facility/{sd-identifier}/repayment/{crbq-identifier}/update"
+""	1	"inout"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	2	"inout"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"inout"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	4	"inout"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	5	"inout"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	6	"inout"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	7	"inout"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	8	"inout"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	9	"inout"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Put"	"/credit-facility/{sd-identifier}/repayment/{crbq-identifier}/execution"
+""	1	"in"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	2	"in"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	3	"in"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	4	"in"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	5	"in"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	6	"in"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	7	"inout"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Put"	"/credit-facility/{sd-identifier}/repayment/{crbq-identifier}/requisition"
+""	1	"in"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	2	"in"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	3	"in"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	4	"in"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	5	"in"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	6	"in"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	7	"inout"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Get"	"/credit-facility/{sd-identifier}/repayment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"out"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	5	"out"	"Repayment Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	6	"out"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	7	"out"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	8	"out"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	9	"out"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	10	"out"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	11	"out"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"out"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	13	"out"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	14	"out"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"out"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	16	"out"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	17	"out"	"Repayment Transaction Type"	"BQ Repayment Instance Record"	String
+""	18	"out"	"Repayment Transaction Payer Reference"	"BQ Repayment Instance Record"	Object
+""	19	"out"	"Repayment Transaction Payer Product Instance Reference"	"BQ Repayment Instance Record"	Object
+""	20	"out"	"Repayment Transaction Payer Bank Reference"	"BQ Repayment Instance Record"	Object
+""	21	"out"	"Repayment Transaction Amount"	"BQ Repayment Instance Record"	Amount
+""	22	"out"	"Repayment Transaction Currency"	"BQ Repayment Instance Record"	CurrencyCode
+""	23	"out"	"Repayment Transaction Value Date"	"BQ Repayment Instance Record"	Date
+""
+"Post"	"/credit-facility/{sd-identifier}/restructuring/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"in"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"in"	"Party Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	5	"in"	"Customer Agreement Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	6	"in"	"Customer Credit Assessment Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	7	"in"	"Insurance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	8	"in"	"Delinquency/Collection Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	9	"in"	"Bank Branch/Location Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	10	"in"	"Bank Accounting Unit Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	11	"in"	"Credit Facility Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"in"	"Credit Facility Amount"	"CR Credit Facility Arrangement Instance Record"	Amount
+""	13	"in"	"Credit Facility Currency"	"CR Credit Facility Arrangement Instance Record"	CurrencyCode
+""	14	"in"	"Credit Facility Rate Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"in"	"Credit Facility Applicable Rate"	"CR Credit Facility Arrangement Instance Record"	Rate
+""	16	"in"	"Repayment Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	17	"in"	"Interest Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	18	"in"	"Interest Accrual Method"	"CR Credit Facility Arrangement Instance Record"	String
+""	19	"in"	"Credit Facility Origination Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	20	"in"	"Credit Facility Maturity Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	21	"in"	"Collateral Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	22	"in"	"Collateral Allocation"	"CR Credit Facility Arrangement Instance Record"	String
+""	23	"in"	"Tax Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	24	"in"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	25	"in"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	26	"in"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	27	"in"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	28	"in"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	29	"in"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	30	"in"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	31	"in"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	32	"in"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	33	"in"	"Associations"	"CR Credit Facility Arrangement Instance Record"	String
+""	34	"in"	"Association Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	35	"in"	"Association Obligation/Entitlement"	"CR Credit Facility Arrangement Instance Record"	String
+""	36	"in"	"Association Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	37	"in"	"Credit Facility Repayment Schedule"	"CR Credit Facility Arrangement Instance Record"	String
+""	38	"inout"	"Staged Repayment Statement"	"CR Credit Facility Arrangement Instance Record"	String
+""	39	"inout"	"Customer Commentary"	"CR Credit Facility Arrangement Instance Record"	String
+""	40	"inout"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	41	"inout"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	42	"inout"	"Restructuring Task"	"BQ Restructuring Instance Record"	String
+""	43	"out"	"Restructuring Evaluation"	"BQ Restructuring Instance Record"	String
+""	44	"out"	"Restructuring Write Down"	"BQ Restructuring Instance Record"	String
+""
+"Put"	"/credit-facility/{sd-identifier}/restructuring/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"inout"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"inout"	"Party Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	5	"inout"	"Customer Agreement Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	6	"inout"	"Customer Credit Assessment Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	7	"inout"	"Insurance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	8	"inout"	"Delinquency/Collection Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	9	"inout"	"Bank Branch/Location Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	10	"inout"	"Bank Accounting Unit Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	11	"inout"	"Credit Facility Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"inout"	"Credit Facility Amount"	"CR Credit Facility Arrangement Instance Record"	Amount
+""	13	"inout"	"Credit Facility Currency"	"CR Credit Facility Arrangement Instance Record"	CurrencyCode
+""	14	"inout"	"Credit Facility Rate Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"inout"	"Credit Facility Applicable Rate"	"CR Credit Facility Arrangement Instance Record"	Rate
+""	16	"inout"	"Repayment Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	17	"inout"	"Interest Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	18	"inout"	"Interest Accrual Method"	"CR Credit Facility Arrangement Instance Record"	String
+""	19	"inout"	"Credit Facility Origination Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	20	"inout"	"Credit Facility Maturity Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	21	"inout"	"Collateral Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	22	"inout"	"Collateral Allocation"	"CR Credit Facility Arrangement Instance Record"	String
+""	23	"inout"	"Tax Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	24	"inout"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	25	"inout"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	26	"inout"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	27	"inout"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	28	"inout"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	29	"inout"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	30	"inout"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	31	"inout"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	32	"inout"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	33	"inout"	"Associations"	"CR Credit Facility Arrangement Instance Record"	String
+""	34	"inout"	"Association Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	35	"inout"	"Association Obligation/Entitlement"	"CR Credit Facility Arrangement Instance Record"	String
+""	36	"inout"	"Association Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	37	"inout"	"Credit Facility Repayment Schedule"	"CR Credit Facility Arrangement Instance Record"	String
+""	38	"inout"	"Staged Repayment Statement"	"CR Credit Facility Arrangement Instance Record"	String
+""	39	"inout"	"Customer Commentary"	"CR Credit Facility Arrangement Instance Record"	String
+""	40	"inout"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	41	"inout"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	42	"inout"	"Restructuring Task"	"BQ Restructuring Instance Record"	String
+""	43	"inout"	"Restructuring Evaluation"	"BQ Restructuring Instance Record"	String
+""	44	"inout"	"Restructuring Write Down"	"BQ Restructuring Instance Record"	String
+""
+"Put"	"/credit-facility/{sd-identifier}/restructuring/{crbq-identifier}/exchange"
+""
+"Put"	"/credit-facility/{sd-identifier}/restructuring/{crbq-identifier}/requisition"
+""	1	"inout"	"Restructuring Task"	"BQ Restructuring Instance Record"	String
+""	2	"out"	"Restructuring Evaluation"	"BQ Restructuring Instance Record"	String
+""	3	"out"	"Restructuring Write Down"	"BQ Restructuring Instance Record"	String
+""
+"Get"	"/credit-facility/{sd-identifier}/restructuring/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	2	"out"	"Credit Facility Number"	"CR Credit Facility Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	4	"out"	"Party Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	5	"out"	"Customer Agreement Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	6	"out"	"Customer Credit Assessment Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	7	"out"	"Insurance Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	8	"out"	"Delinquency/Collection Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	9	"out"	"Bank Branch/Location Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	10	"out"	"Bank Accounting Unit Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	11	"out"	"Credit Facility Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	12	"out"	"Credit Facility Amount"	"CR Credit Facility Arrangement Instance Record"	Amount
+""	13	"out"	"Credit Facility Currency"	"CR Credit Facility Arrangement Instance Record"	CurrencyCode
+""	14	"out"	"Credit Facility Rate Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	15	"out"	"Credit Facility Applicable Rate"	"CR Credit Facility Arrangement Instance Record"	Rate
+""	16	"out"	"Repayment Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	17	"out"	"Interest Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	18	"out"	"Interest Accrual Method"	"CR Credit Facility Arrangement Instance Record"	String
+""	19	"out"	"Credit Facility Origination Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	20	"out"	"Credit Facility Maturity Date"	"CR Credit Facility Arrangement Instance Record"	Date
+""	21	"out"	"Collateral Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	22	"out"	"Collateral Allocation"	"CR Credit Facility Arrangement Instance Record"	String
+""	23	"out"	"Tax Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	24	"out"	"Credit Facility Access Terms"	"CR Credit Facility Arrangement Instance Record"	String
+""	25	"out"	"Credit Facility Underlying Drawdown"	"CR Credit Facility Arrangement Instance Record"	String
+""	26	"out"	"Drawdown Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	27	"out"	"Drawdown Record"	"CR Credit Facility Arrangement Instance Record"	String
+""	28	"out"	"Drawdown Loan Transaction"	"CR Credit Facility Arrangement Instance Record"	String
+""	29	"out"	"Entitlement Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	30	"out"	"Entitlement Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	31	"out"	"Restriction Option Definition"	"CR Credit Facility Arrangement Instance Record"	String
+""	32	"out"	"Restriction Option Setting"	"CR Credit Facility Arrangement Instance Record"	String
+""	33	"out"	"Associations"	"CR Credit Facility Arrangement Instance Record"	String
+""	34	"out"	"Association Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	35	"out"	"Association Obligation/Entitlement"	"CR Credit Facility Arrangement Instance Record"	String
+""	36	"out"	"Association Reference"	"CR Credit Facility Arrangement Instance Record"	Object
+""	37	"out"	"Credit Facility Repayment Schedule"	"CR Credit Facility Arrangement Instance Record"	String
+""	38	"out"	"Staged Repayment Statement"	"CR Credit Facility Arrangement Instance Record"	String
+""	39	"out"	"Customer Commentary"	"CR Credit Facility Arrangement Instance Record"	String
+""	40	"out"	"Credit Facility Outstanding Balance"	"CR Credit Facility Arrangement Instance Record"	String
+""	41	"out"	"Date Type"	"CR Credit Facility Arrangement Instance Record"	String
+""	42	"out"	"Restructuring Task"	"BQ Restructuring Instance Record"	String
+""	43	"out"	"Restructuring Evaluation"	"BQ Restructuring Instance Record"	String
+""	44	"out"	"Restructuring Write Down"	"BQ Restructuring Instance Record"	String

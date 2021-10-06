@@ -1,0 +1,13 @@
+"Service Domain specification for Employee Evaluation"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Employee Evaluation
+"Role Definition"	"Periodically develop a fact based assessment of employee performance, matched to agreed staff performance goals. Combine appraisal input from managers, peers, managed employees and external customers and evaluation agents as appropriate"
+"Example of use"	"An employees annual performance review is undertaken by unit management"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	Employee
+"Generic Artifact"	Analysis
+"Control Record"	EmployeeAnalysis
+"Registration Status"	Registered

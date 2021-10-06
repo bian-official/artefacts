@@ -1,0 +1,13 @@
+"Service Domain specification for Special Pricing Conditions"
+"Business Area"	Customers
+"Business Domain"	Sales
+"Service Domain"	Special Pricing Conditions
+"Role Definition"	"This service domain allows the bank to apply special pricing terms and conditions that override standard price calculations. These override facilities are to be used in specific situations where a bank level decision is taken to amend prices or pricing terms in response to some major event or business development action"
+"Example of use"	"Example of use:. The bank suspends certain product fees during a major brand awareness campaign"
+"Executive Summary"	"Maintain a pricing list or conditions (with ranges and optional terms) categorized by various dimensions to impose exceptional product pricing conditions that override standard pricing terms (for special events/situations)"
+"Key Features"	"Capture authorized override bank pricing terms. Broadcast special terms to interested parties. Confirm terms applied as required in production"
+"Functional Pattern"	Catalog
+"Asset Type"	SpecialPricingConditions
+"Generic Artifact"	DirectoryEntry
+"Control Record"	SpecialPricingConditionsDirectoryEntry
+"Registration Status"	Registered

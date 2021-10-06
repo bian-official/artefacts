@@ -1,0 +1,13 @@
+"Service Domain specification for Trade Confirmation Matching"
+"Business Area"	Products
+"Business Domain"	Market Operations
+"Service Domain"	Trade Confirmation Matching
+"Role Definition"	"Match buyers to sellers in market trades"
+"Example of use"	"Trade are matched during the trading session"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	TradeMatching
+"Generic Artifact"	OperatingSession
+"Control Record"	TradeMatchingOperatingSession
+"Registration Status"	Registered

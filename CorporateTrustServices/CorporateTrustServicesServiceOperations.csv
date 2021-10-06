@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Trust Services
+"Control Record Model for Corporate Trust Services is not defined"
+"POST"	"/corporate-trust-services/activation"
+"PUT"	"/corporate-trust-services/{sd-reference-id}/configuration"
+"PUT"	"/corporate-trust-services/{sd-reference-id}/feedback"

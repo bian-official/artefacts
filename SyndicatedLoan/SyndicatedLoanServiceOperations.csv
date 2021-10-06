@@ -1,0 +1,297 @@
+"Service Operations for: "	Syndicated Loan
+""
+"POST"	"/syndicated-loan/activation"
+"PUT"	"/syndicated-loan/{sd-reference-id}/configuration"
+"PUT"	"/syndicated-loan/{sd-reference-id}/feedback"
+""
+"Put"	"/syndicated-loan/{sd-identifier}/syndicated-loan-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Syndicated Loan Arrangement Parameter Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	2	"inout"	"Syndicated Loan Arrangement Selected Option"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	3	"in"	"Syndicated Loan Arrangement Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	4	"in"	"Syndicated Loan Arrangement Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Syndicated Loan Arrangement Schedule"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	6	"inout"	"Syndicated Loan Arrangement Status"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	7	"in"	"Syndicated Loan Arrangement Currency"	"CR Syndicated Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Syndicated Loan Arrangement Regulation Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	9	"in"	"Syndicated Loan Arrangement Regulation Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	10	"in"	"Syndicated Loan Arrangement Jurisdiction"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	11	"in"	"Syndicated Loan Arrangement Booking Location"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	12	"in"	"Syndicated Loan Arrangement Account Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	13	"in"	"Syndicated Loan Arrangement Account Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""
+"Put"	"/syndicated-loan/{sd-identifier}/fulfillment/{crbq-identifier}/exchange"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/origination/{crbq-identifier}/exchange"
+""	1	"inout"	"Origination Preconditions"	"BQ Origination Instance Record"	String
+""	2	"inout"	"Origination Feature Schedule"	"BQ Origination Instance Record"	String
+""	3	"inout"	"Syndicated Loan Origination"	"BQ Origination Instance Record"	Business Service
+""	4	"inout"	"Origination Postconditions"	"BQ Origination Instance Record"	String
+""	5	"inout"	"Origination Syndicated Loan Origination Service Type"	"BQ Origination Instance Record"	String
+""	6	"inout"	"Origination Syndicated Loan Origination Service Description"	"BQ Origination Instance Record"	String
+""	7	"inout"	"Origination Syndicated Loan Origination Service Inputs and Ouputs"	"BQ Origination Instance Record"	String
+""	8	"inout"	"Origination Syndicated Loan Origination Service Work Product"	"BQ Origination Instance Record"	String
+""	9	"inout"	"Origination Syndicated Loan Origination Service Name"	"BQ Origination Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/structuring/{crbq-identifier}/exchange"
+""	1	"inout"	"Structuring Preconditions"	"BQ Structuring Instance Record"	String
+""	2	"inout"	"Structuring Feature Schedule"	"BQ Structuring Instance Record"	String
+""	3	"inout"	"Syndicated Loan Arrangement"	"BQ Structuring Instance Record"	Business Service
+""	4	"inout"	"Structuring Postconditions"	"BQ Structuring Instance Record"	String
+""	5	"inout"	"Structuring Syndicated Loan Arrangement Service Type"	"BQ Structuring Instance Record"	String
+""	6	"inout"	"Structuring Syndicated Loan Arrangement Service Description"	"BQ Structuring Instance Record"	String
+""	7	"inout"	"Structuring Syndicated Loan Arrangement Service Inputs and Ouputs"	"BQ Structuring Instance Record"	String
+""	8	"inout"	"Structuring Syndicated Loan Arrangement Service Work Product"	"BQ Structuring Instance Record"	String
+""	9	"inout"	"Structuring Syndicated Loan Arrangement Service Name"	"BQ Structuring Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/syndicate-assembly/{crbq-identifier}/exchange"
+""	1	"inout"	"Syndicate Assembly Preconditions"	"BQ Syndicate Assembly Instance Record"	String
+""	2	"inout"	"Syndicate Assembly Feature Schedule"	"BQ Syndicate Assembly Instance Record"	String
+""	3	"inout"	"Syndicated Loan Organization"	"BQ Syndicate Assembly Instance Record"	Business Service
+""	4	"inout"	"Syndicate Assembly Postconditions"	"BQ Syndicate Assembly Instance Record"	String
+""	5	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Type"	"BQ Syndicate Assembly Instance Record"	String
+""	6	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Description"	"BQ Syndicate Assembly Instance Record"	String
+""	7	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Inputs and Ouputs"	"BQ Syndicate Assembly Instance Record"	String
+""	8	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Work Product"	"BQ Syndicate Assembly Instance Record"	String
+""	9	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Name"	"BQ Syndicate Assembly Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/syndicated-loan-arrangement/{crbq-identifier}/exchange"
+""	1	"inout"	"Syndicated Loan Arrangement Parameter Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	2	"inout"	"Syndicated Loan Arrangement Selected Option"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	3	"in"	"Syndicated Loan Arrangement Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	4	"in"	"Syndicated Loan Arrangement Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Syndicated Loan Arrangement Schedule"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	6	"inout"	"Syndicated Loan Arrangement Status"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	7	"in"	"Syndicated Loan Arrangement Currency"	"CR Syndicated Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Syndicated Loan Arrangement Regulation Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	9	"in"	"Syndicated Loan Arrangement Regulation Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	10	"in"	"Syndicated Loan Arrangement Jurisdiction"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	11	"in"	"Syndicated Loan Arrangement Booking Location"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	12	"in"	"Syndicated Loan Arrangement Account Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	13	"in"	"Syndicated Loan Arrangement Account Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""
+"Put"	"/syndicated-loan/{sd-identifier}/syndicated-loan-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Syndicated Loan Arrangement Parameter Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	2	"inout"	"Syndicated Loan Arrangement Selected Option"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	3	"in"	"Syndicated Loan Arrangement Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	4	"in"	"Syndicated Loan Arrangement Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Syndicated Loan Arrangement Schedule"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	6	"inout"	"Syndicated Loan Arrangement Status"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	7	"in"	"Syndicated Loan Arrangement Currency"	"CR Syndicated Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Syndicated Loan Arrangement Regulation Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	9	"in"	"Syndicated Loan Arrangement Regulation Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	10	"in"	"Syndicated Loan Arrangement Jurisdiction"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	11	"in"	"Syndicated Loan Arrangement Booking Location"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	12	"in"	"Syndicated Loan Arrangement Account Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	13	"in"	"Syndicated Loan Arrangement Account Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""
+"Post"	"/syndicated-loan/{sd-identifier}/structuring/{crbq-identifier}/initiation"
+""	1	"inout"	"Structuring Preconditions"	"BQ Structuring Instance Record"	String
+""	2	"inout"	"Structuring Feature Schedule"	"BQ Structuring Instance Record"	String
+""	3	"inout"	"Syndicated Loan Arrangement"	"BQ Structuring Instance Record"	Business Service
+""	4	"inout"	"Structuring Postconditions"	"BQ Structuring Instance Record"	String
+""	5	"inout"	"Structuring Syndicated Loan Arrangement Service Type"	"BQ Structuring Instance Record"	String
+""	6	"inout"	"Structuring Syndicated Loan Arrangement Service Description"	"BQ Structuring Instance Record"	String
+""	7	"inout"	"Structuring Syndicated Loan Arrangement Service Inputs and Ouputs"	"BQ Structuring Instance Record"	String
+""	8	"inout"	"Structuring Syndicated Loan Arrangement Service Work Product"	"BQ Structuring Instance Record"	String
+""	9	"inout"	"Structuring Syndicated Loan Arrangement Service Name"	"BQ Structuring Instance Record"	String
+""
+"Post"	"/syndicated-loan/{sd-identifier}/syndicated-loan-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Syndicated Loan Arrangement Parameter Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	2	"inout"	"Syndicated Loan Arrangement Selected Option"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	3	"in"	"Syndicated Loan Arrangement Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	4	"in"	"Syndicated Loan Arrangement Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Syndicated Loan Arrangement Schedule"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	6	"inout"	"Syndicated Loan Arrangement Status"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	7	"in"	"Syndicated Loan Arrangement Currency"	"CR Syndicated Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Syndicated Loan Arrangement Regulation Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	9	"in"	"Syndicated Loan Arrangement Regulation Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	10	"in"	"Syndicated Loan Arrangement Jurisdiction"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	11	"in"	"Syndicated Loan Arrangement Booking Location"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	12	"in"	"Syndicated Loan Arrangement Account Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	13	"in"	"Syndicated Loan Arrangement Account Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""
+"Get"	"/syndicated-loan/{sd-identifier}/fulfillment/{crbq-identifier}/retrieval"
+""	1	"out"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"out"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"out"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"out"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Get"	"/syndicated-loan/{sd-identifier}/origination/{crbq-identifier}/retrieval"
+""	1	"out"	"Origination Preconditions"	"BQ Origination Instance Record"	String
+""	2	"out"	"Origination Feature Schedule"	"BQ Origination Instance Record"	String
+""	3	"out"	"Syndicated Loan Origination"	"BQ Origination Instance Record"	Business Service
+""	4	"out"	"Origination Postconditions"	"BQ Origination Instance Record"	String
+""	5	"out"	"Origination Syndicated Loan Origination Service Type"	"BQ Origination Instance Record"	String
+""	6	"out"	"Origination Syndicated Loan Origination Service Description"	"BQ Origination Instance Record"	String
+""	7	"out"	"Origination Syndicated Loan Origination Service Inputs and Ouputs"	"BQ Origination Instance Record"	String
+""	8	"out"	"Origination Syndicated Loan Origination Service Work Product"	"BQ Origination Instance Record"	String
+""	9	"out"	"Origination Syndicated Loan Origination Service Name"	"BQ Origination Instance Record"	String
+""
+"Get"	"/syndicated-loan/{sd-identifier}/structuring/{crbq-identifier}/retrieval"
+""	1	"out"	"Structuring Preconditions"	"BQ Structuring Instance Record"	String
+""	2	"out"	"Structuring Feature Schedule"	"BQ Structuring Instance Record"	String
+""	3	"out"	"Syndicated Loan Arrangement"	"BQ Structuring Instance Record"	Business Service
+""	4	"out"	"Structuring Postconditions"	"BQ Structuring Instance Record"	String
+""	5	"out"	"Structuring Syndicated Loan Arrangement Service Type"	"BQ Structuring Instance Record"	String
+""	6	"out"	"Structuring Syndicated Loan Arrangement Service Description"	"BQ Structuring Instance Record"	String
+""	7	"out"	"Structuring Syndicated Loan Arrangement Service Inputs and Ouputs"	"BQ Structuring Instance Record"	String
+""	8	"out"	"Structuring Syndicated Loan Arrangement Service Work Product"	"BQ Structuring Instance Record"	String
+""	9	"out"	"Structuring Syndicated Loan Arrangement Service Name"	"BQ Structuring Instance Record"	String
+""
+"Get"	"/syndicated-loan/{sd-identifier}/syndicate-assembly/{crbq-identifier}/retrieval"
+""	1	"out"	"Syndicate Assembly Preconditions"	"BQ Syndicate Assembly Instance Record"	String
+""	2	"out"	"Syndicate Assembly Feature Schedule"	"BQ Syndicate Assembly Instance Record"	String
+""	3	"out"	"Syndicated Loan Organization"	"BQ Syndicate Assembly Instance Record"	Business Service
+""	4	"out"	"Syndicate Assembly Postconditions"	"BQ Syndicate Assembly Instance Record"	String
+""	5	"out"	"Syndicate Assembly Syndicated Loan Organization Service Type"	"BQ Syndicate Assembly Instance Record"	String
+""	6	"out"	"Syndicate Assembly Syndicated Loan Organization Service Description"	"BQ Syndicate Assembly Instance Record"	String
+""	7	"out"	"Syndicate Assembly Syndicated Loan Organization Service Inputs and Ouputs"	"BQ Syndicate Assembly Instance Record"	String
+""	8	"out"	"Syndicate Assembly Syndicated Loan Organization Service Work Product"	"BQ Syndicate Assembly Instance Record"	String
+""	9	"out"	"Syndicate Assembly Syndicated Loan Organization Service Name"	"BQ Syndicate Assembly Instance Record"	String
+""
+"Get"	"/syndicated-loan/{sd-identifier}/syndicated-loan-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Syndicated Loan Arrangement Parameter Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	2	"out"	"Syndicated Loan Arrangement Selected Option"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	3	"out"	"Syndicated Loan Arrangement Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	4	"out"	"Syndicated Loan Arrangement Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	5	"out"	"Syndicated Loan Arrangement Schedule"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	6	"out"	"Syndicated Loan Arrangement Status"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	7	"out"	"Syndicated Loan Arrangement Currency"	"CR Syndicated Loan Arrangement Instance Record"	CurrencyCode
+""	8	"out"	"Syndicated Loan Arrangement Regulation Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	9	"out"	"Syndicated Loan Arrangement Regulation Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	10	"out"	"Syndicated Loan Arrangement Jurisdiction"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	11	"out"	"Syndicated Loan Arrangement Booking Location"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	12	"out"	"Syndicated Loan Arrangement Account Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	13	"out"	"Syndicated Loan Arrangement Account Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""
+"Put"	"/syndicated-loan/{sd-identifier}/fulfillment/{crbq-identifier}/requisition"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/origination/{crbq-identifier}/requisition"
+""	1	"inout"	"Origination Preconditions"	"BQ Origination Instance Record"	String
+""	2	"inout"	"Origination Feature Schedule"	"BQ Origination Instance Record"	String
+""	3	"inout"	"Syndicated Loan Origination"	"BQ Origination Instance Record"	Business Service
+""	4	"inout"	"Origination Postconditions"	"BQ Origination Instance Record"	String
+""	5	"inout"	"Origination Syndicated Loan Origination Service Type"	"BQ Origination Instance Record"	String
+""	6	"inout"	"Origination Syndicated Loan Origination Service Description"	"BQ Origination Instance Record"	String
+""	7	"inout"	"Origination Syndicated Loan Origination Service Inputs and Ouputs"	"BQ Origination Instance Record"	String
+""	8	"inout"	"Origination Syndicated Loan Origination Service Work Product"	"BQ Origination Instance Record"	String
+""	9	"inout"	"Origination Syndicated Loan Origination Service Name"	"BQ Origination Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/structuring/{crbq-identifier}/requisition"
+""	1	"inout"	"Structuring Preconditions"	"BQ Structuring Instance Record"	String
+""	2	"inout"	"Structuring Feature Schedule"	"BQ Structuring Instance Record"	String
+""	3	"inout"	"Syndicated Loan Arrangement"	"BQ Structuring Instance Record"	Business Service
+""	4	"inout"	"Structuring Postconditions"	"BQ Structuring Instance Record"	String
+""	5	"inout"	"Structuring Syndicated Loan Arrangement Service Type"	"BQ Structuring Instance Record"	String
+""	6	"inout"	"Structuring Syndicated Loan Arrangement Service Description"	"BQ Structuring Instance Record"	String
+""	7	"inout"	"Structuring Syndicated Loan Arrangement Service Inputs and Ouputs"	"BQ Structuring Instance Record"	String
+""	8	"inout"	"Structuring Syndicated Loan Arrangement Service Work Product"	"BQ Structuring Instance Record"	String
+""	9	"inout"	"Structuring Syndicated Loan Arrangement Service Name"	"BQ Structuring Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/syndicate-assembly/{crbq-identifier}/requisition"
+""	1	"inout"	"Syndicate Assembly Preconditions"	"BQ Syndicate Assembly Instance Record"	String
+""	2	"inout"	"Syndicate Assembly Feature Schedule"	"BQ Syndicate Assembly Instance Record"	String
+""	3	"inout"	"Syndicated Loan Organization"	"BQ Syndicate Assembly Instance Record"	Business Service
+""	4	"inout"	"Syndicate Assembly Postconditions"	"BQ Syndicate Assembly Instance Record"	String
+""	5	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Type"	"BQ Syndicate Assembly Instance Record"	String
+""	6	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Description"	"BQ Syndicate Assembly Instance Record"	String
+""	7	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Inputs and Ouputs"	"BQ Syndicate Assembly Instance Record"	String
+""	8	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Work Product"	"BQ Syndicate Assembly Instance Record"	String
+""	9	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Name"	"BQ Syndicate Assembly Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/syndicated-loan-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Syndicated Loan Arrangement Parameter Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	2	"inout"	"Syndicated Loan Arrangement Selected Option"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	3	"in"	"Syndicated Loan Arrangement Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	4	"in"	"Syndicated Loan Arrangement Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Syndicated Loan Arrangement Schedule"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	6	"inout"	"Syndicated Loan Arrangement Status"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	7	"in"	"Syndicated Loan Arrangement Currency"	"CR Syndicated Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Syndicated Loan Arrangement Regulation Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	9	"in"	"Syndicated Loan Arrangement Regulation Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	10	"in"	"Syndicated Loan Arrangement Jurisdiction"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	11	"in"	"Syndicated Loan Arrangement Booking Location"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	12	"in"	"Syndicated Loan Arrangement Account Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	13	"in"	"Syndicated Loan Arrangement Account Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""
+"Put"	"/syndicated-loan/{sd-identifier}/fulfillment/{crbq-identifier}/update"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/origination/{crbq-identifier}/update"
+""	1	"inout"	"Origination Preconditions"	"BQ Origination Instance Record"	String
+""	2	"inout"	"Origination Feature Schedule"	"BQ Origination Instance Record"	String
+""	3	"inout"	"Syndicated Loan Origination"	"BQ Origination Instance Record"	Business Service
+""	4	"inout"	"Origination Postconditions"	"BQ Origination Instance Record"	String
+""	5	"inout"	"Origination Syndicated Loan Origination Service Type"	"BQ Origination Instance Record"	String
+""	6	"inout"	"Origination Syndicated Loan Origination Service Description"	"BQ Origination Instance Record"	String
+""	7	"inout"	"Origination Syndicated Loan Origination Service Inputs and Ouputs"	"BQ Origination Instance Record"	String
+""	8	"inout"	"Origination Syndicated Loan Origination Service Work Product"	"BQ Origination Instance Record"	String
+""	9	"inout"	"Origination Syndicated Loan Origination Service Name"	"BQ Origination Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/structuring/{crbq-identifier}/update"
+""	1	"inout"	"Structuring Preconditions"	"BQ Structuring Instance Record"	String
+""	2	"inout"	"Structuring Feature Schedule"	"BQ Structuring Instance Record"	String
+""	3	"inout"	"Syndicated Loan Arrangement"	"BQ Structuring Instance Record"	Business Service
+""	4	"inout"	"Structuring Postconditions"	"BQ Structuring Instance Record"	String
+""	5	"inout"	"Structuring Syndicated Loan Arrangement Service Type"	"BQ Structuring Instance Record"	String
+""	6	"inout"	"Structuring Syndicated Loan Arrangement Service Description"	"BQ Structuring Instance Record"	String
+""	7	"inout"	"Structuring Syndicated Loan Arrangement Service Inputs and Ouputs"	"BQ Structuring Instance Record"	String
+""	8	"inout"	"Structuring Syndicated Loan Arrangement Service Work Product"	"BQ Structuring Instance Record"	String
+""	9	"inout"	"Structuring Syndicated Loan Arrangement Service Name"	"BQ Structuring Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/syndicate-assembly/{crbq-identifier}/update"
+""	1	"inout"	"Syndicate Assembly Preconditions"	"BQ Syndicate Assembly Instance Record"	String
+""	2	"inout"	"Syndicate Assembly Feature Schedule"	"BQ Syndicate Assembly Instance Record"	String
+""	3	"inout"	"Syndicated Loan Organization"	"BQ Syndicate Assembly Instance Record"	Business Service
+""	4	"inout"	"Syndicate Assembly Postconditions"	"BQ Syndicate Assembly Instance Record"	String
+""	5	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Type"	"BQ Syndicate Assembly Instance Record"	String
+""	6	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Description"	"BQ Syndicate Assembly Instance Record"	String
+""	7	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Inputs and Ouputs"	"BQ Syndicate Assembly Instance Record"	String
+""	8	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Work Product"	"BQ Syndicate Assembly Instance Record"	String
+""	9	"inout"	"Syndicate Assembly Syndicated Loan Organization Service Name"	"BQ Syndicate Assembly Instance Record"	String
+""
+"Put"	"/syndicated-loan/{sd-identifier}/syndicated-loan-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Syndicated Loan Arrangement Parameter Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	2	"inout"	"Syndicated Loan Arrangement Selected Option"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	3	"in"	"Syndicated Loan Arrangement Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	4	"in"	"Syndicated Loan Arrangement Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Syndicated Loan Arrangement Schedule"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	6	"inout"	"Syndicated Loan Arrangement Status"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	7	"in"	"Syndicated Loan Arrangement Currency"	"CR Syndicated Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Syndicated Loan Arrangement Regulation Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object
+""	9	"in"	"Syndicated Loan Arrangement Regulation Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	10	"in"	"Syndicated Loan Arrangement Jurisdiction"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	11	"in"	"Syndicated Loan Arrangement Booking Location"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	12	"in"	"Syndicated Loan Arrangement Account Type"	"CR Syndicated Loan Arrangement Instance Record"	String
+""	13	"in"	"Syndicated Loan Arrangement Account Reference"	"CR Syndicated Loan Arrangement Instance Record"	Object

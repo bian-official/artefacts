@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Strategy"
+"Business Area"	Business Management
+"Business Domain"	Business Direction
+"Service Domain"	Corporate Strategy
+"Role Definition"	"Define and communicate the corporate strategy and plan. Direct business activity to meet, refine and improve the corporate goals and approaches"
+"Example of use"	"The corporate strategy and underlying business performance goals are defined and communicated"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Direct
+"Asset Type"	Enterprise
+"Generic Artifact"	Strategy
+"Control Record"	EnterpriseStrategy
+"Registration Status"	Registered

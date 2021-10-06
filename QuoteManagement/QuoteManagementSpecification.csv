@@ -1,0 +1,13 @@
+"Service Domain specification for Quote Management"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Quote Management
+"Role Definition"	"Provide buy sell quotes for traded instruments"
+"Example of use"	"A market specialist tracks and provides on going buy/sell process for selected securities"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	Quotation
+"Generic Artifact"	Procedure
+"Control Record"	QuotationProcedure
+"Registration Status"	Registered

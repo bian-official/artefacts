@@ -1,0 +1,13 @@
+"Service Domain specification for Program Trading"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Program Trading
+"Role Definition"	"Automated trading of selected structured positions"
+"Example of use"	"A bank operates a program trading facility"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	ProgramTrading
+"Generic Artifact"	OperatingSession
+"Control Record"	ProgramTradingOperatingSession
+"Registration Status"	Registered

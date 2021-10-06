@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Products and Services"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Products and Services
+"Role Definition"	"This Service Domain maintains the most important data of all products and services that a customer has acquired from the bank. As such it maintains data of current and past products and services. It is the only domain in the model that can provide information on a customer's current products and services."
+"Example of use"	"- Customer Offer inquires on products and services that a customer currently has in order to show them to the customer and help him or her decide on any new product (-variant).. -  A customer acquires a product from the bank. The product is added to his or her list of products in Customer Products and Services."
+"Executive Summary"	"This Service Domain maintains the most important data of all products and services that a customer has acquired from the bank."
+"Key Features"	"- Provide a list of products and services that the cuatomer currently takes from the bank. - Add a product or service to the list when a customer acquires and new product or service"
+"Functional Pattern"	Catalog
+"Asset Type"	CustomerProductsandServices
+"Generic Artifact"	DirectoryEntry
+"Control Record"	CustomerProductsandServicesDirectoryEntry
+"Registration Status"	Provisional

@@ -1,0 +1,5 @@
+"Service Operations for: "	Employee Assignment
+"Control Record Model for Employee Assignment is not defined"
+"POST"	"/employee-assignment/activation"
+"PUT"	"/employee-assignment/{sd-reference-id}/configuration"
+"PUT"	"/employee-assignment/{sd-reference-id}/feedback"

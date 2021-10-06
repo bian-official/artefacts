@@ -1,0 +1,5 @@
+"Service Operations for: "	Contractor and Supplier Agreement
+"Control Record Model for Contractor and Supplier Agreement is not defined"
+"POST"	"/contractor-and-supplier-agreement/activation"
+"PUT"	"/contractor-and-supplier-agreement/{sd-reference-id}/configuration"
+"PUT"	"/contractor-and-supplier-agreement/{sd-reference-id}/feedback"

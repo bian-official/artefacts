@@ -1,0 +1,14 @@
+"Control Record Model for: "	Financial Accounting
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Ledger Posting Instance Record	""	""	""
+"BQ"	BQ Ledger Posting Instance Record	Posting Direction	"Defines the posting location in the account ledger according to the chart of accounts (e.g. based on customer, transaction type)"	String
+"BQ"	BQ Ledger Posting Instance Record	Posting Amount (credit/debit pair)	"The posting amount as a credit-debit pair"	Amount
+"BQ"	BQ Ledger Posting Instance Record	Posting Value Date	"The date and time of the posting"	Date
+"BQ"	BQ Ledger Posting Instance Record	Posting Result	"Any confirmation notification"	String
+"CR"	CR Financial Booking Log Instance Record	""	""	""
+"CR"	CR Financial Booking Log Instance Record	Financial Account Type	"The type of accounting facility (e.g. journal, sub-ledger)"	String
+"CR"	CR Financial Booking Log Instance Record	ProductandService Reference	"Reference to the associated product or service for which this is the underlying accounting"	Object
+"CR"	CR Financial Booking Log Instance Record	Business Unit Reference	"Reference to the owning business unit and associated business activity"	Object
+"CR"	CR Financial Booking Log Instance Record	Chart of Account/Booking Rules	"Reference to applicable account booking rules"	String
+"CR"	CR Financial Booking Log Instance Record	Base Currency	"The currency for the postings"	CurrencyCode
+"CR"	CR Financial Booking Log Instance Record	Status	"Status of the financial log (e.g. active, in-suspense)"	String

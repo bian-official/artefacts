@@ -1,0 +1,13 @@
+"Service Domain specification for Standing Order"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Standing Order
+"Role Definition"	"Customers can issue standing orders to the bank. In most cases this is for the execution of a periodical payment, but there are other standing instructions like, sweeping balances at end of month, topping off excess funds for a current account, etc. All Standing Orders have a certain periodicity. The Standing Order Service Domain is responsible for generating payment orders on each due date."
+"Example of use"	"- A customer issues a standing order for his or her monthly apartment rent amount to be paid to the landlord.. - A customer issues an instruction for any balance amount above 5,000 on his current account to be transferred to his savings account at EOD."
+"Executive Summary"	"Customers can issue standing orders to the bank. In most cases this is for the execution of a periodical payment, but there are other standing instructions like, sweeping balances at end of month, topping off excess funds for a current account, etc."
+"Key Features"	"- Record a standing order. - Maintain details of a standing order through its lifetime. - Provide details for the creation of  payment orders for a balance sweep"
+"Functional Pattern"	Fulfill
+"Asset Type"	StandingOrder
+"Generic Artifact"	Facility (rename)
+"Control Record"	StandingOrderArrangement
+"Registration Status"	Provisional

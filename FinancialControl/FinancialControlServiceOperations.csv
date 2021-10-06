@@ -1,0 +1,5 @@
+"Service Operations for: "	Financial Control
+"Control Record Model for Financial Control is not defined"
+"POST"	"/financial-control/activation"
+"PUT"	"/financial-control/{sd-reference-id}/configuration"
+"PUT"	"/financial-control/{sd-reference-id}/feedback"

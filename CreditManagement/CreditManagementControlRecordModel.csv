@@ -1,0 +1,14 @@
+"Control Record Model for: "	Credit Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Credit Pricing Assessment Instance Record	""	""	""
+"CR"	CR Credit Pricing Assessment Instance Record	Business Unit Reference	"Business unit submitting the proposed transaction for review"	Object
+"CR"	CR Credit Pricing Assessment Instance Record	Customer Reference	"Reference to the customer related to the proposed transaction"	Object
+"CR"	CR Credit Pricing Assessment Instance Record	Sector Reference	"The sector where the proposed transaction would be booked"	Object
+"CR"	CR Credit Pricing Assessment Instance Record	Product Type	"The product type/category of the proposed transaction for the credit pricing assessment"	String
+"CR"	CR Credit Pricing Assessment Instance Record	Proposed Transaction Reference	"Reference to proposed transaction submitted for assessment"	Object
+"CR"	CR Credit Pricing Assessment Instance Record	Proposed Transaction Record	"Key details of the proposed transaction"	String
+"CR"	CR Credit Pricing Assessment Instance Record	Proposed Transaction Type	"The type of credit instrument being considered"	String
+"CR"	CR Credit Pricing Assessment Instance Record	Proposed Transaction Amount	"The financial structure of the proposed transaction"	Amount
+"CR"	CR Credit Pricing Assessment Instance Record	Proposed Transaction Record Date	"One or more key dates associated with the transaction"	Date
+"CR"	CR Credit Pricing Assessment Instance Record	Proposed Transaction Booking Entity	"The booking entity within the bank that the proposed transaction would impact"	String
+"CR"	CR Credit Pricing Assessment Instance Record	Proposed Transaction Credit Pricing Assessment	"Details of the credit pricing assessment, permitting or adjusting terms as necessary"	String

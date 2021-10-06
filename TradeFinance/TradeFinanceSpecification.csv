@@ -1,0 +1,13 @@
+"Service Domain specification for Trade Finance"
+"Business Area"	Products
+"Business Domain"	Trade Banking
+"Service Domain"	Trade Finance
+"Role Definition"	"A collection of services associated with the support of international trade finance (including the coordination of correspondent banks, shipping, customs, lading, warehouse activity alongside financial management - LCs, Guarantees etc."
+"Example of use"	"A bank handles the many transactions associated with international trade activity for a corporate customer"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	TradeFinance
+"Generic Artifact"	Facility (rename)
+"Control Record"	TradeFinanceArrangement
+"Registration Status"	Registered

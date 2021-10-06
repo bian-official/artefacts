@@ -1,0 +1,5 @@
+"Service Operations for: "	Mergers and Acquisitions Advisory
+"Control Record Model for Mergers and Acquisitions Advisory is not defined"
+"POST"	"/mergers-and-acquisitions-advisory/activation"
+"PUT"	"/mergers-and-acquisitions-advisory/{sd-reference-id}/configuration"
+"PUT"	"/mergers-and-acquisitions-advisory/{sd-reference-id}/feedback"

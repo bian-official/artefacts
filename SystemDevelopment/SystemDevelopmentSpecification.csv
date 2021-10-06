@@ -1,0 +1,13 @@
+"Service Domain specification for System Development"
+"Business Area"	Business Development
+"Business Domain"	Solution Development
+"Service Domain"	System Development
+"Role Definition"	"Manage and execute the multi-threaded development of application solutions spanning bespoke development and commercial package integration"
+"Example of use"	"A new product design results in the need to extend functionality on existing product fulfillment applications"
+"Executive Summary"	"Develop new, enhance existing applications and integrate package based systems solutions"
+"Key Features"	"Agree functional requirements. Develop functional and technical specifications. Develop, test and integrate software"
+"Functional Pattern"	Develop
+"Asset Type"	ITSystem
+"Generic Artifact"	Development
+"Control Record"	ITSystemDevelopment
+"Registration Status"	Registered

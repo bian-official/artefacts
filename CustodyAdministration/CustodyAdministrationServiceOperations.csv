@@ -1,0 +1,319 @@
+"Service Operations for: "	Custody Administration
+""
+"POST"	"/custody-administration/activation"
+"PUT"	"/custody-administration/{sd-reference-id}/configuration"
+"PUT"	"/custody-administration/{sd-reference-id}/feedback"
+""
+"Put"	"/custody-administration/{sd-identifier}/safe-keeping/{crbq-identifier}/control"
+""	1	"inout"	"Safe Keeping Preconditions"	"BQ Safe Keeping Instance Record"	String
+""	2	"inout"	"Safe Keeping Feature Schedule"	"BQ Safe Keeping Instance Record"	String
+""	3	"inout"	"Securities Safe Keeping"	"BQ Safe Keeping Instance Record"	Business Service
+""	4	"inout"	"Safe Keeping Postconditions"	"BQ Safe Keeping Instance Record"	String
+""	5	"inout"	"Safe Keeping Securities Safe Keeping Service Type"	"BQ Safe Keeping Instance Record"	String
+""	6	"inout"	"Safe Keeping Securities Safe Keeping Service Description"	"BQ Safe Keeping Instance Record"	String
+""	7	"inout"	"Safe Keeping Securities Safe Keeping Service Inputs and Ouputs"	"BQ Safe Keeping Instance Record"	String
+""	8	"inout"	"Safe Keeping Securities Safe Keeping Service Work Product"	"BQ Safe Keeping Instance Record"	String
+""	9	"inout"	"Safe Keeping Securities Safe Keeping Service Name"	"BQ Safe Keeping Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/custody-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Custody Arrangement Parameter Type"	"CR Custody Arrangement Instance Record"	String
+""	2	"inout"	"Custody Arrangement Selected Option"	"CR Custody Arrangement Instance Record"	String
+""	3	"in"	"Custody Arrangement Type"	"CR Custody Arrangement Instance Record"	String
+""	4	"in"	"Custody Arrangement Reference"	"CR Custody Arrangement Instance Record"	Object
+""	5	"inout"	"Custody Arrangement Schedule"	"CR Custody Arrangement Instance Record"	String
+""	6	"inout"	"Custody Arrangement Status"	"CR Custody Arrangement Instance Record"	String
+""	7	"in"	"Custody Arrangement Currency"	"CR Custody Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Custody Arrangement Regulation Reference"	"CR Custody Arrangement Instance Record"	Object
+""	9	"in"	"Custody Arrangement Regulation Type"	"CR Custody Arrangement Instance Record"	String
+""	10	"in"	"Custody Arrangement Jurisdiction"	"CR Custody Arrangement Instance Record"	String
+""	11	"in"	"Custody Arrangement Booking Location"	"CR Custody Arrangement Instance Record"	String
+""	12	"in"	"Custody Arrangement Account Type"	"CR Custody Arrangement Instance Record"	String
+""	13	"in"	"Custody Arrangement Account Reference"	"CR Custody Arrangement Instance Record"	Object
+""
+"Put"	"/custody-administration/{sd-identifier}/fees/{crbq-identifier}/exchange"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/custody-arrangement/{crbq-identifier}/exchange"
+""	1	"inout"	"Custody Arrangement Parameter Type"	"CR Custody Arrangement Instance Record"	String
+""	2	"inout"	"Custody Arrangement Selected Option"	"CR Custody Arrangement Instance Record"	String
+""	3	"in"	"Custody Arrangement Type"	"CR Custody Arrangement Instance Record"	String
+""	4	"in"	"Custody Arrangement Reference"	"CR Custody Arrangement Instance Record"	Object
+""	5	"inout"	"Custody Arrangement Schedule"	"CR Custody Arrangement Instance Record"	String
+""	6	"inout"	"Custody Arrangement Status"	"CR Custody Arrangement Instance Record"	String
+""	7	"in"	"Custody Arrangement Currency"	"CR Custody Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Custody Arrangement Regulation Reference"	"CR Custody Arrangement Instance Record"	Object
+""	9	"in"	"Custody Arrangement Regulation Type"	"CR Custody Arrangement Instance Record"	String
+""	10	"in"	"Custody Arrangement Jurisdiction"	"CR Custody Arrangement Instance Record"	String
+""	11	"in"	"Custody Arrangement Booking Location"	"CR Custody Arrangement Instance Record"	String
+""	12	"in"	"Custody Arrangement Account Type"	"CR Custody Arrangement Instance Record"	String
+""	13	"in"	"Custody Arrangement Account Reference"	"CR Custody Arrangement Instance Record"	Object
+""
+"Put"	"/custody-administration/{sd-identifier}/securities-reporting/{crbq-identifier}/execution"
+""	1	"inout"	"Securities Reporting Preconditions"	"BQ Securities Reporting Instance Record"	String
+""	2	"inout"	"Securities Reporting Feature Schedule"	"BQ Securities Reporting Instance Record"	String
+""	3	"inout"	"Custody Securities Reporting"	"BQ Securities Reporting Instance Record"	Business Service
+""	4	"inout"	"Securities Reporting Postconditions"	"BQ Securities Reporting Instance Record"	String
+""	5	"inout"	"Securities Reporting Custody Securities Reporting Service Type"	"BQ Securities Reporting Instance Record"	String
+""	6	"inout"	"Securities Reporting Custody Securities Reporting Service Description"	"BQ Securities Reporting Instance Record"	String
+""	7	"inout"	"Securities Reporting Custody Securities Reporting Service Inputs and Ouputs"	"BQ Securities Reporting Instance Record"	String
+""	8	"inout"	"Securities Reporting Custody Securities Reporting Service Work Product"	"BQ Securities Reporting Instance Record"	String
+""	9	"inout"	"Securities Reporting Custody Securities Reporting Service Name"	"BQ Securities Reporting Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/settlement/{crbq-identifier}/execution"
+""	1	"inout"	"Settlement Preconditions"	"BQ Settlement Instance Record"	String
+""	2	"inout"	"Settlement Feature Schedule"	"BQ Settlement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Settlement Instance Record"	Business Service
+""	4	"inout"	"Settlement Postconditions"	"BQ Settlement Instance Record"	String
+""	5	"inout"	"Settlement Service Type"	"BQ Settlement Instance Record"	String
+""	6	"inout"	"Settlement Service Description"	"BQ Settlement Instance Record"	String
+""	7	"inout"	"Settlement Service Inputs and Ouputs"	"BQ Settlement Instance Record"	String
+""	8	"inout"	"Settlement Service Work Product"	"BQ Settlement Instance Record"	String
+""	9	"inout"	"Settlement Service Name"	"BQ Settlement Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/custody-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Custody Arrangement Parameter Type"	"CR Custody Arrangement Instance Record"	String
+""	2	"inout"	"Custody Arrangement Selected Option"	"CR Custody Arrangement Instance Record"	String
+""	3	"in"	"Custody Arrangement Type"	"CR Custody Arrangement Instance Record"	String
+""	4	"in"	"Custody Arrangement Reference"	"CR Custody Arrangement Instance Record"	Object
+""	5	"inout"	"Custody Arrangement Schedule"	"CR Custody Arrangement Instance Record"	String
+""	6	"inout"	"Custody Arrangement Status"	"CR Custody Arrangement Instance Record"	String
+""	7	"in"	"Custody Arrangement Currency"	"CR Custody Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Custody Arrangement Regulation Reference"	"CR Custody Arrangement Instance Record"	Object
+""	9	"in"	"Custody Arrangement Regulation Type"	"CR Custody Arrangement Instance Record"	String
+""	10	"in"	"Custody Arrangement Jurisdiction"	"CR Custody Arrangement Instance Record"	String
+""	11	"in"	"Custody Arrangement Booking Location"	"CR Custody Arrangement Instance Record"	String
+""	12	"in"	"Custody Arrangement Account Type"	"CR Custody Arrangement Instance Record"	String
+""	13	"in"	"Custody Arrangement Account Reference"	"CR Custody Arrangement Instance Record"	Object
+""
+"Post"	"/custody-administration/{sd-identifier}/dividends-and--interest/{crbq-identifier}/initiation"
+""	1	"inout"	"Dividends and  Interest Preconditions"	"BQ Dividends and  Interest Instance Record"	String
+""	2	"inout"	"Dividends and  Interest Feature Schedule"	"BQ Dividends and  Interest Instance Record"	String
+""	3	"inout"	"Custody Dividends and Interest"	"BQ Dividends and  Interest Instance Record"	Business Service
+""	4	"inout"	"Dividends and  Interest Postconditions"	"BQ Dividends and  Interest Instance Record"	String
+""	5	"inout"	"Dividends and  Interest Custody Dividends and Interest Service Type"	"BQ Dividends and  Interest Instance Record"	String
+""	6	"inout"	"Dividends and  Interest Custody Dividends and Interest Service Description"	"BQ Dividends and  Interest Instance Record"	String
+""	7	"inout"	"Dividends and  Interest Custody Dividends and Interest Service Inputs and Ouputs"	"BQ Dividends and  Interest Instance Record"	String
+""	8	"inout"	"Dividends and  Interest Custody Dividends and Interest Service Work Product"	"BQ Dividends and  Interest Instance Record"	String
+""	9	"inout"	"Dividends and  Interest Custody Dividends and Interest Service Name"	"BQ Dividends and  Interest Instance Record"	String
+""
+"Post"	"/custody-administration/{sd-identifier}/fees/{crbq-identifier}/initiation"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Post"	"/custody-administration/{sd-identifier}/securities-reporting/{crbq-identifier}/initiation"
+""	1	"inout"	"Securities Reporting Preconditions"	"BQ Securities Reporting Instance Record"	String
+""	2	"inout"	"Securities Reporting Feature Schedule"	"BQ Securities Reporting Instance Record"	String
+""	3	"inout"	"Custody Securities Reporting"	"BQ Securities Reporting Instance Record"	Business Service
+""	4	"inout"	"Securities Reporting Postconditions"	"BQ Securities Reporting Instance Record"	String
+""	5	"inout"	"Securities Reporting Custody Securities Reporting Service Type"	"BQ Securities Reporting Instance Record"	String
+""	6	"inout"	"Securities Reporting Custody Securities Reporting Service Description"	"BQ Securities Reporting Instance Record"	String
+""	7	"inout"	"Securities Reporting Custody Securities Reporting Service Inputs and Ouputs"	"BQ Securities Reporting Instance Record"	String
+""	8	"inout"	"Securities Reporting Custody Securities Reporting Service Work Product"	"BQ Securities Reporting Instance Record"	String
+""	9	"inout"	"Securities Reporting Custody Securities Reporting Service Name"	"BQ Securities Reporting Instance Record"	String
+""
+"Post"	"/custody-administration/{sd-identifier}/settlement/{crbq-identifier}/initiation"
+""	1	"inout"	"Settlement Preconditions"	"BQ Settlement Instance Record"	String
+""	2	"inout"	"Settlement Feature Schedule"	"BQ Settlement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Settlement Instance Record"	Business Service
+""	4	"inout"	"Settlement Postconditions"	"BQ Settlement Instance Record"	String
+""	5	"inout"	"Settlement Service Type"	"BQ Settlement Instance Record"	String
+""	6	"inout"	"Settlement Service Description"	"BQ Settlement Instance Record"	String
+""	7	"inout"	"Settlement Service Inputs and Ouputs"	"BQ Settlement Instance Record"	String
+""	8	"inout"	"Settlement Service Work Product"	"BQ Settlement Instance Record"	String
+""	9	"inout"	"Settlement Service Name"	"BQ Settlement Instance Record"	String
+""
+"Post"	"/custody-administration/{sd-identifier}/custody-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Custody Arrangement Parameter Type"	"CR Custody Arrangement Instance Record"	String
+""	2	"inout"	"Custody Arrangement Selected Option"	"CR Custody Arrangement Instance Record"	String
+""	3	"in"	"Custody Arrangement Type"	"CR Custody Arrangement Instance Record"	String
+""	4	"in"	"Custody Arrangement Reference"	"CR Custody Arrangement Instance Record"	Object
+""	5	"inout"	"Custody Arrangement Schedule"	"CR Custody Arrangement Instance Record"	String
+""	6	"inout"	"Custody Arrangement Status"	"CR Custody Arrangement Instance Record"	String
+""	7	"in"	"Custody Arrangement Currency"	"CR Custody Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Custody Arrangement Regulation Reference"	"CR Custody Arrangement Instance Record"	Object
+""	9	"in"	"Custody Arrangement Regulation Type"	"CR Custody Arrangement Instance Record"	String
+""	10	"in"	"Custody Arrangement Jurisdiction"	"CR Custody Arrangement Instance Record"	String
+""	11	"in"	"Custody Arrangement Booking Location"	"CR Custody Arrangement Instance Record"	String
+""	12	"in"	"Custody Arrangement Account Type"	"CR Custody Arrangement Instance Record"	String
+""	13	"in"	"Custody Arrangement Account Reference"	"CR Custody Arrangement Instance Record"	Object
+""
+"Get"	"/custody-administration/{sd-identifier}/dividends-and--interest/{crbq-identifier}/retrieval"
+""	1	"out"	"Dividends and  Interest Preconditions"	"BQ Dividends and  Interest Instance Record"	String
+""	2	"out"	"Dividends and  Interest Feature Schedule"	"BQ Dividends and  Interest Instance Record"	String
+""	3	"out"	"Custody Dividends and Interest"	"BQ Dividends and  Interest Instance Record"	Business Service
+""	4	"out"	"Dividends and  Interest Postconditions"	"BQ Dividends and  Interest Instance Record"	String
+""	5	"out"	"Dividends and  Interest Custody Dividends and Interest Service Type"	"BQ Dividends and  Interest Instance Record"	String
+""	6	"out"	"Dividends and  Interest Custody Dividends and Interest Service Description"	"BQ Dividends and  Interest Instance Record"	String
+""	7	"out"	"Dividends and  Interest Custody Dividends and Interest Service Inputs and Ouputs"	"BQ Dividends and  Interest Instance Record"	String
+""	8	"out"	"Dividends and  Interest Custody Dividends and Interest Service Work Product"	"BQ Dividends and  Interest Instance Record"	String
+""	9	"out"	"Dividends and  Interest Custody Dividends and Interest Service Name"	"BQ Dividends and  Interest Instance Record"	String
+""
+"Get"	"/custody-administration/{sd-identifier}/fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"out"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"out"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"out"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"out"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"out"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"out"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"out"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Get"	"/custody-administration/{sd-identifier}/safe-keeping/{crbq-identifier}/retrieval"
+""	1	"out"	"Safe Keeping Preconditions"	"BQ Safe Keeping Instance Record"	String
+""	2	"out"	"Safe Keeping Feature Schedule"	"BQ Safe Keeping Instance Record"	String
+""	3	"out"	"Securities Safe Keeping"	"BQ Safe Keeping Instance Record"	Business Service
+""	4	"out"	"Safe Keeping Postconditions"	"BQ Safe Keeping Instance Record"	String
+""	5	"out"	"Safe Keeping Securities Safe Keeping Service Type"	"BQ Safe Keeping Instance Record"	String
+""	6	"out"	"Safe Keeping Securities Safe Keeping Service Description"	"BQ Safe Keeping Instance Record"	String
+""	7	"out"	"Safe Keeping Securities Safe Keeping Service Inputs and Ouputs"	"BQ Safe Keeping Instance Record"	String
+""	8	"out"	"Safe Keeping Securities Safe Keeping Service Work Product"	"BQ Safe Keeping Instance Record"	String
+""	9	"out"	"Safe Keeping Securities Safe Keeping Service Name"	"BQ Safe Keeping Instance Record"	String
+""
+"Get"	"/custody-administration/{sd-identifier}/securities-reporting/{crbq-identifier}/retrieval"
+""	1	"out"	"Securities Reporting Preconditions"	"BQ Securities Reporting Instance Record"	String
+""	2	"out"	"Securities Reporting Feature Schedule"	"BQ Securities Reporting Instance Record"	String
+""	3	"out"	"Custody Securities Reporting"	"BQ Securities Reporting Instance Record"	Business Service
+""	4	"out"	"Securities Reporting Postconditions"	"BQ Securities Reporting Instance Record"	String
+""	5	"out"	"Securities Reporting Custody Securities Reporting Service Type"	"BQ Securities Reporting Instance Record"	String
+""	6	"out"	"Securities Reporting Custody Securities Reporting Service Description"	"BQ Securities Reporting Instance Record"	String
+""	7	"out"	"Securities Reporting Custody Securities Reporting Service Inputs and Ouputs"	"BQ Securities Reporting Instance Record"	String
+""	8	"out"	"Securities Reporting Custody Securities Reporting Service Work Product"	"BQ Securities Reporting Instance Record"	String
+""	9	"out"	"Securities Reporting Custody Securities Reporting Service Name"	"BQ Securities Reporting Instance Record"	String
+""
+"Get"	"/custody-administration/{sd-identifier}/settlement/{crbq-identifier}/retrieval"
+""	1	"out"	"Settlement Preconditions"	"BQ Settlement Instance Record"	String
+""	2	"out"	"Settlement Feature Schedule"	"BQ Settlement Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Settlement Instance Record"	Business Service
+""	4	"out"	"Settlement Postconditions"	"BQ Settlement Instance Record"	String
+""	5	"out"	"Settlement Service Type"	"BQ Settlement Instance Record"	String
+""	6	"out"	"Settlement Service Description"	"BQ Settlement Instance Record"	String
+""	7	"out"	"Settlement Service Inputs and Ouputs"	"BQ Settlement Instance Record"	String
+""	8	"out"	"Settlement Service Work Product"	"BQ Settlement Instance Record"	String
+""	9	"out"	"Settlement Service Name"	"BQ Settlement Instance Record"	String
+""
+"Get"	"/custody-administration/{sd-identifier}/custody-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Custody Arrangement Parameter Type"	"CR Custody Arrangement Instance Record"	String
+""	2	"out"	"Custody Arrangement Selected Option"	"CR Custody Arrangement Instance Record"	String
+""	3	"out"	"Custody Arrangement Type"	"CR Custody Arrangement Instance Record"	String
+""	4	"out"	"Custody Arrangement Reference"	"CR Custody Arrangement Instance Record"	Object
+""	5	"out"	"Custody Arrangement Schedule"	"CR Custody Arrangement Instance Record"	String
+""	6	"out"	"Custody Arrangement Status"	"CR Custody Arrangement Instance Record"	String
+""	7	"out"	"Custody Arrangement Currency"	"CR Custody Arrangement Instance Record"	CurrencyCode
+""	8	"out"	"Custody Arrangement Regulation Reference"	"CR Custody Arrangement Instance Record"	Object
+""	9	"out"	"Custody Arrangement Regulation Type"	"CR Custody Arrangement Instance Record"	String
+""	10	"out"	"Custody Arrangement Jurisdiction"	"CR Custody Arrangement Instance Record"	String
+""	11	"out"	"Custody Arrangement Booking Location"	"CR Custody Arrangement Instance Record"	String
+""	12	"out"	"Custody Arrangement Account Type"	"CR Custody Arrangement Instance Record"	String
+""	13	"out"	"Custody Arrangement Account Reference"	"CR Custody Arrangement Instance Record"	Object
+""
+"Put"	"/custody-administration/{sd-identifier}/safe-keeping/{crbq-identifier}/requisition"
+""	1	"inout"	"Safe Keeping Preconditions"	"BQ Safe Keeping Instance Record"	String
+""	2	"inout"	"Safe Keeping Feature Schedule"	"BQ Safe Keeping Instance Record"	String
+""	3	"inout"	"Securities Safe Keeping"	"BQ Safe Keeping Instance Record"	Business Service
+""	4	"inout"	"Safe Keeping Postconditions"	"BQ Safe Keeping Instance Record"	String
+""	5	"inout"	"Safe Keeping Securities Safe Keeping Service Type"	"BQ Safe Keeping Instance Record"	String
+""	6	"inout"	"Safe Keeping Securities Safe Keeping Service Description"	"BQ Safe Keeping Instance Record"	String
+""	7	"inout"	"Safe Keeping Securities Safe Keeping Service Inputs and Ouputs"	"BQ Safe Keeping Instance Record"	String
+""	8	"inout"	"Safe Keeping Securities Safe Keeping Service Work Product"	"BQ Safe Keeping Instance Record"	String
+""	9	"inout"	"Safe Keeping Securities Safe Keeping Service Name"	"BQ Safe Keeping Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/securities-reporting/{crbq-identifier}/requisition"
+""	1	"inout"	"Securities Reporting Preconditions"	"BQ Securities Reporting Instance Record"	String
+""	2	"inout"	"Securities Reporting Feature Schedule"	"BQ Securities Reporting Instance Record"	String
+""	3	"inout"	"Custody Securities Reporting"	"BQ Securities Reporting Instance Record"	Business Service
+""	4	"inout"	"Securities Reporting Postconditions"	"BQ Securities Reporting Instance Record"	String
+""	5	"inout"	"Securities Reporting Custody Securities Reporting Service Type"	"BQ Securities Reporting Instance Record"	String
+""	6	"inout"	"Securities Reporting Custody Securities Reporting Service Description"	"BQ Securities Reporting Instance Record"	String
+""	7	"inout"	"Securities Reporting Custody Securities Reporting Service Inputs and Ouputs"	"BQ Securities Reporting Instance Record"	String
+""	8	"inout"	"Securities Reporting Custody Securities Reporting Service Work Product"	"BQ Securities Reporting Instance Record"	String
+""	9	"inout"	"Securities Reporting Custody Securities Reporting Service Name"	"BQ Securities Reporting Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/settlement/{crbq-identifier}/requisition"
+""	1	"inout"	"Settlement Preconditions"	"BQ Settlement Instance Record"	String
+""	2	"inout"	"Settlement Feature Schedule"	"BQ Settlement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Settlement Instance Record"	Business Service
+""	4	"inout"	"Settlement Postconditions"	"BQ Settlement Instance Record"	String
+""	5	"inout"	"Settlement Service Type"	"BQ Settlement Instance Record"	String
+""	6	"inout"	"Settlement Service Description"	"BQ Settlement Instance Record"	String
+""	7	"inout"	"Settlement Service Inputs and Ouputs"	"BQ Settlement Instance Record"	String
+""	8	"inout"	"Settlement Service Work Product"	"BQ Settlement Instance Record"	String
+""	9	"inout"	"Settlement Service Name"	"BQ Settlement Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/custody-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Custody Arrangement Parameter Type"	"CR Custody Arrangement Instance Record"	String
+""	2	"inout"	"Custody Arrangement Selected Option"	"CR Custody Arrangement Instance Record"	String
+""	3	"in"	"Custody Arrangement Type"	"CR Custody Arrangement Instance Record"	String
+""	4	"in"	"Custody Arrangement Reference"	"CR Custody Arrangement Instance Record"	Object
+""	5	"inout"	"Custody Arrangement Schedule"	"CR Custody Arrangement Instance Record"	String
+""	6	"inout"	"Custody Arrangement Status"	"CR Custody Arrangement Instance Record"	String
+""	7	"in"	"Custody Arrangement Currency"	"CR Custody Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Custody Arrangement Regulation Reference"	"CR Custody Arrangement Instance Record"	Object
+""	9	"in"	"Custody Arrangement Regulation Type"	"CR Custody Arrangement Instance Record"	String
+""	10	"in"	"Custody Arrangement Jurisdiction"	"CR Custody Arrangement Instance Record"	String
+""	11	"in"	"Custody Arrangement Booking Location"	"CR Custody Arrangement Instance Record"	String
+""	12	"in"	"Custody Arrangement Account Type"	"CR Custody Arrangement Instance Record"	String
+""	13	"in"	"Custody Arrangement Account Reference"	"CR Custody Arrangement Instance Record"	Object
+""
+"Put"	"/custody-administration/{sd-identifier}/fees/{crbq-identifier}/update"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/safe-keeping/{crbq-identifier}/update"
+""	1	"inout"	"Safe Keeping Preconditions"	"BQ Safe Keeping Instance Record"	String
+""	2	"inout"	"Safe Keeping Feature Schedule"	"BQ Safe Keeping Instance Record"	String
+""	3	"inout"	"Securities Safe Keeping"	"BQ Safe Keeping Instance Record"	Business Service
+""	4	"inout"	"Safe Keeping Postconditions"	"BQ Safe Keeping Instance Record"	String
+""	5	"inout"	"Safe Keeping Securities Safe Keeping Service Type"	"BQ Safe Keeping Instance Record"	String
+""	6	"inout"	"Safe Keeping Securities Safe Keeping Service Description"	"BQ Safe Keeping Instance Record"	String
+""	7	"inout"	"Safe Keeping Securities Safe Keeping Service Inputs and Ouputs"	"BQ Safe Keeping Instance Record"	String
+""	8	"inout"	"Safe Keeping Securities Safe Keeping Service Work Product"	"BQ Safe Keeping Instance Record"	String
+""	9	"inout"	"Safe Keeping Securities Safe Keeping Service Name"	"BQ Safe Keeping Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/settlement/{crbq-identifier}/update"
+""	1	"inout"	"Settlement Preconditions"	"BQ Settlement Instance Record"	String
+""	2	"inout"	"Settlement Feature Schedule"	"BQ Settlement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Settlement Instance Record"	Business Service
+""	4	"inout"	"Settlement Postconditions"	"BQ Settlement Instance Record"	String
+""	5	"inout"	"Settlement Service Type"	"BQ Settlement Instance Record"	String
+""	6	"inout"	"Settlement Service Description"	"BQ Settlement Instance Record"	String
+""	7	"inout"	"Settlement Service Inputs and Ouputs"	"BQ Settlement Instance Record"	String
+""	8	"inout"	"Settlement Service Work Product"	"BQ Settlement Instance Record"	String
+""	9	"inout"	"Settlement Service Name"	"BQ Settlement Instance Record"	String
+""
+"Put"	"/custody-administration/{sd-identifier}/custody-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Custody Arrangement Parameter Type"	"CR Custody Arrangement Instance Record"	String
+""	2	"inout"	"Custody Arrangement Selected Option"	"CR Custody Arrangement Instance Record"	String
+""	3	"in"	"Custody Arrangement Type"	"CR Custody Arrangement Instance Record"	String
+""	4	"in"	"Custody Arrangement Reference"	"CR Custody Arrangement Instance Record"	Object
+""	5	"inout"	"Custody Arrangement Schedule"	"CR Custody Arrangement Instance Record"	String
+""	6	"inout"	"Custody Arrangement Status"	"CR Custody Arrangement Instance Record"	String
+""	7	"in"	"Custody Arrangement Currency"	"CR Custody Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Custody Arrangement Regulation Reference"	"CR Custody Arrangement Instance Record"	Object
+""	9	"in"	"Custody Arrangement Regulation Type"	"CR Custody Arrangement Instance Record"	String
+""	10	"in"	"Custody Arrangement Jurisdiction"	"CR Custody Arrangement Instance Record"	String
+""	11	"in"	"Custody Arrangement Booking Location"	"CR Custody Arrangement Instance Record"	String
+""	12	"in"	"Custody Arrangement Account Type"	"CR Custody Arrangement Instance Record"	String
+""	13	"in"	"Custody Arrangement Account Reference"	"CR Custody Arrangement Instance Record"	Object

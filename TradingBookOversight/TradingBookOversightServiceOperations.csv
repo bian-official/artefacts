@@ -1,0 +1,5 @@
+"Service Operations for: "	Trading Book Oversight
+"Control Record Model for Trading Book Oversight is not defined"
+"POST"	"/trading-book-oversight/activation"
+"PUT"	"/trading-book-oversight/{sd-reference-id}/configuration"
+"PUT"	"/trading-book-oversight/{sd-reference-id}/feedback"

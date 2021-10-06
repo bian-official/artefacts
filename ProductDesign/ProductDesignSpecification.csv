@@ -1,0 +1,13 @@
+"Service Domain specification for Product Design"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Product Design
+"Role Definition"	"Design and refine bank product and service specifications. This addresses multiple aspects including the core product specification definition, legal, tax and regulatory compliance, pricing, risk and performance assessments, testing and supporting systems and production requirements definition"
+"Example of use"	"Product management identifies an opportunity to amend key features of a product to target a market segment"
+"Executive Summary"	"Develop/refine product designs and supporting specification details"
+"Key Features"	"Consolidate desired product/service features and requirements. Define and develop product/service specifications . Deploy, process feedback and refine/tune product/service specifications"
+"Functional Pattern"	Design
+"Asset Type"	ProductandService
+"Generic Artifact"	Specification
+"Control Record"	ProductorServiceSpecification
+"Registration Status"	Registered

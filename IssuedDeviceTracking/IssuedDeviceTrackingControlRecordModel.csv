@@ -1,0 +1,23 @@
+"Control Record Model for: "	Issued Device Tracking
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Issued Device State Instance Record	""	""	""
+"CR"	CR Issued Device State Instance Record	Information Feed Provider Reference	"Reference to the external information feed service supplier (IP) providing device status reports"	Object
+"CR"	CR Issued Device State Instance Record	Issued Device Allocation Instance Reference	"Reference to the issued device, include its status as maintained by administration"	Object
+"CR"	CR Issued Device State Instance Record	Issued Device Allocation Status	"Is the status of the issued device that is updated"	String
+"BQ"	BQ Internal Notification Instance Record	""	""	""
+"BQ"	BQ Internal Notification Instance Record	Issued Device Reference	"Provided reference to the target issued device"	Object
+"BQ"	BQ Internal Notification Instance Record	Issued Device Type	"Type of issued device being notified"	String
+"BQ"	BQ Internal Notification Instance Record	Customer Reference	"Reference to the associated customer if applicable"	Object
+"BQ"	BQ Internal Notification Instance Record	Product Instance Reference	"Reference to the associated product instance if appropriate"	Object
+"BQ"	BQ Internal Notification Instance Record	Status Update Details	"The details of the status update (e.g. reported lost or stolen device, device broken)"	String
+"BQ"	BQ Internal Notification Instance Record	Status Update Result	"The response to the status update request (e.g. update processed)"	String
+"BQ"	BQ Internal Notification Instance Record	Date	"Key dates and times associated with the notification"	String
+"BQ"	BQ External Report Instance Record	""	""	""
+"BQ"	BQ External Report Instance Record	Information Feed Service Content Record	"Is the record of the information notified by the IP that can reference a single device notification or a batch file covering multiple devices"	String
+"BQ"	BQ External Report Instance Record	Issued Device Reference	"Provided reference to the target issued device in the form defined by the IP"	Object
+"BQ"	BQ External Report Instance Record	Issued Device Type	"Type of issued device being notified in the form defined by the IP"	String
+"BQ"	BQ External Report Instance Record	Customer Reference	"Reference to the associated customer in the form defined by the IP"	Object
+"BQ"	BQ External Report Instance Record	Product Instance Reference	"Reference to the associated product instance in the form defined by the IP"	Object
+"BQ"	BQ External Report Instance Record	Status Update Details	"The details of the status update (e.g. reported lost or stolen device, device broken)"	String
+"BQ"	BQ External Report Instance Record	Status Update Result	"The response to the status update request (e.g. update processed)"	String
+"BQ"	BQ External Report Instance Record	Date	"Key dates and times associated with the external notification"	String

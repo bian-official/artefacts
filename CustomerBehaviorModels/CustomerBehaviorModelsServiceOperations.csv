@@ -1,0 +1,159 @@
+"Service Operations for: "	Customer Behavior Models
+""
+"POST"	"/customer-behavior-models/activation"
+"PUT"	"/customer-behavior-models/{sd-reference-id}/configuration"
+"PUT"	"/customer-behavior-models/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-behavior-models/{sd-identifier}/customer-behavior-model-specification/{crbq-identifier}/creation"
+""	1	"in"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"inout"	"Customer Behavior Model Purpose"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"inout"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"in"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	5	"inout"	"Customer Behavior Model Deployment Configuration"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"out"	"Customer Behavior Model Deployment Task Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	7	"out"	"Customer Behavior Model Deployment Task Record"	"CR Customer Behavior Model Specification Instance Record"	String
+""	8	"inout"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	9	"inout"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	10	"inout"	"Customer Behavior Model Impact"	"CR Customer Behavior Model Specification Instance Record"	String
+""	11	"out"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/customer-behavior-model-specification/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"out"	"Customer Behavior Model Purpose"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"inout"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"in"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	5	"out"	"Customer Behavior Model Deployment Configuration"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"out"	"Customer Behavior Model Deployment Task Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	7	"out"	"Customer Behavior Model Deployment Task Record"	"CR Customer Behavior Model Specification Instance Record"	String
+""	8	"out"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	9	"out"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	10	"inout"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/customer-behavior-model-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"out"	"Customer Behavior Model Purpose"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"inout"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"in"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	5	"out"	"Customer Behavior Model Deployment Configuration"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"out"	"Customer Behavior Model Deployment Task Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	7	"out"	"Customer Behavior Model Deployment Task Record"	"CR Customer Behavior Model Specification Instance Record"	String
+""	8	"out"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	9	"out"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	10	"inout"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""
+"Get"	"/customer-behavior-models/{sd-identifier}/customer-behavior-model-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"out"	"Customer Behavior Model Purpose"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"out"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"out"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	5	"out"	"Customer Behavior Model Deployment Configuration"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"out"	"Customer Behavior Model Deployment Task Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	7	"out"	"Customer Behavior Model Deployment Task Record"	"CR Customer Behavior Model Specification Instance Record"	String
+""	8	"out"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	9	"out"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	10	"out"	"Customer Behavior Model Impact"	"CR Customer Behavior Model Specification Instance Record"	String
+""	11	"out"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/functional-requirements/{crbq-identifier}/update"
+""	1	"inout"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"inout"	"Customer Behavior Model Purpose"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"inout"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"inout"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	5	"inout"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"inout"	"Customer Behavior Model Design Task Reference"	"BQ Functional Requirements Instance Record"	Object
+""	7	"inout"	"Customer Behavior Model Design Task Record"	"BQ Functional Requirements Instance Record"	String
+""	8	"inout"	"Customer Behavior Model Feedback Record"	"BQ Functional Requirements Instance Record"	String
+""	9	"inout"	"Customer Behavior Model Requirements Specification"	"BQ Functional Requirements Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/functional-requirements/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/functional-requirements/{crbq-identifier}/capture"
+""	1	"in"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"in"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"in"	"Customer Behavior Model Feedback Record"	"BQ Functional Requirements Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/functional-requirements/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"in"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"in"	"Customer Behavior Model Impact"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"in"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	5	"in"	"Customer Behavior Model Requirements Specification"	"BQ Functional Requirements Instance Record"	String
+""
+"Get"	"/customer-behavior-models/{sd-identifier}/functional-requirements/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"out"	"Customer Behavior Model Purpose"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"out"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"out"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	5	"out"	"Customer Behavior Model Impact"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"out"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	7	"out"	"Customer Behavior Model Design Task Reference"	"BQ Functional Requirements Instance Record"	Object
+""	8	"out"	"Customer Behavior Model Design Task Record"	"BQ Functional Requirements Instance Record"	String
+""	9	"out"	"Customer/Market Data Service Reference"	"BQ Functional Requirements Instance Record"	Object
+""	10	"out"	"Customer/Market Data Record"	"BQ Functional Requirements Instance Record"	String
+""	11	"out"	"Customer Behavior Model Feedback Record"	"BQ Functional Requirements Instance Record"	String
+""	12	"out"	"Customer Behavior Model Requirements Specification"	"BQ Functional Requirements Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/testing/{crbq-identifier}/update"
+""	1	"in"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"in"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"in"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	4	"in"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	5	"inout"	"Customer Behavior Model Test Reference"	"BQ Testing Instance Record"	Object
+""	6	"inout"	"Customer Behavior Model Test Type"	"BQ Testing Instance Record"	String
+""	7	"inout"	"Customer Behavior Model Test Harness Reference"	"BQ Testing Instance Record"	Object
+""	8	"inout"	"Customer Behavior Model Test Result"	"BQ Testing Instance Record"	String
+""	9	"inout"	"Customer Behavior Model Testing Task Reference"	"BQ Testing Instance Record"	Object
+""	10	"inout"	"Customer Behavior Model Testing Task Record"	"BQ Testing Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/testing/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-behavior-models/{sd-identifier}/testing/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Behavior Model Type"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"out"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	4	"out"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	5	"out"	"Customer Behavior Model Test Reference"	"BQ Testing Instance Record"	Object
+""	6	"out"	"Customer Behavior Model Test Type"	"BQ Testing Instance Record"	String
+""	7	"out"	"Customer Behavior Model Test Harness Reference"	"BQ Testing Instance Record"	Object
+""	8	"out"	"Customer Behavior Model Test Result"	"BQ Testing Instance Record"	String
+""	9	"out"	"Customer Behavior Model Testing Task Reference"	"BQ Testing Instance Record"	Object
+""	10	"out"	"Customer Behavior Model Testing Task Record"	"BQ Testing Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/production/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	3	"out"	"Customer Behavior Model Deployment Configuration"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"out"	"Customer Behavior Model Deployment Task Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	5	"out"	"Customer Behavior Model Deployment Task Record"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"out"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	7	"out"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	8	"inout"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	9	"out"	"Customer Behavior Model Operational Requirements"	"BQ Production Instance Record"	String
+""	10	"out"	"Customer Behavior Model Allowed Usage"	"BQ Production Instance Record"	String
+""	11	"out"	"Customer Behavior Model Usage Guidelines"	"BQ Production Instance Record"	String
+""
+"Put"	"/customer-behavior-models/{sd-identifier}/production/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"in"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	3	"out"	"Customer Behavior Model Deployment Configuration"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"out"	"Customer Behavior Model Deployment Task Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	5	"out"	"Customer Behavior Model Deployment Task Record"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"out"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	7	"out"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	8	"inout"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	9	"out"	"Customer Behavior Model Operational Requirements"	"BQ Production Instance Record"	String
+""	10	"out"	"Customer Behavior Model Allowed Usage"	"BQ Production Instance Record"	String
+""	11	"out"	"Customer Behavior Model Usage Guidelines"	"BQ Production Instance Record"	String
+""
+"Get"	"/customer-behavior-models/{sd-identifier}/production/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Behavior Model Deployment"	"CR Customer Behavior Model Specification Instance Record"	String
+""	2	"out"	"Employee/Business Unit Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	3	"out"	"Customer Behavior Model Deployment Configuration"	"CR Customer Behavior Model Specification Instance Record"	String
+""	4	"out"	"Customer Behavior Model Deployment Task Reference"	"CR Customer Behavior Model Specification Instance Record"	Object
+""	5	"out"	"Customer Behavior Model Deployment Task Record"	"CR Customer Behavior Model Specification Instance Record"	String
+""	6	"out"	"Customer Behavior Model Status"	"CR Customer Behavior Model Specification Instance Record"	String
+""	7	"out"	"Customer Behavior Model Usage"	"CR Customer Behavior Model Specification Instance Record"	String
+""	8	"out"	"Customer Behavior Model Version"	"CR Customer Behavior Model Specification Instance Record"	String
+""	9	"out"	"Customer Behavior Model Operational Requirements"	"BQ Production Instance Record"	String
+""	10	"out"	"Customer Behavior Model Allowed Usage"	"BQ Production Instance Record"	String
+""	11	"out"	"Customer Behavior Model Usage Guidelines"	"BQ Production Instance Record"	String

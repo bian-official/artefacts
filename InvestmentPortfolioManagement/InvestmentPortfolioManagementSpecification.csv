@@ -1,0 +1,13 @@
+"Service Domain specification for Investment Portfolio Management"
+"Business Area"	Customers
+"Business Domain"	Investment Services
+"Service Domain"	Investment Portfolio Management
+"Role Definition"	"Orchestrate the investment/ rebalancing of an investment portfolio to optimize gains remaining within the terms of the portfolio 'charter' or agreement"
+"Example of use"	"An investment manager monitoring the markets determines that an identified opportunity can be exploited for the portfolio, remaining in line with the portfolio policies"
+"Executive Summary"	"Manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies"
+"Key Features"	"Monitor market for opportunities/threats. Match identified trading opportunity to investment portfolio policies. Initiate market trades to rebalance/improve portfolio make-up"
+"Functional Pattern"	Fulfill
+"Asset Type"	ManagedInvestmentPortfolio
+"Generic Artifact"	Facility (rename)
+"Control Record"	ManagedInvestmentPortfolioArrangement
+"Registration Status"	Registered

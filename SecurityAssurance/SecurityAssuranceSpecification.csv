@@ -1,0 +1,13 @@
+"Service Domain specification for Security Assurance"
+"Business Area"	Business Management
+"Business Domain"	Corporate Services
+"Service Domain"	Security Assurance
+"Role Definition"	"Maintain and apply a portfolio of security assurance checks, target selective assurance tests to ensure security countermeasures are in place and appropriate"
+"Example of use"	"A security check of a new product operation is performed considering multiple threat categories"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Assess
+"Asset Type"	SecurityCompliance
+"Generic Artifact"	Assessment
+"Control Record"	SecurityComplianceAssessment
+"Registration Status"	Registered

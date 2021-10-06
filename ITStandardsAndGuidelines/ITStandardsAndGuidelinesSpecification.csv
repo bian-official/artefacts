@@ -1,0 +1,13 @@
+"Service Domain specification for IT Standards And Guidelines"
+"Business Area"	Business Development
+"Business Domain"	Solution Development
+"Service Domain"	IT Standards And Guidelines
+"Role Definition"	"Develop, maintain and enforce IT architectures, systems related policies and standards as appropriate. Select from industry standards, commercially available development and production environments, infrastructure platforms, systems development and deployment tooling and IT utilities/libraries. Define the IT acquisition, development, maintenance and usage guidelines and policies governing systems development and production use across the enterprise"
+"Example of use"	"Example of use:. A review of available IT tooling is performed to identify recommended tooling for application development"
+"Executive Summary"	"Define and apply comprehensive IT architectures, policies and standards as appropriate. Also define the IT usage guidelines and procedures governing systems use across the enterprise"
+"Key Features"	"Define IT Policies and Guidelines. Select and apply IT standards. Select technology platforms and technology for development and production. Select preferred IT tools and utilities for development and production"
+"Functional Pattern"	Design
+"Asset Type"	TechnologyStandards
+"Generic Artifact"	Specification
+"Control Record"	TechnologyStandardsSpecification
+"Registration Status"	Registered

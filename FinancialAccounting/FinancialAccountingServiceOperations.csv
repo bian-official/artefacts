@@ -1,0 +1,49 @@
+"Service Operations for: "	Financial Accounting
+""
+"POST"	"/financial-accounting/activation"
+"PUT"	"/financial-accounting/{sd-reference-id}/configuration"
+"PUT"	"/financial-accounting/{sd-reference-id}/feedback"
+""
+"Post"	"/financial-accounting/{sd-identifier}/financial-booking-log/{crbq-identifier}/initiation"
+""	1	"in"	"Financial Account Type"	"CR Financial Booking Log Instance Record"	String
+""	2	"in"	"Product/Service Reference"	"CR Financial Booking Log Instance Record"	Object
+""	3	"in"	"Business Unit Reference"	"CR Financial Booking Log Instance Record"	Object
+""	4	"in"	"Chart of Account/Booking Rules"	"CR Financial Booking Log Instance Record"	String
+""	5	"in"	"Base Currency"	"CR Financial Booking Log Instance Record"	CurrencyCode
+""	6	"out"	"Status"	"CR Financial Booking Log Instance Record"	String
+""
+"Put"	"/financial-accounting/{sd-identifier}/financial-booking-log/{crbq-identifier}/update"
+""	1	"inout"	"Financial Account Type"	"CR Financial Booking Log Instance Record"	String
+""	2	"inout"	"Product/Service Reference"	"CR Financial Booking Log Instance Record"	Object
+""	3	"inout"	"Business Unit Reference"	"CR Financial Booking Log Instance Record"	Object
+""	4	"inout"	"Chart of Account/Booking Rules"	"CR Financial Booking Log Instance Record"	String
+""	5	"inout"	"Base Currency"	"CR Financial Booking Log Instance Record"	CurrencyCode
+""	6	"inout"	"Status"	"CR Financial Booking Log Instance Record"	String
+""
+"Put"	"/financial-accounting/{sd-identifier}/financial-booking-log/{crbq-identifier}/control"
+""
+"Get"	"/financial-accounting/{sd-identifier}/financial-booking-log/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Account Type"	"CR Financial Booking Log Instance Record"	String
+""	2	"out"	"Product/Service Reference"	"CR Financial Booking Log Instance Record"	Object
+""	3	"out"	"Business Unit Reference"	"CR Financial Booking Log Instance Record"	Object
+""	4	"out"	"Chart of Account/Booking Rules"	"CR Financial Booking Log Instance Record"	String
+""	5	"out"	"Base Currency"	"CR Financial Booking Log Instance Record"	CurrencyCode
+""	6	"out"	"Status"	"CR Financial Booking Log Instance Record"	String
+""
+"Put"	"/financial-accounting/{sd-identifier}/ledger-posting/{crbq-identifier}/update"
+""	1	"inout"	"Posting Direction"	"BQ Ledger Posting Instance Record"	String
+""	2	"inout"	"Posting Amount (credit/debit pair)"	"BQ Ledger Posting Instance Record"	Amount
+""	3	"inout"	"Posting Value Date"	"BQ Ledger Posting Instance Record"	Date
+""	4	"inout"	"Posting Result"	"BQ Ledger Posting Instance Record"	String
+""
+"Put"	"/financial-accounting/{sd-identifier}/ledger-posting/{crbq-identifier}/capture"
+""	1	"in"	"Posting Direction"	"BQ Ledger Posting Instance Record"	String
+""	2	"in"	"Posting Amount (credit/debit pair)"	"BQ Ledger Posting Instance Record"	Amount
+""	3	"in"	"Posting Value Date"	"BQ Ledger Posting Instance Record"	Date
+""	4	"out"	"Posting Result"	"BQ Ledger Posting Instance Record"	String
+""
+"Get"	"/financial-accounting/{sd-identifier}/ledger-posting/{crbq-identifier}/retrieval"
+""	1	"out"	"Posting Direction"	"BQ Ledger Posting Instance Record"	String
+""	2	"out"	"Posting Amount (credit/debit pair)"	"BQ Ledger Posting Instance Record"	Amount
+""	3	"out"	"Posting Value Date"	"BQ Ledger Posting Instance Record"	Date
+""	4	"out"	"Posting Result"	"BQ Ledger Posting Instance Record"	String

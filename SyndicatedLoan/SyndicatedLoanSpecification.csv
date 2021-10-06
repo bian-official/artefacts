@@ -1,0 +1,13 @@
+"Service Domain specification for Syndicated Loan"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Syndicated Loan
+"Role Definition"	"This service domain fulfills a syndicated loan, including the coordination with syndicate members and clarification/administration of their obligations under the arrangement. It is assumed the bank is acting as the syndicate lead in this arrangement, coordinating with other lending banks in the syndicate in order to manage the transfer of funds. The syndicated loan can be for a single amount or be implemented as a more general loan facility that the customer can draw upon over its term. Note that initial customer offer processing may have covered many of these tasks informally, but once the syndicated loan initiation is made more formal syndicate arrangements must be established as an aspect of fulfillment handled here"
+"Example of use"	"Example of use:. A major corporate customer obtains a syndicated loan to finance a major project and the bank arranges to distribute the loan with several other interested banks to share the loan exposure"
+"Executive Summary"	"Handle the processing of syndicated loans with the bank playing the lead coordination role with other syndicate bank members. Note some initial preparation may have been made through prior customer offer processing."
+"Key Features"	"Negotiate the broad terms of the loan. Identify and build loan syndicate. Finalize loan terms and allocations/obligations across the syndicate. Originate the loan in coordination across the syndicate. Administer financial transfers, reporting and all other fulfilment actions over the term"
+"Functional Pattern"	Fulfill
+"Asset Type"	SyndicatedLoan
+"Generic Artifact"	Facility (rename)
+"Control Record"	SyndicatedLoanArrangement
+"Registration Status"	Registered

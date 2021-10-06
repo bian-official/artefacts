@@ -1,0 +1,13 @@
+"Service Domain specification for Correspondence"
+"Business Area"	Channels
+"Business Domain"	Distribution
+"Service Domain"	Correspondence
+"Role Definition"	"This service domain handles the automated generation of (batches of) pre-formatted correspondence. It also handles the tracking of expected responses to sent out mail requests and handles the matching of the response and the onward routing of these and all unsolicited inbound correspondence."
+"Example of use"	"A mail shot is generated for a customer campaign with an identified list of candidate customers and using a standard sales message"
+"Executive Summary"	"This service domain orchestrates the production of pre-formatted correspondence and batches of correspondence (e.g. mail shots)."
+"Key Features"	"Support access to different message delivery channels (snail mail, email, etc). Handle the creation and distribution of outbound correspondence (all media). Optimize correspondence services (batching/stuffing mail). Handle tracking of expected responses to outbound mail. Handle onward distribution of incoming mail."
+"Functional Pattern"	Operate
+"Asset Type"	Correspondence
+"Generic Artifact"	OperatingSession
+"Control Record"	CorrespondenceOperatingSession
+"Registration Status"	Registered

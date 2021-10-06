@@ -1,0 +1,13 @@
+"Service Domain specification for Position Management"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Market Risk
+"Service Domain"	Position Management
+"Role Definition"	"Maintain on-line and near-time cross account complex positions. Includes consolidated currency, instrument, sector and counterparty views as appropriate"
+"Example of use"	"Example of use:. A major corporate or institutional customer's consolidated position is refenced when the corporate customer sufferes a major incident"
+"Executive Summary"	"The Service Domain tracks the bank's consolidated financial positions for major customers and complex market conditions"
+"Key Features"	"Consolidate key transaction details. Evaluate likey position impact (absolute and estimated). Maintain position and supporting commentary/explanation. Notify trends and projected postion breaches"
+"Functional Pattern"	Monitor
+"Asset Type"	FinancialPosition
+"Generic Artifact"	State
+"Control Record"	FinancialPositionState
+"Registration Status"	Registered

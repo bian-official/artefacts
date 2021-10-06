@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Alliance and Stake Holder
+"Control Record Model for Corporate Alliance and Stake Holder is not defined"
+"POST"	"/corporate-alliance-and-stake-holder/activation"
+"PUT"	"/corporate-alliance-and-stake-holder/{sd-reference-id}/configuration"
+"PUT"	"/corporate-alliance-and-stake-holder/{sd-reference-id}/feedback"

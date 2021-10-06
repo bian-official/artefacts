@@ -1,0 +1,5 @@
+"Service Operations for: "	Order Allocation
+"Control Record Model for Order Allocation is not defined"
+"POST"	"/order-allocation/activation"
+"PUT"	"/order-allocation/{sd-reference-id}/configuration"
+"PUT"	"/order-allocation/{sd-reference-id}/feedback"

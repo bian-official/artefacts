@@ -1,0 +1,30 @@
+"Control Record Model for: "	Consumer Investments
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Consumer Securities Order Transaction Instance Record	""	""	""
+"CR"	CR Consumer Securities Order Transaction Instance Record	Consumer Securities Order Instruction Type	"The type of market order request (e.g. Customer discretion)"	String
+"CR"	CR Consumer Securities Order Transaction Instance Record	Customer Reference	"Reference to the account primary party/owner for the market order"	Object
+"CR"	CR Consumer Securities Order Transaction Instance Record	Employee/Business Unit Reference	"The employee/business unit placing the market order"	Object
+"CR"	CR Consumer Securities Order Transaction Instance Record	Investment Portfolio Instance Reference	"Reference to the associated customer investment portfolio record of all holdings (referenced to check securities availability if necessary)"	Object
+"CR"	CR Consumer Securities Order Transaction Instance Record	Consumer Securities Order Processing Instruction	"Any customer specific processing preferences or requirements"	String
+"CR"	CR Consumer Securities Order Transaction Instance Record	Document Directory Entry Instance Reference	"The document reference for the order confirmation notice"	Object
+"CR"	CR Consumer Securities Order Transaction Instance Record	Correspondence Instance Reference	"Reference to the correspondence generated for the order confirmation"	Object
+"CR"	CR Consumer Securities Order Transaction Instance Record	Consumer Securities Order Transaction	"The details of the market order transaction captured for the consumer securities trade"	String
+"CR"	CR Consumer Securities Order Transaction Instance Record	Investment Account Arrangement Instance Reference	"Reference to the underlying investment account supporting the transaction"	Object
+"CR"	CR Consumer Securities Order Transaction Instance Record	Current Account Arrangement Instance Reference	"Reference to the underlying cash account supporting the transaction"	Object
+"CR"	CR Consumer Securities Order Transaction Instance Record	Market Order Type	"The type of market order underlying the consumer securities order request (e.g. Day Order. Order on Open/Close, Fill or Kill, Limit Order - if allowed for consumer trading)"	String
+"CR"	CR Consumer Securities Order Transaction Instance Record	Security Type	"The security to be traded"	String
+"CR"	CR Consumer Securities Order Transaction Instance Record	Amount	"The volume of shares to be bought or sold"	String
+"CR"	CR Consumer Securities Order Transaction Instance Record	Date Type	"Key dates associated with the transaction (e.g. order capture, order execution, order completion)"	String
+"CR"	CR Consumer Securities Order Transaction Instance Record	Date	"Value of the specific date type"	String
+"BQ"	BQ Funding Check Instance Record	""	""	""
+"BQ"	BQ Funding Check Instance Record	Consumer Securities Order Transaction Funding Check Result	"The outcome of the funds available check"	String
+"BQ"	BQ Compliance Instance Record	""	""	""
+"BQ"	BQ Compliance Instance Record	Consumer Securities Order Transaction Compliance Check Type	"The type of compliance check performed (e.g. AML, Watch lists)"	String
+"BQ"	BQ Compliance Instance Record	Consumer Securities Order Transaction Compliance Check Result	"The outcome of the compliance check"	String
+"BQ"	BQ Compliance Instance Record	Consumer Securities Order Transaction Compliance Task Result	"Details of the overall compliance checking process"	String
+"BQ"	BQ Quote Instance Record	""	""	""
+"BQ"	BQ Quote Instance Record	Securities Price	"The prevailing bank buy/sell quote for the security"	String
+"BQ"	BQ Order Initiation Instance Record	""	""	""
+"BQ"	BQ Order Initiation Instance Record	Consumer Securities Order Transaction Instance Reference	"The reference to the market order. Note this can be the internal bank 'order' made against the bank's managed position and may not result in a matched trade in the wholesale markets"	Object
+"BQ"	BQ Order Initiation Instance Record	Consumer Securities Order Transaction  Instance Status	"The returned status of the customer securities order"	String
+"BQ"	BQ Order Initiation Instance Record	Consumer Securities Order Initiation Task Result	"Details of the market order initiation task"	String

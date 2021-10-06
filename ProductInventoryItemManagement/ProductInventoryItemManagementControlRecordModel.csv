@@ -1,0 +1,19 @@
+"Control Record Model for: "	Product Inventory Item Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Assignment Instance Record	""	""	""
+"BQ"	BQ Assignment Instance Record	Product Inventory Assignment Request Type	"Defines the type of assignment (e.g. to schedule, ad-hoc inventory request)"	String
+"BQ"	BQ Assignment Instance Record	Product Inventory Assignment Request Record	"Contains details of the product inventory request, in particular the item type, amount and delivery arrangements"	String
+"BQ"	BQ Assignment Instance Record	Product Inventory Assignment Delivery Record	"Details of the distribution of product inventory to a location"	String
+"BQ"	BQ Assignment Instance Record	Product Inventory Assignment Costs	"Details of inventory and delivery related costs"	String
+"BQ"	BQ Assignment Instance Record	Date Type	"Key dates associated with the assignment (e.g. order date, confirmation date, delivery date)"	String
+"BQ"	BQ Assignment Instance Record	Date	"Value of the specific date type"	String
+"CR"	CR Product Inventory Allocation Instance Record	""	""	""
+"CR"	CR Product Inventory Allocation Instance Record	Product Inventory Allocation Service Schedule	"Maintains the distribution schedule for all managed product inventory items. This includes all past distribution records and future scheduled deliveries"	String
+"CR"	CR Product Inventory Allocation Instance Record	Product Inventory Holdings	"The collection of product inventory items"	String
+"CR"	CR Product Inventory Allocation Instance Record	ProductandService Type	"The type or category of product or service for which inventory items are held (e.g. specialized consumer loan, relocation services)"	String
+"CR"	CR Product Inventory Allocation Instance Record	Product Inventory Item Type	"Reference to a specific type of product inventory item"	String
+"CR"	CR Product Inventory Allocation Instance Record	Product Inventory Item Record	"Details about a product inventory type holding"	String
+"CR"	CR Product Inventory Allocation Instance Record	Product Inventory Item Description	"Description of the inventory item used for selection/reference purposes"	String
+"CR"	CR Product Inventory Allocation Instance Record	Product Inventory Item Supplier Details	"Details as to the supplier details for obtaining additional items when required (includes ordering details, volumes and frequency, pricing, delivery timelines etc.)"	String
+"CR"	CR Product Inventory Allocation Instance Record	Product Inventory Used Locations	"Details the locations where the inventory item is distributed to and the minimum and maximum holding amounts and inventory renewal cycles (used to trigger/schedule renewal deliveries)"	String
+"CR"	CR Product Inventory Allocation Instance Record	Product Inventory Holding	"The current and projected holding and holding targets/limits by location - taking into account scheduled distribution plans"	String

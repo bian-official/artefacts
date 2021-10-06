@@ -1,0 +1,57 @@
+"Control Record Model for: "	Product Matching
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Product/Customer Combination Assessment Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Matching. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Parameter Type	"A Classification value that distinguishes between Assessments according to type of concern defined within Product/Customer Combination Assessment . Eg Market Analysis, Risk Analysis, Perfomance Analysis, etc."	String
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Selected Option	"A selected optional business service as subject matter of assessment"	String
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Type	"The type of Product/Customer Combination Assessment"	String
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Reference	"Reference to Product/Customer Combination Assessment"	Object
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Request	"Request to assess Product/CustomerCombination"	String
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Schedule	"Timetable to assess Product/CustomerCombination"	String
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Status	"The status of Product/Customer Combination Assessment"	String
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Usage Log	"Reference to the log of (usage) ativities/events of Product/Customer Combination Assessment"	String
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Associated Party	"Party who is involved in Product/Customer Combination Assessment"	String
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment ServiceProvider Reference	"Reference to the party who has provided Product/Customer Combination Assessment"	Object
+"CR"	CR Product/Customer Combination Assessment Instance Record	Product/Customer Combination Assessment Requester Reference	"Reference to the party who has requested Product/Customer Combination Assessment"	Object
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Matching. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and  Campaign Alignment Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and  Campaign Alignment Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and  Campaign Alignment Version Number	"The test version employed"	String
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and Campaign Alignment	"The Product/Customer Combination Assessment specific  Business Service"	Business Service
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and Campaign Alignment Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and Campaign Alignment Service Description	"Description of the performed business service"	String
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and Campaign Alignment Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and Campaign Alignment Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Bank and  Campaign Alignment Instance Record	Bank and Campaign Alignment Service Name	""	String
+"BQ"	BQ Product Eligibility Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Matching. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility Version Number	"The test version employed"	String
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility	"The Product/Customer Combination Assessment specific  Business Service"	Business Service
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility Service Description	"Description of the performed business service"	String
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Product Eligibility Instance Record	Product Eligibility Service Name	""	String
+"BQ"	BQ Product Type Selection Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Matching. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection Version Number	"The test version employed"	String
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection	"The Product/Customer Combination Assessment specific  Business Service"	Business Service
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection Service Description	"Description of the performed business service"	String
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Product Type Selection Instance Record	Product Type Selection Service Name	""	String
+"BQ"	BQ Context Criteria Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Product Matching. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Context Criteria Instance Record	Context Criteria Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Context Criteria Instance Record	Context Criteria Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Context Criteria Instance Record	Context Criteria Version Number	"The test version employed"	String
+"BQ"	BQ Context Criteria Instance Record	Context Criteria	"The Product/Customer Combination Assessment specific  Business Service"	Business Service
+"BQ"	BQ Context Criteria Instance Record	Context Criteria Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Context Criteria Instance Record	Context Criteria Service Description	"Description of the performed business service"	String
+"BQ"	BQ Context Criteria Instance Record	Context Criteria Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Context Criteria Instance Record	Context Criteria Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Context Criteria Instance Record	Context Criteria Service Name	""	String
+"BQ"	BQ Product Matching Outcome Instance Record	""	""	""
+"BQ"	BQ Product Matching Outcome Instance Record	Product Matching Work Product	""	String
+"BQ"	BQ Product Matching Outcome Instance Record	Product Matching Assessment Type	""	String

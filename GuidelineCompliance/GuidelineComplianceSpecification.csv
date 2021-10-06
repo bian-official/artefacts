@@ -1,0 +1,13 @@
+"Service Domain specification for Guideline Compliance"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Compliance
+"Service Domain"	Guideline Compliance
+"Role Definition"	"This service center administers the activity of a specialists tasked with testing and confirming guideline compliance. Compliance tests may include document reviews, more detailed transaction analysis and may involve interactions with the unit under test to obtain additional detail/explanation. Guideline compliance is typically focused on larger value investment and loan activities, confirming transactions are executed in alignment with management guidelines and prudential policies."
+"Example of use"	"A loan origination process is submitted for guideline compliance checks prior to completing the origination/loan closure process"
+"Executive Summary"	"This service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures. Tests may be made on complete transaction data or a meaningful samples as appropriate to mitigate exposure to non-compliant behaviors. Compliance checks may be in response to a schedule, a specific request as part of normal processing or may be initiated randomly as an oversight activity"
+"Key Features"	"Schedule/target compliance checks. Consolidate documents/activity pertaining to compliance tests. Provide advice/guidance for achieving compliance. Evaluate and report on activity for compliance, . Notify and track responses for detected compliance failures"
+"Functional Pattern"	Assess
+"Asset Type"	GuidelineCompliance
+"Generic Artifact"	Assessment
+"Control Record"	GuidelineComplianceAssessment
+"Registration Status"	Registered

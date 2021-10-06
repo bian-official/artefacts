@@ -1,0 +1,20 @@
+"Control Record Model for: "	Product Expert Sales Support
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	""	""	""
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	Sales Specialist Support Resource Allocation Service Schedule	"Maintains the allocation records of available sales specialist service resources. This includes all past and future booking commitments"	String
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	Sales Specialist Support Resource Reference	"Reference to a sales specialist support resource"	Object
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	Sales Specialist Support Resource Record	"Details about a registered sales specialist support resource"	String
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	Sales Specialist Support Resource Qualification Profile	"Details the qualification, expertise and level of experience of a servicing specialist"	String
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	Sales Specialist Support Location Reference	"Reference to the locations service by the resource where face to face meetings are required"	Object
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	Sales Specialist Support Resource Availability Schedule	"Details the time the resource plans to be and is actually available for assignments"	String
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	Sales Specialist Support Resource Status	"Tracks the current status indicating availability for assignment"	String
+"CR"	CR Sales Specialist Support Administrative Plan Instance Record	Sales Specialist Support Resource Assignment Record	"Reference to a consolidated record of assignment instances handled by the support resource. This is used to track utilization and performance"	String
+"BQ"	BQ Assignment Instance Record	""	""	""
+"BQ"	BQ Assignment Instance Record	Sales Specialist Support Assignment Request Type	"Defines the type of assignment (e.g. in person, phone conference)"	String
+"BQ"	BQ Assignment Instance Record	Sales Specialist Support Assignment Request Record	"Contains details of the product specialist support request, in particular the product or service of interest and the specific topics to be covered"	String
+"BQ"	BQ Assignment Instance Record	Sales Specialist Support Assignment Session Work Products	"File of any meeting notes, work products and administrative documentation generated during the assignment"	String
+"BQ"	BQ Assignment Instance Record	Sales Specialist Support Assignment Location	"The location of the customer interaction (e.g. branch, phone, customer site)"	String
+"BQ"	BQ Assignment Instance Record	Sales Specialist Support Assignment Fee	"Details of time and expenses booked and fees associated with the assignment and if appropriate reference to charges made to the customer"	String
+"BQ"	BQ Assignment Instance Record	Sales Specialist Support Assignment Result	"The result of the customer interaction, including any suggested follow-up tasks"	String
+"BQ"	BQ Assignment Instance Record	Date Type	"Key dates associated with the assignment (e.g. booking date, confirmation date, execution date, follow-up/evaluation date)"	String
+"BQ"	BQ Assignment Instance Record	Date	"Value of the specific date type"	String

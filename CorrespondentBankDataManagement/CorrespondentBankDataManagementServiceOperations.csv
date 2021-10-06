@@ -1,0 +1,49 @@
+"Service Operations for: "	Correspondent Bank Data Management
+""
+"POST"	"/correspondent-bank-data-management/activation"
+"PUT"	"/correspondent-bank-data-management/{sd-reference-id}/configuration"
+"PUT"	"/correspondent-bank-data-management/{sd-reference-id}/feedback"
+""
+"Post"	"/correspondent-bank-data-management/{sd-identifier}/correspondent-bank-directory-entry/{crbq-identifier}/registration"
+""	1	"in"	"Correspondent Bank Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	2	"in"	"Clearing/Sort Codes"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	3	"in"	"Contact Addresses"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	4	"in"	"Legal Entity Identifiers"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	5	"in"	"Bank Hierarchy"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	6	"in"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	7	"in"	"Vostro Account Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	8	"in"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	9	"in"	"Correspondent Bank Agreement Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""
+"Put"	"/correspondent-bank-data-management/{sd-identifier}/correspondent-bank-directory-entry/{crbq-identifier}/update"
+""	1	"inout"	"Correspondent Bank Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	2	"inout"	"Clearing/Sort Codes"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	3	"inout"	"Contact Addresses"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	4	"inout"	"Legal Entity Identifiers"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	5	"inout"	"Bank Hierarchy"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	6	"inout"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	7	"inout"	"Vostro Account Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	8	"inout"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	9	"inout"	"Correspondent Bank Agreement Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""
+"Put"	"/correspondent-bank-data-management/{sd-identifier}/correspondent-bank-directory-entry/{crbq-identifier}/requisition"
+""	1	"inout"	"Correspondent Bank Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	2	"inout"	"Clearing/Sort Codes"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	3	"inout"	"Contact Addresses"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	4	"inout"	"Legal Entity Identifiers"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	5	"inout"	"Bank Hierarchy"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	6	"inout"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	7	"inout"	"Vostro Account Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	8	"inout"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	9	"inout"	"Correspondent Bank Agreement Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""
+"Get"	"/correspondent-bank-data-management/{sd-identifier}/correspondent-bank-directory-entry/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondent Bank Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	2	"out"	"Clearing/Sort Codes"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	3	"out"	"Contact Addresses"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	4	"out"	"Legal Entity Identifiers"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	5	"out"	"Bank Hierarchy"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	6	"out"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Directory Entry Instance Record"	String
+""	7	"out"	"Vostro Account Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	8	"out"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object
+""	9	"out"	"Correspondent Bank Agreement Reference"	"CR Correspondent Bank Directory Entry Instance Record"	Object

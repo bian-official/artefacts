@@ -1,0 +1,175 @@
+"Service Operations for: "	Customer Event History
+""
+"POST"	"/customer-event-history/activation"
+"PUT"	"/customer-event-history/{sd-reference-id}/configuration"
+"PUT"	"/customer-event-history/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-event-history/{sd-identifier}/customer-event-log/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""
+"Put"	"/customer-event-history/{sd-identifier}/customer-event-log/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""
+"Put"	"/customer-event-history/{sd-identifier}/customer-event-log/{crbq-identifier}/control"
+""
+"Get"	"/customer-event-history/{sd-identifier}/customer-event-log/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""
+"Put"	"/customer-event-history/{sd-identifier}/relationship/{crbq-identifier}/update"
+""	1	"inout"	"Customer Relationship Event Type"	"BQ Relationship Instance Record"	String
+""	2	"inout"	"Employee/Unit Reference"	"BQ Relationship Instance Record"	Object
+""	3	"inout"	"Customer Relationship Event Record"	"BQ Relationship Instance Record"	String
+""	4	"inout"	"Customer Relationship Event Action"	"BQ Relationship Instance Record"	String
+""	5	"inout"	"Date/Time/Location"	"BQ Relationship Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/relationship/{crbq-identifier}/capture"
+""	1	"in"	"Customer Relationship Event Type"	"BQ Relationship Instance Record"	String
+""	2	"in"	"Employee/Unit Reference"	"BQ Relationship Instance Record"	Object
+""	3	"in"	"Customer Relationship Event Record"	"BQ Relationship Instance Record"	String
+""	4	"in"	"Customer Relationship Event Action"	"BQ Relationship Instance Record"	String
+""	5	"in"	"Date/Time/Location"	"BQ Relationship Instance Record"	String
+""
+"Get"	"/customer-event-history/{sd-identifier}/relationship/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""	2	"out"	"Customer Relationship Event Type"	"BQ Relationship Instance Record"	String
+""	3	"out"	"Employee/Unit Reference"	"BQ Relationship Instance Record"	Object
+""	4	"out"	"Customer Relationship Event Record"	"BQ Relationship Instance Record"	String
+""	5	"out"	"Customer Relationship Event Action"	"BQ Relationship Instance Record"	String
+""	6	"out"	"Date/Time/Location"	"BQ Relationship Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/sales/{crbq-identifier}/update"
+""	1	"inout"	"Customer Sales Event Type"	"BQ Sales Instance Record"	String
+""	2	"inout"	"Employee/Unit Reference"	"BQ Sales Instance Record"	Object
+""	3	"inout"	"Product/Service Type"	"BQ Sales Instance Record"	String
+""	4	"inout"	"Lead/Opportunity Reference"	"BQ Sales Instance Record"	Object
+""	5	"inout"	"Customer Sales Event Record"	"BQ Sales Instance Record"	String
+""	6	"inout"	"Commission Agreement Reference"	"BQ Sales Instance Record"	Object
+""	7	"inout"	"Date/Time/Location"	"BQ Sales Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/sales/{crbq-identifier}/capture"
+""	1	"in"	"Customer Sales Event Type"	"BQ Sales Instance Record"	String
+""	2	"in"	"Employee/Unit Reference"	"BQ Sales Instance Record"	Object
+""	3	"in"	"Product/Service Type"	"BQ Sales Instance Record"	String
+""	4	"in"	"Lead/Opportunity Reference"	"BQ Sales Instance Record"	Object
+""	5	"in"	"Customer Sales Event Record"	"BQ Sales Instance Record"	String
+""	6	"in"	"Commission Agreement Reference"	"BQ Sales Instance Record"	Object
+""	7	"in"	"Date/Time/Location"	"BQ Sales Instance Record"	String
+""
+"Get"	"/customer-event-history/{sd-identifier}/sales/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""	2	"out"	"Customer Sales Event Type"	"BQ Sales Instance Record"	String
+""	3	"out"	"Employee/Unit Reference"	"BQ Sales Instance Record"	Object
+""	4	"out"	"Product/Service Type"	"BQ Sales Instance Record"	String
+""	5	"out"	"Lead/Opportunity Reference"	"BQ Sales Instance Record"	Object
+""	6	"out"	"Customer Sales Event Record"	"BQ Sales Instance Record"	String
+""	7	"out"	"Commission Agreement Reference"	"BQ Sales Instance Record"	Object
+""	8	"out"	"Date/Time/Location"	"BQ Sales Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/servicing/{crbq-identifier}/update"
+""	1	"inout"	"Customer Servicing Event Type"	"BQ Servicing Instance Record"	String
+""	2	"inout"	"Customer Contact Record Reference"	"BQ Servicing Instance Record"	Object
+""	3	"inout"	"Accessed Product/Service"	"BQ Servicing Instance Record"	String
+""	4	"inout"	"Channel/Device Type"	"BQ Servicing Instance Record"	String
+""	5	"inout"	"Contact Purpose"	"BQ Servicing Instance Record"	String
+""	6	"inout"	"Contact Result"	"BQ Servicing Instance Record"	String
+""	7	"inout"	"Employee/Unit Reference"	"BQ Servicing Instance Record"	Object
+""	8	"inout"	"Customer Servicing Event Record"	"BQ Servicing Instance Record"	String
+""	9	"inout"	"Date/Time/Location"	"BQ Servicing Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/servicing/{crbq-identifier}/capture"
+""	1	"in"	"Customer Servicing Event Type"	"BQ Servicing Instance Record"	String
+""	2	"in"	"Customer Contact Record Reference"	"BQ Servicing Instance Record"	Object
+""	3	"in"	"Accessed Product/Service"	"BQ Servicing Instance Record"	String
+""	4	"in"	"Channel/Device Type"	"BQ Servicing Instance Record"	String
+""	5	"in"	"Contact Purpose"	"BQ Servicing Instance Record"	String
+""	6	"in"	"Contact Result"	"BQ Servicing Instance Record"	String
+""	7	"in"	"Employee/Unit Reference"	"BQ Servicing Instance Record"	Object
+""	8	"in"	"Customer Servicing Event Record"	"BQ Servicing Instance Record"	String
+""	9	"in"	"Date/Time/Location"	"BQ Servicing Instance Record"	String
+""
+"Get"	"/customer-event-history/{sd-identifier}/servicing/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""	2	"out"	"Customer Servicing Event Type"	"BQ Servicing Instance Record"	String
+""	3	"out"	"Customer Contact Record Reference"	"BQ Servicing Instance Record"	Object
+""	4	"out"	"Accessed Product/Service"	"BQ Servicing Instance Record"	String
+""	5	"out"	"Channel/Device Type"	"BQ Servicing Instance Record"	String
+""	6	"out"	"Contact Purpose"	"BQ Servicing Instance Record"	String
+""	7	"out"	"Contact Result"	"BQ Servicing Instance Record"	String
+""	8	"out"	"Employee/Unit Reference"	"BQ Servicing Instance Record"	Object
+""	9	"out"	"Customer Servicing Event Record"	"BQ Servicing Instance Record"	String
+""	10	"out"	"Date/Time/Location"	"BQ Servicing Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/product-processing/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"BQ Product Processing Instance Record"	Object
+""	2	"inout"	"Product Action/Event Type"	"BQ Product Processing Instance Record"	String
+""	3	"inout"	"Product Action/Event Description"	"BQ Product Processing Instance Record"	String
+""	4	"inout"	"Product Action/Event Result"	"BQ Product Processing Instance Record"	String
+""	5	"inout"	"Employee/Unit Reference"	"BQ Product Processing Instance Record"	Object
+""	6	"inout"	"Customer Product/Service Event Record"	"BQ Product Processing Instance Record"	String
+""	7	"inout"	"Date/Time/Location"	"BQ Product Processing Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/product-processing/{crbq-identifier}/capture"
+""	1	"in"	"Product Instance Reference"	"BQ Product Processing Instance Record"	Object
+""	2	"in"	"Product Action/Event Type"	"BQ Product Processing Instance Record"	String
+""	3	"in"	"Product Action/Event Description"	"BQ Product Processing Instance Record"	String
+""	4	"in"	"Product Action/Event Result"	"BQ Product Processing Instance Record"	String
+""	5	"in"	"Employee/Unit Reference"	"BQ Product Processing Instance Record"	Object
+""	6	"in"	"Customer Product/Service Event Record"	"BQ Product Processing Instance Record"	String
+""	7	"in"	"Date/Time/Location"	"BQ Product Processing Instance Record"	String
+""
+"Get"	"/customer-event-history/{sd-identifier}/product-processing/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"BQ Product Processing Instance Record"	Object
+""	3	"out"	"Product Action/Event Type"	"BQ Product Processing Instance Record"	String
+""	4	"out"	"Product Action/Event Description"	"BQ Product Processing Instance Record"	String
+""	5	"out"	"Product Action/Event Result"	"BQ Product Processing Instance Record"	String
+""	6	"out"	"Employee/Unit Reference"	"BQ Product Processing Instance Record"	Object
+""	7	"out"	"Customer Product/Service Event Record"	"BQ Product Processing Instance Record"	String
+""	8	"out"	"Date/Time/Location"	"BQ Product Processing Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/fraud/{crbq-identifier}/update"
+""	1	"inout"	"Customer Fraud Case Event Type"	"BQ Fraud Instance Record"	String
+""	2	"inout"	"Customer Contact Record Reference"	"BQ Fraud Instance Record"	Object
+""	3	"inout"	"Accessed Product/Service"	"BQ Fraud Instance Record"	String
+""	4	"inout"	"Employee/Unit Reference"	"BQ Fraud Instance Record"	Object
+""	5	"inout"	"Fraud Case Reference"	"BQ Fraud Instance Record"	Object
+""	6	"inout"	"Date/Time/Location"	"BQ Fraud Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/fraud/{crbq-identifier}/capture"
+""	1	"in"	"Customer Fraud Case Event Type"	"BQ Fraud Instance Record"	String
+""	2	"in"	"Customer Contact Record Reference"	"BQ Fraud Instance Record"	Object
+""	3	"in"	"Accessed Product/Service"	"BQ Fraud Instance Record"	String
+""	4	"in"	"Employee/Unit Reference"	"BQ Fraud Instance Record"	Object
+""	5	"in"	"Fraud Case Reference"	"BQ Fraud Instance Record"	Object
+""	6	"in"	"Date/Time/Location"	"BQ Fraud Instance Record"	String
+""
+"Get"	"/customer-event-history/{sd-identifier}/fraud/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""	2	"out"	"Customer Fraud Case Event Type"	"BQ Fraud Instance Record"	String
+""	3	"out"	"Customer Contact Record Reference"	"BQ Fraud Instance Record"	Object
+""	4	"out"	"Accessed Product/Service"	"BQ Fraud Instance Record"	String
+""	5	"out"	"Employee/Unit Reference"	"BQ Fraud Instance Record"	Object
+""	6	"out"	"Fraud Case Reference"	"BQ Fraud Instance Record"	Object
+""	7	"out"	"Date/Time/Location"	"BQ Fraud Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/life/{crbq-identifier}/update"
+""	1	"inout"	"Customer Life Event Type"	"BQ Life Instance Record"	String
+""	2	"inout"	"Customer Contact Record Reference"	"BQ Life Instance Record"	Object
+""	3	"inout"	"Employee/Unit Reference"	"BQ Life Instance Record"	Object
+""	4	"inout"	"Customer Life Event Record"	"BQ Life Instance Record"	String
+""	5	"inout"	"Date/Time/Location"	"BQ Life Instance Record"	String
+""
+"Put"	"/customer-event-history/{sd-identifier}/life/{crbq-identifier}/capture"
+""	1	"in"	"Customer Life Event Type"	"BQ Life Instance Record"	String
+""	2	"in"	"Customer Contact Record Reference"	"BQ Life Instance Record"	Object
+""	3	"in"	"Employee/Unit Reference"	"BQ Life Instance Record"	Object
+""	4	"in"	"Customer Life Event Record"	"BQ Life Instance Record"	String
+""	5	"in"	"Date/Time/Location"	"BQ Life Instance Record"	String
+""
+"Get"	"/customer-event-history/{sd-identifier}/life/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Event Log Instance Record"	Object
+""	2	"out"	"Customer Life Event Type"	"BQ Life Instance Record"	String
+""	3	"out"	"Customer Contact Record Reference"	"BQ Life Instance Record"	Object
+""	4	"out"	"Employee/Unit Reference"	"BQ Life Instance Record"	Object
+""	5	"out"	"Customer Life Event Record"	"BQ Life Instance Record"	String
+""	6	"out"	"Date/Time/Location"	"BQ Life Instance Record"	String

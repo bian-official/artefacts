@@ -1,0 +1,13 @@
+"Service Domain specification for Systems Assurance"
+"Business Area"	Resource Management
+"Business Domain"	Platform Operations
+"Service Domain"	Systems Assurance
+"Role Definition"	"Orchestrate scheduled maintenance, installation/upgrades and repairs/fixes or the IT infrastructure and production platforms"
+"Example of use"	"A new operating system release for desktop systems is worked through production"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Assess
+"Asset Type"	ITSystem
+"Generic Artifact"	Assessment
+"Control Record"	ITSystemAssessment
+"Registration Status"	Registered

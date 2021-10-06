@@ -1,0 +1,37 @@
+"Control Record Model for: "	Product Design
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Product or Service Specification Instance Record	""	""	""
+"CR"	CR Product or Service Specification Instance Record	ProductandService Type	"The type or category of product or service (e.g. specialized consumer loan, relocation services)"	String
+"CR"	CR Product or Service Specification Instance Record	ProductandService Description	"A description of the product or service including its main features and target customer"	String
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification Deployment	"Maintains the current production deployment configuration of the product or service"	String
+"CR"	CR Product or Service Specification Instance Record	Employee/Business Unit Reference	"Reference to the business units where the product or service is in use or supported"	Object
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification Deployment Configuration	"Details of the product or service specification deployment for reference"	String
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification Deployment Task Reference	"Reference to the specification deployment task"	Object
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification Deployment Task Record	"Recorded details of a specification deployment task"	String
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification Status	"The operational and development status of the product or service specification (e.g. under development, available, in-use under review)"	String
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification Usage	"Tracking deployment and product or service usage frequency"	String
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification Impact	"Track reporting of the performance/profitability (of specific features ) of the product or service specification"	String
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification Version	"Release version of the available specification plus version history as appropriate"	String
+"CR"	CR Product or Service Specification Instance Record	ProductandService Specification	"The deployable product or service specification in any appropriate form (including historical versions as appropriate). Note supporting systems and production/operations facilities are handled in parallel as part of a broader deployment"	String
+"BQ"	BQ Production Instance Record	""	""	""
+"BQ"	BQ Production Instance Record	ProductandService Specification Operational Requirements	"Specification of the operational and technical requirements"	String
+"BQ"	BQ Production Instance Record	ProductandService Specification Allowed Usage	"Defines rules and suitability for the product or service usage"	String
+"BQ"	BQ Production Instance Record	ProductandService Specification Usage Guidelines	"Provides guidance on the use of the product or service"	String
+"BQ"	BQ Functional Requirements Instance Record	""	""	""
+"BQ"	BQ Functional Requirements Instance Record	ProductandService Specification Design Task Reference	"Reference to a type of functional requirements specification activity"	Object
+"BQ"	BQ Functional Requirements Instance Record	ProductandService Specification Design Task Record	"The record of work products used for the design task"	String
+"BQ"	BQ Functional Requirements Instance Record	Market Research Data Service Reference	"Reference to external service information provider used to obtain product or service related market research as input to the design"	Object
+"BQ"	BQ Functional Requirements Instance Record	Market Research Data Record	"Record of the product or service related market research"	String
+"BQ"	BQ Functional Requirements Instance Record	ProductandService Feedback Record	"User provided and solicited feedback, suggestions for product or service refinement"	String
+"BQ"	BQ Functional Requirements Instance Record	ProductandService Requirements Specification	"The product or service detailed functional requirements specification (with versioning as appropriate)"	String
+"BQ"	BQ Testing Instance Record	""	""	""
+"BQ"	BQ Testing Instance Record	ProductandService Specification Test Reference	"Reference to a type of product or service specification test"	Object
+"BQ"	BQ Testing Instance Record	ProductandService Specification Test Type	"Defines the type of test (e.g. user/consumer checks, profitability simulations, business acceptance etc.)"	String
+"BQ"	BQ Testing Instance Record	ProductandService Specification Test Harness Reference	"Reference to the testing environment used to apply the test (can include production events and transactions to simulate performance)"	Object
+"BQ"	BQ Testing Instance Record	ProductandService Specification Test Result	"Record of testing applied to the product or service specification"	String
+"BQ"	BQ Testing Instance Record	ProductandService Specification Testing Task Reference	"Reference to a type of testing activity"	Object
+"BQ"	BQ Testing Instance Record	ProductandService Specification Testing Task Record	"The record of work products used for this testing activity"	String
+"BQ"	BQ Testing Instance Record	ProductandService Specification Compliance Task Reference	"Reference to compliance conformance check for the specification"	Object
+"BQ"	BQ Testing Instance Record	ProductandService Specification Compliance Task Record	"Record of the compliance conformance check for the specification"	String
+"BQ"	BQ Testing Instance Record	ProductandService Specification Compliance Test Reference	"Reference to a compliance task performed against the specification"	Object
+"BQ"	BQ Testing Instance Record	ProductandService Specification Compliance Test Type	"Record of the compliance test applied to the specification"	String

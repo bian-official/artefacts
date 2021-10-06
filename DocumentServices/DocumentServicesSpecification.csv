@@ -1,0 +1,13 @@
+"Service Domain specification for Document Services"
+"Business Area"	Operations
+"Business Domain"	Custody, Collateral And Documents
+"Service Domain"	Document Services
+"Role Definition"	"The Document Services Service Domain manages the creation and maintenance of documents throughout the bank. As such it knows all document types and upon creation it fills in the variable content as supplied by fulfilment or orchestrating Service Domains. The domain is able to verify if documents that come from an outside source (customer) are valid for the purpose for which they have been submitted.. Sending of a document after creation is handled by Correspondence and storing by Document Library."
+"Example of use"	"A customer opens a savings account online. After recording and verifying all data supplied by the customer, a sales product agreement is created by Document Services and delivered to the customer via the web session as .pdf."
+"Executive Summary"	"The Document Services Service Domain manages the creation and maintenance of documents throughout the bank."
+"Key Features"	"- Create an instance of a document based on the document type and the actual values for this occasion. - Assess the vailidity of a document supplied by the customer"
+"Functional Pattern"	Process
+"Asset Type"	DocumentService
+"Generic Artifact"	Procedure
+"Control Record"	DocumentServiceProcedure
+"Registration Status"	Obsolete

@@ -1,0 +1,97 @@
+"Service Operations for: "	Public Reference Data Management
+""
+"POST"	"/public-reference-data-management/activation"
+"PUT"	"/public-reference-data-management/{sd-reference-id}/configuration"
+"PUT"	"/public-reference-data-management/{sd-reference-id}/feedback"
+""
+"Put"	"/public-reference-data-management/{sd-identifier}/global-standard-specification/{crbq-identifier}/capture"
+""	1	"inout"	"Global Standard Specification Parameter Type"	"CR Global Standard Specification Instance Record"	String
+""	2	"inout"	"Global Standard Specification Selected Option"	"CR Global Standard Specification Instance Record"	String
+""	3	"in"	"Global Standard Specification Description"	"CR Global Standard Specification Instance Record"	String
+""	4	"inout"	"Global Standard Specification Version"	"CR Global Standard Specification Instance Record"	String
+""	5	"inout"	"Global Standard Specification Status"	"CR Global Standard Specification Instance Record"	String
+""	6	"inout"	"Global Standard Specification Usage Log"	"CR Global Standard Specification Instance Record"	String
+""	7	"inout"	"Global Standard Specification Feedback"	"CR Global Standard Specification Instance Record"	String
+""	8	"in"	"Global Standard Specification ServiceProvider Reference"	"CR Global Standard Specification Instance Record"	Object
+""
+"Put"	"/public-reference-data-management/{sd-identifier}/global-standard-specification/{crbq-identifier}/control"
+""	1	"inout"	"Global Standard Specification Parameter Type"	"CR Global Standard Specification Instance Record"	String
+""	2	"inout"	"Global Standard Specification Selected Option"	"CR Global Standard Specification Instance Record"	String
+""	3	"in"	"Global Standard Specification Description"	"CR Global Standard Specification Instance Record"	String
+""	4	"inout"	"Global Standard Specification Version"	"CR Global Standard Specification Instance Record"	String
+""	5	"inout"	"Global Standard Specification Status"	"CR Global Standard Specification Instance Record"	String
+""	6	"inout"	"Global Standard Specification Usage Log"	"CR Global Standard Specification Instance Record"	String
+""	7	"inout"	"Global Standard Specification Feedback"	"CR Global Standard Specification Instance Record"	String
+""	8	"in"	"Global Standard Specification ServiceProvider Reference"	"CR Global Standard Specification Instance Record"	Object
+""
+"Put"	"/public-reference-data-management/{sd-identifier}/global-standard-specification/{crbq-identifier}/exchange"
+""	1	"inout"	"Global Standard Specification Parameter Type"	"CR Global Standard Specification Instance Record"	String
+""	2	"inout"	"Global Standard Specification Selected Option"	"CR Global Standard Specification Instance Record"	String
+""	3	"in"	"Global Standard Specification Description"	"CR Global Standard Specification Instance Record"	String
+""	4	"inout"	"Global Standard Specification Version"	"CR Global Standard Specification Instance Record"	String
+""	5	"inout"	"Global Standard Specification Status"	"CR Global Standard Specification Instance Record"	String
+""	6	"inout"	"Global Standard Specification Usage Log"	"CR Global Standard Specification Instance Record"	String
+""	7	"inout"	"Global Standard Specification Feedback"	"CR Global Standard Specification Instance Record"	String
+""	8	"in"	"Global Standard Specification ServiceProvider Reference"	"CR Global Standard Specification Instance Record"	Object
+""
+"Post"	"/public-reference-data-management/{sd-identifier}/global-reference-data/{crbq-identifier}/initiation"
+""	1	"inout"	"Global Reference Data Preconditions"	"BQ Global Reference Data Instance Record"	Object
+""	2	"inout"	"Global Reference Data Specification Schedule"	"BQ Global Reference Data Instance Record"	Object
+""	3	"inout"	"Global Reference Data Version Number"	"BQ Global Reference Data Instance Record"	Object
+""	4	"inout"	"External Reference Data"	"BQ Global Reference Data Instance Record"	Business Service
+""	5	"inout"	"External Reference Data Service Type"	"BQ Global Reference Data Instance Record"	String
+""	6	"inout"	"External Reference Data Service Description"	"BQ Global Reference Data Instance Record"	Object
+""	7	"inout"	"External Reference Data Service Inputs and Ouputs"	"BQ Global Reference Data Instance Record"	Object
+""	8	"inout"	"External Reference Data Service Work Product"	"BQ Global Reference Data Instance Record"	Object
+""	9	"inout"	"External Reference Data Service Name"	"BQ Global Reference Data Instance Record"	Object
+""
+"Post"	"/public-reference-data-management/{sd-identifier}/global-standard-specification/{crbq-identifier}/initiation"
+""	1	"inout"	"Global Standard Specification Parameter Type"	"CR Global Standard Specification Instance Record"	String
+""	2	"inout"	"Global Standard Specification Selected Option"	"CR Global Standard Specification Instance Record"	String
+""	3	"in"	"Global Standard Specification Description"	"CR Global Standard Specification Instance Record"	String
+""	4	"inout"	"Global Standard Specification Version"	"CR Global Standard Specification Instance Record"	String
+""	5	"inout"	"Global Standard Specification Status"	"CR Global Standard Specification Instance Record"	String
+""	6	"inout"	"Global Standard Specification Usage Log"	"CR Global Standard Specification Instance Record"	String
+""	7	"inout"	"Global Standard Specification Feedback"	"CR Global Standard Specification Instance Record"	String
+""	8	"in"	"Global Standard Specification ServiceProvider Reference"	"CR Global Standard Specification Instance Record"	Object
+""
+"Get"	"/public-reference-data-management/{sd-identifier}/global-reference-data/{crbq-identifier}/retrieval"
+""	1	"out"	"Global Reference Data Preconditions"	"BQ Global Reference Data Instance Record"	Object
+""	2	"out"	"Global Reference Data Specification Schedule"	"BQ Global Reference Data Instance Record"	Object
+""	3	"out"	"Global Reference Data Version Number"	"BQ Global Reference Data Instance Record"	Object
+""	4	"out"	"External Reference Data"	"BQ Global Reference Data Instance Record"	Business Service
+""	5	"out"	"External Reference Data Service Type"	"BQ Global Reference Data Instance Record"	String
+""	6	"out"	"External Reference Data Service Description"	"BQ Global Reference Data Instance Record"	Object
+""	7	"out"	"External Reference Data Service Inputs and Ouputs"	"BQ Global Reference Data Instance Record"	Object
+""	8	"out"	"External Reference Data Service Work Product"	"BQ Global Reference Data Instance Record"	Object
+""	9	"out"	"External Reference Data Service Name"	"BQ Global Reference Data Instance Record"	Object
+""
+"Get"	"/public-reference-data-management/{sd-identifier}/global-standard-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"Global Standard Specification Parameter Type"	"CR Global Standard Specification Instance Record"	String
+""	2	"out"	"Global Standard Specification Selected Option"	"CR Global Standard Specification Instance Record"	String
+""	3	"out"	"Global Standard Specification Description"	"CR Global Standard Specification Instance Record"	String
+""	4	"out"	"Global Standard Specification Version"	"CR Global Standard Specification Instance Record"	String
+""	5	"out"	"Global Standard Specification Status"	"CR Global Standard Specification Instance Record"	String
+""	6	"out"	"Global Standard Specification Usage Log"	"CR Global Standard Specification Instance Record"	String
+""	7	"out"	"Global Standard Specification Feedback"	"CR Global Standard Specification Instance Record"	String
+""	8	"out"	"Global Standard Specification ServiceProvider Reference"	"CR Global Standard Specification Instance Record"	Object
+""
+"Put"	"/public-reference-data-management/{sd-identifier}/global-standard-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Global Standard Specification Parameter Type"	"CR Global Standard Specification Instance Record"	String
+""	2	"inout"	"Global Standard Specification Selected Option"	"CR Global Standard Specification Instance Record"	String
+""	3	"in"	"Global Standard Specification Description"	"CR Global Standard Specification Instance Record"	String
+""	4	"inout"	"Global Standard Specification Version"	"CR Global Standard Specification Instance Record"	String
+""	5	"inout"	"Global Standard Specification Status"	"CR Global Standard Specification Instance Record"	String
+""	6	"inout"	"Global Standard Specification Usage Log"	"CR Global Standard Specification Instance Record"	String
+""	7	"inout"	"Global Standard Specification Feedback"	"CR Global Standard Specification Instance Record"	String
+""	8	"in"	"Global Standard Specification ServiceProvider Reference"	"CR Global Standard Specification Instance Record"	Object
+""
+"Put"	"/public-reference-data-management/{sd-identifier}/global-standard-specification/{crbq-identifier}/update"
+""	1	"inout"	"Global Standard Specification Parameter Type"	"CR Global Standard Specification Instance Record"	String
+""	2	"inout"	"Global Standard Specification Selected Option"	"CR Global Standard Specification Instance Record"	String
+""	3	"in"	"Global Standard Specification Description"	"CR Global Standard Specification Instance Record"	String
+""	4	"inout"	"Global Standard Specification Version"	"CR Global Standard Specification Instance Record"	String
+""	5	"inout"	"Global Standard Specification Status"	"CR Global Standard Specification Instance Record"	String
+""	6	"inout"	"Global Standard Specification Usage Log"	"CR Global Standard Specification Instance Record"	String
+""	7	"inout"	"Global Standard Specification Feedback"	"CR Global Standard Specification Instance Record"	String
+""	8	"in"	"Global Standard Specification ServiceProvider Reference"	"CR Global Standard Specification Instance Record"	Object

@@ -1,0 +1,118 @@
+"Service Operations for: "	Customer Case
+""
+"POST"	"/customer-case/activation"
+"PUT"	"/customer-case/{sd-reference-id}/configuration"
+"PUT"	"/customer-case/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-case/{sd-identifier}/customer-case-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Case Type"	"CR Customer Case Procedure Instance Record"	String
+""	2	"in"	"Product Instance Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	4	"in"	"Customer Contact Record Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	5	"in"	"Product Transaction Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	6	"in"	"Product Transaction Record"	"CR Customer Case Procedure Instance Record"	String
+""	7	"in"	"Case Location"	"CR Customer Case Procedure Instance Record"	String
+""	8	"inout"	"Date"	"CR Customer Case Procedure Instance Record"	String
+""	9	"in"	"Employee/Business Unit Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	10	"inout"	"Customer Case Resolution Schedule"	"CR Customer Case Procedure Instance Record"	String
+""
+"Put"	"/customer-case/{sd-identifier}/customer-case-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Customer Case Type"	"CR Customer Case Procedure Instance Record"	String
+""	2	"inout"	"Product Instance Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	3	"inout"	"Customer Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	4	"inout"	"Customer Contact Record Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	5	"inout"	"Product Transaction Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	6	"inout"	"Product Transaction Record"	"CR Customer Case Procedure Instance Record"	String
+""	7	"inout"	"Case Location"	"CR Customer Case Procedure Instance Record"	String
+""	8	"inout"	"Date"	"CR Customer Case Procedure Instance Record"	String
+""	9	"inout"	"Employee/Business Unit Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	10	"inout"	"Customer Case Resolution Schedule"	"CR Customer Case Procedure Instance Record"	String
+""
+"Put"	"/customer-case/{sd-identifier}/customer-case-procedure/{crbq-identifier}/control"
+""
+"Put"	"/customer-case/{sd-identifier}/customer-case-procedure/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-case/{sd-identifier}/customer-case-procedure/{crbq-identifier}/execution"
+""
+"Put"	"/customer-case/{sd-identifier}/customer-case-procedure/{crbq-identifier}/requisition"
+""
+"Get"	"/customer-case/{sd-identifier}/customer-case-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Case Type"	"CR Customer Case Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	4	"out"	"Customer Contact Record Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	5	"out"	"Product Transaction Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	6	"out"	"Product Transaction Record"	"CR Customer Case Procedure Instance Record"	String
+""	7	"out"	"Case Location"	"CR Customer Case Procedure Instance Record"	String
+""	8	"out"	"Date"	"CR Customer Case Procedure Instance Record"	String
+""	9	"out"	"Employee/Business Unit Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	10	"out"	"Customer Case Resolution Schedule"	"CR Customer Case Procedure Instance Record"	String
+""
+"Put"	"/customer-case/{sd-identifier}/analysis/{crbq-identifier}/update"
+""	1	"inout"	"Customer Contact Record"	"BQ Analysis Instance Record"	String
+""	2	"inout"	"Case Analysis Work Product"	"BQ Analysis Instance Record"	String
+""	3	"inout"	"Case Analysis Work Task Result"	"BQ Analysis Instance Record"	String
+""
+"Get"	"/customer-case/{sd-identifier}/analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Case Type"	"CR Customer Case Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	4	"out"	"Customer Contact Record Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	5	"out"	"Product Transaction Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	6	"out"	"Product Transaction Record"	"CR Customer Case Procedure Instance Record"	String
+""	7	"out"	"Case Location"	"CR Customer Case Procedure Instance Record"	String
+""	8	"out"	"Date"	"CR Customer Case Procedure Instance Record"	String
+""	9	"out"	"Employee/Business Unit Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	10	"out"	"Customer Case Resolution Schedule"	"CR Customer Case Procedure Instance Record"	String
+""	11	"out"	"Case Analysis Work Product"	"BQ Analysis Instance Record"	String
+""	12	"out"	"Case Analysis Work Task Result"	"BQ Analysis Instance Record"	String
+""
+"Put"	"/customer-case/{sd-identifier}/determination/{crbq-identifier}/update"
+""	1	"inout"	"Customer Agreement Instance Reference"	"BQ Determination Instance Record"	Object
+""	2	"inout"	"Case Determination Work Product"	"BQ Determination Instance Record"	String
+""	3	"inout"	"Case Determination Work Task Result"	"BQ Determination Instance Record"	String
+""
+"Get"	"/customer-case/{sd-identifier}/determination/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Case Type"	"CR Customer Case Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	4	"out"	"Customer Contact Record Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	5	"out"	"Product Transaction Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	6	"out"	"Product Transaction Record"	"CR Customer Case Procedure Instance Record"	String
+""	7	"out"	"Case Location"	"CR Customer Case Procedure Instance Record"	String
+""	8	"out"	"Date"	"CR Customer Case Procedure Instance Record"	String
+""	9	"out"	"Employee/Business Unit Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	10	"out"	"Customer Case Resolution Schedule"	"CR Customer Case Procedure Instance Record"	String
+""	11	"out"	"Case Analysis Work Task Result"	"BQ Analysis Instance Record"	String
+""	12	"out"	"Customer Agreement Instance Reference"	"BQ Determination Instance Record"	Object
+""	13	"out"	"Case Determination Work Product"	"BQ Determination Instance Record"	String
+""	14	"out"	"Case Determination Work Task Result"	"BQ Determination Instance Record"	String
+""
+"Put"	"/customer-case/{sd-identifier}/resolution/{crbq-identifier}/update"
+""	1	"inout"	"Correspondence Instance Reference"	"BQ Resolution Instance Record"	Object
+""	2	"inout"	"Correspondence Content"	"BQ Resolution Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Resolution Instance Record"	Object
+""	4	"inout"	"Document Content"	"BQ Resolution Instance Record"	String
+""	5	"inout"	"Employee/Business Unit Reference"	"BQ Resolution Instance Record"	Object
+""	6	"inout"	"Payment Order Reference"	"BQ Resolution Instance Record"	Object
+""
+"Put"	"/customer-case/{sd-identifier}/resolution/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-case/{sd-identifier}/resolution/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Case Type"	"CR Customer Case Procedure Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	4	"out"	"Customer Contact Record Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	5	"out"	"Product Transaction Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	6	"out"	"Product Transaction Record"	"CR Customer Case Procedure Instance Record"	String
+""	7	"out"	"Case Location"	"CR Customer Case Procedure Instance Record"	String
+""	8	"out"	"Date"	"CR Customer Case Procedure Instance Record"	String
+""	9	"out"	"Employee/Business Unit Reference"	"CR Customer Case Procedure Instance Record"	Object
+""	10	"out"	"Customer Case Resolution Schedule"	"CR Customer Case Procedure Instance Record"	String
+""	11	"out"	"Case Analysis Work Task Result"	"BQ Analysis Instance Record"	String
+""	12	"out"	"Case Determination Work Task Result"	"BQ Determination Instance Record"	String
+""	13	"out"	"Correspondence Instance Reference"	"BQ Resolution Instance Record"	Object
+""	14	"out"	"Correspondence Content"	"BQ Resolution Instance Record"	String
+""	15	"out"	"Document Directory Entry Instance Reference"	"BQ Resolution Instance Record"	Object
+""	16	"out"	"Document Content"	"BQ Resolution Instance Record"	String
+""	17	"out"	"Payment Order Reference"	"BQ Resolution Instance Record"	Object

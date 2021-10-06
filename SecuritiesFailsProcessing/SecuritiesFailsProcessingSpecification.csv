@@ -1,0 +1,13 @@
+"Service Domain specification for Securities Fails Processing"
+"Business Area"	Products
+"Business Domain"	Market Operations
+"Service Domain"	Securities Fails Processing
+"Role Definition"	"Capture, diagnose, resolve and report on securities related issues and transaction failures"
+"Example of use"	"The details for an executed trade are rejected by the counterparty. The back office has to work through the trade details to identify the source of the error obtain the agreement for the resolution and make the necessary changes to the trade and trade reporting"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	SecurityTradingFails
+"Generic Artifact"	ManagementPlan
+"Control Record"	SecurityTradingFailsManagementPlan
+"Registration Status"	Registered

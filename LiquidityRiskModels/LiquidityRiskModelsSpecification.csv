@@ -1,0 +1,13 @@
+"Service Domain specification for Liquidity Risk Models"
+"Business Area"	Business Development
+"Business Domain"	Models And Analytics
+"Service Domain"	Liquidity Risk Models
+"Role Definition"	"Develop and maintain models for dispositive and structural liquidity risk management, including liquidity gap analysis, Liquidity at Risk (LaR) and Liquidity Value at Risk (LVaR)."
+"Example of use"	"Financial engineers develop and refine liquidity risk management models"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	LiquidityRiskModel
+"Generic Artifact"	Specification
+"Control Record"	LiquidityRiskModelSpecification
+"Registration Status"	Registered

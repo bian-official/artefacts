@@ -1,0 +1,31 @@
+"Control Record Model for: "	Contact Handler
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Authentication Instance Record	""	""	""
+"BQ"	BQ Authentication Instance Record	Authentication Task Record	"The task updates the contact record authentication status field and handles the interaction with the Party Authentication service domain to get the required level of authentication for the contact"	String
+"BQ"	BQ Routing Instance Record	""	""	""
+"BQ"	BQ Routing Instance Record	Routing Task Record	"The task updates the contact record routing selection field and handles the interaction with the Contact Routing service domain to identify the servicing position/resource"	String
+"BQ"	BQ Session Instance Record	""	""	""
+"BQ"	BQ Session Instance Record	Session Task Record	"The task updates the contact record activity record fields and handles the interaction with the Contact Dialogue service domain to initiate the servicing session"	String
+"BQ"	BQ Session Instance Record	Session Result	"An indicator of how the session was concluded (e.g. customer completed, hang-up, further servicing required)"	String
+"BQ"	BQ History Instance Record	""	""	""
+"BQ"	BQ History Instance Record	History Task Record	"The task updates the channel activity history to reflect the contact"	String
+"CR"	CR Customer Contact Operating Session Instance Record	""	""	""
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Inbound or Outbound Indicator	"Indicates whether this is an inbound or outbound contact (inbound is customer initiated, outbound is servicing resource initiated)"	Boolean
+"CR"	CR Customer Contact Operating Session Instance Record	eBranch Operating Session Reference	"Reference to the active network operating session used to access customer"	Object
+"CR"	CR Customer Contact Operating Session Instance Record	Advanced Voice Service Operating Session Reference	"Reference to the active voice network used to access customer"	Object
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Reference	"Reference to the contact record assembled during the customer contact"	Object
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record	"The contact record consolidates all aspects of the contact that is cross-referenced by all  contact functions and called servicing sessions that make up the contact"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Customer Reference	"The customer reference as provided by the contacting party and verified by the authentication function"	Object
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Contact Device	"The contact device can be determined by the channel operations facilities (e.g. URL/ANI-phone number)"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Authentication Status	"The contact authentication level is determined by the authentication function and can be updated during the contact"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Routing Selection Status	"The routing selections made through the contact"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Menu Selection	"The requested service from a menu option can be indicated by the customer when initiating or during contact"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Servicing Request	"The customer may provide details of servicing resource request when initiating or during contact"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Servicing Event History	"Contact Handler can reference recent servicing activity for routing, security and servicing purposes (obtained from Service Domain Channel Activity History)"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Servicing Position Reference	"Reference to the servicing position - can be where an inbound contact is routed, or the source of an outbound contact request"	Object
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Servicing Resource Reference	"Reference to the servicing resource - can be to handle an inbound contact or the source of an outbound contact request"	Object
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Activity Record	"Records the actions performed during contact, including all dialogue sessions"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Session Dialogue Reference	"Reference to any contact session dialogue records created during the contact - there can be several"	Object
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Session Dialogue Record	"The customer session dialogue details and log"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Duration	"Records the start and end date times for the contact"	String
+"CR"	CR Customer Contact Operating Session Instance Record	Customer Contact Record Result	"Describes the interpreted result of the contact (e.g. completed, customer terminated, timed-out)"	String

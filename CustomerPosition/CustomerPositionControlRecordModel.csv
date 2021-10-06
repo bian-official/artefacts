@@ -1,0 +1,31 @@
+"Control Record Model for: "	Customer Position
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Credit Instance Record	""	""	""
+"BQ"	BQ Credit Instance Record	Customer Credit Rating Assessment	"The internal bank credit rating/assessment"	String
+"BQ"	BQ Credit Instance Record	Customer Credit Rating Assessment Type	"Credit assessment type (e.g. consumer, small business, corporate)"	String
+"BQ"	BQ Credit Instance Record	Customer Credit Rating Narrative	"The structured report outlining basis for the bank's rating"	String
+"BQ"	BQ Credit Instance Record	Customer Credit Position Analysis Record	"The customer credit position analysis - combines credit assessment with product/service available balance/utilized credit position analysis"	String
+"BQ"	BQ Cashflow Instance Record	""	""	""
+"BQ"	BQ Cashflow Instance Record	Product Instance Reference	"Reference to the one of more products and services in use for which transaction activity is to be obtained"	Object
+"BQ"	BQ Cashflow Instance Record	Product Arrangement Instance Report Type	"The types of product fulfillment reports available - in this case transaction details used for different measures or position analyses"	String
+"BQ"	BQ Cashflow Instance Record	Product Arrangement Instance Report	"The product/service activity report - transactional activity used for financial analysis"	String
+"BQ"	BQ Cashflow Instance Record	Report Options/Selection Criteria	"Defines content/transaction types to be included in the report extract"	String
+"BQ"	BQ Cashflow Instance Record	Report Period	"The from-to dates covered by the report for analysis"	String
+"BQ"	BQ Cashflow Instance Record	Report Format/Template	"Defines presentation format"	String
+"BQ"	BQ Cashflow Instance Record	Report	"The requested product/service activity report used in the position measurements"	String
+"BQ"	BQ Cashflow Instance Record	Customer Cashflow Position Analysis Record	"The customer cashflow analysis - past, current position and projected cash flows as derived from all active product/service activity reports"	String
+"CR"	CR Customer Position State Instance Record	""	""	""
+"CR"	CR Customer Position State Instance Record	Customer Reference	"Reference to the customer that the consolidated financial position represents"	Object
+"CR"	CR Customer Position State Instance Record	Customer Position State Record	"The consolidated position state that is tracked for the customer - combines analysis from all  measures"	String
+"BQ"	BQ Collateral Instance Record	""	""	""
+"BQ"	BQ Collateral Instance Record	Customer Reference	"Reference to the title owner of the collateral asset"	Object
+"BQ"	BQ Collateral Instance Record	Collateral Asset Type	"The type of asset (e.g. building, machinery, inventory, financial instrument, art)"	String
+"BQ"	BQ Collateral Instance Record	Collateral Asset Reference	"Reference to the collateral item (e.g. address, account reference)"	Object
+"BQ"	BQ Collateral Instance Record	Collateral Asset Description	"Description of significant details and properties of the asset"	String
+"BQ"	BQ Collateral Instance Record	Collateral Asset Administration Instance Reference	"Reference to the administration record of the asset item"	Object
+"BQ"	BQ Collateral Instance Record	Collateral Asset Status	"A general status indicator for the asset (can cover multiple properties as needed)"	String
+"BQ"	BQ Collateral Instance Record	Collateral Asset Valuation	"The current and historical valuation of the asset"	String
+"BQ"	BQ Collateral Instance Record	Collateral Asset Allocation Profile	"A record of past and current allocations of the collateral asset"	String
+"BQ"	BQ Collateral Instance Record	Collateral Asset Valuation Date	"The date of the last valuation (and next planned valuation)"	Date
+"BQ"	BQ Collateral Instance Record	Collateral Asset Loan to Value Ratio	"The ratio of the valuation that can be used as collateral (depends on liquidity, title, etc.)"	String
+"BQ"	BQ Collateral Instance Record	Customer Collateral Position Analysis Record	"The customer collateral position analysis - combines collateral valuation, allocation and associated product utilization)"	String

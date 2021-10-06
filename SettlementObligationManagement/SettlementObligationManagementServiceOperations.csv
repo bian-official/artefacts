@@ -1,0 +1,5 @@
+"Service Operations for: "	Settlement Obligation Management
+"Control Record Model for Settlement Obligation Management is not defined"
+"POST"	"/settlement-obligation-management/activation"
+"PUT"	"/settlement-obligation-management/{sd-reference-id}/configuration"
+"PUT"	"/settlement-obligation-management/{sd-reference-id}/feedback"

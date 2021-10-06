@@ -1,0 +1,113 @@
+"Service Operations for: "	Product Broker Agreement
+""
+"POST"	"/product-broker-agreement/activation"
+"PUT"	"/product-broker-agreement/{sd-reference-id}/configuration"
+"PUT"	"/product-broker-agreement/{sd-reference-id}/feedback"
+""
+"Post"	"/product-broker-agreement/{sd-identifier}/broker-agreement/{crbq-identifier}/evaluation"
+""	1	"in"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"in"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"out"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"inout"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"inout"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""
+"Put"	"/product-broker-agreement/{sd-identifier}/broker-agreement/{crbq-identifier}/update"
+""	1	"inout"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"inout"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"inout"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"inout"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"inout"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""
+"Put"	"/product-broker-agreement/{sd-identifier}/broker-agreement/{crbq-identifier}/control"
+""
+"Put"	"/product-broker-agreement/{sd-identifier}/broker-agreement/{crbq-identifier}/exchange"
+""
+"Put"	"/product-broker-agreement/{sd-identifier}/broker-agreement/{crbq-identifier}/requisition"
+""
+"Put"	"/product-broker-agreement/{sd-identifier}/broker-agreement/{crbq-identifier}/grant"
+""
+"Get"	"/product-broker-agreement/{sd-identifier}/broker-agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"out"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"out"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"out"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"out"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""
+"Post"	"/product-broker-agreement/{sd-identifier}/legal-terms/{crbq-identifier}/evaluation"
+""	1	"in"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"in"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"in"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"in"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"in"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"in"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""	7	"in"	"Applicable Law Reference"	"BQ Legal Terms Instance Record"	Object
+""	8	"out"	"Applicable Law Interpretation"	"BQ Legal Terms Instance Record"	String
+""
+"Put"	"/product-broker-agreement/{sd-identifier}/legal-terms/{crbq-identifier}/update"
+""	1	"inout"	"Jurisdiction"	"BQ Legal Terms Instance Record"	String
+""	2	"inout"	"Applicable Law Reference"	"BQ Legal Terms Instance Record"	Object
+""
+"Get"	"/product-broker-agreement/{sd-identifier}/legal-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"out"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"out"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"out"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"out"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""	7	"out"	"Applicable Law Reference"	"BQ Legal Terms Instance Record"	Object
+""	8	"out"	"Applicable Law Interpretation"	"BQ Legal Terms Instance Record"	String
+""
+"Post"	"/product-broker-agreement/{sd-identifier}/regulatory-terms/{crbq-identifier}/evaluation"
+""	1	"in"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"in"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"in"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"in"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"in"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"in"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""	7	"in"	"Regulatory Authority"	"BQ Regulatory Terms Instance Record"	String
+""	8	"in"	"Applicable Regulation Reference"	"BQ Regulatory Terms Instance Record"	Object
+""	9	"out"	"Applicable Regulation Interpretation"	"BQ Regulatory Terms Instance Record"	String
+""
+"Put"	"/product-broker-agreement/{sd-identifier}/regulatory-terms/{crbq-identifier}/update"
+""	1	"inout"	"Regulatory Authority"	"BQ Regulatory Terms Instance Record"	String
+""	2	"inout"	"Applicable Regulation Reference"	"BQ Regulatory Terms Instance Record"	Object
+""
+"Get"	"/product-broker-agreement/{sd-identifier}/regulatory-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"out"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"out"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"out"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"out"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""	7	"out"	"Regulatory Authority"	"BQ Regulatory Terms Instance Record"	String
+""	8	"out"	"Applicable Regulation Reference"	"BQ Regulatory Terms Instance Record"	Object
+""	9	"out"	"Applicable Regulation Interpretation"	"BQ Regulatory Terms Instance Record"	String
+""
+"Post"	"/product-broker-agreement/{sd-identifier}/policy-terms/{crbq-identifier}/evaluation"
+""	1	"in"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"in"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"in"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"in"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"in"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"in"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""	7	"in"	"Bank Policy-Rule Type"	"BQ Policy Terms Instance Record"	String
+""	8	"in"	"Applicable Bank Policy-Rule Reference"	"BQ Policy Terms Instance Record"	Object
+""	9	"out"	"Applicable Bank Policy- Rule Interpretation"	"BQ Policy Terms Instance Record"	String
+""
+"Put"	"/product-broker-agreement/{sd-identifier}/policy-terms/{crbq-identifier}/update"
+""	1	"inout"	"Bank Policy-Rule Type"	"BQ Policy Terms Instance Record"	String
+""	2	"inout"	"Applicable Bank Policy-Rule Reference"	"BQ Policy Terms Instance Record"	Object
+""
+"Get"	"/product-broker-agreement/{sd-identifier}/policy-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Party Reference"	"CR Broker Agreement Instance Record"	Object
+""	2	"out"	"Agreement Type"	"CR Broker Agreement Instance Record"	String
+""	3	"out"	"Agreement Jurisdiction"	"CR Broker Agreement Instance Record"	String
+""	4	"out"	"Agreement Valid From/To Date"	"CR Broker Agreement Instance Record"	Date
+""	5	"out"	"Agreement Signatures/Responsible Parties"	"CR Broker Agreement Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Broker Agreement Instance Record"	Object
+""	7	"out"	"Bank Policy-Rule Type"	"BQ Policy Terms Instance Record"	String
+""	8	"out"	"Applicable Bank Policy-Rule Reference"	"BQ Policy Terms Instance Record"	Object
+""	9	"out"	"Applicable Bank Policy- Rule Interpretation"	"BQ Policy Terms Instance Record"	String

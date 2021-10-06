@@ -1,0 +1,118 @@
+"Service Operations for: "	Corporate Tax Advisory
+""
+"POST"	"/corporate-tax-advisory/activation"
+"PUT"	"/corporate-tax-advisory/{sd-reference-id}/configuration"
+"PUT"	"/corporate-tax-advisory/{sd-reference-id}/feedback"
+""
+"Post"	"/corporate-tax-advisory/{sd-identifier}/corporate-tax-advisory-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	3	"in"	"Bank Branch/Location Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	4	"in"	"Employee/Business Unit Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	5	"out"	"Corporate Tax Advisory Work Products"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	7	"out"	"Corporate Tax Advice Session Schedule"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	8	"out"	"Corporate Tax Advice Consolidation Record"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	9	"inout"	"Date Type"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""
+"Put"	"/corporate-tax-advisory/{sd-identifier}/corporate-tax-advisory-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	5	"inout"	"Corporate Tax Advisory Work Products"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	7	"inout"	"Corporate Tax Advice Session Schedule"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	8	"inout"	"Corporate Tax Advice Consolidation Record"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	9	"inout"	"Date Type"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""
+"Put"	"/corporate-tax-advisory/{sd-identifier}/corporate-tax-advisory-arrangement/{crbq-identifier}/control"
+""
+"Put"	"/corporate-tax-advisory/{sd-identifier}/corporate-tax-advisory-arrangement/{crbq-identifier}/requisition"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	5	"inout"	"Corporate Tax Advisory Work Products"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	7	"inout"	"Corporate Tax Advice Session Schedule"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	8	"out"	"Corporate Tax Advice Consolidation Record"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	9	"inout"	"Date Type"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""
+"Get"	"/corporate-tax-advisory/{sd-identifier}/corporate-tax-advisory-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	3	"out"	"Bank Branch/Location Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	4	"out"	"Employee/Business Unit Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	5	"out"	"Corporate Tax Advisory Work Products"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	7	"out"	"Corporate Tax Advice Session Schedule"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	8	"out"	"Corporate Tax Advice Consolidation Record"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	9	"out"	"Date Type"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""
+"Post"	"/corporate-tax-advisory/{sd-identifier}/tax-optimization/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	5	"inout"	"Corporate Tax Advisory Work Products"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Corporate Tax Advisory Arrangement Instance Record"	Object
+""	7	"inout"	"Corporate Tax Advice Session Schedule"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	8	"out"	"Corporate Tax Advice Consolidation Record"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	9	"inout"	"Date Type"	"CR Corporate Tax Advisory Arrangement Instance Record"	String
+""	10	"in"	"Product/Service Reference"	"BQ Tax Optimization Instance Record"	Object
+""	11	"inout"	"Specialist Support Task"	"BQ Tax Optimization Instance Record"	String
+""	12	"inout"	"Specialist Employee/Business Unit Reference"	"BQ Tax Optimization Instance Record"	Object
+""	13	"out"	"Specialist Advice Description"	"BQ Tax Optimization Instance Record"	String
+""	14	"out"	"Specialist Advice Charge"	"BQ Tax Optimization Instance Record"	String
+""	15	"out"	"Tax Optimization Guidance Advice Result"	"BQ Tax Optimization Instance Record"	String
+""
+"Put"	"/corporate-tax-advisory/{sd-identifier}/tax-optimization/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Reference"	"BQ Tax Optimization Instance Record"	Object
+""	2	"inout"	"Specialist Support Task"	"BQ Tax Optimization Instance Record"	String
+""	3	"inout"	"Specialist Employee/Business Unit Reference"	"BQ Tax Optimization Instance Record"	Object
+""	4	"inout"	"Specialist Advice Description"	"BQ Tax Optimization Instance Record"	String
+""	5	"inout"	"Specialist Advice Charge"	"BQ Tax Optimization Instance Record"	String
+""	6	"inout"	"Tax Optimization Guidance Advice Result"	"BQ Tax Optimization Instance Record"	String
+""
+"Put"	"/corporate-tax-advisory/{sd-identifier}/tax-optimization/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Service Reference"	"BQ Tax Optimization Instance Record"	Object
+""	2	"inout"	"Specialist Support Task"	"BQ Tax Optimization Instance Record"	String
+""	3	"inout"	"Specialist Employee/Business Unit Reference"	"BQ Tax Optimization Instance Record"	Object
+""	4	"inout"	"Specialist Advice Description"	"BQ Tax Optimization Instance Record"	String
+""	5	"inout"	"Specialist Advice Charge"	"BQ Tax Optimization Instance Record"	String
+""	6	"inout"	"Tax Optimization Guidance Advice Result"	"BQ Tax Optimization Instance Record"	String
+""
+"Get"	"/corporate-tax-advisory/{sd-identifier}/tax-optimization/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Reference"	"BQ Tax Optimization Instance Record"	Object
+""	2	"out"	"Specialist Support Task"	"BQ Tax Optimization Instance Record"	String
+""	3	"out"	"Specialist Employee/Business Unit Reference"	"BQ Tax Optimization Instance Record"	Object
+""	4	"out"	"Specialist Advice Description"	"BQ Tax Optimization Instance Record"	String
+""	5	"out"	"Specialist Advice Charge"	"BQ Tax Optimization Instance Record"	String
+""	6	"out"	"Tax Optimization Guidance Advice Result"	"BQ Tax Optimization Instance Record"	String
+""
+"Post"	"/corporate-tax-advisory/{sd-identifier}/service-fees/{crbq-identifier}/initiation"
+""	1	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/corporate-tax-advisory/{sd-identifier}/service-fees/{crbq-identifier}/update"
+""	1	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	2	"inout"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	3	"inout"	"Fee Transaction Description"	"BQ Service Fees Instance Record"	String
+""	4	"inout"	"Fee Transaction Type"	"BQ Service Fees Instance Record"	String
+""	5	"inout"	"Fee Transaction Charge"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/corporate-tax-advisory/{sd-identifier}/service-fees/{crbq-identifier}/exchange"
+""
+"Put"	"/corporate-tax-advisory/{sd-identifier}/service-fees/{crbq-identifier}/execution"
+""	1	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	2	"inout"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	3	"in"	"Fee Transaction Description"	"BQ Service Fees Instance Record"	String
+""	4	"inout"	"Fee Transaction Type"	"BQ Service Fees Instance Record"	String
+""	5	"in"	"Fee Transaction Charge"	"BQ Service Fees Instance Record"	String
+""
+"Get"	"/corporate-tax-advisory/{sd-identifier}/service-fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	2	"out"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	3	"out"	"Fee Transaction Description"	"BQ Service Fees Instance Record"	String
+""	4	"out"	"Fee Transaction Type"	"BQ Service Fees Instance Record"	String
+""	5	"out"	"Fee Transaction Charge"	"BQ Service Fees Instance Record"	String

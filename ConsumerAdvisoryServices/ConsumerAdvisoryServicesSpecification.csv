@@ -1,0 +1,13 @@
+"Service Domain specification for Consumer Advisory Services"
+"Business Area"	Products
+"Business Domain"	Advisory Services
+"Service Domain"	Consumer Advisory Services
+"Role Definition"	"Provide consumer customers with financial advice, for product selection, investments, tax optimization etc. The time spent may incur a charge particularly when specialist financial advisory resources are engaged"
+"Example of use"	"A customer obtains tax optimization advice from a financial advisor at a branch"
+"Executive Summary"	"Offer financial advisory services to consumer customers, possibly for a fee"
+"Key Features"	"Evaluate the customer's financial position. Discuss financial options and strategies. Arrange product/service specialist advice"
+"Functional Pattern"	Fulfill
+"Asset Type"	ConsumerAdvice
+"Generic Artifact"	Facility (rename)
+"Control Record"	ConsumerAdviceArrangement
+"Registration Status"	Registered

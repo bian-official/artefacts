@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Payroll Services
+""
+"POST"	"/corporate-payroll-services/activation"
+"PUT"	"/corporate-payroll-services/{sd-reference-id}/configuration"
+"PUT"	"/corporate-payroll-services/{sd-reference-id}/feedback"

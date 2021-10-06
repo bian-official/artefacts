@@ -1,0 +1,13 @@
+"Service Domain specification for Production Risk Models"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Operational Risk
+"Service Domain"	Production Risk Models
+"Role Definition"	"Develop and refine production risk models to detect possible exposures to procedural failures"
+"Example of use"	"Financial engineers respond to an analysis of production issues and develop/refine their production risk models to better detect the root cause"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	ProductionRiskModel
+"Generic Artifact"	Specification
+"Control Record"	ProductionRiskModelSpecification
+"Registration Status"	Registered

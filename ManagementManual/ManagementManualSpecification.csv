@@ -1,0 +1,13 @@
+"Service Domain specification for Management Manual"
+"Business Area"	Business Development
+"Business Domain"	Intelectual Property And Knowledge
+"Service Domain"	Management Manual
+"Role Definition"	"This service domains handles the development and distribution of the enterprise management manual. The manual covers all procedures in place at the bank that are to be adopted followed in specific situations. It provides guidance on required actions, responsibilities and accountability to ensure the integrity of the banks operations"
+"Example of use"	"Example of use:. Operational procedures to be followed when handling sensitive customer information are amended to reflect updated regulatory requirements"
+"Executive Summary"	"Develop, maintain and promulgate the management manual of required procedures and guidelines. Provide support in its reference and interpretation as appropriate"
+"Key Features"	"Determine the required/scope or coverage of the procedures manual. Review current procedures against prevailing best practices and refine the manual as necessary. Maintain procedure classification and indexing to support access. Clarify obligations and accountability for adopting procedures across all banking activities"
+"Functional Pattern"	Design
+"Asset Type"	ManagementManual
+"Generic Artifact"	Specification
+"Control Record"	ManagementManualSpecification
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Utilities Administration
+"Control Record Model for Utilities Administration is not defined"
+"POST"	"/utilities-administration/activation"
+"PUT"	"/utilities-administration/{sd-reference-id}/configuration"
+"PUT"	"/utilities-administration/{sd-reference-id}/feedback"

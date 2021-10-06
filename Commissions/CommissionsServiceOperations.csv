@@ -1,0 +1,164 @@
+"Service Operations for: "	Commissions
+""
+"POST"	"/commissions/activation"
+"PUT"	"/commissions/{sd-reference-id}/configuration"
+"PUT"	"/commissions/{sd-reference-id}/feedback"
+""
+"Put"	"/commissions/{sd-identifier}/commission-transaction/{crbq-identifier}/control"
+""	1	"inout"	"Commission Transaction Parameter Type"	"CR Commission Transaction Instance Record"	String
+""	2	"inout"	"Commission Transaction Selected Option"	"CR Commission Transaction Instance Record"	String
+""	3	"inout"	"Commission Transaction Status"	"CR Commission Transaction Instance Record"	String
+""	4	"in"	"Commission Transaction Type"	"CR Commission Transaction Instance Record"	String
+""	5	"in"	"Commission Transaction Transaction Type"	"CR Commission Transaction Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/calculation/{crbq-identifier}/exchange"
+""	1	"inout"	"Calculation Preconditions"	"BQ Calculation Instance Record"	String
+""	2	"inout"	"Calculation Task Schedule"	"BQ Calculation Instance Record"	String
+""	3	"inout"	"Commission Calculation"	"BQ Calculation Instance Record"	Business Service
+""	4	"inout"	"Calculation Postconditions"	"BQ Calculation Instance Record"	String
+""	5	"inout"	"Calculation Commission Calculation Service Type"	"BQ Calculation Instance Record"	String
+""	6	"inout"	"Calculation Commission Calculation Service Description"	"BQ Calculation Instance Record"	String
+""	7	"inout"	"Calculation Commission Calculation Service Inputs and Ouputs"	"BQ Calculation Instance Record"	String
+""	8	"inout"	"Calculation Commission Calculation Service Work Product"	"BQ Calculation Instance Record"	String
+""	9	"inout"	"Calculation Commission Calculation Service Name"	"BQ Calculation Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/check/{crbq-identifier}/exchange"
+""	1	"inout"	"Check Preconditions"	"BQ Check Instance Record"	String
+""	2	"inout"	"Check Task Schedule"	"BQ Check Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Check Instance Record"	Business Service
+""	4	"inout"	"Check Postconditions"	"BQ Check Instance Record"	String
+""	5	"inout"	"Check Service Type"	"BQ Check Instance Record"	String
+""	6	"inout"	"Check Service Description"	"BQ Check Instance Record"	String
+""	7	"inout"	"Check Service Inputs and Ouputs"	"BQ Check Instance Record"	String
+""	8	"inout"	"Check Service Work Product"	"BQ Check Instance Record"	String
+""	9	"inout"	"Check Service Name"	"BQ Check Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/payment/{crbq-identifier}/exchange"
+""	1	"inout"	"Payment Preconditions"	"BQ Payment Instance Record"	String
+""	2	"inout"	"Payment Task Schedule"	"BQ Payment Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Payment Instance Record"	Business Service
+""	4	"inout"	"Payment Postconditions"	"BQ Payment Instance Record"	String
+""	5	"inout"	"Payment Service Type"	"BQ Payment Instance Record"	String
+""	6	"inout"	"Payment Service Description"	"BQ Payment Instance Record"	String
+""	7	"inout"	"Payment Service Inputs and Ouputs"	"BQ Payment Instance Record"	String
+""	8	"inout"	"Payment Service Work Product"	"BQ Payment Instance Record"	String
+""	9	"inout"	"Payment Service Name"	"BQ Payment Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/commission-transaction/{crbq-identifier}/exchange"
+""	1	"inout"	"Commission Transaction Parameter Type"	"CR Commission Transaction Instance Record"	String
+""	2	"inout"	"Commission Transaction Selected Option"	"CR Commission Transaction Instance Record"	String
+""	3	"inout"	"Commission Transaction Status"	"CR Commission Transaction Instance Record"	String
+""	4	"in"	"Commission Transaction Type"	"CR Commission Transaction Instance Record"	String
+""	5	"in"	"Commission Transaction Transaction Type"	"CR Commission Transaction Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/commission-transaction/{crbq-identifier}/execution"
+""	1	"inout"	"Commission Transaction Parameter Type"	"CR Commission Transaction Instance Record"	String
+""	2	"inout"	"Commission Transaction Selected Option"	"CR Commission Transaction Instance Record"	String
+""	3	"inout"	"Commission Transaction Status"	"CR Commission Transaction Instance Record"	String
+""	4	"in"	"Commission Transaction Type"	"CR Commission Transaction Instance Record"	String
+""	5	"in"	"Commission Transaction Transaction Type"	"CR Commission Transaction Instance Record"	String
+""
+"Post"	"/commissions/{sd-identifier}/check/{crbq-identifier}/initiation"
+""	1	"inout"	"Check Preconditions"	"BQ Check Instance Record"	String
+""	2	"inout"	"Check Task Schedule"	"BQ Check Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Check Instance Record"	Business Service
+""	4	"inout"	"Check Postconditions"	"BQ Check Instance Record"	String
+""	5	"inout"	"Check Service Type"	"BQ Check Instance Record"	String
+""	6	"inout"	"Check Service Description"	"BQ Check Instance Record"	String
+""	7	"inout"	"Check Service Inputs and Ouputs"	"BQ Check Instance Record"	String
+""	8	"inout"	"Check Service Work Product"	"BQ Check Instance Record"	String
+""	9	"inout"	"Check Service Name"	"BQ Check Instance Record"	String
+""
+"Post"	"/commissions/{sd-identifier}/commission-transaction/{crbq-identifier}/initiation"
+""	1	"inout"	"Commission Transaction Parameter Type"	"CR Commission Transaction Instance Record"	String
+""	2	"inout"	"Commission Transaction Selected Option"	"CR Commission Transaction Instance Record"	String
+""	3	"inout"	"Commission Transaction Status"	"CR Commission Transaction Instance Record"	String
+""	4	"in"	"Commission Transaction Type"	"CR Commission Transaction Instance Record"	String
+""	5	"in"	"Commission Transaction Transaction Type"	"CR Commission Transaction Instance Record"	String
+""
+"Get"	"/commissions/{sd-identifier}/calculation/{crbq-identifier}/retrieval"
+""	1	"out"	"Calculation Preconditions"	"BQ Calculation Instance Record"	String
+""	2	"out"	"Calculation Task Schedule"	"BQ Calculation Instance Record"	String
+""	3	"out"	"Commission Calculation"	"BQ Calculation Instance Record"	Business Service
+""	4	"out"	"Calculation Postconditions"	"BQ Calculation Instance Record"	String
+""	5	"out"	"Calculation Commission Calculation Service Type"	"BQ Calculation Instance Record"	String
+""	6	"out"	"Calculation Commission Calculation Service Description"	"BQ Calculation Instance Record"	String
+""	7	"out"	"Calculation Commission Calculation Service Inputs and Ouputs"	"BQ Calculation Instance Record"	String
+""	8	"out"	"Calculation Commission Calculation Service Work Product"	"BQ Calculation Instance Record"	String
+""	9	"out"	"Calculation Commission Calculation Service Name"	"BQ Calculation Instance Record"	String
+""
+"Get"	"/commissions/{sd-identifier}/check/{crbq-identifier}/retrieval"
+""	1	"out"	"Check Preconditions"	"BQ Check Instance Record"	String
+""	2	"out"	"Check Task Schedule"	"BQ Check Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Check Instance Record"	Business Service
+""	4	"out"	"Check Postconditions"	"BQ Check Instance Record"	String
+""	5	"out"	"Check Service Type"	"BQ Check Instance Record"	String
+""	6	"out"	"Check Service Description"	"BQ Check Instance Record"	String
+""	7	"out"	"Check Service Inputs and Ouputs"	"BQ Check Instance Record"	String
+""	8	"out"	"Check Service Work Product"	"BQ Check Instance Record"	String
+""	9	"out"	"Check Service Name"	"BQ Check Instance Record"	String
+""
+"Get"	"/commissions/{sd-identifier}/payment/{crbq-identifier}/retrieval"
+""	1	"out"	"Payment Preconditions"	"BQ Payment Instance Record"	String
+""	2	"out"	"Payment Task Schedule"	"BQ Payment Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Payment Instance Record"	Business Service
+""	4	"out"	"Payment Postconditions"	"BQ Payment Instance Record"	String
+""	5	"out"	"Payment Service Type"	"BQ Payment Instance Record"	String
+""	6	"out"	"Payment Service Description"	"BQ Payment Instance Record"	String
+""	7	"out"	"Payment Service Inputs and Ouputs"	"BQ Payment Instance Record"	String
+""	8	"out"	"Payment Service Work Product"	"BQ Payment Instance Record"	String
+""	9	"out"	"Payment Service Name"	"BQ Payment Instance Record"	String
+""
+"Get"	"/commissions/{sd-identifier}/commission-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Commission Transaction Parameter Type"	"CR Commission Transaction Instance Record"	String
+""	2	"out"	"Commission Transaction Selected Option"	"CR Commission Transaction Instance Record"	String
+""	3	"out"	"Commission Transaction Status"	"CR Commission Transaction Instance Record"	String
+""	4	"out"	"Commission Transaction Type"	"CR Commission Transaction Instance Record"	String
+""	5	"out"	"Commission Transaction Transaction Type"	"CR Commission Transaction Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/commission-transaction/{crbq-identifier}/requisition"
+""	1	"inout"	"Commission Transaction Parameter Type"	"CR Commission Transaction Instance Record"	String
+""	2	"inout"	"Commission Transaction Selected Option"	"CR Commission Transaction Instance Record"	String
+""	3	"inout"	"Commission Transaction Status"	"CR Commission Transaction Instance Record"	String
+""	4	"in"	"Commission Transaction Type"	"CR Commission Transaction Instance Record"	String
+""	5	"in"	"Commission Transaction Transaction Type"	"CR Commission Transaction Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/calculation/{crbq-identifier}/update"
+""	1	"inout"	"Calculation Preconditions"	"BQ Calculation Instance Record"	String
+""	2	"inout"	"Calculation Task Schedule"	"BQ Calculation Instance Record"	String
+""	3	"inout"	"Commission Calculation"	"BQ Calculation Instance Record"	Business Service
+""	4	"inout"	"Calculation Postconditions"	"BQ Calculation Instance Record"	String
+""	5	"inout"	"Calculation Commission Calculation Service Type"	"BQ Calculation Instance Record"	String
+""	6	"inout"	"Calculation Commission Calculation Service Description"	"BQ Calculation Instance Record"	String
+""	7	"inout"	"Calculation Commission Calculation Service Inputs and Ouputs"	"BQ Calculation Instance Record"	String
+""	8	"inout"	"Calculation Commission Calculation Service Work Product"	"BQ Calculation Instance Record"	String
+""	9	"inout"	"Calculation Commission Calculation Service Name"	"BQ Calculation Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/check/{crbq-identifier}/update"
+""	1	"inout"	"Check Preconditions"	"BQ Check Instance Record"	String
+""	2	"inout"	"Check Task Schedule"	"BQ Check Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Check Instance Record"	Business Service
+""	4	"inout"	"Check Postconditions"	"BQ Check Instance Record"	String
+""	5	"inout"	"Check Service Type"	"BQ Check Instance Record"	String
+""	6	"inout"	"Check Service Description"	"BQ Check Instance Record"	String
+""	7	"inout"	"Check Service Inputs and Ouputs"	"BQ Check Instance Record"	String
+""	8	"inout"	"Check Service Work Product"	"BQ Check Instance Record"	String
+""	9	"inout"	"Check Service Name"	"BQ Check Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/payment/{crbq-identifier}/update"
+""	1	"inout"	"Payment Preconditions"	"BQ Payment Instance Record"	String
+""	2	"inout"	"Payment Task Schedule"	"BQ Payment Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Payment Instance Record"	Business Service
+""	4	"inout"	"Payment Postconditions"	"BQ Payment Instance Record"	String
+""	5	"inout"	"Payment Service Type"	"BQ Payment Instance Record"	String
+""	6	"inout"	"Payment Service Description"	"BQ Payment Instance Record"	String
+""	7	"inout"	"Payment Service Inputs and Ouputs"	"BQ Payment Instance Record"	String
+""	8	"inout"	"Payment Service Work Product"	"BQ Payment Instance Record"	String
+""	9	"inout"	"Payment Service Name"	"BQ Payment Instance Record"	String
+""
+"Put"	"/commissions/{sd-identifier}/commission-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Commission Transaction Parameter Type"	"CR Commission Transaction Instance Record"	String
+""	2	"inout"	"Commission Transaction Selected Option"	"CR Commission Transaction Instance Record"	String
+""	3	"inout"	"Commission Transaction Status"	"CR Commission Transaction Instance Record"	String
+""	4	"in"	"Commission Transaction Type"	"CR Commission Transaction Instance Record"	String
+""	5	"in"	"Commission Transaction Transaction Type"	"CR Commission Transaction Instance Record"	String

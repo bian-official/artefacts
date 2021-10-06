@@ -1,0 +1,13 @@
+"Service Domain specification for Product Deployment"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Product Deployment
+"Role Definition"	"Plan and administer the deployment activities for new and enhanced products and services, includes employee training, product inventory and solution deployment and coordination with systems production release, IT platform operations, production fulfillment staffing, customer servicing, marketing and sales activities"
+"Example of use"	"An enhancement to an established product is rolled out across the enterprise"
+"Executive Summary"	"Plan and administer the production deployment new and updated products and services"
+"Key Features"	"Define and arrange for systems enhancement production integration (development and testing handled by SD-Production Release). Define and arrange for IT and HR operational requirements. Define and arrange for sales and marketing support requirements. Define and arrange for customer servicing requirements. Define and arrange for incremental product fulfillment and support requirements"
+"Functional Pattern"	Develop
+"Asset Type"	ProductandServiceDeployment
+"Generic Artifact"	Development
+"Control Record"	ProductandServiceDeploymentDevelopment
+"Registration Status"	Registered

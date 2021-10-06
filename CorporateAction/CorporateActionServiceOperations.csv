@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Action
+"Control Record Model for Corporate Action is not defined"
+"POST"	"/corporate-action/activation"
+"PUT"	"/corporate-action/{sd-reference-id}/configuration"
+"PUT"	"/corporate-action/{sd-reference-id}/feedback"

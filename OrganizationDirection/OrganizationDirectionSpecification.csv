@@ -1,0 +1,13 @@
+"Service Domain specification for Organization Direction"
+"Business Area"	Business Management
+"Business Domain"	Business Direction
+"Service Domain"	Organization Direction
+"Role Definition"	"Develop, maintain and implement the enterprise organization chart. Assign roles and responsibilities and track coverage"
+"Example of use"	"Business planners determine the resourcing needs and organization structure for the enterprise and make adjustments as necessary"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Direct
+"Asset Type"	Organization
+"Generic Artifact"	Strategy
+"Control Record"	OrganizationStrategy
+"Registration Status"	Registered

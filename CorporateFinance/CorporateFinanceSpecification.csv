@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Finance"
+"Business Area"	Products
+"Business Domain"	Advisory Services
+"Service Domain"	Corporate Finance
+"Role Definition"	"A fee or commission based project providing specialized financing advice (tactical and strategic) to a corporation"
+"Example of use"	"A corporate client relationship manager coordinates with financial advisory services to provide a corporate customer with financing advice"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	CorporateFinanceServices
+"Generic Artifact"	Facility (rename)
+"Control Record"	CorporateFinanceServicesArrangement
+"Registration Status"	Registered

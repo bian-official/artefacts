@@ -1,0 +1,13 @@
+"Service Domain specification for Regulatory Compliance"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Compliance
+"Service Domain"	Regulatory Compliance
+"Role Definition"	"This service domain administers the scheduled and ad-hoc application of regulatory checks. This includes interpreting the full range of regulatory requirements governing the bank's operations and determining which regulations apply in specific circumstances across the enterprise. Support and guidelines are provided to activities in the bank that are subject to the regulations and scheduled and ad-hoc checks performed to confirm compliance"
+"Example of use"	"A new customer's details are passed for regulatory watch list checks. A subsequent transaction is reported for regulatory compliance checks"
+"Executive Summary"	"This service domain provides a service to interpret regulatory requirements, provide guidance and define and implement a portfolio of regulatory compliance tests across all appropriate bank activities"
+"Key Features"	"Schedule/target regulatory checks. Consolidate documents/activity pertaining to regulatory tests. Provide advice/guidance for achieving regulatory compliance. Evaluate and report on activity for regulatory compliance, . Notify and track responses for detected regulatory failures"
+"Functional Pattern"	Assess
+"Asset Type"	RegulatoryCompliance
+"Generic Artifact"	Assessment
+"Control Record"	RegulatoryComplianceAssessment
+"Registration Status"	Registered

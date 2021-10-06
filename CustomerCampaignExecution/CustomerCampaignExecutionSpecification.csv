@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Campaign Execution"
+"Business Area"	Customers
+"Business Domain"	Sales
+"Service Domain"	Customer Campaign Execution
+"Role Definition"	"Handle the deployment, execution and on-going refinement of a customer campaign. This includes many types of proactive customer campaigns such as up-sell, cross-sell and customer retention. The campaign execution process performs the initial selection and confirmation of candidate customers and includes providing critical feedback on the impact of the campaign to the design unit to support re-calibration and refinement of the specification based on practical experience"
+"Example of use"	"A bank implements a targeted cross-sell campaign in the customer servicing center to generate additional sales"
+"Executive Summary"	"Execute a customer campaign (version) and track and respond to impact"
+"Key Features"	"Candidate customer selection/identification. Customer interaction and response capture. Campaign performance analysis and feedback"
+"Functional Pattern"	Process
+"Asset Type"	CustomerCampaign
+"Generic Artifact"	Procedure
+"Control Record"	CustomerCampaignProcedure
+"Registration Status"	Registered

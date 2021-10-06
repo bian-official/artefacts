@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Control"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Financial Control
+"Service Domain"	Financial Control
+"Role Definition"	"Review and confirm the correct booking and financial conformance of financial activity to agreed budgets and procedures across the business units of the enterprise"
+"Example of use"	"The finance department reviews business unit performance to budgets and directs the revision of budgets"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Assess
+"Asset Type"	FinancialControl
+"Generic Artifact"	Assessment
+"Control Record"	FinancialControlAssessment
+"Registration Status"	Registered

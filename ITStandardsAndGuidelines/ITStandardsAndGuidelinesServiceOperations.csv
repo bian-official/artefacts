@@ -1,0 +1,405 @@
+"Service Operations for: "	IT Standards And Guidelines
+""
+"POST"	"/it-standards-and-guidelines/activation"
+"PUT"	"/it-standards-and-guidelines/{sd-reference-id}/configuration"
+"PUT"	"/it-standards-and-guidelines/{sd-reference-id}/feedback"
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/development-tooling-and--environment/{crbq-identifier}/capture"
+""	1	"inout"	"Development Tooling and  Environment Preconditions"	"BQ Development Tooling and  Environment Instance Record"	String
+""	2	"inout"	"Development Tooling and  Environment Specification Schedule"	"BQ Development Tooling and  Environment Instance Record"	String
+""	3	"inout"	"Development Tooling and  Environment Version Number"	"BQ Development Tooling and  Environment Instance Record"	String
+""	4	"inout"	"Development Tooling and Environment"	"BQ Development Tooling and  Environment Instance Record"	Business Service
+""	5	"inout"	"Development Tooling and Environment Service Type"	"BQ Development Tooling and  Environment Instance Record"	String
+""	6	"inout"	"Development Tooling and Environment Service Description"	"BQ Development Tooling and  Environment Instance Record"	String
+""	7	"inout"	"Development Tooling and Environment Service Inputs and Ouputs"	"BQ Development Tooling and  Environment Instance Record"	String
+""	8	"inout"	"Development Tooling and Environment Service Work Product"	"BQ Development Tooling and  Environment Instance Record"	String
+""	9	"inout"	"Development Tooling and Environment Service Name"	"BQ Development Tooling and  Environment Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/itpolicies-and--guidelines/{crbq-identifier}/capture"
+""	1	"inout"	"ITPolicies and  Guidelines Preconditions"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	2	"inout"	"ITPolicies and  Guidelines Specification Schedule"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	3	"inout"	"ITPolicies and  Guidelines Version Number"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	4	"inout"	"IT Policies and Guidelines"	"BQ ITPolicies and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"IT Policies and Guidelines Service Type"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	6	"inout"	"IT Policies and Guidelines Service Description"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	7	"inout"	"IT Policies and Guidelines Service Inputs and Ouputs"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	8	"inout"	"IT Policies and Guidelines Service Work Product"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	9	"inout"	"IT Policies and Guidelines Service Name"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/product-testing-and--deployment-mechanisms/{crbq-identifier}/capture"
+""	1	"inout"	"Product Testing and  Deployment Mechanisms Preconditions"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	2	"inout"	"Product Testing and  Deployment Mechanisms Specification Schedule"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	3	"inout"	"Product Testing and  Deployment Mechanisms Version Number"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	4	"inout"	"Product Testing and Deployment Mechanisms"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	Business Service
+""	5	"inout"	"Product Testing and Deployment Mechanisms Service Type"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	6	"inout"	"Product Testing and Deployment Mechanisms Service Description"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	7	"inout"	"Product Testing and Deployment Mechanisms Service Inputs and Ouputs"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	8	"inout"	"Product Testing and Deployment Mechanisms Service Work Product"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	9	"inout"	"Product Testing and Deployment Mechanisms Service Name"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/production-environment-and--support-services/{crbq-identifier}/capture"
+""	1	"inout"	"Production Environment and  Support Services Preconditions"	"BQ Production Environment and  Support Services Instance Record"	String
+""	2	"inout"	"Production Environment and  Support Services Specification Schedule"	"BQ Production Environment and  Support Services Instance Record"	String
+""	3	"inout"	"Production Environment and  Support Services Version Number"	"BQ Production Environment and  Support Services Instance Record"	String
+""	4	"inout"	"Production Environment and Support Services"	"BQ Production Environment and  Support Services Instance Record"	Business Service
+""	5	"inout"	"Production Environment and Support Services Service Type"	"BQ Production Environment and  Support Services Instance Record"	String
+""	6	"inout"	"Production Environment and Support Services Service Description"	"BQ Production Environment and  Support Services Instance Record"	String
+""	7	"inout"	"Production Environment and Support Services Service Inputs and Ouputs"	"BQ Production Environment and  Support Services Instance Record"	String
+""	8	"inout"	"Production Environment and Support Services Service Work Product"	"BQ Production Environment and  Support Services Instance Record"	String
+""	9	"inout"	"Production Environment and Support Services Service Name"	"BQ Production Environment and  Support Services Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/production-platforms-and--infrastructure/{crbq-identifier}/capture"
+""	1	"inout"	"Production Platforms and  Infrastructure Preconditions"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	2	"inout"	"Production Platforms and  Infrastructure Specification Schedule"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	3	"inout"	"Production Platforms and  Infrastructure Version Number"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	4	"inout"	"Production Platforms and Infrastructure"	"BQ Production Platforms and  Infrastructure Instance Record"	Business Service
+""	5	"inout"	"Production Platforms and Infrastructure Service Type"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	6	"inout"	"Production Platforms and Infrastructure Service Description"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	7	"inout"	"Production Platforms and Infrastructure Service Inputs and Ouputs"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	8	"inout"	"Production Platforms and Infrastructure Service Work Product"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	9	"inout"	"Production Platforms and Infrastructure Service Name"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/technology-standards-specification/{crbq-identifier}/capture"
+""	1	"inout"	"Technology Standards Specification Parameter Type"	"CR Technology Standards Specification Instance Record"	String
+""	2	"inout"	"Technology Standards Specification Selected Option"	"CR Technology Standards Specification Instance Record"	String
+""	3	"in"	"Technology Standards Specification Description"	"CR Technology Standards Specification Instance Record"	String
+""	4	"inout"	"Technology Standards Specification Version"	"CR Technology Standards Specification Instance Record"	String
+""	5	"inout"	"Technology Standards Specification Status"	"CR Technology Standards Specification Instance Record"	String
+""	6	"inout"	"Technology Standards Specification Usage Log"	"CR Technology Standards Specification Instance Record"	String
+""	7	"inout"	"Technology Standards Specification Feedback"	"CR Technology Standards Specification Instance Record"	String
+""	8	"in"	"Technology Standards Specification ServiceProvider Reference"	"CR Technology Standards Specification Instance Record"	Object
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/technology-standards-specification/{crbq-identifier}/control"
+""	1	"inout"	"Technology Standards Specification Parameter Type"	"CR Technology Standards Specification Instance Record"	String
+""	2	"inout"	"Technology Standards Specification Selected Option"	"CR Technology Standards Specification Instance Record"	String
+""	3	"in"	"Technology Standards Specification Description"	"CR Technology Standards Specification Instance Record"	String
+""	4	"inout"	"Technology Standards Specification Version"	"CR Technology Standards Specification Instance Record"	String
+""	5	"inout"	"Technology Standards Specification Status"	"CR Technology Standards Specification Instance Record"	String
+""	6	"inout"	"Technology Standards Specification Usage Log"	"CR Technology Standards Specification Instance Record"	String
+""	7	"inout"	"Technology Standards Specification Feedback"	"CR Technology Standards Specification Instance Record"	String
+""	8	"in"	"Technology Standards Specification ServiceProvider Reference"	"CR Technology Standards Specification Instance Record"	Object
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/development-tooling-and--environment/{crbq-identifier}/exchange"
+""	1	"inout"	"Development Tooling and  Environment Preconditions"	"BQ Development Tooling and  Environment Instance Record"	String
+""	2	"inout"	"Development Tooling and  Environment Specification Schedule"	"BQ Development Tooling and  Environment Instance Record"	String
+""	3	"inout"	"Development Tooling and  Environment Version Number"	"BQ Development Tooling and  Environment Instance Record"	String
+""	4	"inout"	"Development Tooling and Environment"	"BQ Development Tooling and  Environment Instance Record"	Business Service
+""	5	"inout"	"Development Tooling and Environment Service Type"	"BQ Development Tooling and  Environment Instance Record"	String
+""	6	"inout"	"Development Tooling and Environment Service Description"	"BQ Development Tooling and  Environment Instance Record"	String
+""	7	"inout"	"Development Tooling and Environment Service Inputs and Ouputs"	"BQ Development Tooling and  Environment Instance Record"	String
+""	8	"inout"	"Development Tooling and Environment Service Work Product"	"BQ Development Tooling and  Environment Instance Record"	String
+""	9	"inout"	"Development Tooling and Environment Service Name"	"BQ Development Tooling and  Environment Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/itpolicies-and--guidelines/{crbq-identifier}/exchange"
+""	1	"inout"	"ITPolicies and  Guidelines Preconditions"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	2	"inout"	"ITPolicies and  Guidelines Specification Schedule"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	3	"inout"	"ITPolicies and  Guidelines Version Number"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	4	"inout"	"IT Policies and Guidelines"	"BQ ITPolicies and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"IT Policies and Guidelines Service Type"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	6	"inout"	"IT Policies and Guidelines Service Description"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	7	"inout"	"IT Policies and Guidelines Service Inputs and Ouputs"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	8	"inout"	"IT Policies and Guidelines Service Work Product"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	9	"inout"	"IT Policies and Guidelines Service Name"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/product-testing-and--deployment-mechanisms/{crbq-identifier}/exchange"
+""	1	"inout"	"Product Testing and  Deployment Mechanisms Preconditions"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	2	"inout"	"Product Testing and  Deployment Mechanisms Specification Schedule"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	3	"inout"	"Product Testing and  Deployment Mechanisms Version Number"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	4	"inout"	"Product Testing and Deployment Mechanisms"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	Business Service
+""	5	"inout"	"Product Testing and Deployment Mechanisms Service Type"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	6	"inout"	"Product Testing and Deployment Mechanisms Service Description"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	7	"inout"	"Product Testing and Deployment Mechanisms Service Inputs and Ouputs"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	8	"inout"	"Product Testing and Deployment Mechanisms Service Work Product"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	9	"inout"	"Product Testing and Deployment Mechanisms Service Name"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/production-environment-and--support-services/{crbq-identifier}/exchange"
+""	1	"inout"	"Production Environment and  Support Services Preconditions"	"BQ Production Environment and  Support Services Instance Record"	String
+""	2	"inout"	"Production Environment and  Support Services Specification Schedule"	"BQ Production Environment and  Support Services Instance Record"	String
+""	3	"inout"	"Production Environment and  Support Services Version Number"	"BQ Production Environment and  Support Services Instance Record"	String
+""	4	"inout"	"Production Environment and Support Services"	"BQ Production Environment and  Support Services Instance Record"	Business Service
+""	5	"inout"	"Production Environment and Support Services Service Type"	"BQ Production Environment and  Support Services Instance Record"	String
+""	6	"inout"	"Production Environment and Support Services Service Description"	"BQ Production Environment and  Support Services Instance Record"	String
+""	7	"inout"	"Production Environment and Support Services Service Inputs and Ouputs"	"BQ Production Environment and  Support Services Instance Record"	String
+""	8	"inout"	"Production Environment and Support Services Service Work Product"	"BQ Production Environment and  Support Services Instance Record"	String
+""	9	"inout"	"Production Environment and Support Services Service Name"	"BQ Production Environment and  Support Services Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/production-platforms-and--infrastructure/{crbq-identifier}/exchange"
+""	1	"inout"	"Production Platforms and  Infrastructure Preconditions"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	2	"inout"	"Production Platforms and  Infrastructure Specification Schedule"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	3	"inout"	"Production Platforms and  Infrastructure Version Number"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	4	"inout"	"Production Platforms and Infrastructure"	"BQ Production Platforms and  Infrastructure Instance Record"	Business Service
+""	5	"inout"	"Production Platforms and Infrastructure Service Type"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	6	"inout"	"Production Platforms and Infrastructure Service Description"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	7	"inout"	"Production Platforms and Infrastructure Service Inputs and Ouputs"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	8	"inout"	"Production Platforms and Infrastructure Service Work Product"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	9	"inout"	"Production Platforms and Infrastructure Service Name"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/technology-standards-specification/{crbq-identifier}/exchange"
+""	1	"inout"	"Technology Standards Specification Parameter Type"	"CR Technology Standards Specification Instance Record"	String
+""	2	"inout"	"Technology Standards Specification Selected Option"	"CR Technology Standards Specification Instance Record"	String
+""	3	"in"	"Technology Standards Specification Description"	"CR Technology Standards Specification Instance Record"	String
+""	4	"inout"	"Technology Standards Specification Version"	"CR Technology Standards Specification Instance Record"	String
+""	5	"inout"	"Technology Standards Specification Status"	"CR Technology Standards Specification Instance Record"	String
+""	6	"inout"	"Technology Standards Specification Usage Log"	"CR Technology Standards Specification Instance Record"	String
+""	7	"inout"	"Technology Standards Specification Feedback"	"CR Technology Standards Specification Instance Record"	String
+""	8	"in"	"Technology Standards Specification ServiceProvider Reference"	"CR Technology Standards Specification Instance Record"	Object
+""
+"Post"	"/it-standards-and-guidelines/{sd-identifier}/development-tooling-and--environment/{crbq-identifier}/initiation"
+""	1	"inout"	"Development Tooling and  Environment Preconditions"	"BQ Development Tooling and  Environment Instance Record"	String
+""	2	"inout"	"Development Tooling and  Environment Specification Schedule"	"BQ Development Tooling and  Environment Instance Record"	String
+""	3	"inout"	"Development Tooling and  Environment Version Number"	"BQ Development Tooling and  Environment Instance Record"	String
+""	4	"inout"	"Development Tooling and Environment"	"BQ Development Tooling and  Environment Instance Record"	Business Service
+""	5	"inout"	"Development Tooling and Environment Service Type"	"BQ Development Tooling and  Environment Instance Record"	String
+""	6	"inout"	"Development Tooling and Environment Service Description"	"BQ Development Tooling and  Environment Instance Record"	String
+""	7	"inout"	"Development Tooling and Environment Service Inputs and Ouputs"	"BQ Development Tooling and  Environment Instance Record"	String
+""	8	"inout"	"Development Tooling and Environment Service Work Product"	"BQ Development Tooling and  Environment Instance Record"	String
+""	9	"inout"	"Development Tooling and Environment Service Name"	"BQ Development Tooling and  Environment Instance Record"	String
+""
+"Post"	"/it-standards-and-guidelines/{sd-identifier}/itpolicies-and--guidelines/{crbq-identifier}/initiation"
+""	1	"inout"	"ITPolicies and  Guidelines Preconditions"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	2	"inout"	"ITPolicies and  Guidelines Specification Schedule"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	3	"inout"	"ITPolicies and  Guidelines Version Number"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	4	"inout"	"IT Policies and Guidelines"	"BQ ITPolicies and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"IT Policies and Guidelines Service Type"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	6	"inout"	"IT Policies and Guidelines Service Description"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	7	"inout"	"IT Policies and Guidelines Service Inputs and Ouputs"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	8	"inout"	"IT Policies and Guidelines Service Work Product"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	9	"inout"	"IT Policies and Guidelines Service Name"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""
+"Post"	"/it-standards-and-guidelines/{sd-identifier}/product-testing-and--deployment-mechanisms/{crbq-identifier}/initiation"
+""	1	"inout"	"Product Testing and  Deployment Mechanisms Preconditions"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	2	"inout"	"Product Testing and  Deployment Mechanisms Specification Schedule"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	3	"inout"	"Product Testing and  Deployment Mechanisms Version Number"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	4	"inout"	"Product Testing and Deployment Mechanisms"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	Business Service
+""	5	"inout"	"Product Testing and Deployment Mechanisms Service Type"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	6	"inout"	"Product Testing and Deployment Mechanisms Service Description"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	7	"inout"	"Product Testing and Deployment Mechanisms Service Inputs and Ouputs"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	8	"inout"	"Product Testing and Deployment Mechanisms Service Work Product"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	9	"inout"	"Product Testing and Deployment Mechanisms Service Name"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""
+"Post"	"/it-standards-and-guidelines/{sd-identifier}/production-environment-and--support-services/{crbq-identifier}/initiation"
+""	1	"inout"	"Production Environment and  Support Services Preconditions"	"BQ Production Environment and  Support Services Instance Record"	String
+""	2	"inout"	"Production Environment and  Support Services Specification Schedule"	"BQ Production Environment and  Support Services Instance Record"	String
+""	3	"inout"	"Production Environment and  Support Services Version Number"	"BQ Production Environment and  Support Services Instance Record"	String
+""	4	"inout"	"Production Environment and Support Services"	"BQ Production Environment and  Support Services Instance Record"	Business Service
+""	5	"inout"	"Production Environment and Support Services Service Type"	"BQ Production Environment and  Support Services Instance Record"	String
+""	6	"inout"	"Production Environment and Support Services Service Description"	"BQ Production Environment and  Support Services Instance Record"	String
+""	7	"inout"	"Production Environment and Support Services Service Inputs and Ouputs"	"BQ Production Environment and  Support Services Instance Record"	String
+""	8	"inout"	"Production Environment and Support Services Service Work Product"	"BQ Production Environment and  Support Services Instance Record"	String
+""	9	"inout"	"Production Environment and Support Services Service Name"	"BQ Production Environment and  Support Services Instance Record"	String
+""
+"Post"	"/it-standards-and-guidelines/{sd-identifier}/production-platforms-and--infrastructure/{crbq-identifier}/initiation"
+""	1	"inout"	"Production Platforms and  Infrastructure Preconditions"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	2	"inout"	"Production Platforms and  Infrastructure Specification Schedule"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	3	"inout"	"Production Platforms and  Infrastructure Version Number"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	4	"inout"	"Production Platforms and Infrastructure"	"BQ Production Platforms and  Infrastructure Instance Record"	Business Service
+""	5	"inout"	"Production Platforms and Infrastructure Service Type"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	6	"inout"	"Production Platforms and Infrastructure Service Description"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	7	"inout"	"Production Platforms and Infrastructure Service Inputs and Ouputs"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	8	"inout"	"Production Platforms and Infrastructure Service Work Product"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	9	"inout"	"Production Platforms and Infrastructure Service Name"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""
+"Post"	"/it-standards-and-guidelines/{sd-identifier}/technology-standards-specification/{crbq-identifier}/initiation"
+""	1	"inout"	"Technology Standards Specification Parameter Type"	"CR Technology Standards Specification Instance Record"	String
+""	2	"inout"	"Technology Standards Specification Selected Option"	"CR Technology Standards Specification Instance Record"	String
+""	3	"in"	"Technology Standards Specification Description"	"CR Technology Standards Specification Instance Record"	String
+""	4	"inout"	"Technology Standards Specification Version"	"CR Technology Standards Specification Instance Record"	String
+""	5	"inout"	"Technology Standards Specification Status"	"CR Technology Standards Specification Instance Record"	String
+""	6	"inout"	"Technology Standards Specification Usage Log"	"CR Technology Standards Specification Instance Record"	String
+""	7	"inout"	"Technology Standards Specification Feedback"	"CR Technology Standards Specification Instance Record"	String
+""	8	"in"	"Technology Standards Specification ServiceProvider Reference"	"CR Technology Standards Specification Instance Record"	Object
+""
+"Get"	"/it-standards-and-guidelines/{sd-identifier}/development-tooling-and--environment/{crbq-identifier}/retrieval"
+""	1	"out"	"Development Tooling and  Environment Preconditions"	"BQ Development Tooling and  Environment Instance Record"	String
+""	2	"out"	"Development Tooling and  Environment Specification Schedule"	"BQ Development Tooling and  Environment Instance Record"	String
+""	3	"out"	"Development Tooling and  Environment Version Number"	"BQ Development Tooling and  Environment Instance Record"	String
+""	4	"out"	"Development Tooling and Environment"	"BQ Development Tooling and  Environment Instance Record"	Business Service
+""	5	"out"	"Development Tooling and Environment Service Type"	"BQ Development Tooling and  Environment Instance Record"	String
+""	6	"out"	"Development Tooling and Environment Service Description"	"BQ Development Tooling and  Environment Instance Record"	String
+""	7	"out"	"Development Tooling and Environment Service Inputs and Ouputs"	"BQ Development Tooling and  Environment Instance Record"	String
+""	8	"out"	"Development Tooling and Environment Service Work Product"	"BQ Development Tooling and  Environment Instance Record"	String
+""	9	"out"	"Development Tooling and Environment Service Name"	"BQ Development Tooling and  Environment Instance Record"	String
+""
+"Get"	"/it-standards-and-guidelines/{sd-identifier}/itpolicies-and--guidelines/{crbq-identifier}/retrieval"
+""	1	"out"	"ITPolicies and  Guidelines Preconditions"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	2	"out"	"ITPolicies and  Guidelines Specification Schedule"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	3	"out"	"ITPolicies and  Guidelines Version Number"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	4	"out"	"IT Policies and Guidelines"	"BQ ITPolicies and  Guidelines Instance Record"	Business Service
+""	5	"out"	"IT Policies and Guidelines Service Type"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	6	"out"	"IT Policies and Guidelines Service Description"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	7	"out"	"IT Policies and Guidelines Service Inputs and Ouputs"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	8	"out"	"IT Policies and Guidelines Service Work Product"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	9	"out"	"IT Policies and Guidelines Service Name"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""
+"Get"	"/it-standards-and-guidelines/{sd-identifier}/product-testing-and--deployment-mechanisms/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Testing and  Deployment Mechanisms Preconditions"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	2	"out"	"Product Testing and  Deployment Mechanisms Specification Schedule"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	3	"out"	"Product Testing and  Deployment Mechanisms Version Number"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	4	"out"	"Product Testing and Deployment Mechanisms"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	Business Service
+""	5	"out"	"Product Testing and Deployment Mechanisms Service Type"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	6	"out"	"Product Testing and Deployment Mechanisms Service Description"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	7	"out"	"Product Testing and Deployment Mechanisms Service Inputs and Ouputs"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	8	"out"	"Product Testing and Deployment Mechanisms Service Work Product"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	9	"out"	"Product Testing and Deployment Mechanisms Service Name"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""
+"Get"	"/it-standards-and-guidelines/{sd-identifier}/production-environment-and--support-services/{crbq-identifier}/retrieval"
+""	1	"out"	"Production Environment and  Support Services Preconditions"	"BQ Production Environment and  Support Services Instance Record"	String
+""	2	"out"	"Production Environment and  Support Services Specification Schedule"	"BQ Production Environment and  Support Services Instance Record"	String
+""	3	"out"	"Production Environment and  Support Services Version Number"	"BQ Production Environment and  Support Services Instance Record"	String
+""	4	"out"	"Production Environment and Support Services"	"BQ Production Environment and  Support Services Instance Record"	Business Service
+""	5	"out"	"Production Environment and Support Services Service Type"	"BQ Production Environment and  Support Services Instance Record"	String
+""	6	"out"	"Production Environment and Support Services Service Description"	"BQ Production Environment and  Support Services Instance Record"	String
+""	7	"out"	"Production Environment and Support Services Service Inputs and Ouputs"	"BQ Production Environment and  Support Services Instance Record"	String
+""	8	"out"	"Production Environment and Support Services Service Work Product"	"BQ Production Environment and  Support Services Instance Record"	String
+""	9	"out"	"Production Environment and Support Services Service Name"	"BQ Production Environment and  Support Services Instance Record"	String
+""
+"Get"	"/it-standards-and-guidelines/{sd-identifier}/production-platforms-and--infrastructure/{crbq-identifier}/retrieval"
+""	1	"out"	"Production Platforms and  Infrastructure Preconditions"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	2	"out"	"Production Platforms and  Infrastructure Specification Schedule"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	3	"out"	"Production Platforms and  Infrastructure Version Number"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	4	"out"	"Production Platforms and Infrastructure"	"BQ Production Platforms and  Infrastructure Instance Record"	Business Service
+""	5	"out"	"Production Platforms and Infrastructure Service Type"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	6	"out"	"Production Platforms and Infrastructure Service Description"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	7	"out"	"Production Platforms and Infrastructure Service Inputs and Ouputs"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	8	"out"	"Production Platforms and Infrastructure Service Work Product"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	9	"out"	"Production Platforms and Infrastructure Service Name"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""
+"Get"	"/it-standards-and-guidelines/{sd-identifier}/technology-standards-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"Technology Standards Specification Parameter Type"	"CR Technology Standards Specification Instance Record"	String
+""	2	"out"	"Technology Standards Specification Selected Option"	"CR Technology Standards Specification Instance Record"	String
+""	3	"out"	"Technology Standards Specification Description"	"CR Technology Standards Specification Instance Record"	String
+""	4	"out"	"Technology Standards Specification Version"	"CR Technology Standards Specification Instance Record"	String
+""	5	"out"	"Technology Standards Specification Status"	"CR Technology Standards Specification Instance Record"	String
+""	6	"out"	"Technology Standards Specification Usage Log"	"CR Technology Standards Specification Instance Record"	String
+""	7	"out"	"Technology Standards Specification Feedback"	"CR Technology Standards Specification Instance Record"	String
+""	8	"out"	"Technology Standards Specification ServiceProvider Reference"	"CR Technology Standards Specification Instance Record"	Object
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/development-tooling-and--environment/{crbq-identifier}/requisition"
+""	1	"inout"	"Development Tooling and  Environment Preconditions"	"BQ Development Tooling and  Environment Instance Record"	String
+""	2	"inout"	"Development Tooling and  Environment Specification Schedule"	"BQ Development Tooling and  Environment Instance Record"	String
+""	3	"inout"	"Development Tooling and  Environment Version Number"	"BQ Development Tooling and  Environment Instance Record"	String
+""	4	"inout"	"Development Tooling and Environment"	"BQ Development Tooling and  Environment Instance Record"	Business Service
+""	5	"inout"	"Development Tooling and Environment Service Type"	"BQ Development Tooling and  Environment Instance Record"	String
+""	6	"inout"	"Development Tooling and Environment Service Description"	"BQ Development Tooling and  Environment Instance Record"	String
+""	7	"inout"	"Development Tooling and Environment Service Inputs and Ouputs"	"BQ Development Tooling and  Environment Instance Record"	String
+""	8	"inout"	"Development Tooling and Environment Service Work Product"	"BQ Development Tooling and  Environment Instance Record"	String
+""	9	"inout"	"Development Tooling and Environment Service Name"	"BQ Development Tooling and  Environment Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/itpolicies-and--guidelines/{crbq-identifier}/requisition"
+""	1	"inout"	"ITPolicies and  Guidelines Preconditions"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	2	"inout"	"ITPolicies and  Guidelines Specification Schedule"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	3	"inout"	"ITPolicies and  Guidelines Version Number"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	4	"inout"	"IT Policies and Guidelines"	"BQ ITPolicies and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"IT Policies and Guidelines Service Type"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	6	"inout"	"IT Policies and Guidelines Service Description"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	7	"inout"	"IT Policies and Guidelines Service Inputs and Ouputs"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	8	"inout"	"IT Policies and Guidelines Service Work Product"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	9	"inout"	"IT Policies and Guidelines Service Name"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/product-testing-and--deployment-mechanisms/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Testing and  Deployment Mechanisms Preconditions"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	2	"inout"	"Product Testing and  Deployment Mechanisms Specification Schedule"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	3	"inout"	"Product Testing and  Deployment Mechanisms Version Number"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	4	"inout"	"Product Testing and Deployment Mechanisms"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	Business Service
+""	5	"inout"	"Product Testing and Deployment Mechanisms Service Type"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	6	"inout"	"Product Testing and Deployment Mechanisms Service Description"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	7	"inout"	"Product Testing and Deployment Mechanisms Service Inputs and Ouputs"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	8	"inout"	"Product Testing and Deployment Mechanisms Service Work Product"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	9	"inout"	"Product Testing and Deployment Mechanisms Service Name"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/production-environment-and--support-services/{crbq-identifier}/requisition"
+""	1	"inout"	"Production Environment and  Support Services Preconditions"	"BQ Production Environment and  Support Services Instance Record"	String
+""	2	"inout"	"Production Environment and  Support Services Specification Schedule"	"BQ Production Environment and  Support Services Instance Record"	String
+""	3	"inout"	"Production Environment and  Support Services Version Number"	"BQ Production Environment and  Support Services Instance Record"	String
+""	4	"inout"	"Production Environment and Support Services"	"BQ Production Environment and  Support Services Instance Record"	Business Service
+""	5	"inout"	"Production Environment and Support Services Service Type"	"BQ Production Environment and  Support Services Instance Record"	String
+""	6	"inout"	"Production Environment and Support Services Service Description"	"BQ Production Environment and  Support Services Instance Record"	String
+""	7	"inout"	"Production Environment and Support Services Service Inputs and Ouputs"	"BQ Production Environment and  Support Services Instance Record"	String
+""	8	"inout"	"Production Environment and Support Services Service Work Product"	"BQ Production Environment and  Support Services Instance Record"	String
+""	9	"inout"	"Production Environment and Support Services Service Name"	"BQ Production Environment and  Support Services Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/production-platforms-and--infrastructure/{crbq-identifier}/requisition"
+""	1	"inout"	"Production Platforms and  Infrastructure Preconditions"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	2	"inout"	"Production Platforms and  Infrastructure Specification Schedule"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	3	"inout"	"Production Platforms and  Infrastructure Version Number"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	4	"inout"	"Production Platforms and Infrastructure"	"BQ Production Platforms and  Infrastructure Instance Record"	Business Service
+""	5	"inout"	"Production Platforms and Infrastructure Service Type"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	6	"inout"	"Production Platforms and Infrastructure Service Description"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	7	"inout"	"Production Platforms and Infrastructure Service Inputs and Ouputs"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	8	"inout"	"Production Platforms and Infrastructure Service Work Product"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	9	"inout"	"Production Platforms and Infrastructure Service Name"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/technology-standards-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Technology Standards Specification Parameter Type"	"CR Technology Standards Specification Instance Record"	String
+""	2	"inout"	"Technology Standards Specification Selected Option"	"CR Technology Standards Specification Instance Record"	String
+""	3	"in"	"Technology Standards Specification Description"	"CR Technology Standards Specification Instance Record"	String
+""	4	"inout"	"Technology Standards Specification Version"	"CR Technology Standards Specification Instance Record"	String
+""	5	"inout"	"Technology Standards Specification Status"	"CR Technology Standards Specification Instance Record"	String
+""	6	"inout"	"Technology Standards Specification Usage Log"	"CR Technology Standards Specification Instance Record"	String
+""	7	"inout"	"Technology Standards Specification Feedback"	"CR Technology Standards Specification Instance Record"	String
+""	8	"in"	"Technology Standards Specification ServiceProvider Reference"	"CR Technology Standards Specification Instance Record"	Object
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/development-tooling-and--environment/{crbq-identifier}/update"
+""	1	"inout"	"Development Tooling and  Environment Preconditions"	"BQ Development Tooling and  Environment Instance Record"	String
+""	2	"inout"	"Development Tooling and  Environment Specification Schedule"	"BQ Development Tooling and  Environment Instance Record"	String
+""	3	"inout"	"Development Tooling and  Environment Version Number"	"BQ Development Tooling and  Environment Instance Record"	String
+""	4	"inout"	"Development Tooling and Environment"	"BQ Development Tooling and  Environment Instance Record"	Business Service
+""	5	"inout"	"Development Tooling and Environment Service Type"	"BQ Development Tooling and  Environment Instance Record"	String
+""	6	"inout"	"Development Tooling and Environment Service Description"	"BQ Development Tooling and  Environment Instance Record"	String
+""	7	"inout"	"Development Tooling and Environment Service Inputs and Ouputs"	"BQ Development Tooling and  Environment Instance Record"	String
+""	8	"inout"	"Development Tooling and Environment Service Work Product"	"BQ Development Tooling and  Environment Instance Record"	String
+""	9	"inout"	"Development Tooling and Environment Service Name"	"BQ Development Tooling and  Environment Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/itpolicies-and--guidelines/{crbq-identifier}/update"
+""	1	"inout"	"ITPolicies and  Guidelines Preconditions"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	2	"inout"	"ITPolicies and  Guidelines Specification Schedule"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	3	"inout"	"ITPolicies and  Guidelines Version Number"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	4	"inout"	"IT Policies and Guidelines"	"BQ ITPolicies and  Guidelines Instance Record"	Business Service
+""	5	"inout"	"IT Policies and Guidelines Service Type"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	6	"inout"	"IT Policies and Guidelines Service Description"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	7	"inout"	"IT Policies and Guidelines Service Inputs and Ouputs"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	8	"inout"	"IT Policies and Guidelines Service Work Product"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""	9	"inout"	"IT Policies and Guidelines Service Name"	"BQ ITPolicies and  Guidelines Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/product-testing-and--deployment-mechanisms/{crbq-identifier}/update"
+""	1	"inout"	"Product Testing and  Deployment Mechanisms Preconditions"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	2	"inout"	"Product Testing and  Deployment Mechanisms Specification Schedule"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	3	"inout"	"Product Testing and  Deployment Mechanisms Version Number"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	4	"inout"	"Product Testing and Deployment Mechanisms"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	Business Service
+""	5	"inout"	"Product Testing and Deployment Mechanisms Service Type"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	6	"inout"	"Product Testing and Deployment Mechanisms Service Description"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	7	"inout"	"Product Testing and Deployment Mechanisms Service Inputs and Ouputs"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	8	"inout"	"Product Testing and Deployment Mechanisms Service Work Product"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""	9	"inout"	"Product Testing and Deployment Mechanisms Service Name"	"BQ Product Testing and  Deployment Mechanisms Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/production-environment-and--support-services/{crbq-identifier}/update"
+""	1	"inout"	"Production Environment and  Support Services Preconditions"	"BQ Production Environment and  Support Services Instance Record"	String
+""	2	"inout"	"Production Environment and  Support Services Specification Schedule"	"BQ Production Environment and  Support Services Instance Record"	String
+""	3	"inout"	"Production Environment and  Support Services Version Number"	"BQ Production Environment and  Support Services Instance Record"	String
+""	4	"inout"	"Production Environment and Support Services"	"BQ Production Environment and  Support Services Instance Record"	Business Service
+""	5	"inout"	"Production Environment and Support Services Service Type"	"BQ Production Environment and  Support Services Instance Record"	String
+""	6	"inout"	"Production Environment and Support Services Service Description"	"BQ Production Environment and  Support Services Instance Record"	String
+""	7	"inout"	"Production Environment and Support Services Service Inputs and Ouputs"	"BQ Production Environment and  Support Services Instance Record"	String
+""	8	"inout"	"Production Environment and Support Services Service Work Product"	"BQ Production Environment and  Support Services Instance Record"	String
+""	9	"inout"	"Production Environment and Support Services Service Name"	"BQ Production Environment and  Support Services Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/production-platforms-and--infrastructure/{crbq-identifier}/update"
+""	1	"inout"	"Production Platforms and  Infrastructure Preconditions"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	2	"inout"	"Production Platforms and  Infrastructure Specification Schedule"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	3	"inout"	"Production Platforms and  Infrastructure Version Number"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	4	"inout"	"Production Platforms and Infrastructure"	"BQ Production Platforms and  Infrastructure Instance Record"	Business Service
+""	5	"inout"	"Production Platforms and Infrastructure Service Type"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	6	"inout"	"Production Platforms and Infrastructure Service Description"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	7	"inout"	"Production Platforms and Infrastructure Service Inputs and Ouputs"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	8	"inout"	"Production Platforms and Infrastructure Service Work Product"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""	9	"inout"	"Production Platforms and Infrastructure Service Name"	"BQ Production Platforms and  Infrastructure Instance Record"	String
+""
+"Put"	"/it-standards-and-guidelines/{sd-identifier}/technology-standards-specification/{crbq-identifier}/update"
+""	1	"inout"	"Technology Standards Specification Parameter Type"	"CR Technology Standards Specification Instance Record"	String
+""	2	"inout"	"Technology Standards Specification Selected Option"	"CR Technology Standards Specification Instance Record"	String
+""	3	"in"	"Technology Standards Specification Description"	"CR Technology Standards Specification Instance Record"	String
+""	4	"inout"	"Technology Standards Specification Version"	"CR Technology Standards Specification Instance Record"	String
+""	5	"inout"	"Technology Standards Specification Status"	"CR Technology Standards Specification Instance Record"	String
+""	6	"inout"	"Technology Standards Specification Usage Log"	"CR Technology Standards Specification Instance Record"	String
+""	7	"inout"	"Technology Standards Specification Feedback"	"CR Technology Standards Specification Instance Record"	String
+""	8	"in"	"Technology Standards Specification ServiceProvider Reference"	"CR Technology Standards Specification Instance Record"	Object

@@ -1,0 +1,85 @@
+"Service Operations for: "	Issued Device Tracking
+""
+"POST"	"/issued-device-tracking/activation"
+"PUT"	"/issued-device-tracking/{sd-reference-id}/configuration"
+"PUT"	"/issued-device-tracking/{sd-reference-id}/feedback"
+""
+"Post"	"/issued-device-tracking/{sd-identifier}/issued-device-state/{crbq-identifier}/initiation"
+""	1	"out"	"Information Feed Provider Reference"	"CR Issued Device State Instance Record"	Object
+""	2	"inout"	"Issued Device Allocation Instance Reference"	"CR Issued Device State Instance Record"	Object
+""	3	"inout"	"Issued Device Allocation Status"	"CR Issued Device State Instance Record"	String
+""
+"Put"	"/issued-device-tracking/{sd-identifier}/issued-device-state/{crbq-identifier}/update"
+""	1	"inout"	"Information Feed Provider Reference"	"CR Issued Device State Instance Record"	Object
+""	2	"inout"	"Issued Device Allocation Instance Reference"	"CR Issued Device State Instance Record"	Object
+""	3	"inout"	"Issued Device Allocation Status"	"CR Issued Device State Instance Record"	String
+""
+"Put"	"/issued-device-tracking/{sd-identifier}/issued-device-state/{crbq-identifier}/control"
+""
+"Get"	"/issued-device-tracking/{sd-identifier}/issued-device-state/{crbq-identifier}/retrieval"
+""	1	"out"	"Information Feed Provider Reference"	"CR Issued Device State Instance Record"	Object
+""	2	"out"	"Issued Device Allocation Instance Reference"	"CR Issued Device State Instance Record"	Object
+""	3	"out"	"Issued Device Allocation Status"	"CR Issued Device State Instance Record"	String
+""
+"Put"	"/issued-device-tracking/{sd-identifier}/internal-notification/{crbq-identifier}/update"
+""	1	"inout"	"Information Feed Provider Reference"	"CR Issued Device State Instance Record"	Object
+""	2	"inout"	"Issued Device Allocation Instance Reference"	"CR Issued Device State Instance Record"	Object
+""	3	"inout"	"Issued Device Allocation Status"	"CR Issued Device State Instance Record"	String
+""	4	"inout"	"Issued Device Reference"	"BQ Internal Notification Instance Record"	Object
+""	5	"inout"	"Issued Device Type"	"BQ Internal Notification Instance Record"	String
+""	6	"inout"	"Customer Reference"	"BQ Internal Notification Instance Record"	Object
+""	7	"inout"	"Product Instance Reference"	"BQ Internal Notification Instance Record"	Object
+""	8	"inout"	"Status Update Details"	"BQ Internal Notification Instance Record"	String
+""	9	"inout"	"Status Update Result"	"BQ Internal Notification Instance Record"	String
+""
+"Put"	"/issued-device-tracking/{sd-identifier}/internal-notification/{crbq-identifier}/capture"
+""	1	"in"	"Issued Device Reference"	"BQ Internal Notification Instance Record"	Object
+""	2	"in"	"Issued Device Type"	"BQ Internal Notification Instance Record"	String
+""	3	"in"	"Customer Reference"	"BQ Internal Notification Instance Record"	Object
+""	4	"in"	"Product Instance Reference"	"BQ Internal Notification Instance Record"	Object
+""	5	"in"	"Status Update Details"	"BQ Internal Notification Instance Record"	String
+""	6	"out"	"Status Update Result"	"BQ Internal Notification Instance Record"	String
+""
+"Get"	"/issued-device-tracking/{sd-identifier}/internal-notification/{crbq-identifier}/retrieval"
+""	1	"out"	"Information Feed Provider Reference"	"CR Issued Device State Instance Record"	Object
+""	2	"out"	"Issued Device Allocation Instance Reference"	"CR Issued Device State Instance Record"	Object
+""	3	"out"	"Issued Device Allocation Status"	"CR Issued Device State Instance Record"	String
+""	4	"out"	"Issued Device Reference"	"BQ Internal Notification Instance Record"	Object
+""	5	"out"	"Issued Device Type"	"BQ Internal Notification Instance Record"	String
+""	6	"out"	"Customer Reference"	"BQ Internal Notification Instance Record"	Object
+""	7	"out"	"Product Instance Reference"	"BQ Internal Notification Instance Record"	Object
+""	8	"out"	"Status Update Details"	"BQ Internal Notification Instance Record"	String
+""	9	"out"	"Status Update Result"	"BQ Internal Notification Instance Record"	String
+""
+"Put"	"/issued-device-tracking/{sd-identifier}/external-report/{crbq-identifier}/update"
+""	1	"inout"	"Information Feed Provider Reference"	"CR Issued Device State Instance Record"	Object
+""	2	"inout"	"Issued Device Allocation Instance Reference"	"CR Issued Device State Instance Record"	Object
+""	3	"inout"	"Issued Device Allocation Status"	"CR Issued Device State Instance Record"	String
+""	4	"inout"	"Information Feed Service Content Record"	"BQ External Report Instance Record"	String
+""	5	"inout"	"Issued Device Reference"	"BQ External Report Instance Record"	Object
+""	6	"inout"	"Issued Device Type"	"BQ External Report Instance Record"	String
+""	7	"inout"	"Customer Reference"	"BQ External Report Instance Record"	Object
+""	8	"inout"	"Product Instance Reference"	"BQ External Report Instance Record"	Object
+""	9	"inout"	"Status Update Details"	"BQ External Report Instance Record"	String
+""	10	"inout"	"Status Update Result"	"BQ External Report Instance Record"	String
+""
+"Put"	"/issued-device-tracking/{sd-identifier}/external-report/{crbq-identifier}/capture"
+""	1	"in"	"Information Feed Service Content Record"	"BQ External Report Instance Record"	String
+""	2	"in"	"Issued Device Reference"	"BQ External Report Instance Record"	Object
+""	3	"in"	"Issued Device Type"	"BQ External Report Instance Record"	String
+""	4	"in"	"Customer Reference"	"BQ External Report Instance Record"	Object
+""	5	"in"	"Product Instance Reference"	"BQ External Report Instance Record"	Object
+""	6	"in"	"Status Update Details"	"BQ External Report Instance Record"	String
+""	7	"out"	"Status Update Result"	"BQ External Report Instance Record"	String
+""
+"Get"	"/issued-device-tracking/{sd-identifier}/external-report/{crbq-identifier}/retrieval"
+""	1	"out"	"Information Feed Provider Reference"	"CR Issued Device State Instance Record"	Object
+""	2	"out"	"Issued Device Allocation Instance Reference"	"CR Issued Device State Instance Record"	Object
+""	3	"out"	"Issued Device Allocation Status"	"CR Issued Device State Instance Record"	String
+""	4	"out"	"Information Feed Service Content Record"	"BQ External Report Instance Record"	String
+""	5	"out"	"Issued Device Reference"	"BQ External Report Instance Record"	Object
+""	6	"out"	"Issued Device Type"	"BQ External Report Instance Record"	String
+""	7	"out"	"Customer Reference"	"BQ External Report Instance Record"	Object
+""	8	"out"	"Product Instance Reference"	"BQ External Report Instance Record"	Object
+""	9	"out"	"Status Update Details"	"BQ External Report Instance Record"	String
+""	10	"out"	"Status Update Result"	"BQ External Report Instance Record"	String

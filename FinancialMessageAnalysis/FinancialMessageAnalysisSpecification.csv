@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Message Analysis"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Financial Message Analysis
+"Role Definition"	"Track and analyze financial message traffic to identify anomalies and potential fraudulent activity"
+"Example of use"	"A pattern of financial message traffic for a major counterparty is analyzed to reveal possible fraudulent behaviors"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	FinancialNetworkGateway
+"Generic Artifact"	Analysis
+"Control Record"	FinancialNetworkGatewayAnalysis
+"Registration Status"	Registered

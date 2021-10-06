@@ -1,0 +1,5 @@
+"Service Operations for: "	Traded Position Management
+"Control Record Model for Traded Position Management is not defined"
+"POST"	"/traded-position-management/activation"
+"PUT"	"/traded-position-management/{sd-reference-id}/configuration"
+"PUT"	"/traded-position-management/{sd-reference-id}/feedback"

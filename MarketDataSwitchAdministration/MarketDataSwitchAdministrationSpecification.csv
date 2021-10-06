@@ -1,0 +1,13 @@
+"Service Domain specification for Market Data Switch Administration"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Market Data Switch Administration
+"Role Definition"	"Administer the internal information distribution 'switch' with external and external market information feeds and associated employee access rights. Note this can include 'brokering' information access on a first come first serve basis for limited active user number feed services"
+"Example of use"	"A new employee is provided with the standard access to information feed at their trading desk"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	InformationFeedSwitch
+"Generic Artifact"	AdministrativePlan
+"Control Record"	InformationFeedSwitchAdministrativePlan
+"Registration Status"	Registered

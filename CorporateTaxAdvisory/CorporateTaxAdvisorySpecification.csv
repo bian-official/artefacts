@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Tax Advisory"
+"Business Area"	Products
+"Business Domain"	Advisory Services
+"Service Domain"	Corporate Tax Advisory
+"Role Definition"	"Provide corporate customers with tax related advice to better understand tax obligations and to identify and implement tax optimization approaches. The service is fee based and may include the use of product specialist financial advisory resources when required"
+"Example of use"	"A corporate customer obtains tax optimization advice from a financial advisor at a branch"
+"Executive Summary"	"A fee or commission based product providing tax specific assessments, advice and guidance for corporate customers"
+"Key Features"	"Evaluate the customer's tax position. Identify and evaluate tax optimization options and strategies. Arrange product/service taxation specialist advice. Implement tax optimization options with product and service selection and configuration"
+"Functional Pattern"	Fulfill
+"Asset Type"	CorporateTaxAdvisory
+"Generic Artifact"	Facility (rename)
+"Control Record"	CorporateTaxAdvisoryArrangement
+"Registration Status"	Registered

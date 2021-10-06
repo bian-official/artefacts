@@ -1,0 +1,15 @@
+"Control Record Model for: "	Servicing Order
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Servicing Order Procedure Instance Record	""	""	""
+"CR"	CR Servicing Order Procedure Instance Record	Third Party Reference	"Reference to a third party service provider that handles some aspect of customer servicing access with the bank"	Object
+"CR"	CR Servicing Order Procedure Instance Record	Third Party Servicing Mandate Reference	"Reference to a third party servicing mandate - used when a third party is requesting the service order"	Object
+"CR"	CR Servicing Order Procedure Instance Record	Third Party Servicing Mandate	"The servicing mandate for a third party defines the customers and service access allowed"	String
+"CR"	CR Servicing Order Procedure Instance Record	Customer Reference	"The customer requesting the servicing order directly or the customer that is being serviced indirectly by the third party"	Object
+"CR"	CR Servicing Order Procedure Instance Record	Customer Eligibility Assessment Instance Reference	"Reference to the customer's active services and products record"	Object
+"CR"	CR Servicing Order Procedure Instance Record	Servicing Order Type	"The type of servicing order being processed (e.g. change of address, change of employment…)"	String
+"CR"	CR Servicing Order Procedure Instance Record	Servicing Order Task Record	"The record for the servicing task"	String
+"CR"	CR Servicing Order Procedure Instance Record	Servicing Order Description	"Defines the processing tasks and their sequencing followed by the servicing order"	String
+"CR"	CR Servicing Order Procedure Instance Record	Date	"The date and time that the servicing order is processed"	String
+"CR"	CR Servicing Order Procedure Instance Record	Employee/Business Unit Reference	"Employees involved in the servicing order"	Object
+"CR"	CR Servicing Order Procedure Instance Record	Servicing Order Work Product	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"CR"	CR Servicing Order Procedure Instance Record	Servicing Order Work Task Result	"The outcome of the servicing order"	String

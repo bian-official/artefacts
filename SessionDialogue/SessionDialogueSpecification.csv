@@ -1,0 +1,13 @@
+"Service Domain specification for Session Dialogue"
+"Business Area"	Channels
+"Business Domain"	Cross Channel
+"Service Domain"	Session Dialogue
+"Role Definition"	"The customer contact dialogue handling capability can provide highly structured orchestration to streamline a customer interaction by consolidating and presenting customer related data in context. It can also use the session to gather additional customer intelligence. In a more advance implementation the customer interaction capabilities can be integrated into an automated self/service context in addition to the more conventional assisted service model. The structured customer dialogue can include tasks to check for other business activities that can be built into the exchange for example, delivering pending communications, sales/marketing attempts, capturing intelligence/triggers, updating relationship status/details, product fulfillment (such as synchronizing customer-side data). The facility can be designed to support multi-channel/multi-device deployments"
+"Example of use"	"A customer dials into the contact center with a current account balance request. The customer identity is checked by the servicing representative (using a Party Profile Service Domain call). After the customer initial query has been addressed the dialogue is structured to attempt a sales pitch for an internal campaign that the customer has been pre-approved for as flagged in their Party Profile record"
+"Executive Summary"	"This service domain handles/structures the customer narrative during an interactive session. It consolidates and presents pertinent customer information and provides servicing guidelines with standard dialogue/scripting as appropriate. It can include the capability to provoke questions to capture key relationship and sales triggers. It also ensures the correct sequencing, dialogue content and actions are performed/initiated during the customer interaction. It may further leverage the session by passing on customer notifications, status updates and triggering sales/marketing efforts."
+"Key Features"	"Consolidate customer reference and product usage details. Structure the dialogue based on identified topic - process customer queries. Access context specific guidance/help text. Orchestrate product/service access. Initiate additional customer authentication when needed. Initiate sales and relationship development actions when appropriate"
+"Functional Pattern"	Process
+"Asset Type"	CustomerContactSession
+"Generic Artifact"	Procedure
+"Control Record"	CustomerContactSessionProcedure
+"Registration Status"	Registered

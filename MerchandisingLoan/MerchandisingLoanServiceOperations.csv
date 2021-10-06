@@ -1,0 +1,556 @@
+"Service Operations for: "	Merchandising Loan
+""
+"POST"	"/merchandising-loan/activation"
+"PUT"	"/merchandising-loan/{sd-reference-id}/configuration"
+"PUT"	"/merchandising-loan/{sd-reference-id}/feedback"
+""
+"Put"	"/merchandising-loan/{sd-identifier}/merchandising-loan-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Merchandising Loan Arrangement Parameter Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	2	"inout"	"Merchandising Loan Arrangement Selected Option"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	3	"in"	"Merchandising Loan Arrangement Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	4	"in"	"Merchandising Loan Arrangement Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Merchandising Loan Arrangement Schedule"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	6	"inout"	"Merchandising Loan Arrangement Status"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	7	"in"	"Merchandising Loan Arrangement Currency"	"CR Merchandising Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Merchandising Loan Arrangement Regulation Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	9	"in"	"Merchandising Loan Arrangement Regulation Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	10	"in"	"Merchandising Loan Arrangement Jurisdiction"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	11	"in"	"Merchandising Loan Arrangement Booking Location"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	12	"in"	"Merchandising Loan Arrangement Account Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	13	"in"	"Merchandising Loan Arrangement Account Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""
+"Put"	"/merchandising-loan/{sd-identifier}/billing/{crbq-identifier}/exchange"
+""	1	"inout"	"Billing Preconditions"	"BQ Billing Instance Record"	String
+""	2	"inout"	"Billing Feature Schedule"	"BQ Billing Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Billing Instance Record"	Business Service
+""	4	"inout"	"Billing Postconditions"	"BQ Billing Instance Record"	String
+""	5	"inout"	"Billing Service Type"	"BQ Billing Instance Record"	String
+""	6	"inout"	"Billing Service Description"	"BQ Billing Instance Record"	String
+""	7	"inout"	"Billing Service Inputs and Ouputs"	"BQ Billing Instance Record"	String
+""	8	"inout"	"Billing Service Work Product"	"BQ Billing Instance Record"	String
+""	9	"inout"	"Billing Service Name"	"BQ Billing Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/fees/{crbq-identifier}/exchange"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/lien/{crbq-identifier}/exchange"
+""	1	"inout"	"Lien Preconditions"	"BQ Lien Instance Record"	String
+""	2	"inout"	"Lien Feature Schedule"	"BQ Lien Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Lien Instance Record"	Business Service
+""	4	"inout"	"Lien Postconditions"	"BQ Lien Instance Record"	String
+""	5	"inout"	"Lien Service Type"	"BQ Lien Instance Record"	String
+""	6	"inout"	"Lien Service Description"	"BQ Lien Instance Record"	String
+""	7	"inout"	"Lien Service Inputs and Ouputs"	"BQ Lien Instance Record"	String
+""	8	"inout"	"Lien Service Work Product"	"BQ Lien Instance Record"	String
+""	9	"inout"	"Lien Service Name"	"BQ Lien Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/payments/{crbq-identifier}/exchange"
+""	1	"inout"	"Payments Preconditions"	"BQ Payments Instance Record"	String
+""	2	"inout"	"Payments Feature Schedule"	"BQ Payments Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Payments Instance Record"	Business Service
+""	4	"inout"	"Payments Postconditions"	"BQ Payments Instance Record"	String
+""	5	"inout"	"Payments Service Type"	"BQ Payments Instance Record"	String
+""	6	"inout"	"Payments Service Description"	"BQ Payments Instance Record"	String
+""	7	"inout"	"Payments Service Inputs and Ouputs"	"BQ Payments Instance Record"	String
+""	8	"inout"	"Payments Service Work Product"	"BQ Payments Instance Record"	String
+""	9	"inout"	"Payments Service Name"	"BQ Payments Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/sweep/{crbq-identifier}/exchange"
+""	1	"inout"	"Sweep Preconditions"	"BQ Sweep Instance Record"	String
+""	2	"inout"	"Sweep Feature Schedule"	"BQ Sweep Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Sweep Instance Record"	Business Service
+""	4	"inout"	"Sweep Postconditions"	"BQ Sweep Instance Record"	String
+""	5	"inout"	"Sweep Service Type"	"BQ Sweep Instance Record"	String
+""	6	"inout"	"Sweep Service Description"	"BQ Sweep Instance Record"	String
+""	7	"inout"	"Sweep Service Inputs and Ouputs"	"BQ Sweep Instance Record"	String
+""	8	"inout"	"Sweep Service Work Product"	"BQ Sweep Instance Record"	String
+""	9	"inout"	"Sweep Service Name"	"BQ Sweep Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/merchandising-loan-arrangement/{crbq-identifier}/exchange"
+""	1	"inout"	"Merchandising Loan Arrangement Parameter Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	2	"inout"	"Merchandising Loan Arrangement Selected Option"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	3	"in"	"Merchandising Loan Arrangement Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	4	"in"	"Merchandising Loan Arrangement Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Merchandising Loan Arrangement Schedule"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	6	"inout"	"Merchandising Loan Arrangement Status"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	7	"in"	"Merchandising Loan Arrangement Currency"	"CR Merchandising Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Merchandising Loan Arrangement Regulation Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	9	"in"	"Merchandising Loan Arrangement Regulation Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	10	"in"	"Merchandising Loan Arrangement Jurisdiction"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	11	"in"	"Merchandising Loan Arrangement Booking Location"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	12	"in"	"Merchandising Loan Arrangement Account Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	13	"in"	"Merchandising Loan Arrangement Account Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""
+"Put"	"/merchandising-loan/{sd-identifier}/merchandising-loan-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Merchandising Loan Arrangement Parameter Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	2	"inout"	"Merchandising Loan Arrangement Selected Option"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	3	"in"	"Merchandising Loan Arrangement Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	4	"in"	"Merchandising Loan Arrangement Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Merchandising Loan Arrangement Schedule"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	6	"inout"	"Merchandising Loan Arrangement Status"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	7	"in"	"Merchandising Loan Arrangement Currency"	"CR Merchandising Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Merchandising Loan Arrangement Regulation Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	9	"in"	"Merchandising Loan Arrangement Regulation Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	10	"in"	"Merchandising Loan Arrangement Jurisdiction"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	11	"in"	"Merchandising Loan Arrangement Booking Location"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	12	"in"	"Merchandising Loan Arrangement Account Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	13	"in"	"Merchandising Loan Arrangement Account Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""
+"Post"	"/merchandising-loan/{sd-identifier}/billing/{crbq-identifier}/initiation"
+""	1	"inout"	"Billing Preconditions"	"BQ Billing Instance Record"	String
+""	2	"inout"	"Billing Feature Schedule"	"BQ Billing Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Billing Instance Record"	Business Service
+""	4	"inout"	"Billing Postconditions"	"BQ Billing Instance Record"	String
+""	5	"inout"	"Billing Service Type"	"BQ Billing Instance Record"	String
+""	6	"inout"	"Billing Service Description"	"BQ Billing Instance Record"	String
+""	7	"inout"	"Billing Service Inputs and Ouputs"	"BQ Billing Instance Record"	String
+""	8	"inout"	"Billing Service Work Product"	"BQ Billing Instance Record"	String
+""	9	"inout"	"Billing Service Name"	"BQ Billing Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/collateral/{crbq-identifier}/initiation"
+""	1	"inout"	"Collateral Preconditions"	"BQ Collateral Instance Record"	String
+""	2	"inout"	"Collateral Feature Schedule"	"BQ Collateral Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Collateral Instance Record"	Business Service
+""	4	"inout"	"Collateral Postconditions"	"BQ Collateral Instance Record"	String
+""	5	"inout"	"Collateral Service Type"	"BQ Collateral Instance Record"	String
+""	6	"inout"	"Collateral Service Description"	"BQ Collateral Instance Record"	String
+""	7	"inout"	"Collateral Service Inputs and Ouputs"	"BQ Collateral Instance Record"	String
+""	8	"inout"	"Collateral Service Work Product"	"BQ Collateral Instance Record"	String
+""	9	"inout"	"Collateral Service Name"	"BQ Collateral Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/deposits/{crbq-identifier}/initiation"
+""	1	"inout"	"Deposits Preconditions"	"BQ Deposits Instance Record"	String
+""	2	"inout"	"Deposits Feature Schedule"	"BQ Deposits Instance Record"	String
+""	3	"inout"	"Deposit Processing"	"BQ Deposits Instance Record"	Business Service
+""	4	"inout"	"Deposits Postconditions"	"BQ Deposits Instance Record"	String
+""	5	"inout"	"Deposits Deposit Processing Service Type"	"BQ Deposits Instance Record"	String
+""	6	"inout"	"Deposits Deposit Processing Service Description"	"BQ Deposits Instance Record"	String
+""	7	"inout"	"Deposits Deposit Processing Service Inputs and Ouputs"	"BQ Deposits Instance Record"	String
+""	8	"inout"	"Deposits Deposit Processing Service Work Product"	"BQ Deposits Instance Record"	String
+""	9	"inout"	"Deposits Deposit Processing Service Name"	"BQ Deposits Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/fees/{crbq-identifier}/initiation"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/financial-instrument/{crbq-identifier}/initiation"
+""	1	"inout"	"Financial Instrument Preconditions"	"BQ Financial Instrument Instance Record"	String
+""	2	"inout"	"Financial Instrument Feature Schedule"	"BQ Financial Instrument Instance Record"	String
+""	3	"inout"	"Financial Instrument Postconditions"	"BQ Financial Instrument Instance Record"	String
+""	4	"inout"	"Financial Instrument Financial Instrument Service Type"	"BQ Financial Instrument Instance Record"	String
+""	5	"inout"	"Financial Instrument Financial Instrument Service Description"	"BQ Financial Instrument Instance Record"	String
+""	6	"inout"	"Financial Instrument Financial Instrument Service Inputs and Ouputs"	"BQ Financial Instrument Instance Record"	String
+""	7	"inout"	"Financial Instrument Financial Instrument Service Work Product"	"BQ Financial Instrument Instance Record"	String
+""	8	"inout"	"Financial Instrument Financial Instrument Service Name"	"BQ Financial Instrument Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/issued-device/{crbq-identifier}/initiation"
+""	1	"inout"	"Issued Device Preconditions"	"BQ Issued Device Instance Record"	String
+""	2	"inout"	"Issued Device Feature Schedule"	"BQ Issued Device Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Issued Device Instance Record"	Business Service
+""	4	"inout"	"Issued Device Postconditions"	"BQ Issued Device Instance Record"	String
+""	5	"inout"	"Issued Device Service Type"	"BQ Issued Device Instance Record"	String
+""	6	"inout"	"Issued Device Service Description"	"BQ Issued Device Instance Record"	String
+""	7	"inout"	"Issued Device Service Inputs and Ouputs"	"BQ Issued Device Instance Record"	String
+""	8	"inout"	"Issued Device Service Work Product"	"BQ Issued Device Instance Record"	String
+""	9	"inout"	"Issued Device Service Name"	"BQ Issued Device Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/lien/{crbq-identifier}/initiation"
+""	1	"inout"	"Lien Preconditions"	"BQ Lien Instance Record"	String
+""	2	"inout"	"Lien Feature Schedule"	"BQ Lien Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Lien Instance Record"	Business Service
+""	4	"inout"	"Lien Postconditions"	"BQ Lien Instance Record"	String
+""	5	"inout"	"Lien Service Type"	"BQ Lien Instance Record"	String
+""	6	"inout"	"Lien Service Description"	"BQ Lien Instance Record"	String
+""	7	"inout"	"Lien Service Inputs and Ouputs"	"BQ Lien Instance Record"	String
+""	8	"inout"	"Lien Service Work Product"	"BQ Lien Instance Record"	String
+""	9	"inout"	"Lien Service Name"	"BQ Lien Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/payments/{crbq-identifier}/initiation"
+""	1	"inout"	"Payments Preconditions"	"BQ Payments Instance Record"	String
+""	2	"inout"	"Payments Feature Schedule"	"BQ Payments Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Payments Instance Record"	Business Service
+""	4	"inout"	"Payments Postconditions"	"BQ Payments Instance Record"	String
+""	5	"inout"	"Payments Service Type"	"BQ Payments Instance Record"	String
+""	6	"inout"	"Payments Service Description"	"BQ Payments Instance Record"	String
+""	7	"inout"	"Payments Service Inputs and Ouputs"	"BQ Payments Instance Record"	String
+""	8	"inout"	"Payments Service Work Product"	"BQ Payments Instance Record"	String
+""	9	"inout"	"Payments Service Name"	"BQ Payments Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/sweep/{crbq-identifier}/initiation"
+""	1	"inout"	"Sweep Preconditions"	"BQ Sweep Instance Record"	String
+""	2	"inout"	"Sweep Feature Schedule"	"BQ Sweep Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Sweep Instance Record"	Business Service
+""	4	"inout"	"Sweep Postconditions"	"BQ Sweep Instance Record"	String
+""	5	"inout"	"Sweep Service Type"	"BQ Sweep Instance Record"	String
+""	6	"inout"	"Sweep Service Description"	"BQ Sweep Instance Record"	String
+""	7	"inout"	"Sweep Service Inputs and Ouputs"	"BQ Sweep Instance Record"	String
+""	8	"inout"	"Sweep Service Work Product"	"BQ Sweep Instance Record"	String
+""	9	"inout"	"Sweep Service Name"	"BQ Sweep Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/withdrawals/{crbq-identifier}/initiation"
+""	1	"inout"	"Withdrawals Preconditions"	"BQ Withdrawals Instance Record"	String
+""	2	"inout"	"Withdrawals Feature Schedule"	"BQ Withdrawals Instance Record"	String
+""	3	"inout"	"Withdrawal Processing"	"BQ Withdrawals Instance Record"	Business Service
+""	4	"inout"	"Withdrawals Postconditions"	"BQ Withdrawals Instance Record"	String
+""	5	"inout"	"Withdrawals Withdrawal Processing Service Type"	"BQ Withdrawals Instance Record"	String
+""	6	"inout"	"Withdrawals Withdrawal Processing Service Description"	"BQ Withdrawals Instance Record"	String
+""	7	"inout"	"Withdrawals Withdrawal Processing Service Inputs and Ouputs"	"BQ Withdrawals Instance Record"	String
+""	8	"inout"	"Withdrawals Withdrawal Processing Service Work Product"	"BQ Withdrawals Instance Record"	String
+""	9	"inout"	"Withdrawals Withdrawal Processing Service Name"	"BQ Withdrawals Instance Record"	String
+""
+"Post"	"/merchandising-loan/{sd-identifier}/merchandising-loan-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Merchandising Loan Arrangement Parameter Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	2	"inout"	"Merchandising Loan Arrangement Selected Option"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	3	"in"	"Merchandising Loan Arrangement Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	4	"in"	"Merchandising Loan Arrangement Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Merchandising Loan Arrangement Schedule"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	6	"inout"	"Merchandising Loan Arrangement Status"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	7	"in"	"Merchandising Loan Arrangement Currency"	"CR Merchandising Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Merchandising Loan Arrangement Regulation Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	9	"in"	"Merchandising Loan Arrangement Regulation Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	10	"in"	"Merchandising Loan Arrangement Jurisdiction"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	11	"in"	"Merchandising Loan Arrangement Booking Location"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	12	"in"	"Merchandising Loan Arrangement Account Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	13	"in"	"Merchandising Loan Arrangement Account Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""
+"Get"	"/merchandising-loan/{sd-identifier}/billing/{crbq-identifier}/retrieval"
+""	1	"out"	"Billing Preconditions"	"BQ Billing Instance Record"	String
+""	2	"out"	"Billing Feature Schedule"	"BQ Billing Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Billing Instance Record"	Business Service
+""	4	"out"	"Billing Postconditions"	"BQ Billing Instance Record"	String
+""	5	"out"	"Billing Service Type"	"BQ Billing Instance Record"	String
+""	6	"out"	"Billing Service Description"	"BQ Billing Instance Record"	String
+""	7	"out"	"Billing Service Inputs and Ouputs"	"BQ Billing Instance Record"	String
+""	8	"out"	"Billing Service Work Product"	"BQ Billing Instance Record"	String
+""	9	"out"	"Billing Service Name"	"BQ Billing Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/collateral/{crbq-identifier}/retrieval"
+""	1	"out"	"Collateral Preconditions"	"BQ Collateral Instance Record"	String
+""	2	"out"	"Collateral Feature Schedule"	"BQ Collateral Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Collateral Instance Record"	Business Service
+""	4	"out"	"Collateral Postconditions"	"BQ Collateral Instance Record"	String
+""	5	"out"	"Collateral Service Type"	"BQ Collateral Instance Record"	String
+""	6	"out"	"Collateral Service Description"	"BQ Collateral Instance Record"	String
+""	7	"out"	"Collateral Service Inputs and Ouputs"	"BQ Collateral Instance Record"	String
+""	8	"out"	"Collateral Service Work Product"	"BQ Collateral Instance Record"	String
+""	9	"out"	"Collateral Service Name"	"BQ Collateral Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/deposits/{crbq-identifier}/retrieval"
+""	1	"out"	"Deposits Preconditions"	"BQ Deposits Instance Record"	String
+""	2	"out"	"Deposits Feature Schedule"	"BQ Deposits Instance Record"	String
+""	3	"out"	"Deposit Processing"	"BQ Deposits Instance Record"	Business Service
+""	4	"out"	"Deposits Postconditions"	"BQ Deposits Instance Record"	String
+""	5	"out"	"Deposits Deposit Processing Service Type"	"BQ Deposits Instance Record"	String
+""	6	"out"	"Deposits Deposit Processing Service Description"	"BQ Deposits Instance Record"	String
+""	7	"out"	"Deposits Deposit Processing Service Inputs and Ouputs"	"BQ Deposits Instance Record"	String
+""	8	"out"	"Deposits Deposit Processing Service Work Product"	"BQ Deposits Instance Record"	String
+""	9	"out"	"Deposits Deposit Processing Service Name"	"BQ Deposits Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"out"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"out"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"out"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"out"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"out"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"out"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"out"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/financial-accounting/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Accounting Preconditions"	"BQ Financial Accounting Instance Record"	String
+""	2	"out"	"Financial Accounting Feature Schedule"	"BQ Financial Accounting Instance Record"	String
+""	3	"out"	"Financial Accounting Postconditions"	"BQ Financial Accounting Instance Record"	String
+""	4	"out"	"Financial Accounting Financial Accounting Service Type"	"BQ Financial Accounting Instance Record"	String
+""	5	"out"	"Financial Accounting Financial Accounting Service Description"	"BQ Financial Accounting Instance Record"	String
+""	6	"out"	"Financial Accounting Financial Accounting Service Inputs and Ouputs"	"BQ Financial Accounting Instance Record"	String
+""	7	"out"	"Financial Accounting Financial Accounting Service Work Product"	"BQ Financial Accounting Instance Record"	String
+""	8	"out"	"Financial Accounting Financial Accounting Service Name"	"BQ Financial Accounting Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/financial-instrument/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Instrument Preconditions"	"BQ Financial Instrument Instance Record"	String
+""	2	"out"	"Financial Instrument Feature Schedule"	"BQ Financial Instrument Instance Record"	String
+""	3	"out"	"Financial Instrument Postconditions"	"BQ Financial Instrument Instance Record"	String
+""	4	"out"	"Financial Instrument Financial Instrument Service Type"	"BQ Financial Instrument Instance Record"	String
+""	5	"out"	"Financial Instrument Financial Instrument Service Description"	"BQ Financial Instrument Instance Record"	String
+""	6	"out"	"Financial Instrument Financial Instrument Service Inputs and Ouputs"	"BQ Financial Instrument Instance Record"	String
+""	7	"out"	"Financial Instrument Financial Instrument Service Work Product"	"BQ Financial Instrument Instance Record"	String
+""	8	"out"	"Financial Instrument Financial Instrument Service Name"	"BQ Financial Instrument Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/interest/{crbq-identifier}/retrieval"
+""	1	"out"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"out"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"out"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"out"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"out"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"out"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"out"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"out"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/issued-device/{crbq-identifier}/retrieval"
+""	1	"out"	"Issued Device Preconditions"	"BQ Issued Device Instance Record"	String
+""	2	"out"	"Issued Device Feature Schedule"	"BQ Issued Device Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Issued Device Instance Record"	Business Service
+""	4	"out"	"Issued Device Postconditions"	"BQ Issued Device Instance Record"	String
+""	5	"out"	"Issued Device Service Type"	"BQ Issued Device Instance Record"	String
+""	6	"out"	"Issued Device Service Description"	"BQ Issued Device Instance Record"	String
+""	7	"out"	"Issued Device Service Inputs and Ouputs"	"BQ Issued Device Instance Record"	String
+""	8	"out"	"Issued Device Service Work Product"	"BQ Issued Device Instance Record"	String
+""	9	"out"	"Issued Device Service Name"	"BQ Issued Device Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/lien/{crbq-identifier}/retrieval"
+""	1	"out"	"Lien Preconditions"	"BQ Lien Instance Record"	String
+""	2	"out"	"Lien Feature Schedule"	"BQ Lien Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Lien Instance Record"	Business Service
+""	4	"out"	"Lien Postconditions"	"BQ Lien Instance Record"	String
+""	5	"out"	"Lien Service Type"	"BQ Lien Instance Record"	String
+""	6	"out"	"Lien Service Description"	"BQ Lien Instance Record"	String
+""	7	"out"	"Lien Service Inputs and Ouputs"	"BQ Lien Instance Record"	String
+""	8	"out"	"Lien Service Work Product"	"BQ Lien Instance Record"	String
+""	9	"out"	"Lien Service Name"	"BQ Lien Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/payments/{crbq-identifier}/retrieval"
+""	1	"out"	"Payments Preconditions"	"BQ Payments Instance Record"	String
+""	2	"out"	"Payments Feature Schedule"	"BQ Payments Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Payments Instance Record"	Business Service
+""	4	"out"	"Payments Postconditions"	"BQ Payments Instance Record"	String
+""	5	"out"	"Payments Service Type"	"BQ Payments Instance Record"	String
+""	6	"out"	"Payments Service Description"	"BQ Payments Instance Record"	String
+""	7	"out"	"Payments Service Inputs and Ouputs"	"BQ Payments Instance Record"	String
+""	8	"out"	"Payments Service Work Product"	"BQ Payments Instance Record"	String
+""	9	"out"	"Payments Service Name"	"BQ Payments Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/sweep/{crbq-identifier}/retrieval"
+""	1	"out"	"Sweep Preconditions"	"BQ Sweep Instance Record"	String
+""	2	"out"	"Sweep Feature Schedule"	"BQ Sweep Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Sweep Instance Record"	Business Service
+""	4	"out"	"Sweep Postconditions"	"BQ Sweep Instance Record"	String
+""	5	"out"	"Sweep Service Type"	"BQ Sweep Instance Record"	String
+""	6	"out"	"Sweep Service Description"	"BQ Sweep Instance Record"	String
+""	7	"out"	"Sweep Service Inputs and Ouputs"	"BQ Sweep Instance Record"	String
+""	8	"out"	"Sweep Service Work Product"	"BQ Sweep Instance Record"	String
+""	9	"out"	"Sweep Service Name"	"BQ Sweep Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/withdrawals/{crbq-identifier}/retrieval"
+""	1	"out"	"Withdrawals Preconditions"	"BQ Withdrawals Instance Record"	String
+""	2	"out"	"Withdrawals Feature Schedule"	"BQ Withdrawals Instance Record"	String
+""	3	"out"	"Withdrawal Processing"	"BQ Withdrawals Instance Record"	Business Service
+""	4	"out"	"Withdrawals Postconditions"	"BQ Withdrawals Instance Record"	String
+""	5	"out"	"Withdrawals Withdrawal Processing Service Type"	"BQ Withdrawals Instance Record"	String
+""	6	"out"	"Withdrawals Withdrawal Processing Service Description"	"BQ Withdrawals Instance Record"	String
+""	7	"out"	"Withdrawals Withdrawal Processing Service Inputs and Ouputs"	"BQ Withdrawals Instance Record"	String
+""	8	"out"	"Withdrawals Withdrawal Processing Service Work Product"	"BQ Withdrawals Instance Record"	String
+""	9	"out"	"Withdrawals Withdrawal Processing Service Name"	"BQ Withdrawals Instance Record"	String
+""
+"Get"	"/merchandising-loan/{sd-identifier}/merchandising-loan-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Merchandising Loan Arrangement Parameter Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	2	"out"	"Merchandising Loan Arrangement Selected Option"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	3	"out"	"Merchandising Loan Arrangement Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	4	"out"	"Merchandising Loan Arrangement Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	5	"out"	"Merchandising Loan Arrangement Schedule"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	6	"out"	"Merchandising Loan Arrangement Status"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	7	"out"	"Merchandising Loan Arrangement Currency"	"CR Merchandising Loan Arrangement Instance Record"	CurrencyCode
+""	8	"out"	"Merchandising Loan Arrangement Regulation Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	9	"out"	"Merchandising Loan Arrangement Regulation Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	10	"out"	"Merchandising Loan Arrangement Jurisdiction"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	11	"out"	"Merchandising Loan Arrangement Booking Location"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	12	"out"	"Merchandising Loan Arrangement Account Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	13	"out"	"Merchandising Loan Arrangement Account Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""
+"Put"	"/merchandising-loan/{sd-identifier}/collateral/{crbq-identifier}/requisition"
+""	1	"inout"	"Collateral Preconditions"	"BQ Collateral Instance Record"	String
+""	2	"inout"	"Collateral Feature Schedule"	"BQ Collateral Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Collateral Instance Record"	Business Service
+""	4	"inout"	"Collateral Postconditions"	"BQ Collateral Instance Record"	String
+""	5	"inout"	"Collateral Service Type"	"BQ Collateral Instance Record"	String
+""	6	"inout"	"Collateral Service Description"	"BQ Collateral Instance Record"	String
+""	7	"inout"	"Collateral Service Inputs and Ouputs"	"BQ Collateral Instance Record"	String
+""	8	"inout"	"Collateral Service Work Product"	"BQ Collateral Instance Record"	String
+""	9	"inout"	"Collateral Service Name"	"BQ Collateral Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/fees/{crbq-identifier}/requisition"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/merchandising-loan-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Merchandising Loan Arrangement Parameter Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	2	"inout"	"Merchandising Loan Arrangement Selected Option"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	3	"in"	"Merchandising Loan Arrangement Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	4	"in"	"Merchandising Loan Arrangement Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Merchandising Loan Arrangement Schedule"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	6	"inout"	"Merchandising Loan Arrangement Status"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	7	"in"	"Merchandising Loan Arrangement Currency"	"CR Merchandising Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Merchandising Loan Arrangement Regulation Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	9	"in"	"Merchandising Loan Arrangement Regulation Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	10	"in"	"Merchandising Loan Arrangement Jurisdiction"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	11	"in"	"Merchandising Loan Arrangement Booking Location"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	12	"in"	"Merchandising Loan Arrangement Account Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	13	"in"	"Merchandising Loan Arrangement Account Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""
+"Put"	"/merchandising-loan/{sd-identifier}/billing/{crbq-identifier}/update"
+""	1	"inout"	"Billing Preconditions"	"BQ Billing Instance Record"	String
+""	2	"inout"	"Billing Feature Schedule"	"BQ Billing Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Billing Instance Record"	Business Service
+""	4	"inout"	"Billing Postconditions"	"BQ Billing Instance Record"	String
+""	5	"inout"	"Billing Service Type"	"BQ Billing Instance Record"	String
+""	6	"inout"	"Billing Service Description"	"BQ Billing Instance Record"	String
+""	7	"inout"	"Billing Service Inputs and Ouputs"	"BQ Billing Instance Record"	String
+""	8	"inout"	"Billing Service Work Product"	"BQ Billing Instance Record"	String
+""	9	"inout"	"Billing Service Name"	"BQ Billing Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/collateral/{crbq-identifier}/update"
+""	1	"inout"	"Collateral Preconditions"	"BQ Collateral Instance Record"	String
+""	2	"inout"	"Collateral Feature Schedule"	"BQ Collateral Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Collateral Instance Record"	Business Service
+""	4	"inout"	"Collateral Postconditions"	"BQ Collateral Instance Record"	String
+""	5	"inout"	"Collateral Service Type"	"BQ Collateral Instance Record"	String
+""	6	"inout"	"Collateral Service Description"	"BQ Collateral Instance Record"	String
+""	7	"inout"	"Collateral Service Inputs and Ouputs"	"BQ Collateral Instance Record"	String
+""	8	"inout"	"Collateral Service Work Product"	"BQ Collateral Instance Record"	String
+""	9	"inout"	"Collateral Service Name"	"BQ Collateral Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/deposits/{crbq-identifier}/update"
+""	1	"inout"	"Deposits Preconditions"	"BQ Deposits Instance Record"	String
+""	2	"inout"	"Deposits Feature Schedule"	"BQ Deposits Instance Record"	String
+""	3	"inout"	"Deposit Processing"	"BQ Deposits Instance Record"	Business Service
+""	4	"inout"	"Deposits Postconditions"	"BQ Deposits Instance Record"	String
+""	5	"inout"	"Deposits Deposit Processing Service Type"	"BQ Deposits Instance Record"	String
+""	6	"inout"	"Deposits Deposit Processing Service Description"	"BQ Deposits Instance Record"	String
+""	7	"inout"	"Deposits Deposit Processing Service Inputs and Ouputs"	"BQ Deposits Instance Record"	String
+""	8	"inout"	"Deposits Deposit Processing Service Work Product"	"BQ Deposits Instance Record"	String
+""	9	"inout"	"Deposits Deposit Processing Service Name"	"BQ Deposits Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/fees/{crbq-identifier}/update"
+""	1	"inout"	"Fees Preconditions"	"BQ Fees Instance Record"	String
+""	2	"inout"	"Fees Feature Schedule"	"BQ Fees Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fees Instance Record"	Business Service
+""	4	"inout"	"Fees Postconditions"	"BQ Fees Instance Record"	String
+""	5	"inout"	"Fees Service Type"	"BQ Fees Instance Record"	String
+""	6	"inout"	"Fees Service Description"	"BQ Fees Instance Record"	String
+""	7	"inout"	"Fees Service Inputs and Ouputs"	"BQ Fees Instance Record"	String
+""	8	"inout"	"Fees Service Work Product"	"BQ Fees Instance Record"	String
+""	9	"inout"	"Fees Service Name"	"BQ Fees Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/financial-accounting/{crbq-identifier}/update"
+""	1	"inout"	"Financial Accounting Preconditions"	"BQ Financial Accounting Instance Record"	String
+""	2	"inout"	"Financial Accounting Feature Schedule"	"BQ Financial Accounting Instance Record"	String
+""	3	"inout"	"Financial Accounting Postconditions"	"BQ Financial Accounting Instance Record"	String
+""	4	"inout"	"Financial Accounting Financial Accounting Service Type"	"BQ Financial Accounting Instance Record"	String
+""	5	"inout"	"Financial Accounting Financial Accounting Service Description"	"BQ Financial Accounting Instance Record"	String
+""	6	"inout"	"Financial Accounting Financial Accounting Service Inputs and Ouputs"	"BQ Financial Accounting Instance Record"	String
+""	7	"inout"	"Financial Accounting Financial Accounting Service Work Product"	"BQ Financial Accounting Instance Record"	String
+""	8	"inout"	"Financial Accounting Financial Accounting Service Name"	"BQ Financial Accounting Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/financial-instrument/{crbq-identifier}/update"
+""	1	"inout"	"Financial Instrument Preconditions"	"BQ Financial Instrument Instance Record"	String
+""	2	"inout"	"Financial Instrument Feature Schedule"	"BQ Financial Instrument Instance Record"	String
+""	3	"inout"	"Financial Instrument Postconditions"	"BQ Financial Instrument Instance Record"	String
+""	4	"inout"	"Financial Instrument Financial Instrument Service Type"	"BQ Financial Instrument Instance Record"	String
+""	5	"inout"	"Financial Instrument Financial Instrument Service Description"	"BQ Financial Instrument Instance Record"	String
+""	6	"inout"	"Financial Instrument Financial Instrument Service Inputs and Ouputs"	"BQ Financial Instrument Instance Record"	String
+""	7	"inout"	"Financial Instrument Financial Instrument Service Work Product"	"BQ Financial Instrument Instance Record"	String
+""	8	"inout"	"Financial Instrument Financial Instrument Service Name"	"BQ Financial Instrument Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/interest/{crbq-identifier}/update"
+""	1	"inout"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"inout"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"inout"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"inout"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"inout"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"inout"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"inout"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"inout"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/issued-device/{crbq-identifier}/update"
+""	1	"inout"	"Issued Device Preconditions"	"BQ Issued Device Instance Record"	String
+""	2	"inout"	"Issued Device Feature Schedule"	"BQ Issued Device Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Issued Device Instance Record"	Business Service
+""	4	"inout"	"Issued Device Postconditions"	"BQ Issued Device Instance Record"	String
+""	5	"inout"	"Issued Device Service Type"	"BQ Issued Device Instance Record"	String
+""	6	"inout"	"Issued Device Service Description"	"BQ Issued Device Instance Record"	String
+""	7	"inout"	"Issued Device Service Inputs and Ouputs"	"BQ Issued Device Instance Record"	String
+""	8	"inout"	"Issued Device Service Work Product"	"BQ Issued Device Instance Record"	String
+""	9	"inout"	"Issued Device Service Name"	"BQ Issued Device Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/lien/{crbq-identifier}/update"
+""	1	"inout"	"Lien Preconditions"	"BQ Lien Instance Record"	String
+""	2	"inout"	"Lien Feature Schedule"	"BQ Lien Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Lien Instance Record"	Business Service
+""	4	"inout"	"Lien Postconditions"	"BQ Lien Instance Record"	String
+""	5	"inout"	"Lien Service Type"	"BQ Lien Instance Record"	String
+""	6	"inout"	"Lien Service Description"	"BQ Lien Instance Record"	String
+""	7	"inout"	"Lien Service Inputs and Ouputs"	"BQ Lien Instance Record"	String
+""	8	"inout"	"Lien Service Work Product"	"BQ Lien Instance Record"	String
+""	9	"inout"	"Lien Service Name"	"BQ Lien Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/payments/{crbq-identifier}/update"
+""	1	"inout"	"Payments Preconditions"	"BQ Payments Instance Record"	String
+""	2	"inout"	"Payments Feature Schedule"	"BQ Payments Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Payments Instance Record"	Business Service
+""	4	"inout"	"Payments Postconditions"	"BQ Payments Instance Record"	String
+""	5	"inout"	"Payments Service Type"	"BQ Payments Instance Record"	String
+""	6	"inout"	"Payments Service Description"	"BQ Payments Instance Record"	String
+""	7	"inout"	"Payments Service Inputs and Ouputs"	"BQ Payments Instance Record"	String
+""	8	"inout"	"Payments Service Work Product"	"BQ Payments Instance Record"	String
+""	9	"inout"	"Payments Service Name"	"BQ Payments Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/sweep/{crbq-identifier}/update"
+""	1	"inout"	"Sweep Preconditions"	"BQ Sweep Instance Record"	String
+""	2	"inout"	"Sweep Feature Schedule"	"BQ Sweep Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Sweep Instance Record"	Business Service
+""	4	"inout"	"Sweep Postconditions"	"BQ Sweep Instance Record"	String
+""	5	"inout"	"Sweep Service Type"	"BQ Sweep Instance Record"	String
+""	6	"inout"	"Sweep Service Description"	"BQ Sweep Instance Record"	String
+""	7	"inout"	"Sweep Service Inputs and Ouputs"	"BQ Sweep Instance Record"	String
+""	8	"inout"	"Sweep Service Work Product"	"BQ Sweep Instance Record"	String
+""	9	"inout"	"Sweep Service Name"	"BQ Sweep Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/withdrawals/{crbq-identifier}/update"
+""	1	"inout"	"Withdrawals Preconditions"	"BQ Withdrawals Instance Record"	String
+""	2	"inout"	"Withdrawals Feature Schedule"	"BQ Withdrawals Instance Record"	String
+""	3	"inout"	"Withdrawal Processing"	"BQ Withdrawals Instance Record"	Business Service
+""	4	"inout"	"Withdrawals Postconditions"	"BQ Withdrawals Instance Record"	String
+""	5	"inout"	"Withdrawals Withdrawal Processing Service Type"	"BQ Withdrawals Instance Record"	String
+""	6	"inout"	"Withdrawals Withdrawal Processing Service Description"	"BQ Withdrawals Instance Record"	String
+""	7	"inout"	"Withdrawals Withdrawal Processing Service Inputs and Ouputs"	"BQ Withdrawals Instance Record"	String
+""	8	"inout"	"Withdrawals Withdrawal Processing Service Work Product"	"BQ Withdrawals Instance Record"	String
+""	9	"inout"	"Withdrawals Withdrawal Processing Service Name"	"BQ Withdrawals Instance Record"	String
+""
+"Put"	"/merchandising-loan/{sd-identifier}/merchandising-loan-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Merchandising Loan Arrangement Parameter Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	2	"inout"	"Merchandising Loan Arrangement Selected Option"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	3	"in"	"Merchandising Loan Arrangement Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	4	"in"	"Merchandising Loan Arrangement Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	5	"inout"	"Merchandising Loan Arrangement Schedule"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	6	"inout"	"Merchandising Loan Arrangement Status"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	7	"in"	"Merchandising Loan Arrangement Currency"	"CR Merchandising Loan Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Merchandising Loan Arrangement Regulation Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object
+""	9	"in"	"Merchandising Loan Arrangement Regulation Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	10	"in"	"Merchandising Loan Arrangement Jurisdiction"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	11	"in"	"Merchandising Loan Arrangement Booking Location"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	12	"in"	"Merchandising Loan Arrangement Account Type"	"CR Merchandising Loan Arrangement Instance Record"	String
+""	13	"in"	"Merchandising Loan Arrangement Account Reference"	"CR Merchandising Loan Arrangement Instance Record"	Object

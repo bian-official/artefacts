@@ -1,0 +1,13 @@
+"Service Domain specification for Enterprise Tax Administration"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Financial Control
+"Service Domain"	Enterprise Tax Administration
+"Role Definition"	"Determine and optimize (though booking and allocation opportunities) the tax position of the enterprise and its subsidiaries"
+"Example of use"	"Determine tax obligation and optimization approaches for the enterprise and subsidiaries"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	TaxAdministration
+"Generic Artifact"	ManagementPlan
+"Control Record"	TaxAdministrationManagementPlan
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Investment Portfolio Analysis"
+"Business Area"	Customers
+"Business Domain"	Investment Services
+"Service Domain"	Investment Portfolio Analysis
+"Role Definition"	"Perform scheduled and ad-hoc performance analysis on a customer's investment portfolio. This can include different types of analysis and performance comparisons"
+"Example of use"	"A relationship manager requests an investment portfolio performance analysis prior to a regular client meeting"
+"Executive Summary"	"Assess and report on investment portfolio make-up, valuation and performance"
+"Key Features"	"Consolidate investment portfolio transaction details and comparative market activity reports. Select types of performance analysis and apply analyses to the period of transaction data. Develop portfolio performance comparisons and evaluations/justifications"
+"Functional Pattern"	Analyze
+"Asset Type"	ManagedInvestmentPortfolio
+"Generic Artifact"	Analysis
+"Control Record"	ManagedInvestmentPortfolioAnalysis
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Relationship"
+"Business Area"	Business Management
+"Business Domain"	Corporate Relations
+"Service Domain"	Corporate Relationship
+"Role Definition"	"Manage corporate relationships with key parties such as major clients, political and industry groups, user associations etc."
+"Example of use"	"A regular relationship review is scheduled with a major multinational customer to develop business opportunities"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	CorporatePartnerRelationship
+"Generic Artifact"	ManagementPlan
+"Control Record"	CorporatePartnerRelationshipManagementPlan
+"Registration Status"	Registered

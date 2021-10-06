@@ -1,0 +1,5 @@
+"Service Operations for: "	Market Data Switch Administration
+"Control Record Model for Market Data Switch Administration is not defined"
+"POST"	"/market-data-switch-administration/activation"
+"PUT"	"/market-data-switch-administration/{sd-reference-id}/configuration"
+"PUT"	"/market-data-switch-administration/{sd-reference-id}/feedback"

@@ -1,0 +1,5 @@
+"Service Operations for: "	Internal Network Operation
+"Control Record Model for Internal Network Operation is not defined"
+"POST"	"/internal-network-operation/activation"
+"PUT"	"/internal-network-operation/{sd-reference-id}/configuration"
+"PUT"	"/internal-network-operation/{sd-reference-id}/feedback"

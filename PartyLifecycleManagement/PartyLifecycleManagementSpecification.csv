@@ -1,0 +1,13 @@
+"Service Domain specification for Party Lifecycle Management"
+"Business Area"	Customers
+"Business Domain"	Sales
+"Service Domain"	Party Lifecycle Management
+"Role Definition"	"This service domain tracks the state of a party relationship with the bank from the initial checks made when establishing a new business relationship with a customer or partner and then that are performed as necessary over the duration of the relationship. The checks and the maintenance requirements will vary by party type (e.g. individual, company, partner) and jurisdiction. The checks cover bank specific and legal and regulatory considerations and may be updated based on a standard schedule or by request in specific circumstances."
+"Example of use"	"A prospective customer has been identified and the bank undertakes a collection of checks to confirm this is a new relationship and to verify the relationship in compliance with bank, legal and regulatory requirements. Note that for different customer types (non consumer in particular) many different checks will be required. "
+"Executive Summary"	"This service domain tracks the state of a party relationship with the bank from the initial checks made during the establishment of a new party connection and subsequently maintained as necessary over the duration of the relationship. The checks and the maintenance requirements will vary by party type and jurisdiction. The checks cover bank specific and legal and regulatory considerations and may be updated based on a standard schedule or by request in specific circumstances."
+"Key Features"	"Perform party qualification/confirmation checks. Maintain a schedule and perform periodic re-assessments. Provide status reports and process status update notifications"
+"Functional Pattern"	Process
+"Asset Type"	PartyRelationship
+"Generic Artifact"	Procedure
+"Control Record"	PartyRelationshipProcedure
+"Registration Status"	Registered

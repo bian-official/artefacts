@@ -1,0 +1,38 @@
+"Control Record Model for: "	Customer Relationship Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Incident Instance Record	""	""	""
+"BQ"	BQ Incident Instance Record	Relationship Incident Record	"Record of an incident"	String
+"BQ"	BQ Incident Instance Record	Employee/Business Unit Reference	"Reference to involved employees in the original incident or the resolution as appropriate"	Object
+"BQ"	BQ Incident Instance Record	ProductandService Activity Reference	"Production activity and transaction records relating to the incident"	Object
+"BQ"	BQ Incident Instance Record	Customer Incident Type	"The type of incident (e.g. product error, servicing issue)"	String
+"BQ"	BQ Incident Instance Record	Customer Incident Description	"Description of the incident in whatever form appropriate"	String
+"BQ"	BQ Incident Instance Record	Customer Incident Resolution	"Narrative of the resolution actions made or committed"	String
+"BQ"	BQ Contact Instance Record	""	""	""
+"BQ"	BQ Contact Instance Record	Customer Relationship Contact History	"Records the timing, purpose, details and impact of customer contacts"	String
+"BQ"	BQ Contact Instance Record	Customer Relationship Contact Schedule	"The schedule of past and planned customer contacts"	String
+"BQ"	BQ Contact Instance Record	Customer Relationship Contact Record	"The record of a customer contact"	String
+"BQ"	BQ Contact Instance Record	Customer Relationship Contact Date	"The date time and location of the contact"	Date
+"BQ"	BQ Contact Instance Record	Employee Reference	"Reference to the employee(s) in attendance"	Object
+"BQ"	BQ Contact Instance Record	Customer Relationship Contact Type	"The reason and or purpose for the contact (e.g. review, issue, product sales, advice, customer enquiry)"	String
+"BQ"	BQ Contact Instance Record	Customer Relationship Contact Result	"The result of the contact, including follow up tasks"	String
+"BQ"	BQ Development Instance Record	""	""	""
+"BQ"	BQ Development Instance Record	Relationship Development Task	"A specific task undertaken to develop the relationship"	String
+"BQ"	BQ Development Instance Record	Customer Development Task Type	"The type of relationship development activity (e.g. sales, product explanation, financial advice)"	String
+"BQ"	BQ Development Instance Record	Customer Development Task Description	"A description of the task, including any intelligence gathered and follow up actions agreed"	String
+"BQ"	BQ Development Instance Record	Customer Relationship Development Plan	"A plan outlining longer term relationship goals and performance/profitability both target and actual"	String
+"BQ"	BQ Development Instance Record	Employee/Business Unit Reference	"Reference to relationship managers and product specialists linked to the plan"	Object
+"BQ"	BQ Development Instance Record	Customer Development Work Product	"Work documentation, forms and schedules produced and referenced during the task"	String
+"BQ"	BQ Development Instance Record	Customer Development Task Result	"The outcomes of customer development activity"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	""	""	""
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Reference	"Reference to the associated customer (can currently be a person or a company)"	Object
+"CR"	CR Customer Relationship Management Plan Instance Record	Employee/Business Unit Reference	"The assigned individual or business unit for the relationship"	Object
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Relationship Rating Type	"A type of rating referenced and perhaps maintained by the relationship manager  (e.g. credit, financial, collateral)"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Relationship Rating	"The rating value (and explanation)"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Insight Type	"A type of insight referenced and perhaps maintained by the relationship manager  (e.g. retention candidate, sales propensity, life events)"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Insight Description	"Description of the insight"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Budget	"The target and actual budget covering income and allowed expenses/discounts"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Product Coverage	"Covers current and near term target product/service coverage as per the judgment of the Relationship Manager"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Product Usage	"Extracted analysis from production activity used to detect trends and key events (product activity/turnover summaries)"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Product Eligibility Profile	"Obtained from the appropriate Service Domain, this provides an automated/rules based analysis of unsold/eligible products and associated terms that can be refined by the manager"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Sales Plan	"The sales plan details specific actions taken and planned to address sales opportunities (i.e. target product sales and associated contact schedule)"	String
+"CR"	CR Customer Relationship Management Plan Instance Record	Customer Profitability	"A maintained perspective of the profitability of the relationship to date and projected"	String

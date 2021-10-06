@@ -1,0 +1,72 @@
+"Service Operations for: "	Customer Product and Service Eligibility
+"Control Record Model for Customer Product and Service Eligibility is not defined"
+"POST"	"/customer-product-and-service-eligibility/activation"
+"PUT"	"/customer-product-and-service-eligibility/{sd-reference-id}/configuration"
+"PUT"	"/customer-product-and-service-eligibility/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-product-and-service-eligibility/{sd-identifier}/customer-eligibility-assessment/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Customer Eligibility Assessment Instance Record"	String
+""	2	"in"	"Customer Product/Service Profile"	"CR Customer Eligibility Assessment Instance Record"	String
+""	3	"in"	"Product/Service Type"	"CR Customer Eligibility Assessment Instance Record"	String
+""	4	"out"	"Customer Product/Service Type Eligibility"	"CR Customer Eligibility Assessment Instance Record"	String
+""	5	"out"	"Customer Product/Service Type Usage"	"CR Customer Eligibility Assessment Instance Record"	String
+""	6	"inout"	"Date"	"CR Customer Eligibility Assessment Instance Record"	String
+""
+"Put"	"/customer-product-and-service-eligibility/{sd-identifier}/customer-eligibility-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Eligibility Assessment Instance Record"	String
+""	2	"inout"	"Customer Product/Service Profile"	"CR Customer Eligibility Assessment Instance Record"	String
+""	3	"inout"	"Product/Service Type"	"CR Customer Eligibility Assessment Instance Record"	String
+""	4	"inout"	"Date"	"CR Customer Eligibility Assessment Instance Record"	String
+""
+"Put"	"/customer-product-and-service-eligibility/{sd-identifier}/customer-eligibility-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-product-and-service-eligibility/{sd-identifier}/customer-eligibility-assessment/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Customer Eligibility Assessment Instance Record"	String
+""	2	"in"	"Customer Product/Service Profile"	"CR Customer Eligibility Assessment Instance Record"	String
+""	3	"in"	"Product/Service Type"	"CR Customer Eligibility Assessment Instance Record"	String
+""	4	"out"	"Customer Product/Service Type Eligibility"	"CR Customer Eligibility Assessment Instance Record"	String
+""	5	"out"	"Customer Product/Service Type Usage"	"CR Customer Eligibility Assessment Instance Record"	String
+""	6	"inout"	"Date"	"CR Customer Eligibility Assessment Instance Record"	String
+""
+"Put"	"/customer-product-and-service-eligibility/{sd-identifier}/customer-eligibility-assessment/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Customer Eligibility Assessment Instance Record"	String
+""	2	"in"	"Customer Product/Service Profile"	"CR Customer Eligibility Assessment Instance Record"	String
+""	3	"in"	"Product/Service Type"	"CR Customer Eligibility Assessment Instance Record"	String
+""	4	"out"	"Customer Product/Service Type Eligibility"	"CR Customer Eligibility Assessment Instance Record"	String
+""	5	"out"	"Customer Product/Service Type Usage"	"CR Customer Eligibility Assessment Instance Record"	String
+""	6	"inout"	"Date"	"CR Customer Eligibility Assessment Instance Record"	String
+""
+"Put"	"/customer-product-and-service-eligibility/{sd-identifier}/customer-eligibility-assessment/{crbq-identifier}/grant"
+""
+"Get"	"/customer-product-and-service-eligibility/{sd-identifier}/customer-eligibility-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Eligibility Assessment Instance Record"	String
+""	2	"out"	"Customer Product/Service Profile"	"CR Customer Eligibility Assessment Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Customer Eligibility Assessment Instance Record"	String
+""	4	"out"	"Customer Product/Service Type Eligibility"	"CR Customer Eligibility Assessment Instance Record"	String
+""	5	"out"	"Customer Product/Service Type Usage"	"CR Customer Eligibility Assessment Instance Record"	String
+""	6	"out"	"Date"	"CR Customer Eligibility Assessment Instance Record"	String
+""
+"Get"	"/customer-product-and-service-eligibility/{sd-identifier}/eligibility-check/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Eligibility Assessment Instance Record"	String
+""	2	"out"	"Customer Product/Service Profile"	"CR Customer Eligibility Assessment Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Customer Eligibility Assessment Instance Record"	String
+""	4	"out"	"Customer Product/Service Type Eligibility"	"CR Customer Eligibility Assessment Instance Record"	String
+""	5	"out"	"Customer Product/Service Type Usage"	"CR Customer Eligibility Assessment Instance Record"	String
+""	6	"out"	"Date"	"CR Customer Eligibility Assessment Instance Record"	String
+""	7	"out"	"Customer Product/Service Eligibility Assessment Result"	"BQ Eligibility Check Instance Record"	String
+""
+"Put"	"/customer-product-and-service-eligibility/{sd-identifier}/next-best/{crbq-identifier}/update"
+""	1	"inout"	"Requested Product/Service Properties"	"BQ Next Best Instance Record"	String
+""	2	"inout"	"Product Service Type"	"BQ Next Best Instance Record"	String
+""	3	"inout"	"Customer Product/Service Next Best Assessment Result"	"BQ Next Best Instance Record"	String
+""
+"Get"	"/customer-product-and-service-eligibility/{sd-identifier}/next-best/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Eligibility Assessment Instance Record"	String
+""	2	"out"	"Customer Product/Service Profile"	"CR Customer Eligibility Assessment Instance Record"	String
+""	3	"out"	"Product/Service Type"	"CR Customer Eligibility Assessment Instance Record"	String
+""	4	"out"	"Customer Product/Service Type Eligibility"	"CR Customer Eligibility Assessment Instance Record"	String
+""	5	"out"	"Customer Product/Service Type Usage"	"CR Customer Eligibility Assessment Instance Record"	String
+""	6	"out"	"Date"	"CR Customer Eligibility Assessment Instance Record"	String
+""	7	"out"	"Requested Product/Service Properties"	"BQ Next Best Instance Record"	String
+""	8	"out"	"Product Service Type"	"BQ Next Best Instance Record"	String
+""	9	"out"	"Customer Product/Service Next Best Assessment Result"	"BQ Next Best Instance Record"	String

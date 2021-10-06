@@ -1,0 +1,27 @@
+"Control Record Model for: "	Payment Order
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Execution Initiation Instance Record	""	""	""
+"BQ"	BQ Execution Initiation Instance Record	Payment Execution Procedure Instance Reference	"The reference to the payment execution processing task"	Object
+"BQ"	BQ Execution Initiation Instance Record	Payment Execution Procedure Instance Status	"The returned status of the payment execution processing"	String
+"BQ"	BQ Execution Initiation Instance Record	Execution Initiation Task Result	"Details of the execution initiation task"	String
+"CR"	CR Payment Order Procedure Instance Record	""	""	""
+"CR"	CR Payment Order Procedure Instance Record	Payment Transaction Initiator Reference	"Reference to the initiator of the transaction"	Object
+"CR"	CR Payment Order Procedure Instance Record	Payer Reference	"Reference to the payer"	Object
+"CR"	CR Payment Order Procedure Instance Record	Payer Bank Reference	"Reference to the payer's bank"	Object
+"CR"	CR Payment Order Procedure Instance Record	Payer Product Instance Reference	"Reference to the payer's account (the source of funds)"	Object
+"CR"	CR Payment Order Procedure Instance Record	Payee Reference	"The target for the payment"	Object
+"CR"	CR Payment Order Procedure Instance Record	Payee Bank Reference	"Reference to the payee's bank"	Object
+"CR"	CR Payment Order Procedure Instance Record	Payee Product Instance Reference	"Reference to the payee's account (the target for the funds)"	Object
+"CR"	CR Payment Order Procedure Instance Record	Amount	"Key amounts included in the transaction"	String
+"CR"	CR Payment Order Procedure Instance Record	Currency	"Currency for the amounts"	String
+"CR"	CR Payment Order Procedure Instance Record	Date Type	"Key dates associated with the transaction (e.g. order, booking, execution, value date, interest bearing)"	String
+"CR"	CR Payment Order Procedure Instance Record	Date	"Value of the specific date"	String
+"CR"	CR Payment Order Procedure Instance Record	Payment Mechanism Type	"Requested payment mechanism (e.g. ACH, SWIFT)"	String
+"CR"	CR Payment Order Procedure Instance Record	Payment Instructions	"Any specific payment instructions as appropriate"	String
+"CR"	CR Payment Order Procedure Instance Record	Interested Parties	"Where specific involved parties may impact order confirmation (e.g. presenting, authorizing, updating, joint account holder)"	String
+"CR"	CR Payment Order Procedure Instance Record	Product Type	"Allows for a type of product to have specific default payment instructions"	String
+"CR"	CR Payment Order Procedure Instance Record	Settlement Instructions	"Requested settlement instructions, may be overridden by execution"	String
+"BQ"	BQ Order Confirmation Instance Record	""	""	""
+"BQ"	BQ Order Confirmation Instance Record	Payment Order Compliance Check Type	"The type of compliance check performed (e.g. AML, Watchlists)"	String
+"BQ"	BQ Order Confirmation Instance Record	Payment Order Compliance Check Result	"The outcome of the compliance check"	String
+"BQ"	BQ Order Confirmation Instance Record	Order Confirmation Task Result	"Details of the overall confirmation checking process"	String

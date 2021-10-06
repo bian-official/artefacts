@@ -1,0 +1,5 @@
+"Service Operations for: "	Financial Compliance
+"Control Record Model for Financial Compliance is not defined"
+"POST"	"/financial-compliance/activation"
+"PUT"	"/financial-compliance/{sd-reference-id}/configuration"
+"PUT"	"/financial-compliance/{sd-reference-id}/feedback"

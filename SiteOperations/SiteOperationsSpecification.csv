@@ -1,0 +1,13 @@
+"Service Domain specification for Site Operations"
+"Business Area"	Resource Management
+"Business Domain"	Buildings And Equipment
+"Service Domain"	Site Operations
+"Role Definition"	"Operate the day to day access and maintenance of work locations, including site access and environment security, assignable space and equipment allocation, facility/utility assurance and cleaning services coordination"
+"Example of use"	"A day in the life of a site, administering access, allocating bookable space and overseeing maintenance and repair work"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	BuildingServices
+"Generic Artifact"	AdministrativePlan
+"Control Record"	BuildingServicesAdministrativePlan
+"Registration Status"	Registered

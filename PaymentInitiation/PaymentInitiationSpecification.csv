@@ -1,0 +1,13 @@
+"Service Domain specification for Payment Initiation"
+"Business Area"	Products
+"Business Domain"	Consumer Banking
+"Service Domain"	Payment Initiation
+"Role Definition"	"This service domain supports payment services for consumer and business customers. Payments are made to other accounts within the bank, other banks and possibly internationally using whatever payments mechanism is suited to the transaction (See Payments Order/Execution). The service domain can support single transactions, or manage repeating/scheduled payments if requested"
+"Example of use"	"An established customer transfers an amount from their current account to an overseas account for a family member. As this is a recurring transaction, the details are maintained and updated as necessary"
+"Executive Summary"	"This service domain provides a customer payment service. It captures the payer and payee details and other key properties of the payment and orchestrates the transaction. It provides support for repeating/scheduled payments"
+"Key Features"	"Capture payment instruction details. Verify/validate payment transaction (check funds available). Initiation payment order processing. Retain, apply and update repeating remittances"
+"Functional Pattern"	Transact
+"Asset Type"	PaymentInitiation
+"Generic Artifact"	Transaction
+"Control Record"	PaymentInitiationTransaction
+"Registration Status"	Registered

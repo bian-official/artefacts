@@ -1,0 +1,13 @@
+"Service Domain specification for Employee Access"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Employee Access
+"Role Definition"	"Administer the systems and information access profile and authorities of an employee"
+"Example of use"	"A new employee is given access to production systems and facilities matching their position"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Assess
+"Asset Type"	EmployeeAccess
+"Generic Artifact"	Assessment
+"Control Record"	EmployeeAccessAssessment
+"Registration Status"	Registered

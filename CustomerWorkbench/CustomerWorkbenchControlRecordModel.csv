@@ -1,0 +1,32 @@
+"Control Record Model for: "	Customer Workbench
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Browsing Instance Record	""	""	""
+"BQ"	BQ Browsing Instance Record	Customer URL	"The device URL can be used to detect known and repeat customer access"	String
+"BQ"	BQ Browsing Instance Record	Bank Website URL	"The access URL to the public web based bank information"	String
+"BQ"	BQ Broadcast Instance Record	""	""	""
+"BQ"	BQ Broadcast Instance Record	Customer Workbench Broadcast Record	"Text of the broadcast message"	String
+"BQ"	BQ Broadcast Instance Record	Customer Workbench Broadcast Record Date/Time	"The timestamp for the broadcast"	Date
+"BQ"	BQ SW Update Instance Record	""	""	""
+"BQ"	BQ SW Update Instance Record	SW Update Application	"The name of the bank application that is downloaded"	String
+"BQ"	BQ SW Update Instance Record	SW Update Version	"The version number downloaded"	String
+"BQ"	BQ SW Update Instance Record	SW Update Image	"The downloaded executable image"	String
+"BQ"	BQ SW Update Instance Record	Date	"The date and time of the download"	String
+"CR"	CR Customer Workbench Operating Session Instance Record	""	""	""
+"CR"	CR Customer Workbench Operating Session Instance Record	Customer Reference	"The customer running the workbench device"	Object
+"CR"	CR Customer Workbench Operating Session Instance Record	Customer Workbench Device Type	"The type of user device (e.g. mobile, laptop, workstation )"	String
+"CR"	CR Customer Workbench Operating Session Instance Record	Customer Workbench Device Registration	"Reference to device properties used to identify the device  (e.g. URL, ANI, serial number)"	String
+"CR"	CR Customer Workbench Operating Session Instance Record	Customer Workbench Device Manufacturer	"The make of the device if known"	String
+"CR"	CR Customer Workbench Operating Session Instance Record	Customer Workbench Device Operating System/Version Number	"The operating system type and version (use to match downloaded software)"	String
+"CR"	CR Customer Workbench Operating Session Instance Record	Customer Workbench Device Access Permissions	"The bank's access permissions (e.g. local storage access, administrator permissions, system download permission)"	String
+"CR"	CR Customer Workbench Operating Session Instance Record	Installed Bank Application Type	"Details of the local bank applications"	String
+"CR"	CR Customer Workbench Operating Session Instance Record	Installed Bank Application Version Number	"The version number(s) of device resident bank software"	String
+"CR"	CR Customer Workbench Operating Session Instance Record	Last Update Date/Time	"The last update date time stamp for local bank software"	Date
+"BQ"	BQ Contact Instance Record	""	""	""
+"BQ"	BQ Contact Instance Record	Contact Start/End Time	"Logged duration of the contact"	String
+"BQ"	BQ Contact Instance Record	Contact Activity Log	"Local record of page/service access as appropriate"	String
+"BQ"	BQ ProductandService Access Instance Record	""	""	""
+"BQ"	BQ ProductandService Access Instance Record	Customer Details/Preferences	"Locally maintained values used for auto-fill and local validation"	String
+"BQ"	BQ ProductandService Access Instance Record	ProductandService Menu	"Locally maintained structured dialogue to access bank services as appropriate"	String
+"BQ"	BQ ProductandService Access Instance Record	ProductandService Menu Access Log	"Locally record of product/service screen access"	String
+"BQ"	BQ ProductandService Access Instance Record	Access Start/End Time	"Logged time and duration spent on product/service screens"	String
+"BQ"	BQ ProductandService Access Instance Record	Customer Resident Files	"Local copies of requested information, application forms etc."	String

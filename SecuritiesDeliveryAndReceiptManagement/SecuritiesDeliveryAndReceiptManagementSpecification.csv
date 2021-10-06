@@ -1,0 +1,13 @@
+"Service Domain specification for Securities Delivery And Receipt Management"
+"Business Area"	Products
+"Business Domain"	Market Operations
+"Service Domain"	Securities Delivery And Receipt Management
+"Role Definition"	"Initiate settlement transactions and track to completion"
+"Example of use"	"The settlement of trades results in several clearing transactions for securities and cash exchanged"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Transact
+"Asset Type"	SecuritiesClearingAndSettlement
+"Generic Artifact"	Transaction
+"Control Record"	SecuritiesClearingAndSettlementTransaction
+"Registration Status"	Registered

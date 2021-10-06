@@ -1,0 +1,126 @@
+"Service Operations for: "	Contact Center Operations
+""
+"POST"	"/contact-center-operations/activation"
+"PUT"	"/contact-center-operations/{sd-reference-id}/configuration"
+"PUT"	"/contact-center-operations/{sd-reference-id}/feedback"
+""
+"Post"	"/contact-center-operations/{sd-identifier}/contact-center-administrative-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Contact Center Service Operating Configuration"	"CR Contact Center Administrative Plan Instance Record"	String
+""	2	"inout"	"Customer Servicing Representative Allocation Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	3	"inout"	"Customer Servicing Representative Reference"	"CR Contact Center Administrative Plan Instance Record"	Object
+""	4	"inout"	"Customer Servicing Representative Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""	5	"inout"	"Customer Servicing Representative Qualification Profile"	"CR Contact Center Administrative Plan Instance Record"	String
+""	6	"inout"	"Customer Servicing Representative Location"	"CR Contact Center Administrative Plan Instance Record"	String
+""	7	"inout"	"Customer Servicing Representative Availability Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	8	"inout"	"Customer Servicing Representative Status"	"CR Contact Center Administrative Plan Instance Record"	String
+""	9	"inout"	"Customer Servicing Representative Assignment Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""
+"Put"	"/contact-center-operations/{sd-identifier}/contact-center-administrative-plan/{crbq-identifier}/update"
+""	1	"inout"	"Contact Center Service Operating Configuration"	"CR Contact Center Administrative Plan Instance Record"	String
+""	2	"inout"	"Customer Servicing Representative Allocation Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	3	"inout"	"Customer Servicing Representative Reference"	"CR Contact Center Administrative Plan Instance Record"	Object
+""	4	"inout"	"Customer Servicing Representative Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""	5	"inout"	"Customer Servicing Representative Qualification Profile"	"CR Contact Center Administrative Plan Instance Record"	String
+""	6	"inout"	"Customer Servicing Representative Location"	"CR Contact Center Administrative Plan Instance Record"	String
+""	7	"inout"	"Customer Servicing Representative Availability Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	8	"inout"	"Customer Servicing Representative Status"	"CR Contact Center Administrative Plan Instance Record"	String
+""	9	"inout"	"Customer Servicing Representative Assignment Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""
+"Put"	"/contact-center-operations/{sd-identifier}/contact-center-administrative-plan/{crbq-identifier}/control"
+""
+"Put"	"/contact-center-operations/{sd-identifier}/contact-center-administrative-plan/{crbq-identifier}/execution"
+""	1	"inout"	"Contact Center Service Operating Configuration"	"CR Contact Center Administrative Plan Instance Record"	String
+""	2	"inout"	"Customer Servicing Representative Allocation Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	3	"inout"	"Customer Servicing Representative Reference"	"CR Contact Center Administrative Plan Instance Record"	Object
+""	4	"inout"	"Customer Servicing Representative Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""	5	"inout"	"Customer Servicing Representative Qualification Profile"	"CR Contact Center Administrative Plan Instance Record"	String
+""	6	"inout"	"Customer Servicing Representative Location"	"CR Contact Center Administrative Plan Instance Record"	String
+""	7	"inout"	"Customer Servicing Representative Availability Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	8	"inout"	"Customer Servicing Representative Status"	"CR Contact Center Administrative Plan Instance Record"	String
+""	9	"inout"	"Customer Servicing Representative Assignment Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""
+"Put"	"/contact-center-operations/{sd-identifier}/contact-center-administrative-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Contact Center Service Operating Configuration"	"CR Contact Center Administrative Plan Instance Record"	String
+""	2	"inout"	"Customer Servicing Representative Allocation Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	3	"inout"	"Customer Servicing Representative Reference"	"CR Contact Center Administrative Plan Instance Record"	Object
+""	4	"inout"	"Customer Servicing Representative Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""	5	"inout"	"Customer Servicing Representative Qualification Profile"	"CR Contact Center Administrative Plan Instance Record"	String
+""	6	"inout"	"Customer Servicing Representative Location"	"CR Contact Center Administrative Plan Instance Record"	String
+""	7	"inout"	"Customer Servicing Representative Availability Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	8	"inout"	"Customer Servicing Representative Status"	"CR Contact Center Administrative Plan Instance Record"	String
+""	9	"inout"	"Customer Servicing Representative Assignment Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""
+"Get"	"/contact-center-operations/{sd-identifier}/contact-center-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Contact Center Service Operating Configuration"	"CR Contact Center Administrative Plan Instance Record"	String
+""	2	"out"	"Customer Servicing Representative Allocation Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	3	"out"	"Customer Servicing Representative Reference"	"CR Contact Center Administrative Plan Instance Record"	Object
+""	4	"out"	"Customer Servicing Representative Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""	5	"out"	"Customer Servicing Representative Qualification Profile"	"CR Contact Center Administrative Plan Instance Record"	String
+""	6	"out"	"Customer Servicing Representative Location"	"CR Contact Center Administrative Plan Instance Record"	String
+""	7	"out"	"Customer Servicing Representative Availability Schedule"	"CR Contact Center Administrative Plan Instance Record"	String
+""	8	"out"	"Customer Servicing Representative Status"	"CR Contact Center Administrative Plan Instance Record"	String
+""	9	"out"	"Customer Servicing Representative Assignment Record"	"CR Contact Center Administrative Plan Instance Record"	String
+""
+"Post"	"/contact-center-operations/{sd-identifier}/assignment/{crbq-identifier}/creation"
+""	1	"inout"	"Assignment Customer Servicing Representative"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Assignment Customer Servicing Position Reference"	"BQ Assignment Instance Record"	Object
+""	3	"inout"	"Assignment Customer Servicing Position Profile"	"BQ Assignment Instance Record"	String
+""	4	"inout"	"Assignment Customer Servicing Position Schedule"	"BQ Assignment Instance Record"	String
+""	5	"inout"	"Customer Contact Session Procedure Instance Reference"	"BQ Assignment Instance Record"	Object
+""
+"Put"	"/contact-center-operations/{sd-identifier}/assignment/{crbq-identifier}/update"
+""	1	"inout"	"Assignment Customer Servicing Representative"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Assignment Customer Servicing Position Reference"	"BQ Assignment Instance Record"	Object
+""	3	"inout"	"Assignment Customer Servicing Position Profile"	"BQ Assignment Instance Record"	String
+""	4	"inout"	"Assignment Customer Servicing Position Schedule"	"BQ Assignment Instance Record"	String
+""	5	"inout"	"Customer Contact Session Procedure Instance Reference"	"BQ Assignment Instance Record"	Object
+""
+"Put"	"/contact-center-operations/{sd-identifier}/assignment/{crbq-identifier}/control"
+""
+"Put"	"/contact-center-operations/{sd-identifier}/assignment/{crbq-identifier}/requisition"
+""	1	"inout"	"Assignment Customer Servicing Representative"	"BQ Assignment Instance Record"	String
+""	2	"inout"	"Customer Contact Session Procedure Instance Reference"	"BQ Assignment Instance Record"	Object
+""
+"Get"	"/contact-center-operations/{sd-identifier}/assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Assignment Customer Servicing Representative"	"BQ Assignment Instance Record"	String
+""	2	"out"	"Assignment Customer Servicing Position Reference"	"BQ Assignment Instance Record"	Object
+""	3	"out"	"Assignment Customer Servicing Position Profile"	"BQ Assignment Instance Record"	String
+""	4	"out"	"Assignment Customer Servicing Position Schedule"	"BQ Assignment Instance Record"	String
+""	5	"out"	"Customer Contact Session Procedure Instance Reference"	"BQ Assignment Instance Record"	Object
+""
+"Put"	"/contact-center-operations/{sd-identifier}/peak-load/{crbq-identifier}/update"
+""	1	"inout"	"Contact Center Service Statistics"	"BQ Peak Load Instance Record"	String
+""	2	"inout"	"Contact Center Service Statistic Type"	"BQ Peak Load Instance Record"	String
+""	3	"inout"	"Peak Load Response Task"	"BQ Peak Load Instance Record"	String
+""	4	"inout"	"Peak Load Response Task Type"	"BQ Peak Load Instance Record"	String
+""	5	"inout"	"Peak Load Response Description"	"BQ Peak Load Instance Record"	String
+""
+"Put"	"/contact-center-operations/{sd-identifier}/peak-load/{crbq-identifier}/requisition"
+""	1	"inout"	"Contact Center Service Statistics"	"BQ Peak Load Instance Record"	String
+""	2	"inout"	"Contact Center Service Statistic Type"	"BQ Peak Load Instance Record"	String
+""	3	"inout"	"Peak Load Response Task"	"BQ Peak Load Instance Record"	String
+""	4	"inout"	"Peak Load Response Task Type"	"BQ Peak Load Instance Record"	String
+""	5	"inout"	"Peak Load Response Description"	"BQ Peak Load Instance Record"	String
+""
+"Get"	"/contact-center-operations/{sd-identifier}/peak-load/{crbq-identifier}/retrieval"
+""	1	"out"	"Contact Center Service Statistics"	"BQ Peak Load Instance Record"	String
+""	2	"out"	"Contact Center Service Statistic Type"	"BQ Peak Load Instance Record"	String
+""	3	"out"	"Peak Load Response Task"	"BQ Peak Load Instance Record"	String
+""	4	"out"	"Peak Load Response Task Type"	"BQ Peak Load Instance Record"	String
+""	5	"out"	"Peak Load Response Description"	"BQ Peak Load Instance Record"	String
+""
+"Post"	"/contact-center-operations/{sd-identifier}/troubleshooting/{crbq-identifier}/creation"
+""	1	"inout"	"Contact Center Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Contact Center Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/contact-center-operations/{sd-identifier}/troubleshooting/{crbq-identifier}/update"
+""	1	"inout"	"Contact Center Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Contact Center Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Put"	"/contact-center-operations/{sd-identifier}/troubleshooting/{crbq-identifier}/requisition"
+""	1	"inout"	"Contact Center Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"inout"	"Contact Center Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String
+""
+"Get"	"/contact-center-operations/{sd-identifier}/troubleshooting/{crbq-identifier}/retrieval"
+""	1	"out"	"Contact Center Production Issue Record"	"BQ Troubleshooting Instance Record"	String
+""	2	"out"	"Contact Center Issue Analysis & Recommended Response"	"BQ Troubleshooting Instance Record"	String

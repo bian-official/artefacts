@@ -1,0 +1,182 @@
+"Service Operations for: "	Standing Order
+""
+"POST"	"/standing-order/activation"
+"PUT"	"/standing-order/{sd-reference-id}/configuration"
+"PUT"	"/standing-order/{sd-reference-id}/feedback"
+""
+"Put"	"/standing-order/{sd-identifier}/standing-order-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Standing Order Arrangement Parameter Type"	"CR Standing Order Arrangement Instance Record"	String
+""	2	"inout"	"Standing Order Arrangement Selected Option"	"CR Standing Order Arrangement Instance Record"	Feature
+""	3	"in"	"Standing Order Arrangement Type"	"CR Standing Order Arrangement Instance Record"	BankingProductType
+""	4	"inout"	"Standing Order Arrangement Calendar"	"CR Standing Order Arrangement Instance Record"	String
+""	5	"inout"	"Standing Order Arrangement Status"	"CR Standing Order Arrangement Instance Record"	String
+""	6	"in"	"Standing Order Arrangement Associated Party"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	7	"in"	"Standing Order Arrangement Currency"	"CR Standing Order Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Standing Order Arrangement Regulation Reference"	"CR Standing Order Arrangement Instance Record"	RuleSet
+""	9	"in"	"Standing Order Arrangement Regulation Type"	"CR Standing Order Arrangement Instance Record"	RuleSetTypeValues
+""	10	"in"	"Standing Order Arrangement Jurisdiction"	"CR Standing Order Arrangement Instance Record"	Jurisdiction
+""	11	"in"	"Standing Order Arrangement Booking Location"	"CR Standing Order Arrangement Instance Record"	BusinessUnit
+""	12	"in"	"Standing Order Arrangement Account Type"	"CR Standing Order Arrangement Instance Record"	AccountTypeValues
+""	13	"in"	"Standing Order Arrangement Account Reference"	"CR Standing Order Arrangement Instance Record"	Account
+""	14	"inout"	"Standing Order Arrangement Customer Reference"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	15	"inout"	"Standing Order Arrangement Position"	"CR Standing Order Arrangement Instance Record"	String
+""	16	"inout"	"Standing Order Arrangement Product Reference"	"CR Standing Order Arrangement Instance Record"	BankingProduct
+""	17	"inout"	"Standing Order Arrangement Position Limit"	"CR Standing Order Arrangement Instance Record"	String
+""
+"Put"	"/standing-order/{sd-identifier}/standing-order-payment/{crbq-identifier}/exchange"
+""	1	"inout"	"Standing Order Payment Preconditions"	"BQ Standing Order Payment Instance Record"	Condition
+""	2	"inout"	"Standing Order Payment Feature Schedule"	"BQ Standing Order Payment Instance Record"	Schedule
+""	3	"inout"	"Business Service"	"BQ Standing Order Payment Instance Record"	Business Service
+""	4	"inout"	"Standing Order Payment Postconditions"	"BQ Standing Order Payment Instance Record"	Condition
+""	5	"inout"	"Standing Order Payment Service Type"	"BQ Standing Order Payment Instance Record"	String
+""	6	"inout"	"Standing Order Payment Service Description"	"BQ Standing Order Payment Instance Record"	Text
+""	7	"inout"	"Standing Order Payment Service Inputs and Ouputs"	"BQ Standing Order Payment Instance Record"	String
+""	8	"inout"	"Standing Order Payment Service Work Product"	"BQ Standing Order Payment Instance Record"	WorkProduct
+""	9	"inout"	"Standing Order Payment Service Name"	"BQ Standing Order Payment Instance Record"	Name
+""
+"Put"	"/standing-order/{sd-identifier}/standing-order-arrangement/{crbq-identifier}/exchange"
+""	1	"inout"	"Standing Order Arrangement Parameter Type"	"CR Standing Order Arrangement Instance Record"	String
+""	2	"inout"	"Standing Order Arrangement Selected Option"	"CR Standing Order Arrangement Instance Record"	Feature
+""	3	"in"	"Standing Order Arrangement Type"	"CR Standing Order Arrangement Instance Record"	BankingProductType
+""	4	"inout"	"Standing Order Arrangement Calendar"	"CR Standing Order Arrangement Instance Record"	String
+""	5	"inout"	"Standing Order Arrangement Status"	"CR Standing Order Arrangement Instance Record"	String
+""	6	"in"	"Standing Order Arrangement Associated Party"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	7	"in"	"Standing Order Arrangement Currency"	"CR Standing Order Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Standing Order Arrangement Regulation Reference"	"CR Standing Order Arrangement Instance Record"	RuleSet
+""	9	"in"	"Standing Order Arrangement Regulation Type"	"CR Standing Order Arrangement Instance Record"	RuleSetTypeValues
+""	10	"in"	"Standing Order Arrangement Jurisdiction"	"CR Standing Order Arrangement Instance Record"	Jurisdiction
+""	11	"in"	"Standing Order Arrangement Booking Location"	"CR Standing Order Arrangement Instance Record"	BusinessUnit
+""	12	"in"	"Standing Order Arrangement Account Type"	"CR Standing Order Arrangement Instance Record"	AccountTypeValues
+""	13	"in"	"Standing Order Arrangement Account Reference"	"CR Standing Order Arrangement Instance Record"	Account
+""	14	"inout"	"Standing Order Arrangement Customer Reference"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	15	"inout"	"Standing Order Arrangement Position"	"CR Standing Order Arrangement Instance Record"	String
+""	16	"inout"	"Standing Order Arrangement Product Reference"	"CR Standing Order Arrangement Instance Record"	BankingProduct
+""	17	"inout"	"Standing Order Arrangement Position Limit"	"CR Standing Order Arrangement Instance Record"	String
+""
+"Put"	"/standing-order/{sd-identifier}/standing-order-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Standing Order Arrangement Parameter Type"	"CR Standing Order Arrangement Instance Record"	String
+""	2	"inout"	"Standing Order Arrangement Selected Option"	"CR Standing Order Arrangement Instance Record"	Feature
+""	3	"in"	"Standing Order Arrangement Type"	"CR Standing Order Arrangement Instance Record"	BankingProductType
+""	4	"inout"	"Standing Order Arrangement Calendar"	"CR Standing Order Arrangement Instance Record"	String
+""	5	"inout"	"Standing Order Arrangement Status"	"CR Standing Order Arrangement Instance Record"	String
+""	6	"in"	"Standing Order Arrangement Associated Party"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	7	"in"	"Standing Order Arrangement Currency"	"CR Standing Order Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Standing Order Arrangement Regulation Reference"	"CR Standing Order Arrangement Instance Record"	RuleSet
+""	9	"in"	"Standing Order Arrangement Regulation Type"	"CR Standing Order Arrangement Instance Record"	RuleSetTypeValues
+""	10	"in"	"Standing Order Arrangement Jurisdiction"	"CR Standing Order Arrangement Instance Record"	Jurisdiction
+""	11	"in"	"Standing Order Arrangement Booking Location"	"CR Standing Order Arrangement Instance Record"	BusinessUnit
+""	12	"in"	"Standing Order Arrangement Account Type"	"CR Standing Order Arrangement Instance Record"	AccountTypeValues
+""	13	"in"	"Standing Order Arrangement Account Reference"	"CR Standing Order Arrangement Instance Record"	Account
+""	14	"inout"	"Standing Order Arrangement Customer Reference"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	15	"inout"	"Standing Order Arrangement Position"	"CR Standing Order Arrangement Instance Record"	String
+""	16	"inout"	"Standing Order Arrangement Product Reference"	"CR Standing Order Arrangement Instance Record"	BankingProduct
+""	17	"inout"	"Standing Order Arrangement Position Limit"	"CR Standing Order Arrangement Instance Record"	String
+""
+"Post"	"/standing-order/{sd-identifier}/standing-order-payment/{crbq-identifier}/initiation"
+""	1	"inout"	"Standing Order Payment Preconditions"	"BQ Standing Order Payment Instance Record"	Condition
+""	2	"inout"	"Standing Order Payment Feature Schedule"	"BQ Standing Order Payment Instance Record"	Schedule
+""	3	"inout"	"Business Service"	"BQ Standing Order Payment Instance Record"	Business Service
+""	4	"inout"	"Standing Order Payment Postconditions"	"BQ Standing Order Payment Instance Record"	Condition
+""	5	"inout"	"Standing Order Payment Service Type"	"BQ Standing Order Payment Instance Record"	String
+""	6	"inout"	"Standing Order Payment Service Description"	"BQ Standing Order Payment Instance Record"	Text
+""	7	"inout"	"Standing Order Payment Service Inputs and Ouputs"	"BQ Standing Order Payment Instance Record"	String
+""	8	"inout"	"Standing Order Payment Service Work Product"	"BQ Standing Order Payment Instance Record"	WorkProduct
+""	9	"inout"	"Standing Order Payment Service Name"	"BQ Standing Order Payment Instance Record"	Name
+""
+"Post"	"/standing-order/{sd-identifier}/standing-order-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Standing Order Arrangement Parameter Type"	"CR Standing Order Arrangement Instance Record"	String
+""	2	"inout"	"Standing Order Arrangement Selected Option"	"CR Standing Order Arrangement Instance Record"	Feature
+""	3	"in"	"Standing Order Arrangement Type"	"CR Standing Order Arrangement Instance Record"	BankingProductType
+""	4	"inout"	"Standing Order Arrangement Calendar"	"CR Standing Order Arrangement Instance Record"	String
+""	5	"inout"	"Standing Order Arrangement Status"	"CR Standing Order Arrangement Instance Record"	String
+""	6	"in"	"Standing Order Arrangement Associated Party"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	7	"in"	"Standing Order Arrangement Currency"	"CR Standing Order Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Standing Order Arrangement Regulation Reference"	"CR Standing Order Arrangement Instance Record"	RuleSet
+""	9	"in"	"Standing Order Arrangement Regulation Type"	"CR Standing Order Arrangement Instance Record"	RuleSetTypeValues
+""	10	"in"	"Standing Order Arrangement Jurisdiction"	"CR Standing Order Arrangement Instance Record"	Jurisdiction
+""	11	"in"	"Standing Order Arrangement Booking Location"	"CR Standing Order Arrangement Instance Record"	BusinessUnit
+""	12	"in"	"Standing Order Arrangement Account Type"	"CR Standing Order Arrangement Instance Record"	AccountTypeValues
+""	13	"in"	"Standing Order Arrangement Account Reference"	"CR Standing Order Arrangement Instance Record"	Account
+""	14	"inout"	"Standing Order Arrangement Customer Reference"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	15	"inout"	"Standing Order Arrangement Position"	"CR Standing Order Arrangement Instance Record"	String
+""	16	"inout"	"Standing Order Arrangement Product Reference"	"CR Standing Order Arrangement Instance Record"	BankingProduct
+""	17	"inout"	"Standing Order Arrangement Position Limit"	"CR Standing Order Arrangement Instance Record"	String
+""
+"Get"	"/standing-order/{sd-identifier}/standing-order-payment/{crbq-identifier}/retrieval"
+""	1	"out"	"Standing Order Payment Preconditions"	"BQ Standing Order Payment Instance Record"	Condition
+""	2	"out"	"Standing Order Payment Feature Schedule"	"BQ Standing Order Payment Instance Record"	Schedule
+""	3	"out"	"Business Service"	"BQ Standing Order Payment Instance Record"	Business Service
+""	4	"out"	"Standing Order Payment Postconditions"	"BQ Standing Order Payment Instance Record"	Condition
+""	5	"out"	"Standing Order Payment Service Type"	"BQ Standing Order Payment Instance Record"	String
+""	6	"out"	"Standing Order Payment Service Description"	"BQ Standing Order Payment Instance Record"	Text
+""	7	"out"	"Standing Order Payment Service Inputs and Ouputs"	"BQ Standing Order Payment Instance Record"	String
+""	8	"out"	"Standing Order Payment Service Work Product"	"BQ Standing Order Payment Instance Record"	WorkProduct
+""	9	"out"	"Standing Order Payment Service Name"	"BQ Standing Order Payment Instance Record"	Name
+""
+"Get"	"/standing-order/{sd-identifier}/standing-order-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Standing Order Arrangement Parameter Type"	"CR Standing Order Arrangement Instance Record"	String
+""	2	"out"	"Standing Order Arrangement Selected Option"	"CR Standing Order Arrangement Instance Record"	Feature
+""	3	"out"	"Standing Order Arrangement Type"	"CR Standing Order Arrangement Instance Record"	BankingProductType
+""	4	"out"	"Standing Order Arrangement Calendar"	"CR Standing Order Arrangement Instance Record"	String
+""	5	"out"	"Standing Order Arrangement Status"	"CR Standing Order Arrangement Instance Record"	String
+""	6	"out"	"Standing Order Arrangement Associated Party"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	7	"out"	"Standing Order Arrangement Currency"	"CR Standing Order Arrangement Instance Record"	CurrencyCode
+""	8	"out"	"Standing Order Arrangement Regulation Reference"	"CR Standing Order Arrangement Instance Record"	RuleSet
+""	9	"out"	"Standing Order Arrangement Regulation Type"	"CR Standing Order Arrangement Instance Record"	RuleSetTypeValues
+""	10	"out"	"Standing Order Arrangement Jurisdiction"	"CR Standing Order Arrangement Instance Record"	Jurisdiction
+""	11	"out"	"Standing Order Arrangement Booking Location"	"CR Standing Order Arrangement Instance Record"	BusinessUnit
+""	12	"out"	"Standing Order Arrangement Account Type"	"CR Standing Order Arrangement Instance Record"	AccountTypeValues
+""	13	"out"	"Standing Order Arrangement Account Reference"	"CR Standing Order Arrangement Instance Record"	Account
+""	14	"out"	"Standing Order Arrangement Customer Reference"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	15	"out"	"Standing Order Arrangement Position"	"CR Standing Order Arrangement Instance Record"	String
+""	16	"out"	"Standing Order Arrangement Product Reference"	"CR Standing Order Arrangement Instance Record"	BankingProduct
+""	17	"out"	"Standing Order Arrangement Position Limit"	"CR Standing Order Arrangement Instance Record"	String
+""
+"Put"	"/standing-order/{sd-identifier}/standing-order-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Standing Order Arrangement Parameter Type"	"CR Standing Order Arrangement Instance Record"	String
+""	2	"inout"	"Standing Order Arrangement Selected Option"	"CR Standing Order Arrangement Instance Record"	Feature
+""	3	"in"	"Standing Order Arrangement Type"	"CR Standing Order Arrangement Instance Record"	BankingProductType
+""	4	"inout"	"Standing Order Arrangement Calendar"	"CR Standing Order Arrangement Instance Record"	String
+""	5	"inout"	"Standing Order Arrangement Status"	"CR Standing Order Arrangement Instance Record"	String
+""	6	"in"	"Standing Order Arrangement Associated Party"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	7	"in"	"Standing Order Arrangement Currency"	"CR Standing Order Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Standing Order Arrangement Regulation Reference"	"CR Standing Order Arrangement Instance Record"	RuleSet
+""	9	"in"	"Standing Order Arrangement Regulation Type"	"CR Standing Order Arrangement Instance Record"	RuleSetTypeValues
+""	10	"in"	"Standing Order Arrangement Jurisdiction"	"CR Standing Order Arrangement Instance Record"	Jurisdiction
+""	11	"in"	"Standing Order Arrangement Booking Location"	"CR Standing Order Arrangement Instance Record"	BusinessUnit
+""	12	"in"	"Standing Order Arrangement Account Type"	"CR Standing Order Arrangement Instance Record"	AccountTypeValues
+""	13	"in"	"Standing Order Arrangement Account Reference"	"CR Standing Order Arrangement Instance Record"	Account
+""	14	"inout"	"Standing Order Arrangement Customer Reference"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	15	"inout"	"Standing Order Arrangement Position"	"CR Standing Order Arrangement Instance Record"	String
+""	16	"inout"	"Standing Order Arrangement Product Reference"	"CR Standing Order Arrangement Instance Record"	BankingProduct
+""	17	"inout"	"Standing Order Arrangement Position Limit"	"CR Standing Order Arrangement Instance Record"	String
+""
+"Put"	"/standing-order/{sd-identifier}/standing-order-payment/{crbq-identifier}/update"
+""	1	"inout"	"Standing Order Payment Preconditions"	"BQ Standing Order Payment Instance Record"	Condition
+""	2	"inout"	"Standing Order Payment Feature Schedule"	"BQ Standing Order Payment Instance Record"	Schedule
+""	3	"inout"	"Business Service"	"BQ Standing Order Payment Instance Record"	Business Service
+""	4	"inout"	"Standing Order Payment Postconditions"	"BQ Standing Order Payment Instance Record"	Condition
+""	5	"inout"	"Standing Order Payment Service Type"	"BQ Standing Order Payment Instance Record"	String
+""	6	"inout"	"Standing Order Payment Service Description"	"BQ Standing Order Payment Instance Record"	Text
+""	7	"inout"	"Standing Order Payment Service Inputs and Ouputs"	"BQ Standing Order Payment Instance Record"	String
+""	8	"inout"	"Standing Order Payment Service Work Product"	"BQ Standing Order Payment Instance Record"	WorkProduct
+""	9	"inout"	"Standing Order Payment Service Name"	"BQ Standing Order Payment Instance Record"	Name
+""
+"Put"	"/standing-order/{sd-identifier}/standing-order-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Standing Order Arrangement Parameter Type"	"CR Standing Order Arrangement Instance Record"	String
+""	2	"inout"	"Standing Order Arrangement Selected Option"	"CR Standing Order Arrangement Instance Record"	Feature
+""	3	"in"	"Standing Order Arrangement Type"	"CR Standing Order Arrangement Instance Record"	BankingProductType
+""	4	"inout"	"Standing Order Arrangement Calendar"	"CR Standing Order Arrangement Instance Record"	String
+""	5	"inout"	"Standing Order Arrangement Status"	"CR Standing Order Arrangement Instance Record"	String
+""	6	"in"	"Standing Order Arrangement Associated Party"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	7	"in"	"Standing Order Arrangement Currency"	"CR Standing Order Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Standing Order Arrangement Regulation Reference"	"CR Standing Order Arrangement Instance Record"	RuleSet
+""	9	"in"	"Standing Order Arrangement Regulation Type"	"CR Standing Order Arrangement Instance Record"	RuleSetTypeValues
+""	10	"in"	"Standing Order Arrangement Jurisdiction"	"CR Standing Order Arrangement Instance Record"	Jurisdiction
+""	11	"in"	"Standing Order Arrangement Booking Location"	"CR Standing Order Arrangement Instance Record"	BusinessUnit
+""	12	"in"	"Standing Order Arrangement Account Type"	"CR Standing Order Arrangement Instance Record"	AccountTypeValues
+""	13	"in"	"Standing Order Arrangement Account Reference"	"CR Standing Order Arrangement Instance Record"	Account
+""	14	"inout"	"Standing Order Arrangement Customer Reference"	"CR Standing Order Arrangement Instance Record"	InvolvedParty
+""	15	"inout"	"Standing Order Arrangement Position"	"CR Standing Order Arrangement Instance Record"	String
+""	16	"inout"	"Standing Order Arrangement Product Reference"	"CR Standing Order Arrangement Instance Record"	BankingProduct
+""	17	"inout"	"Standing Order Arrangement Position Limit"	"CR Standing Order Arrangement Instance Record"	String

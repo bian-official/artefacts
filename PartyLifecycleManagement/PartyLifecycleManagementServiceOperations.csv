@@ -1,0 +1,169 @@
+"Service Operations for: "	Party Lifecycle Management
+""
+"POST"	"/party-lifecycle-management/activation"
+"PUT"	"/party-lifecycle-management/{sd-reference-id}/configuration"
+"PUT"	"/party-lifecycle-management/{sd-reference-id}/feedback"
+""
+"Post"	"/party-lifecycle-management/{sd-identifier}/party-relationship-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"in"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"inout"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"inout"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"inout"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"out"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/party-relationship-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"inout"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"inout"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"inout"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"inout"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"inout"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"inout"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"inout"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"inout"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/party-relationship-procedure/{crbq-identifier}/control"
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/party-relationship-procedure/{crbq-identifier}/exchange"
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/party-relationship-procedure/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"in"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"inout"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"inout"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"inout"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"out"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/party-relationship-procedure/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"in"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"inout"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"inout"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"inout"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"out"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""
+"Get"	"/party-lifecycle-management/{sd-identifier}/party-relationship-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"out"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"out"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"out"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"out"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"out"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""
+"Get"	"/party-lifecycle-management/{sd-identifier}/authentication/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"out"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"out"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"out"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"out"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"out"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""	10	"out"	"Authentication Type"	"BQ Authentication Instance Record"	String
+""	11	"out"	"Public Directory Reference"	"BQ Authentication Instance Record"	Object
+""	12	"out"	"Specialist Agency Service Reference"	"BQ Authentication Instance Record"	Object
+""	13	"out"	"Authentication Task Record"	"BQ Authentication Instance Record"	String
+""	14	"out"	"Authentication Task Description"	"BQ Authentication Instance Record"	String
+""	15	"out"	"Specialist Agency Service Request Result"	"BQ Authentication Instance Record"	String
+""	16	"out"	"Document Directory Entry Instance Reference"	"BQ Authentication Instance Record"	Object
+""	17	"out"	"Authentication Task Work Products"	"BQ Authentication Instance Record"	String
+""	18	"out"	"Authentication Task Result"	"BQ Authentication Instance Record"	String
+""
+"Get"	"/party-lifecycle-management/{sd-identifier}/qualification/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"out"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"out"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"out"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"out"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"out"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""	10	"out"	"Qualification Type"	"BQ Qualification Instance Record"	String
+""	11	"out"	"Public Directory Reference"	"BQ Qualification Instance Record"	Object
+""	12	"out"	"Specialist Agency Service Reference"	"BQ Qualification Instance Record"	Object
+""	13	"out"	"Qualification Task Record"	"BQ Qualification Instance Record"	String
+""	14	"out"	"Qualification Task Description"	"BQ Qualification Instance Record"	String
+""	15	"out"	"Specialist Agency/Regulator Service Request Result"	"BQ Qualification Instance Record"	String
+""	16	"out"	"Document Directory Entry Instance Reference"	"BQ Qualification Instance Record"	Object
+""	17	"out"	"Qualification Task Work Products"	"BQ Qualification Instance Record"	String
+""	18	"out"	"Qualification Task Result"	"BQ Qualification Instance Record"	String
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/documentation/{crbq-identifier}/update"
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/documentation/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"in"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"inout"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"inout"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"in"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"inout"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""	10	"inout"	"Party Life-cycle Required Documentation"	"BQ Documentation Instance Record"	String
+""	11	"inout"	"Party Life-cycle Document Schedule"	"BQ Documentation Instance Record"	String
+""	12	"inout"	"Document Directory Entry Instance Reference"	"BQ Documentation Instance Record"	Object
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/documentation/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"in"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"inout"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"inout"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"in"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"inout"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""	10	"inout"	"Party Life-cycle Required Documentation"	"BQ Documentation Instance Record"	String
+""	11	"inout"	"Party Life-cycle Document Schedule"	"BQ Documentation Instance Record"	String
+""	12	"inout"	"Document Directory Entry Instance Reference"	"BQ Documentation Instance Record"	Object
+""
+"Get"	"/party-lifecycle-management/{sd-identifier}/documentation/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"out"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"out"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"out"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"out"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"out"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""	10	"out"	"Party Life-cycle Required Documentation"	"BQ Documentation Instance Record"	String
+""	11	"out"	"Party Life-cycle Document Schedule"	"BQ Documentation Instance Record"	String
+""	12	"out"	"Document Directory Entry Instance Reference"	"BQ Documentation Instance Record"	Object
+""
+"Put"	"/party-lifecycle-management/{sd-identifier}/precedents/{crbq-identifier}/update"
+""	1	"inout"	"Precedent Type"	"BQ Precedents Instance Record"	String
+""	2	"inout"	"Customer Precedent Reference"	"BQ Precedents Instance Record"	Object
+""	3	"inout"	"Customer Precedent Value"	"BQ Precedents Instance Record"	String
+""	4	"inout"	"Customer Precedent Value Date"	"BQ Precedents Instance Record"	Date
+""
+"Get"	"/party-lifecycle-management/{sd-identifier}/precedents/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Relationship Procedure Instance Record"	Object
+""	3	"out"	"Party Relationship Type"	"CR Party Relationship Procedure Instance Record"	String
+""	4	"out"	"Party Life-cycle Maintenance Schedule"	"CR Party Relationship Procedure Instance Record"	String
+""	5	"out"	"Party Life-cycle Maintenance Task"	"CR Party Relationship Procedure Instance Record"	String
+""	6	"out"	"Party Life-cycle Maintenance Task Type"	"CR Party Relationship Procedure Instance Record"	String
+""	7	"out"	"Party Life-cycle Maintenance Work Products"	"CR Party Relationship Procedure Instance Record"	String
+""	8	"out"	"Party Life-cycle Maintenance Task Result"	"CR Party Relationship Procedure Instance Record"	String
+""	9	"out"	"Customer Precedent Profile Update Log"	"CR Party Relationship Procedure Instance Record"	String
+""	10	"out"	"Precedent Type"	"BQ Precedents Instance Record"	String
+""	11	"out"	"Customer Precedent Reference"	"BQ Precedents Instance Record"	Object
+""	12	"out"	"Customer Precedent Value"	"BQ Precedents Instance Record"	String
+""	13	"out"	"Customer Precedent Value Date"	"BQ Precedents Instance Record"	Date

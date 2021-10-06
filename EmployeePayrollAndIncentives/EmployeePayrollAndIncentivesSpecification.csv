@@ -1,0 +1,13 @@
+"Service Domain specification for Employee Payroll And Incentives"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Employee Payroll And Incentives
+"Role Definition"	"Administer the payment of salary, commission and incentives (includes stock/option grants) in compliance with the employment contract and discretionary awards"
+"Example of use"	"Monthly payroll processing consolidates commission, bonus and expense repayment details"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	EmployeePayroll
+"Generic Artifact"	Procedure
+"Control Record"	EmployeePayrollProcedure
+"Registration Status"	Registered

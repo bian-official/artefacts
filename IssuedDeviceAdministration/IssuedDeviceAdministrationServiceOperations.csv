@@ -1,0 +1,226 @@
+"Service Operations for: "	Issued Device Administration
+""
+"POST"	"/issued-device-administration/activation"
+"PUT"	"/issued-device-administration/{sd-reference-id}/configuration"
+"PUT"	"/issued-device-administration/{sd-reference-id}/feedback"
+""
+"Post"	"/issued-device-administration/{sd-identifier}/issued-device-allocation/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"in"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"out"	"Issue Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""
+"Put"	"/issued-device-administration/{sd-identifier}/issued-device-allocation/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"inout"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Issue Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""
+"Put"	"/issued-device-administration/{sd-identifier}/issued-device-allocation/{crbq-identifier}/control"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/issued-device-allocation/{crbq-identifier}/exchange"
+""
+"Get"	"/issued-device-administration/{sd-identifier}/issued-device-allocation/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"out"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"out"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"out"	"Issue Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"out"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""
+"Post"	"/issued-device-administration/{sd-identifier}/password-assignment/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"in"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Issue Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	7	"out"	"Format Rules"	"BQ Password Assignment Instance Record"	String
+""	8	"out"	"Recent Values"	"BQ Password Assignment Instance Record"	String
+""	9	"in"	"Password Value"	"BQ Password Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/password-assignment/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"inout"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Password Value"	"BQ Password Assignment Instance Record"	String
+""	7	"inout"	"Usage Log"	"BQ Password Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/password-assignment/{crbq-identifier}/control"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/password-assignment/{crbq-identifier}/exchange"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/password-assignment/{crbq-identifier}/capture"
+""	1	"inout"	"Usage Log"	"BQ Password Assignment Instance Record"	String
+""
+"Get"	"/issued-device-administration/{sd-identifier}/password-assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"out"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"out"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"out"	"Issue Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"out"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	7	"out"	"Format Rules"	"BQ Password Assignment Instance Record"	String
+""	8	"out"	"Recent Values"	"BQ Password Assignment Instance Record"	String
+""	9	"out"	"Password Value"	"BQ Password Assignment Instance Record"	String
+""	10	"out"	"Usage Log"	"BQ Password Assignment Instance Record"	String
+""
+"Post"	"/issued-device-administration/{sd-identifier}/question-assignment/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"in"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Issue Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	7	"out"	"Format Rules"	"BQ Question Assignment Instance Record"	String
+""	8	"out"	"Recent Values"	"BQ Question Assignment Instance Record"	String
+""	9	"out"	"Request Text"	"BQ Question Assignment Instance Record"	String
+""	10	"in"	"Response Text"	"BQ Question Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/question-assignment/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"inout"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Request Text"	"BQ Question Assignment Instance Record"	String
+""	7	"inout"	"Usage Log"	"BQ Question Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/question-assignment/{crbq-identifier}/control"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/question-assignment/{crbq-identifier}/exchange"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/question-assignment/{crbq-identifier}/capture"
+""	1	"inout"	"Usage Log"	"BQ Question Assignment Instance Record"	String
+""
+"Get"	"/issued-device-administration/{sd-identifier}/question-assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"out"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"out"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"out"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"out"	"Format Rules"	"BQ Question Assignment Instance Record"	String
+""	7	"out"	"Recent Values"	"BQ Question Assignment Instance Record"	String
+""	8	"out"	"Request Text"	"BQ Question Assignment Instance Record"	String
+""	9	"out"	"Response Text"	"BQ Question Assignment Instance Record"	String
+""	10	"out"	"Usage Log"	"BQ Question Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/device-assignment/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"inout"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Version Number"	"BQ Device Assignment Instance Record"	String
+""	7	"inout"	"Customer Customization Reference"	"BQ Device Assignment Instance Record"	Object
+""	8	"inout"	"Delivery method"	"BQ Device Assignment Instance Record"	String
+""	9	"inout"	"Issue Location"	"BQ Device Assignment Instance Record"	String
+""	10	"inout"	"Issued Device Configuration"	"BQ Device Assignment Instance Record"	String
+""	11	"inout"	"Usage Log"	"BQ Device Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/device-assignment/{crbq-identifier}/control"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/device-assignment/{crbq-identifier}/capture"
+""	1	"inout"	"Usage Log"	"BQ Device Assignment Instance Record"	String
+""
+"Get"	"/issued-device-administration/{sd-identifier}/device-assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"out"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"out"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"out"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"out"	"Version Number"	"BQ Device Assignment Instance Record"	String
+""	7	"out"	"Customer Customization Reference"	"BQ Device Assignment Instance Record"	Object
+""	8	"out"	"Delivery method"	"BQ Device Assignment Instance Record"	String
+""	9	"out"	"Issue Location"	"BQ Device Assignment Instance Record"	String
+""	10	"out"	"Issued Device Configuration"	"BQ Device Assignment Instance Record"	String
+""	11	"out"	"Usage Log"	"BQ Device Assignment Instance Record"	String
+""
+"Post"	"/issued-device-administration/{sd-identifier}/biometric-assignment/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"in"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Issue Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	7	"inout"	"Biometric Type"	"BQ Biometric Assignment Instance Record"	String
+""	8	"in"	"Biometric Registered Detail"	"BQ Biometric Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/biometric-assignment/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"inout"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Biometric Type"	"BQ Biometric Assignment Instance Record"	String
+""	7	"inout"	"Biometric Registered Detail"	"BQ Biometric Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/biometric-assignment/{crbq-identifier}/control"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/biometric-assignment/{crbq-identifier}/exchange"
+""
+"Get"	"/issued-device-administration/{sd-identifier}/biometric-assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"out"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"out"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"out"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"out"	"Biometric Type"	"BQ Biometric Assignment Instance Record"	String
+""	7	"out"	"Biometric Registered Detail"	"BQ Biometric Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/reader-assignment/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"inout"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Version Number"	"BQ Reader Assignment Instance Record"	String
+""	7	"inout"	"Issue Location"	"BQ Reader Assignment Instance Record"	String
+""	8	"inout"	"Issued Device Configuration"	"BQ Reader Assignment Instance Record"	String
+""	9	"inout"	"Usage Log"	"BQ Reader Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/reader-assignment/{crbq-identifier}/control"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/reader-assignment/{crbq-identifier}/capture"
+""	1	"inout"	"Usage Log"	"BQ Reader Assignment Instance Record"	String
+""
+"Get"	"/issued-device-administration/{sd-identifier}/reader-assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"out"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"out"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"out"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"out"	"Version Number"	"BQ Reader Assignment Instance Record"	String
+""	7	"out"	"Issue Location"	"BQ Reader Assignment Instance Record"	String
+""	8	"out"	"Issued Device Configuration"	"BQ Reader Assignment Instance Record"	String
+""	9	"out"	"Usage Log"	"BQ Reader Assignment Instance Record"	String
+""
+"Post"	"/issued-device-administration/{sd-identifier}/cheques-assignment/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"inout"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"in"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"inout"	"Associated Permissions"	"CR Issued Device Allocation Instance Record"	String
+""	5	"inout"	"Issue Date"	"CR Issued Device Allocation Instance Record"	Date
+""	6	"inout"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	7	"in"	"Issued Device Template/Values"	"BQ Cheques Assignment Instance Record"	String
+""	8	"in"	"Issue Location"	"BQ Cheques Assignment Instance Record"	String
+""	9	"out"	"Sequence Number"	"BQ Cheques Assignment Instance Record"	String
+""
+"Put"	"/issued-device-administration/{sd-identifier}/cheques-assignment/{crbq-identifier}/control"
+""
+"Put"	"/issued-device-administration/{sd-identifier}/cheques-assignment/{crbq-identifier}/exchange"
+""
+"Get"	"/issued-device-administration/{sd-identifier}/cheques-assignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	2	"out"	"Product Instance Reference"	"CR Issued Device Allocation Instance Record"	Object
+""	3	"out"	"Issued Device Type"	"CR Issued Device Allocation Instance Record"	String
+""	4	"out"	"Valid From-To Date"	"CR Issued Device Allocation Instance Record"	Date
+""	5	"out"	"Issued Device Template/Values"	"BQ Cheques Assignment Instance Record"	String
+""	6	"out"	"Issue Location"	"BQ Cheques Assignment Instance Record"	String
+""	7	"out"	"Sequence Number"	"BQ Cheques Assignment Instance Record"	String

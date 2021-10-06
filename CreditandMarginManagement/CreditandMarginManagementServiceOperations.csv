@@ -1,0 +1,5 @@
+"Service Operations for: "	Credit and Margin Management
+"Control Record Model for Credit and Margin Management is not defined"
+"POST"	"/credit-and-margin-management/activation"
+"PUT"	"/credit-and-margin-management/{sd-reference-id}/configuration"
+"PUT"	"/credit-and-margin-management/{sd-reference-id}/feedback"

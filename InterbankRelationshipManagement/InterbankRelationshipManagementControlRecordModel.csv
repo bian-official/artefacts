@@ -1,0 +1,19 @@
+"Control Record Model for: "	Interbank Relationship Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Bank Relationship Management Plan Instance Record	""	""	""
+"CR"	CR Bank Relationship Management Plan Instance Record	Bank Reference	"Reference to the associated bank"	Object
+"CR"	CR Bank Relationship Management Plan Instance Record	Bank Details	"Key features and details of the bank (e.g. business/segment profile)"	String
+"CR"	CR Bank Relationship Management Plan Instance Record	Employee/Business Unit Reference	"The assigned individual or business unit for the relationship"	Object
+"CR"	CR Bank Relationship Management Plan Instance Record	Bank Relationship Type	"The type of relationship with the bank (e.g. trading partner, joint venture partner)"	String
+"CR"	CR Bank Relationship Management Plan Instance Record	Bank Relationship Description	"A description of the relationship, outlining roles and expectations as appropriate"	String
+"CR"	CR Bank Relationship Management Plan Instance Record	Bank Relationship Budget	"The target and actual budget covering expenditures and reciprocal business activity as appropriate"	String
+"CR"	CR Bank Relationship Management Plan Instance Record	Bank Contact Details	"Defines the role and contact details for bank representatives"	String
+"BQ"	BQ Contact Instance Record	""	""	""
+"BQ"	BQ Contact Instance Record	Bank Relationship Contact History	"Records the timing, purpose, details and impact of customer contacts"	String
+"BQ"	BQ Contact Instance Record	Bank Relationship Contact Schedule	"The schedule of past and planned customer contacts"	String
+"BQ"	BQ Contact Instance Record	Bank Relationship Contact Record	"The record of a customer contact"	String
+"BQ"	BQ Contact Instance Record	Bank Relationship Contact Date	"The date time and location of the contact"	Date
+"BQ"	BQ Contact Instance Record	Employee Reference	"Reference to the employee(s) in attendance"	Object
+"BQ"	BQ Contact Instance Record	Bank Relationship Contact Type	"The reason and or purpose for the contact (e.g. review, issue, product sales, advice, customer enquiry)"	String
+"BQ"	BQ Contact Instance Record	Bank Relationship Contact Result	"The result of the contact, including follow up tasks"	String
+"BQ"	BQ Contact Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object

@@ -1,0 +1,125 @@
+"Service Operations for: "	Legal Entity Directory
+""
+"POST"	"/legal-entity-directory/activation"
+"PUT"	"/legal-entity-directory/{sd-reference-id}/configuration"
+"PUT"	"/legal-entity-directory/{sd-reference-id}/feedback"
+""
+"Post"	"/legal-entity-directory/{sd-identifier}/legal-entity-directory-entry/{crbq-identifier}/registration"
+""	1	"in"	"Legal Entity Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	3	"in"	"Date Type"	"CR Legal Entity Directory Entry Instance Record"	String
+""
+"Put"	"/legal-entity-directory/{sd-identifier}/legal-entity-directory-entry/{crbq-identifier}/update"
+""	1	"inout"	"Legal Entity Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	2	"inout"	"Party Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	3	"inout"	"Date Type"	"CR Legal Entity Directory Entry Instance Record"	String
+""
+"Put"	"/legal-entity-directory/{sd-identifier}/legal-entity-directory-entry/{crbq-identifier}/control"
+""
+"Put"	"/legal-entity-directory/{sd-identifier}/legal-entity-directory-entry/{crbq-identifier}/exchange"
+""
+"Put"	"/legal-entity-directory/{sd-identifier}/legal-entity-directory-entry/{crbq-identifier}/requisition"
+""	1	"in"	"Date Type"	"CR Legal Entity Directory Entry Instance Record"	String
+""
+"Get"	"/legal-entity-directory/{sd-identifier}/legal-entity-directory-entry/{crbq-identifier}/retrieval"
+""	1	"out"	"Legal Entity Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	3	"out"	"Date Type"	"CR Legal Entity Directory Entry Instance Record"	String
+""
+"Put"	"/legal-entity-directory/{sd-identifier}/reference/{crbq-identifier}/update"
+""	1	"inout"	"Date"	"CR Legal Entity Directory Entry Instance Record"	String
+""	2	"inout"	"Legal Entity Official Name"	"BQ Reference Instance Record"	String
+""	3	"inout"	"Legal Entity Type"	"BQ Reference Instance Record"	String
+""	4	"inout"	"Sectors of Operation"	"BQ Reference Instance Record"	String
+""	5	"inout"	"Registered Address"	"BQ Reference Instance Record"	String
+""	6	"inout"	"Headquarters Location"	"BQ Reference Instance Record"	String
+""	7	"inout"	"Date of Incorporation"	"BQ Reference Instance Record"	String
+""	8	"inout"	"Jurisdiction of Incorporation"	"BQ Reference Instance Record"	String
+""	9	"inout"	"Registration Authority"	"BQ Reference Instance Record"	String
+""	10	"inout"	"Primary Regulator"	"BQ Reference Instance Record"	String
+""	11	"inout"	"Tax Reference"	"BQ Reference Instance Record"	Object
+""	12	"inout"	"Contact Role"	"BQ Reference Instance Record"	String
+""	13	"inout"	"Contact Address/Details"	"BQ Reference Instance Record"	String
+""
+"Put"	"/legal-entity-directory/{sd-identifier}/legal-entity-directory-entry/{crbq-identifier}/execution"
+""	1	"in"	"Legal Entity Official Name"	"BQ Reference Instance Record"	String
+""	2	"in"	"Legal Entity Type"	"BQ Reference Instance Record"	String
+""	3	"in"	"Sectors of Operation"	"BQ Reference Instance Record"	String
+""	4	"in"	"Registered Address"	"BQ Reference Instance Record"	String
+""	5	"in"	"Headquarters Location"	"BQ Reference Instance Record"	String
+""	6	"in"	"Date of Incorporation"	"BQ Reference Instance Record"	String
+""	7	"in"	"Jurisdiction of Incorporation"	"BQ Reference Instance Record"	String
+""	8	"in"	"Registration Authority"	"BQ Reference Instance Record"	String
+""	9	"in"	"Primary Regulator"	"BQ Reference Instance Record"	String
+""	10	"in"	"Tax Reference"	"BQ Reference Instance Record"	Object
+""	11	"in"	"Contact Role"	"BQ Reference Instance Record"	String
+""	12	"in"	"Contact Address/Details"	"BQ Reference Instance Record"	String
+""	13	"in"	"Organization Capitalization"	"BQ Profile Instance Record"	String
+""	14	"in"	"Organization Debt Level"	"BQ Profile Instance Record"	String
+""	15	"in"	"Organization Economic Intent"	"BQ Profile Instance Record"	String
+""	16	"in"	"Organization Growth Rate"	"BQ Profile Instance Record"	Rate
+""	17	"in"	"Organization Profitability/Stocks"	"BQ Profile Instance Record"	String
+""	18	"in"	"Organization Revenue/Turnover"	"BQ Profile Instance Record"	String
+""	19	"in"	"Legal Entity Association Reference"	"BQ Associations Instance Record"	Object
+""	20	"in"	"Legal Entity Association Type"	"BQ Associations Instance Record"	String
+""	21	"in"	"Legal Entity Association Obligation"	"BQ Associations Instance Record"	String
+""	22	"in"	"Parent Legal Entity Reference"	"BQ Associations Instance Record"	Object
+""	23	"in"	"Subsidiary Legal Entity Reference"	"BQ Associations Instance Record"	Object
+""	24	"in"	"Shareholding Profile"	"BQ Associations Instance Record"	String
+""
+"Get"	"/legal-entity-directory/{sd-identifier}/reference/{crbq-identifier}/retrieval"
+""	1	"out"	"Legal Entity Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	3	"out"	"Date Type"	"CR Legal Entity Directory Entry Instance Record"	String
+""	4	"out"	"Legal Entity Official Name"	"BQ Reference Instance Record"	String
+""	5	"out"	"Legal Entity Type"	"BQ Reference Instance Record"	String
+""	6	"out"	"Sectors of Operation"	"BQ Reference Instance Record"	String
+""	7	"out"	"Registered Address"	"BQ Reference Instance Record"	String
+""	8	"out"	"Headquarters Location"	"BQ Reference Instance Record"	String
+""	9	"out"	"Date of Incorporation"	"BQ Reference Instance Record"	String
+""	10	"out"	"Jurisdiction of Incorporation"	"BQ Reference Instance Record"	String
+""	11	"out"	"Registration Authority"	"BQ Reference Instance Record"	String
+""	12	"out"	"Primary Regulator"	"BQ Reference Instance Record"	String
+""	13	"out"	"Tax Reference"	"BQ Reference Instance Record"	Object
+""	14	"out"	"Contact Role"	"BQ Reference Instance Record"	String
+""	15	"out"	"Contact Address/Details"	"BQ Reference Instance Record"	String
+""
+"Put"	"/legal-entity-directory/{sd-identifier}/profile/{crbq-identifier}/update"
+""	1	"inout"	"Date"	"CR Legal Entity Directory Entry Instance Record"	String
+""	2	"inout"	"Organization Capitalization"	"BQ Profile Instance Record"	String
+""	3	"inout"	"Organization Debt Level"	"BQ Profile Instance Record"	String
+""	4	"inout"	"Organization Economic Intent"	"BQ Profile Instance Record"	String
+""	5	"inout"	"Organization Growth Rate"	"BQ Profile Instance Record"	Rate
+""	6	"inout"	"Organization Profitability/Stocks"	"BQ Profile Instance Record"	String
+""	7	"inout"	"Organization Revenue/Turnover"	"BQ Profile Instance Record"	String
+""
+"Get"	"/legal-entity-directory/{sd-identifier}/profile/{crbq-identifier}/retrieval"
+""	1	"out"	"Legal Entity Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	3	"out"	"Date Type"	"CR Legal Entity Directory Entry Instance Record"	String
+""	4	"out"	"Organization Capitalization"	"BQ Profile Instance Record"	String
+""	5	"out"	"Organization Debt Level"	"BQ Profile Instance Record"	String
+""	6	"out"	"Organization Economic Intent"	"BQ Profile Instance Record"	String
+""	7	"out"	"Organization Growth Rate"	"BQ Profile Instance Record"	Rate
+""	8	"out"	"Organization Profitability/Stocks"	"BQ Profile Instance Record"	String
+""	9	"out"	"Organization Revenue/Turnover"	"BQ Profile Instance Record"	String
+""
+"Put"	"/legal-entity-directory/{sd-identifier}/associations/{crbq-identifier}/update"
+""	1	"inout"	"Date"	"CR Legal Entity Directory Entry Instance Record"	String
+""	2	"inout"	"Legal Entity Association Reference"	"BQ Associations Instance Record"	Object
+""	3	"inout"	"Legal Entity Association Type"	"BQ Associations Instance Record"	String
+""	4	"inout"	"Legal Entity Association Obligation"	"BQ Associations Instance Record"	String
+""	5	"inout"	"Parent Legal Entity Reference"	"BQ Associations Instance Record"	Object
+""	6	"inout"	"Subsidiary Legal Entity Reference"	"BQ Associations Instance Record"	Object
+""	7	"inout"	"Shareholding Profile"	"BQ Associations Instance Record"	String
+""
+"Get"	"/legal-entity-directory/{sd-identifier}/associations/{crbq-identifier}/retrieval"
+""	1	"out"	"Legal Entity Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Legal Entity Directory Entry Instance Record"	Object
+""	3	"out"	"Date Type"	"CR Legal Entity Directory Entry Instance Record"	String
+""	4	"out"	"Legal Entity Association Reference"	"BQ Associations Instance Record"	Object
+""	5	"out"	"Legal Entity Association Type"	"BQ Associations Instance Record"	String
+""	6	"out"	"Legal Entity Association Obligation"	"BQ Associations Instance Record"	String
+""	7	"out"	"Parent Legal Entity Reference"	"BQ Associations Instance Record"	Object
+""	8	"out"	"Subsidiary Legal Entity Reference"	"BQ Associations Instance Record"	Object
+""	9	"out"	"Shareholding Profile"	"BQ Associations Instance Record"	String

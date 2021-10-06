@@ -1,0 +1,13 @@
+"Service Domain specification for ECM And DCM"
+"Business Area"	Products
+"Business Domain"	Corporate Finance
+"Service Domain"	ECM And DCM
+"Role Definition"	"The service domain provides fulfillment services for the issuance of primary market equity and debt capital market instruments for corporate customers. It supports both private and public (IPO) placements and covers the specification, pricing and placement activities associated with issuance. (it does not include secondary market trading of the instrument)"
+"Example of use"	"A corporate customer raises capital through issuing corporate debt in the private capital markets"
+"Executive Summary"	"Supports the specification, pricing and issuance of equity and debt (bond) primary capital market products for corporate financing services"
+"Key Features"	"Determining and specifying the equity/debt instrument. Prospectus and pricing. Road show and placement"
+"Functional Pattern"	Fulfill
+"Asset Type"	ECM And DCM
+"Generic Artifact"	Facility (rename)
+"Control Record"	ECM And DCM Arrangement
+"Registration Status"	Registered

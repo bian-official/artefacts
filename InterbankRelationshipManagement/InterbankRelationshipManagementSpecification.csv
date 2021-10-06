@@ -1,0 +1,13 @@
+"Service Domain specification for Interbank Relationship Management"
+"Business Area"	Operations
+"Business Domain"	External Agency
+"Service Domain"	Interbank Relationship Management
+"Role Definition"	"This function handles managed interbank relationships. The are a range of relationship considerations that may apply between banks covering trading arrangements, joint ventures, clearing and settlement arrangements etc. The Interbank Relationship Management function acts as a relationship planning and coordination point to facilitate interbank interactions"
+"Example of use"	"A partner bank is contacted to review a major project opportunity. . The interbank relationship management function is used to coordinate contacts for a joint venture marketing opportunity between the banks. "
+"Executive Summary"	"Manage the bank's relationship with other banks, covering any specific agreements that may be in place and overseeing operational issues."
+"Key Features"	"Develop the bank relationship plan/targets. Liaise/advise bank representatives and develop the relationship. Identify and develop mutually beneficial initiatives with the bank. Troubleshoot production issues that arise involving the bank"
+"Functional Pattern"	Manage
+"Asset Type"	BankRelationship
+"Generic Artifact"	ManagementPlan
+"Control Record"	BankRelationshipManagementPlan
+"Registration Status"	Registered

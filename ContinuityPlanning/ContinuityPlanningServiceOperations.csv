@@ -1,0 +1,5 @@
+"Service Operations for: "	Continuity Planning
+"Control Record Model for Continuity Planning is not defined"
+"POST"	"/continuity-planning/activation"
+"PUT"	"/continuity-planning/{sd-reference-id}/configuration"
+"PUT"	"/continuity-planning/{sd-reference-id}/feedback"

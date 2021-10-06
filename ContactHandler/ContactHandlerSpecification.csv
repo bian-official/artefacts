@@ -1,0 +1,13 @@
+"Service Domain specification for Contact Handler"
+"Business Area"	Channels
+"Business Domain"	Cross Channel
+"Service Domain"	Contact Handler
+"Role Definition"	"BIAN defines a customer contact as the overarching structure handling a customer interaction from start to end. A contact can include one or more servicing dialogue 'sessions' in parallel or sequence to support different device/channel uses within the contact and to allow for the customer to be passed on to different servicing specialists as necessary during the contact. Each session is handled at a servicing position where the Contact Dialogue service domain is called to handle the specific customer interaction. Contact Handler concludes the contact, handles the authorization permissions and shares any contact information collected during the contact between sessions as necessary"
+"Example of use"	"A customer is self serving on the web and then requests to talk to a servicing representative directory using the VoIP capability presented on the banks web portal."
+"Executive Summary"	"This service domain handles a customer's interactive contact with the bank. This will typically involve launching of one or more channel/device specific dialogue sessions as necessary within the customer contact"
+"Key Features"	"Handle customer contacts with the bank. Obtain customer identity authentication. Consolidate reference information and recent contact activity details . Obtain routing decision (select optimal servicing resource). Initiate servicing sessions. Log contact activity"
+"Functional Pattern"	Operate
+"Asset Type"	CustomerContact
+"Generic Artifact"	OperatingSession
+"Control Record"	CustomerContactOperatingSession
+"Registration Status"	Registered

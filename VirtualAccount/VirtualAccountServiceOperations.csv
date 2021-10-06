@@ -1,0 +1,445 @@
+"Service Operations for: "	Virtual Account
+""
+"POST"	"/virtual-account/activation"
+"PUT"	"/virtual-account/{sd-reference-id}/configuration"
+"PUT"	"/virtual-account/{sd-reference-id}/feedback"
+""
+"Put"	"/virtual-account/{sd-identifier}/direct-debit/{crbq-identifier}/capture"
+""	1	"inout"	"Direct Debit Preconditions"	"BQ Direct Debit Instance Record"	String
+""	2	"inout"	"Direct Debit Feature Schedule"	"BQ Direct Debit Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Direct Debit Instance Record"	Business Service
+""	4	"inout"	"Direct Debit Postconditions"	"BQ Direct Debit Instance Record"	String
+""	5	"inout"	"Direct Debit Service Type"	"BQ Direct Debit Instance Record"	String
+""	6	"inout"	"Direct Debit Service Description"	"BQ Direct Debit Instance Record"	String
+""	7	"inout"	"Direct Debit Service Inputs and Ouputs"	"BQ Direct Debit Instance Record"	String
+""	8	"inout"	"Direct Debit Service Work Product"	"BQ Direct Debit Instance Record"	String
+""	9	"inout"	"Direct Debit Service Name"	"BQ Direct Debit Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/standing-order/{crbq-identifier}/capture"
+""	1	"inout"	"Standing Order Preconditions"	"BQ Standing Order Instance Record"	String
+""	2	"inout"	"Standing Order Feature Schedule"	"BQ Standing Order Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Standing Order Instance Record"	Business Service
+""	4	"inout"	"Standing Order Postconditions"	"BQ Standing Order Instance Record"	String
+""	5	"inout"	"Standing Order Service Type"	"BQ Standing Order Instance Record"	String
+""	6	"inout"	"Standing Order Service Description"	"BQ Standing Order Instance Record"	String
+""	7	"inout"	"Standing Order Service Inputs and Ouputs"	"BQ Standing Order Instance Record"	String
+""	8	"inout"	"Standing Order Service Work Product"	"BQ Standing Order Instance Record"	String
+""	9	"inout"	"Standing Order Service Name"	"BQ Standing Order Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/capture"
+""	1	"inout"	"Standing Order Preconditions"	"BQ Standing Order Instance Record"	String
+""	2	"inout"	"Standing Order Feature Schedule"	"BQ Standing Order Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Standing Order Instance Record"	Business Service
+""	4	"inout"	"Standing Order Postconditions"	"BQ Standing Order Instance Record"	String
+""	5	"inout"	"Standing Order Service Type"	"BQ Standing Order Instance Record"	String
+""	6	"inout"	"Standing Order Service Description"	"BQ Standing Order Instance Record"	String
+""	7	"inout"	"Standing Order Service Inputs and Ouputs"	"BQ Standing Order Instance Record"	String
+""	8	"inout"	"Standing Order Service Work Product"	"BQ Standing Order Instance Record"	String
+""	9	"inout"	"Standing Order Service Name"	"BQ Standing Order Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/direct-debit/{crbq-identifier}/control"
+""	1	"inout"	"Direct Debit Preconditions"	"BQ Direct Debit Instance Record"	String
+""	2	"inout"	"Direct Debit Feature Schedule"	"BQ Direct Debit Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Direct Debit Instance Record"	Business Service
+""	4	"inout"	"Direct Debit Postconditions"	"BQ Direct Debit Instance Record"	String
+""	5	"inout"	"Direct Debit Service Type"	"BQ Direct Debit Instance Record"	String
+""	6	"inout"	"Direct Debit Service Description"	"BQ Direct Debit Instance Record"	String
+""	7	"inout"	"Direct Debit Service Inputs and Ouputs"	"BQ Direct Debit Instance Record"	String
+""	8	"inout"	"Direct Debit Service Work Product"	"BQ Direct Debit Instance Record"	String
+""	9	"inout"	"Direct Debit Service Name"	"BQ Direct Debit Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Direct Debit Preconditions"	"BQ Direct Debit Instance Record"	String
+""	2	"inout"	"Direct Debit Feature Schedule"	"BQ Direct Debit Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Direct Debit Instance Record"	Business Service
+""	4	"inout"	"Direct Debit Postconditions"	"BQ Direct Debit Instance Record"	String
+""	5	"inout"	"Direct Debit Service Type"	"BQ Direct Debit Instance Record"	String
+""	6	"inout"	"Direct Debit Service Description"	"BQ Direct Debit Instance Record"	String
+""	7	"inout"	"Direct Debit Service Inputs and Ouputs"	"BQ Direct Debit Instance Record"	String
+""	8	"inout"	"Direct Debit Service Work Product"	"BQ Direct Debit Instance Record"	String
+""	9	"inout"	"Direct Debit Service Name"	"BQ Direct Debit Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/fee/{crbq-identifier}/exchange"
+""	1	"inout"	"Fee Preconditions"	"BQ Fee Instance Record"	String
+""	2	"inout"	"Fee Feature Schedule"	"BQ Fee Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fee Instance Record"	Business Service
+""	4	"inout"	"Fee Postconditions"	"BQ Fee Instance Record"	String
+""	5	"inout"	"Fee Service Type"	"BQ Fee Instance Record"	String
+""	6	"inout"	"Fee Service Description"	"BQ Fee Instance Record"	String
+""	7	"inout"	"Fee Service Inputs and Ouputs"	"BQ Fee Instance Record"	String
+""	8	"inout"	"Fee Service Work Product"	"BQ Fee Instance Record"	String
+""	9	"inout"	"Fee Service Name"	"BQ Fee Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/interest/{crbq-identifier}/exchange"
+""	1	"inout"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"inout"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"inout"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"inout"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"inout"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"inout"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"inout"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"inout"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/statement/{crbq-identifier}/exchange"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/exchange"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/fee/{crbq-identifier}/execution"
+""	1	"inout"	"Fee Preconditions"	"BQ Fee Instance Record"	String
+""	2	"inout"	"Fee Feature Schedule"	"BQ Fee Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fee Instance Record"	Business Service
+""	4	"inout"	"Fee Postconditions"	"BQ Fee Instance Record"	String
+""	5	"inout"	"Fee Service Type"	"BQ Fee Instance Record"	String
+""	6	"inout"	"Fee Service Description"	"BQ Fee Instance Record"	String
+""	7	"inout"	"Fee Service Inputs and Ouputs"	"BQ Fee Instance Record"	String
+""	8	"inout"	"Fee Service Work Product"	"BQ Fee Instance Record"	String
+""	9	"inout"	"Fee Service Name"	"BQ Fee Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/interest/{crbq-identifier}/execution"
+""	1	"inout"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"inout"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"inout"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"inout"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"inout"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"inout"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"inout"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"inout"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"inout"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"inout"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"inout"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"inout"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"inout"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"inout"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"inout"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/direct-debit/{crbq-identifier}/grant"
+""	1	"inout"	"Direct Debit Preconditions"	"BQ Direct Debit Instance Record"	String
+""	2	"inout"	"Direct Debit Feature Schedule"	"BQ Direct Debit Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Direct Debit Instance Record"	Business Service
+""	4	"inout"	"Direct Debit Postconditions"	"BQ Direct Debit Instance Record"	String
+""	5	"inout"	"Direct Debit Service Type"	"BQ Direct Debit Instance Record"	String
+""	6	"inout"	"Direct Debit Service Description"	"BQ Direct Debit Instance Record"	String
+""	7	"inout"	"Direct Debit Service Inputs and Ouputs"	"BQ Direct Debit Instance Record"	String
+""	8	"inout"	"Direct Debit Service Work Product"	"BQ Direct Debit Instance Record"	String
+""	9	"inout"	"Direct Debit Service Name"	"BQ Direct Debit Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/standing-order/{crbq-identifier}/grant"
+""	1	"inout"	"Standing Order Preconditions"	"BQ Standing Order Instance Record"	String
+""	2	"inout"	"Standing Order Feature Schedule"	"BQ Standing Order Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Standing Order Instance Record"	Business Service
+""	4	"inout"	"Standing Order Postconditions"	"BQ Standing Order Instance Record"	String
+""	5	"inout"	"Standing Order Service Type"	"BQ Standing Order Instance Record"	String
+""	6	"inout"	"Standing Order Service Description"	"BQ Standing Order Instance Record"	String
+""	7	"inout"	"Standing Order Service Inputs and Ouputs"	"BQ Standing Order Instance Record"	String
+""	8	"inout"	"Standing Order Service Work Product"	"BQ Standing Order Instance Record"	String
+""	9	"inout"	"Standing Order Service Name"	"BQ Standing Order Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/statement/{crbq-identifier}/grant"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/grant"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Post"	"/virtual-account/{sd-identifier}/direct-debit/{crbq-identifier}/initiation"
+""	1	"inout"	"Direct Debit Preconditions"	"BQ Direct Debit Instance Record"	String
+""	2	"inout"	"Direct Debit Feature Schedule"	"BQ Direct Debit Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Direct Debit Instance Record"	Business Service
+""	4	"inout"	"Direct Debit Postconditions"	"BQ Direct Debit Instance Record"	String
+""	5	"inout"	"Direct Debit Service Type"	"BQ Direct Debit Instance Record"	String
+""	6	"inout"	"Direct Debit Service Description"	"BQ Direct Debit Instance Record"	String
+""	7	"inout"	"Direct Debit Service Inputs and Ouputs"	"BQ Direct Debit Instance Record"	String
+""	8	"inout"	"Direct Debit Service Work Product"	"BQ Direct Debit Instance Record"	String
+""	9	"inout"	"Direct Debit Service Name"	"BQ Direct Debit Instance Record"	String
+""
+"Post"	"/virtual-account/{sd-identifier}/fee/{crbq-identifier}/initiation"
+""	1	"inout"	"Fee Preconditions"	"BQ Fee Instance Record"	String
+""	2	"inout"	"Fee Feature Schedule"	"BQ Fee Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fee Instance Record"	Business Service
+""	4	"inout"	"Fee Postconditions"	"BQ Fee Instance Record"	String
+""	5	"inout"	"Fee Service Type"	"BQ Fee Instance Record"	String
+""	6	"inout"	"Fee Service Description"	"BQ Fee Instance Record"	String
+""	7	"inout"	"Fee Service Inputs and Ouputs"	"BQ Fee Instance Record"	String
+""	8	"inout"	"Fee Service Work Product"	"BQ Fee Instance Record"	String
+""	9	"inout"	"Fee Service Name"	"BQ Fee Instance Record"	String
+""
+"Post"	"/virtual-account/{sd-identifier}/interest/{crbq-identifier}/initiation"
+""	1	"inout"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"inout"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"inout"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"inout"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"inout"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"inout"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"inout"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"inout"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Post"	"/virtual-account/{sd-identifier}/standing-order/{crbq-identifier}/initiation"
+""	1	"inout"	"Standing Order Preconditions"	"BQ Standing Order Instance Record"	String
+""	2	"inout"	"Standing Order Feature Schedule"	"BQ Standing Order Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Standing Order Instance Record"	Business Service
+""	4	"inout"	"Standing Order Postconditions"	"BQ Standing Order Instance Record"	String
+""	5	"inout"	"Standing Order Service Type"	"BQ Standing Order Instance Record"	String
+""	6	"inout"	"Standing Order Service Description"	"BQ Standing Order Instance Record"	String
+""	7	"inout"	"Standing Order Service Inputs and Ouputs"	"BQ Standing Order Instance Record"	String
+""	8	"inout"	"Standing Order Service Work Product"	"BQ Standing Order Instance Record"	String
+""	9	"inout"	"Standing Order Service Name"	"BQ Standing Order Instance Record"	String
+""
+"Post"	"/virtual-account/{sd-identifier}/statement/{crbq-identifier}/initiation"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Post"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Get"	"/virtual-account/{sd-identifier}/direct-debit/{crbq-identifier}/retrieval"
+""	1	"out"	"Direct Debit Preconditions"	"BQ Direct Debit Instance Record"	String
+""	2	"out"	"Direct Debit Feature Schedule"	"BQ Direct Debit Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Direct Debit Instance Record"	Business Service
+""	4	"out"	"Direct Debit Postconditions"	"BQ Direct Debit Instance Record"	String
+""	5	"out"	"Direct Debit Service Type"	"BQ Direct Debit Instance Record"	String
+""	6	"out"	"Direct Debit Service Description"	"BQ Direct Debit Instance Record"	String
+""	7	"out"	"Direct Debit Service Inputs and Ouputs"	"BQ Direct Debit Instance Record"	String
+""	8	"out"	"Direct Debit Service Work Product"	"BQ Direct Debit Instance Record"	String
+""	9	"out"	"Direct Debit Service Name"	"BQ Direct Debit Instance Record"	String
+""
+"Get"	"/virtual-account/{sd-identifier}/fee/{crbq-identifier}/retrieval"
+""	1	"out"	"Fee Preconditions"	"BQ Fee Instance Record"	String
+""	2	"out"	"Fee Feature Schedule"	"BQ Fee Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Fee Instance Record"	Business Service
+""	4	"out"	"Fee Postconditions"	"BQ Fee Instance Record"	String
+""	5	"out"	"Fee Service Type"	"BQ Fee Instance Record"	String
+""	6	"out"	"Fee Service Description"	"BQ Fee Instance Record"	String
+""	7	"out"	"Fee Service Inputs and Ouputs"	"BQ Fee Instance Record"	String
+""	8	"out"	"Fee Service Work Product"	"BQ Fee Instance Record"	String
+""	9	"out"	"Fee Service Name"	"BQ Fee Instance Record"	String
+""
+"Get"	"/virtual-account/{sd-identifier}/interest/{crbq-identifier}/retrieval"
+""	1	"out"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"out"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"out"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"out"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"out"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"out"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"out"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"out"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Get"	"/virtual-account/{sd-identifier}/standing-order/{crbq-identifier}/retrieval"
+""	1	"out"	"Standing Order Preconditions"	"BQ Standing Order Instance Record"	String
+""	2	"out"	"Standing Order Feature Schedule"	"BQ Standing Order Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Standing Order Instance Record"	Business Service
+""	4	"out"	"Standing Order Postconditions"	"BQ Standing Order Instance Record"	String
+""	5	"out"	"Standing Order Service Type"	"BQ Standing Order Instance Record"	String
+""	6	"out"	"Standing Order Service Description"	"BQ Standing Order Instance Record"	String
+""	7	"out"	"Standing Order Service Inputs and Ouputs"	"BQ Standing Order Instance Record"	String
+""	8	"out"	"Standing Order Service Work Product"	"BQ Standing Order Instance Record"	String
+""	9	"out"	"Standing Order Service Name"	"BQ Standing Order Instance Record"	String
+""
+"Get"	"/virtual-account/{sd-identifier}/statement/{crbq-identifier}/retrieval"
+""	1	"out"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"out"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"out"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"out"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"out"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"out"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"out"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"out"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Get"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"out"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"out"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"out"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"out"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"out"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"out"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"out"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/direct-debit/{crbq-identifier}/requisition"
+""	1	"inout"	"Direct Debit Preconditions"	"BQ Direct Debit Instance Record"	String
+""	2	"inout"	"Direct Debit Feature Schedule"	"BQ Direct Debit Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Direct Debit Instance Record"	Business Service
+""	4	"inout"	"Direct Debit Postconditions"	"BQ Direct Debit Instance Record"	String
+""	5	"inout"	"Direct Debit Service Type"	"BQ Direct Debit Instance Record"	String
+""	6	"inout"	"Direct Debit Service Description"	"BQ Direct Debit Instance Record"	String
+""	7	"inout"	"Direct Debit Service Inputs and Ouputs"	"BQ Direct Debit Instance Record"	String
+""	8	"inout"	"Direct Debit Service Work Product"	"BQ Direct Debit Instance Record"	String
+""	9	"inout"	"Direct Debit Service Name"	"BQ Direct Debit Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/fee/{crbq-identifier}/requisition"
+""	1	"inout"	"Fee Preconditions"	"BQ Fee Instance Record"	String
+""	2	"inout"	"Fee Feature Schedule"	"BQ Fee Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fee Instance Record"	Business Service
+""	4	"inout"	"Fee Postconditions"	"BQ Fee Instance Record"	String
+""	5	"inout"	"Fee Service Type"	"BQ Fee Instance Record"	String
+""	6	"inout"	"Fee Service Description"	"BQ Fee Instance Record"	String
+""	7	"inout"	"Fee Service Inputs and Ouputs"	"BQ Fee Instance Record"	String
+""	8	"inout"	"Fee Service Work Product"	"BQ Fee Instance Record"	String
+""	9	"inout"	"Fee Service Name"	"BQ Fee Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/interest/{crbq-identifier}/requisition"
+""	1	"inout"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"inout"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"inout"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"inout"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"inout"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"inout"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"inout"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"inout"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/standing-order/{crbq-identifier}/requisition"
+""	1	"inout"	"Standing Order Preconditions"	"BQ Standing Order Instance Record"	String
+""	2	"inout"	"Standing Order Feature Schedule"	"BQ Standing Order Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Standing Order Instance Record"	Business Service
+""	4	"inout"	"Standing Order Postconditions"	"BQ Standing Order Instance Record"	String
+""	5	"inout"	"Standing Order Service Type"	"BQ Standing Order Instance Record"	String
+""	6	"inout"	"Standing Order Service Description"	"BQ Standing Order Instance Record"	String
+""	7	"inout"	"Standing Order Service Inputs and Ouputs"	"BQ Standing Order Instance Record"	String
+""	8	"inout"	"Standing Order Service Work Product"	"BQ Standing Order Instance Record"	String
+""	9	"inout"	"Standing Order Service Name"	"BQ Standing Order Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/statement/{crbq-identifier}/requisition"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/direct-debit/{crbq-identifier}/update"
+""	1	"inout"	"Direct Debit Preconditions"	"BQ Direct Debit Instance Record"	String
+""	2	"inout"	"Direct Debit Feature Schedule"	"BQ Direct Debit Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Direct Debit Instance Record"	Business Service
+""	4	"inout"	"Direct Debit Postconditions"	"BQ Direct Debit Instance Record"	String
+""	5	"inout"	"Direct Debit Service Type"	"BQ Direct Debit Instance Record"	String
+""	6	"inout"	"Direct Debit Service Description"	"BQ Direct Debit Instance Record"	String
+""	7	"inout"	"Direct Debit Service Inputs and Ouputs"	"BQ Direct Debit Instance Record"	String
+""	8	"inout"	"Direct Debit Service Work Product"	"BQ Direct Debit Instance Record"	String
+""	9	"inout"	"Direct Debit Service Name"	"BQ Direct Debit Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/fee/{crbq-identifier}/update"
+""	1	"inout"	"Fee Preconditions"	"BQ Fee Instance Record"	String
+""	2	"inout"	"Fee Feature Schedule"	"BQ Fee Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Fee Instance Record"	Business Service
+""	4	"inout"	"Fee Postconditions"	"BQ Fee Instance Record"	String
+""	5	"inout"	"Fee Service Type"	"BQ Fee Instance Record"	String
+""	6	"inout"	"Fee Service Description"	"BQ Fee Instance Record"	String
+""	7	"inout"	"Fee Service Inputs and Ouputs"	"BQ Fee Instance Record"	String
+""	8	"inout"	"Fee Service Work Product"	"BQ Fee Instance Record"	String
+""	9	"inout"	"Fee Service Name"	"BQ Fee Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/interest/{crbq-identifier}/update"
+""	1	"inout"	"Interest Preconditions"	"BQ Interest Instance Record"	String
+""	2	"inout"	"Interest Feature Schedule"	"BQ Interest Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Interest Instance Record"	Business Service
+""	4	"inout"	"Interest Postconditions"	"BQ Interest Instance Record"	String
+""	5	"inout"	"Interest Service Type"	"BQ Interest Instance Record"	String
+""	6	"inout"	"Interest Service Description"	"BQ Interest Instance Record"	String
+""	7	"inout"	"Interest Service Inputs and Ouputs"	"BQ Interest Instance Record"	String
+""	8	"inout"	"Interest Service Work Product"	"BQ Interest Instance Record"	String
+""	9	"inout"	"Interest Service Name"	"BQ Interest Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/standing-order/{crbq-identifier}/update"
+""	1	"inout"	"Standing Order Preconditions"	"BQ Standing Order Instance Record"	String
+""	2	"inout"	"Standing Order Feature Schedule"	"BQ Standing Order Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Standing Order Instance Record"	Business Service
+""	4	"inout"	"Standing Order Postconditions"	"BQ Standing Order Instance Record"	String
+""	5	"inout"	"Standing Order Service Type"	"BQ Standing Order Instance Record"	String
+""	6	"inout"	"Standing Order Service Description"	"BQ Standing Order Instance Record"	String
+""	7	"inout"	"Standing Order Service Inputs and Ouputs"	"BQ Standing Order Instance Record"	String
+""	8	"inout"	"Standing Order Service Work Product"	"BQ Standing Order Instance Record"	String
+""	9	"inout"	"Standing Order Service Name"	"BQ Standing Order Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/statement/{crbq-identifier}/update"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String
+""
+"Put"	"/virtual-account/{sd-identifier}/virtual-account-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Statement Preconditions"	"BQ Statement Instance Record"	String
+""	2	"inout"	"Statement Feature Schedule"	"BQ Statement Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Statement Instance Record"	Business Service
+""	4	"inout"	"Statement Postconditions"	"BQ Statement Instance Record"	String
+""	5	"inout"	"Statement Service Type"	"BQ Statement Instance Record"	String
+""	6	"inout"	"Statement Service Description"	"BQ Statement Instance Record"	String
+""	7	"inout"	"Statement Service Inputs and Ouputs"	"BQ Statement Instance Record"	String
+""	8	"inout"	"Statement Service Work Product"	"BQ Statement Instance Record"	String
+""	9	"inout"	"Statement Service Name"	"BQ Statement Instance Record"	String

@@ -1,0 +1,264 @@
+"Service Operations for: "	Product Combination
+""
+"POST"	"/product-combination/activation"
+"PUT"	"/product-combination/{sd-reference-id}/configuration"
+"PUT"	"/product-combination/{sd-reference-id}/feedback"
+""
+"Put"	"/product-combination/{sd-identifier}/fulfillment/{crbq-identifier}/control"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/product-combination-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Product Combination Arrangement Parameter Type"	"CR Product Combination Arrangement Instance Record"	String
+""	2	"inout"	"Product Combination Arrangement Selected Option"	"CR Product Combination Arrangement Instance Record"	String
+""	3	"in"	"Product Combination Arrangement Type"	"CR Product Combination Arrangement Instance Record"	String
+""	4	"in"	"Product Combination Arrangement Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	5	"inout"	"Product Combination Arrangement Schedule"	"CR Product Combination Arrangement Instance Record"	String
+""	6	"inout"	"Product Combination Arrangement Status"	"CR Product Combination Arrangement Instance Record"	String
+""	7	"in"	"Product Combination Arrangement Currency"	"CR Product Combination Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Product Combination Arrangement Regulation Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	9	"in"	"Product Combination Arrangement Regulation Type"	"CR Product Combination Arrangement Instance Record"	String
+""	10	"in"	"Product Combination Arrangement Jurisdiction"	"CR Product Combination Arrangement Instance Record"	String
+""	11	"in"	"Product Combination Arrangement Booking Location"	"CR Product Combination Arrangement Instance Record"	String
+""	12	"in"	"Product Combination Arrangement Account Type"	"CR Product Combination Arrangement Instance Record"	String
+""	13	"in"	"Product Combination Arrangement Account Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""
+"Put"	"/product-combination/{sd-identifier}/fulfillment/{crbq-identifier}/exchange"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/transfer-pricing/{crbq-identifier}/exchange"
+""	1	"inout"	"Transfer Pricing Preconditions"	"BQ Transfer Pricing Instance Record"	String
+""	2	"inout"	"Transfer Pricing Feature Schedule"	"BQ Transfer Pricing Instance Record"	String
+""	3	"inout"	"Product Transfer Pricing"	"BQ Transfer Pricing Instance Record"	Business Service
+""	4	"inout"	"Transfer Pricing Postconditions"	"BQ Transfer Pricing Instance Record"	String
+""	5	"inout"	"Transfer Pricing Product Transfer Pricing Service Type"	"BQ Transfer Pricing Instance Record"	String
+""	6	"inout"	"Transfer Pricing Product Transfer Pricing Service Description"	"BQ Transfer Pricing Instance Record"	String
+""	7	"inout"	"Transfer Pricing Product Transfer Pricing Service Inputs and Ouputs"	"BQ Transfer Pricing Instance Record"	String
+""	8	"inout"	"Transfer Pricing Product Transfer Pricing Service Work Product"	"BQ Transfer Pricing Instance Record"	String
+""	9	"inout"	"Transfer Pricing Product Transfer Pricing Service Name"	"BQ Transfer Pricing Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/product-combination-arrangement/{crbq-identifier}/exchange"
+""	1	"inout"	"Product Combination Arrangement Parameter Type"	"CR Product Combination Arrangement Instance Record"	String
+""	2	"inout"	"Product Combination Arrangement Selected Option"	"CR Product Combination Arrangement Instance Record"	String
+""	3	"in"	"Product Combination Arrangement Type"	"CR Product Combination Arrangement Instance Record"	String
+""	4	"in"	"Product Combination Arrangement Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	5	"inout"	"Product Combination Arrangement Schedule"	"CR Product Combination Arrangement Instance Record"	String
+""	6	"inout"	"Product Combination Arrangement Status"	"CR Product Combination Arrangement Instance Record"	String
+""	7	"in"	"Product Combination Arrangement Currency"	"CR Product Combination Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Product Combination Arrangement Regulation Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	9	"in"	"Product Combination Arrangement Regulation Type"	"CR Product Combination Arrangement Instance Record"	String
+""	10	"in"	"Product Combination Arrangement Jurisdiction"	"CR Product Combination Arrangement Instance Record"	String
+""	11	"in"	"Product Combination Arrangement Booking Location"	"CR Product Combination Arrangement Instance Record"	String
+""	12	"in"	"Product Combination Arrangement Account Type"	"CR Product Combination Arrangement Instance Record"	String
+""	13	"in"	"Product Combination Arrangement Account Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""
+"Put"	"/product-combination/{sd-identifier}/fulfillment/{crbq-identifier}/execution"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/product-combination-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Product Combination Arrangement Parameter Type"	"CR Product Combination Arrangement Instance Record"	String
+""	2	"inout"	"Product Combination Arrangement Selected Option"	"CR Product Combination Arrangement Instance Record"	String
+""	3	"in"	"Product Combination Arrangement Type"	"CR Product Combination Arrangement Instance Record"	String
+""	4	"in"	"Product Combination Arrangement Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	5	"inout"	"Product Combination Arrangement Schedule"	"CR Product Combination Arrangement Instance Record"	String
+""	6	"inout"	"Product Combination Arrangement Status"	"CR Product Combination Arrangement Instance Record"	String
+""	7	"in"	"Product Combination Arrangement Currency"	"CR Product Combination Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Product Combination Arrangement Regulation Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	9	"in"	"Product Combination Arrangement Regulation Type"	"CR Product Combination Arrangement Instance Record"	String
+""	10	"in"	"Product Combination Arrangement Jurisdiction"	"CR Product Combination Arrangement Instance Record"	String
+""	11	"in"	"Product Combination Arrangement Booking Location"	"CR Product Combination Arrangement Instance Record"	String
+""	12	"in"	"Product Combination Arrangement Account Type"	"CR Product Combination Arrangement Instance Record"	String
+""	13	"in"	"Product Combination Arrangement Account Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""
+"Post"	"/product-combination/{sd-identifier}/embedded-product-control/{crbq-identifier}/initiation"
+""	1	"inout"	"Embedded Product Control Preconditions"	"BQ Embedded Product Control Instance Record"	String
+""	2	"inout"	"Embedded Product Control Feature Schedule"	"BQ Embedded Product Control Instance Record"	String
+""	3	"inout"	"Combined Product Control"	"BQ Embedded Product Control Instance Record"	Business Service
+""	4	"inout"	"Embedded Product Control Postconditions"	"BQ Embedded Product Control Instance Record"	String
+""	5	"inout"	"Embedded Product Control Combined Product Control Service Type"	"BQ Embedded Product Control Instance Record"	String
+""	6	"inout"	"Embedded Product Control Combined Product Control Service Description"	"BQ Embedded Product Control Instance Record"	String
+""	7	"inout"	"Embedded Product Control Combined Product Control Service Inputs and Ouputs"	"BQ Embedded Product Control Instance Record"	String
+""	8	"inout"	"Embedded Product Control Combined Product Control Service Work Product"	"BQ Embedded Product Control Instance Record"	String
+""	9	"inout"	"Embedded Product Control Combined Product Control Service Name"	"BQ Embedded Product Control Instance Record"	String
+""
+"Post"	"/product-combination/{sd-identifier}/fulfillment/{crbq-identifier}/initiation"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Post"	"/product-combination/{sd-identifier}/product-combination-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Product Combination Arrangement Parameter Type"	"CR Product Combination Arrangement Instance Record"	String
+""	2	"inout"	"Product Combination Arrangement Selected Option"	"CR Product Combination Arrangement Instance Record"	String
+""	3	"in"	"Product Combination Arrangement Type"	"CR Product Combination Arrangement Instance Record"	String
+""	4	"in"	"Product Combination Arrangement Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	5	"inout"	"Product Combination Arrangement Schedule"	"CR Product Combination Arrangement Instance Record"	String
+""	6	"inout"	"Product Combination Arrangement Status"	"CR Product Combination Arrangement Instance Record"	String
+""	7	"in"	"Product Combination Arrangement Currency"	"CR Product Combination Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Product Combination Arrangement Regulation Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	9	"in"	"Product Combination Arrangement Regulation Type"	"CR Product Combination Arrangement Instance Record"	String
+""	10	"in"	"Product Combination Arrangement Jurisdiction"	"CR Product Combination Arrangement Instance Record"	String
+""	11	"in"	"Product Combination Arrangement Booking Location"	"CR Product Combination Arrangement Instance Record"	String
+""	12	"in"	"Product Combination Arrangement Account Type"	"CR Product Combination Arrangement Instance Record"	String
+""	13	"in"	"Product Combination Arrangement Account Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""
+"Get"	"/product-combination/{sd-identifier}/embedded-product-control/{crbq-identifier}/retrieval"
+""	1	"out"	"Embedded Product Control Preconditions"	"BQ Embedded Product Control Instance Record"	String
+""	2	"out"	"Embedded Product Control Feature Schedule"	"BQ Embedded Product Control Instance Record"	String
+""	3	"out"	"Combined Product Control"	"BQ Embedded Product Control Instance Record"	Business Service
+""	4	"out"	"Embedded Product Control Postconditions"	"BQ Embedded Product Control Instance Record"	String
+""	5	"out"	"Embedded Product Control Combined Product Control Service Type"	"BQ Embedded Product Control Instance Record"	String
+""	6	"out"	"Embedded Product Control Combined Product Control Service Description"	"BQ Embedded Product Control Instance Record"	String
+""	7	"out"	"Embedded Product Control Combined Product Control Service Inputs and Ouputs"	"BQ Embedded Product Control Instance Record"	String
+""	8	"out"	"Embedded Product Control Combined Product Control Service Work Product"	"BQ Embedded Product Control Instance Record"	String
+""	9	"out"	"Embedded Product Control Combined Product Control Service Name"	"BQ Embedded Product Control Instance Record"	String
+""
+"Get"	"/product-combination/{sd-identifier}/fulfillment/{crbq-identifier}/retrieval"
+""	1	"out"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"out"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"out"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"out"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"out"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Get"	"/product-combination/{sd-identifier}/transfer-pricing/{crbq-identifier}/retrieval"
+""	1	"out"	"Transfer Pricing Preconditions"	"BQ Transfer Pricing Instance Record"	String
+""	2	"out"	"Transfer Pricing Feature Schedule"	"BQ Transfer Pricing Instance Record"	String
+""	3	"out"	"Product Transfer Pricing"	"BQ Transfer Pricing Instance Record"	Business Service
+""	4	"out"	"Transfer Pricing Postconditions"	"BQ Transfer Pricing Instance Record"	String
+""	5	"out"	"Transfer Pricing Product Transfer Pricing Service Type"	"BQ Transfer Pricing Instance Record"	String
+""	6	"out"	"Transfer Pricing Product Transfer Pricing Service Description"	"BQ Transfer Pricing Instance Record"	String
+""	7	"out"	"Transfer Pricing Product Transfer Pricing Service Inputs and Ouputs"	"BQ Transfer Pricing Instance Record"	String
+""	8	"out"	"Transfer Pricing Product Transfer Pricing Service Work Product"	"BQ Transfer Pricing Instance Record"	String
+""	9	"out"	"Transfer Pricing Product Transfer Pricing Service Name"	"BQ Transfer Pricing Instance Record"	String
+""
+"Get"	"/product-combination/{sd-identifier}/product-combination-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Combination Arrangement Parameter Type"	"CR Product Combination Arrangement Instance Record"	String
+""	2	"out"	"Product Combination Arrangement Selected Option"	"CR Product Combination Arrangement Instance Record"	String
+""	3	"out"	"Product Combination Arrangement Type"	"CR Product Combination Arrangement Instance Record"	String
+""	4	"out"	"Product Combination Arrangement Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	5	"out"	"Product Combination Arrangement Schedule"	"CR Product Combination Arrangement Instance Record"	String
+""	6	"out"	"Product Combination Arrangement Status"	"CR Product Combination Arrangement Instance Record"	String
+""	7	"out"	"Product Combination Arrangement Currency"	"CR Product Combination Arrangement Instance Record"	CurrencyCode
+""	8	"out"	"Product Combination Arrangement Regulation Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	9	"out"	"Product Combination Arrangement Regulation Type"	"CR Product Combination Arrangement Instance Record"	String
+""	10	"out"	"Product Combination Arrangement Jurisdiction"	"CR Product Combination Arrangement Instance Record"	String
+""	11	"out"	"Product Combination Arrangement Booking Location"	"CR Product Combination Arrangement Instance Record"	String
+""	12	"out"	"Product Combination Arrangement Account Type"	"CR Product Combination Arrangement Instance Record"	String
+""	13	"out"	"Product Combination Arrangement Account Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""
+"Put"	"/product-combination/{sd-identifier}/fulfillment/{crbq-identifier}/requisition"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/transfer-pricing/{crbq-identifier}/requisition"
+""	1	"inout"	"Transfer Pricing Preconditions"	"BQ Transfer Pricing Instance Record"	String
+""	2	"inout"	"Transfer Pricing Feature Schedule"	"BQ Transfer Pricing Instance Record"	String
+""	3	"inout"	"Product Transfer Pricing"	"BQ Transfer Pricing Instance Record"	Business Service
+""	4	"inout"	"Transfer Pricing Postconditions"	"BQ Transfer Pricing Instance Record"	String
+""	5	"inout"	"Transfer Pricing Product Transfer Pricing Service Type"	"BQ Transfer Pricing Instance Record"	String
+""	6	"inout"	"Transfer Pricing Product Transfer Pricing Service Description"	"BQ Transfer Pricing Instance Record"	String
+""	7	"inout"	"Transfer Pricing Product Transfer Pricing Service Inputs and Ouputs"	"BQ Transfer Pricing Instance Record"	String
+""	8	"inout"	"Transfer Pricing Product Transfer Pricing Service Work Product"	"BQ Transfer Pricing Instance Record"	String
+""	9	"inout"	"Transfer Pricing Product Transfer Pricing Service Name"	"BQ Transfer Pricing Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/product-combination-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Combination Arrangement Parameter Type"	"CR Product Combination Arrangement Instance Record"	String
+""	2	"inout"	"Product Combination Arrangement Selected Option"	"CR Product Combination Arrangement Instance Record"	String
+""	3	"in"	"Product Combination Arrangement Type"	"CR Product Combination Arrangement Instance Record"	String
+""	4	"in"	"Product Combination Arrangement Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	5	"inout"	"Product Combination Arrangement Schedule"	"CR Product Combination Arrangement Instance Record"	String
+""	6	"inout"	"Product Combination Arrangement Status"	"CR Product Combination Arrangement Instance Record"	String
+""	7	"in"	"Product Combination Arrangement Currency"	"CR Product Combination Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Product Combination Arrangement Regulation Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	9	"in"	"Product Combination Arrangement Regulation Type"	"CR Product Combination Arrangement Instance Record"	String
+""	10	"in"	"Product Combination Arrangement Jurisdiction"	"CR Product Combination Arrangement Instance Record"	String
+""	11	"in"	"Product Combination Arrangement Booking Location"	"CR Product Combination Arrangement Instance Record"	String
+""	12	"in"	"Product Combination Arrangement Account Type"	"CR Product Combination Arrangement Instance Record"	String
+""	13	"in"	"Product Combination Arrangement Account Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""
+"Put"	"/product-combination/{sd-identifier}/embedded-product-control/{crbq-identifier}/update"
+""	1	"inout"	"Embedded Product Control Preconditions"	"BQ Embedded Product Control Instance Record"	String
+""	2	"inout"	"Embedded Product Control Feature Schedule"	"BQ Embedded Product Control Instance Record"	String
+""	3	"inout"	"Combined Product Control"	"BQ Embedded Product Control Instance Record"	Business Service
+""	4	"inout"	"Embedded Product Control Postconditions"	"BQ Embedded Product Control Instance Record"	String
+""	5	"inout"	"Embedded Product Control Combined Product Control Service Type"	"BQ Embedded Product Control Instance Record"	String
+""	6	"inout"	"Embedded Product Control Combined Product Control Service Description"	"BQ Embedded Product Control Instance Record"	String
+""	7	"inout"	"Embedded Product Control Combined Product Control Service Inputs and Ouputs"	"BQ Embedded Product Control Instance Record"	String
+""	8	"inout"	"Embedded Product Control Combined Product Control Service Work Product"	"BQ Embedded Product Control Instance Record"	String
+""	9	"inout"	"Embedded Product Control Combined Product Control Service Name"	"BQ Embedded Product Control Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/fulfillment/{crbq-identifier}/update"
+""	1	"inout"	"Fulfillment Preconditions"	"BQ Fulfillment Instance Record"	String
+""	2	"inout"	"Fulfillment Feature Schedule"	"BQ Fulfillment Instance Record"	String
+""	3	"inout"	"Fiduciary Arrangement Fulfillment"	"BQ Fulfillment Instance Record"	Business Service
+""	4	"inout"	"Fulfillment Postconditions"	"BQ Fulfillment Instance Record"	String
+""	5	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Type"	"BQ Fulfillment Instance Record"	String
+""	6	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Description"	"BQ Fulfillment Instance Record"	String
+""	7	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Inputs and Ouputs"	"BQ Fulfillment Instance Record"	String
+""	8	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Work Product"	"BQ Fulfillment Instance Record"	String
+""	9	"inout"	"Fulfillment Fiduciary Arrangement Fulfillment Service Name"	"BQ Fulfillment Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/transfer-pricing/{crbq-identifier}/update"
+""	1	"inout"	"Transfer Pricing Preconditions"	"BQ Transfer Pricing Instance Record"	String
+""	2	"inout"	"Transfer Pricing Feature Schedule"	"BQ Transfer Pricing Instance Record"	String
+""	3	"inout"	"Product Transfer Pricing"	"BQ Transfer Pricing Instance Record"	Business Service
+""	4	"inout"	"Transfer Pricing Postconditions"	"BQ Transfer Pricing Instance Record"	String
+""	5	"inout"	"Transfer Pricing Product Transfer Pricing Service Type"	"BQ Transfer Pricing Instance Record"	String
+""	6	"inout"	"Transfer Pricing Product Transfer Pricing Service Description"	"BQ Transfer Pricing Instance Record"	String
+""	7	"inout"	"Transfer Pricing Product Transfer Pricing Service Inputs and Ouputs"	"BQ Transfer Pricing Instance Record"	String
+""	8	"inout"	"Transfer Pricing Product Transfer Pricing Service Work Product"	"BQ Transfer Pricing Instance Record"	String
+""	9	"inout"	"Transfer Pricing Product Transfer Pricing Service Name"	"BQ Transfer Pricing Instance Record"	String
+""
+"Put"	"/product-combination/{sd-identifier}/product-combination-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Combination Arrangement Parameter Type"	"CR Product Combination Arrangement Instance Record"	String
+""	2	"inout"	"Product Combination Arrangement Selected Option"	"CR Product Combination Arrangement Instance Record"	String
+""	3	"in"	"Product Combination Arrangement Type"	"CR Product Combination Arrangement Instance Record"	String
+""	4	"in"	"Product Combination Arrangement Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	5	"inout"	"Product Combination Arrangement Schedule"	"CR Product Combination Arrangement Instance Record"	String
+""	6	"inout"	"Product Combination Arrangement Status"	"CR Product Combination Arrangement Instance Record"	String
+""	7	"in"	"Product Combination Arrangement Currency"	"CR Product Combination Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Product Combination Arrangement Regulation Reference"	"CR Product Combination Arrangement Instance Record"	Object
+""	9	"in"	"Product Combination Arrangement Regulation Type"	"CR Product Combination Arrangement Instance Record"	String
+""	10	"in"	"Product Combination Arrangement Jurisdiction"	"CR Product Combination Arrangement Instance Record"	String
+""	11	"in"	"Product Combination Arrangement Booking Location"	"CR Product Combination Arrangement Instance Record"	String
+""	12	"in"	"Product Combination Arrangement Account Type"	"CR Product Combination Arrangement Instance Record"	String
+""	13	"in"	"Product Combination Arrangement Account Reference"	"CR Product Combination Arrangement Instance Record"	Object

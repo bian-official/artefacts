@@ -1,0 +1,216 @@
+"Service Operations for: "	Document Library
+""
+"POST"	"/document-library/activation"
+"PUT"	"/document-library/{sd-reference-id}/configuration"
+"PUT"	"/document-library/{sd-reference-id}/feedback"
+""
+"Post"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/registration"
+""	1	"in"	"Document Name"	"CR Document Directory Entry Instance Record"	String
+""	2	"in"	"Location Reference"	"CR Document Directory Entry Instance Record"	Object
+""	3	"in"	"Business Unit/Employee Reference"	"CR Document Directory Entry Instance Record"	Object
+""	4	"in"	"Product/Service Reference"	"CR Document Directory Entry Instance Record"	Object
+""	5	"in"	"Product/Service Action Reference"	"CR Document Directory Entry Instance Record"	Object
+""	6	"in"	"Document Creation Date"	"CR Document Directory Entry Instance Record"	Date
+""	7	"in"	"Document Capture Date/Time"	"CR Document Directory Entry Instance Record"	Date
+""	8	"in"	"Document Type/Description"	"CR Document Directory Entry Instance Record"	String
+""	9	"in"	"Document Content"	"CR Document Directory Entry Instance Record"	String
+""	10	"inout"	"Document Provisioning History"	"CR Document Directory Entry Instance Record"	String
+""	11	"in"	"Document Provisioning Request"	"CR Document Directory Entry Instance Record"	String
+""	12	"inout"	"Document Provisioning Schedule"	"CR Document Directory Entry Instance Record"	String
+""	13	"out"	"Document Provisioning Result"	"CR Document Directory Entry Instance Record"	String
+""	14	"inout"	"Document Version History"	"CR Document Directory Entry Instance Record"	String
+""	15	"in"	"Document Version Date"	"CR Document Directory Entry Instance Record"	Date
+""	16	"inout"	"Document Verification History"	"CR Document Directory Entry Instance Record"	String
+""	17	"out"	"Document Verification Task Description"	"CR Document Directory Entry Instance Record"	String
+""	18	"out"	"Document Verification Service Provider Reference"	"CR Document Directory Entry Instance Record"	Object
+""	19	"out"	"Document Verification Task Result"	"CR Document Directory Entry Instance Record"	String
+""	20	"inout"	"Document Amendment History"	"CR Document Directory Entry Instance Record"	String
+""	21	"in"	"Document Amendment Description"	"CR Document Directory Entry Instance Record"	String
+""	22	"out"	"Document Amendment Result"	"CR Document Directory Entry Instance Record"	String
+""	23	"inout"	"Document Update History"	"CR Document Directory Entry Instance Record"	String
+""	24	"in"	"Document Update Description"	"CR Document Directory Entry Instance Record"	String
+""	25	"out"	"Document Update Result"	"CR Document Directory Entry Instance Record"	String
+""	26	"inout"	"Document Archiving History"	"CR Document Directory Entry Instance Record"	String
+""	27	"inout"	"Document Archiving Action"	"CR Document Directory Entry Instance Record"	String
+""	28	"out"	"Document Archive Reference"	"CR Document Directory Entry Instance Record"	Object
+""	29	"out"	"Document Media/Format"	"CR Document Directory Entry Instance Record"	String
+""	30	"inout"	"Document Subject Reference"	"CR Document Directory Entry Instance Record"	Object
+""	31	"inout"	"Document Location"	"CR Document Directory Entry Instance Record"	String
+""	32	"inout"	"Document Status"	"CR Document Directory Entry Instance Record"	String
+""
+"Put"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/update"
+""	1	"inout"	"Document Name"	"CR Document Directory Entry Instance Record"	String
+""	2	"inout"	"Location Reference"	"CR Document Directory Entry Instance Record"	Object
+""	3	"inout"	"Business Unit/Employee Reference"	"CR Document Directory Entry Instance Record"	Object
+""	4	"inout"	"Product/Service Reference"	"CR Document Directory Entry Instance Record"	Object
+""	5	"inout"	"Product/Service Action Reference"	"CR Document Directory Entry Instance Record"	Object
+""	6	"inout"	"Document Creation Date"	"CR Document Directory Entry Instance Record"	Date
+""	7	"inout"	"Document Capture Date/Time"	"CR Document Directory Entry Instance Record"	Date
+""	8	"inout"	"Document Type/Description"	"CR Document Directory Entry Instance Record"	String
+""	9	"inout"	"Document Content"	"CR Document Directory Entry Instance Record"	String
+""	10	"inout"	"Document Provisioning History"	"CR Document Directory Entry Instance Record"	String
+""	11	"inout"	"Document Provisioning Request"	"CR Document Directory Entry Instance Record"	String
+""	12	"out"	"Document Provisioning Schedule"	"CR Document Directory Entry Instance Record"	String
+""	13	"out"	"Document Provisioning Result"	"CR Document Directory Entry Instance Record"	String
+""	14	"inout"	"Document Version History"	"CR Document Directory Entry Instance Record"	String
+""	15	"inout"	"Document Version Date"	"CR Document Directory Entry Instance Record"	Date
+""	16	"inout"	"Document Verification History"	"CR Document Directory Entry Instance Record"	String
+""	17	"inout"	"Document Verification Task Description"	"CR Document Directory Entry Instance Record"	String
+""	18	"inout"	"Document Verification Service Provider Reference"	"CR Document Directory Entry Instance Record"	Object
+""	19	"out"	"Document Verification Task Result"	"CR Document Directory Entry Instance Record"	String
+""	20	"inout"	"Document Amendment History"	"CR Document Directory Entry Instance Record"	String
+""	21	"inout"	"Document Amendment Description"	"CR Document Directory Entry Instance Record"	String
+""	22	"out"	"Document Amendment Result"	"CR Document Directory Entry Instance Record"	String
+""	23	"inout"	"Document Update History"	"CR Document Directory Entry Instance Record"	String
+""	24	"inout"	"Document Update Description"	"CR Document Directory Entry Instance Record"	String
+""	25	"out"	"Document Update Result"	"CR Document Directory Entry Instance Record"	String
+""	26	"inout"	"Document Archiving History"	"CR Document Directory Entry Instance Record"	String
+""	27	"inout"	"Document Archiving Action"	"CR Document Directory Entry Instance Record"	String
+""	28	"out"	"Document Archive Reference"	"CR Document Directory Entry Instance Record"	Object
+""	29	"out"	"Document Media/Format"	"CR Document Directory Entry Instance Record"	String
+""	30	"inout"	"Document Subject Reference"	"CR Document Directory Entry Instance Record"	Object
+""	31	"inout"	"Document Location"	"CR Document Directory Entry Instance Record"	String
+""	32	"inout"	"Document Status"	"CR Document Directory Entry Instance Record"	String
+""
+"Put"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/control"
+""
+"Put"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/exchange"
+""
+"Put"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/requisition"
+""	1	"inout"	"Document Provisioning History"	"CR Document Directory Entry Instance Record"	String
+""	2	"in"	"Document Provisioning Request"	"CR Document Directory Entry Instance Record"	String
+""	3	"inout"	"Document Provisioning Schedule"	"CR Document Directory Entry Instance Record"	String
+""	4	"out"	"Document Provisioning Result"	"CR Document Directory Entry Instance Record"	String
+""	5	"inout"	"Document Version History"	"CR Document Directory Entry Instance Record"	String
+""	6	"inout"	"Document Version Date"	"CR Document Directory Entry Instance Record"	Date
+""	7	"inout"	"Document Verification History"	"CR Document Directory Entry Instance Record"	String
+""	8	"inout"	"Document Verification Task Description"	"CR Document Directory Entry Instance Record"	String
+""	9	"inout"	"Document Verification Service Provider Reference"	"CR Document Directory Entry Instance Record"	Object
+""	10	"out"	"Document Verification Task Result"	"CR Document Directory Entry Instance Record"	String
+""	11	"inout"	"Document Amendment History"	"CR Document Directory Entry Instance Record"	String
+""	12	"inout"	"Document Amendment Description"	"CR Document Directory Entry Instance Record"	String
+""	13	"out"	"Document Amendment Result"	"CR Document Directory Entry Instance Record"	String
+""	14	"inout"	"Document Update History"	"CR Document Directory Entry Instance Record"	String
+""	15	"inout"	"Document Update Description"	"CR Document Directory Entry Instance Record"	String
+""	16	"out"	"Document Update Result"	"CR Document Directory Entry Instance Record"	String
+""	17	"inout"	"Document Archiving History"	"CR Document Directory Entry Instance Record"	String
+""	18	"inout"	"Document Archiving Action"	"CR Document Directory Entry Instance Record"	String
+""	19	"out"	"Document Archive Reference"	"CR Document Directory Entry Instance Record"	Object
+""
+"Put"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/requisition"
+""	1	"inout"	"Document Provisioning History"	"CR Document Directory Entry Instance Record"	String
+""	2	"in"	"Document Provisioning Request"	"CR Document Directory Entry Instance Record"	String
+""	3	"inout"	"Document Provisioning Schedule"	"CR Document Directory Entry Instance Record"	String
+""	4	"out"	"Document Provisioning Result"	"CR Document Directory Entry Instance Record"	String
+""	5	"inout"	"Document Version History"	"CR Document Directory Entry Instance Record"	String
+""	6	"inout"	"Document Version Date"	"CR Document Directory Entry Instance Record"	Date
+""	7	"inout"	"Document Verification History"	"CR Document Directory Entry Instance Record"	String
+""	8	"inout"	"Document Verification Task Description"	"CR Document Directory Entry Instance Record"	String
+""	9	"inout"	"Document Verification Service Provider Reference"	"CR Document Directory Entry Instance Record"	Object
+""	10	"out"	"Document Verification Task Result"	"CR Document Directory Entry Instance Record"	String
+""	11	"inout"	"Document Amendment History"	"CR Document Directory Entry Instance Record"	String
+""	12	"inout"	"Document Amendment Description"	"CR Document Directory Entry Instance Record"	String
+""	13	"out"	"Document Amendment Result"	"CR Document Directory Entry Instance Record"	String
+""	14	"inout"	"Document Update History"	"CR Document Directory Entry Instance Record"	String
+""	15	"inout"	"Document Update Description"	"CR Document Directory Entry Instance Record"	String
+""	16	"out"	"Document Update Result"	"CR Document Directory Entry Instance Record"	String
+""	17	"inout"	"Document Archiving History"	"CR Document Directory Entry Instance Record"	String
+""	18	"inout"	"Document Archiving Action"	"CR Document Directory Entry Instance Record"	String
+""	19	"out"	"Document Archive Reference"	"CR Document Directory Entry Instance Record"	Object
+""
+"Put"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/requisition"
+""	1	"inout"	"Document Provisioning History"	"CR Document Directory Entry Instance Record"	String
+""	2	"in"	"Document Provisioning Request"	"CR Document Directory Entry Instance Record"	String
+""	3	"inout"	"Document Provisioning Schedule"	"CR Document Directory Entry Instance Record"	String
+""	4	"out"	"Document Provisioning Result"	"CR Document Directory Entry Instance Record"	String
+""	5	"inout"	"Document Version History"	"CR Document Directory Entry Instance Record"	String
+""	6	"inout"	"Document Version Date"	"CR Document Directory Entry Instance Record"	Date
+""	7	"inout"	"Document Verification History"	"CR Document Directory Entry Instance Record"	String
+""	8	"inout"	"Document Verification Task Description"	"CR Document Directory Entry Instance Record"	String
+""	9	"inout"	"Document Verification Service Provider Reference"	"CR Document Directory Entry Instance Record"	Object
+""	10	"out"	"Document Verification Task Result"	"CR Document Directory Entry Instance Record"	String
+""	11	"inout"	"Document Amendment History"	"CR Document Directory Entry Instance Record"	String
+""	12	"inout"	"Document Amendment Description"	"CR Document Directory Entry Instance Record"	String
+""	13	"out"	"Document Amendment Result"	"CR Document Directory Entry Instance Record"	String
+""	14	"inout"	"Document Update History"	"CR Document Directory Entry Instance Record"	String
+""	15	"inout"	"Document Update Description"	"CR Document Directory Entry Instance Record"	String
+""	16	"out"	"Document Update Result"	"CR Document Directory Entry Instance Record"	String
+""	17	"inout"	"Document Archiving History"	"CR Document Directory Entry Instance Record"	String
+""	18	"inout"	"Document Archiving Action"	"CR Document Directory Entry Instance Record"	String
+""	19	"out"	"Document Archive Reference"	"CR Document Directory Entry Instance Record"	Object
+""
+"Put"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/requisition"
+""	1	"inout"	"Document Provisioning History"	"CR Document Directory Entry Instance Record"	String
+""	2	"in"	"Document Provisioning Request"	"CR Document Directory Entry Instance Record"	String
+""	3	"inout"	"Document Provisioning Schedule"	"CR Document Directory Entry Instance Record"	String
+""	4	"out"	"Document Provisioning Result"	"CR Document Directory Entry Instance Record"	String
+""	5	"inout"	"Document Version History"	"CR Document Directory Entry Instance Record"	String
+""	6	"inout"	"Document Version Date"	"CR Document Directory Entry Instance Record"	Date
+""	7	"inout"	"Document Verification History"	"CR Document Directory Entry Instance Record"	String
+""	8	"inout"	"Document Verification Task Description"	"CR Document Directory Entry Instance Record"	String
+""	9	"inout"	"Document Verification Service Provider Reference"	"CR Document Directory Entry Instance Record"	Object
+""	10	"out"	"Document Verification Task Result"	"CR Document Directory Entry Instance Record"	String
+""	11	"inout"	"Document Amendment History"	"CR Document Directory Entry Instance Record"	String
+""	12	"inout"	"Document Amendment Description"	"CR Document Directory Entry Instance Record"	String
+""	13	"out"	"Document Amendment Result"	"CR Document Directory Entry Instance Record"	String
+""	14	"inout"	"Document Update History"	"CR Document Directory Entry Instance Record"	String
+""	15	"inout"	"Document Update Description"	"CR Document Directory Entry Instance Record"	String
+""	16	"out"	"Document Update Result"	"CR Document Directory Entry Instance Record"	String
+""	17	"inout"	"Document Archiving History"	"CR Document Directory Entry Instance Record"	String
+""	18	"inout"	"Document Archiving Action"	"CR Document Directory Entry Instance Record"	String
+""	19	"out"	"Document Archive Reference"	"CR Document Directory Entry Instance Record"	Object
+""
+"Put"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/requisition"
+""	1	"inout"	"Document Provisioning History"	"CR Document Directory Entry Instance Record"	String
+""	2	"in"	"Document Provisioning Request"	"CR Document Directory Entry Instance Record"	String
+""	3	"inout"	"Document Provisioning Schedule"	"CR Document Directory Entry Instance Record"	String
+""	4	"out"	"Document Provisioning Result"	"CR Document Directory Entry Instance Record"	String
+""	5	"inout"	"Document Version History"	"CR Document Directory Entry Instance Record"	String
+""	6	"inout"	"Document Version Date"	"CR Document Directory Entry Instance Record"	Date
+""	7	"inout"	"Document Verification History"	"CR Document Directory Entry Instance Record"	String
+""	8	"inout"	"Document Verification Task Description"	"CR Document Directory Entry Instance Record"	String
+""	9	"inout"	"Document Verification Service Provider Reference"	"CR Document Directory Entry Instance Record"	Object
+""	10	"out"	"Document Verification Task Result"	"CR Document Directory Entry Instance Record"	String
+""	11	"inout"	"Document Amendment History"	"CR Document Directory Entry Instance Record"	String
+""	12	"inout"	"Document Amendment Description"	"CR Document Directory Entry Instance Record"	String
+""	13	"out"	"Document Amendment Result"	"CR Document Directory Entry Instance Record"	String
+""	14	"inout"	"Document Update History"	"CR Document Directory Entry Instance Record"	String
+""	15	"inout"	"Document Update Description"	"CR Document Directory Entry Instance Record"	String
+""	16	"out"	"Document Update Result"	"CR Document Directory Entry Instance Record"	String
+""	17	"inout"	"Document Archiving History"	"CR Document Directory Entry Instance Record"	String
+""	18	"inout"	"Document Archiving Action"	"CR Document Directory Entry Instance Record"	String
+""	19	"out"	"Document Archive Reference"	"CR Document Directory Entry Instance Record"	Object
+""
+"Get"	"/document-library/{sd-identifier}/document-directory-entry/{crbq-identifier}/retrieval"
+""	1	"out"	"Document Name"	"CR Document Directory Entry Instance Record"	String
+""	2	"out"	"Location Reference"	"CR Document Directory Entry Instance Record"	Object
+""	3	"out"	"Business Unit/Employee Reference"	"CR Document Directory Entry Instance Record"	Object
+""	4	"out"	"Product/Service Reference"	"CR Document Directory Entry Instance Record"	Object
+""	5	"out"	"Product/Service Action Reference"	"CR Document Directory Entry Instance Record"	Object
+""	6	"out"	"Document Creation Date"	"CR Document Directory Entry Instance Record"	Date
+""	7	"out"	"Document Capture Date/Time"	"CR Document Directory Entry Instance Record"	Date
+""	8	"out"	"Document Type/Description"	"CR Document Directory Entry Instance Record"	String
+""	9	"out"	"Document Content"	"CR Document Directory Entry Instance Record"	String
+""	10	"out"	"Document Provisioning History"	"CR Document Directory Entry Instance Record"	String
+""	11	"out"	"Document Provisioning Request"	"CR Document Directory Entry Instance Record"	String
+""	12	"out"	"Document Provisioning Schedule"	"CR Document Directory Entry Instance Record"	String
+""	13	"out"	"Document Provisioning Result"	"CR Document Directory Entry Instance Record"	String
+""	14	"out"	"Document Version History"	"CR Document Directory Entry Instance Record"	String
+""	15	"out"	"Document Version Date"	"CR Document Directory Entry Instance Record"	Date
+""	16	"out"	"Document Verification History"	"CR Document Directory Entry Instance Record"	String
+""	17	"out"	"Document Verification Task Description"	"CR Document Directory Entry Instance Record"	String
+""	18	"out"	"Document Verification Service Provider Reference"	"CR Document Directory Entry Instance Record"	Object
+""	19	"out"	"Document Verification Task Result"	"CR Document Directory Entry Instance Record"	String
+""	20	"out"	"Document Amendment History"	"CR Document Directory Entry Instance Record"	String
+""	21	"out"	"Document Amendment Description"	"CR Document Directory Entry Instance Record"	String
+""	22	"out"	"Document Amendment Result"	"CR Document Directory Entry Instance Record"	String
+""	23	"out"	"Document Update History"	"CR Document Directory Entry Instance Record"	String
+""	24	"out"	"Document Update Description"	"CR Document Directory Entry Instance Record"	String
+""	25	"out"	"Document Update Result"	"CR Document Directory Entry Instance Record"	String
+""	26	"out"	"Document Archiving History"	"CR Document Directory Entry Instance Record"	String
+""	27	"out"	"Document Archiving Action"	"CR Document Directory Entry Instance Record"	String
+""	28	"out"	"Document Archive Reference"	"CR Document Directory Entry Instance Record"	Object
+""	29	"out"	"Document Media/Format"	"CR Document Directory Entry Instance Record"	String
+""	30	"out"	"Document Subject Reference"	"CR Document Directory Entry Instance Record"	Object
+""	31	"out"	"Document Location"	"CR Document Directory Entry Instance Record"	String
+""	32	"out"	"Document Status"	"CR Document Directory Entry Instance Record"	String

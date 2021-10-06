@@ -1,0 +1,26 @@
+"Control Record Model for: "	Internal Audit
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Internal Audit Assessment Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Internal Audit. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Parameter Type	"A Classification value that distinguishes between Assessments according to type of concern defined within Internal Audit Assessment . Eg Market Analysis, Risk Analysis, Perfomance Analysis, etc."	String
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Selected Option	"A selected optional business service as subject matter of assessment"	String
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Type	"The type of Internal Audit Assessment"	String
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Reference	"Reference to Internal Audit Assessment"	Object
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Request	"Request to assess InternalAudit"	String
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Schedule	"Timetable to assess InternalAudit"	String
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Status	"The status of Internal Audit Assessment"	String
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Usage Log	"Reference to the log of (usage) ativities/events of Internal Audit Assessment"	String
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment ServiceProvider Reference	"Reference to the party who has provided Internal Audit Assessment"	Object
+"CR"	CR Internal Audit Assessment Instance Record	Internal Audit Assessment Requester Reference	"Reference to the party who has requested Internal Audit Assessment"	Object
+"BQ"	BQ Internal Audit Outcome Instance Record	""	""	""
+"BQ"	BQ Internal Audit Outcome Instance Record	Internal Audit Work Product	""	String
+"BQ"	BQ Internal Audit Outcome Instance Record	Internal Audit Assessment Type	""	String
+"BQ"	BQ Audit Instance Record	""	"To test or assess an entity, possibly against some formal qualification or certification requirement  within Internal Audit. . . Examples: Perform regulatory tests on a proposed financial transaction and check a new offer conforms to an existing contractual agreement."	""
+"BQ"	BQ Audit Instance Record	Audit Preconditions	"The required status/situation before the test can be applied"	String
+"BQ"	BQ Audit Instance Record	Audit Analysis Schedule	"The schedule and timing of the testing performed"	String
+"BQ"	BQ Audit Instance Record	Audit Version Number	"The test version employed"	String
+"BQ"	BQ Audit Instance Record	Business Service	"The Internal Audit Assessment specific  Business Service"	Business Service
+"BQ"	BQ Audit Instance Record	Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Audit Instance Record	Service Description	"Description of the performed business service"	String
+"BQ"	BQ Audit Instance Record	Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Audit Instance Record	Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Audit Instance Record	Service Name	""	String

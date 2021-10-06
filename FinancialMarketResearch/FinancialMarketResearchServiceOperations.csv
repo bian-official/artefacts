@@ -1,0 +1,54 @@
+"Service Operations for: "	Financial Market Research
+""
+"POST"	"/financial-market-research/activation"
+"PUT"	"/financial-market-research/{sd-reference-id}/configuration"
+"PUT"	"/financial-market-research/{sd-reference-id}/feedback"
+""
+"Post"	"/financial-market-research/{sd-identifier}/financial-market-research-directory-entry/{crbq-identifier}/registration"
+""	1	"inout"	"Financial Market Research Viewpoint Type"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	2	"inout"	"Financial Market Research Viewpoint Description"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	3	"in"	"Referenced Financial Market Research Record"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	4	"in"	"Financial Market Research Report Type Reference"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	5	"out"	"Financial Market Research Report Type Definition"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	6	"inout"	"Financial Market Research Report Version/Period"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	7	"in"	"Financial Market Research Viewpoint Usage"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	8	"in"	"Financial Market Research Report Request"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	9	"in"	"Employee/Business Unit Reference"	"CR Financial Market Research Directory Entry Instance Record"	Object
+""
+"Put"	"/financial-market-research/{sd-identifier}/financial-market-research-directory-entry/{crbq-identifier}/update"
+""	1	"inout"	"Financial Market Research Viewpoint Type"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	2	"inout"	"Financial Market Research Viewpoint Description"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	3	"inout"	"Referenced Financial Market Research Record"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	4	"inout"	"Financial Market Research Report Type Reference"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	5	"inout"	"Financial Market Research Report Version/Period"	"CR Financial Market Research Directory Entry Instance Record"	String
+""
+"Put"	"/financial-market-research/{sd-identifier}/financial-market-research-directory-entry/{crbq-identifier}/execution"
+""	1	"out"	"Financial Market Research Viewpoint Type"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	2	"out"	"Financial Market Research Viewpoint Description"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	3	"out"	"Referenced Financial Market Research Record"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	4	"out"	"Financial Market Research Report Type Definition"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	5	"out"	"Financial Market Research Report Version/Period"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	6	"inout"	"Financial Market Research Viewpoint Usage"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	7	"inout"	"Financial Market Research Report Request"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	8	"inout"	"Employee/Business Unit Reference"	"CR Financial Market Research Directory Entry Instance Record"	Object
+""
+"Put"	"/financial-market-research/{sd-identifier}/financial-market-research-directory-entry/{crbq-identifier}/requisition"
+""	1	"out"	"Financial Market Research Viewpoint Type"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	2	"out"	"Financial Market Research Viewpoint Description"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	3	"out"	"Referenced Financial Market Research Record"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	4	"out"	"Financial Market Research Report Type Definition"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	5	"out"	"Financial Market Research Report Version/Period"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	6	"inout"	"Financial Market Research Viewpoint Usage"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	7	"inout"	"Financial Market Research Report Request"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	8	"inout"	"Employee/Business Unit Reference"	"CR Financial Market Research Directory Entry Instance Record"	Object
+""
+"Get"	"/financial-market-research/{sd-identifier}/financial-market-research-directory-entry/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Market Research Viewpoint Type"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	2	"out"	"Financial Market Research Viewpoint Description"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	3	"out"	"Referenced Financial Market Research Record"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	4	"out"	"Financial Market Research Report Type Reference"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	5	"out"	"Financial Market Research Report Type Definition"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	6	"out"	"Financial Market Research Report Version/Period"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	7	"out"	"Financial Market Research Viewpoint Usage"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	8	"out"	"Financial Market Research Report Request"	"CR Financial Market Research Directory Entry Instance Record"	String
+""	9	"out"	"Employee/Business Unit Reference"	"CR Financial Market Research Directory Entry Instance Record"	Object

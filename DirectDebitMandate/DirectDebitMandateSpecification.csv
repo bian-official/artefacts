@@ -1,0 +1,13 @@
+"Service Domain specification for Direct Debit Mandate"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Direct Debit Mandate
+"Role Definition"	"Customer mandates are administered/managed that are associated with a direct debit processing facility provided for a corporate client. The individual customer mandates are registered and may be updated/amended. The mandates are referenced to confirm coverage when direct debit processing is undertaken periodically"
+"Example of use"	"A customer completes a direct debit mandate for a corporate client that is registered"
+"Executive Summary"	"This service domains manages the customer mandates associated with direct debit processing for a corporate client"
+"Key Features"	"Register customer direct debit mandates. Update  customer mandates. Provide mandate details/confirm coverage"
+"Functional Pattern"	Catalog
+"Asset Type"	DirectDebitMandate
+"Generic Artifact"	DirectoryEntry
+"Control Record"	DirectDebitMandateDirectoryEntry
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Credit Rating"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Credit Rating
+"Role Definition"	"This service domain handles the derivation and maintenance of each customer's credit rating for both consumer and corporate customers. The internal rating can integrate externally provided credit details from credit scoring agencies with internal transactional data and relationship assessments. The credit rating will be maintained based on internal rules, but it is possible that a service will be offered to support an unscheduled recalculation of the credit score"
+"Example of use"	"A customer calls the contact center wishing to know what mortgage offers they are eligible for. The customer servicing representative (CSR) uses the customer's internal credit assessment as one input to reference the Product Directory to retrieve the details of available products and terms"
+"Executive Summary"	"This service domain maintains and administers the bank's credit assessment for customers based on consolidated internal data and optionally by referencing external credit agency reports"
+"Key Features"	"Access external rating agencies for customer credit reports. Consolidate bank product use that impacts the rating. Derive and maintain the bank's customer credit assessment"
+"Functional Pattern"	Monitor
+"Asset Type"	CustomerCreditRating
+"Generic Artifact"	State
+"Control Record"	CustomerCreditRatingState
+"Registration Status"	Registered

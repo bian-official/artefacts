@@ -1,0 +1,13 @@
+"Service Domain specification for Operational Risk Models"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Operational Risk
+"Service Domain"	Operational Risk Models
+"Role Definition"	""
+"Example of use"	"Financial engineers evaluate the history of operational breaches and issues to determine how well existing operational risk models cover the detection of exposures"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	OpertionalRiskModel
+"Generic Artifact"	Specification
+"Control Record"	OpertionalRiskModelSpecification
+"Registration Status"	Registered

@@ -1,0 +1,51 @@
+"Control Record Model for: "	Commissions
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Commission Transaction Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Commissions. . Example: Execute a payment transaction."	""
+"CR"	CR Commission Transaction Instance Record	Commission Transaction Parameter Type	"A Classification value that distinguishes between business service transaction within Commission Transaction"	String
+"CR"	CR Commission Transaction Instance Record	Commission Transaction Selected Option	"A selected optional business service as subject matter of Commission Transaction"	String
+"CR"	CR Commission Transaction Instance Record	Commission Transaction Status	"The status of Commission Transaction"	String
+"CR"	CR Commission Transaction Instance Record	Commission Transaction Type	"A Classification value that specifies type of business action for this  Commission Transaction"	String
+"CR"	CR Commission Transaction Instance Record	Commission Transaction Transaction Type	"A Classification value that specifies type of transaction for this  Commission Transaction"	String
+"CR"	CR Commission Transaction Instance Record	Commission Transaction Transaction	"Reference to Commission Transaction"	String
+"BQ"	BQ Payment Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Commissions. . Example: Execute a payment transaction."	""
+"BQ"	BQ Payment Instance Record	Payment Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Payment Instance Record	Payment Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Payment Instance Record	Business Service	"The Commission Transaction specific Business Service"	Business Service
+"BQ"	BQ Payment Instance Record	Payment Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Payment Instance Record	Payment Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Payment Instance Record	Payment Service Description	"Description of the performed business service"	String
+"BQ"	BQ Payment Instance Record	Payment Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Payment Instance Record	Payment Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Payment Instance Record	Payment Service Name	""	String
+"BQ"	BQ Commissions Outcome Instance Record	""	""	""
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Calendar	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Counterparty	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Dividend	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Fees	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Interest	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Margining	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Notional Principal	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Options	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Rates	""	Rate
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Settlement	""	String
+"BQ"	BQ Commissions Outcome Instance Record	Commissions Work Product	""	String
+"BQ"	BQ Calculation Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Commissions. . Example: Execute a payment transaction."	""
+"BQ"	BQ Calculation Instance Record	Calculation Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Calculation Instance Record	Calculation Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Calculation Instance Record	Commission Calculation	"The Commission Transaction specific Business Service"	Business Service
+"BQ"	BQ Calculation Instance Record	Calculation Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Calculation Instance Record	Calculation Commission Calculation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Calculation Instance Record	Calculation Commission Calculation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Calculation Instance Record	Calculation Commission Calculation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Calculation Instance Record	Calculation Commission Calculation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Calculation Instance Record	Calculation Commission Calculation Service Name	""	String
+"BQ"	BQ Check Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Commissions. . Example: Execute a payment transaction."	""
+"BQ"	BQ Check Instance Record	Check Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Check Instance Record	Check Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Check Instance Record	Business Service	"The Commission Transaction specific Business Service"	Business Service
+"BQ"	BQ Check Instance Record	Check Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Check Instance Record	Check Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Check Instance Record	Check Service Description	"Description of the performed business service"	String
+"BQ"	BQ Check Instance Record	Check Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Check Instance Record	Check Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Check Instance Record	Check Service Name	""	String

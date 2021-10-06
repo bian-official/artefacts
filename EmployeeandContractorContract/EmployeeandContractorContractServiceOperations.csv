@@ -1,0 +1,5 @@
+"Service Operations for: "	Employee and Contractor Contract
+"Control Record Model for Employee and Contractor Contract is not defined"
+"POST"	"/employee-and-contractor-contract/activation"
+"PUT"	"/employee-and-contractor-contract/{sd-reference-id}/configuration"
+"PUT"	"/employee-and-contractor-contract/{sd-reference-id}/feedback"

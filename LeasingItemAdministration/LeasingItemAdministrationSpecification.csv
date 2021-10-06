@@ -1,0 +1,13 @@
+"Service Domain specification for Leasing Item Administration"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Leasing Item Administration
+"Role Definition"	"This service domain handles the oversight, administration and confirmation that any required maintenance tasks that are associated with a leased item that is the subject of a leasing agreement financed through the bank. This can include scheduled and ad-hoc item valuations, status/documentation and title checks and tracking upkeep actions that the item owner is obliged to undertake (such as obtaining certification and insurance)"
+"Example of use"	"Example of use:. The bank reviews the maintenance schedule for a major piece of equipment leased by a customer with bank financing to confirm that preventative maintenance has been undertaken as required and that the equipment is being used as intended"
+"Executive Summary"	"Track the status of the assets underlying leasing agreements as they represent collateral items that could be accessed in the event of account recovery"
+"Key Features"	"Record and classify leased items. Oversee/review leased item status and valuation checks. Confirm the maintenance, certification and insurance arrangements are in place"
+"Functional Pattern"	Administer
+"Asset Type"	LeasingItem
+"Generic Artifact"	AdministrativePlan
+"Control Record"	LeasingItemAdministrativePlan
+"Registration Status"	Registered

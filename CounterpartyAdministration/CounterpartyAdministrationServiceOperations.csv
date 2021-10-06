@@ -1,0 +1,5 @@
+"Service Operations for: "	Counterparty Administration
+"Control Record Model for Counterparty Administration is not defined"
+"POST"	"/counterparty-administration/activation"
+"PUT"	"/counterparty-administration/{sd-reference-id}/configuration"
+"PUT"	"/counterparty-administration/{sd-reference-id}/feedback"

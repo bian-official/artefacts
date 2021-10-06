@@ -1,0 +1,13 @@
+"Service Domain specification for Credit Risk Operations"
+"Business Area"	Products
+"Business Domain"	Market Operations
+"Service Domain"	Credit Risk Operations
+"Role Definition"	"Provide an execution level check of credit exposure for market trading activity"
+"Example of use"	"A trading desk checks a proposed trade against trading credit limits"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Monitor
+"Asset Type"	TradingCreditPosition
+"Generic Artifact"	State
+"Control Record"	TradingCreditPositionMeasurement
+"Registration Status"	Registered

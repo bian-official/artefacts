@@ -1,0 +1,13 @@
+"Service Domain specification for Reward Points Awards And Redemption"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Reward Points Awards And Redemption
+"Role Definition"	"This service domain handles the allocation and redemption of rewards points for customer transaction activity. In order to determine the reward point transaction and apply associated costs the service domain will access reward point arrangement agreements with the customers, merchants and related rewards programs. Note that the interactions between reward programs can be quite complex when 3rd party reward programs are integrated with the bank's own reward programs"
+"Example of use"	"Example of use:. A customer redeems bank reward points in order to finance a purchase with a bank associated vendor for air travel. The financial transaction engages the service domain in order to determine redemption requirements and associated payment requirements"
+"Executive Summary"	"Handle the allocation and redemption of rewards points for customer transaction activity"
+"Key Features"	"Financial transaction evaluation (price to agreements). Reward point redemption transaction. Associated cash payment initiation"
+"Functional Pattern"	Transact
+"Asset Type"	RewardPoints
+"Generic Artifact"	Transaction
+"Control Record"	RewardPointsTransaction
+"Registration Status"	Registered

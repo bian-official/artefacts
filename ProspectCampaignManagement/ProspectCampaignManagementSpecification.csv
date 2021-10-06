@@ -1,0 +1,13 @@
+"Service Domain specification for Prospect Campaign Management"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Prospect Campaign Management
+"Role Definition"	"Oversee the use and assess the coverage and impact of external/prospect campaigns. Direct prospect campaign execution resources to maximize business impact and in response to any identified market opportunities and threats. Oversee campaign design and development activity."
+"Example of use"	"Prospect Campaign Management identifies competitor activity that is targeting an untapped market segment. Campaign design is initiated to develop a competitive acquisition campaign to address the threat"
+"Executive Summary"	"Assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly"
+"Key Features"	"Track market/competitor activity. Assess customer segment performance/opportunities. Assess coverage of prospect campaigns. Direct the development of prospect campaigns. Direct the execution of prospect campaigns"
+"Functional Pattern"	Manage
+"Asset Type"	ProspectCampaignPortfolio
+"Generic Artifact"	ManagementPlan
+"Control Record"	ProspectCampaignPortfolioManagementPlan
+"Registration Status"	Provisional

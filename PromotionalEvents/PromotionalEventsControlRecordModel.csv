@@ -1,0 +1,30 @@
+"Control Record Model for: "	Promotional Events
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Market Tracking Instance Record	""	""	""
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task Type	"The type of work task (e.g. track promotional event activity, assess participation impact)"	String
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task	"The make-up of the market tracking task performed, includes consolidation and analysis of market research to assess brand awareness and  the impact of promotional events"	String
+"BQ"	BQ Market Tracking Instance Record	General Market Research Directory Entry Instance Reference	"Reference to an internally maintained market research viewpoint"	Object
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task Work Products	"File of consolidated notes, evaluations and findings for the market tracking work task"	String
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task Result	"Details of the outcome or result of the work task - typically points of view drawn from the market research"	String
+"BQ"	BQ Market Tracking Instance Record	Market Tracking Work Task Date-Time	"The date-time the market tracking task is performed"	Date
+"BQ"	BQ Participation Instance Record	""	""	""
+"BQ"	BQ Participation Instance Record	Promotional Event Participation Instance Reference	"Reference to the promotional event execution"	Object
+"BQ"	BQ Participation Instance Record	Promotional Event Sponsorship Budget	"The make-up of the sponsorship arrangements for participation in the event"	String
+"BQ"	BQ Participation Instance Record	Employee/Business Unit Reference	"Reference to the business unit responsible for coordinating with the promotional event"	Object
+"BQ"	BQ Participation Instance Record	Promotional Event Execution Schedule	"The schedule for participation in the event"	String
+"BQ"	BQ Participation Instance Record	Promotional Event Result	"The result/impact of the overall promotional event  (can refer to any detected up-tick in brand awareness and sales)"	String
+"CR"	CR Promotional Event Management Plan Instance Record	""	""	""
+"CR"	CR Promotional Event Management Plan Instance Record	Promotional Event Portfolio	"The collection of promotional events that is used to assess performance and coverage and support promotional event sponsorship and participation decisions"	String
+"CR"	CR Promotional Event Management Plan Instance Record	Promotional Event Type	"The type of promotional event (e.g. sports event, art/entertainment event, media event)"	String
+"CR"	CR Promotional Event Management Plan Instance Record	Promotional Event Description	"A description of the promotional event that clarifies the required sponsorship and participation and the anticipated marketing impact and target audience"	String
+"CR"	CR Promotional Event Management Plan Instance Record	Promotional Event Metrics	"Metrics that are defined to assess the target and actual impact of the promotional event"	String
+"CR"	CR Promotional Event Management Plan Instance Record	Promotional Event Metric Definition	"A description of the metric, defining how it is to be measured during and after the event"	String
+"CR"	CR Promotional Event Management Plan Instance Record	Promotional Event Metric Goal	"A description of the target performance for the metric"	String
+"CR"	CR Promotional Event Management Plan Instance Record	Promotional Event Schedule	"The schedule of involvement in the portfolio/collection of promotional events"	String
+"CR"	CR Promotional Event Management Plan Instance Record	Promotional Event Performance Record	"Maintains a consolidated record of the impact of the portfolio of promotional events"	String
+"BQ"	BQ Impact Assessment Instance Record	""	""	""
+"BQ"	BQ Impact Assessment Instance Record	Impact Assessment Work Task Type	"The type of work task (e.g. track market response to promotional event participation)"	String
+"BQ"	BQ Impact Assessment Instance Record	Impact Assessment Work Task	"The make-up of the market tracking task performed, includes consolidation and analysis of market research"	String
+"BQ"	BQ Impact Assessment Instance Record	Impact Assessment Work Task Work Products	"File of consolidated notes, evaluations and findings for the work task"	String
+"BQ"	BQ Impact Assessment Instance Record	Impact Assessment Work Task Result	"Details of the outcome or result of the work task - indication of the need to redirect and/or expand promotional event activity"	String
+"BQ"	BQ Impact Assessment Instance Record	Impact Assessment Work Task Date-Time	"The date-time the performance assessment task is performed"	Date

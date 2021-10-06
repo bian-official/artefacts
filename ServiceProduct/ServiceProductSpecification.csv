@@ -1,0 +1,13 @@
+"Service Domain specification for Service Product"
+"Business Area"	Products
+"Business Domain"	Consumer Banking
+"Service Domain"	Service Product
+"Role Definition"	"Represent the general facility at the core of the consumer and small business banking activity. The fulfillment will focus on the pricing of the Service Product resulting in fees , charges, and equivalents such as bonus points"
+"Example of use"	"Services such as tax consulting, fees for research information, advisory services"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	ServiceProduct
+"Generic Artifact"	Facility (rename)
+"Control Record"	ServiceProductArrangement
+"Registration Status"	Registered

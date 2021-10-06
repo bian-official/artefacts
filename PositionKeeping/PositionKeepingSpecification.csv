@@ -1,0 +1,13 @@
+"Service Domain specification for Position Keeping"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Position Keeping
+"Role Definition"	"Maintain a log of financial transactions for management information, tracking and reconciliation purposes.  It can offer utilities that enable it to maintain balances/positions, to calculate interest and to support transaction reconciliation activities The financial transactions are subsequently posted to the accounting systems"
+"Example of use"	"Example of use:. Any product fulfillment domain, current account, savings account, credit card, etc, delegates transaction posting/track to the Position Keeping service domain."
+"Executive Summary"	"This service domain maintains a financial transaction log to support production. Reconciled financial transactions are subsequently posted to the accounting systems"
+"Key Features"	"Configure the transaction log for recording services. Post transactions. Repair/update transactions. Maintain positions as configured (includes limits and blocks). Provide simple accounting services (e.g. interest accruals). Provide transaction reporting and alert services"
+"Functional Pattern"	Track
+"Asset Type"	FinancialPosition
+"Generic Artifact"	Log
+"Control Record"	FinancialPositionLog
+"Registration Status"	Registered

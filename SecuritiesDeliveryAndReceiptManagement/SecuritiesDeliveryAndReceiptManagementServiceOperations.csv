@@ -1,0 +1,5 @@
+"Service Operations for: "	Securities Delivery And Receipt Management
+"Control Record Model for Securities Delivery And Receipt Management is not defined"
+"POST"	"/securities-delivery-and-receipt-management/activation"
+"PUT"	"/securities-delivery-and-receipt-management/{sd-reference-id}/configuration"
+"PUT"	"/securities-delivery-and-receipt-management/{sd-reference-id}/feedback"

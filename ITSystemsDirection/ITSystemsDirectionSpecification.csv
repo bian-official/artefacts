@@ -1,0 +1,13 @@
+"Service Domain specification for IT Systems Direction"
+"Business Area"	Business Management
+"Business Domain"	Business Direction
+"Service Domain"	IT Systems Direction
+"Role Definition"	"Define, communicate and direct the execution of the IT strategy and plan in support of the broader enterprise business strategy, plan and policies"
+"Example of use"	"The IT unit develops its plan and budget for systems development and operations for the business"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Direct
+"Asset Type"	ITSystems
+"Generic Artifact"	Strategy
+"Control Record"	ITSystemsStrategy
+"Registration Status"	Registered

@@ -1,0 +1,31 @@
+"Control Record Model for: "	Point of Service
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Assisted Instance Record	""	""	""
+"BQ"	BQ Assisted Instance Record	Employee/Business Unit Reference	"Reference to the employee or unit staffing the POS"	Object
+"BQ"	BQ Assisted Instance Record	Customer Contact Reference	"Reference to the contact record reference for the serviced customer"	Object
+"CR"	CR Point of Service Operating Session Instance Record	""	""	""
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Configuration/Set-up	"Defines how the servicing position is set-up in terms of supporting functions and application connections"	String
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Reference	"Reference to the servicing position, used to route customer contacts"	Object
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Type	"Defines the type of position (e.g. teller, relationship manager, servicing agent)"	String
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Location	"The physical address/location of the position, branch reference etc."	String
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Facility Type	"The type of function supported at the POS  (e.g. customer servicing, FX, teller services, commissions)"	String
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Facility Reference	"Reference to the facilities and applications available/supporting the POS  (e.g. customer servicing, FX, teller services, commissions)"	Object
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Schedule	"The times the position will be available/staffed within this session. Allows for booking time in advance"	String
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Activity Report	"Log of the activities during the session"	String
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Operating Session Statistics	"Service activity statistics that are maintained during the session  (e.g. average contact time, wait time, service utilization, facility usage)"	String
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Operating Session Report Type	"Session reports that can be accessed during the session (e.g. real-time status, session statistics)"	String
+"CR"	CR Point of Service Operating Session Instance Record	Servicing Position Operating Session Report	"The session activity report"	String
+"BQ"	BQ Inventory Instance Record	""	""	""
+"BQ"	BQ Inventory Instance Record	Servicing Inventory Type	"The type of non-cash inventory (e.g. documents/forms, brochures)"	String
+"BQ"	BQ Inventory Instance Record	Servicing Position Inventory Record	"Used to track inventory holdings at the position"	String
+"BQ"	BQ Inventory Instance Record	Servicing Inventory Transaction Record	"Details of the transfer of inventory (e.g. documents issued)"	String
+"BQ"	BQ Automated Instance Record	""	""	""
+"BQ"	BQ Automated Instance Record	Business Unit Reference	"The business unit responsible for the automated service"	Object
+"BQ"	BQ Interaction Instance Record	""	""	""
+"BQ"	BQ Interaction Instance Record	Customer Session Dialogue Reference	"Reference to a customer contact session interaction log for the customer contacts handled at the position"	Object
+"BQ"	BQ Cash Position Instance Record	""	""	""
+"BQ"	BQ Cash Position Instance Record	Servicing Currency	"The currency being tracked"	CurrencyCode
+"BQ"	BQ Cash Position Instance Record	Servicing Cash Holding Record	"The current holding by currency/instrument"	String
+"BQ"	BQ Cash Position Instance Record	Servicing Cash Transaction Reference	"Reference to a cash transaction"	Object
+"BQ"	BQ Cash Position Instance Record	Servicing Cash Transaction Record	"Details of the cash transaction (e.g. cash deposited to customer account)"	String
+"BQ"	BQ Cash Position Instance Record	Product Instance Reference	"The link to the account product instance used to effect payments from the position"	Object

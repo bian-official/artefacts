@@ -1,0 +1,13 @@
+"Service Domain specification for Location Data Management"
+"Business Area"	Customers
+"Business Domain"	Party Reference
+"Service Domain"	Location Data Management
+"Role Definition"	"The maintenance of location details is used to check the validity, allowed use and occupancy of locations - both physical and virtual. This information can be augmented using external directory services when appropriate. The information is used for authentication and security purposes, and can also be used for interactive location based sales and marketing when combined with location tracking services/capabilities"
+"Example of use"	"A new prospect provides an address as their place of residence. It is checked to be a valid/known location for residential use."
+"Executive Summary"	"This service domain maintain details of the use and state of locations of interest to the bank. This can include both physical and virtual addresses. It is used to check for valid use and for sales/marketing activities"
+"Key Features"	"Maintain/confirm location address/details. Track allowed and actual location usage. Track location ownership/occupancy details"
+"Functional Pattern"	Catalog
+"Asset Type"	Location
+"Generic Artifact"	DirectoryEntry
+"Control Record"	LocationDirectoryEntry
+"Registration Status"	Registered

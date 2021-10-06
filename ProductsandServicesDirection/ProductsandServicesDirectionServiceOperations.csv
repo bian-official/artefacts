@@ -1,0 +1,5 @@
+"Service Operations for: "	Products and Services Direction
+"Control Record Model for Products and Services Direction is not defined"
+"POST"	"/products-and-services-direction/activation"
+"PUT"	"/products-and-services-direction/{sd-reference-id}/configuration"
+"PUT"	"/products-and-services-direction/{sd-reference-id}/feedback"

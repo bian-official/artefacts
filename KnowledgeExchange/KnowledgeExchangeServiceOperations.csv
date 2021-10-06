@@ -1,0 +1,242 @@
+"Service Operations for: "	Knowledge Exchange
+""
+"POST"	"/knowledge-exchange/activation"
+"PUT"	"/knowledge-exchange/{sd-reference-id}/configuration"
+"PUT"	"/knowledge-exchange/{sd-reference-id}/feedback"
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/intellectual-property-exchange-operating-session/{crbq-identifier}/control"
+""	1	"in"	"Intellectual Property Exchange Operating Session Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	2	"in"	"Intellectual Property Exchange Operating Session Status"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	3	"in"	"Intellectual Property Exchange Operating Session Usage Log"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	4	"inout"	"Intellectual Property Exchange Operating Session Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	5	"inout"	"Intellectual Property Exchange Operating Session ServiceProvider Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	6	"inout"	"Intellectual Property Exchange Operating Session Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	7	"inout"	"Intellectual Property Exchange Operating Session Service Provider Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	8	"inout"	"Intellectual Property Exchange Operating Session Service Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	9	"in"	"Intellectual Property Exchange Operating Session Service Configuration"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/capture-and--classification/{crbq-identifier}/exchange"
+""	1	"inout"	"Capture and  Classification Preconditions"	"BQ Capture and  Classification Instance Record"	String
+""	2	"inout"	"Capture and  Classification Function Schedule"	"BQ Capture and  Classification Instance Record"	String
+""	3	"inout"	"Content Capture and Classification"	"BQ Capture and  Classification Instance Record"	Business Service
+""	4	"inout"	"Content Capture and Classification Service Type"	"BQ Capture and  Classification Instance Record"	String
+""	5	"inout"	"Content Capture and Classification Service Description"	"BQ Capture and  Classification Instance Record"	String
+""	6	"inout"	"Content Capture and Classification Service Inputs and Ouputs"	"BQ Capture and  Classification Instance Record"	String
+""	7	"inout"	"Content Capture and Classification Service Work Product"	"BQ Capture and  Classification Instance Record"	String
+""	8	"inout"	"Content Capture and Classification Service Name"	"BQ Capture and  Classification Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/indexing-and--publication/{crbq-identifier}/exchange"
+""	1	"inout"	"Indexing and  Publication Preconditions"	"BQ Indexing and  Publication Instance Record"	String
+""	2	"inout"	"Indexing and  Publication Function Schedule"	"BQ Indexing and  Publication Instance Record"	String
+""	3	"inout"	"Content Indexing and Publication"	"BQ Indexing and  Publication Instance Record"	Business Service
+""	4	"inout"	"Content Indexing and Publication Service Type"	"BQ Indexing and  Publication Instance Record"	String
+""	5	"inout"	"Content Indexing and Publication Service Description"	"BQ Indexing and  Publication Instance Record"	String
+""	6	"inout"	"Content Indexing and Publication Service Inputs and Ouputs"	"BQ Indexing and  Publication Instance Record"	String
+""	7	"inout"	"Content Indexing and Publication Service Work Product"	"BQ Indexing and  Publication Instance Record"	String
+""	8	"inout"	"Content Indexing and Publication Service Name"	"BQ Indexing and  Publication Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/review,refinement-and--editing/{crbq-identifier}/exchange"
+""	1	"inout"	"Review,Refinement and  Editing Preconditions"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	2	"inout"	"Review,Refinement and  Editing Function Schedule"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	3	"inout"	"Content Review, Refinement and Editing"	"BQ Review,Refinement and  Editing Instance Record"	Business Service
+""	4	"inout"	"Content Review, Refinement and Editing Service Type"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	5	"inout"	"Content Review, Refinement and Editing Service Description"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	6	"inout"	"Content Review, Refinement and Editing Service Inputs and Ouputs"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	7	"inout"	"Content Review, Refinement and Editing Service Work Product"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	8	"inout"	"Content Review, Refinement and Editing Service Name"	"BQ Review,Refinement and  Editing Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/intellectual-property-exchange-operating-session/{crbq-identifier}/exchange"
+""	1	"in"	"Intellectual Property Exchange Operating Session Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	2	"in"	"Intellectual Property Exchange Operating Session Status"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	3	"in"	"Intellectual Property Exchange Operating Session Usage Log"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	4	"inout"	"Intellectual Property Exchange Operating Session Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	5	"inout"	"Intellectual Property Exchange Operating Session ServiceProvider Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	6	"inout"	"Intellectual Property Exchange Operating Session Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	7	"inout"	"Intellectual Property Exchange Operating Session Service Provider Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	8	"inout"	"Intellectual Property Exchange Operating Session Service Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	9	"in"	"Intellectual Property Exchange Operating Session Service Configuration"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/capture-and--classification/{crbq-identifier}/execution"
+""	1	"inout"	"Capture and  Classification Preconditions"	"BQ Capture and  Classification Instance Record"	String
+""	2	"inout"	"Capture and  Classification Function Schedule"	"BQ Capture and  Classification Instance Record"	String
+""	3	"inout"	"Content Capture and Classification"	"BQ Capture and  Classification Instance Record"	Business Service
+""	4	"inout"	"Content Capture and Classification Service Type"	"BQ Capture and  Classification Instance Record"	String
+""	5	"inout"	"Content Capture and Classification Service Description"	"BQ Capture and  Classification Instance Record"	String
+""	6	"inout"	"Content Capture and Classification Service Inputs and Ouputs"	"BQ Capture and  Classification Instance Record"	String
+""	7	"inout"	"Content Capture and Classification Service Work Product"	"BQ Capture and  Classification Instance Record"	String
+""	8	"inout"	"Content Capture and Classification Service Name"	"BQ Capture and  Classification Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/intellectual-property-exchange-operating-session/{crbq-identifier}/execution"
+""	1	"in"	"Intellectual Property Exchange Operating Session Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	2	"in"	"Intellectual Property Exchange Operating Session Status"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	3	"in"	"Intellectual Property Exchange Operating Session Usage Log"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	4	"inout"	"Intellectual Property Exchange Operating Session Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	5	"inout"	"Intellectual Property Exchange Operating Session ServiceProvider Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	6	"inout"	"Intellectual Property Exchange Operating Session Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	7	"inout"	"Intellectual Property Exchange Operating Session Service Provider Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	8	"inout"	"Intellectual Property Exchange Operating Session Service Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	9	"in"	"Intellectual Property Exchange Operating Session Service Configuration"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""
+"Post"	"/knowledge-exchange/{sd-identifier}/capture-and--classification/{crbq-identifier}/initiation"
+""	1	"inout"	"Capture and  Classification Preconditions"	"BQ Capture and  Classification Instance Record"	String
+""	2	"inout"	"Capture and  Classification Function Schedule"	"BQ Capture and  Classification Instance Record"	String
+""	3	"inout"	"Content Capture and Classification"	"BQ Capture and  Classification Instance Record"	Business Service
+""	4	"inout"	"Content Capture and Classification Service Type"	"BQ Capture and  Classification Instance Record"	String
+""	5	"inout"	"Content Capture and Classification Service Description"	"BQ Capture and  Classification Instance Record"	String
+""	6	"inout"	"Content Capture and Classification Service Inputs and Ouputs"	"BQ Capture and  Classification Instance Record"	String
+""	7	"inout"	"Content Capture and Classification Service Work Product"	"BQ Capture and  Classification Instance Record"	String
+""	8	"inout"	"Content Capture and Classification Service Name"	"BQ Capture and  Classification Instance Record"	String
+""
+"Post"	"/knowledge-exchange/{sd-identifier}/intellectual-property-exchange-operating-session/{crbq-identifier}/initiation"
+""	1	"in"	"Intellectual Property Exchange Operating Session Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	2	"in"	"Intellectual Property Exchange Operating Session Status"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	3	"in"	"Intellectual Property Exchange Operating Session Usage Log"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	4	"inout"	"Intellectual Property Exchange Operating Session Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	5	"inout"	"Intellectual Property Exchange Operating Session ServiceProvider Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	6	"inout"	"Intellectual Property Exchange Operating Session Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	7	"inout"	"Intellectual Property Exchange Operating Session Service Provider Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	8	"inout"	"Intellectual Property Exchange Operating Session Service Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	9	"in"	"Intellectual Property Exchange Operating Session Service Configuration"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""
+"Get"	"/knowledge-exchange/{sd-identifier}/archiving/{crbq-identifier}/retrieval"
+""	1	"out"	"Archiving Preconditions"	"BQ Archiving Instance Record"	String
+""	2	"out"	"Archiving Function Schedule"	"BQ Archiving Instance Record"	String
+""	3	"out"	"Content Archiving"	"BQ Archiving Instance Record"	Business Service
+""	4	"out"	"Content Archiving Service Type"	"BQ Archiving Instance Record"	String
+""	5	"out"	"Content Archiving Service Description"	"BQ Archiving Instance Record"	String
+""	6	"out"	"Content Archiving Service Inputs and Ouputs"	"BQ Archiving Instance Record"	String
+""	7	"out"	"Content Archiving Service Work Product"	"BQ Archiving Instance Record"	String
+""	8	"out"	"Content Archiving Service Name"	"BQ Archiving Instance Record"	String
+""
+"Get"	"/knowledge-exchange/{sd-identifier}/capture-and--classification/{crbq-identifier}/retrieval"
+""	1	"out"	"Capture and  Classification Preconditions"	"BQ Capture and  Classification Instance Record"	String
+""	2	"out"	"Capture and  Classification Function Schedule"	"BQ Capture and  Classification Instance Record"	String
+""	3	"out"	"Content Capture and Classification"	"BQ Capture and  Classification Instance Record"	Business Service
+""	4	"out"	"Content Capture and Classification Service Type"	"BQ Capture and  Classification Instance Record"	String
+""	5	"out"	"Content Capture and Classification Service Description"	"BQ Capture and  Classification Instance Record"	String
+""	6	"out"	"Content Capture and Classification Service Inputs and Ouputs"	"BQ Capture and  Classification Instance Record"	String
+""	7	"out"	"Content Capture and Classification Service Work Product"	"BQ Capture and  Classification Instance Record"	String
+""	8	"out"	"Content Capture and Classification Service Name"	"BQ Capture and  Classification Instance Record"	String
+""
+"Get"	"/knowledge-exchange/{sd-identifier}/indexing-and--publication/{crbq-identifier}/retrieval"
+""	1	"out"	"Indexing and  Publication Preconditions"	"BQ Indexing and  Publication Instance Record"	String
+""	2	"out"	"Indexing and  Publication Function Schedule"	"BQ Indexing and  Publication Instance Record"	String
+""	3	"out"	"Content Indexing and Publication"	"BQ Indexing and  Publication Instance Record"	Business Service
+""	4	"out"	"Content Indexing and Publication Service Type"	"BQ Indexing and  Publication Instance Record"	String
+""	5	"out"	"Content Indexing and Publication Service Description"	"BQ Indexing and  Publication Instance Record"	String
+""	6	"out"	"Content Indexing and Publication Service Inputs and Ouputs"	"BQ Indexing and  Publication Instance Record"	String
+""	7	"out"	"Content Indexing and Publication Service Work Product"	"BQ Indexing and  Publication Instance Record"	String
+""	8	"out"	"Content Indexing and Publication Service Name"	"BQ Indexing and  Publication Instance Record"	String
+""
+"Get"	"/knowledge-exchange/{sd-identifier}/maintenance-and--access-administration/{crbq-identifier}/retrieval"
+""	1	"out"	"Maintenance and  Access Administration Preconditions"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	2	"out"	"Maintenance and  Access Administration Function Schedule"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	3	"out"	"Content Maintenance and Access Administration"	"BQ Maintenance and  Access Administration Instance Record"	Business Service
+""	4	"out"	"Content Maintenance and Access Administration Service Type"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	5	"out"	"Content Maintenance and Access Administration Service Description"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	6	"out"	"Content Maintenance and Access Administration Service Inputs and Ouputs"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	7	"out"	"Content Maintenance and Access Administration Service Work Product"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	8	"out"	"Content Maintenance and Access Administration Service Name"	"BQ Maintenance and  Access Administration Instance Record"	String
+""
+"Get"	"/knowledge-exchange/{sd-identifier}/review,refinement-and--editing/{crbq-identifier}/retrieval"
+""	1	"out"	"Review,Refinement and  Editing Preconditions"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	2	"out"	"Review,Refinement and  Editing Function Schedule"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	3	"out"	"Content Review, Refinement and Editing"	"BQ Review,Refinement and  Editing Instance Record"	Business Service
+""	4	"out"	"Content Review, Refinement and Editing Service Type"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	5	"out"	"Content Review, Refinement and Editing Service Description"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	6	"out"	"Content Review, Refinement and Editing Service Inputs and Ouputs"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	7	"out"	"Content Review, Refinement and Editing Service Work Product"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	8	"out"	"Content Review, Refinement and Editing Service Name"	"BQ Review,Refinement and  Editing Instance Record"	String
+""
+"Get"	"/knowledge-exchange/{sd-identifier}/intellectual-property-exchange-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"Intellectual Property Exchange Operating Session Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	2	"out"	"Intellectual Property Exchange Operating Session Status"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	3	"out"	"Intellectual Property Exchange Operating Session Usage Log"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	4	"out"	"Intellectual Property Exchange Operating Session Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	5	"out"	"Intellectual Property Exchange Operating Session ServiceProvider Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	6	"out"	"Intellectual Property Exchange Operating Session Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	7	"out"	"Intellectual Property Exchange Operating Session Service Provider Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	8	"out"	"Intellectual Property Exchange Operating Session Service Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	9	"out"	"Intellectual Property Exchange Operating Session Service Configuration"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/capture-and--classification/{crbq-identifier}/requisition"
+""	1	"inout"	"Capture and  Classification Preconditions"	"BQ Capture and  Classification Instance Record"	String
+""	2	"inout"	"Capture and  Classification Function Schedule"	"BQ Capture and  Classification Instance Record"	String
+""	3	"inout"	"Content Capture and Classification"	"BQ Capture and  Classification Instance Record"	Business Service
+""	4	"inout"	"Content Capture and Classification Service Type"	"BQ Capture and  Classification Instance Record"	String
+""	5	"inout"	"Content Capture and Classification Service Description"	"BQ Capture and  Classification Instance Record"	String
+""	6	"inout"	"Content Capture and Classification Service Inputs and Ouputs"	"BQ Capture and  Classification Instance Record"	String
+""	7	"inout"	"Content Capture and Classification Service Work Product"	"BQ Capture and  Classification Instance Record"	String
+""	8	"inout"	"Content Capture and Classification Service Name"	"BQ Capture and  Classification Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/maintenance-and--access-administration/{crbq-identifier}/requisition"
+""	1	"inout"	"Maintenance and  Access Administration Preconditions"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	2	"inout"	"Maintenance and  Access Administration Function Schedule"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	3	"inout"	"Content Maintenance and Access Administration"	"BQ Maintenance and  Access Administration Instance Record"	Business Service
+""	4	"inout"	"Content Maintenance and Access Administration Service Type"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	5	"inout"	"Content Maintenance and Access Administration Service Description"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	6	"inout"	"Content Maintenance and Access Administration Service Inputs and Ouputs"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	7	"inout"	"Content Maintenance and Access Administration Service Work Product"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	8	"inout"	"Content Maintenance and Access Administration Service Name"	"BQ Maintenance and  Access Administration Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/intellectual-property-exchange-operating-session/{crbq-identifier}/requisition"
+""	1	"in"	"Intellectual Property Exchange Operating Session Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	2	"in"	"Intellectual Property Exchange Operating Session Status"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	3	"in"	"Intellectual Property Exchange Operating Session Usage Log"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	4	"inout"	"Intellectual Property Exchange Operating Session Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	5	"inout"	"Intellectual Property Exchange Operating Session ServiceProvider Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	6	"inout"	"Intellectual Property Exchange Operating Session Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	7	"inout"	"Intellectual Property Exchange Operating Session Service Provider Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	8	"inout"	"Intellectual Property Exchange Operating Session Service Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	9	"in"	"Intellectual Property Exchange Operating Session Service Configuration"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/capture-and--classification/{crbq-identifier}/update"
+""	1	"inout"	"Capture and  Classification Preconditions"	"BQ Capture and  Classification Instance Record"	String
+""	2	"inout"	"Capture and  Classification Function Schedule"	"BQ Capture and  Classification Instance Record"	String
+""	3	"inout"	"Content Capture and Classification"	"BQ Capture and  Classification Instance Record"	Business Service
+""	4	"inout"	"Content Capture and Classification Service Type"	"BQ Capture and  Classification Instance Record"	String
+""	5	"inout"	"Content Capture and Classification Service Description"	"BQ Capture and  Classification Instance Record"	String
+""	6	"inout"	"Content Capture and Classification Service Inputs and Ouputs"	"BQ Capture and  Classification Instance Record"	String
+""	7	"inout"	"Content Capture and Classification Service Work Product"	"BQ Capture and  Classification Instance Record"	String
+""	8	"inout"	"Content Capture and Classification Service Name"	"BQ Capture and  Classification Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/indexing-and--publication/{crbq-identifier}/update"
+""	1	"inout"	"Indexing and  Publication Preconditions"	"BQ Indexing and  Publication Instance Record"	String
+""	2	"inout"	"Indexing and  Publication Function Schedule"	"BQ Indexing and  Publication Instance Record"	String
+""	3	"inout"	"Content Indexing and Publication"	"BQ Indexing and  Publication Instance Record"	Business Service
+""	4	"inout"	"Content Indexing and Publication Service Type"	"BQ Indexing and  Publication Instance Record"	String
+""	5	"inout"	"Content Indexing and Publication Service Description"	"BQ Indexing and  Publication Instance Record"	String
+""	6	"inout"	"Content Indexing and Publication Service Inputs and Ouputs"	"BQ Indexing and  Publication Instance Record"	String
+""	7	"inout"	"Content Indexing and Publication Service Work Product"	"BQ Indexing and  Publication Instance Record"	String
+""	8	"inout"	"Content Indexing and Publication Service Name"	"BQ Indexing and  Publication Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/maintenance-and--access-administration/{crbq-identifier}/update"
+""	1	"inout"	"Maintenance and  Access Administration Preconditions"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	2	"inout"	"Maintenance and  Access Administration Function Schedule"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	3	"inout"	"Content Maintenance and Access Administration"	"BQ Maintenance and  Access Administration Instance Record"	Business Service
+""	4	"inout"	"Content Maintenance and Access Administration Service Type"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	5	"inout"	"Content Maintenance and Access Administration Service Description"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	6	"inout"	"Content Maintenance and Access Administration Service Inputs and Ouputs"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	7	"inout"	"Content Maintenance and Access Administration Service Work Product"	"BQ Maintenance and  Access Administration Instance Record"	String
+""	8	"inout"	"Content Maintenance and Access Administration Service Name"	"BQ Maintenance and  Access Administration Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/review,refinement-and--editing/{crbq-identifier}/update"
+""	1	"inout"	"Review,Refinement and  Editing Preconditions"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	2	"inout"	"Review,Refinement and  Editing Function Schedule"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	3	"inout"	"Content Review, Refinement and Editing"	"BQ Review,Refinement and  Editing Instance Record"	Business Service
+""	4	"inout"	"Content Review, Refinement and Editing Service Type"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	5	"inout"	"Content Review, Refinement and Editing Service Description"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	6	"inout"	"Content Review, Refinement and Editing Service Inputs and Ouputs"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	7	"inout"	"Content Review, Refinement and Editing Service Work Product"	"BQ Review,Refinement and  Editing Instance Record"	String
+""	8	"inout"	"Content Review, Refinement and Editing Service Name"	"BQ Review,Refinement and  Editing Instance Record"	String
+""
+"Put"	"/knowledge-exchange/{sd-identifier}/intellectual-property-exchange-operating-session/{crbq-identifier}/update"
+""	1	"in"	"Intellectual Property Exchange Operating Session Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	2	"in"	"Intellectual Property Exchange Operating Session Status"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	3	"in"	"Intellectual Property Exchange Operating Session Usage Log"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	4	"inout"	"Intellectual Property Exchange Operating Session Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	5	"inout"	"Intellectual Property Exchange Operating Session ServiceProvider Reference"	"CR Intellectual Property Exchange Operating Session Instance Record"	Object
+""	6	"inout"	"Intellectual Property Exchange Operating Session Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	7	"inout"	"Intellectual Property Exchange Operating Session Service Provider Schedule"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	8	"inout"	"Intellectual Property Exchange Operating Session Service Type"	"CR Intellectual Property Exchange Operating Session Instance Record"	String
+""	9	"in"	"Intellectual Property Exchange Operating Session Service Configuration"	"CR Intellectual Property Exchange Operating Session Instance Record"	String

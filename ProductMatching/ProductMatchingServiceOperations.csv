@@ -1,0 +1,224 @@
+"Service Operations for: "	Product Matching
+""
+"POST"	"/product-matching/activation"
+"PUT"	"/product-matching/{sd-reference-id}/configuration"
+"PUT"	"/product-matching/{sd-reference-id}/feedback"
+""
+"Get"	"/product-matching/{sd-identifier}/product/customer-combination-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"263086"	String
+""	2	"out"	"Customer Eligibility Assessment Instance Reference"	"263086"	String
+""	3	"out"	"Customer Reference Data Directory Entry Instance Reference"	"263086"	String
+""	4	"out"	"Customer Behavior Analysis Instance Reference"	"263086"	String
+""	5	"out"	"Product/Service Type"	"263086"	String
+""	6	"out"	"Product/Service Properties"	"263086"	String
+""	7	"out"	"Matching Context Indicator"	"263086"	String
+""	8	"out"	"Customer Product/Service Utilization"	"263086"	String
+""	9	"out"	"Bank Product Weightings/Priorities"	"263086"	String
+""	10	"out"	"Product Matching Assessment Result"	"263086"	String
+""
+"Put"	"/product-matching/{sd-identifier}/product/customer-combination-assessment/{crbq-identifier}/exchange"
+""	1	"inout"	"Product/Customer Combination Assessment Parameter Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	2	"inout"	"Product/Customer Combination Assessment Selected Option"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	3	"in"	"Product/Customer Combination Assessment Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	4	"in"	"Product/Customer Combination Assessment Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	5	"inout"	"Product/Customer Combination Assessment Request"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	6	"in"	"Product/Customer Combination Assessment Schedule"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	7	"in"	"Product/Customer Combination Assessment Status"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	8	"in"	"Product/Customer Combination Assessment Usage Log"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	9	"in"	"Product/Customer Combination Assessment ServiceProvider Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	10	"in"	"Product/Customer Combination Assessment Requester Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""
+"Put"	"/product-matching/{sd-identifier}/product/customer-combination-assessment/{crbq-identifier}/execution"
+""	1	"inout"	"Product/Customer Combination Assessment Parameter Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	2	"inout"	"Product/Customer Combination Assessment Selected Option"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	3	"in"	"Product/Customer Combination Assessment Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	4	"in"	"Product/Customer Combination Assessment Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	5	"inout"	"Product/Customer Combination Assessment Request"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	6	"in"	"Product/Customer Combination Assessment Schedule"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	7	"in"	"Product/Customer Combination Assessment Status"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	8	"in"	"Product/Customer Combination Assessment Usage Log"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	9	"in"	"Product/Customer Combination Assessment ServiceProvider Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	10	"in"	"Product/Customer Combination Assessment Requester Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""
+"Put"	"/product-matching/{sd-identifier}/product/customer-combination-assessment/{crbq-identifier}/grant"
+""	1	"inout"	"Product/Customer Combination Assessment Parameter Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	2	"inout"	"Product/Customer Combination Assessment Selected Option"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	3	"in"	"Product/Customer Combination Assessment Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	4	"in"	"Product/Customer Combination Assessment Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	5	"inout"	"Product/Customer Combination Assessment Request"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	6	"in"	"Product/Customer Combination Assessment Schedule"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	7	"in"	"Product/Customer Combination Assessment Status"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	8	"in"	"Product/Customer Combination Assessment Usage Log"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	9	"in"	"Product/Customer Combination Assessment ServiceProvider Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	10	"in"	"Product/Customer Combination Assessment Requester Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""
+"Post"	"/product-matching/{sd-identifier}/bank-and--campaign-alignment/{crbq-identifier}/initiation"
+""	1	"inout"	"Bank and  Campaign Alignment Preconditions"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	2	"inout"	"Bank and  Campaign Alignment Analysis Schedule"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	3	"inout"	"Bank and  Campaign Alignment Version Number"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	4	"inout"	"Bank and Campaign Alignment"	"BQ Bank and  Campaign Alignment Instance Record"	Business Service
+""	5	"inout"	"Bank and Campaign Alignment Service Type"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	6	"inout"	"Bank and Campaign Alignment Service Description"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	7	"inout"	"Bank and Campaign Alignment Service Inputs and Ouputs"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	8	"inout"	"Bank and Campaign Alignment Service Work Product"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	9	"inout"	"Bank and Campaign Alignment Service Name"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""
+"Post"	"/product-matching/{sd-identifier}/context-criteria/{crbq-identifier}/initiation"
+""	1	"inout"	"Context Criteria Preconditions"	"BQ Context Criteria Instance Record"	String
+""	2	"inout"	"Context Criteria Analysis Schedule"	"BQ Context Criteria Instance Record"	String
+""	3	"inout"	"Context Criteria Version Number"	"BQ Context Criteria Instance Record"	String
+""	4	"inout"	"Context Criteria Service Type"	"BQ Context Criteria Instance Record"	String
+""	5	"inout"	"Context Criteria Service Description"	"BQ Context Criteria Instance Record"	String
+""	6	"inout"	"Context Criteria Service Inputs and Ouputs"	"BQ Context Criteria Instance Record"	String
+""	7	"inout"	"Context Criteria Service Work Product"	"BQ Context Criteria Instance Record"	String
+""	8	"inout"	"Context Criteria Service Name"	"BQ Context Criteria Instance Record"	String
+""
+"Post"	"/product-matching/{sd-identifier}/product-eligibility/{crbq-identifier}/initiation"
+""	1	"inout"	"Product Eligibility Preconditions"	"BQ Product Eligibility Instance Record"	String
+""	2	"inout"	"Product Eligibility Analysis Schedule"	"BQ Product Eligibility Instance Record"	String
+""	3	"inout"	"Product Eligibility Version Number"	"BQ Product Eligibility Instance Record"	String
+""	4	"inout"	"Product Eligibility Service Type"	"BQ Product Eligibility Instance Record"	String
+""	5	"inout"	"Product Eligibility Service Description"	"BQ Product Eligibility Instance Record"	String
+""	6	"inout"	"Product Eligibility Service Inputs and Ouputs"	"BQ Product Eligibility Instance Record"	String
+""	7	"inout"	"Product Eligibility Service Work Product"	"BQ Product Eligibility Instance Record"	String
+""	8	"inout"	"Product Eligibility Service Name"	"BQ Product Eligibility Instance Record"	String
+""
+"Post"	"/product-matching/{sd-identifier}/product-type-selection/{crbq-identifier}/initiation"
+""	1	"inout"	"Product Type Selection Preconditions"	"BQ Product Type Selection Instance Record"	String
+""	2	"inout"	"Product Type Selection Analysis Schedule"	"BQ Product Type Selection Instance Record"	String
+""	3	"inout"	"Product Type Selection Version Number"	"BQ Product Type Selection Instance Record"	String
+""	4	"inout"	"Product Type Selection Service Type"	"BQ Product Type Selection Instance Record"	String
+""	5	"inout"	"Product Type Selection Service Description"	"BQ Product Type Selection Instance Record"	String
+""	6	"inout"	"Product Type Selection Service Inputs and Ouputs"	"BQ Product Type Selection Instance Record"	String
+""	7	"inout"	"Product Type Selection Service Work Product"	"BQ Product Type Selection Instance Record"	String
+""	8	"inout"	"Product Type Selection Service Name"	"BQ Product Type Selection Instance Record"	String
+""
+"Post"	"/product-matching/{sd-identifier}/product/customer-combination-assessment/{crbq-identifier}/initiation"
+""	1	"inout"	"Product/Customer Combination Assessment Parameter Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	2	"inout"	"Product/Customer Combination Assessment Selected Option"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	3	"in"	"Product/Customer Combination Assessment Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	4	"in"	"Product/Customer Combination Assessment Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	5	"inout"	"Product/Customer Combination Assessment Request"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	6	"in"	"Product/Customer Combination Assessment Schedule"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	7	"in"	"Product/Customer Combination Assessment Status"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	8	"in"	"Product/Customer Combination Assessment Usage Log"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	9	"in"	"Product/Customer Combination Assessment ServiceProvider Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	10	"in"	"Product/Customer Combination Assessment Requester Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""
+"Get"	"/product-matching/{sd-identifier}/bank-and--campaign-alignment/{crbq-identifier}/retrieval"
+""	1	"out"	"Bank and  Campaign Alignment Preconditions"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	2	"out"	"Bank and  Campaign Alignment Analysis Schedule"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	3	"out"	"Bank and  Campaign Alignment Version Number"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	4	"out"	"Bank and Campaign Alignment"	"BQ Bank and  Campaign Alignment Instance Record"	Business Service
+""	5	"out"	"Bank and Campaign Alignment Service Type"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	6	"out"	"Bank and Campaign Alignment Service Description"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	7	"out"	"Bank and Campaign Alignment Service Inputs and Ouputs"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	8	"out"	"Bank and Campaign Alignment Service Work Product"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	9	"out"	"Bank and Campaign Alignment Service Name"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""
+"Get"	"/product-matching/{sd-identifier}/context-criteria/{crbq-identifier}/retrieval"
+""	1	"out"	"Context Criteria Preconditions"	"BQ Context Criteria Instance Record"	String
+""	2	"out"	"Context Criteria Analysis Schedule"	"BQ Context Criteria Instance Record"	String
+""	3	"out"	"Context Criteria Version Number"	"BQ Context Criteria Instance Record"	String
+""	4	"out"	"Context Criteria Service Type"	"BQ Context Criteria Instance Record"	String
+""	5	"out"	"Context Criteria Service Description"	"BQ Context Criteria Instance Record"	String
+""	6	"out"	"Context Criteria Service Inputs and Ouputs"	"BQ Context Criteria Instance Record"	String
+""	7	"out"	"Context Criteria Service Work Product"	"BQ Context Criteria Instance Record"	String
+""	8	"out"	"Context Criteria Service Name"	"BQ Context Criteria Instance Record"	String
+""
+"Get"	"/product-matching/{sd-identifier}/product-eligibility/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Eligibility Preconditions"	"BQ Product Eligibility Instance Record"	String
+""	2	"out"	"Product Eligibility Analysis Schedule"	"BQ Product Eligibility Instance Record"	String
+""	3	"out"	"Product Eligibility Version Number"	"BQ Product Eligibility Instance Record"	String
+""	4	"out"	"Product Eligibility Service Type"	"BQ Product Eligibility Instance Record"	String
+""	5	"out"	"Product Eligibility Service Description"	"BQ Product Eligibility Instance Record"	String
+""	6	"out"	"Product Eligibility Service Inputs and Ouputs"	"BQ Product Eligibility Instance Record"	String
+""	7	"out"	"Product Eligibility Service Work Product"	"BQ Product Eligibility Instance Record"	String
+""	8	"out"	"Product Eligibility Service Name"	"BQ Product Eligibility Instance Record"	String
+""
+"Get"	"/product-matching/{sd-identifier}/product-type-selection/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Type Selection Preconditions"	"BQ Product Type Selection Instance Record"	String
+""	2	"out"	"Product Type Selection Analysis Schedule"	"BQ Product Type Selection Instance Record"	String
+""	3	"out"	"Product Type Selection Version Number"	"BQ Product Type Selection Instance Record"	String
+""	4	"out"	"Product Type Selection Service Type"	"BQ Product Type Selection Instance Record"	String
+""	5	"out"	"Product Type Selection Service Description"	"BQ Product Type Selection Instance Record"	String
+""	6	"out"	"Product Type Selection Service Inputs and Ouputs"	"BQ Product Type Selection Instance Record"	String
+""	7	"out"	"Product Type Selection Service Work Product"	"BQ Product Type Selection Instance Record"	String
+""	8	"out"	"Product Type Selection Service Name"	"BQ Product Type Selection Instance Record"	String
+""
+"Get"	"/product-matching/{sd-identifier}/product/customer-combination-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Customer Combination Assessment Parameter Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	2	"out"	"Product/Customer Combination Assessment Selected Option"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	3	"out"	"Product/Customer Combination Assessment Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	4	"out"	"Product/Customer Combination Assessment Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	5	"out"	"Product/Customer Combination Assessment Request"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	6	"out"	"Product/Customer Combination Assessment Schedule"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	7	"out"	"Product/Customer Combination Assessment Status"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	8	"out"	"Product/Customer Combination Assessment Usage Log"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	9	"out"	"Product/Customer Combination Assessment ServiceProvider Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	10	"out"	"Product/Customer Combination Assessment Requester Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""
+"Put"	"/product-matching/{sd-identifier}/product/customer-combination-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Product/Customer Combination Assessment Parameter Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	2	"inout"	"Product/Customer Combination Assessment Selected Option"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	3	"in"	"Product/Customer Combination Assessment Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	4	"in"	"Product/Customer Combination Assessment Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	5	"inout"	"Product/Customer Combination Assessment Request"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	6	"in"	"Product/Customer Combination Assessment Schedule"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	7	"in"	"Product/Customer Combination Assessment Status"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	8	"in"	"Product/Customer Combination Assessment Usage Log"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	9	"in"	"Product/Customer Combination Assessment ServiceProvider Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	10	"in"	"Product/Customer Combination Assessment Requester Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""
+"Put"	"/product-matching/{sd-identifier}/bank-and--campaign-alignment/{crbq-identifier}/update"
+""	1	"inout"	"Bank and  Campaign Alignment Preconditions"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	2	"inout"	"Bank and  Campaign Alignment Analysis Schedule"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	3	"inout"	"Bank and  Campaign Alignment Version Number"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	4	"inout"	"Bank and Campaign Alignment"	"BQ Bank and  Campaign Alignment Instance Record"	Business Service
+""	5	"inout"	"Bank and Campaign Alignment Service Type"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	6	"inout"	"Bank and Campaign Alignment Service Description"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	7	"inout"	"Bank and Campaign Alignment Service Inputs and Ouputs"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	8	"inout"	"Bank and Campaign Alignment Service Work Product"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""	9	"inout"	"Bank and Campaign Alignment Service Name"	"BQ Bank and  Campaign Alignment Instance Record"	String
+""
+"Put"	"/product-matching/{sd-identifier}/context-criteria/{crbq-identifier}/update"
+""	1	"inout"	"Context Criteria Preconditions"	"BQ Context Criteria Instance Record"	String
+""	2	"inout"	"Context Criteria Analysis Schedule"	"BQ Context Criteria Instance Record"	String
+""	3	"inout"	"Context Criteria Version Number"	"BQ Context Criteria Instance Record"	String
+""	4	"inout"	"Context Criteria Service Type"	"BQ Context Criteria Instance Record"	String
+""	5	"inout"	"Context Criteria Service Description"	"BQ Context Criteria Instance Record"	String
+""	6	"inout"	"Context Criteria Service Inputs and Ouputs"	"BQ Context Criteria Instance Record"	String
+""	7	"inout"	"Context Criteria Service Work Product"	"BQ Context Criteria Instance Record"	String
+""	8	"inout"	"Context Criteria Service Name"	"BQ Context Criteria Instance Record"	String
+""
+"Put"	"/product-matching/{sd-identifier}/product-eligibility/{crbq-identifier}/update"
+""	1	"inout"	"Product Eligibility Preconditions"	"BQ Product Eligibility Instance Record"	String
+""	2	"inout"	"Product Eligibility Analysis Schedule"	"BQ Product Eligibility Instance Record"	String
+""	3	"inout"	"Product Eligibility Version Number"	"BQ Product Eligibility Instance Record"	String
+""	4	"inout"	"Product Eligibility Service Type"	"BQ Product Eligibility Instance Record"	String
+""	5	"inout"	"Product Eligibility Service Description"	"BQ Product Eligibility Instance Record"	String
+""	6	"inout"	"Product Eligibility Service Inputs and Ouputs"	"BQ Product Eligibility Instance Record"	String
+""	7	"inout"	"Product Eligibility Service Work Product"	"BQ Product Eligibility Instance Record"	String
+""	8	"inout"	"Product Eligibility Service Name"	"BQ Product Eligibility Instance Record"	String
+""
+"Put"	"/product-matching/{sd-identifier}/product-type-selection/{crbq-identifier}/update"
+""	1	"inout"	"Product Type Selection Preconditions"	"BQ Product Type Selection Instance Record"	String
+""	2	"inout"	"Product Type Selection Analysis Schedule"	"BQ Product Type Selection Instance Record"	String
+""	3	"inout"	"Product Type Selection Version Number"	"BQ Product Type Selection Instance Record"	String
+""	4	"inout"	"Product Type Selection Service Type"	"BQ Product Type Selection Instance Record"	String
+""	5	"inout"	"Product Type Selection Service Description"	"BQ Product Type Selection Instance Record"	String
+""	6	"inout"	"Product Type Selection Service Inputs and Ouputs"	"BQ Product Type Selection Instance Record"	String
+""	7	"inout"	"Product Type Selection Service Work Product"	"BQ Product Type Selection Instance Record"	String
+""	8	"inout"	"Product Type Selection Service Name"	"BQ Product Type Selection Instance Record"	String
+""
+"Put"	"/product-matching/{sd-identifier}/product/customer-combination-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Product/Customer Combination Assessment Parameter Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	2	"inout"	"Product/Customer Combination Assessment Selected Option"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	3	"in"	"Product/Customer Combination Assessment Type"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	4	"in"	"Product/Customer Combination Assessment Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	5	"inout"	"Product/Customer Combination Assessment Request"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	6	"in"	"Product/Customer Combination Assessment Schedule"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	7	"in"	"Product/Customer Combination Assessment Status"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	8	"in"	"Product/Customer Combination Assessment Usage Log"	"CR Product/Customer Combination Assessment Instance Record"	String
+""	9	"in"	"Product/Customer Combination Assessment ServiceProvider Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object
+""	10	"in"	"Product/Customer Combination Assessment Requester Reference"	"CR Product/Customer Combination Assessment Instance Record"	Object

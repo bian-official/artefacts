@@ -1,0 +1,5 @@
+"Service Operations for: "	Quant Model
+"Control Record Model for Quant Model is not defined"
+"POST"	"/quant-model/activation"
+"PUT"	"/quant-model/{sd-reference-id}/configuration"
+"PUT"	"/quant-model/{sd-reference-id}/feedback"

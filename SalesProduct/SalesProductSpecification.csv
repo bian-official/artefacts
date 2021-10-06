@@ -1,0 +1,13 @@
+"Service Domain specification for Sales Product"
+"Business Area"	Products
+"Business Domain"	Consumer Banking
+"Service Domain"	Sales Product
+"Role Definition"	"A sales product defines specific constraints and terms that augment the features of the base product it 'wraps'. It is used to support customization or core products to address specific market needs and opportunities with more  narrowly targeted products"
+"Example of use"	"A bank packages its Current Account product with features suited to students as part of a prospect campaign"
+"Executive Summary"	"A representation of a product as sold to a customer, covering the operational fulfillment requirements"
+"Key Features"	"Link to core/underlying product instance. Support specific product constraints/processing terms. Enable/link to additional service features"
+"Functional Pattern"	Agree Terms
+"Asset Type"	ProductandService
+"Generic Artifact"	Agreement
+"Control Record"	ProductandServiceAgreement
+"Registration Status"	Registered

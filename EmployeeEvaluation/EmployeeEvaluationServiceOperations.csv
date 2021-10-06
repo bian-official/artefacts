@@ -1,0 +1,5 @@
+"Service Operations for: "	Employee Evaluation
+"Control Record Model for Employee Evaluation is not defined"
+"POST"	"/employee-evaluation/activation"
+"PUT"	"/employee-evaluation/{sd-reference-id}/configuration"
+"PUT"	"/employee-evaluation/{sd-reference-id}/feedback"

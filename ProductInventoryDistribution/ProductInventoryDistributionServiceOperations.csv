@@ -1,0 +1,241 @@
+"Service Operations for: "	Product Inventory Distribution
+""
+"POST"	"/product-inventory-distribution/activation"
+"PUT"	"/product-inventory-distribution/{sd-reference-id}/configuration"
+"PUT"	"/product-inventory-distribution/{sd-reference-id}/feedback"
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/distribution/{crbq-identifier}/capture"
+""	1	"inout"	"Distribution Preconditions"	"BQ Distribution Instance Record"	String
+""	2	"inout"	"Distribution Business Unit/Employee Reference"	"BQ Distribution Instance Record"	Object
+""	3	"inout"	"Distribution Work Schedule"	"BQ Distribution Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Distribution Instance Record"	Business Service
+""	5	"inout"	"Distribution Postconditions"	"BQ Distribution Instance Record"	String
+""	6	"inout"	"Distribution Service Type"	"BQ Distribution Instance Record"	String
+""	7	"inout"	"Distribution Service Description"	"BQ Distribution Instance Record"	String
+""	8	"inout"	"Distribution Service Inputs and Ouputs"	"BQ Distribution Instance Record"	String
+""	9	"inout"	"Distribution Service Work Product"	"BQ Distribution Instance Record"	String
+""	10	"inout"	"Distribution Service Name"	"BQ Distribution Instance Record"	String
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/mailing/{crbq-identifier}/capture"
+""	1	"inout"	"Mailing Preconditions"	"BQ Mailing Instance Record"	String
+""	2	"inout"	"Mailing Business Unit/Employee Reference"	"BQ Mailing Instance Record"	Object
+""	3	"inout"	"Mailing Work Schedule"	"BQ Mailing Instance Record"	String
+""	4	"inout"	"Mailing Postconditions"	"BQ Mailing Instance Record"	String
+""	5	"inout"	"Mailing Mailing Service Type"	"BQ Mailing Instance Record"	String
+""	6	"inout"	"Mailing Mailing Service Description"	"BQ Mailing Instance Record"	String
+""	7	"inout"	"Mailing Mailing Service Inputs and Ouputs"	"BQ Mailing Instance Record"	String
+""	8	"inout"	"Mailing Mailing Service Work Product"	"BQ Mailing Instance Record"	String
+""	9	"inout"	"Mailing Mailing Service Name"	"BQ Mailing Instance Record"	String
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/oversight/{crbq-identifier}/capture"
+""	1	"inout"	"Oversight Preconditions"	"BQ Oversight Instance Record"	String
+""	2	"inout"	"Oversight Business Unit/Employee Reference"	"BQ Oversight Instance Record"	Object
+""	3	"inout"	"Oversight Work Schedule"	"BQ Oversight Instance Record"	String
+""	4	"inout"	"Administrative Oversight"	"BQ Oversight Instance Record"	Business Service
+""	5	"inout"	"Oversight Postconditions"	"BQ Oversight Instance Record"	String
+""	6	"inout"	"Oversight Administrative Oversight Service Type"	"BQ Oversight Instance Record"	String
+""	7	"inout"	"Oversight Administrative Oversight Service Description"	"BQ Oversight Instance Record"	String
+""	8	"inout"	"Oversight Administrative Oversight Service Inputs and Ouputs"	"BQ Oversight Instance Record"	String
+""	9	"inout"	"Oversight Administrative Oversight Service Work Product"	"BQ Oversight Instance Record"	String
+""	10	"inout"	"Oversight Administrative Oversight Service Name"	"BQ Oversight Instance Record"	String
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/provisioning/{crbq-identifier}/capture"
+""	1	"inout"	"Provisioning Preconditions"	"BQ Provisioning Instance Record"	String
+""	2	"inout"	"Provisioning Business Unit/Employee Reference"	"BQ Provisioning Instance Record"	Object
+""	3	"inout"	"Provisioning Work Schedule"	"BQ Provisioning Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Provisioning Instance Record"	Business Service
+""	5	"inout"	"Provisioning Postconditions"	"BQ Provisioning Instance Record"	String
+""	6	"inout"	"Provisioning Service Type"	"BQ Provisioning Instance Record"	String
+""	7	"inout"	"Provisioning Service Description"	"BQ Provisioning Instance Record"	String
+""	8	"inout"	"Provisioning Service Inputs and Ouputs"	"BQ Provisioning Instance Record"	String
+""	9	"inout"	"Provisioning Service Work Product"	"BQ Provisioning Instance Record"	String
+""	10	"inout"	"Provisioning Service Name"	"BQ Provisioning Instance Record"	String
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/product-inventory-distribution-administrativeplan/{crbq-identifier}/capture"
+""	1	"inout"	"Product Inventory Distribution AdministrativePlan Budget Type"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	2	"inout"	"Product Inventory Distribution AdministrativePlan Assignment"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	3	"inout"	"Product Inventory Distribution AdministrativePlan Plan"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	4	"in"	"Product Inventory Distribution AdministrativePlan Reference"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	Object
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/product-inventory-distribution-administrativeplan/{crbq-identifier}/control"
+""	1	"inout"	"Product Inventory Distribution AdministrativePlan Budget Type"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	2	"inout"	"Product Inventory Distribution AdministrativePlan Assignment"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	3	"inout"	"Product Inventory Distribution AdministrativePlan Plan"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	4	"in"	"Product Inventory Distribution AdministrativePlan Reference"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	Object
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/product-inventory-distribution-administrativeplan/{crbq-identifier}/exchange"
+""	1	"inout"	"Product Inventory Distribution AdministrativePlan Budget Type"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	2	"inout"	"Product Inventory Distribution AdministrativePlan Assignment"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	3	"inout"	"Product Inventory Distribution AdministrativePlan Plan"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	4	"in"	"Product Inventory Distribution AdministrativePlan Reference"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	Object
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/product-inventory-distribution-administrativeplan/{crbq-identifier}/grant"
+""	1	"inout"	"Product Inventory Distribution AdministrativePlan Budget Type"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	2	"inout"	"Product Inventory Distribution AdministrativePlan Assignment"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	3	"inout"	"Product Inventory Distribution AdministrativePlan Plan"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	4	"in"	"Product Inventory Distribution AdministrativePlan Reference"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	Object
+""
+"Post"	"/product-inventory-distribution/{sd-identifier}/distribution/{crbq-identifier}/initiation"
+""	1	"inout"	"Distribution Preconditions"	"BQ Distribution Instance Record"	String
+""	2	"inout"	"Distribution Business Unit/Employee Reference"	"BQ Distribution Instance Record"	Object
+""	3	"inout"	"Distribution Work Schedule"	"BQ Distribution Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Distribution Instance Record"	Business Service
+""	5	"inout"	"Distribution Postconditions"	"BQ Distribution Instance Record"	String
+""	6	"inout"	"Distribution Service Type"	"BQ Distribution Instance Record"	String
+""	7	"inout"	"Distribution Service Description"	"BQ Distribution Instance Record"	String
+""	8	"inout"	"Distribution Service Inputs and Ouputs"	"BQ Distribution Instance Record"	String
+""	9	"inout"	"Distribution Service Work Product"	"BQ Distribution Instance Record"	String
+""	10	"inout"	"Distribution Service Name"	"BQ Distribution Instance Record"	String
+""
+"Post"	"/product-inventory-distribution/{sd-identifier}/mailing/{crbq-identifier}/initiation"
+""	1	"inout"	"Mailing Preconditions"	"BQ Mailing Instance Record"	String
+""	2	"inout"	"Mailing Business Unit/Employee Reference"	"BQ Mailing Instance Record"	Object
+""	3	"inout"	"Mailing Work Schedule"	"BQ Mailing Instance Record"	String
+""	4	"inout"	"Mailing Postconditions"	"BQ Mailing Instance Record"	String
+""	5	"inout"	"Mailing Mailing Service Type"	"BQ Mailing Instance Record"	String
+""	6	"inout"	"Mailing Mailing Service Description"	"BQ Mailing Instance Record"	String
+""	7	"inout"	"Mailing Mailing Service Inputs and Ouputs"	"BQ Mailing Instance Record"	String
+""	8	"inout"	"Mailing Mailing Service Work Product"	"BQ Mailing Instance Record"	String
+""	9	"inout"	"Mailing Mailing Service Name"	"BQ Mailing Instance Record"	String
+""
+"Post"	"/product-inventory-distribution/{sd-identifier}/oversight/{crbq-identifier}/initiation"
+""	1	"inout"	"Oversight Preconditions"	"BQ Oversight Instance Record"	String
+""	2	"inout"	"Oversight Business Unit/Employee Reference"	"BQ Oversight Instance Record"	Object
+""	3	"inout"	"Oversight Work Schedule"	"BQ Oversight Instance Record"	String
+""	4	"inout"	"Administrative Oversight"	"BQ Oversight Instance Record"	Business Service
+""	5	"inout"	"Oversight Postconditions"	"BQ Oversight Instance Record"	String
+""	6	"inout"	"Oversight Administrative Oversight Service Type"	"BQ Oversight Instance Record"	String
+""	7	"inout"	"Oversight Administrative Oversight Service Description"	"BQ Oversight Instance Record"	String
+""	8	"inout"	"Oversight Administrative Oversight Service Inputs and Ouputs"	"BQ Oversight Instance Record"	String
+""	9	"inout"	"Oversight Administrative Oversight Service Work Product"	"BQ Oversight Instance Record"	String
+""	10	"inout"	"Oversight Administrative Oversight Service Name"	"BQ Oversight Instance Record"	String
+""
+"Post"	"/product-inventory-distribution/{sd-identifier}/provisioning/{crbq-identifier}/initiation"
+""	1	"inout"	"Provisioning Preconditions"	"BQ Provisioning Instance Record"	String
+""	2	"inout"	"Provisioning Business Unit/Employee Reference"	"BQ Provisioning Instance Record"	Object
+""	3	"inout"	"Provisioning Work Schedule"	"BQ Provisioning Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Provisioning Instance Record"	Business Service
+""	5	"inout"	"Provisioning Postconditions"	"BQ Provisioning Instance Record"	String
+""	6	"inout"	"Provisioning Service Type"	"BQ Provisioning Instance Record"	String
+""	7	"inout"	"Provisioning Service Description"	"BQ Provisioning Instance Record"	String
+""	8	"inout"	"Provisioning Service Inputs and Ouputs"	"BQ Provisioning Instance Record"	String
+""	9	"inout"	"Provisioning Service Work Product"	"BQ Provisioning Instance Record"	String
+""	10	"inout"	"Provisioning Service Name"	"BQ Provisioning Instance Record"	String
+""
+"Post"	"/product-inventory-distribution/{sd-identifier}/product-inventory-distribution-administrativeplan/{crbq-identifier}/initiation"
+""	1	"inout"	"Product Inventory Distribution AdministrativePlan Budget Type"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	2	"inout"	"Product Inventory Distribution AdministrativePlan Assignment"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	3	"inout"	"Product Inventory Distribution AdministrativePlan Plan"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	4	"in"	"Product Inventory Distribution AdministrativePlan Reference"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	Object
+""
+"Get"	"/product-inventory-distribution/{sd-identifier}/distribution/{crbq-identifier}/retrieval"
+""	1	"out"	"Distribution Preconditions"	"BQ Distribution Instance Record"	String
+""	2	"out"	"Distribution Business Unit/Employee Reference"	"BQ Distribution Instance Record"	Object
+""	3	"out"	"Distribution Work Schedule"	"BQ Distribution Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Distribution Instance Record"	Business Service
+""	5	"out"	"Distribution Postconditions"	"BQ Distribution Instance Record"	String
+""	6	"out"	"Distribution Service Type"	"BQ Distribution Instance Record"	String
+""	7	"out"	"Distribution Service Description"	"BQ Distribution Instance Record"	String
+""	8	"out"	"Distribution Service Inputs and Ouputs"	"BQ Distribution Instance Record"	String
+""	9	"out"	"Distribution Service Work Product"	"BQ Distribution Instance Record"	String
+""	10	"out"	"Distribution Service Name"	"BQ Distribution Instance Record"	String
+""
+"Get"	"/product-inventory-distribution/{sd-identifier}/mailing/{crbq-identifier}/retrieval"
+""	1	"out"	"Mailing Preconditions"	"BQ Mailing Instance Record"	String
+""	2	"out"	"Mailing Business Unit/Employee Reference"	"BQ Mailing Instance Record"	Object
+""	3	"out"	"Mailing Work Schedule"	"BQ Mailing Instance Record"	String
+""	4	"out"	"Mailing Postconditions"	"BQ Mailing Instance Record"	String
+""	5	"out"	"Mailing Mailing Service Type"	"BQ Mailing Instance Record"	String
+""	6	"out"	"Mailing Mailing Service Description"	"BQ Mailing Instance Record"	String
+""	7	"out"	"Mailing Mailing Service Inputs and Ouputs"	"BQ Mailing Instance Record"	String
+""	8	"out"	"Mailing Mailing Service Work Product"	"BQ Mailing Instance Record"	String
+""	9	"out"	"Mailing Mailing Service Name"	"BQ Mailing Instance Record"	String
+""
+"Get"	"/product-inventory-distribution/{sd-identifier}/oversight/{crbq-identifier}/retrieval"
+""	1	"out"	"Oversight Preconditions"	"BQ Oversight Instance Record"	String
+""	2	"out"	"Oversight Business Unit/Employee Reference"	"BQ Oversight Instance Record"	Object
+""	3	"out"	"Oversight Work Schedule"	"BQ Oversight Instance Record"	String
+""	4	"out"	"Administrative Oversight"	"BQ Oversight Instance Record"	Business Service
+""	5	"out"	"Oversight Postconditions"	"BQ Oversight Instance Record"	String
+""	6	"out"	"Oversight Administrative Oversight Service Type"	"BQ Oversight Instance Record"	String
+""	7	"out"	"Oversight Administrative Oversight Service Description"	"BQ Oversight Instance Record"	String
+""	8	"out"	"Oversight Administrative Oversight Service Inputs and Ouputs"	"BQ Oversight Instance Record"	String
+""	9	"out"	"Oversight Administrative Oversight Service Work Product"	"BQ Oversight Instance Record"	String
+""	10	"out"	"Oversight Administrative Oversight Service Name"	"BQ Oversight Instance Record"	String
+""
+"Get"	"/product-inventory-distribution/{sd-identifier}/provisioning/{crbq-identifier}/retrieval"
+""	1	"out"	"Provisioning Preconditions"	"BQ Provisioning Instance Record"	String
+""	2	"out"	"Provisioning Business Unit/Employee Reference"	"BQ Provisioning Instance Record"	Object
+""	3	"out"	"Provisioning Work Schedule"	"BQ Provisioning Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Provisioning Instance Record"	Business Service
+""	5	"out"	"Provisioning Postconditions"	"BQ Provisioning Instance Record"	String
+""	6	"out"	"Provisioning Service Type"	"BQ Provisioning Instance Record"	String
+""	7	"out"	"Provisioning Service Description"	"BQ Provisioning Instance Record"	String
+""	8	"out"	"Provisioning Service Inputs and Ouputs"	"BQ Provisioning Instance Record"	String
+""	9	"out"	"Provisioning Service Work Product"	"BQ Provisioning Instance Record"	String
+""	10	"out"	"Provisioning Service Name"	"BQ Provisioning Instance Record"	String
+""
+"Get"	"/product-inventory-distribution/{sd-identifier}/product-inventory-distribution-administrativeplan/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Inventory Distribution AdministrativePlan Budget Type"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	2	"out"	"Product Inventory Distribution AdministrativePlan Assignment"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	3	"out"	"Product Inventory Distribution AdministrativePlan Plan"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	4	"out"	"Product Inventory Distribution AdministrativePlan Reference"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	Object
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/product-inventory-distribution-administrativeplan/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Inventory Distribution AdministrativePlan Budget Type"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	2	"inout"	"Product Inventory Distribution AdministrativePlan Assignment"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	3	"inout"	"Product Inventory Distribution AdministrativePlan Plan"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	4	"in"	"Product Inventory Distribution AdministrativePlan Reference"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	Object
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/distribution/{crbq-identifier}/update"
+""	1	"inout"	"Distribution Preconditions"	"BQ Distribution Instance Record"	String
+""	2	"inout"	"Distribution Business Unit/Employee Reference"	"BQ Distribution Instance Record"	Object
+""	3	"inout"	"Distribution Work Schedule"	"BQ Distribution Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Distribution Instance Record"	Business Service
+""	5	"inout"	"Distribution Postconditions"	"BQ Distribution Instance Record"	String
+""	6	"inout"	"Distribution Service Type"	"BQ Distribution Instance Record"	String
+""	7	"inout"	"Distribution Service Description"	"BQ Distribution Instance Record"	String
+""	8	"inout"	"Distribution Service Inputs and Ouputs"	"BQ Distribution Instance Record"	String
+""	9	"inout"	"Distribution Service Work Product"	"BQ Distribution Instance Record"	String
+""	10	"inout"	"Distribution Service Name"	"BQ Distribution Instance Record"	String
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/mailing/{crbq-identifier}/update"
+""	1	"inout"	"Mailing Preconditions"	"BQ Mailing Instance Record"	String
+""	2	"inout"	"Mailing Business Unit/Employee Reference"	"BQ Mailing Instance Record"	Object
+""	3	"inout"	"Mailing Work Schedule"	"BQ Mailing Instance Record"	String
+""	4	"inout"	"Mailing Postconditions"	"BQ Mailing Instance Record"	String
+""	5	"inout"	"Mailing Mailing Service Type"	"BQ Mailing Instance Record"	String
+""	6	"inout"	"Mailing Mailing Service Description"	"BQ Mailing Instance Record"	String
+""	7	"inout"	"Mailing Mailing Service Inputs and Ouputs"	"BQ Mailing Instance Record"	String
+""	8	"inout"	"Mailing Mailing Service Work Product"	"BQ Mailing Instance Record"	String
+""	9	"inout"	"Mailing Mailing Service Name"	"BQ Mailing Instance Record"	String
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/oversight/{crbq-identifier}/update"
+""	1	"inout"	"Oversight Preconditions"	"BQ Oversight Instance Record"	String
+""	2	"inout"	"Oversight Business Unit/Employee Reference"	"BQ Oversight Instance Record"	Object
+""	3	"inout"	"Oversight Work Schedule"	"BQ Oversight Instance Record"	String
+""	4	"inout"	"Administrative Oversight"	"BQ Oversight Instance Record"	Business Service
+""	5	"inout"	"Oversight Postconditions"	"BQ Oversight Instance Record"	String
+""	6	"inout"	"Oversight Administrative Oversight Service Type"	"BQ Oversight Instance Record"	String
+""	7	"inout"	"Oversight Administrative Oversight Service Description"	"BQ Oversight Instance Record"	String
+""	8	"inout"	"Oversight Administrative Oversight Service Inputs and Ouputs"	"BQ Oversight Instance Record"	String
+""	9	"inout"	"Oversight Administrative Oversight Service Work Product"	"BQ Oversight Instance Record"	String
+""	10	"inout"	"Oversight Administrative Oversight Service Name"	"BQ Oversight Instance Record"	String
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/provisioning/{crbq-identifier}/update"
+""	1	"inout"	"Provisioning Preconditions"	"BQ Provisioning Instance Record"	String
+""	2	"inout"	"Provisioning Business Unit/Employee Reference"	"BQ Provisioning Instance Record"	Object
+""	3	"inout"	"Provisioning Work Schedule"	"BQ Provisioning Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Provisioning Instance Record"	Business Service
+""	5	"inout"	"Provisioning Postconditions"	"BQ Provisioning Instance Record"	String
+""	6	"inout"	"Provisioning Service Type"	"BQ Provisioning Instance Record"	String
+""	7	"inout"	"Provisioning Service Description"	"BQ Provisioning Instance Record"	String
+""	8	"inout"	"Provisioning Service Inputs and Ouputs"	"BQ Provisioning Instance Record"	String
+""	9	"inout"	"Provisioning Service Work Product"	"BQ Provisioning Instance Record"	String
+""	10	"inout"	"Provisioning Service Name"	"BQ Provisioning Instance Record"	String
+""
+"Put"	"/product-inventory-distribution/{sd-identifier}/product-inventory-distribution-administrativeplan/{crbq-identifier}/update"
+""	1	"inout"	"Product Inventory Distribution AdministrativePlan Budget Type"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	2	"inout"	"Product Inventory Distribution AdministrativePlan Assignment"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	3	"inout"	"Product Inventory Distribution AdministrativePlan Plan"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	String
+""	4	"in"	"Product Inventory Distribution AdministrativePlan Reference"	"CR Product Inventory Distribution AdministrativePlan Instance Record"	Object

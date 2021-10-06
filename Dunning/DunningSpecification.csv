@@ -1,0 +1,13 @@
+"Service Domain specification for Dunning"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Dunning
+"Role Definition"	"Handle the dunning cycle for a loan account that is behind payments"
+"Example of use"	"Handle the dunning process to resolution for a lapsed loan account"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	Dunning
+"Generic Artifact"	Procedure
+"Control Record"	DunningProcedure
+"Registration Status"	Obsolete

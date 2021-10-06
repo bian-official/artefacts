@@ -1,0 +1,77 @@
+"Service Operations for: "	Suitability Checking
+""
+"POST"	"/suitability-checking/activation"
+"PUT"	"/suitability-checking/{sd-reference-id}/configuration"
+"PUT"	"/suitability-checking/{sd-reference-id}/feedback"
+""
+"Post"	"/suitability-checking/{sd-identifier}/suitability-assessment/{crbq-identifier}/evaluation"
+""	1	"in"	"Employee/Business Unit Reference"	"CR Suitability Assessment Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Suitability Assessment Instance Record"	Object
+""	3	"in"	"Market Order Type"	"CR Suitability Assessment Instance Record"	String
+""	4	"in"	"Investment Portfolio Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	5	"in"	"Customer Market Order Processing Instruction"	"CR Suitability Assessment Instance Record"	String
+""	6	"inout"	"Proposed Market Order Transaction"	"CR Suitability Assessment Instance Record"	String
+""	7	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	8	"inout"	"Security Type"	"CR Suitability Assessment Instance Record"	String
+""	9	"inout"	"Amount"	"CR Suitability Assessment Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Suitability Assessment Instance Record"	String
+""	11	"inout"	"Suitability Assessment Type"	"CR Suitability Assessment Instance Record"	String
+""	12	"inout"	"Document Directory Entry Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	13	"out"	"Correspondence Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	14	"out"	"Suitability Compliance Assessment Work Products"	"CR Suitability Assessment Instance Record"	String
+""	15	"out"	"Suitability Compliance Assessment Result"	"CR Suitability Assessment Instance Record"	String
+""
+"Put"	"/suitability-checking/{sd-identifier}/suitability-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Employee/Business Unit Reference"	"CR Suitability Assessment Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR Suitability Assessment Instance Record"	Object
+""	3	"inout"	"Market Order Type"	"CR Suitability Assessment Instance Record"	String
+""	4	"inout"	"Investment Portfolio Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	5	"inout"	"Customer Market Order Processing Instruction"	"CR Suitability Assessment Instance Record"	String
+""	6	"inout"	"Proposed Market Order Transaction"	"CR Suitability Assessment Instance Record"	String
+""	7	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	8	"inout"	"Security Type"	"CR Suitability Assessment Instance Record"	String
+""	9	"inout"	"Amount"	"CR Suitability Assessment Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Suitability Assessment Instance Record"	String
+""	11	"inout"	"Suitability Assessment Type"	"CR Suitability Assessment Instance Record"	String
+""	12	"inout"	"Document Directory Entry Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	13	"inout"	"Correspondence Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	14	"inout"	"Suitability Compliance Assessment Work Products"	"CR Suitability Assessment Instance Record"	String
+""	15	"inout"	"Suitability Compliance Assessment Result"	"CR Suitability Assessment Instance Record"	String
+""
+"Put"	"/suitability-checking/{sd-identifier}/suitability-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/suitability-checking/{sd-identifier}/suitability-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Employee/Business Unit Reference"	"CR Suitability Assessment Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Suitability Assessment Instance Record"	Object
+""	3	"in"	"Market Order Type"	"CR Suitability Assessment Instance Record"	String
+""	4	"in"	"Investment Portfolio Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	5	"inout"	"Customer Market Order Processing Instruction"	"CR Suitability Assessment Instance Record"	String
+""	6	"inout"	"Proposed Market Order Transaction"	"CR Suitability Assessment Instance Record"	String
+""	7	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	8	"inout"	"Security Type"	"CR Suitability Assessment Instance Record"	String
+""	9	"inout"	"Amount"	"CR Suitability Assessment Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Suitability Assessment Instance Record"	String
+""	11	"inout"	"Suitability Assessment Type"	"CR Suitability Assessment Instance Record"	String
+""	12	"inout"	"Document Directory Entry Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	13	"inout"	"Correspondence Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	14	"inout"	"Suitability Compliance Assessment Work Products"	"CR Suitability Assessment Instance Record"	String
+""	15	"inout"	"Suitability Compliance Assessment Result"	"CR Suitability Assessment Instance Record"	String
+""
+"Put"	"/suitability-checking/{sd-identifier}/suitability-assessment/{crbq-identifier}/grant"
+""
+"Get"	"/suitability-checking/{sd-identifier}/suitability-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Employee/Business Unit Reference"	"CR Suitability Assessment Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Suitability Assessment Instance Record"	Object
+""	3	"out"	"Market Order Type"	"CR Suitability Assessment Instance Record"	String
+""	4	"out"	"Investment Portfolio Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	5	"out"	"Customer Market Order Processing Instruction"	"CR Suitability Assessment Instance Record"	String
+""	6	"out"	"Proposed Market Order Transaction"	"CR Suitability Assessment Instance Record"	String
+""	7	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	8	"out"	"Security Type"	"CR Suitability Assessment Instance Record"	String
+""	9	"out"	"Amount"	"CR Suitability Assessment Instance Record"	String
+""	10	"out"	"Date Type"	"CR Suitability Assessment Instance Record"	String
+""	11	"out"	"Suitability Assessment Type"	"CR Suitability Assessment Instance Record"	String
+""	12	"out"	"Document Directory Entry Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	13	"out"	"Correspondence Instance Reference"	"CR Suitability Assessment Instance Record"	Object
+""	14	"out"	"Suitability Compliance Assessment Work Products"	"CR Suitability Assessment Instance Record"	String
+""	15	"out"	"Suitability Compliance Assessment Result"	"CR Suitability Assessment Instance Record"	String

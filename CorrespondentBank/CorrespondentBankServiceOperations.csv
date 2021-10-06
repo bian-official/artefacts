@@ -1,0 +1,178 @@
+"Service Operations for: "	Correspondent Bank
+""
+"POST"	"/correspondent-bank/activation"
+"PUT"	"/correspondent-bank/{sd-reference-id}/configuration"
+"PUT"	"/correspondent-bank/{sd-reference-id}/feedback"
+""
+"Post"	"/correspondent-bank/{sd-identifier}/correspondent-bank-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Correspondent Bank Arrangement Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	2	"inout"	"Correspondent Bank Servicing Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	3	"inout"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	4	"inout"	"Vostro Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	5	"inout"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""
+"Put"	"/correspondent-bank/{sd-identifier}/correspondent-bank-arrangement/{crbq-identifier}/update"
+""	1	"in"	"Correspondent Bank Arrangement Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	2	"inout"	"Correspondent Bank Servicing Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	3	"inout"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	4	"inout"	"Vostro Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	5	"inout"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""
+"Put"	"/correspondent-bank/{sd-identifier}/correspondent-bank-arrangement/{crbq-identifier}/control"
+""
+"Get"	"/correspondent-bank/{sd-identifier}/correspondent-bank-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondent Bank Arrangement Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	2	"out"	"Correspondent Bank Servicing Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	3	"out"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	4	"out"	"Vostro Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	5	"out"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	6	"out"	"Payer Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	7	"out"	"Payer Reference"	"BQ Inbound Payments Instance Record"	Object
+""	8	"out"	"Corresponded Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	9	"out"	"Payee Reference"	"BQ Inbound Payments Instance Record"	Object
+""	10	"out"	"Payee Product Instance Reference"	"BQ Inbound Payments Instance Record"	Object
+""	11	"out"	"Payee Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	12	"out"	"Special Instructions"	"BQ Inbound Payments Instance Record"	String
+""	13	"out"	"Currency"	"BQ Inbound Payments Instance Record"	String
+""	14	"out"	"Date Type"	"BQ Inbound Payments Instance Record"	String
+""
+"Put"	"/correspondent-bank/{sd-identifier}/inbound-payments/{crbq-identifier}/update"
+""	1	"inout"	"Correspondent Transaction Record"	"BQ Inbound Payments Instance Record"	String
+""	2	"inout"	"SWIFT Transaction Reference"	"BQ Inbound Payments Instance Record"	Object
+""	3	"inout"	"Payer Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	4	"inout"	"Payer Reference"	"BQ Inbound Payments Instance Record"	Object
+""	5	"inout"	"Corresponded Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	6	"inout"	"Payer Product Instance Reference"	"BQ Inbound Payments Instance Record"	Object
+""	7	"inout"	"Payee Reference"	"BQ Inbound Payments Instance Record"	Object
+""	8	"inout"	"Payee Product Instance Reference"	"BQ Inbound Payments Instance Record"	Object
+""	9	"inout"	"Payee Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	10	"inout"	"Special Instructions"	"BQ Inbound Payments Instance Record"	String
+""	11	"inout"	"Amount"	"BQ Inbound Payments Instance Record"	String
+""	12	"inout"	"Currency"	"BQ Inbound Payments Instance Record"	String
+""	13	"inout"	"Date Type"	"BQ Inbound Payments Instance Record"	String
+""
+"Put"	"/correspondent-bank/{sd-identifier}/inbound-payments/{crbq-identifier}/execution"
+""	1	"in"	"Correspondent Transaction Record"	"BQ Inbound Payments Instance Record"	String
+""	2	"in"	"SWIFT Transaction Reference"	"BQ Inbound Payments Instance Record"	Object
+""	3	"in"	"Payer Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	4	"in"	"Payer Reference"	"BQ Inbound Payments Instance Record"	Object
+""	5	"in"	"Corresponded Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	6	"in"	"Payer Product Instance Reference"	"BQ Inbound Payments Instance Record"	Object
+""	7	"in"	"Payee Reference"	"BQ Inbound Payments Instance Record"	Object
+""	8	"in"	"Payee Product Instance Reference"	"BQ Inbound Payments Instance Record"	Object
+""	9	"in"	"Payee Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	10	"in"	"Special Instructions"	"BQ Inbound Payments Instance Record"	String
+""	11	"in"	"Amount"	"BQ Inbound Payments Instance Record"	String
+""	12	"in"	"Currency"	"BQ Inbound Payments Instance Record"	String
+""	13	"in"	"Date Type"	"BQ Inbound Payments Instance Record"	String
+""
+"Get"	"/correspondent-bank/{sd-identifier}/inbound-payments/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondent Bank Arrangement Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	2	"out"	"Correspondent Bank Servicing Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	3	"out"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	4	"out"	"Vostro Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	5	"out"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	6	"out"	"Correspondent Transaction Record"	"BQ Inbound Payments Instance Record"	String
+""	7	"out"	"SWIFT Transaction Reference"	"BQ Inbound Payments Instance Record"	Object
+""	8	"out"	"Payer Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	9	"out"	"Payer Reference"	"BQ Inbound Payments Instance Record"	Object
+""	10	"out"	"Corresponded Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	11	"out"	"Payer Product Instance Reference"	"BQ Inbound Payments Instance Record"	Object
+""	12	"out"	"Payee Reference"	"BQ Inbound Payments Instance Record"	Object
+""	13	"out"	"Payee Product Instance Reference"	"BQ Inbound Payments Instance Record"	Object
+""	14	"out"	"Payee Bank Reference"	"BQ Inbound Payments Instance Record"	Object
+""	15	"out"	"Special Instructions"	"BQ Inbound Payments Instance Record"	String
+""	16	"out"	"Amount"	"BQ Inbound Payments Instance Record"	String
+""	17	"out"	"Currency"	"BQ Inbound Payments Instance Record"	String
+""	18	"out"	"Date Type"	"BQ Inbound Payments Instance Record"	String
+""
+"Put"	"/correspondent-bank/{sd-identifier}/outbound-payments/{crbq-identifier}/update"
+""	1	"inout"	"Correspondent Transaction Record"	"BQ Outbound Payments Instance Record"	String
+""	2	"inout"	"SWIFT Transaction Reference"	"BQ Outbound Payments Instance Record"	Object
+""	3	"inout"	"Payer Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	4	"inout"	"Payer Reference"	"BQ Outbound Payments Instance Record"	Object
+""	5	"inout"	"Corresponded Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	6	"inout"	"Payer Product Instance Reference"	"BQ Outbound Payments Instance Record"	Object
+""	7	"inout"	"Payee Reference"	"BQ Outbound Payments Instance Record"	Object
+""	8	"inout"	"Payee Product Instance Reference"	"BQ Outbound Payments Instance Record"	Object
+""	9	"inout"	"Payee Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	10	"inout"	"Special Instructions"	"BQ Outbound Payments Instance Record"	String
+""	11	"inout"	"Amount"	"BQ Outbound Payments Instance Record"	String
+""	12	"inout"	"Currency"	"BQ Outbound Payments Instance Record"	String
+""	13	"inout"	"Date Type"	"BQ Outbound Payments Instance Record"	String
+""
+"Put"	"/correspondent-bank/{sd-identifier}/outbound-payments/{crbq-identifier}/execution"
+""	1	"in"	"Correspondent Transaction Record"	"BQ Outbound Payments Instance Record"	String
+""	2	"in"	"SWIFT Transaction Reference"	"BQ Outbound Payments Instance Record"	Object
+""	3	"in"	"Payer Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	4	"in"	"Payer Reference"	"BQ Outbound Payments Instance Record"	Object
+""	5	"in"	"Corresponded Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	6	"in"	"Payer Product Instance Reference"	"BQ Outbound Payments Instance Record"	Object
+""	7	"in"	"Payee Reference"	"BQ Outbound Payments Instance Record"	Object
+""	8	"in"	"Payee Product Instance Reference"	"BQ Outbound Payments Instance Record"	Object
+""	9	"in"	"Payee Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	10	"in"	"Special Instructions"	"BQ Outbound Payments Instance Record"	String
+""	11	"in"	"Amount"	"BQ Outbound Payments Instance Record"	String
+""	12	"in"	"Currency"	"BQ Outbound Payments Instance Record"	String
+""	13	"in"	"Date Type"	"BQ Outbound Payments Instance Record"	String
+""
+"Get"	"/correspondent-bank/{sd-identifier}/outbound-payments/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondent Bank Arrangement Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	2	"out"	"Correspondent Bank Servicing Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	3	"out"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	4	"out"	"Vostro Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	5	"out"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	6	"out"	"Correspondent Transaction Record"	"BQ Outbound Payments Instance Record"	String
+""	7	"out"	"SWIFT Transaction Reference"	"BQ Outbound Payments Instance Record"	Object
+""	8	"out"	"Payer Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	9	"out"	"Payer Reference"	"BQ Outbound Payments Instance Record"	Object
+""	10	"out"	"Corresponded Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	11	"out"	"Payer Product Instance Reference"	"BQ Outbound Payments Instance Record"	Object
+""	12	"out"	"Payee Reference"	"BQ Outbound Payments Instance Record"	Object
+""	13	"out"	"Payee Product Instance Reference"	"BQ Outbound Payments Instance Record"	Object
+""	14	"out"	"Payee Bank Reference"	"BQ Outbound Payments Instance Record"	Object
+""	15	"out"	"Special Instructions"	"BQ Outbound Payments Instance Record"	String
+""	16	"out"	"Amount"	"BQ Outbound Payments Instance Record"	String
+""	17	"out"	"Currency"	"BQ Outbound Payments Instance Record"	String
+""	18	"out"	"Date Type"	"BQ Outbound Payments Instance Record"	String
+""
+"Put"	"/correspondent-bank/{sd-identifier}/clearing-and-settlement/{crbq-identifier}/update"
+""	1	"inout"	"Clearing Transaction"	"BQ Clearing and Settlement Instance Record"	String
+""	2	"inout"	"Settlement Transaction"	"BQ Clearing and Settlement Instance Record"	String
+""
+"Put"	"/correspondent-bank/{sd-identifier}/clearing-and-settlement/{crbq-identifier}/exchange"
+""
+"Put"	"/correspondent-bank/{sd-identifier}/clearing-and-settlement/{crbq-identifier}/requisition"
+""	1	"in"	"Clearing Transaction"	"BQ Clearing and Settlement Instance Record"	String
+""	2	"in"	"Settlement Transaction"	"BQ Clearing and Settlement Instance Record"	String
+""
+"Get"	"/correspondent-bank/{sd-identifier}/clearing-and-settlement/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondent Bank Arrangement Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	2	"out"	"Correspondent Bank Servicing Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	3	"out"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	4	"out"	"Vostro Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	5	"out"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	6	"out"	"Clearing Transaction"	"BQ Clearing and Settlement Instance Record"	String
+""	7	"out"	"Settlement Transaction"	"BQ Clearing and Settlement Instance Record"	String
+""
+"Put"	"/correspondent-bank/{sd-identifier}/reconciliation/{crbq-identifier}/update"
+""	1	"inout"	"Correspondent Bank Reconciliation Task Reference"	"BQ Reconciliation Instance Record"	Object
+""	2	"inout"	"Correspondent Bank Reconciliation Task Work Products"	"BQ Reconciliation Instance Record"	String
+""	3	"inout"	"Correspondent Bank Reconciliation Task Result"	"BQ Reconciliation Instance Record"	String
+""
+"Put"	"/correspondent-bank/{sd-identifier}/reconciliation/{crbq-identifier}/exchange"
+""
+"Put"	"/correspondent-bank/{sd-identifier}/reconciliation/{crbq-identifier}/requisition"
+""	1	"out"	"Correspondent Bank Reconciliation Task Reference"	"BQ Reconciliation Instance Record"	Object
+""	2	"out"	"Correspondent Bank Reconciliation Task Work Products"	"BQ Reconciliation Instance Record"	String
+""	3	"out"	"Correspondent Bank Reconciliation Task Result"	"BQ Reconciliation Instance Record"	String
+""
+"Get"	"/correspondent-bank/{sd-identifier}/reconciliation/{crbq-identifier}/retrieval"
+""	1	"out"	"Correspondent Bank Arrangement Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	2	"out"	"Correspondent Bank Servicing Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	3	"out"	"Holiday/Time zone Schedule"	"CR Correspondent Bank Arrangement Instance Record"	String
+""	4	"out"	"Vostro Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	5	"out"	"Nostro Mirror Account Reference"	"CR Correspondent Bank Arrangement Instance Record"	Object
+""	6	"out"	"Correspondent Bank Reconciliation Task Reference"	"BQ Reconciliation Instance Record"	Object
+""	7	"out"	"Correspondent Bank Reconciliation Task Work Products"	"BQ Reconciliation Instance Record"	String
+""	8	"out"	"Correspondent Bank Reconciliation Task Result"	"BQ Reconciliation Instance Record"	String

@@ -1,0 +1,135 @@
+"Service Operations for: "	Sales Product
+""
+"POST"	"/sales-product/activation"
+"PUT"	"/sales-product/{sd-reference-id}/configuration"
+"PUT"	"/sales-product/{sd-reference-id}/feedback"
+""
+"Post"	"/sales-product/{sd-identifier}/productandservice-agreement/{crbq-identifier}/evaluation"
+""	1	"out"	"Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	2	"inout"	"Underlying Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	5	"in"	"Tax Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	6	"out"	"Entitlement Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	7	"inout"	"Entitlement Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	8	"out"	"Restriction Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	9	"inout"	"Restriction Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	10	"inout"	"Linked Accounts"	"CR ProductandService Agreement Instance Record"	String
+""	11	"inout"	"Link Type"	"CR ProductandService Agreement Instance Record"	String
+""	12	"inout"	"Account Details"	"CR ProductandService Agreement Instance Record"	String
+""	13	"inout"	"Position Limits"	"CR ProductandService Agreement Instance Record"	String
+""	14	"inout"	"Position Limit Type"	"CR ProductandService Agreement Instance Record"	String
+""	15	"inout"	"Position Limit Settings"	"CR ProductandService Agreement Instance Record"	String
+""	16	"inout"	"Position Limit Value"	"CR ProductandService Agreement Instance Record"	String
+""	17	"inout"	"Date Type"	"CR ProductandService Agreement Instance Record"	String
+""
+"Put"	"/sales-product/{sd-identifier}/productandservice-agreement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	2	"inout"	"Underlying Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	3	"inout"	"Customer Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	4	"inout"	"Bank Branch/Location Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	5	"inout"	"Tax Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	6	"inout"	"Entitlement Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	7	"inout"	"Entitlement Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	8	"inout"	"Restriction Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	9	"inout"	"Restriction Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	10	"inout"	"Linked Accounts"	"CR ProductandService Agreement Instance Record"	String
+""	11	"inout"	"Link Type"	"CR ProductandService Agreement Instance Record"	String
+""	12	"inout"	"Account Details"	"CR ProductandService Agreement Instance Record"	String
+""	13	"inout"	"Position Limits"	"CR ProductandService Agreement Instance Record"	String
+""	14	"inout"	"Position Limit Type"	"CR ProductandService Agreement Instance Record"	String
+""	15	"inout"	"Position Limit Settings"	"CR ProductandService Agreement Instance Record"	String
+""	16	"inout"	"Position Limit Value"	"CR ProductandService Agreement Instance Record"	String
+""	17	"inout"	"Date Type"	"CR ProductandService Agreement Instance Record"	String
+""
+"Put"	"/sales-product/{sd-identifier}/productandservice-agreement/{crbq-identifier}/control"
+""
+"Get"	"/sales-product/{sd-identifier}/productandservice-agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	2	"out"	"Underlying Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	5	"out"	"Tax Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	6	"out"	"Entitlement Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	7	"out"	"Entitlement Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	8	"out"	"Restriction Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	9	"out"	"Restriction Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	10	"out"	"Linked Accounts"	"CR ProductandService Agreement Instance Record"	String
+""	11	"out"	"Link Type"	"CR ProductandService Agreement Instance Record"	String
+""	12	"out"	"Account Details"	"CR ProductandService Agreement Instance Record"	String
+""	13	"out"	"Position Limits"	"CR ProductandService Agreement Instance Record"	String
+""	14	"out"	"Position Limit Type"	"CR ProductandService Agreement Instance Record"	String
+""	15	"out"	"Position Limit Settings"	"CR ProductandService Agreement Instance Record"	String
+""	16	"out"	"Position Limit Value"	"CR ProductandService Agreement Instance Record"	String
+""	17	"out"	"Date Type"	"CR ProductandService Agreement Instance Record"	String
+""
+"Post"	"/sales-product/{sd-identifier}/operational-term/{crbq-identifier}/evaluation"
+""	1	"in"	"Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	2	"inout"	"Underlying Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	5	"in"	"Tax Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	6	"out"	"Entitlement Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	7	"inout"	"Entitlement Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	8	"out"	"Restriction Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	9	"inout"	"Restriction Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	10	"inout"	"Linked Accounts"	"CR ProductandService Agreement Instance Record"	String
+""	11	"inout"	"Link Type"	"CR ProductandService Agreement Instance Record"	String
+""	12	"inout"	"Account Details"	"CR ProductandService Agreement Instance Record"	String
+""	13	"inout"	"Position Limits"	"CR ProductandService Agreement Instance Record"	String
+""	14	"inout"	"Position Limit Type"	"CR ProductandService Agreement Instance Record"	String
+""	15	"inout"	"Position Limit Settings"	"CR ProductandService Agreement Instance Record"	String
+""	16	"inout"	"Position Limit Value"	"CR ProductandService Agreement Instance Record"	String
+""	17	"inout"	"Date Type"	"CR ProductandService Agreement Instance Record"	String
+""	18	"inout"	"Operational Term Type"	"BQ Operational Term Instance Record"	String
+""	19	"inout"	"Operational Term Description"	"BQ Operational Term Instance Record"	String
+""	20	"inout"	"Operational Term Parameter Type"	"BQ Operational Term Instance Record"	String
+""	21	"inout"	"Operational Term Parameter Setting"	"BQ Operational Term Instance Record"	String
+""	22	"inout"	"Operational Term Transaction Record"	"BQ Operational Term Instance Record"	String
+""	23	"inout"	"Operational Term Transaction Type"	"BQ Operational Term Instance Record"	String
+""	24	"inout"	"Operational Term Transaction Description"	"BQ Operational Term Instance Record"	String
+""	25	"out"	"Operational Term Augmented Cash Flows"	"BQ Operational Term Instance Record"	String
+""	26	"out"	"Payment Initiation Transaction Instance Reference"	"BQ Operational Term Instance Record"	Object
+""
+"Put"	"/sales-product/{sd-identifier}/operational-term/{crbq-identifier}/update"
+""	1	"inout"	"Operational Term Type"	"BQ Operational Term Instance Record"	String
+""	2	"inout"	"Operational Term Description"	"BQ Operational Term Instance Record"	String
+""	3	"inout"	"Operational Term Parameter Type"	"BQ Operational Term Instance Record"	String
+""	4	"inout"	"Operational Term Parameter Setting"	"BQ Operational Term Instance Record"	String
+""	5	"inout"	"Operational Term Transaction Record"	"BQ Operational Term Instance Record"	String
+""	6	"inout"	"Operational Term Transaction Type"	"BQ Operational Term Instance Record"	String
+""	7	"inout"	"Operational Term Transaction Description"	"BQ Operational Term Instance Record"	String
+""	8	"inout"	"Operational Term Augmented Cash Flows"	"BQ Operational Term Instance Record"	String
+""	9	"inout"	"Payment Initiation Transaction Instance Reference"	"BQ Operational Term Instance Record"	Object
+""
+"Put"	"/sales-product/{sd-identifier}/operational-term/{crbq-identifier}/exchange"
+""
+"Put"	"/sales-product/{sd-identifier}/operational-term/{crbq-identifier}/grant"
+""
+"Get"	"/sales-product/{sd-identifier}/operational-term/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	2	"out"	"Underlying Product Instance Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	5	"out"	"Tax Reference"	"CR ProductandService Agreement Instance Record"	Object
+""	6	"out"	"Entitlement Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	7	"out"	"Entitlement Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	8	"out"	"Restriction Option Definition"	"CR ProductandService Agreement Instance Record"	String
+""	9	"out"	"Restriction Option Setting"	"CR ProductandService Agreement Instance Record"	String
+""	10	"out"	"Linked Accounts"	"CR ProductandService Agreement Instance Record"	String
+""	11	"out"	"Link Type"	"CR ProductandService Agreement Instance Record"	String
+""	12	"out"	"Account Details"	"CR ProductandService Agreement Instance Record"	String
+""	13	"out"	"Position Limits"	"CR ProductandService Agreement Instance Record"	String
+""	14	"out"	"Position Limit Type"	"CR ProductandService Agreement Instance Record"	String
+""	15	"out"	"Position Limit Settings"	"CR ProductandService Agreement Instance Record"	String
+""	16	"out"	"Position Limit Value"	"CR ProductandService Agreement Instance Record"	String
+""	17	"out"	"Date Type"	"CR ProductandService Agreement Instance Record"	String
+""	18	"out"	"Operational Term Type"	"BQ Operational Term Instance Record"	String
+""	19	"out"	"Operational Term Description"	"BQ Operational Term Instance Record"	String
+""	20	"out"	"Operational Term Parameter Type"	"BQ Operational Term Instance Record"	String
+""	21	"out"	"Operational Term Parameter Setting"	"BQ Operational Term Instance Record"	String
+""	22	"out"	"Operational Term Transaction Record"	"BQ Operational Term Instance Record"	String
+""	23	"out"	"Operational Term Transaction Type"	"BQ Operational Term Instance Record"	String
+""	24	"out"	"Operational Term Transaction Description"	"BQ Operational Term Instance Record"	String
+""	25	"out"	"Operational Term Augmented Cash Flows"	"BQ Operational Term Instance Record"	String
+""	26	"out"	"Payment Initiation Transaction Instance Reference"	"BQ Operational Term Instance Record"	Object

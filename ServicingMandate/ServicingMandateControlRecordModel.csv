@@ -1,0 +1,19 @@
+"Control Record Model for: "	Servicing Mandate
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Servicing Mandate Agreement Instance Record	""	""	""
+"CR"	CR Servicing Mandate Agreement Instance Record	Customer Reference	"Reference to the third party service provider with the servicing mandate (also a bank customer)"	Object
+"CR"	CR Servicing Mandate Agreement Instance Record	Servicing Mandate Agreement Type	"The type of third party mandates (e.g. PSD2)"	String
+"CR"	CR Servicing Mandate Agreement Instance Record	Servicing Mandate Agreement Jurisdiction	"The defines any limitation on the geographic coverage/scope of the mandate"	String
+"CR"	CR Servicing Mandate Agreement Instance Record	Servicing Mandate Agreement Valid From/To Date	"The term for the mandate to be in force"	Date
+"CR"	CR Servicing Mandate Agreement Instance Record	Servicing Mandate Agreement Responsible Parties	"Reference to any involved authorities and interested parties"	String
+"CR"	CR Servicing Mandate Agreement Instance Record	Document Directory Entry Instance Reference	"Reference to any supporting documents"	Object
+"CR"	CR Servicing Mandate Agreement Instance Record	Servicing Mandate Agreement ProductandService Profile Reference	"Reference to the record that defines allowed access"	Object
+"CR"	CR Servicing Mandate Agreement Instance Record	Servicing Mandate Agreement ProductandService Profile	"The record of the overarching product/service access profile permitted under the servicing mandate"	String
+"CR"	CR Servicing Mandate Agreement Instance Record	ProductandService Type	"A type of product or service covered by the mandate"	String
+"CR"	CR Servicing Mandate Agreement Instance Record	Servicing Mandate Agreement ProductandService Type Eligibility	"Defines if and under what terms a product/service is accessible under the mandate"	String
+"BQ"	BQ Customer Mandate Instance Record	""	"Reference to the terms in force for a specific customer for this service provider"	""
+"BQ"	BQ Customer Mandate Instance Record	Customer Reference	"Reference to the individual customer be accessed through the servicing order"	Object
+"BQ"	BQ Customer Mandate Instance Record	Servicing Mandate Agreement Customer ProductandService Profile	"Details the specific customer access allowed under the mandate"	String
+"BQ"	BQ Customer Mandate Instance Record	ProductandService Type	"A type of product or service covered by the mandate"	String
+"BQ"	BQ Customer Mandate Instance Record	Servicing Mandate Agreement Customer ProductandService Type Access	"Defines if and under what terms a product/service can be accessed for this customer under the mandate"	String
+"BQ"	BQ Customer Mandate Instance Record	Servicing Mandate Agreement Customer ProductandService Type Usage	"Records the usage of products/service under the mandate for control purposes"	String

@@ -1,0 +1,5 @@
+"Service Operations for: "	Securities Fails Processing
+"Control Record Model for Securities Fails Processing is not defined"
+"POST"	"/securities-fails-processing/activation"
+"PUT"	"/securities-fails-processing/{sd-reference-id}/configuration"
+"PUT"	"/securities-fails-processing/{sd-reference-id}/feedback"

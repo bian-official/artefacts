@@ -1,0 +1,37 @@
+"Control Record Model for: "	System Development
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Software and Data Specification Instance Record	""	""	""
+"BQ"	BQ Software and Data Specification Instance Record	Software and Data Specification Task Definition	"Details the software and data specification/development tasks and deliverables of system development project"	String
+"BQ"	BQ Software and Data Specification Instance Record	Software and Data Specification Task Work Products	"Collection of design and development work products used in the implementation of the software and data specification"	String
+"BQ"	BQ Software and Data Specification Instance Record	Document Directory Entry Instance Reference	"Reference to associated project documents"	Object
+"BQ"	BQ Software and Data Specification Instance Record	System Software and Data Specification	"The developed software and data specification in a format suited for production deployment"	String
+"CR"	CR IT System Development Instance Record	""	""	""
+"CR"	CR IT System Development Instance Record	System Development Project Name	"The reference to and descriptive name of the deployment project"	String
+"CR"	CR IT System Development Instance Record	System Development Project Type	"The type of deployment project (e.g. service update, new product release)"	String
+"CR"	CR IT System Development Instance Record	System Development Project Description	"A description of the scope, goal and make-up of the product deployment project"	String
+"CR"	CR IT System Development Instance Record	System Development Implementation Plan	"The derived deployment execution plan, covering tasks from the completion and acceptance of the deployment plan through to completion of the deployment including post deployment analysis tasks if required. Consolidates the different aspects of the plan. (Captures both planned and actual results)"	String
+"CR"	CR IT System Development Instance Record	System Development Budget	"The financial considerations for the deployment (includes planning and execution)"	String
+"CR"	CR IT System Development Instance Record	System Development Project Organization	"The organizational aspects of the deployment effort (includes planning and execution)"	String
+"CR"	CR IT System Development Instance Record	System Development Project Schedule	"The deployment schedule of events, planned and actual (includes planning and execution tasks)"	String
+"CR"	CR IT System Development Instance Record	Date Type	"Key dates associated with the development of the deployment plan (e.g. planning start date, deployment plan approval, deployment plan sign-off)"	String
+"CR"	CR IT System Development Instance Record	Date	"Value of the specific date type"	String
+"BQ"	BQ Usage Specification Instance Record	""	""	""
+"BQ"	BQ Usage Specification Instance Record	Usage Specification Task Definition	"Details the usage guidelines specification tasks and deliverables of the system development project"	String
+"BQ"	BQ Usage Specification Instance Record	Usage Specification Task Work Products	"Collection of design and development work products used in the definition of usage guidelines etc."	String
+"BQ"	BQ Usage Specification Instance Record	Document Directory Entry Instance Reference	"Reference to associated project documents"	Object
+"BQ"	BQ Usage Specification Instance Record	System Functional Specification	"The usage guideline specification as a suitably structured and formatted document"	String
+"BQ"	BQ Functional Specification Instance Record	""	""	""
+"BQ"	BQ Functional Specification Instance Record	Functional Specification Task Definition	"Details the functional specification tasks and deliverables of system development project"	String
+"BQ"	BQ Functional Specification Instance Record	Functional Specification Task Work Products	"Collection of design and development work products used in the definition of functional requirements"	String
+"BQ"	BQ Functional Specification Instance Record	Document Directory Entry Instance Reference	"Reference to associated project documents"	Object
+"BQ"	BQ Functional Specification Instance Record	System Functional Specification	"The functional specification as a suitably structured and formatted document"	String
+"BQ"	BQ Technical Specification Instance Record	""	""	""
+"BQ"	BQ Technical Specification Instance Record	Technical Specification Task Definition	"Details the technical specification tasks and deliverables of system development project"	String
+"BQ"	BQ Technical Specification Instance Record	Technical Specification Task Work Products	"Collection of design and development work products used in the definition of technical requirements"	String
+"BQ"	BQ Technical Specification Instance Record	Document Directory Entry Instance Reference	"Reference to associated project documents"	Object
+"BQ"	BQ Technical Specification Instance Record	System Technical Specification	"The technical specification as a suitably structured and formatted document"	String
+"BQ"	BQ Testing Specification Instance Record	""	""	""
+"BQ"	BQ Testing Specification Instance Record	Testing Specification Task Definition	"Details the testing tasks and deliverables of system development project"	String
+"BQ"	BQ Testing Specification Instance Record	Testing Specification Task Work Products	"Collection of design and development work products used in the testing of the developed system"	String
+"BQ"	BQ Testing Specification Instance Record	Document Directory Entry Instance Reference	"Reference to associated project documents"	Object
+"BQ"	BQ Testing Specification Instance Record	System Testing Specification	"The testing specification and results as a suitably structured and formatted document"	String

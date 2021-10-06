@@ -1,0 +1,46 @@
+"Control Record Model for: "	Credit Risk Models
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Credit Risk Model Specification Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Credit Risk Models. . Example: Create and maintain product designs and analytical models."	""
+"CR"	CR Credit Risk Model Specification Instance Record	Credit Risk Model Specification Parameter Type	"A Classification value that distinguishes between designs according to the type of business services and/or aspect within Credit Risk Model Specification . Eg Product Design, Campaign Design, Risk Model Design etc. "	String
+"CR"	CR Credit Risk Model Specification Instance Record	Credit Risk Model Specification Selected Option	"A selected optional business service as subject matter of design"	String
+"CR"	CR Credit Risk Model Specification Instance Record	Credit Risk Model Specification Description	"Documentation of Credit Risk Model Specification"	String
+"CR"	CR Credit Risk Model Specification Instance Record	Credit Risk Model Specification Version	"The version of Credit Risk Model Specification"	String
+"CR"	CR Credit Risk Model Specification Instance Record	Credit Risk Model Specification Status	"The status of Credit Risk Model Specification"	String
+"CR"	CR Credit Risk Model Specification Instance Record	Credit Risk Model Specification Usage Log	"Reference to the log of (usage) ativities/events of Credit Risk Model Specification"	String
+"CR"	CR Credit Risk Model Specification Instance Record	Credit Risk Model Specification Feedback	"Information about reactions to a design which is used as a basis for improvement for the Credit Risk Model Specification."	String
+"CR"	CR Credit Risk Model Specification Instance Record	Credit Risk Model Specification ServiceProvider Reference	"Reference to the party who has provided Credit Risk Model Specification"	Object
+"BQ"	BQ Production Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Credit Risk Models. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Production Instance Record	Production Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Production Instance Record	Production Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Production Instance Record	Production Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Production Instance Record	Business Service	"The Credit Risk Model Specification specific  Business Service"	Business Service
+"BQ"	BQ Production Instance Record	Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Production Instance Record	Service Description	"Description of the performed business service"	String
+"BQ"	BQ Production Instance Record	Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Production Instance Record	Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Production Instance Record	Service Name	""	String
+"BQ"	BQ Functional Requirements Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Credit Risk Models. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Functional Requirements Instance Record	Functional Requirements Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Functional Requirements Instance Record	Functional Requirements Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Functional Requirements Instance Record	Functional Requirements Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Functional Requirements Instance Record	Business Service	"The Credit Risk Model Specification specific  Business Service"	Business Service
+"BQ"	BQ Functional Requirements Instance Record	Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Functional Requirements Instance Record	Service Description	"Description of the performed business service"	String
+"BQ"	BQ Functional Requirements Instance Record	Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Functional Requirements Instance Record	Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Functional Requirements Instance Record	Service Name	""	String
+"BQ"	BQ Credit Risk Models Outcome Instance Record	""	""	""
+"BQ"	BQ Credit Risk Models Outcome Instance Record	Credit Risk Models Task	""	String
+"BQ"	BQ Credit Risk Models Outcome Instance Record	Credit Risk Models Design	""	String
+"BQ"	BQ Credit Risk Models Outcome Instance Record	Credit Risk Models Work Product	""	String
+"BQ"	BQ Credit Risk Models Outcome Instance Record	Credit Risk Models Impact Analysis	""	String
+"BQ"	BQ Testing Instance Record	""	"Create and maintain a design for a procedure, product/service model or other such entity  within Credit Risk Models. . Example: Create and maintain product designs and analytical models."	""
+"BQ"	BQ Testing Instance Record	Testing Preconditions	"The required status/situation before the specification aspect can be defined"	String
+"BQ"	BQ Testing Instance Record	Testing Specification Schedule	"The schedule and timing of the definition and update/revisions of the specification aspect"	String
+"BQ"	BQ Testing Instance Record	Testing Version Number	"The current version, and version history as appropriate for the specification aspect"	String
+"BQ"	BQ Testing Instance Record	Business Service	"The Credit Risk Model Specification specific  Business Service"	Business Service
+"BQ"	BQ Testing Instance Record	Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Testing Instance Record	Service Description	"Description of the performed business service"	String
+"BQ"	BQ Testing Instance Record	Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Testing Instance Record	Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Testing Instance Record	Service Name	""	String

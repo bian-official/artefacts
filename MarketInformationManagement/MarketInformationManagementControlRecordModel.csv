@@ -1,0 +1,28 @@
+"Control Record Model for: "	Market Information Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Reporting Instance Record	""	""	""
+"BQ"	BQ Reporting Instance Record	Financial Market Information Report	"Is the report itself, including historical versions as appropriate"	String
+"BQ"	BQ Reporting Instance Record	Financial Market Information Report Type	"The report represents a specific managed information view of the scrubbed financial market information"	String
+"BQ"	BQ Reporting Instance Record	Financial Market Information Report Description	"Is a detailed definition of the report contents, including properties that clarify the quality/integrity and timeliness of the content"	String
+"BQ"	BQ Reporting Instance Record	Financial Market Information Report Schedule	"Is the schedule for maintaining the report content"	String
+"BQ"	BQ Reporting Instance Record	Financial Market Information Report Access History	"Is a log/record of access made to the report by bank users"	String
+"BQ"	BQ Consolidation Instance Record	""	""	""
+"BQ"	BQ Consolidation Instance Record	Financial Market Information Service Report	"Refers to the content record provided by the external service provider in whatever form suitable"	String
+"BQ"	BQ Consolidation Instance Record	Financial Market Information Service Report Properties	"Key properties of the report used in its improvement (e.g. date created, qualifications of integrity)"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	""	""	""
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Service	"Reference to the external sources of financial market information. Can be an ongoing service or some form of report"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Provider	"The external agency/source of financial market information"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market information Description	"Defines the scope/content of the financial market information"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Service Type	"Defines the type of information service (e.g. a regular feed, periodic report)"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Service Schedule	"Sets out the delivery schedule for content"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Service Agreement	"Reference to any agreement covering access to the external service"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Database	"Refers to the consolidated financial market information that is enhanced/improved by the bank for internal reference. This is a collection of different subject areas for which a bank perspective is maintained"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Subject Area	"Refers to a maintained subject area"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Subject Area Description	"A description of the information content of the subject area"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Subject Area Update History	"A record of the update history of the content"	String
+"CR"	CR Financial Market Information Administrative Plan Instance Record	Financial Market Information Subject Area Record	"The consolidated improved information, includes current and past historical records as necessary"	String
+"BQ"	BQ Improvement Instance Record	""	""	""
+"BQ"	BQ Improvement Instance Record	Financial Market Information Improvement Task Type	"Defines the type of technique used to improve the content (e.g. cross verification, pattern/anomaly detection)"	String
+"BQ"	BQ Improvement Instance Record	Financial Market Information Improvement Task Sources	"References to the different sources of financial market information used to improve the content (can be primary source and comparison data)"	String
+"BQ"	BQ Improvement Instance Record	Financial Market Information Improvement Task Work Products	"Work documentation, forms and schedules produced and referenced during the enquiry"	String
+"BQ"	BQ Improvement Instance Record	Financial Market Information Improvement Task Result	"Output of the improvement task that is recorded back to the Financial Market Information Database"	String

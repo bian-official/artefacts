@@ -1,0 +1,93 @@
+"Control Record Model for: "	Credit Facility
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Credit Facility Arrangement Instance Record	""	""	""
+"CR"	CR Credit Facility Arrangement Instance Record	Product Instance Reference	"Reference to the credit facility product instance"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Number	"The associated credit facility account number in any suitable format"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Customer Reference	"Reference to the account primary party/owner"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Party Reference	"The legal entity reference for the borrower, likely to be the same as the corporate customer"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Customer Agreement Reference	"Reference to the associated customer agreement"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Customer Credit Assessment Reference	"Reference to an associated credit assessment"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Insurance Reference	"Reference to applicable insurance arrangements"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Delinquency/Collection Reference	"Reference to collections/delinquency processing made against the credit facility"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the facility for booking purposes"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Bank Accounting Unit Reference	"Bank accounting unit associated with the facility for booking purposes"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Type	"The specific type of credit facility (e.g. term, revolving, letter of credit, retail)"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Amount	"The amount of the credit facility"	Amount
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Currency	"The currency for the facility"	CurrencyCode
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Rate Type	"The rate type to be applied to the credit facility"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Applicable Rate	"The applicable rate for the credit facility"	Rate
+"CR"	CR Credit Facility Arrangement Instance Record	Repayment Type	"The type of repayment arrangement in place (e.g. structured, revolving)"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Interest Type	"The type of interest to be applied (e.g. prime plus)"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Interest Accrual Method	"The accrual method applied to interest calculations"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Origination Date	"The origination date for the credit facility"	Date
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Maturity Date	"The planned maturity date of the credit facility"	Date
+"CR"	CR Credit Facility Arrangement Instance Record	Collateral Reference	"Reference to allocated collateral"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Collateral Allocation	"The collateral value applied to the credit facility loan"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Tax Reference	"Reference identifier linking the account to appropriate tax handling"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Access Terms	"Access terms that apply (e.g. allowed drawdown terms, repayment)"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Underlying Drawdown	"Details the one or more underlying loans made against the facility"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Drawdown Reference	"Reference to the underlying loan"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Drawdown Record	"Record of the underlying loan details"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Drawdown Loan Transaction	"The underlying loan transaction details"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Entitlement Option Definition	"The definition of an applicable entitlement option"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Entitlement Option Setting	"The setting for the entitlement option"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Restriction Option Definition	"The definition of an applicable restriction option"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Restriction Option Setting	"The setting for the restriction option"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Associations	"Definition of the involved parties or associations to the facility"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Association Type	"The type of association (e.g. guarantor, co-signer)"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Association Obligation/Entitlement	"Description of the role, obligations or entitlements of the associated party"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Association Reference	"Reference to the associated party"	Object
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Repayment Schedule	"The schedule for repayments"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Staged Repayment Statement	"A statement maintained tracking repayments"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Customer Commentary	"A record of customer correspondence/feedback"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Credit Facility Outstanding Balance	"The outstanding balance available for the credit facility"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Date Type	"Key dates associated with the account (e.g. opening date, closing date)"	String
+"CR"	CR Credit Facility Arrangement Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Service Fees Instance Record	""	""	""
+"BQ"	BQ Service Fees Instance Record	Fee Configuration Profile	"The profile of applicable fees and penalties"	String
+"BQ"	BQ Service Fees Instance Record	Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Service Fees Instance Record	Fee Definition	"Definition of the fee or penalty including when and how to apply"	String
+"BQ"	BQ Service Fees Instance Record	Fee Application Record	"The record of applied fees and penalties including transactions and accrued amounts"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction	"A record of an applied fee or penalty"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Description	"General description of the fee or penalty transaction"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Service Fees Instance Record	Transaction Fee Charge	"The derived fee or penalty amount applied"	String
+"BQ"	BQ Service Fees Instance Record	Fee Projections and Commitments	"A record of projected fees and penalties"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Description	"General description of the projected fee or penalty"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Type	"The fee or penalty type"	String
+"BQ"	BQ Service Fees Instance Record	Projected Transaction Fee Charge	"The anticipated fee or penalty amount"	String
+"BQ"	BQ Service Fees Instance Record	Fee Accrual Amount	"Tracking of accumulated fees and penalties"	Amount
+"BQ"	BQ Service Fees Instance Record	Accrual Fee Type	"The fee or penalty type being tracked"	String
+"BQ"	BQ Service Fees Instance Record	Accrual Fee Charge	"The accrued amount of fees and penalties"	String
+"BQ"	BQ Interest Instance Record	""	""	""
+"BQ"	BQ Interest Instance Record	Interest Rate Type	"Applicable rate type"	String
+"BQ"	BQ Interest Instance Record	Interest Rate Application Schedule	"The processing schedule for applying interest rates to the account"	Rate
+"BQ"	BQ Interest Instance Record	Interest Rate Configuration	"The collection of applicable rates"	Rate
+"BQ"	BQ Interest Instance Record	Interest Rate	"The interest rate value to be applied (note could be variable)"	Rate
+"BQ"	BQ Interest Instance Record	Interest Application Record	"The record of applied interest"	String
+"BQ"	BQ Interest Instance Record	Interest Transaction	"A record of applied interest"	String
+"BQ"	BQ Interest Instance Record	Transaction Description	"General description of the interest transaction"	String
+"BQ"	BQ Interest Instance Record	Transaction Rate Type	"Applicable rate type"	String
+"BQ"	BQ Interest Instance Record	Transaction Interest Charge	"The derived interest amount to be applied"	String
+"BQ"	BQ Interest Instance Record	Interest Accrual Amount	"Record of accrued interest"	Amount
+"BQ"	BQ Interest Instance Record	Interest Accrual Type	"The interest type being tracked"	String
+"BQ"	BQ Interest Instance Record	Interest Accrual Charge	"The accrued amount of applied interest"	String
+"BQ"	BQ Maintenance Instance Record	""	""	""
+"BQ"	BQ Maintenance Instance Record	Maintenance Report Type	"The type of maintenance action and report processed (e.g. tax, regulatory, accounting)"	String
+"BQ"	BQ Maintenance Instance Record	Credit Facility Tax Report	"A report summarizing tax considerations"	String
+"BQ"	BQ Maintenance Instance Record	Credit Facility Fee Type	"The type of fee applied"	String
+"BQ"	BQ Maintenance Instance Record	Credit Facility Fees	"A report detailing fees applied to the loan account (range of fees possible for different actions)"	String
+"BQ"	BQ Maintenance Instance Record	Credit Facility Penalties	"A report detailing penalties incurred as booked against loan account"	String
+"BQ"	BQ Maintenance Instance Record	Credit Facility Collateral Valuation	"A report detailing the current applied collateral valuation (value confirmed as of date)"	String
+"BQ"	BQ Restructuring Instance Record	""	""	""
+"BQ"	BQ Restructuring Instance Record	Restructuring Task	"Description of the restructuring required"	String
+"BQ"	BQ Restructuring Instance Record	Restructuring Evaluation	"Definition of issue to resolve and the restructuring solution with associated changes to the credit facility terms and the assessed impact"	String
+"BQ"	BQ Restructuring Instance Record	Restructuring Write Down	"Calculated loss/costs of restructuring the credit facility"	String
+"BQ"	BQ Repayment Instance Record	""	""	""
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Type	"The type of repayment (e.g. scheduled repayment, balloon/early termination)"	String
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Reference	"Reference to the payer"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Product Instance Reference	"Reference to the account where the payment is made from"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Bank Reference	"Reference to the payer's bank"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Amount	"The amount of the repayment"	Amount
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Currency	"The currency used for the repayment"	CurrencyCode
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Value Date	"The value date for the repayment transaction"	Date

@@ -1,0 +1,5 @@
+"Service Operations for: "	Merchant Relations
+"Control Record Model for Merchant Relations is not defined"
+"POST"	"/merchant-relations/activation"
+"PUT"	"/merchant-relations/{sd-reference-id}/configuration"
+"PUT"	"/merchant-relations/{sd-reference-id}/feedback"

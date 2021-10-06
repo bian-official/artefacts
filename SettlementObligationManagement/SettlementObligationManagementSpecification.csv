@@ -1,0 +1,13 @@
+"Service Domain specification for Settlement Obligation Management"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Settlement Obligation Management
+"Role Definition"	"Orchestrate the clearing and settlement of market transactions"
+"Example of use"	"A collection of market trades are cleared and settled. Counterparty specific SSIs are referenced in the process"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Transact
+"Asset Type"	SecuritiesClearingAndSettlement
+"Generic Artifact"	Transaction
+"Control Record"	SecuritiesClearingAndSettlementTransaction
+"Registration Status"	Registered

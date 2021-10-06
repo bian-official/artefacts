@@ -1,0 +1,41 @@
+"Control Record Model for: "	Correspondence
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Inbound Instance Record	""	""	""
+"BQ"	BQ Inbound Instance Record	Inbound Correspondence Instance Reference	"Reference to the inbound correspondence item"	Object
+"BQ"	BQ Inbound Instance Record	Inbound Correspondence Record	"The inbound correspondence message"	String
+"BQ"	BQ Inbound Instance Record	Inbound Correspondence Type (e.g. unsolicited message, product/service related, complaint)	"The interpreted type of correspondence (e.g. unsolicited message, product/service related, complaint)"	String
+"BQ"	BQ Inbound Instance Record	Inbound Correspondence Content	"The inbound message content in whatever format appropriate"	String
+"BQ"	BQ Inbound Instance Record	Inbound Correspondence Addressee	"The identified source of inbound message (extracted from the content)"	String
+"BQ"	BQ Inbound Instance Record	Inbound Correspondence Customer Reference	"Matched bank customer (from reference details extracted from the content where possible)"	Object
+"BQ"	BQ Inbound Instance Record	Inbound Correspondence Employee/Business Unit Reference	"Identified internal addressee (from reference details extracted from the content where possible)"	Object
+"BQ"	BQ Inbound Instance Record	Date Type	"Key dates used for tracking internal delivery (e.g. receipt date, internal distribution, receipt confirmation date, re-route date)"	String
+"BQ"	BQ Inbound Instance Record	Date	"The value of the date and time"	String
+"BQ"	BQ Outbound Instance Record	""	""	""
+"BQ"	BQ Outbound Instance Record	Correspondence Source Reference	"Internal source reference to the correspondence item passed for delivery (can be used to match responses)"	Object
+"BQ"	BQ Outbound Instance Record	Correspondence Record	"The correspondence message"	String
+"BQ"	BQ Outbound Instance Record	Correspondence Type	"The type of correspondence (e.g. confirmation note, mail shot)"	String
+"BQ"	BQ Outbound Instance Record	Correspondence Template Reference	"Reference to a template used to assemble standard format correspondence (can be supplied with the correspondence or maintained within the Correspondence service domain as appropriate)"	Object
+"BQ"	BQ Outbound Instance Record	Correspondence Template Record	"The template definition used in correspondence assembly"	String
+"BQ"	BQ Outbound Instance Record	Correspondence Content	"The message content (aligned to template as appropriate)"	String
+"BQ"	BQ Outbound Instance Record	Correspondence Media/Channel	"Identifies the preferred media and channel for delivery of the message"	String
+"BQ"	BQ Outbound Instance Record	Correspondence Addressee	"The address for message delivery (needs to match channel selection)"	String
+"BQ"	BQ Outbound Instance Record	Customer Reference	"If addressee is identified as a customer with channel preferences for correspondence"	Object
+"BQ"	BQ Outbound Instance Record	Channel Access Preference Reference	"???"	Object
+"BQ"	BQ Outbound Instance Record	Channel Access Preference Profile	"The channel usage profile applied for the correspondence"	String
+"BQ"	BQ Outbound Instance Record	Channel Access Channel/Device Type	"The target device defines the format to be used (e.g. email)"	String
+"BQ"	BQ Outbound Instance Record	Channel Access Channel/Device Type Preference	"A description of the customer's delivery preferences applied to the message (e.g. no paper correspondence, stuffing and batching allowed)"	String
+"BQ"	BQ Outbound Instance Record	ProductandService Type	"The associated product/service if applicable"	String
+"BQ"	BQ Outbound Instance Record	Employee/Business Unit Reference	"The sending entity within the bank (can be used for responses)"	Object
+"BQ"	BQ Outbound Instance Record	Date Type	"Key dates used for tracking delivery (e.g. generation date, mailing date, receipt confirmation date, re-send date)"	String
+"BQ"	BQ Outbound Instance Record	Date	"The value of the date and time"	String
+"BQ"	BQ Outbound With Response Instance Record	""	""	""
+"BQ"	BQ Outbound With Response Instance Record	Response Due Date	"Date when the response expected. This can result in chasing activities and notification to the sending unit"	Date
+"BQ"	BQ Outbound With Response Instance Record	Response Correspondence Reference	"Reference to the inbound correspondence received that has been matched to the outbound message"	Object
+"BQ"	BQ Outbound With Response Instance Record	Response Correspondence Record	"Content of the inbound correspondence"	String
+"CR"	CR Correspondence Operating Session Instance Record	""	""	""
+"CR"	CR Correspondence Operating Session Instance Record	Correspondence Service Session Statistics	"Service activity statistics that are maintained during the session"	String
+"CR"	CR Correspondence Operating Session Instance Record	Correspondence Service Session Report Type	"Session reports that can be accessed during the session (e.g. real-time status, session statistics)"	String
+"CR"	CR Correspondence Operating Session Instance Record	Correspondence Service Session Report	"The session activity report"	String
+"CR"	CR Correspondence Operating Session Instance Record	Correspondence Service Session Date	"Key dates and times for the session"	Date
+"BQ"	BQ Block Mailing Instance Record	""	""	""
+"BQ"	BQ Block Mailing Instance Record	Block mailing Record	"Used to track receipt and return of the individual messages making up the block mail"	String

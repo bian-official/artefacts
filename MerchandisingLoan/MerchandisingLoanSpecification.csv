@@ -1,0 +1,13 @@
+"Service Domain specification for Merchandising Loan"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Merchandising Loan
+"Role Definition"	"The service domain handles loan fulfillment intended for the purchase of a larger merchandise item such as a car or boat. The item is usually administered as collateral for the loan and the origination and subsequent processing of the loan can include coordination with the merchant for some elements of fulfillment."
+"Example of use"	"Example of use:. A boat retailer coordinates with a bank to offer merchandising loans to bank customers wanting to buy a boat"
+"Executive Summary"	"Fulfillment of loan product used in the purchase of a larger merchandise item such as a car or boat. The purchased item is typically treated as collateral for the loan"
+"Key Features"	"Facility maintenance - fees, interest, reporting. Payments and withdrawals, liens and sweeps. Collateral tracking and oversight"
+"Functional Pattern"	Fulfill
+"Asset Type"	MerchandisingLoan
+"Generic Artifact"	Facility (rename)
+"Control Record"	MerchandisingLoanArrangement
+"Registration Status"	Registered

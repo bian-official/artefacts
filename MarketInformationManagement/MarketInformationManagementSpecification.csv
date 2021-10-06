@@ -1,0 +1,13 @@
+"Service Domain specification for Market Information Management"
+"Business Area"	Channels
+"Business Domain"	Information Providers
+"Service Domain"	Market Information Management
+"Role Definition"	"Consolidate market information from multiple sources and in any suitable media/format in order to build a bank financial market knowledge-base. The service domain activities include maintaining, refining, qualifying/verifying and presenting information in order to improve the quality of the available market intelligence within the bank"
+"Example of use"	"The bank consolidates multiple sources of private company merger and acquisition activity in order to maintain a view of private company players in a target sector"
+"Executive Summary"	"Market information management consolidates and improves market information from multiple sources in order to build up a bank knowledge base in targeted areas"
+"Key Features"	"Determine the required scope of market information to be maintained. Source suitable market information sources and consolidate records. Verify and qualify the accuracy of the information. Structure/present the information in reports suited to business analysis and review"
+"Functional Pattern"	Administer
+"Asset Type"	FinancialMarketInformation
+"Generic Artifact"	AdministrativePlan
+"Control Record"	FinancialMarketInformationAdministrativePlan
+"Registration Status"	Registered

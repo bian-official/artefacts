@@ -1,0 +1,13 @@
+"Service Domain specification for eBranch Management"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	eBranch Management
+"Role Definition"	"Handles the oversight and configuration of the e-branch (web/data) access channel. This includes assessing capacity, performance, scheduling maintenance and updates to the channel configuration. Also determining allowed access and usage and troubleshooting major production problems"
+"Example of use"	"Management review and define the reconfiguration requirements for the e-branch channel based on capacity/volume projections"
+"Executive Summary"	"Oversee the configuration and operation of the e-branch channel facilities"
+"Key Features"	"Determine the required e-branch channel platform configuration. Oversee platform upgrades and maintenance. Track service availability and troubleshoot major production issues"
+"Functional Pattern"	Manage
+"Asset Type"	eBranchChannel
+"Generic Artifact"	ManagementPlan
+"Control Record"	eBranchChannelManagementPlan
+"Registration Status"	Registered

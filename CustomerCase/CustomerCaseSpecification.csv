@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Case"
+"Business Area"	Customers
+"Business Domain"	Customer Care
+"Service Domain"	Customer Case
+"Role Definition"	"Case resolution tasks follow specific procedures for the type of case involved. Case resolution can be quick by applying resolution rules and obtaining additional authorization as necessary, or they can be long living activities, for example where documentation is requested and has to be retrieved from merchants or other interested parties before the disputed issue can finally be ruled upon. A wide range of case types can be expected"
+"Example of use"	"A case resolution operator works through the resolution of a case, following the established process for the specific case - in this case a disputed charge that is below a threshold allowing the credit to be charged to the merchant"
+"Executive Summary"	"This service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)"
+"Key Features"	"Customer case capture and classification. Case related information consolidation. Customer case diagnosis and decisioning. Customer case resolution implementation"
+"Functional Pattern"	Process
+"Asset Type"	CustomerCase
+"Generic Artifact"	Procedure
+"Control Record"	CustomerCaseProcedure
+"Registration Status"	Registered

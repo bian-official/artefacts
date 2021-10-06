@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Position"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Customer Position
+"Role Definition"	"Individual products will maintain different financial views for the customer. This service domain consolidates financial details from all in-force products and services in order to derive a consolidated financial view which can include current (real-time) positions and projected/estimated values. The consolidated customer position can cover aspects such as cash flows/balances, credit and collateral positions and may derive actual and estimated/projected values"
+"Example of use"	"The banks maintains and analyses the consolidated position for a customer across all accounts products and services"
+"Executive Summary"	"This service domain maintains a consolidated financial position for a customer, combining details from all products and services in use. The position can cover available funds, credit, collateral, tax exposure and other financial measures as necessary"
+"Key Features"	"Consolidate product and service financial activity. Derive consolidated cash flow/balance positions (current and projected). Derive consolidated credit exposure (current and projected . Derive consolidated collateral positions (current and projected)"
+"Functional Pattern"	Monitor
+"Asset Type"	CustomerPosition
+"Generic Artifact"	State
+"Control Record"	CustomerPositionState
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Information Provider Administration"
+"Business Area"	Business Development
+"Business Domain"	Channel Management
+"Service Domain"	Information Provider Administration
+"Role Definition"	"Administer the information feed configuration and service agreement with the commercial information providers including subscription and service payment authorization activities"
+"Example of use"	"A bank subscribes to a real time market feed and administers the distribution to entitled employees"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Agree Terms
+"Asset Type"	InformationFeed
+"Generic Artifact"	Agreement
+"Control Record"	InformationFeedAgreement
+"Registration Status"	Registered

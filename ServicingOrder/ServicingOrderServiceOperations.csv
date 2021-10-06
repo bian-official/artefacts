@@ -1,0 +1,59 @@
+"Service Operations for: "	Servicing Order
+""
+"POST"	"/servicing-order/activation"
+"PUT"	"/servicing-order/{sd-reference-id}/configuration"
+"PUT"	"/servicing-order/{sd-reference-id}/feedback"
+""
+"Post"	"/servicing-order/{sd-identifier}/servicing-order-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Third Party Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	2	"in"	"Third Party Servicing Mandate Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	4	"in"	"Customer Eligibility Assessment Instance Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	5	"in"	"Servicing Order Type"	"CR Servicing Order Procedure Instance Record"	String
+""	6	"inout"	"Servicing Order Task Record"	"CR Servicing Order Procedure Instance Record"	String
+""	7	"out"	"Servicing Order Description"	"CR Servicing Order Procedure Instance Record"	String
+""	8	"in"	"Employee/Business Unit Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	9	"out"	"Servicing Order Work Product"	"CR Servicing Order Procedure Instance Record"	String
+""	10	"out"	"Servicing Order Work Task Result"	"CR Servicing Order Procedure Instance Record"	String
+""
+"Put"	"/servicing-order/{sd-identifier}/servicing-order-procedure/{crbq-identifier}/update"
+""
+"Put"	"/servicing-order/{sd-identifier}/servicing-order-procedure/{crbq-identifier}/control"
+""
+"Put"	"/servicing-order/{sd-identifier}/servicing-order-procedure/{crbq-identifier}/exchange"
+""
+"Put"	"/servicing-order/{sd-identifier}/servicing-order-procedure/{crbq-identifier}/execution"
+""	1	"in"	"Third Party Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	2	"in"	"Third Party Servicing Mandate Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	4	"in"	"Customer Eligibility Assessment Instance Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	5	"in"	"Servicing Order Type"	"CR Servicing Order Procedure Instance Record"	String
+""	6	"inout"	"Servicing Order Task Record"	"CR Servicing Order Procedure Instance Record"	String
+""	7	"out"	"Servicing Order Description"	"CR Servicing Order Procedure Instance Record"	String
+""	8	"in"	"Employee/Business Unit Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	9	"out"	"Servicing Order Work Product"	"CR Servicing Order Procedure Instance Record"	String
+""	10	"out"	"Servicing Order Work Task Result"	"CR Servicing Order Procedure Instance Record"	String
+""
+"Put"	"/servicing-order/{sd-identifier}/servicing-order-procedure/{crbq-identifier}/requisition"
+""	1	"in"	"Third Party Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	2	"in"	"Third Party Servicing Mandate Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	4	"in"	"Customer Eligibility Assessment Instance Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	5	"in"	"Servicing Order Type"	"CR Servicing Order Procedure Instance Record"	String
+""	6	"inout"	"Servicing Order Task Record"	"CR Servicing Order Procedure Instance Record"	String
+""	7	"out"	"Servicing Order Description"	"CR Servicing Order Procedure Instance Record"	String
+""	8	"in"	"Employee/Business Unit Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	9	"out"	"Servicing Order Work Product"	"CR Servicing Order Procedure Instance Record"	String
+""	10	"out"	"Servicing Order Work Task Result"	"CR Servicing Order Procedure Instance Record"	String
+""
+"Get"	"/servicing-order/{sd-identifier}/servicing-order-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Third Party Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	2	"out"	"Third Party Servicing Mandate Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	4	"out"	"Customer Eligibility Assessment Instance Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	5	"out"	"Servicing Order Type"	"CR Servicing Order Procedure Instance Record"	String
+""	6	"out"	"Servicing Order Task Record"	"CR Servicing Order Procedure Instance Record"	String
+""	7	"out"	"Servicing Order Description"	"CR Servicing Order Procedure Instance Record"	String
+""	8	"out"	"Employee/Business Unit Reference"	"CR Servicing Order Procedure Instance Record"	Object
+""	9	"out"	"Servicing Order Work Product"	"CR Servicing Order Procedure Instance Record"	String
+""	10	"out"	"Servicing Order Work Task Result"	"CR Servicing Order Procedure Instance Record"	String

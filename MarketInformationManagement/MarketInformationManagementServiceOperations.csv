@@ -1,0 +1,102 @@
+"Service Operations for: "	Market Information Management
+""
+"POST"	"/market-information-management/activation"
+"PUT"	"/market-information-management/{sd-reference-id}/configuration"
+"PUT"	"/market-information-management/{sd-reference-id}/feedback"
+""
+"Post"	"/market-information-management/{sd-identifier}/financial-market-information-administrative-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Financial Market Information Service"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	2	"inout"	"Financial Market Information Provider"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	3	"inout"	"Financial Market information Description"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	4	"inout"	"Financial Market Information Service Type"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	5	"inout"	"Financial Market Information Service Schedule"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	6	"inout"	"Financial Market Information Service Agreement"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	7	"inout"	"Financial Market Information Database"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	8	"inout"	"Financial Market Information Subject Area"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	9	"out"	"Financial Market Information Subject Area Description"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	10	"inout"	"Financial Market Information Subject Area Update History"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	11	"out"	"Financial Market Information Subject Area Record"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""
+"Put"	"/market-information-management/{sd-identifier}/financial-market-information-administrative-plan/{crbq-identifier}/update"
+""
+"Put"	"/market-information-management/{sd-identifier}/financial-market-information-administrative-plan/{crbq-identifier}/control"
+""
+"Put"	"/market-information-management/{sd-identifier}/financial-market-information-administrative-plan/{crbq-identifier}/exchange"
+""
+"Put"	"/market-information-management/{sd-identifier}/financial-market-information-administrative-plan/{crbq-identifier}/execution"
+""
+"Put"	"/market-information-management/{sd-identifier}/financial-market-information-administrative-plan/{crbq-identifier}/requisition"
+""
+"Put"	"/market-information-management/{sd-identifier}/financial-market-information-administrative-plan/{crbq-identifier}/grant"
+""
+"Get"	"/market-information-management/{sd-identifier}/financial-market-information-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Market Information Service"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	2	"out"	"Financial Market Information Provider"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	3	"out"	"Financial Market information Description"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	4	"out"	"Financial Market Information Service Type"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	5	"out"	"Financial Market Information Service Schedule"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	6	"out"	"Financial Market Information Service Agreement"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	7	"out"	"Financial Market Information Database"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	8	"out"	"Financial Market Information Subject Area"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	9	"out"	"Financial Market Information Subject Area Description"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	10	"out"	"Financial Market Information Subject Area Update History"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	11	"out"	"Financial Market Information Subject Area Record"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""
+"Get"	"/market-information-management/{sd-identifier}/consolidation/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Market Information Service Report"	"BQ Consolidation Instance Record"	String
+""	2	"out"	"Financial Market Information Service Report Properties"	"BQ Consolidation Instance Record"	String
+""
+"Get"	"/market-information-management/{sd-identifier}/improvement/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Market Information Improvement Task Type"	"BQ Improvement Instance Record"	String
+""	2	"out"	"Financial Market Information Improvement Task Sources"	"BQ Improvement Instance Record"	String
+""	3	"out"	"Financial Market Information Improvement Task Work Products"	"BQ Improvement Instance Record"	String
+""	4	"out"	"Financial Market Information Improvement Task Result"	"BQ Improvement Instance Record"	String
+""
+"Post"	"/market-information-management/{sd-identifier}/reporting/{crbq-identifier}/creation"
+""	1	"inout"	"Financial Market Information Service"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	2	"inout"	"Financial Market Information Provider"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	3	"inout"	"Financial Market information Description"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	4	"inout"	"Financial Market Information Service Type"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	5	"inout"	"Financial Market Information Service Schedule"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	6	"inout"	"Financial Market Information Service Agreement"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	7	"inout"	"Financial Market Information Database"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	8	"inout"	"Financial Market Information Subject Area"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	9	"inout"	"Financial Market Information Subject Area Description"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	10	"inout"	"Financial Market Information Subject Area Update History"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	11	"inout"	"Financial Market Information Subject Area Record"	"CR Financial Market Information Administrative Plan Instance Record"	String
+""	12	"inout"	"Financial Market Information Report"	"BQ Reporting Instance Record"	String
+""	13	"inout"	"Financial Market Information Report Type"	"BQ Reporting Instance Record"	String
+""	14	"out"	"Financial Market Information Report Description"	"BQ Reporting Instance Record"	String
+""	15	"inout"	"Financial Market Information Report Schedule"	"BQ Reporting Instance Record"	String
+""	16	"inout"	"Financial Market Information Report Access History"	"BQ Reporting Instance Record"	String
+""
+"Put"	"/market-information-management/{sd-identifier}/reporting/{crbq-identifier}/update"
+""	1	"inout"	"Financial Market Information Report"	"BQ Reporting Instance Record"	String
+""	2	"inout"	"Financial Market Information Report Type"	"BQ Reporting Instance Record"	String
+""	3	"inout"	"Financial Market Information Report Description"	"BQ Reporting Instance Record"	String
+""	4	"inout"	"Financial Market Information Report Schedule"	"BQ Reporting Instance Record"	String
+""	5	"inout"	"Financial Market Information Report Access History"	"BQ Reporting Instance Record"	String
+""
+"Put"	"/market-information-management/{sd-identifier}/reporting/{crbq-identifier}/capture"
+""	1	"inout"	"Financial Market Information Report Access History"	"BQ Reporting Instance Record"	String
+""
+"Put"	"/market-information-management/{sd-identifier}/reporting/{crbq-identifier}/execution"
+""	1	"inout"	"Financial Market Information Report"	"BQ Reporting Instance Record"	String
+""	2	"inout"	"Financial Market Information Report Type"	"BQ Reporting Instance Record"	String
+""	3	"out"	"Financial Market Information Report Description"	"BQ Reporting Instance Record"	String
+""	4	"inout"	"Financial Market Information Report Schedule"	"BQ Reporting Instance Record"	String
+""	5	"inout"	"Financial Market Information Report Access History"	"BQ Reporting Instance Record"	String
+""
+"Put"	"/market-information-management/{sd-identifier}/reporting/{crbq-identifier}/requisition"
+""	1	"inout"	"Financial Market Information Report"	"BQ Reporting Instance Record"	String
+""	2	"inout"	"Financial Market Information Report Type"	"BQ Reporting Instance Record"	String
+""	3	"out"	"Financial Market Information Report Description"	"BQ Reporting Instance Record"	String
+""	4	"inout"	"Financial Market Information Report Schedule"	"BQ Reporting Instance Record"	String
+""	5	"inout"	"Financial Market Information Report Access History"	"BQ Reporting Instance Record"	String
+""
+"Get"	"/market-information-management/{sd-identifier}/reporting/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Market Information Report"	"BQ Reporting Instance Record"	String
+""	2	"out"	"Financial Market Information Report Type"	"BQ Reporting Instance Record"	String
+""	3	"out"	"Financial Market Information Report Description"	"BQ Reporting Instance Record"	String
+""	4	"out"	"Financial Market Information Report Schedule"	"BQ Reporting Instance Record"	String
+""	5	"out"	"Financial Market Information Report Access History"	"BQ Reporting Instance Record"	String

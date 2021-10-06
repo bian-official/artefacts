@@ -1,0 +1,28 @@
+"Control Record Model for: "	Product Directory
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Servicing Instance Record	""	""	""
+"BQ"	BQ Servicing Instance Record	ProductandService Feature	"Selectable product or service feature associated with servicing a product or service"	String
+"BQ"	BQ Servicing Instance Record	ProductandService Feature Guideline	"Explanation/guidelines for the product or service feature (can be assisted or self serve)"	String
+"BQ"	BQ Servicing Instance Record	ProductandService Feature Problem Diagnosis	"Diagnosis guide for addressing reported issues with a product or service feature"	String
+"BQ"	BQ Servicing Instance Record	ProductandService Feature Problem Resolution	"Resolution guide for resolving reported issue with a product or service feature"	String
+"BQ"	BQ Operations Instance Record	""	""	""
+"BQ"	BQ Operations Instance Record	ProductandService Operating Schedule	"The intended schedule of operational tasks and product service availability"	String
+"BQ"	BQ Operations Instance Record	ProductandService Configuration Parameter Type	"Parameter used to configuring operations"	String
+"BQ"	BQ Operations Instance Record	ProductandService Configuration Parameter Description	"Description describing the purpose, options and impact of the parameter"	String
+"BQ"	BQ Operations Instance Record	ProductandService Configuration Parameter Setting	"The default parameter setting and possible value range"	String
+"BQ"	BQ Production Instance Record	""	""	""
+"BQ"	BQ Production Instance Record	ProductandService Location Availability	"List and description of locations where the product or service is supported"	String
+"BQ"	BQ Production Instance Record	ProductandService Time Availability	"The schedule for when the product or service can be accessed"	String
+"BQ"	BQ Production Instance Record	ProductandService Access Availability	"The access channels and devices that are supported by the product or service"	String
+"BQ"	BQ Sales and Marketing Instance Record	""	""	""
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Sales Material	"Descriptive materials/brochures organized for selective access"	String
+"BQ"	BQ Sales and Marketing Instance Record	ProductandServices Features And Options	"Descriptions of product features and product options for review"	String
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Pricing Table	"Allowed price/rate ranges by credit grade/customer type (can be reviewed through simulation)"	String
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Fees/Penalties Table	"Applicable fees/penalties (can be reviewed through simulation)"	String
+"BQ"	BQ Sales and Marketing Instance Record	Product Suitability Guide	"Defines suitability requirements set by the bank"	String
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Eligibility Type	"Applicable legal or regulatory requirements governing eligibility"	String
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Eligibility Description	"Description/explanation of eligibility requirements, can include required disclosures"	String
+"BQ"	BQ Sales and Marketing Instance Record	ProductandService Offer Processing Requirements	"Details the tasks required to complete a customer offer"	String
+"CR"	CR Product Directory Entry Instance Record	""	""	""
+"CR"	CR Product Directory Entry Instance Record	Product Version	"The current version of the product referenced in the directory"	String
+"CR"	CR Product Directory Entry Instance Record	Product Directory Entry Configuration	"Any configuration settings for the directory entry (e.g. generally available, provisional)"	String

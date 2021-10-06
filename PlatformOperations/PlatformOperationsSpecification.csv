@@ -1,0 +1,13 @@
+"Service Domain specification for Platform Operations"
+"Business Area"	Resource Management
+"Business Domain"	Platform Operations
+"Service Domain"	Platform Operations
+"Role Definition"	"Operate the full suite of production platforms/infrastructure. Includes scheduled operations and back-up/recovery capacity assurance"
+"Example of use"	"A production day includes the ongoing operation of systems platforms, many of which will be 24/7 capabilities"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	ITSystemsPlatform
+"Generic Artifact"	OperatingSession
+"Control Record"	ITSystemsPlatformOperatingSession
+"Registration Status"	Registered

@@ -1,0 +1,46 @@
+"Control Record Model for: "	Compliance Reporting
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Compliance Reporting Administrative Plan Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Compliance Reporting. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"CR"	CR Compliance Reporting Administrative Plan Instance Record	Compliance Reporting Administrative Plan Budget Type	"A Classification value that distinguishes between Budgets within Compliance Reporting Administrative Plan according to the type of resource and/or activity that is budgetted"	String
+"CR"	CR Compliance Reporting Administrative Plan Instance Record	Compliance Reporting Administrative Plan Budget	"An estimate of costs, revenues, and resources  over a specified period which is defined for Compliance Reporting Administrative Plan"	String
+"CR"	CR Compliance Reporting Administrative Plan Instance Record	Compliance Reporting Administrative Plan Assignment	"The allocation of someone or something which is specified for Compliance Reporting Administrative Plan"	String
+"CR"	CR Compliance Reporting Administrative Plan Instance Record	Compliance Reporting Administrative Plan Plan	"A plan that defines clerical support for ComplianceReporting"	String
+"CR"	CR Compliance Reporting Administrative Plan Instance Record	Compliance Reporting Administrative Plan Reference	"Party who is involved in  Compliance Reporting Administrative Plan"	Object
+"BQ"	BQ Compliance Reporting Outcome Instance Record	""	""	""
+"BQ"	BQ Compliance Reporting Outcome Instance Record	Compliance Reporting Performance Analysis	""	String
+"BQ"	BQ Compliance Reporting Outcome Instance Record	Compliance Reporting Activity Analysis	""	String
+"BQ"	BQ Compliance Reporting Outcome Instance Record	Compliance Reporting Administrative Plan	""	String
+"BQ"	BQ Compliance Reporting Outcome Instance Record	Compliance Reporting Administration Task	""	String
+"BQ"	BQ Compliance Assessment Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Compliance Reporting. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Compliance Assessment Instance Record	Audit and Reporting	"The Compliance Reporting Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Audit and Reporting Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Audit and Reporting Service Description	"Description of the performed business service"	String
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Audit and Reporting Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Audit and Reporting Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Compliance Assessment Instance Record	Compliance Assessment Audit and Reporting Service Name	""	String
+"BQ"	BQ Remediation Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Compliance Reporting. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Remediation Instance Record	Remediation Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Remediation Instance Record	Remediation Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Remediation Instance Record	Remediation Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Remediation Instance Record	Remediation Assurance	"The Compliance Reporting Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Remediation Instance Record	Remediation Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Remediation Instance Record	Remediation Remediation Assurance Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Remediation Instance Record	Remediation Remediation Assurance Service Description	"Description of the performed business service"	String
+"BQ"	BQ Remediation Instance Record	Remediation Remediation Assurance Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Remediation Instance Record	Remediation Remediation Assurance Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Remediation Instance Record	Remediation Remediation Assurance Service Name	""	String
+"BQ"	BQ Consolidation Instance Record	""	"Handle and assign the day to day activities, capture time, costs and income for an operational unit  within Compliance Reporting. . Example: Administer the time reporting and billing for the specialist sales support team."	""
+"BQ"	BQ Consolidation Instance Record	Consolidation Preconditions	"The required status/situation before the routine can be undertaken"	String
+"BQ"	BQ Consolidation Instance Record	Consolidation Business Unit/Employee Reference	"The operating unit/employee responsible for performing the routine"	Object
+"BQ"	BQ Consolidation Instance Record	Consolidation Work Schedule	"The timing and key actions/milestones involved in completing the routine"	String
+"BQ"	BQ Consolidation Instance Record	Business Service	"The Compliance Reporting Administrative Plan specific Business Service"	Business Service
+"BQ"	BQ Consolidation Instance Record	Consolidation Postconditions	"The completion status once the routine has been completed (note the need to fulfill a routine may recur frequently)"	String
+"BQ"	BQ Consolidation Instance Record	Consolidation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Consolidation Instance Record	Consolidation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Consolidation Instance Record	Consolidation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Consolidation Instance Record	Consolidation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Consolidation Instance Record	Consolidation Service Name	""	String

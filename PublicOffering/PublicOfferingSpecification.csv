@@ -1,0 +1,13 @@
+"Service Domain specification for Public Offering"
+"Business Area"	Products
+"Business Domain"	Corporate Finance
+"Service Domain"	Public Offering
+"Role Definition"	"Project coordination and execution/ placement of a public offering of corporate equity or debt"
+"Example of use"	"Corporate finance services provide support to a corporation that has determined to make a public offering to raise funds."
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	PublicOffering
+"Generic Artifact"	Facility (rename)
+"Control Record"	PublicOfferingArrangement
+"Registration Status"	Registered

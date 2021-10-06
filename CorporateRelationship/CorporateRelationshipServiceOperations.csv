@@ -1,0 +1,5 @@
+"Service Operations for: "	Corporate Relationship
+"Control Record Model for Corporate Relationship is not defined"
+"POST"	"/corporate-relationship/activation"
+"PUT"	"/corporate-relationship/{sd-reference-id}/configuration"
+"PUT"	"/corporate-relationship/{sd-reference-id}/feedback"

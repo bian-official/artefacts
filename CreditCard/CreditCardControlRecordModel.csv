@@ -1,0 +1,115 @@
+"Control Record Model for: "	Credit Card
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Interest Instance Record	""	""	""
+"BQ"	BQ Interest Instance Record	Interest Rate Type	"Applicable interest rate type"	String
+"BQ"	BQ Interest Instance Record	Interest Rate Application Schedule	"The processing schedule for applying interest rates to the account"	Rate
+"BQ"	BQ Interest Instance Record	Interest Rate Configuration	"The collection of applicable interest rate 'buckets'"	Rate
+"BQ"	BQ Interest Instance Record	Interest Rate	"The rate value to be applied"	Rate
+"BQ"	BQ Interest Instance Record	Interest Application Record	"The record of applied interest"	String
+"BQ"	BQ Interest Instance Record	Interest Transaction	"A record of applied interest"	String
+"BQ"	BQ Interest Instance Record	Transaction Description	"General description of the interest transaction"	String
+"BQ"	BQ Interest Instance Record	Transaction Rate Type	"Applicable rate type"	String
+"BQ"	BQ Interest Instance Record	Transaction Interest Charge	"The derived interest amount to be applied"	String
+"BQ"	BQ Interest Instance Record	Interest Accrual Amount	"Record of accrued interest"	Amount
+"BQ"	BQ Interest Instance Record	Interest Accrual Type	"The interest type being tracked"	String
+"BQ"	BQ Interest Instance Record	Interest Accrual Charge	"The accrued amount of applied interest"	String
+"CR"	CR Credit Card Arrangement Instance Record	""	""	""
+"CR"	CR Credit Card Arrangement Instance Record	Product Instance Reference	"Reference to the credit/charge card account product instance"	Object
+"CR"	CR Credit Card Arrangement Instance Record	Customer Reference	"Reference to the card account primary party/owner"	Object
+"CR"	CR Credit Card Arrangement Instance Record	Party Reference	"Reference to the legal entity (typically the customer)"	Object
+"CR"	CR Credit Card Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the card account for booking purposes"	Object
+"CR"	CR Credit Card Arrangement Instance Record	Account Currency	"The primary account currency"	CurrencyCode
+"CR"	CR Credit Card Arrangement Instance Record	Secondary Billing Currency	"Required for dual currency accounts"	CurrencyCode
+"CR"	CR Credit Card Arrangement Instance Record	Tax Reference	"Reference identifier linking the account to appropriate tax handling"	Object
+"CR"	CR Credit Card Arrangement Instance Record	Entitlement Option Definition	"The definition of an applicable entitlement option"	String
+"CR"	CR Credit Card Arrangement Instance Record	Entitlement Option Setting	"The setting for the entitlement option"	String
+"CR"	CR Credit Card Arrangement Instance Record	Restriction Option Definition	"The definition of an applicable restriction option"	String
+"CR"	CR Credit Card Arrangement Instance Record	Restriction Option Setting	"The setting for the restriction option"	String
+"CR"	CR Credit Card Arrangement Instance Record	Allowed Access	"Defines allowed access paths/channels supported (e.g. POS, ATM, Local/International, Merchant Categories)"	String
+"CR"	CR Credit Card Arrangement Instance Record	Configuration/Options	"Different product features (e.g. Card Scheme, Product Type [credit, charge, debit], Dual currency billing, transaction processing options, billing options, credit plan consolidation options, payment application options etc.)"	String
+"CR"	CR Credit Card Arrangement Instance Record	Credit Card Arrangement Option Definition	"Definition of a specific product feature provided as an option"	String
+"CR"	CR Credit Card Arrangement Instance Record	Credit Card Arrangement Option Setting	"The selected option value for this instance"	String
+"CR"	CR Credit Card Arrangement Instance Record	Associations	"Any involved parties and the nature of their associations to the card account"	String
+"CR"	CR Credit Card Arrangement Instance Record	Association Type	"The type of association (e.g. guarantor, co-signer)"	String
+"CR"	CR Credit Card Arrangement Instance Record	Association Obligation/Entitlement	"Description of the role, obligations or entitlements of the associated party"	String
+"CR"	CR Credit Card Arrangement Instance Record	Association Reference	"Reference to the associated party"	Object
+"CR"	CR Credit Card Arrangement Instance Record	Linked Accounts	"Definition of the linked account's association to the account"	String
+"CR"	CR Credit Card Arrangement Instance Record	Link Type	"The type and purpose for the link"	String
+"CR"	CR Credit Card Arrangement Instance Record	Account Details	"Details of the linked account"	String
+"CR"	CR Credit Card Arrangement Instance Record	Position Limits	"Card account limits (spend limits and credit limits for different access types, e.g. POS/ATM)"	String
+"CR"	CR Credit Card Arrangement Instance Record	Position Limit Type	"The type of position maintained for the account (e.g. transaction credit/debit, netting, position)"	String
+"CR"	CR Credit Card Arrangement Instance Record	Position Limit Settings	"The position definition, associated limit settings and rules"	String
+"CR"	CR Credit Card Arrangement Instance Record	Position Limit Value	"The calculated position"	String
+"CR"	CR Credit Card Arrangement Instance Record	Date Type	"Key dates associated with the account (e.g. opening date, closing date)"	String
+"CR"	CR Credit Card Arrangement Instance Record	Date	"Value of the date type"	String
+"CR"	CR Credit Card Arrangement Instance Record	Statements Schedule	"The schedule for generating product statements to schedule"	String
+"CR"	CR Credit Card Arrangement Instance Record	Statement Type	"The types of scheduled statement (e.g. balance/mini-statement/annual)"	String
+"CR"	CR Credit Card Arrangement Instance Record	Statement Transaction Type	"The types of transactions and transaction details to be included"	String
+"CR"	CR Credit Card Arrangement Instance Record	Statement Period	"The reporting period covered by the statement"	String
+"CR"	CR Credit Card Arrangement Instance Record	Statement Report	"The statement content"	String
+"BQ"	BQ Billing Instance Record	""	""	""
+"BQ"	BQ Billing Instance Record	Billing Parameters	"Defines the set-up for the billing processing (e.g. cycle date, type of billing, etc.)"	String
+"BQ"	BQ Billing Instance Record	Billing Transaction	"The billing/invoicing transaction details"	String
+"BQ"	BQ Billing Instance Record	Billing Transaction Party	"The target for the invoice, typically the card holder"	String
+"BQ"	BQ Billing Instance Record	Billing Transaction Address	"The billing address (can vary from the customer home address)"	String
+"BQ"	BQ Billing Instance Record	Billing Transaction Period	"The period (from-to) covered by the invoice"	String
+"BQ"	BQ Billing Instance Record	Billing Transaction Statement Reference	"Reference to an associated statement (that is included in the generated invoice)"	Object
+"BQ"	BQ Billing Instance Record	Billing Transaction Amount	"The amount of the required repayment"	Amount
+"BQ"	BQ Billing Instance Record	Billing Transaction Minimum Required Payment	"The minimum required payment (for partial payment)"	String
+"BQ"	BQ Billing Instance Record	Billing Transaction Payment Due Date	"The due date for the payment"	Date
+"BQ"	BQ Fees Instance Record	""	""	""
+"BQ"	BQ Fees Instance Record	Fee Configuration Profile	"The profile of applicable fees and penalties"	String
+"BQ"	BQ Fees Instance Record	Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Fees Instance Record	Fee Definition	"Definition of the fee or penalty including when and how to apply"	String
+"BQ"	BQ Fees Instance Record	Fee Application Record	"The record of applied fees and penalties including transactions and accrued amounts"	String
+"BQ"	BQ Fees Instance Record	Fee Transaction	"A record of an applied fee or penalty"	String
+"BQ"	BQ Fees Instance Record	Transaction Description	"General description of the fee or penalty transaction"	String
+"BQ"	BQ Fees Instance Record	Transaction Fee Type	"The fee or penalty type applied"	String
+"BQ"	BQ Fees Instance Record	Transaction Fee Charge	"The derived fee or penalty amount applied"	String
+"BQ"	BQ Fees Instance Record	Fee Projections and Commitments	"A record of projected fees and penalties"	String
+"BQ"	BQ Fees Instance Record	Projected Transaction Description	"General description of the projected fee or penalty"	String
+"BQ"	BQ Fees Instance Record	Projected Transaction Fee Type	"The fee or penalty type"	String
+"BQ"	BQ Fees Instance Record	Projected Transaction Fee Charge	"The anticipated fee or penalty amount"	String
+"BQ"	BQ Fees Instance Record	Fee Accrual Amount	"Tracking of accumulated fees and penalties"	Amount
+"BQ"	BQ Fees Instance Record	Accrual Fee Type	"The fee or penalty type being tracked"	String
+"BQ"	BQ Fees Instance Record	Accrual Fee Charge	"The accrued amount of fees and penalties"	String
+"BQ"	BQ Card Transaction Instance Record	""	""	""
+"BQ"	BQ Card Transaction Instance Record	Card Transaction	"The card transaction record"	String
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Product Instance Reference	"The account number associated with the card transaction"	Object
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Network Reference	"Reference to the network the card transaction is handled by"	Object
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Issuing Bank Reference	"Refers to the card holder's issuing bank"	Object
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Merchant Acquiring Bank Reference	"Refers to the merchant's acquiring bank"	Object
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Type	"The type of transaction (purchase, cash advance, etc.)"	String
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Currency	"The currency that the transaction is made in"	CurrencyCode
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Amount Type	"Type of amount (e.g. original amount, billing currency amount, conversion rate, FX Mark-up)"	String
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Amount	"The amount corresponding to the type"	Amount
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Merchant Reference	"Refers to the merchant initiating settlement"	Object
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Location Reference	"Refers to the point of sale location"	Object
+"BQ"	BQ Card Transaction Instance Record	Card Transaction ProductandService Reference	"Details of the transaction (e.g. purchased service/product, purpose)"	Object
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Date/Time	"Significant dates and times associated with the transaction"	Date
+"BQ"	BQ Card Transaction Instance Record	Card Transaction FX Conversion Charge	"The applied currency conversion charge"	String
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Intercharge Fee	"The applied intercharge fee"	String
+"BQ"	BQ Card Transaction Instance Record	Card Transaction Authorization Record	"Details the reference, amount, timestamp of the transaction authorization)"	String
+"BQ"	BQ Credit Plan Instance Record	""	""	""
+"BQ"	BQ Credit Plan Instance Record	Credit Plan Type	"The type of credit plan (e.g. cash, credit, charge, balance transfer, promotions, securitized, etc.)"	String
+"BQ"	BQ Credit Plan Instance Record	Credit Plan Terms	"The range of terms applied to the pan (e.g. minimum payment, payment grace period, interest rate reference, installment plans, …)"	String
+"BQ"	BQ Credit Plan Instance Record	Credit Plan Account Reference	"Reference to the account where the credit plan is linked"	Object
+"BQ"	BQ Repayment Instance Record	""	""	""
+"BQ"	BQ Repayment Instance Record	Repayment Transaction	"The billing instance"	String
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Type	"The type of repayment (e.g. scheduled repayment linked to associated billing record, ad-hoc repayment)"	String
+"BQ"	BQ Repayment Instance Record	Billing Instance Reference	"Reference to the associated bill for which this can be full or partial repayment)"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Reference	"Reference to the payer"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Product Instance Reference	"Reference to the account where the payment is made from"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Payer Bank Reference	"Reference to the payer's bank"	Object
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Amount	"The amount of the repayment"	Amount
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Currency	"The currency used for the repayment"	CurrencyCode
+"BQ"	BQ Repayment Instance Record	Repayment Transaction Value Date	"The value date for the repayment transaction"	Date
+"BQ"	BQ Issued Device Instance Record	""	""	""
+"BQ"	BQ Issued Device Instance Record	Issued Device Type	"The type of issued device/inventory (e.g. checkbook, pay-in slip)"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Description	"Definition of the inventory item, including processing and handling guidelines and rules"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Option Definition	"Definition of the processing option and impact (e.g. lost check handling)"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Option Setting	"The processing option setting"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Property	"A property of the issued device/inventory (e.g. card, checkbook, pay-in slip)"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Property Type	"Tracked property of the issued device/inventory (e.g. issued check numbers)"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Property Value	"The tracked values associated with an issued device/inventory item"	String
+"BQ"	BQ Issued Device Instance Record	Issued Device Status	"The tracked status of the device/inventory item (e.g. active, suspended, cancelled)"	String

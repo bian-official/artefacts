@@ -1,0 +1,15 @@
+"Control Record Model for: "	Interactive Help
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Interactive Help Service Operating Session Instance Record	""	""	""
+"BQ"	BQ Help Service Selection Instance Record	""	""	""
+"BQ"	BQ Help Service Selection Instance Record	Help Selection Interaction Type	"The type of session provides context for filtering content (e.g. employee, self-service customer)"	String
+"BQ"	BQ Help Service Selection Instance Record	Help Selection ProductandService Type	"The type of product or service that is in context for the help request"	String
+"BQ"	BQ Help Service Selection Instance Record	Help Selection Product Feature Type	"The specific product feature being accessed at the time of the help request"	String
+"BQ"	BQ Help Service Selection Instance Record	Session Dialogue Record	"The session dialogue log of actions during the contact to this point can be mined for key words that might improve the help selection"	String
+"BQ"	BQ Help Service Selection Instance Record	Help Selection Key Word Menu	"An interactive exchange can be supported where the service presents a menu of selection options or key words to narrow the search"	String
+"BQ"	BQ Help Service Selection Instance Record	Help Selection Key Word Selection	"The selected keyword or menu option"	String
+"BQ"	BQ Help Service Selection Instance Record	Interactive Help	"The returned interactive help in any suitable form"	String
+"BQ"	BQ Help Service Selection Instance Record	Help Selection Task Result	"The user provided result of the interactive help service, including interaction statistics such as exchange frequency and duration"	String
+"BQ"	BQ Help Service Selection Instance Record	Help Selection Feedback	"User provided commentary on the service provided"	String
+"BQ"	BQ Help Service Selection Instance Record	Employee/Business Unit Reference	"Reference to the employee, business unit providing service feedback"	Object
+"BQ"	BQ Help Service Selection Instance Record	Date/Time	"The date, time (and duration) of the service usage"	String

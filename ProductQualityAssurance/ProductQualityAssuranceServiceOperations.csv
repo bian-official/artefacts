@@ -1,0 +1,215 @@
+"Service Operations for: "	Product Quality Assurance
+""
+"POST"	"/product-quality-assurance/activation"
+"PUT"	"/product-quality-assurance/{sd-reference-id}/configuration"
+"PUT"	"/product-quality-assurance/{sd-reference-id}/feedback"
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/product-and--service-assessment/{crbq-identifier}/exchange"
+""	1	"inout"	"Product and  Service Assessment Parameter Type"	"CR Product and  Service Assessment Instance Record"	String
+""	2	"inout"	"Product and  Service Assessment Selected Option"	"CR Product and  Service Assessment Instance Record"	String
+""	3	"in"	"Product and  Service Assessment Type"	"CR Product and  Service Assessment Instance Record"	String
+""	4	"in"	"Product and  Service Assessment Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	5	"inout"	"Product and  Service Assessment Request"	"CR Product and  Service Assessment Instance Record"	String
+""	6	"in"	"Product and  Service Assessment Schedule"	"CR Product and  Service Assessment Instance Record"	String
+""	7	"in"	"Product and  Service Assessment Status"	"CR Product and  Service Assessment Instance Record"	String
+""	8	"in"	"Product and  Service Assessment Usage Log"	"CR Product and  Service Assessment Instance Record"	String
+""	9	"in"	"Product and  Service Assessment ServiceProvider Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	10	"in"	"Product and  Service Assessment Requester Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/product-and--service-assessment/{crbq-identifier}/execution"
+""	1	"inout"	"Product and  Service Assessment Parameter Type"	"CR Product and  Service Assessment Instance Record"	String
+""	2	"inout"	"Product and  Service Assessment Selected Option"	"CR Product and  Service Assessment Instance Record"	String
+""	3	"in"	"Product and  Service Assessment Type"	"CR Product and  Service Assessment Instance Record"	String
+""	4	"in"	"Product and  Service Assessment Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	5	"inout"	"Product and  Service Assessment Request"	"CR Product and  Service Assessment Instance Record"	String
+""	6	"in"	"Product and  Service Assessment Schedule"	"CR Product and  Service Assessment Instance Record"	String
+""	7	"in"	"Product and  Service Assessment Status"	"CR Product and  Service Assessment Instance Record"	String
+""	8	"in"	"Product and  Service Assessment Usage Log"	"CR Product and  Service Assessment Instance Record"	String
+""	9	"in"	"Product and  Service Assessment ServiceProvider Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	10	"in"	"Product and  Service Assessment Requester Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/product-and--service-assessment/{crbq-identifier}/grant"
+""	1	"inout"	"Product and  Service Assessment Parameter Type"	"CR Product and  Service Assessment Instance Record"	String
+""	2	"inout"	"Product and  Service Assessment Selected Option"	"CR Product and  Service Assessment Instance Record"	String
+""	3	"in"	"Product and  Service Assessment Type"	"CR Product and  Service Assessment Instance Record"	String
+""	4	"in"	"Product and  Service Assessment Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	5	"inout"	"Product and  Service Assessment Request"	"CR Product and  Service Assessment Instance Record"	String
+""	6	"in"	"Product and  Service Assessment Schedule"	"CR Product and  Service Assessment Instance Record"	String
+""	7	"in"	"Product and  Service Assessment Status"	"CR Product and  Service Assessment Instance Record"	String
+""	8	"in"	"Product and  Service Assessment Usage Log"	"CR Product and  Service Assessment Instance Record"	String
+""	9	"in"	"Product and  Service Assessment ServiceProvider Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	10	"in"	"Product and  Service Assessment Requester Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""
+"Post"	"/product-quality-assurance/{sd-identifier}/functional-consistency-checks/{crbq-identifier}/initiation"
+""	1	"inout"	"Functional Consistency Checks Preconditions"	"BQ Functional Consistency Checks Instance Record"	String
+""	2	"inout"	"Functional Consistency Checks Analysis Schedule"	"BQ Functional Consistency Checks Instance Record"	String
+""	3	"inout"	"Functional Consistency Checks Version Number"	"BQ Functional Consistency Checks Instance Record"	String
+""	4	"inout"	"Functional Consistency Checks Service Type"	"BQ Functional Consistency Checks Instance Record"	String
+""	5	"inout"	"Functional Consistency Checks Service Description"	"BQ Functional Consistency Checks Instance Record"	String
+""	6	"inout"	"Functional Consistency Checks Service Inputs and Ouputs"	"BQ Functional Consistency Checks Instance Record"	String
+""	7	"inout"	"Functional Consistency Checks Service Work Product"	"BQ Functional Consistency Checks Instance Record"	String
+""	8	"inout"	"Functional Consistency Checks Service Name"	"BQ Functional Consistency Checks Instance Record"	String
+""
+"Post"	"/product-quality-assurance/{sd-identifier}/processing-error-and--integrity-checks/{crbq-identifier}/initiation"
+""	1	"inout"	"Processing Error and  Integrity Checks Preconditions"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	2	"inout"	"Processing Error and  Integrity Checks Analysis Schedule"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	3	"inout"	"Processing Error and  Integrity Checks Version Number"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	4	"inout"	"Processing Error and Integrity Checks"	"BQ Processing Error and  Integrity Checks Instance Record"	Business Service
+""	5	"inout"	"Processing Error and Integrity Checks Service Type"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	6	"inout"	"Processing Error and Integrity Checks Service Description"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	7	"inout"	"Processing Error and Integrity Checks Service Inputs and Ouputs"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	8	"inout"	"Processing Error and Integrity Checks Service Work Product"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	9	"inout"	"Processing Error and Integrity Checks Service Name"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""
+"Post"	"/product-quality-assurance/{sd-identifier}/resiliency-and--performance-checks/{crbq-identifier}/initiation"
+""	1	"inout"	"Resiliency and  Performance Checks Preconditions"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	2	"inout"	"Resiliency and  Performance Checks Analysis Schedule"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	3	"inout"	"Resiliency and  Performance Checks Version Number"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	4	"inout"	"Resiliency and Performance Checks"	"BQ Resiliency and  Performance Checks Instance Record"	Business Service
+""	5	"inout"	"Resiliency and Performance Checks Service Type"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	6	"inout"	"Resiliency and Performance Checks Service Description"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	7	"inout"	"Resiliency and Performance Checks Service Inputs and Ouputs"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	8	"inout"	"Resiliency and Performance Checks Service Work Product"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	9	"inout"	"Resiliency and Performance Checks Service Name"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""
+"Post"	"/product-quality-assurance/{sd-identifier}/usability-checks/{crbq-identifier}/initiation"
+""	1	"inout"	"Usability Checks Preconditions"	"BQ Usability Checks Instance Record"	String
+""	2	"inout"	"Usability Checks Analysis Schedule"	"BQ Usability Checks Instance Record"	String
+""	3	"inout"	"Usability Checks Version Number"	"BQ Usability Checks Instance Record"	String
+""	4	"inout"	"Usability Checks Service Type"	"BQ Usability Checks Instance Record"	String
+""	5	"inout"	"Usability Checks Service Description"	"BQ Usability Checks Instance Record"	String
+""	6	"inout"	"Usability Checks Service Inputs and Ouputs"	"BQ Usability Checks Instance Record"	String
+""	7	"inout"	"Usability Checks Service Work Product"	"BQ Usability Checks Instance Record"	String
+""	8	"inout"	"Usability Checks Service Name"	"BQ Usability Checks Instance Record"	String
+""
+"Post"	"/product-quality-assurance/{sd-identifier}/product-and--service-assessment/{crbq-identifier}/initiation"
+""	1	"inout"	"Product and  Service Assessment Parameter Type"	"CR Product and  Service Assessment Instance Record"	String
+""	2	"inout"	"Product and  Service Assessment Selected Option"	"CR Product and  Service Assessment Instance Record"	String
+""	3	"in"	"Product and  Service Assessment Type"	"CR Product and  Service Assessment Instance Record"	String
+""	4	"in"	"Product and  Service Assessment Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	5	"inout"	"Product and  Service Assessment Request"	"CR Product and  Service Assessment Instance Record"	String
+""	6	"in"	"Product and  Service Assessment Schedule"	"CR Product and  Service Assessment Instance Record"	String
+""	7	"in"	"Product and  Service Assessment Status"	"CR Product and  Service Assessment Instance Record"	String
+""	8	"in"	"Product and  Service Assessment Usage Log"	"CR Product and  Service Assessment Instance Record"	String
+""	9	"in"	"Product and  Service Assessment ServiceProvider Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	10	"in"	"Product and  Service Assessment Requester Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""
+"Get"	"/product-quality-assurance/{sd-identifier}/functional-consistency-checks/{crbq-identifier}/retrieval"
+""	1	"out"	"Functional Consistency Checks Preconditions"	"BQ Functional Consistency Checks Instance Record"	String
+""	2	"out"	"Functional Consistency Checks Analysis Schedule"	"BQ Functional Consistency Checks Instance Record"	String
+""	3	"out"	"Functional Consistency Checks Version Number"	"BQ Functional Consistency Checks Instance Record"	String
+""	4	"out"	"Functional Consistency Checks Service Type"	"BQ Functional Consistency Checks Instance Record"	String
+""	5	"out"	"Functional Consistency Checks Service Description"	"BQ Functional Consistency Checks Instance Record"	String
+""	6	"out"	"Functional Consistency Checks Service Inputs and Ouputs"	"BQ Functional Consistency Checks Instance Record"	String
+""	7	"out"	"Functional Consistency Checks Service Work Product"	"BQ Functional Consistency Checks Instance Record"	String
+""	8	"out"	"Functional Consistency Checks Service Name"	"BQ Functional Consistency Checks Instance Record"	String
+""
+"Get"	"/product-quality-assurance/{sd-identifier}/processing-error-and--integrity-checks/{crbq-identifier}/retrieval"
+""	1	"out"	"Processing Error and  Integrity Checks Preconditions"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	2	"out"	"Processing Error and  Integrity Checks Analysis Schedule"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	3	"out"	"Processing Error and  Integrity Checks Version Number"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	4	"out"	"Processing Error and Integrity Checks"	"BQ Processing Error and  Integrity Checks Instance Record"	Business Service
+""	5	"out"	"Processing Error and Integrity Checks Service Type"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	6	"out"	"Processing Error and Integrity Checks Service Description"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	7	"out"	"Processing Error and Integrity Checks Service Inputs and Ouputs"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	8	"out"	"Processing Error and Integrity Checks Service Work Product"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	9	"out"	"Processing Error and Integrity Checks Service Name"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""
+"Get"	"/product-quality-assurance/{sd-identifier}/resiliency-and--performance-checks/{crbq-identifier}/retrieval"
+""	1	"out"	"Resiliency and  Performance Checks Preconditions"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	2	"out"	"Resiliency and  Performance Checks Analysis Schedule"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	3	"out"	"Resiliency and  Performance Checks Version Number"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	4	"out"	"Resiliency and Performance Checks"	"BQ Resiliency and  Performance Checks Instance Record"	Business Service
+""	5	"out"	"Resiliency and Performance Checks Service Type"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	6	"out"	"Resiliency and Performance Checks Service Description"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	7	"out"	"Resiliency and Performance Checks Service Inputs and Ouputs"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	8	"out"	"Resiliency and Performance Checks Service Work Product"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	9	"out"	"Resiliency and Performance Checks Service Name"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""
+"Get"	"/product-quality-assurance/{sd-identifier}/usability-checks/{crbq-identifier}/retrieval"
+""	1	"out"	"Usability Checks Preconditions"	"BQ Usability Checks Instance Record"	String
+""	2	"out"	"Usability Checks Analysis Schedule"	"BQ Usability Checks Instance Record"	String
+""	3	"out"	"Usability Checks Version Number"	"BQ Usability Checks Instance Record"	String
+""	4	"out"	"Usability Checks Service Type"	"BQ Usability Checks Instance Record"	String
+""	5	"out"	"Usability Checks Service Description"	"BQ Usability Checks Instance Record"	String
+""	6	"out"	"Usability Checks Service Inputs and Ouputs"	"BQ Usability Checks Instance Record"	String
+""	7	"out"	"Usability Checks Service Work Product"	"BQ Usability Checks Instance Record"	String
+""	8	"out"	"Usability Checks Service Name"	"BQ Usability Checks Instance Record"	String
+""
+"Get"	"/product-quality-assurance/{sd-identifier}/product-and--service-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Product and  Service Assessment Parameter Type"	"CR Product and  Service Assessment Instance Record"	String
+""	2	"out"	"Product and  Service Assessment Selected Option"	"CR Product and  Service Assessment Instance Record"	String
+""	3	"out"	"Product and  Service Assessment Type"	"CR Product and  Service Assessment Instance Record"	String
+""	4	"out"	"Product and  Service Assessment Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	5	"out"	"Product and  Service Assessment Request"	"CR Product and  Service Assessment Instance Record"	String
+""	6	"out"	"Product and  Service Assessment Schedule"	"CR Product and  Service Assessment Instance Record"	String
+""	7	"out"	"Product and  Service Assessment Status"	"CR Product and  Service Assessment Instance Record"	String
+""	8	"out"	"Product and  Service Assessment Usage Log"	"CR Product and  Service Assessment Instance Record"	String
+""	9	"out"	"Product and  Service Assessment ServiceProvider Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	10	"out"	"Product and  Service Assessment Requester Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/product-and--service-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Product and  Service Assessment Parameter Type"	"CR Product and  Service Assessment Instance Record"	String
+""	2	"inout"	"Product and  Service Assessment Selected Option"	"CR Product and  Service Assessment Instance Record"	String
+""	3	"in"	"Product and  Service Assessment Type"	"CR Product and  Service Assessment Instance Record"	String
+""	4	"in"	"Product and  Service Assessment Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	5	"inout"	"Product and  Service Assessment Request"	"CR Product and  Service Assessment Instance Record"	String
+""	6	"in"	"Product and  Service Assessment Schedule"	"CR Product and  Service Assessment Instance Record"	String
+""	7	"in"	"Product and  Service Assessment Status"	"CR Product and  Service Assessment Instance Record"	String
+""	8	"in"	"Product and  Service Assessment Usage Log"	"CR Product and  Service Assessment Instance Record"	String
+""	9	"in"	"Product and  Service Assessment ServiceProvider Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	10	"in"	"Product and  Service Assessment Requester Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/functional-consistency-checks/{crbq-identifier}/update"
+""	1	"inout"	"Functional Consistency Checks Preconditions"	"BQ Functional Consistency Checks Instance Record"	String
+""	2	"inout"	"Functional Consistency Checks Analysis Schedule"	"BQ Functional Consistency Checks Instance Record"	String
+""	3	"inout"	"Functional Consistency Checks Version Number"	"BQ Functional Consistency Checks Instance Record"	String
+""	4	"inout"	"Functional Consistency Checks Service Type"	"BQ Functional Consistency Checks Instance Record"	String
+""	5	"inout"	"Functional Consistency Checks Service Description"	"BQ Functional Consistency Checks Instance Record"	String
+""	6	"inout"	"Functional Consistency Checks Service Inputs and Ouputs"	"BQ Functional Consistency Checks Instance Record"	String
+""	7	"inout"	"Functional Consistency Checks Service Work Product"	"BQ Functional Consistency Checks Instance Record"	String
+""	8	"inout"	"Functional Consistency Checks Service Name"	"BQ Functional Consistency Checks Instance Record"	String
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/processing-error-and--integrity-checks/{crbq-identifier}/update"
+""	1	"inout"	"Processing Error and  Integrity Checks Preconditions"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	2	"inout"	"Processing Error and  Integrity Checks Analysis Schedule"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	3	"inout"	"Processing Error and  Integrity Checks Version Number"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	4	"inout"	"Processing Error and Integrity Checks"	"BQ Processing Error and  Integrity Checks Instance Record"	Business Service
+""	5	"inout"	"Processing Error and Integrity Checks Service Type"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	6	"inout"	"Processing Error and Integrity Checks Service Description"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	7	"inout"	"Processing Error and Integrity Checks Service Inputs and Ouputs"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	8	"inout"	"Processing Error and Integrity Checks Service Work Product"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""	9	"inout"	"Processing Error and Integrity Checks Service Name"	"BQ Processing Error and  Integrity Checks Instance Record"	String
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/resiliency-and--performance-checks/{crbq-identifier}/update"
+""	1	"inout"	"Resiliency and  Performance Checks Preconditions"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	2	"inout"	"Resiliency and  Performance Checks Analysis Schedule"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	3	"inout"	"Resiliency and  Performance Checks Version Number"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	4	"inout"	"Resiliency and Performance Checks"	"BQ Resiliency and  Performance Checks Instance Record"	Business Service
+""	5	"inout"	"Resiliency and Performance Checks Service Type"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	6	"inout"	"Resiliency and Performance Checks Service Description"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	7	"inout"	"Resiliency and Performance Checks Service Inputs and Ouputs"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	8	"inout"	"Resiliency and Performance Checks Service Work Product"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""	9	"inout"	"Resiliency and Performance Checks Service Name"	"BQ Resiliency and  Performance Checks Instance Record"	String
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/usability-checks/{crbq-identifier}/update"
+""	1	"inout"	"Usability Checks Preconditions"	"BQ Usability Checks Instance Record"	String
+""	2	"inout"	"Usability Checks Analysis Schedule"	"BQ Usability Checks Instance Record"	String
+""	3	"inout"	"Usability Checks Version Number"	"BQ Usability Checks Instance Record"	String
+""	4	"inout"	"Usability Checks Service Type"	"BQ Usability Checks Instance Record"	String
+""	5	"inout"	"Usability Checks Service Description"	"BQ Usability Checks Instance Record"	String
+""	6	"inout"	"Usability Checks Service Inputs and Ouputs"	"BQ Usability Checks Instance Record"	String
+""	7	"inout"	"Usability Checks Service Work Product"	"BQ Usability Checks Instance Record"	String
+""	8	"inout"	"Usability Checks Service Name"	"BQ Usability Checks Instance Record"	String
+""
+"Put"	"/product-quality-assurance/{sd-identifier}/product-and--service-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Product and  Service Assessment Parameter Type"	"CR Product and  Service Assessment Instance Record"	String
+""	2	"inout"	"Product and  Service Assessment Selected Option"	"CR Product and  Service Assessment Instance Record"	String
+""	3	"in"	"Product and  Service Assessment Type"	"CR Product and  Service Assessment Instance Record"	String
+""	4	"in"	"Product and  Service Assessment Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	5	"inout"	"Product and  Service Assessment Request"	"CR Product and  Service Assessment Instance Record"	String
+""	6	"in"	"Product and  Service Assessment Schedule"	"CR Product and  Service Assessment Instance Record"	String
+""	7	"in"	"Product and  Service Assessment Status"	"CR Product and  Service Assessment Instance Record"	String
+""	8	"in"	"Product and  Service Assessment Usage Log"	"CR Product and  Service Assessment Instance Record"	String
+""	9	"in"	"Product and  Service Assessment ServiceProvider Reference"	"CR Product and  Service Assessment Instance Record"	Object
+""	10	"in"	"Product and  Service Assessment Requester Reference"	"CR Product and  Service Assessment Instance Record"	Object

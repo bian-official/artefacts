@@ -1,0 +1,13 @@
+"Service Domain specification for Procurement"
+"Business Area"	Resource Management
+"Business Domain"	Buildings And Equipment
+"Service Domain"	Procurement
+"Role Definition"	"Coordinate the selection pricing and execution of purchase agreements and ensure compliance with purchasing policies"
+"Example of use"	"A major purchase order goes through the formal selection process with competitive bids being considered before the purchase order is assigned"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	Procurement
+"Generic Artifact"	AdministrativePlan
+"Control Record"	ProcurementAdministrativePlan
+"Registration Status"	Registered

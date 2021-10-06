@@ -1,0 +1,147 @@
+"Service Operations for: "	Sales Product Agreement
+""
+"POST"	"/sales-product-agreement/activation"
+"PUT"	"/sales-product-agreement/{sd-reference-id}/configuration"
+"PUT"	"/sales-product-agreement/{sd-reference-id}/feedback"
+""
+"Post"	"/sales-product-agreement/{sd-identifier}/sales-product-agreement/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	2	"in"	"Legal Entity Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	3	"in"	"Product/Service Type"	"CR Sales Product Agreement Instance Record"	String
+""	4	"in"	"Product Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	5	"in"	"Agreement Type"	"CR Sales Product Agreement Instance Record"	String
+""	6	"out"	"Agreement Jurisdiction"	"CR Sales Product Agreement Instance Record"	String
+""	7	"inout"	"Agreement Valid From/To Date"	"CR Sales Product Agreement Instance Record"	Date
+""	8	"inout"	"Agreement Signatories/Responsible Parties"	"CR Sales Product Agreement Instance Record"	String
+""	9	"inout"	"Document Directory Entry Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	10	"in"	"Customer Agreement Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	11	"in"	"Party Life-cycle Management Reference"	"CR Sales Product Agreement Instance Record"	Object
+""
+"Put"	"/sales-product-agreement/{sd-identifier}/sales-product-agreement/{crbq-identifier}/update"
+""
+"Put"	"/sales-product-agreement/{sd-identifier}/sales-product-agreement/{crbq-identifier}/control"
+""
+"Put"	"/sales-product-agreement/{sd-identifier}/sales-product-agreement/{crbq-identifier}/exchange"
+""
+"Put"	"/sales-product-agreement/{sd-identifier}/sales-product-agreement/{crbq-identifier}/requisition"
+""
+"Put"	"/sales-product-agreement/{sd-identifier}/sales-product-agreement/{crbq-identifier}/grant"
+""
+"Get"	"/sales-product-agreement/{sd-identifier}/sales-product-agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	2	"out"	"Legal Entity Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Sales Product Agreement Instance Record"	String
+""	4	"out"	"Product Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	5	"out"	"Agreement Type"	"CR Sales Product Agreement Instance Record"	String
+""	6	"out"	"Agreement Jurisdiction"	"CR Sales Product Agreement Instance Record"	String
+""	7	"out"	"Agreement Valid From/To Date"	"CR Sales Product Agreement Instance Record"	Date
+""	8	"out"	"Agreement Signatories/Responsible Parties"	"CR Sales Product Agreement Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	10	"out"	"Customer Agreement Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	11	"out"	"Party Life-cycle Management Reference"	"CR Sales Product Agreement Instance Record"	Object
+""
+"Post"	"/sales-product-agreement/{sd-identifier}/legal-terms/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	2	"in"	"Legal Entity Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	3	"in"	"Product/Service Type"	"CR Sales Product Agreement Instance Record"	String
+""	4	"in"	"Product Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	5	"in"	"Agreement Type"	"CR Sales Product Agreement Instance Record"	String
+""	6	"in"	"Agreement Jurisdiction"	"CR Sales Product Agreement Instance Record"	String
+""	7	"in"	"Agreement Valid From/To Date"	"CR Sales Product Agreement Instance Record"	Date
+""	8	"in"	"Agreement Signatories/Responsible Parties"	"CR Sales Product Agreement Instance Record"	String
+""	9	"in"	"Document Directory Entry Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	10	"in"	"Customer Agreement Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	11	"in"	"Party Life-cycle Management Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	12	"in"	"Applicable Law Reference"	"BQ Legal Terms Instance Record"	Object
+""	13	"out"	"Applicable Law Interpretation"	"BQ Legal Terms Instance Record"	String
+""
+"Put"	"/sales-product-agreement/{sd-identifier}/legal-terms/{crbq-identifier}/update"
+""	1	"inout"	"Jurisdiction"	"BQ Legal Terms Instance Record"	String
+""	2	"inout"	"Applicable Law Reference"	"BQ Legal Terms Instance Record"	Object
+""
+"Get"	"/sales-product-agreement/{sd-identifier}/legal-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	2	"out"	"Legal Entity Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Sales Product Agreement Instance Record"	String
+""	4	"out"	"Product Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	5	"out"	"Agreement Type"	"CR Sales Product Agreement Instance Record"	String
+""	6	"out"	"Agreement Jurisdiction"	"CR Sales Product Agreement Instance Record"	String
+""	7	"out"	"Agreement Valid From/To Date"	"CR Sales Product Agreement Instance Record"	Date
+""	8	"out"	"Agreement Signatories/Responsible Parties"	"CR Sales Product Agreement Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	10	"out"	"Customer Agreement Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	11	"out"	"Party Life-cycle Management Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	12	"out"	"Applicable Law Reference"	"BQ Legal Terms Instance Record"	Object
+""	13	"out"	"Applicable Law Interpretation"	"BQ Legal Terms Instance Record"	String
+""
+"Post"	"/sales-product-agreement/{sd-identifier}/regulatory-terms/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	2	"in"	"Legal Entity Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	3	"in"	"Product/Service Type"	"CR Sales Product Agreement Instance Record"	String
+""	4	"in"	"Product Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	5	"in"	"Agreement Type"	"CR Sales Product Agreement Instance Record"	String
+""	6	"in"	"Agreement Jurisdiction"	"CR Sales Product Agreement Instance Record"	String
+""	7	"in"	"Agreement Valid From/To Date"	"CR Sales Product Agreement Instance Record"	Date
+""	8	"in"	"Agreement Signatories/Responsible Parties"	"CR Sales Product Agreement Instance Record"	String
+""	9	"in"	"Document Directory Entry Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	10	"in"	"Customer Agreement Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	11	"in"	"Party Life-cycle Management Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	12	"in"	"Regulatory Authority"	"BQ Regulatory Terms Instance Record"	String
+""	13	"in"	"Applicable Regulation Reference"	"BQ Regulatory Terms Instance Record"	Object
+""	14	"out"	"Applicable Regulation Interpretation"	"BQ Regulatory Terms Instance Record"	String
+""
+"Put"	"/sales-product-agreement/{sd-identifier}/regulatory-terms/{crbq-identifier}/update"
+""	1	"inout"	"Regulatory Authority"	"BQ Regulatory Terms Instance Record"	String
+""	2	"inout"	"Applicable Regulation Reference"	"BQ Regulatory Terms Instance Record"	Object
+""
+"Get"	"/sales-product-agreement/{sd-identifier}/regulatory-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	2	"out"	"Legal Entity Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Sales Product Agreement Instance Record"	String
+""	4	"out"	"Product Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	5	"out"	"Agreement Type"	"CR Sales Product Agreement Instance Record"	String
+""	6	"out"	"Agreement Jurisdiction"	"CR Sales Product Agreement Instance Record"	String
+""	7	"out"	"Agreement Valid From/To Date"	"CR Sales Product Agreement Instance Record"	Date
+""	8	"out"	"Agreement Signatories/Responsible Parties"	"CR Sales Product Agreement Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	10	"out"	"Customer Agreement Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	11	"out"	"Party Life-cycle Management Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	12	"out"	"Regulatory Authority"	"BQ Regulatory Terms Instance Record"	String
+""	13	"out"	"Applicable Regulation Reference"	"BQ Regulatory Terms Instance Record"	Object
+""	14	"out"	"Applicable Regulation Interpretation"	"BQ Regulatory Terms Instance Record"	String
+""
+"Post"	"/sales-product-agreement/{sd-identifier}/policy-terms/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	2	"in"	"Legal Entity Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	3	"in"	"Product/Service Type"	"CR Sales Product Agreement Instance Record"	String
+""	4	"in"	"Product Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	5	"in"	"Agreement Type"	"CR Sales Product Agreement Instance Record"	String
+""	6	"in"	"Agreement Jurisdiction"	"CR Sales Product Agreement Instance Record"	String
+""	7	"in"	"Agreement Valid From/To Date"	"CR Sales Product Agreement Instance Record"	Date
+""	8	"in"	"Agreement Signatories/Responsible Parties"	"CR Sales Product Agreement Instance Record"	String
+""	9	"in"	"Document Directory Entry Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	10	"in"	"Customer Agreement Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	11	"in"	"Party Life-cycle Management Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	12	"in"	"Bank Policy-Rule Type"	"BQ Policy Terms Instance Record"	String
+""	13	"in"	"Applicable Bank Policy-Rule Reference"	"BQ Policy Terms Instance Record"	Object
+""	14	"out"	"Applicable Bank Policy- Rule Interpretation"	"BQ Policy Terms Instance Record"	String
+""
+"Put"	"/sales-product-agreement/{sd-identifier}/policy-terms/{crbq-identifier}/update"
+""	1	"inout"	"Bank Policy-Rule Type"	"BQ Policy Terms Instance Record"	String
+""	2	"inout"	"Applicable Bank Policy-Rule Reference"	"BQ Policy Terms Instance Record"	Object
+""
+"Get"	"/sales-product-agreement/{sd-identifier}/policy-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	2	"out"	"Legal Entity Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Sales Product Agreement Instance Record"	String
+""	4	"out"	"Product Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	5	"out"	"Agreement Type"	"CR Sales Product Agreement Instance Record"	String
+""	6	"out"	"Agreement Jurisdiction"	"CR Sales Product Agreement Instance Record"	String
+""	7	"out"	"Agreement Valid From/To Date"	"CR Sales Product Agreement Instance Record"	Date
+""	8	"out"	"Agreement Signatories/Responsible Parties"	"CR Sales Product Agreement Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	10	"out"	"Customer Agreement Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	11	"out"	"Party Life-cycle Management Reference"	"CR Sales Product Agreement Instance Record"	Object
+""	12	"out"	"Bank Policy-Rule Type"	"BQ Policy Terms Instance Record"	String
+""	13	"out"	"Applicable Bank Policy-Rule Reference"	"BQ Policy Terms Instance Record"	Object
+""	14	"out"	"Applicable Bank Policy- Rule Interpretation"	"BQ Policy Terms Instance Record"	String

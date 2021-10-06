@@ -1,0 +1,231 @@
+"Service Operations for: "	Investment Account
+""
+"POST"	"/investment-account/activation"
+"PUT"	"/investment-account/{sd-reference-id}/configuration"
+"PUT"	"/investment-account/{sd-reference-id}/feedback"
+""
+"Post"	"/investment-account/{sd-identifier}/investment-account-arrangement/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	2	"out"	"Investment Account Number"	"CR Investment Account Arrangement Instance Record"	String
+""	3	"in"	"Customer Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	4	"in"	"Bank Branch/Location Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	5	"inout"	"Linked Cash Account"	"CR Investment Account Arrangement Instance Record"	String
+""	6	"inout"	"Link Type"	"CR Investment Account Arrangement Instance Record"	String
+""	7	"inout"	"Account Details"	"CR Investment Account Arrangement Instance Record"	String
+""	8	"in"	"Investment Account Type"	"CR Investment Account Arrangement Instance Record"	String
+""	9	"inout"	"Investment Account Instrument Profile"	"CR Investment Account Arrangement Instance Record"	String
+""	10	"inout"	"Investment Account Instrument Record"	"CR Investment Account Arrangement Instance Record"	String
+""	11	"inout"	"Instrument Type"	"CR Investment Account Arrangement Instance Record"	String
+""	12	"inout"	"Instrument Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	13	"inout"	"Trading Marketplace Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	14	"inout"	"Instrument Position Record"	"CR Investment Account Arrangement Instance Record"	String
+""	15	"inout"	"Instrument Position Limit Type"	"CR Investment Account Arrangement Instance Record"	String
+""	16	"inout"	"Instrument Position Limit Settings"	"CR Investment Account Arrangement Instance Record"	String
+""	17	"out"	"Instrument Position Holding"	"CR Investment Account Arrangement Instance Record"	String
+""	18	"inout"	"Instrument Processing Schedule"	"CR Investment Account Arrangement Instance Record"	String
+""	19	"inout"	"Instrument Event Type"	"CR Investment Account Arrangement Instance Record"	String
+""	20	"inout"	"Instrument Event Description"	"CR Investment Account Arrangement Instance Record"	String
+""	21	"inout"	"Instrument Event Date"	"CR Investment Account Arrangement Instance Record"	Date
+""	22	"in"	"Tax Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	23	"inout"	"Entitlement Option Definition"	"CR Investment Account Arrangement Instance Record"	String
+""	24	"inout"	"Entitlement Option Setting"	"CR Investment Account Arrangement Instance Record"	String
+""	25	"out"	"Restriction Option Definition"	"CR Investment Account Arrangement Instance Record"	String
+""	26	"inout"	"Restriction Option Setting"	"CR Investment Account Arrangement Instance Record"	String
+""	27	"in"	"Linked Accounts"	"CR Investment Account Arrangement Instance Record"	String
+""	28	"inout"	"Date Type"	"CR Investment Account Arrangement Instance Record"	String
+""
+"Put"	"/investment-account/{sd-identifier}/investment-account-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	2	"inout"	"Investment Account Number"	"CR Investment Account Arrangement Instance Record"	String
+""	3	"inout"	"Customer Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	4	"inout"	"Bank Branch/Location Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	5	"inout"	"Linked Cash Account"	"CR Investment Account Arrangement Instance Record"	String
+""	6	"inout"	"Link Type"	"CR Investment Account Arrangement Instance Record"	String
+""	7	"inout"	"Account Details"	"CR Investment Account Arrangement Instance Record"	String
+""	8	"inout"	"Investment Account Type"	"CR Investment Account Arrangement Instance Record"	String
+""	9	"inout"	"Investment Account Instrument Profile"	"CR Investment Account Arrangement Instance Record"	String
+""	10	"inout"	"Investment Account Instrument Record"	"CR Investment Account Arrangement Instance Record"	String
+""	11	"inout"	"Instrument Type"	"CR Investment Account Arrangement Instance Record"	String
+""	12	"inout"	"Instrument Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	13	"inout"	"Trading Marketplace Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	14	"inout"	"Instrument Position Record"	"CR Investment Account Arrangement Instance Record"	String
+""	15	"inout"	"Instrument Position Limit Type"	"CR Investment Account Arrangement Instance Record"	String
+""	16	"inout"	"Instrument Position Limit Settings"	"CR Investment Account Arrangement Instance Record"	String
+""	17	"inout"	"Instrument Position Holding"	"CR Investment Account Arrangement Instance Record"	String
+""	18	"inout"	"Instrument Processing Schedule"	"CR Investment Account Arrangement Instance Record"	String
+""	19	"inout"	"Instrument Event Type"	"CR Investment Account Arrangement Instance Record"	String
+""	20	"inout"	"Instrument Event Description"	"CR Investment Account Arrangement Instance Record"	String
+""	21	"inout"	"Instrument Event Date"	"CR Investment Account Arrangement Instance Record"	Date
+""	22	"inout"	"Tax Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	23	"inout"	"Entitlement Option Definition"	"CR Investment Account Arrangement Instance Record"	String
+""	24	"inout"	"Entitlement Option Setting"	"CR Investment Account Arrangement Instance Record"	String
+""	25	"inout"	"Restriction Option Definition"	"CR Investment Account Arrangement Instance Record"	String
+""	26	"inout"	"Restriction Option Setting"	"CR Investment Account Arrangement Instance Record"	String
+""	27	"inout"	"Linked Accounts"	"CR Investment Account Arrangement Instance Record"	String
+""	28	"inout"	"Date Type"	"CR Investment Account Arrangement Instance Record"	String
+""
+"Put"	"/investment-account/{sd-identifier}/investment-account-arrangement/{crbq-identifier}/control"
+""
+"Get"	"/investment-account/{sd-identifier}/investment-account-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	2	"out"	"Investment Account Number"	"CR Investment Account Arrangement Instance Record"	String
+""	3	"out"	"Customer Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	4	"out"	"Bank Branch/Location Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	5	"out"	"Linked Cash Account"	"CR Investment Account Arrangement Instance Record"	String
+""	6	"out"	"Link Type"	"CR Investment Account Arrangement Instance Record"	String
+""	7	"out"	"Account Details"	"CR Investment Account Arrangement Instance Record"	String
+""	8	"out"	"Investment Account Type"	"CR Investment Account Arrangement Instance Record"	String
+""	9	"out"	"Investment Account Instrument Profile"	"CR Investment Account Arrangement Instance Record"	String
+""	10	"out"	"Investment Account Instrument Record"	"CR Investment Account Arrangement Instance Record"	String
+""	11	"out"	"Instrument Type"	"CR Investment Account Arrangement Instance Record"	String
+""	12	"out"	"Instrument Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	13	"out"	"Trading Marketplace Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	14	"out"	"Instrument Position Record"	"CR Investment Account Arrangement Instance Record"	String
+""	15	"out"	"Instrument Position Limit Type"	"CR Investment Account Arrangement Instance Record"	String
+""	16	"out"	"Instrument Position Limit Settings"	"CR Investment Account Arrangement Instance Record"	String
+""	17	"out"	"Instrument Position Holding"	"CR Investment Account Arrangement Instance Record"	String
+""	18	"out"	"Instrument Processing Schedule"	"CR Investment Account Arrangement Instance Record"	String
+""	19	"out"	"Instrument Event Type"	"CR Investment Account Arrangement Instance Record"	String
+""	20	"out"	"Instrument Event Description"	"CR Investment Account Arrangement Instance Record"	String
+""	21	"out"	"Instrument Event Date"	"CR Investment Account Arrangement Instance Record"	Date
+""	22	"out"	"Tax Reference"	"CR Investment Account Arrangement Instance Record"	Object
+""	23	"out"	"Entitlement Option Definition"	"CR Investment Account Arrangement Instance Record"	String
+""	24	"out"	"Entitlement Option Setting"	"CR Investment Account Arrangement Instance Record"	String
+""	25	"out"	"Restriction Option Definition"	"CR Investment Account Arrangement Instance Record"	String
+""	26	"out"	"Restriction Option Setting"	"CR Investment Account Arrangement Instance Record"	String
+""	27	"out"	"Linked Accounts"	"CR Investment Account Arrangement Instance Record"	String
+""	28	"out"	"Date Type"	"CR Investment Account Arrangement Instance Record"	String
+""
+"Post"	"/investment-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/initiation"
+""	1	"inout"	"Securities Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	2	"inout"	"Securities Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""
+"Put"	"/investment-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/update"
+""	1	"inout"	"Securities Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	2	"inout"	"Securities Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	3	"inout"	"Securities Deposit Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	4	"inout"	"Securities Deposit Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	5	"inout"	"Securities Deposit Transaction Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	6	"inout"	"Securities Deposit Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	7	"inout"	"Securities Deposit Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	8	"inout"	"Securities Deposit Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""	9	"inout"	"Securities Withdrawal Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	10	"inout"	"Securities Withdrawal Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	11	"inout"	"Securities Withdrawal Transaction Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	12	"inout"	"Securities Withdrawal Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	13	"inout"	"Securities Withdrawal Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	14	"inout"	"Securities Withdrawal Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""
+"Put"	"/investment-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/exchange"
+""
+"Put"	"/investment-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/execution"
+""	1	"in"	"Securities Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	2	"in"	"Securities Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	3	"inout"	"Securities Deposit Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	4	"in"	"Securities Deposit Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	5	"inout"	"Securities Deposit Transaction Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	6	"in"	"Securities Deposit Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	7	"inout"	"Securities Deposit Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	8	"inout"	"Securities Deposit Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""	9	"inout"	"Securities Withdrawal Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	10	"in"	"Securities Withdrawal Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	11	"inout"	"Securities Withdrawal Transaction Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	12	"in"	"Securities Withdrawal Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	13	"inout"	"Securities Withdrawal Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	14	"inout"	"Securities Withdrawal Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""
+"Get"	"/investment-account/{sd-identifier}/deposits-and-withdrawals/{crbq-identifier}/retrieval"
+""	1	"out"	"Securities Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	2	"out"	"Securities Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	3	"out"	"Securities Deposit Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	4	"out"	"Securities Deposit Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	5	"out"	"Securities Deposit Transaction Deposit Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	6	"out"	"Securities Deposit Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	7	"out"	"Securities Deposit Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	8	"out"	"Securities Deposit Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""	9	"out"	"Securities Withdrawal Transaction"	"BQ Deposits and Withdrawals Instance Record"	String
+""	10	"out"	"Securities Withdrawal Transaction Source Reference"	"BQ Deposits and Withdrawals Instance Record"	Object
+""	11	"out"	"Securities Withdrawal Transaction Withdrawal Type"	"BQ Deposits and Withdrawals Instance Record"	String
+""	12	"out"	"Securities Withdrawal Transaction Description"	"BQ Deposits and Withdrawals Instance Record"	String
+""	13	"out"	"Securities Withdrawal Transaction Amount"	"BQ Deposits and Withdrawals Instance Record"	Amount
+""	14	"out"	"Securities Withdrawal Transaction Date"	"BQ Deposits and Withdrawals Instance Record"	Date
+""
+"Post"	"/investment-account/{sd-identifier}/corporate-action/{crbq-identifier}/initiation"
+""	1	"in"	"Corporate Action Type"	"BQ Corporate Action Instance Record"	String
+""	2	"inout"	"Corporate Action Application Schedule"	"BQ Corporate Action Instance Record"	String
+""	3	"inout"	"Corporate Action Instrument Type"	"BQ Corporate Action Instance Record"	String
+""
+"Put"	"/investment-account/{sd-identifier}/corporate-action/{crbq-identifier}/update"
+""
+"Put"	"/investment-account/{sd-identifier}/corporate-action/{crbq-identifier}/exchange"
+""
+"Put"	"/investment-account/{sd-identifier}/corporate-action/{crbq-identifier}/execution"
+""	1	"in"	"Corporate Action Type"	"BQ Corporate Action Instance Record"	String
+""	2	"in"	"Corporate Action Application Schedule"	"BQ Corporate Action Instance Record"	String
+""	3	"in"	"Corporate Action Instrument Type"	"BQ Corporate Action Instance Record"	String
+""	4	"inout"	"Corporate Action Transaction"	"BQ Corporate Action Instance Record"	String
+""	5	"in"	"Corporate Action Transaction Type"	"BQ Corporate Action Instance Record"	String
+""	6	"inout"	"Corporate Action Transaction Description"	"BQ Corporate Action Instance Record"	String
+""	7	"out"	"Corporate Action Work Products"	"BQ Corporate Action Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Corporate Action Instance Record"	Object
+""	9	"out"	"Corporate Action Transaction Result"	"BQ Corporate Action Instance Record"	String
+""	10	"inout"	"Corporate Action Transaction Date"	"BQ Corporate Action Instance Record"	Date
+""
+"Get"	"/investment-account/{sd-identifier}/corporate-action/{crbq-identifier}/retrieval"
+""	1	"out"	"Corporate Action Type"	"BQ Corporate Action Instance Record"	String
+""	2	"out"	"Corporate Action Application Schedule"	"BQ Corporate Action Instance Record"	String
+""	3	"out"	"Corporate Action Instrument Type"	"BQ Corporate Action Instance Record"	String
+""	4	"out"	"Corporate Action Transaction"	"BQ Corporate Action Instance Record"	String
+""	5	"out"	"Corporate Action Transaction Type"	"BQ Corporate Action Instance Record"	String
+""	6	"out"	"Corporate Action Transaction Description"	"BQ Corporate Action Instance Record"	String
+""	7	"out"	"Corporate Action Work Products"	"BQ Corporate Action Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ Corporate Action Instance Record"	Object
+""	9	"out"	"Corporate Action Transaction Result"	"BQ Corporate Action Instance Record"	String
+""	10	"out"	"Corporate Action Transaction Date"	"BQ Corporate Action Instance Record"	Date
+""
+"Post"	"/investment-account/{sd-identifier}/service-fees/{crbq-identifier}/initiation"
+""	1	"in"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	2	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	3	"in"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/investment-account/{sd-identifier}/service-fees/{crbq-identifier}/update"
+""
+"Put"	"/investment-account/{sd-identifier}/service-fees/{crbq-identifier}/exchange"
+""
+"Put"	"/investment-account/{sd-identifier}/service-fees/{crbq-identifier}/execution"
+""	1	"inout"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	2	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	3	"in"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""	4	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	5	"inout"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	6	"in"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	7	"inout"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	8	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	9	"out"	"Payment Order Procedure Instance Reference"	"BQ Service Fees Instance Record"	Object
+""	10	"inout"	"Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	11	"in"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	12	"inout"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	13	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	14	"out"	"Fee Accrual Amount"	"BQ Service Fees Instance Record"	Amount
+""	15	"inout"	"Accrual Fee Type"	"BQ Service Fees Instance Record"	String
+""	16	"out"	"Accrual Fee Charge"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/investment-account/{sd-identifier}/service-fees/{crbq-identifier}/requisition"
+""
+"Get"	"/investment-account/{sd-identifier}/service-fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Fee Configuration Profile"	"BQ Service Fees Instance Record"	String
+""	2	"out"	"Fee Definition"	"BQ Service Fees Instance Record"	String
+""	3	"out"	"Fee Type"	"BQ Service Fees Instance Record"	String
+""	4	"out"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	5	"out"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	6	"out"	"Transaction Description"	"BQ Service Fees Instance Record"	String
+""	7	"out"	"Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	8	"out"	"Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	9	"out"	"Payment Order Procedure Instance Reference"	"BQ Service Fees Instance Record"	Object
+""	10	"out"	"Fee Projections and Commitments"	"BQ Service Fees Instance Record"	String
+""	11	"out"	"Projected Transaction Description"	"BQ Service Fees Instance Record"	String
+""	12	"out"	"Projected Transaction Fee Type"	"BQ Service Fees Instance Record"	String
+""	13	"out"	"Projected Transaction Fee Charge"	"BQ Service Fees Instance Record"	String
+""	14	"out"	"Fee Accrual Amount"	"BQ Service Fees Instance Record"	Amount
+""	15	"out"	"Accrual Fee Type"	"BQ Service Fees Instance Record"	String
+""	16	"out"	"Accrual Fee Charge"	"BQ Service Fees Instance Record"	String

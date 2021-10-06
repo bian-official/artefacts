@@ -1,0 +1,26 @@
+"Control Record Model for: "	Open Item Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Tracking Instance Record	""	""	""
+"BQ"	BQ Tracking Instance Record	Customer Billing Procedure Instance Reference	"Reference to the associated customer billing transaction"	Object
+"BQ"	BQ Tracking Instance Record	Customer Billing Party	"The billed customer"	String
+"BQ"	BQ Tracking Instance Record	Customer Billing Address	"The address the bill was sent to (can be electronic)"	String
+"BQ"	BQ Tracking Instance Record	Customer Billing Period	"The billing period is applicable"	String
+"BQ"	BQ Tracking Instance Record	Customer Billing Statement	"The content of the billing statement used in the bill"	String
+"BQ"	BQ Tracking Instance Record	Customer Billing Amount	"The amount of the customer bill"	Amount
+"BQ"	BQ Repayment Instance Record	""	""	""
+"BQ"	BQ Repayment Instance Record	Transaction Payer Reference	"Reference to the payer of the funds"	Object
+"BQ"	BQ Repayment Instance Record	Transaction Payer Product Instance Reference	"Reference to the source of the payment funds"	Object
+"BQ"	BQ Repayment Instance Record	Transaction Payer Bank Reference	"Reference to the payers account holding bank"	Object
+"BQ"	BQ Repayment Instance Record	Transaction Type	"The type of repayment transaction (e.g. wire)"	String
+"BQ"	BQ Repayment Instance Record	Transaction Amount	"The amount of the repayment transaction (amount applied to the open item outstanding balance)"	Amount
+"BQ"	BQ Repayment Instance Record	Transaction Currency	"The currency of the payment"	CurrencyCode
+"BQ"	BQ Repayment Instance Record	Transaction Date	"Key dates associated with the transaction (e.g. value date)"	Date
+"CR"	CR Open Item Procedure Instance Record	""	""	""
+"CR"	CR Open Item Procedure Instance Record	Open Item Type	"The type of open item, typically an overdue payment"	String
+"CR"	CR Open Item Procedure Instance Record	Open Item Description	"Specific detail of the open item for reference"	String
+"CR"	CR Open Item Procedure Instance Record	Product Instance Reference	"Reference to the associated loan account"	Object
+"CR"	CR Open Item Procedure Instance Record	Party Reference	"Reference to the customer/party responsible"	Object
+"CR"	CR Open Item Procedure Instance Record	Loan Repayment Schedule	"Payment schedule used for staged payments"	String
+"CR"	CR Open Item Procedure Instance Record	Loan Outstanding Balance	"The outstanding balance"	String
+"CR"	CR Open Item Procedure Instance Record	Loan Termination Date	"The date the loan agreement is terminated"	Date
+"CR"	CR Open Item Procedure Instance Record	Repayment Statement	"A statement of repayment transactions made against the item"	String

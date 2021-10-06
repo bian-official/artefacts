@@ -1,0 +1,13 @@
+"Service Domain specification for Systems Help Desk"
+"Business Area"	Resource Management
+"Business Domain"	Platform Operations
+"Service Domain"	Systems Help Desk
+"Role Definition"	"Operate the online/interactive production help desk and first level support activity. Capture, diagnose and resolve production systems issues and failures. Escalate issues to systems assurance as necessary"
+"Example of use"	"A user reports a production system problem and is guided through short term resolution by the help desk. A follow up resolution is scheduled for the engineers"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Operate
+"Asset Type"	HelpDesk
+"Generic Artifact"	OperatingSession
+"Control Record"	HelpDeskOperatingSession
+"Registration Status"	Registered

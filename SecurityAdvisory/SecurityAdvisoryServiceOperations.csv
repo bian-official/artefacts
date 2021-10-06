@@ -1,0 +1,5 @@
+"Service Operations for: "	Security Advisory
+"Control Record Model for Security Advisory is not defined"
+"POST"	"/security-advisory/activation"
+"PUT"	"/security-advisory/{sd-reference-id}/configuration"
+"PUT"	"/security-advisory/{sd-reference-id}/feedback"

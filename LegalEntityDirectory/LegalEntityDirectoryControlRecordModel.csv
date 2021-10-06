@@ -1,0 +1,34 @@
+"Control Record Model for: "	Legal Entity Directory
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Associations Instance Record	""	""	""
+"BQ"	BQ Associations Instance Record	Legal Entity Association Reference	"Reference to the associated entity (e.g. company or individual)"	Object
+"BQ"	BQ Associations Instance Record	Legal Entity Association Type	"Nature or type of association (e.g. corporate or familial)"	String
+"BQ"	BQ Associations Instance Record	Legal Entity Association Obligation	"Description of the association and applicable obligations  (e.g. shareholder, director, guardian, guarantor)"	String
+"BQ"	BQ Associations Instance Record	Parent Legal Entity Reference	"Reference the parent entity if applicable"	Object
+"BQ"	BQ Associations Instance Record	Subsidiary Legal Entity Reference	"Reference the subsidiary entity if applicable"	Object
+"BQ"	BQ Associations Instance Record	Shareholding Profile	"List of major shareholders and shareholdings of significance"	String
+"BQ"	BQ Reference Instance Record	""	""	""
+"BQ"	BQ Reference Instance Record	Legal Entity Official Name	"The registered name of the entity"	String
+"BQ"	BQ Reference Instance Record	Legal Entity Type	"The type of legal entity (e.g. individual, Inc, Plc)"	String
+"BQ"	BQ Reference Instance Record	Sectors of Operation	"The sectors of operation (e.g. finance, Asia)"	String
+"BQ"	BQ Reference Instance Record	Registered Address	"The registered address for the legal entity"	String
+"BQ"	BQ Reference Instance Record	Headquarters Location	"The location of the head office (and regional offices if appropriate)"	String
+"BQ"	BQ Reference Instance Record	Date of Incorporation	"The date of incorporation (or dates when subsidiaries involved)"	String
+"BQ"	BQ Reference Instance Record	Jurisdiction of Incorporation	"The jurisdiction governing the company"	String
+"BQ"	BQ Reference Instance Record	Registration Authority	"The associated legal or registration authority"	String
+"BQ"	BQ Reference Instance Record	Primary Regulator	"The primary, and additional regulators as appropriate"	String
+"BQ"	BQ Reference Instance Record	Tax Reference	"Reference identifier linking the entity to appropriate tax authority"	Object
+"BQ"	BQ Reference Instance Record	Contact Role	"The bank's contact role or roles established to maintain the relationship with the bank (e.g. CEO)"	String
+"BQ"	BQ Reference Instance Record	Contact Address/Details	"The address of the bank's contact's within the entity"	String
+"CR"	CR Legal Entity Directory Entry Instance Record	""	""	""
+"CR"	CR Legal Entity Directory Entry Instance Record	Legal Entity Reference	"Reference to the legal entity that is the subject of the entry"	Object
+"CR"	CR Legal Entity Directory Entry Instance Record	Party Reference	"Reference to the associated party (one or more linked by role to the legal entity)"	Object
+"CR"	CR Legal Entity Directory Entry Instance Record	Date Type	"Key dates associated with the directory entry (e.g. open date, refresh date)"	String
+"CR"	CR Legal Entity Directory Entry Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Profile Instance Record	""	""	""
+"BQ"	BQ Profile Instance Record	Organization Capitalization	"The estimated capitalization of the entity"	String
+"BQ"	BQ Profile Instance Record	Organization Debt Level	"The estimated debt level for the entity"	String
+"BQ"	BQ Profile Instance Record	Organization Economic Intent	"The projected economic performance for the entity"	String
+"BQ"	BQ Profile Instance Record	Organization Growth Rate	"Past and projected growth rates"	Rate
+"BQ"	BQ Profile Instance Record	Organization Profitability/Stocks	"Analysis of past performance  (a summary description)"	String
+"BQ"	BQ Profile Instance Record	Organization Revenue/Turnover	"Description of revenues, production volumes and staff turnover  a summary description)"	String

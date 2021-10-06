@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Behavior Models"
+"Business Area"	Business Development
+"Business Domain"	Models And Analytics
+"Service Domain"	Customer Behavior Models
+"Role Definition"	"This service domain handles the development, maintenance and continual assessment and refinement of the collection of customer behavior models that are deployed across the bank. This includes more general analyses for sales, operational behavior, relationship development and specific behaviors such as credit and fraud detection. Customer can cover consumer, corporate and merchant behavior for some behavioral models/scanners"
+"Example of use"	"A customer 'propensity to buy model' algorithm is updated to take account of additional transaction utilization data that is available"
+"Executive Summary"	"This service domain handles the design and maintenance of a portfolio of customer behavior models that might be used in all aspects of customer relationship development, sales, servicing and product fulfillment"
+"Key Features"	"Determine desired type/coverage for behavior analysis. Source, define and develop behavior models. Publish, process feedback and refine/tune models"
+"Functional Pattern"	Design
+"Asset Type"	CustomerBehaviorModel
+"Generic Artifact"	Specification
+"Control Record"	CustomerBehaviorModelSpecification
+"Registration Status"	Registered

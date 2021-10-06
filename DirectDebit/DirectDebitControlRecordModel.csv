@@ -1,0 +1,69 @@
+"Control Record Model for: "	Direct Debit
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Direct Debit Arrangement Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Direct Debit. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Parameter Type	"A Classification value that distinguishes between arrangements according to the type of business services within Direct Debit Arrangement"	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Selected Option	"A selected optional business service as subject matter of Direct Debit Arrangement"	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Type	"The type of Direct Debit Arrangement"	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Reference	"Reference to Direct Debit Arrangement"	Object
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Schedule	"Timetable to fulfill Direct Debit Arrangement"	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Status	"The status of Direct Debit Arrangement"	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Currency	"The curreny which is arranged in Direct Debit Arrangement"	CurrencyCode
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Regulation Reference	"Reference to the regulation which is defined in Direct Debit Arrangement"	Object
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Regulation Type	"A Classification that distinguishes between the regularity domains of Direct Debit Arrangement"	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Jurisdiction	"Reference to the jurisdiction that is assigned to Direct Debit Arrangement in case of legal dispute."	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Booking Location	"The financial accounting unit into which the financial events, with regard to the origination and fulfillment of the agreement in the context of Direct Debit Arrangement, are entered."	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Account Type	"The type of account which is linked to Direct Debit Arrangement"	String
+"CR"	CR Direct Debit Arrangement Instance Record	Direct Debit Arrangement Account Reference	"Reference to the account which is linked to Direct Debit Arrangement"	Object
+"BQ"	BQ Reporting Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Direct Debit. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Reporting Instance Record	Reporting Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Reporting Instance Record	Reporting Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Reporting Instance Record	Business Service	"The Direct Debit Arrangement specific Business Service"	Business Service
+"BQ"	BQ Reporting Instance Record	Reporting Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Reporting Instance Record	Reporting Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Reporting Instance Record	Reporting Service Description	"Description of the performed business service"	String
+"BQ"	BQ Reporting Instance Record	Reporting Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Reporting Instance Record	Reporting Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Reporting Instance Record	Reporting Service Name	""	String
+"BQ"	BQ Direct Debit Outcome Instance Record	""	""	""
+"BQ"	BQ Direct Debit Outcome Instance Record	Direct Debit Financial Facility	""	String
+"BQ"	BQ Direct Debit Outcome Instance Record	Direct Debit Work Product	""	String
+"BQ"	BQ Funds Available Check Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Direct Debit. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check	"The Direct Debit Arrangement specific Business Service"	Business Service
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check Funds Available Check Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check Funds Available Check Service Description	"Description of the performed business service"	String
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check Funds Available Check Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check Funds Available Check Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Funds Available Check Instance Record	Funds Available Check Funds Available Check Service Name	""	String
+"BQ"	BQ Payment Initiation Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Direct Debit. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Payment Initiation Instance Record	Payment Initiation Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Payment Initiation Instance Record	Payment Initiation Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Payment Initiation Instance Record	Direct Debit Payment Initiation	"The Direct Debit Arrangement specific Business Service"	Business Service
+"BQ"	BQ Payment Initiation Instance Record	Payment Initiation Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Payment Initiation Instance Record	Payment Initiation Direct Debit Payment Initiation Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Payment Initiation Instance Record	Payment Initiation Direct Debit Payment Initiation Service Description	"Description of the performed business service"	String
+"BQ"	BQ Payment Initiation Instance Record	Payment Initiation Direct Debit Payment Initiation Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Payment Initiation Instance Record	Payment Initiation Direct Debit Payment Initiation Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Payment Initiation Instance Record	Payment Initiation Direct Debit Payment Initiation Service Name	""	String
+"BQ"	BQ Verify Mandate Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Direct Debit. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Verify Mandate Instance Record	Verify Mandate Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Verify Mandate Instance Record	Verify Mandate Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Verify Mandate Instance Record	Direct Debit Mandate Check	"The Direct Debit Arrangement specific Business Service"	Business Service
+"BQ"	BQ Verify Mandate Instance Record	Verify Mandate Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Verify Mandate Instance Record	Verify Mandate Direct Debit Mandate Check Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Verify Mandate Instance Record	Verify Mandate Direct Debit Mandate Check Service Description	"Description of the performed business service"	String
+"BQ"	BQ Verify Mandate Instance Record	Verify Mandate Direct Debit Mandate Check Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Verify Mandate Instance Record	Verify Mandate Direct Debit Mandate Check Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Verify Mandate Instance Record	Verify Mandate Direct Debit Mandate Check Service Name	""	String
+"BQ"	BQ Payment Tracking Instance Record	""	"Fulfill any scheduled and ad-hoc obligations under a service arrangement, most typically for a financial product or facility  within Direct Debit. . Example: Perform the scheduled (e.g. statements, standing orders) and ad-hoc/requested (e.g. balance inquiries, fund transfers) fulfillment tasks for a customer current account facility."	""
+"BQ"	BQ Payment Tracking Instance Record	Payment Tracking Preconditions	"The required status/situation prior to the implementation of the feature"	String
+"BQ"	BQ Payment Tracking Instance Record	Payment Tracking Feature Schedule	"The timing and key actions/milestones involved in completing the fulfillment feature instance"	String
+"BQ"	BQ Payment Tracking Instance Record	Direct Debit Payment Tracking	"The Direct Debit Arrangement specific Business Service"	Business Service
+"BQ"	BQ Payment Tracking Instance Record	Payment Tracking Postconditions	"The completion status and any triggered/dependent actions once the feature instance has been fulfilled"	String
+"BQ"	BQ Payment Tracking Instance Record	Payment Tracking Direct Debit Payment Tracking Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Payment Tracking Instance Record	Payment Tracking Direct Debit Payment Tracking Service Description	"Description of the performed business service"	String
+"BQ"	BQ Payment Tracking Instance Record	Payment Tracking Direct Debit Payment Tracking Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Payment Tracking Instance Record	Payment Tracking Direct Debit Payment Tracking Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Payment Tracking Instance Record	Payment Tracking Direct Debit Payment Tracking Service Name	""	String

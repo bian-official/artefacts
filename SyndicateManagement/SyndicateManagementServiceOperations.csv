@@ -1,0 +1,5 @@
+"Service Operations for: "	Syndicate Management
+"Control Record Model for Syndicate Management is not defined"
+"POST"	"/syndicate-management/activation"
+"PUT"	"/syndicate-management/{sd-reference-id}/configuration"
+"PUT"	"/syndicate-management/{sd-reference-id}/feedback"

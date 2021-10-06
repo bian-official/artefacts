@@ -1,0 +1,157 @@
+"Service Operations for: "	Market Order Execution
+""
+"POST"	"/market-order-execution/activation"
+"PUT"	"/market-order-execution/{sd-reference-id}/configuration"
+"PUT"	"/market-order-execution/{sd-reference-id}/feedback"
+""
+"Post"	"/market-order-execution/{sd-identifier}/market-trade-transaction/{crbq-identifier}/initiation"
+""	1	"inout"	"Market Order Transaction Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	4	"inout"	"Customer Market Order Processing Instruction"	"CR Market Trade Transaction Instance Record"	String
+""	5	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	6	"inout"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	7	"inout"	"Market Order Type"	"CR Market Trade Transaction Instance Record"	String
+""	8	"inout"	"Security Type"	"CR Market Trade Transaction Instance Record"	String
+""	9	"inout"	"Amount"	"CR Market Trade Transaction Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Market Trade Transaction Instance Record"	String
+""	11	"inout"	"Market Order Trade Initiation Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""
+"Put"	"/market-order-execution/{sd-identifier}/market-trade-transaction/{crbq-identifier}/update"
+""	1	"inout"	"Market Order Transaction Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	4	"inout"	"Customer Market Order Processing Instruction"	"CR Market Trade Transaction Instance Record"	String
+""	5	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	6	"inout"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	7	"inout"	"Market Order Type"	"CR Market Trade Transaction Instance Record"	String
+""	8	"inout"	"Security Type"	"CR Market Trade Transaction Instance Record"	String
+""	9	"inout"	"Amount"	"CR Market Trade Transaction Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Market Trade Transaction Instance Record"	String
+""	11	"inout"	"Market Order Trade Initiation Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""
+"Put"	"/market-order-execution/{sd-identifier}/market-trade-transaction/{crbq-identifier}/requisition"
+""	1	"inout"	"Market Order Transaction Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	4	"inout"	"Customer Market Order Processing Instruction"	"CR Market Trade Transaction Instance Record"	String
+""	5	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	6	"inout"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	7	"inout"	"Market Order Type"	"CR Market Trade Transaction Instance Record"	String
+""	8	"inout"	"Security Type"	"CR Market Trade Transaction Instance Record"	String
+""	9	"inout"	"Amount"	"CR Market Trade Transaction Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Market Trade Transaction Instance Record"	String
+""	11	"inout"	"Market Order Trade Initiation Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""
+"Get"	"/market-order-execution/{sd-identifier}/market-trade-transaction/{crbq-identifier}/retrieval"
+""	1	"out"	"Market Order Transaction Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	4	"out"	"Customer Market Order Processing Instruction"	"CR Market Trade Transaction Instance Record"	String
+""	5	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	6	"out"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	7	"out"	"Market Order Type"	"CR Market Trade Transaction Instance Record"	String
+""	8	"out"	"Security Type"	"CR Market Trade Transaction Instance Record"	String
+""	9	"out"	"Amount"	"CR Market Trade Transaction Instance Record"	String
+""	10	"out"	"Date Type"	"CR Market Trade Transaction Instance Record"	String
+""	11	"out"	"Market Order Trade Initiation Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""
+"Post"	"/market-order-execution/{sd-identifier}/quote/{crbq-identifier}/initiation"
+""	1	"inout"	"Market Order Transaction Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	4	"inout"	"Customer Market Order Processing Instruction"	"CR Market Trade Transaction Instance Record"	String
+""	5	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	6	"inout"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	7	"inout"	"Market Order Type"	"CR Market Trade Transaction Instance Record"	String
+""	8	"inout"	"Security Type"	"CR Market Trade Transaction Instance Record"	String
+""	9	"inout"	"Amount"	"CR Market Trade Transaction Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Market Trade Transaction Instance Record"	String
+""	11	"inout"	"Market Order Trade Initiation Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	12	"inout"	"Quote Security Type"	"BQ Quote Instance Record"	String
+""	13	"inout"	"Quote Type"	"BQ Quote Instance Record"	String
+""
+"Get"	"/market-order-execution/{sd-identifier}/quote/{crbq-identifier}/retrieval"
+""	1	"out"	"Market Order Transaction Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	4	"out"	"Customer Market Order Processing Instruction"	"CR Market Trade Transaction Instance Record"	String
+""	5	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	6	"out"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	7	"out"	"Market Order Type"	"CR Market Trade Transaction Instance Record"	String
+""	8	"out"	"Security Type"	"CR Market Trade Transaction Instance Record"	String
+""	9	"out"	"Amount"	"CR Market Trade Transaction Instance Record"	String
+""	10	"out"	"Date Type"	"CR Market Trade Transaction Instance Record"	String
+""	11	"out"	"Market Order Trade Initiation Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	12	"out"	"Quote Security Type"	"BQ Quote Instance Record"	String
+""	13	"out"	"Quote Type"	"BQ Quote Instance Record"	String
+""
+"Post"	"/market-order-execution/{sd-identifier}/trade-initiation/{crbq-identifier}/initiation"
+""	1	"inout"	"Market Order Transaction Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	3	"in"	"Employee/Business Unit Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	4	"inout"	"Customer Market Order Processing Instruction"	"CR Market Trade Transaction Instance Record"	String
+""	5	"inout"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	6	"inout"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	7	"inout"	"Market Order Type"	"CR Market Trade Transaction Instance Record"	String
+""	8	"inout"	"Security Type"	"CR Market Trade Transaction Instance Record"	String
+""	9	"inout"	"Amount"	"CR Market Trade Transaction Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Market Trade Transaction Instance Record"	String
+""	11	"inout"	"Market Order Trade Initiation Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	12	"inout"	"Wholesale Trade Reference"	"BQ Trade Initiation Instance Record"	Object
+""	13	"inout"	"Market Trade Transaction Instance Processing Status"	"BQ Trade Initiation Instance Record"	String
+""	14	"out"	"Market Trade Initiation Task Result"	"BQ Trade Initiation Instance Record"	String
+""
+"Put"	"/market-order-execution/{sd-identifier}/trade-initiation/{crbq-identifier}/update"
+""
+"Put"	"/market-order-execution/{sd-identifier}/trade-initiation/{crbq-identifier}/exchange"
+""
+"Put"	"/market-order-execution/{sd-identifier}/trade-initiation/{crbq-identifier}/execution"
+""
+"Put"	"/market-order-execution/{sd-identifier}/trade-initiation/{crbq-identifier}/requisition"
+""
+"Get"	"/market-order-execution/{sd-identifier}/trade-initiation/{crbq-identifier}/retrieval"
+""	1	"out"	"Market Order Transaction Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	3	"out"	"Employee/Business Unit Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	4	"out"	"Customer Market Order Processing Instruction"	"CR Market Trade Transaction Instance Record"	String
+""	5	"out"	"Investment Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	6	"out"	"Current Account Fulfillment Arrangement Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	7	"out"	"Market Order Type"	"CR Market Trade Transaction Instance Record"	String
+""	8	"out"	"Security Type"	"CR Market Trade Transaction Instance Record"	String
+""	9	"out"	"Amount"	"CR Market Trade Transaction Instance Record"	String
+""	10	"out"	"Date Type"	"CR Market Trade Transaction Instance Record"	String
+""	11	"out"	"Market Order Trade Initiation Instance Reference"	"CR Market Trade Transaction Instance Record"	Object
+""	12	"out"	"Wholesale Trade Reference"	"BQ Trade Initiation Instance Record"	Object
+""	13	"out"	"Market Trade Transaction Instance Processing Status"	"BQ Trade Initiation Instance Record"	String
+""	14	"out"	"Market Trade Initiation Task Result"	"BQ Trade Initiation Instance Record"	String
+""
+"Put"	"/market-order-execution/{sd-identifier}/position/{crbq-identifier}/control"
+""
+"Put"	"/market-order-execution/{sd-identifier}/position/{crbq-identifier}/exchange"
+""
+"Put"	"/market-order-execution/{sd-identifier}/position/{crbq-identifier}/requisition"
+""	1	"inout"	"Bank Security Position Security Type"	"BQ Position Instance Record"	String
+""	2	"inout"	"Position Market Order Trade Initiation Instance Reference"	"BQ Position Instance Record"	Object
+""	3	"out"	"Bank Security Position Security P&L Record"	"BQ Position Instance Record"	String
+""	4	"inout"	"Wholesale Trade"	"BQ Position Instance Record"	String
+""	5	"out"	"Wholesale Trade Security Type"	"BQ Position Instance Record"	String
+""	6	"out"	"Wholesale Trade Volume"	"BQ Position Instance Record"	String
+""	7	"out"	"Wholesale Trade Price"	"BQ Position Instance Record"	String
+""	8	"inout"	"Wholesale Trade Clearing and Settlement Terms"	"BQ Position Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"BQ Position Instance Record"	Object
+""	10	"out"	"Correspondence Instance Reference"	"BQ Position Instance Record"	Object
+""	11	"inout"	"Wholesale Trade Status"	"BQ Position Instance Record"	String
+""
+"Get"	"/market-order-execution/{sd-identifier}/position/{crbq-identifier}/retrieval"
+""	1	"out"	"Bank Security Position Security Type"	"BQ Position Instance Record"	String
+""	2	"out"	"Position Market Order Trade Initiation Instance Reference"	"BQ Position Instance Record"	Object
+""	3	"out"	"Bank Security Position Security P&L Record"	"BQ Position Instance Record"	String
+""	4	"out"	"Wholesale Trade"	"BQ Position Instance Record"	String
+""	5	"out"	"Wholesale Trade Security Type"	"BQ Position Instance Record"	String
+""	6	"out"	"Wholesale Trade Volume"	"BQ Position Instance Record"	String
+""	7	"out"	"Wholesale Trade Price"	"BQ Position Instance Record"	String
+""	8	"out"	"Wholesale Trade Clearing and Settlement Terms"	"BQ Position Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"BQ Position Instance Record"	Object
+""	10	"out"	"Correspondence Instance Reference"	"BQ Position Instance Record"	Object
+""	11	"out"	"Wholesale Trade Status"	"BQ Position Instance Record"	String

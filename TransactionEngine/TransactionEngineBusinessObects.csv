@@ -1,0 +1,116 @@
+"Business Objects for: "	Transaction Engine
+"UML Type"	"Business Object"	"Supertype"	"Attribute"	"Description"	"Data Type"
+Class	CustomerRelationship	""	""	"A specific relationship between a specific Bank (= party acting as a supplier of banking services) and one or more other involved parties acting as (potential) consumers of banking services as agreed in one or more banking product or service offerings and/or agreements."	""
+Class	CustomerRelationship	BankingRelationship	""	"A specific Relationship (= an instance of a Relationship Class) between a specific party acting as the Bank and one or more other specific involved Parties.. A Relationship is a logical unit of collaboration between two or more involved Parties."	""
+Class	CustomerRelationship	PartyRelationship	""	"A relationship between two or more parties; the parties involved are specified in terms of the roles they play in the relationship.. . A Party Relationship is a connection between an instance of a Party and two or more instances of associated objects in the relationship."	""
+Class	CustomerCampaignInvolvement	""	""	"A specific role that is palyed by a specific party in the Customer Campaign e.g. "Employee/BusinessUnit" who is responsible for the campaign execution; "RelationshipManager" who confirms eligibility of the candidate if appropriate"	""
+Class	CustomerCampaign	""	""	"A campaign to target specific individuals (current customers) that have been matched to the specific product/service in focus. . . "	""
+Attribute	CustomerCampaign	""	CustomerCampaignType	"The type or category of customer campaign (e.g. cross-sell, up-sell, retention)"	String
+Class	CustomerCampaign	Campaign	""	"A series of organized actions which are done for one purpose.. . A systemic course of actions formulated to achieve defined objectives.. . campaign. BusinessDictionary.com. Retrieved August 23, 2018, from BusinessDictionary.com website: http://www.businessdictionary.com/definition/campaign.html"	""
+Class	CustomerCampaignProcedureWorkstep	""	""	"A workstep to excute the Customer Campaign"	""
+Attribute	CustomerCampaignProcedureWorkstep	""	CustomerCampaignProcedureWorkstepType	""	String
+Class	CustomerCampaignProcedureWorkstep	Workstep	""	"A course of action must be followed to execute the procedure. . . Worksteps as Behaviour Qualifier Type: The main worksteps to be followed in the execution of the procedure"	""
+Class	Workstep	""	""	"A course of action must be followed to execute the procedure. . . Worksteps as Behaviour Qualifier Type: The main worksteps to be followed in the execution of the procedure"	""
+Attribute	Workstep	""	WorkstepResult	""	String
+Attribute	Workstep	""	WorkstepType	"A Classification value that distinguishes between the type of workstep undertaken within Procedure"	WorkstepType
+Attribute	Workstep	""	WorkstepDescription	""	Text
+Attribute	Workstep	""	WorkstepDateTime	""	DateTime
+Attribute	Workstep	""	WorkstepStatus	""	Status
+Class	Procedure	""	""	"A step-by-step sequence of activities or course of action to perform a supporting office activity within the enterprise.. . A procedure is a series of steps, taken together, to achieve a desired result. . . Procedure as Generic Artifact: The performance of a supporting office activity within the enterprise (not product/service fulfillment specific)"	""
+Attribute	Procedure	""	ProcedureType	"A Classification value that distinguishes between the type of process undertaken within Procedure"	ProcedureType
+Attribute	Procedure	""	ProcedureDateTime	""	DateTime
+Attribute	Procedure	""	ProcedureRequest	"Request to process something (most refers to Asset Type)"	Instruction
+Attribute	Procedure	""	ProcedureSchedule	"Timetable to process something (most refers to the Asset Type)"	Schedule
+Attribute	Procedure	""	ProcedureStatus	"The status of  Procedure. "	Status
+Class	CustomerCampaignProcedure	""	""	"A procedure to handle the deployment, execution and on-going refinement of a customer campaign."	""
+Attribute	CustomerCampaignProcedure	""	CustomerCampaignProcedureDate	"Key dates associated with the campaign process (e.g. initiation date, version revision date, completion date)"	String
+Class	CustomerCampaignProcedure	Procedure	""	"A step-by-step sequence of activities or course of action to perform a supporting office activity within the enterprise.. . A procedure is a series of steps, taken together, to achieve a desired result. . . Procedure as Generic Artifact: The performance of a supporting office activity within the enterprise (not product/service fulfillment specific)"	""
+Class	Campaign	""	""	"A series of organized actions which are done for one purpose.. . A systemic course of actions formulated to achieve defined objectives.. . campaign. BusinessDictionary.com. Retrieved August 23, 2018, from BusinessDictionary.com website: http://www.businessdictionary.com/definition/campaign.html"	""
+Attribute	Campaign	""	CampaignType	"Type of campaign."	String
+Attribute	Campaign	""	CampaignVersion	"The version of campaign."	String
+Attribute	Campaign	""	CampaignDescription	""	String
+Attribute	Campaign	""	CampaignPeriod	""	String
+Class	CustomerCampaignAssessment	""	""	"A evaluation of customer campaign :. - to assess the impact of the customer campaign.. - to select the active customers to be included in the customer campaign"	""
+Class	SalesLead	""	""	"Phase in a customer relationship in which a party has been identified as a possible target for a sale. "	""
+Attribute	SalesLead	""	LeadOrigin	"The origin of the lead, such as walk-in, solicitation, referral etc."	String
+Attribute	SalesLead	""	LeadDescription	"A description of lead/opportunity generated by the customer campaign"	String
+Class	SalesLead	CustomerRelationshipLifecyclePhase	""	"A stage of a customer relationship, such as lead, prospect, and full-blown customer."	""
+Class	ItemInventory	""	""	"An inventory of tangible or intangible things."	""
+Attribute	ItemInventory	""	ItemInventoryType	""	String
+Class	BankingProduct	""	""	"A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers."	""
+Attribute	BankingProduct	""	ProductIdentification	"The identifier of product e.g. ISIN Code."	ProductIdentification
+Attribute	BankingProduct	""	ProductType	"Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.  "	BankingProductType
+Attribute	BankingProduct	""	ProductLifecycleStatus	"Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn)."	ProductLifecycleStatus
+Attribute	BankingProduct	""	ProductPriority	""	String
+Attribute	BankingProduct	""	ProductDescription	"A detailed explanation or commentary of product."	String
+Attribute	BankingProduct	""	ProductVersion	""	String
+Class	BankingProduct	FinancialInstrument	""	"A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS). https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity. . Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962). "	""
+Class	PartyRole	""	""	"A specific role of a specific Party in the specific relationship.  "	""
+Attribute	PartyRole	""	PartyRoleType	""	String
+Attribute	PartyRole	""	PartyRoleName	""	String
+Attribute	PartyRole	""	PartyRoleValidityPeriod	""	String
+Attribute	PartyRole	""	PartyInvolvementType	""	String
+Class	Item	""	""	"A tangible and intangible thing."	""
+Attribute	Item	""	ItemType	""	String
+Attribute	Item	""	ItemDescription	""	String
+Attribute	Item	""	ItemLocation	""	String
+Class	CustomerCampaignMetric	""	""	"A metric to evaluate the customer campaign  . - to assess the target and actual impact of the customer campaign. - to select/identify candidate customers"	""
+Attribute	CustomerCampaignMetric	""	CampaignMetricDefinition	"A description of the metric, defining how it is to be measured in campaign deployment"	String
+Attribute	CustomerCampaignMetric	""	CampaignMetricGoal	"A description of the target performance for the metric that can be defined for different usage scenarios as appropriate"	String
+Class	Party	""	""	"A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) . . - Entity involved in an activity. (ISO20022)"	""
+Attribute	Party	""	PartyName	"Name by which a party is known and which is usually used to identify that party. (ISO20022)"	Name
+Attribute	Party	""	PartyType	"Specifies the type of party in different business contexts. (ISO20022)"	String
+Attribute	Party	""	PartyDateTime	""	String
+Attribute	Party	""	PartyIdentification	""	PartyIdentification
+Class	FinancialTransaction	""	""	"A transaction that changes the financial position (the status of the finances) of involved party.. "	""
+Attribute	FinancialTransaction	""	FinancialTransactionType	""	String
+Attribute	FinancialTransaction	""	FinancialTransactionCurrency	""	String
+Attribute	FinancialTransaction	""	FinancialTransactionAmount	""	String
+Attribute	FinancialTransaction	""	FinancialTransactionFromAccount	""	String
+Attribute	FinancialTransaction	""	FinancialTransactionTargetAccount	""	String
+Attribute	FinancialTransaction	""	FinancialTransactionDateTime	""	String
+Class	FinancialTransaction	Transaction	""	"A planned or performed action in the context of concluding or fulfilling an agreement. . . Act to do something."	""
+Class	FinancialTransaction	Event	""	"Something that happens, has happened, can happen or is planned to happen."	""
+Class	ServiceArrangement	""	""	"An arrangement into which is promised to deliver a specific service.. . Comment: Most service arrangements are instantiations of Product Services"	""
+Class	ServiceArrangement	Arrangement	""	"An agreed commitment to perform actions that meet obligations under an agreement"	""
+Class	TransactionScheduleService	""	""	"An operational support service to orchestrate a schedule of payment transaction "	""
+Attribute	TransactionScheduleService	""	ServiceDateTime	""	String
+Attribute	TransactionScheduleService	""	ServiceFeeType	""	String
+Attribute	TransactionScheduleService	""	ServiceFunctionType	""	String
+Attribute	TransactionScheduleService	""	ServiceFunctionDescription	""	String
+Class	TransactionScheduleService	Service	""	"An exposed function (an externalized functionality) that is able to deliver a certain value/benefit (a proposed definition adapted from Archimate).. . A unit of functionality that a system exposes to its environment, while hiding internal operations, which provides a certain value (monetary or otherwise). . . . Comment:. . A Service is something that is done by an actor for the benefit of an actor in the environment.. . A system is the broad sense of the word. Means Business Service, Application Service, Technology Service, "huppeldepup" Service.  . . . Characteristics of a service:. . A system (The Service Domain). Functionality is exposed (Action Term). It provides a certain value (monetary or otherwise) . . . Exposing functionality means that the internals of realizing the service is hidden for the beneficiary of the Service..  . . . In BIAN a "Service Operation" is visualized as a "Business Service" , the "System" refers to the  "Service Domain"  . . The name of a Service Operation is composed of an "Action Term" + "Subject Matter" which is the "Control Record" or the "Behaviour Qualifier".. . . Service is the intangible equivalent of a good. (ISO20022). . . A type of economic activity that is intangible, is not stored and does not result in ownership; a service is consumed at the point of sale (FIBO & Business Dictionary)"	""
+Class	Transaction	""	""	"A planned or performed action in the context of concluding or fulfilling an agreement. . . Act to do something."	""
+Attribute	Transaction	""	TransactionIdentification	"An identifier that allows to uniquely refer to an instance of a transaction."	Identifier
+Attribute	Transaction	""	TransactionDate	"The Date that the transaction has occurred or is planned to occur.. A characteristic of transaction which refers to the LifecycleDate of transaction (e.g., initiated date, executed date, fulfillment date). "	TransactionDate
+Attribute	Transaction	""	TransactionType	"Specifies the category of Transaction like payment transaction, accounting transaction, financial Transaction, banking transaction, etc. "	TransactionType
+Attribute	Transaction	""	TransactionDescription	"A detailed explanation or commentary of transaction."	Text
+Attribute	Transaction	""	TransactionStatus	"A characteristic of transaction which refers to the LifecycleStatus of transaction (e.g., initiated, executed, confirmed, cancelled, etc.) "	TransactionLifecycleStatus
+Attribute	Transaction	""	TransactionName	"The name of transaction."	Name
+Class	Transaction	Action	""	"An event related to the behaviour performed by an actor. . . Comment:. An actor can be a party or a machine. An action Includes various types of requests, orders and financial transactions. Includes responses where appropriate.. An action is an event which means that the concept describes the result of acting."	""
+Class	TransactionScheduleArrangement	""	""	"An arrangement (ServiceArrangement) which is promised to deliver the TransactionScheduleService"	""
+Attribute	TransactionScheduleArrangement	""	ApplicableServiceFeeType	""	String
+Attribute	TransactionScheduleArrangement	""	ApplicableServiceFeeAmount	""	String
+Attribute	TransactionScheduleArrangement	""	ServiceArrangementDateTime	""	String
+Class	TransactionScheduleArrangement	ServiceArrangement	""	"An arrangement into which is promised to deliver a specific service.. . Comment: Most service arrangements are instantiations of Product Services"	""
+Class	BankingProduct	""	""	"A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers."	""
+Attribute	BankingProduct	""	ProductIdentification	"The identifier of product e.g. ISIN Code."	ProductIdentification
+Attribute	BankingProduct	""	ProductType	"Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.  "	BankingProductType
+Attribute	BankingProduct	""	ProductLifecycleStatus	"Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn)."	ProductLifecycleStatus
+Attribute	BankingProduct	""	ProductPriority	""	String
+Attribute	BankingProduct	""	ProductDescription	"A detailed explanation or commentary of product."	String
+Attribute	BankingProduct	""	ProductVersion	""	String
+Class	BankingProduct	FinancialInstrument	""	"A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS). https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity. . Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962). "	""
+Class	TransactionScheduleArrangementFulfillmentEvent	""	""	"The fulfilment of TransactionScheduleArrangement"	""
+Attribute	TransactionScheduleArrangementFulfillmentEvent	""	AppliedServiceFeeType	"The fee type applied"	String
+Attribute	TransactionScheduleArrangementFulfillmentEvent	""	AppliedServiceFeeAmount	"The derived fee amount to be charged"	String
+Attribute	TransactionScheduleArrangementFulfillmentEvent	""	AppliedServiceFeeDescription	"General description of the fee"	String
+Class	Arrangement	""	""	"An agreed commitment to perform actions that meet obligations under an agreement"	""
+Attribute	Arrangement	""	ActionType	""	ActionType
+Attribute	Arrangement	""	ArrangementStartDate	""	DateTime
+Attribute	Arrangement	""	ArrangementEndDate	""	DateTime
+Attribute	Arrangement	""	ArrangementStatus	"A characteristic of arrangement which refers to the LifecycleStatus of arrangement (e.g., requested, proposed, offered, accepted, cancelled, terminated, fulfilled, etc.)"	ArrangementLifecycleStatus
+Class	Service	""	""	"An exposed function (an externalized functionality) that is able to deliver a certain value/benefit (a proposed definition adapted from Archimate).. . A unit of functionality that a system exposes to its environment, while hiding internal operations, which provides a certain value (monetary or otherwise). . . . Comment:. . A Service is something that is done by an actor for the benefit of an actor in the environment.. . A system is the broad sense of the word. Means Business Service, Application Service, Technology Service, "huppeldepup" Service.  . . . Characteristics of a service:. . A system (The Service Domain). Functionality is exposed (Action Term). It provides a certain value (monetary or otherwise) . . . Exposing functionality means that the internals of realizing the service is hidden for the beneficiary of the Service..  . . . In BIAN a "Service Operation" is visualized as a "Business Service" , the "System" refers to the  "Service Domain"  . . The name of a Service Operation is composed of an "Action Term" + "Subject Matter" which is the "Control Record" or the "Behaviour Qualifier".. . . Service is the intangible equivalent of a good. (ISO20022). . . A type of economic activity that is intangible, is not stored and does not result in ownership; a service is consumed at the point of sale (FIBO & Business Dictionary)"	""
+Attribute	Service	""	ServiceName	""	Name
+Attribute	Service	""	ServiceDescription	""	Text
+Attribute	Service	""	ServiceType	""	ServiceType
+Class	Service	Feature	""	"a distinctive attribute or aspect of something."	""

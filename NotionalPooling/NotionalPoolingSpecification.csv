@@ -1,0 +1,13 @@
+"Service Domain specification for Notional Pooling"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Notional Pooling
+"Role Definition"	"Notional pooling clubs account balances of the accounts participating in the pooling together to calculate daily interest on this combined balance rather than on each individual balance. This is often beneficial to the customer and all larger corporates will require this. There is an equivalent called physical pooling which is a form of balance sweeping. Purely for interest calculation this is however not used. Notional Pooling is a cash management service."
+"Example of use"	"A (corporate) customer has a large number of accounts with the bank. In general, some of the accounts have a credit balance, others may have a debit balance (without being a loan account). In order to avoid the customer paying interest at a high rate on debit balances and receiving interest at a low rate on credit balances, the customer reaches an agreement with the bank to use one debit interest rate and one credit interest rate for the combined balance of all accounts.. Banks tend to conclude notional pooling agreements only with important customers as it requires additional administrative effort. For reporting purposes banks have to calculate and keep debit interest and credit interest separately. This becomes more important in the case of cross-border pooling or when separate loan agreements exist between customers in a pooling agreement.. The use of Virtual Accounts can be an alternative way to reach a similar result as with notional pooling."
+"Executive Summary"	"Notional pooling clubs account balances of the accounts participating in the pooling together to calculate daily interest on this combined balance rather than on each individual balance."
+"Key Features"	"- Record and maintain a list of accounts participating in the notional pooling agreement. - Calculate the combined balance in preparation of interest calculation"
+"Functional Pattern"	Fulfill
+"Asset Type"	NotionalPooling
+"Generic Artifact"	Facility (rename)
+"Control Record"	NotionalPoolingArrangement
+"Registration Status"	Provisional

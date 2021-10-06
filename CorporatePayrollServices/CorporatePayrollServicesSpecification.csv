@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Payroll Services"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Corporate Payroll Services
+"Role Definition"	"Banks provide net salary payment services to corporate customers. The Corporate Payroll Services Service Domain handles this. The corporate customer provides data of its employees to the bank. The bank then opens a salary account for each employee and collects any remaining data from the employee directly. For employees who do not wish to open a salary account with the bank, accounts with other banks may be recorded as beneficiary accounts."
+"Example of use"	"A Corporate customer reaches an agreement with the bank on favourable conditions for salary accounts of its employees. The customer then informs its employees on the conditions and stimulates them to sign up to taking part in the company's salary package agreement. The company records the basic data from the participating employees. It send these as a batch to the bank and the bank opens the accounts. It then approaches the employees individually to complete the opening and onboarding activities."
+"Executive Summary"	"The Corporate Payroll Services Service Domain handles the recording of salary accounts of the employees of a corporate customer and the periodical payment of net salary amounts."
+"Key Features"	"- Handle a request from a coporate customer for employee payment services. - Maintain the list of employee accounts participating in the salary package service. - Manage the payment of salaries after receiving an instruction from the corporate customer"
+"Functional Pattern"	Fulfill
+"Asset Type"	CorporatePayrollServices
+"Generic Artifact"	Facility (rename)
+"Control Record"	CorporatePayrollServicesArrangement
+"Registration Status"	Provisional

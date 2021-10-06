@@ -1,0 +1,31 @@
+"Control Record Model for: "	Sales Product
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR ProductandService Agreement Instance Record	""	""	""
+"CR"	CR ProductandService Agreement Instance Record	Product Instance Reference	"Reference to the sales product instance, i.e. the 'wrapped' product by its sold reference name"	Object
+"CR"	CR ProductandService Agreement Instance Record	Underlying Product Instance Reference	"Reference to the underlying product instance - this is the fulfillment vehicle that has amended/augmented features to 'create' the sold product"	Object
+"CR"	CR ProductandService Agreement Instance Record	Customer Reference	"Reference to the product primary party/owner"	Object
+"CR"	CR ProductandService Agreement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the product for booking purposes"	Object
+"CR"	CR ProductandService Agreement Instance Record	Tax Reference	"Reference identifier linking the investment account to appropriate tax handling"	Object
+"CR"	CR ProductandService Agreement Instance Record	Entitlement Option Definition	"The definition of an applicable entitlement option  (note the corresponding attribute for the base product instance will cross reference the sales product instance for applicable entitlements terms)"	String
+"CR"	CR ProductandService Agreement Instance Record	Entitlement Option Setting	"The setting for the entitlement option"	String
+"CR"	CR ProductandService Agreement Instance Record	Restriction Option Definition	"The definition of an applicable restriction option (note the corresponding attribute for the base product instance will cross reference the sales product instance for applicable restrictions terms)"	String
+"CR"	CR ProductandService Agreement Instance Record	Restriction Option Setting	"The setting for the restriction option"	String
+"CR"	CR ProductandService Agreement Instance Record	Linked Accounts	"Definition of the associations to the sales product - this is in addition to the base product if appropriate"	String
+"CR"	CR ProductandService Agreement Instance Record	Link Type	"The type and purpose for the link (e.g. guarantor, sweep)"	String
+"CR"	CR ProductandService Agreement Instance Record	Account Details	"Details of the linked account"	String
+"CR"	CR ProductandService Agreement Instance Record	Position Limits	"Position limits that are maintained for the sales product as an aspect of the operational terms"	String
+"CR"	CR ProductandService Agreement Instance Record	Position Limit Type	"The type of position maintained for the sales product (e.g. transaction credit/debit, netting, position)"	String
+"CR"	CR ProductandService Agreement Instance Record	Position Limit Settings	"The position definition, associated limit settings and rules"	String
+"CR"	CR ProductandService Agreement Instance Record	Position Limit Value	"The current calculated position"	String
+"CR"	CR ProductandService Agreement Instance Record	Date Type	"Key dates associated with the sales product (e.g. opening date, closing date)"	String
+"CR"	CR ProductandService Agreement Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Operational Term Instance Record	""	""	""
+"BQ"	BQ Operational Term Instance Record	Operational Term Type	"Type of term (e.g. fee waiver, rate discount, linked service)"	String
+"BQ"	BQ Operational Term Instance Record	Operational Term Description	"Description of the term, including servicing and fulfillment details"	String
+"BQ"	BQ Operational Term Instance Record	Operational Term Parameter Type	"Parameters that govern the execution of the term (e.g. rate discounted by, fee reduced by)"	String
+"BQ"	BQ Operational Term Instance Record	Operational Term Parameter Setting	"The value of the parameter for this instance"	String
+"BQ"	BQ Operational Term Instance Record	Operational Term Transaction Record	"Details of cash flows associated with fulfillment instances of the term (can be charges made to the customer or compensating transfers to the base product profit center)"	String
+"BQ"	BQ Operational Term Instance Record	Operational Term Transaction Type	"The type of transaction and the resulting cash adjustment (e.g. interest forgiveness, fee reduction)"	String
+"BQ"	BQ Operational Term Instance Record	Operational Term Transaction Description	"Description of the transaction detailing amounts and source and the creditor of transfers"	String
+"BQ"	BQ Operational Term Instance Record	Operational Term Augmented Cash Flows	"The actual cash flows associated with the fulfillment of the term"	String
+"BQ"	BQ Operational Term Instance Record	Payment Initiation Transaction Instance Reference	"Reference to the underlying funds transfer transaction"	Object

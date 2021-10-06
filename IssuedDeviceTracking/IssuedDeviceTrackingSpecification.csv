@@ -1,0 +1,13 @@
+"Service Domain specification for Issued Device Tracking"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Issued Device Tracking
+"Role Definition"	"This service domain tracks and reports on the state (e.g. suspended, flagged for possible fraud, cancelled) for all issued devices. This covers credit/debit cards and can include other identification devices such as keychain fobs and virtual authentication devices such as electronic signatures, passwords and keys. It may use an external service provider to obtain notifications and is responsible for providing notifications to external services when the bank detects problems with its own issued devices"
+"Example of use"	"A tracking service notifies the bank that one of its issued authentication devices has been detected in a fraudulent transaction. The bank suspends the device and initiates a fraud case to diagnose and resolve the situation"
+"Executive Summary"	"This service domain handles operational access to issued device tracking services. Services report on the status of devices such as cards, fobs, etc. that have been issued to customers. Service notifications include fraud warnings/alerts and device cancellation."
+"Key Features"	"Operate the interface to the issued device tracking service. Provide issued device updates/alerts for bank detected issues. Retrieve and apply issued device updates/alerts from the service"
+"Functional Pattern"	Monitor
+"Asset Type"	IssuedDevice
+"Generic Artifact"	State
+"Control Record"	IssuedDeviceState
+"Registration Status"	Registered

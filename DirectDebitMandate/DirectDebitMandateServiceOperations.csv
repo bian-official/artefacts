@@ -1,0 +1,83 @@
+"Service Operations for: "	Direct Debit Mandate
+""
+"POST"	"/direct-debit-mandate/activation"
+"PUT"	"/direct-debit-mandate/{sd-reference-id}/configuration"
+"PUT"	"/direct-debit-mandate/{sd-reference-id}/feedback"
+""
+"Post"	"/direct-debit-mandate/{sd-identifier}/direct-debit-mandate-directory-entry/{crbq-identifier}/registration"
+""	1	"in"	"Mandated Customer Reference"	"CR Direct Debit Mandate Directory Entry Instance Record"	Object
+""	2	"in"	"Mandate Description"	"CR Direct Debit Mandate Directory Entry Instance Record"	String
+""	3	"in"	"Mandate Collection Valid Period"	"CR Direct Debit Mandate Directory Entry Instance Record"	String
+""
+"Put"	"/direct-debit-mandate/{sd-identifier}/direct-debit-mandate-directory-entry/{crbq-identifier}/update"
+""	1	"inout"	"Mandated Customer Reference"	"CR Direct Debit Mandate Directory Entry Instance Record"	Object
+""	2	"inout"	"Mandate Description"	"CR Direct Debit Mandate Directory Entry Instance Record"	String
+""	3	"inout"	"Mandate Collection Valid Period"	"CR Direct Debit Mandate Directory Entry Instance Record"	String
+""
+"Put"	"/direct-debit-mandate/{sd-identifier}/direct-debit-mandate-directory-entry/{crbq-identifier}/control"
+""
+"Get"	"/direct-debit-mandate/{sd-identifier}/direct-debit-mandate-directory-entry/{crbq-identifier}/retrieval"
+""	1	"out"	"Mandated Customer Reference"	"CR Direct Debit Mandate Directory Entry Instance Record"	Object
+""	2	"out"	"Mandate Description"	"CR Direct Debit Mandate Directory Entry Instance Record"	String
+""	3	"out"	"Mandate Collection Valid Period"	"CR Direct Debit Mandate Directory Entry Instance Record"	String
+""
+"Post"	"/direct-debit-mandate/{sd-identifier}/mandate-registration/{crbq-identifier}/registration"
+""	1	"in"	"Mandated Customer Reference"	"CR Direct Debit Mandate Directory Entry Instance Record"	Object
+""	2	"in"	"Mandate Description"	"CR Direct Debit Mandate Directory Entry Instance Record"	String
+""	3	"in"	"Mandate Collection Valid Period"	"CR Direct Debit Mandate Directory Entry Instance Record"	String
+""	4	"in"	"Direct Debit Mandate Customer Reference"	"BQ Mandate Registration Instance Record"	Object
+""	5	"in"	"Direct Debit Mandate Customer Pseudonym"	"BQ Mandate Registration Instance Record"	String
+""	6	"in"	"Direct Debit Mandate Bank Reference"	"BQ Mandate Registration Instance Record"	Object
+""	7	"in"	"Direct Debit Mandate Account Reference"	"BQ Mandate Registration Instance Record"	Object
+""	8	"in"	"Direct Debit Mandate Valid Dates"	"BQ Mandate Registration Instance Record"	Date
+""	9	"in"	"Direct Debit Mandate Terms"	"BQ Mandate Registration Instance Record"	String
+""	10	"inout"	"Correspondence Instance Reference"	"BQ Mandate Registration Instance Record"	Object
+""	11	"inout"	"Correspondence Content"	"BQ Mandate Registration Instance Record"	String
+""	12	"inout"	"Document Directory Entry Instance Reference"	"BQ Mandate Registration Instance Record"	Object
+""	13	"inout"	"Document Content"	"BQ Mandate Registration Instance Record"	String
+""
+"Put"	"/direct-debit-mandate/{sd-identifier}/mandate-registration/{crbq-identifier}/update"
+""	1	"inout"	"Direct Debit Mandate Customer Reference"	"BQ Mandate Registration Instance Record"	Object
+""	2	"inout"	"Direct Debit Mandate Customer Pseudonym"	"BQ Mandate Registration Instance Record"	String
+""	3	"inout"	"Direct Debit Mandate Bank Reference"	"BQ Mandate Registration Instance Record"	Object
+""	4	"inout"	"Direct Debit Mandate Account Reference"	"BQ Mandate Registration Instance Record"	Object
+""	5	"inout"	"Direct Debit Mandate Valid Dates"	"BQ Mandate Registration Instance Record"	Date
+""	6	"inout"	"Direct Debit Mandate Terms"	"BQ Mandate Registration Instance Record"	String
+""	7	"inout"	"Correspondence Instance Reference"	"BQ Mandate Registration Instance Record"	Object
+""	8	"inout"	"Correspondence Content"	"BQ Mandate Registration Instance Record"	String
+""	9	"inout"	"Document Directory Entry Instance Reference"	"BQ Mandate Registration Instance Record"	Object
+""	10	"inout"	"Document Content"	"BQ Mandate Registration Instance Record"	String
+""
+"Put"	"/direct-debit-mandate/{sd-identifier}/mandate-registration/{crbq-identifier}/exchange"
+""
+"Put"	"/direct-debit-mandate/{sd-identifier}/mandate-registration/{crbq-identifier}/execution"
+""	1	"out"	"Direct Debit Mandate Customer Reference"	"BQ Mandate Registration Instance Record"	Object
+""	2	"in"	"Direct Debit Mandate Customer Pseudonym"	"BQ Mandate Registration Instance Record"	String
+""	3	"out"	"Direct Debit Mandate Bank Reference"	"BQ Mandate Registration Instance Record"	Object
+""	4	"out"	"Direct Debit Mandate Account Reference"	"BQ Mandate Registration Instance Record"	Object
+""	5	"out"	"Direct Debit Mandate Valid Dates"	"BQ Mandate Registration Instance Record"	Date
+""	6	"out"	"Direct Debit Mandate Terms"	"BQ Mandate Registration Instance Record"	String
+""
+"Put"	"/direct-debit-mandate/{sd-identifier}/mandate-registration/{crbq-identifier}/requisition"
+""	1	"out"	"Direct Debit Mandate Customer Reference"	"BQ Mandate Registration Instance Record"	Object
+""	2	"in"	"Direct Debit Mandate Customer Pseudonym"	"BQ Mandate Registration Instance Record"	String
+""	3	"out"	"Direct Debit Mandate Bank Reference"	"BQ Mandate Registration Instance Record"	Object
+""	4	"out"	"Direct Debit Mandate Account Reference"	"BQ Mandate Registration Instance Record"	Object
+""	5	"out"	"Direct Debit Mandate Valid Dates"	"BQ Mandate Registration Instance Record"	Date
+""	6	"out"	"Direct Debit Mandate Terms"	"BQ Mandate Registration Instance Record"	String
+""	7	"out"	"Correspondence Instance Reference"	"BQ Mandate Registration Instance Record"	Object
+""	8	"out"	"Correspondence Content"	"BQ Mandate Registration Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"BQ Mandate Registration Instance Record"	Object
+""	10	"out"	"Document Content"	"BQ Mandate Registration Instance Record"	String
+""
+"Get"	"/direct-debit-mandate/{sd-identifier}/mandate-registration/{crbq-identifier}/retrieval"
+""	1	"out"	"Direct Debit Mandate Customer Reference"	"BQ Mandate Registration Instance Record"	Object
+""	2	"out"	"Direct Debit Mandate Customer Pseudonym"	"BQ Mandate Registration Instance Record"	String
+""	3	"out"	"Direct Debit Mandate Bank Reference"	"BQ Mandate Registration Instance Record"	Object
+""	4	"out"	"Direct Debit Mandate Account Reference"	"BQ Mandate Registration Instance Record"	Object
+""	5	"out"	"Direct Debit Mandate Valid Dates"	"BQ Mandate Registration Instance Record"	Date
+""	6	"out"	"Direct Debit Mandate Terms"	"BQ Mandate Registration Instance Record"	String
+""	7	"out"	"Correspondence Instance Reference"	"BQ Mandate Registration Instance Record"	Object
+""	8	"out"	"Correspondence Content"	"BQ Mandate Registration Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"BQ Mandate Registration Instance Record"	Object
+""	10	"out"	"Document Content"	"BQ Mandate Registration Instance Record"	String

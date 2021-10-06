@@ -1,0 +1,41 @@
+"Control Record Model for: "	Reward Points Awards And Redemption
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Reward Points Transaction Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Reward Points Awards & Redemption. . Example: Execute a payment transaction."	""
+"CR"	CR Reward Points Transaction Instance Record	Reward Points Transaction Parameter Type	"A Classification value that distinguishes between business service transaction within Reward Points Transaction"	String
+"CR"	CR Reward Points Transaction Instance Record	Reward Points Transaction Selected Option	"A selected optional business service as subject matter of Reward Points Transaction"	String
+"CR"	CR Reward Points Transaction Instance Record	Reward Points Transaction Status	"The status of Reward Points Transaction"	String
+"CR"	CR Reward Points Transaction Instance Record	Reward Points Transaction Type	"A Classification value that specifies type of business action for this  Reward Points Transaction"	String
+"CR"	CR Reward Points Transaction Instance Record	Reward Points Transaction Transaction Type	"A Classification value that specifies type of transaction for this  Reward Points Transaction"	String
+"CR"	CR Reward Points Transaction Instance Record	Reward Points Transaction Transaction	"Reference to Reward Points Transaction"	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	""	""	""
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Calendar	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Counterparty	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Dividend	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Fees	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Interest	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Margining	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Notional Principal	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Options	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Rates	""	Rate
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Settlement	""	String
+"BQ"	BQ Reward Points Awards And Redemption Outcome Instance Record	Reward Points Awards And Redemption Work Product	""	String
+"BQ"	BQ Redemption Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Reward Points Awards & Redemption. . Example: Execute a payment transaction."	""
+"BQ"	BQ Redemption Instance Record	Redemption Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Redemption Instance Record	Redemption Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Redemption Instance Record	Awards Redemption	"The Reward Points Transaction specific Business Service"	Business Service
+"BQ"	BQ Redemption Instance Record	Redemption Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Redemption Instance Record	Redemption Awards Redemption Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Redemption Instance Record	Redemption Awards Redemption Service Description	"Description of the performed business service"	String
+"BQ"	BQ Redemption Instance Record	Redemption Awards Redemption Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Redemption Instance Record	Redemption Awards Redemption Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Redemption Instance Record	Redemption Awards Redemption Service Name	""	String
+"BQ"	BQ Award Instance Record	""	"Execute a well-bounded financial transaction/task, typically involving largely automated/structured fulfillment processing  within Reward Points Awards & Redemption. . Example: Execute a payment transaction."	""
+"BQ"	BQ Award Instance Record	Award Preconditions	"The required status/situation prior to the execution of the task"	String
+"BQ"	BQ Award Instance Record	Award Task Schedule	"The timing and key actions/milestones involved in completing the transaction task"	String
+"BQ"	BQ Award Instance Record	Awards	"The Reward Points Transaction specific Business Service"	Business Service
+"BQ"	BQ Award Instance Record	Award Postconditions	"The completion status and any triggered/dependent actions once the task has been completed"	String
+"BQ"	BQ Award Instance Record	Award Awards Service Type	"Reference to the specific business service type"	String
+"BQ"	BQ Award Instance Record	Award Awards Service Description	"Description of the performed business service"	String
+"BQ"	BQ Award Instance Record	Award Awards Service Inputs and Ouputs	"Mandatory and optional inputs and output information for the business service"	String
+"BQ"	BQ Award Instance Record	Award Awards Service Work Product	"Documentation, meeting schedules, notes, reasearch. calculations and any other work products produced by the business service"	String
+"BQ"	BQ Award Instance Record	Award Awards Service Name	""	String

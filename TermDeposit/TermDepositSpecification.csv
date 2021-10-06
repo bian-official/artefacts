@@ -1,0 +1,13 @@
+"Service Domain specification for Term Deposit"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Term Deposit
+"Role Definition"	"A Term Deposit is an agreement between a customer and the bank to place a fixed amount of funds for a fixed amount of time in an interest bearing account. Customers may want to place several amounts in deposit accounts in parallel and over time. In order to avoid renewed negotiations about standard conditions, a customer and the bank may agree on an overal framework agreement for these standard conditions. Under this framework agreement individual Term Deposits can be opened more efficiently. The current Service Domain handles both the individual Term Deposits and the overall framework agreement.. . NB In BIAN demand deposits are seen as Savings Accounts."
+"Example of use"	"A corporate customer has a frequent need to to put excess liquidity on an interest bearing account for a shorter (e.g. overnight) or a longer period. The customer negotiates a framework agreement with the bank and if and when needed, instructs the bank to move funds from a Corporate Current Account to a Term Deposit account."
+"Executive Summary"	"This Service Domain manages the opening and servicing of Term Deposits. The Service Domain also manages any framework agreements that the customer and the bank may have in which standard conditions of the individual Term Deposits are recorded"
+"Key Features"	"- Open framework agreement. - Open Term Deposit (under a framework agreement if applicable.. - Handle maturity of a Term Depsot. - Calculate and settle interest"
+"Functional Pattern"	Fulfill
+"Asset Type"	TermDeposit
+"Generic Artifact"	Facility (rename)
+"Control Record"	TermDepositArrangement
+"Registration Status"	Registered

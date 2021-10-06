@@ -1,0 +1,69 @@
+"Service Operations for: "	Customer Profile
+""
+"POST"	"/customer-profile/activation"
+"PUT"	"/customer-profile/{sd-reference-id}/configuration"
+"PUT"	"/customer-profile/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-profile/{sd-identifier}/party-state/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Party State Instance Record"	Object
+""
+"Put"	"/customer-profile/{sd-identifier}/party-state/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Party State Instance Record"	Object
+""
+"Put"	"/customer-profile/{sd-identifier}/party-state/{crbq-identifier}/control"
+""
+"Put"	"/customer-profile/{sd-identifier}/party-state/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Party State Instance Record"	Object
+""
+"Put"	"/customer-profile/{sd-identifier}/party-state/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Party State Instance Record"	Object
+""
+"Get"	"/customer-profile/{sd-identifier}/party-state/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party State Instance Record"	Object
+""
+"Put"	"/customer-profile/{sd-identifier}/status/{crbq-identifier}/update"
+""	1	"inout"	"Customer Relationship Status Type"	"BQ Status Instance Record"	String
+""	2	"inout"	"Customer Relationship Status Narrative"	"BQ Status Instance Record"	String
+""	3	"inout"	"Customer Relationship Status Valid From/To Date"	"BQ Status Instance Record"	Date
+""
+"Put"	"/customer-profile/{sd-identifier}/status/{crbq-identifier}/capture"
+""	1	"in"	"Customer Relationship Status Type"	"BQ Status Instance Record"	String
+""	2	"in"	"Customer Relationship Status Narrative"	"BQ Status Instance Record"	String
+""	3	"inout"	"Customer Relationship Status Valid From/To Date"	"BQ Status Instance Record"	Date
+""
+"Get"	"/customer-profile/{sd-identifier}/status/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Relationship Status Type"	"BQ Status Instance Record"	String
+""	2	"out"	"Customer Relationship Status Narrative"	"BQ Status Instance Record"	String
+""	3	"out"	"Customer Relationship Status Valid From/To Date"	"BQ Status Instance Record"	Date
+""
+"Put"	"/customer-profile/{sd-identifier}/rating/{crbq-identifier}/update"
+""	1	"inout"	"Customer Relationship Rating Type"	"BQ Rating Instance Record"	String
+""	2	"inout"	"Customer Relationship Rating Narrative"	"BQ Rating Instance Record"	String
+""	3	"inout"	"Customer Relationship Rating Valid From/To Date"	"BQ Rating Instance Record"	Date
+""
+"Put"	"/customer-profile/{sd-identifier}/rating/{crbq-identifier}/capture"
+""	1	"in"	"Customer Relationship Rating Type"	"BQ Rating Instance Record"	String
+""	2	"in"	"Customer Relationship Rating Narrative"	"BQ Rating Instance Record"	String
+""	3	"inout"	"Customer Relationship Rating Valid From/To Date"	"BQ Rating Instance Record"	Date
+""
+"Get"	"/customer-profile/{sd-identifier}/rating/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Relationship Rating Type"	"BQ Rating Instance Record"	String
+""	2	"out"	"Customer Relationship Rating Narrative"	"BQ Rating Instance Record"	String
+""	3	"out"	"Customer Relationship Rating Valid From/To Date"	"BQ Rating Instance Record"	Date
+""
+"Put"	"/customer-profile/{sd-identifier}/alert/{crbq-identifier}/update"
+""	1	"inout"	"Customer Relationship Alert Type"	"BQ Alert Instance Record"	String
+""	2	"inout"	"Customer Relationship Alert Narrative"	"BQ Alert Instance Record"	String
+""	3	"inout"	"Customer Relationship Alert Valid From/To Date"	"BQ Alert Instance Record"	Date
+""
+"Put"	"/customer-profile/{sd-identifier}/alert/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-profile/{sd-identifier}/alert/{crbq-identifier}/capture"
+""	1	"in"	"Customer Relationship Alert Type"	"BQ Alert Instance Record"	String
+""	2	"in"	"Customer Relationship Alert Narrative"	"BQ Alert Instance Record"	String
+""	3	"inout"	"Customer Relationship Alert Valid From/To Date"	"BQ Alert Instance Record"	Date
+""
+"Get"	"/customer-profile/{sd-identifier}/alert/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Relationship Alert Type"	"BQ Alert Instance Record"	String
+""	2	"out"	"Customer Relationship Alert Narrative"	"BQ Alert Instance Record"	String
+""	3	"out"	"Customer Relationship Alert Valid From/To Date"	"BQ Alert Instance Record"	Date

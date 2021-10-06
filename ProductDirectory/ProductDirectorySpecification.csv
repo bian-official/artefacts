@@ -1,0 +1,13 @@
+"Service Domain specification for Product Directory"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Product Directory
+"Role Definition"	"The product directory service domain provides a central service to reference product specifications and related details. The broad range of specification information available includes: product feature descriptions; pricing and eligibility requirements used in sales and on-boarding; servicing support and guidelines; and operational and production requirements"
+"Example of use"	"A customer accesses the product directory to obtain product feature descriptions, eligibility and pricing guidelines"
+"Executive Summary"	"This service domain maintains a comprehensive directory of the bank's products and services. It can be referenced to obtain product details used to support activities including product selection, sales and marketing, on-boarding, servicing and product fulfillment."
+"Key Features"	"Maintain product/service operational requirements. Maintain product/service sales/marketing rules and guidelines. Maintain product/service suitability and eligibility requirements. Maintain product/service servicing guidelines and diagnosis. Maintain product/service production requirements. Provide structured access to the product directory"
+"Functional Pattern"	Catalog
+"Asset Type"	Product
+"Generic Artifact"	DirectoryEntry
+"Control Record"	ProductDirectoryEntry
+"Registration Status"	Registered

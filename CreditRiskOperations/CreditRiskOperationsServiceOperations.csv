@@ -1,0 +1,5 @@
+"Service Operations for: "	Credit Risk Operations
+"Control Record Model for Credit Risk Operations is not defined"
+"POST"	"/credit-risk-operations/activation"
+"PUT"	"/credit-risk-operations/{sd-reference-id}/configuration"
+"PUT"	"/credit-risk-operations/{sd-reference-id}/feedback"

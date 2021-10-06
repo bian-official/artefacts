@@ -1,0 +1,101 @@
+"Service Operations for: "	Customer Access Entitlement
+""
+"POST"	"/customer-access-entitlement/activation"
+"PUT"	"/customer-access-entitlement/{sd-reference-id}/configuration"
+"PUT"	"/customer-access-entitlement/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-access-entitlement/{sd-identifier}/customer-access-profile-agreement/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"inout"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"inout"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"inout"	"Customer Access Agreement Signatures/Responsible Parties"	"CR Customer Access Profile Agreement Instance Record"	String
+""	5	"inout"	"Document Directory Entry Instance Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""
+"Put"	"/customer-access-entitlement/{sd-identifier}/customer-access-profile-agreement/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"inout"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"inout"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"inout"	"Customer Access Agreement Signatures/Responsible Parties"	"CR Customer Access Profile Agreement Instance Record"	String
+""	5	"inout"	"Document Directory Entry Instance Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""
+"Put"	"/customer-access-entitlement/{sd-identifier}/customer-access-profile-agreement/{crbq-identifier}/control"
+""
+"Put"	"/customer-access-entitlement/{sd-identifier}/customer-access-profile-agreement/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-access-entitlement/{sd-identifier}/customer-access-profile-agreement/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"inout"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"inout"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"inout"	"Customer Access Agreement Signatures/Responsible Parties"	"CR Customer Access Profile Agreement Instance Record"	String
+""	5	"inout"	"Document Directory Entry Instance Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""
+"Put"	"/customer-access-entitlement/{sd-identifier}/customer-access-profile-agreement/{crbq-identifier}/grant"
+""
+"Get"	"/customer-access-entitlement/{sd-identifier}/customer-access-profile-agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"out"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"out"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"out"	"Customer Access Agreement Signatures/Responsible Parties"	"CR Customer Access Profile Agreement Instance Record"	String
+""	5	"out"	"Document Directory Entry Instance Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""
+"Post"	"/customer-access-entitlement/{sd-identifier}/restrictions/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"inout"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"in"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"inout"	"Channel Access Restrictions Record"	"BQ Restrictions Instance Record"	String
+""	5	"inout"	"Channel Access Product/Service Type Usage"	"BQ Restrictions Instance Record"	String
+""	6	"inout"	"Channel Access Product/Service Channel/Device Restrictions"	"BQ Restrictions Instance Record"	String
+""	7	"inout"	"Channel Access Product/Service Location Restrictions"	"BQ Restrictions Instance Record"	String
+""	8	"inout"	"Channel Access Product/Service Frequency/Limit Restrictions"	"BQ Restrictions Instance Record"	String
+""	9	"inout"	"Channel Access Product/Service Time/Duration Restrictions"	"BQ Restrictions Instance Record"	String
+""
+"Put"	"/customer-access-entitlement/{sd-identifier}/restrictions/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"inout"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"inout"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"inout"	"Channel Access Restrictions Record"	"BQ Restrictions Instance Record"	String
+""	5	"inout"	"Channel Access Product/Service Type Usage"	"BQ Restrictions Instance Record"	String
+""	6	"inout"	"Channel Access Product/Service Channel/Device Restrictions"	"BQ Restrictions Instance Record"	String
+""	7	"inout"	"Channel Access Product/Service Location Restrictions"	"BQ Restrictions Instance Record"	String
+""	8	"inout"	"Channel Access Product/Service Frequency/Limit Restrictions"	"BQ Restrictions Instance Record"	String
+""	9	"inout"	"Channel Access Product/Service Time/Duration Restrictions"	"BQ Restrictions Instance Record"	String
+""
+"Get"	"/customer-access-entitlement/{sd-identifier}/restrictions/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"out"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"out"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"out"	"Channel Access Restrictions Record"	"BQ Restrictions Instance Record"	String
+""	5	"out"	"Channel Access Product/Service Type Usage"	"BQ Restrictions Instance Record"	String
+""	6	"out"	"Channel Access Product/Service Channel/Device Restrictions"	"BQ Restrictions Instance Record"	String
+""	7	"out"	"Channel Access Product/Service Location Restrictions"	"BQ Restrictions Instance Record"	String
+""	8	"out"	"Channel Access Product/Service Frequency/Limit Restrictions"	"BQ Restrictions Instance Record"	String
+""	9	"out"	"Channel Access Product/Service Time/Duration Restrictions"	"BQ Restrictions Instance Record"	String
+""
+"Post"	"/customer-access-entitlement/{sd-identifier}/preferences/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"inout"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"in"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"inout"	"Channel Access Preferences Record"	"BQ Preferences Instance Record"	String
+""	5	"inout"	"Channel Access Preference Reference"	"BQ Preferences Instance Record"	Object
+""	6	"inout"	"Channel Access Preference Type"	"BQ Preferences Instance Record"	String
+""	7	"inout"	"Channel Access Preference Profile"	"BQ Preferences Instance Record"	String
+""	8	"in"	"Channel Access Channel/Device Type"	"BQ Preferences Instance Record"	String
+""	9	"in"	"Channel Access Channel/Device Type Preference"	"BQ Preferences Instance Record"	String
+""	10	"in"	"Product/Service Type"	"BQ Preferences Instance Record"	String
+""
+"Put"	"/customer-access-entitlement/{sd-identifier}/preferences/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"inout"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"inout"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""
+"Get"	"/customer-access-entitlement/{sd-identifier}/preferences/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Access Profile Agreement Instance Record"	Object
+""	2	"out"	"Customer Channel Access Profile Record"	"CR Customer Access Profile Agreement Instance Record"	String
+""	3	"out"	"Customer Access Agreement Valid From/To Date"	"CR Customer Access Profile Agreement Instance Record"	Date
+""	4	"out"	"Channel Access Preferences Record"	"BQ Preferences Instance Record"	String
+""	5	"out"	"Channel Access Preference Reference"	"BQ Preferences Instance Record"	Object
+""	6	"out"	"Channel Access Preference Type"	"BQ Preferences Instance Record"	String
+""	7	"out"	"Channel Access Preference Profile"	"BQ Preferences Instance Record"	String
+""	8	"out"	"Channel Access Channel/Device Type"	"BQ Preferences Instance Record"	String
+""	9	"out"	"Channel Access Channel/Device Type Preference"	"BQ Preferences Instance Record"	String
+""	10	"out"	"Product/Service Type"	"BQ Preferences Instance Record"	String

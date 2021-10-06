@@ -1,0 +1,30 @@
+"Control Record Model for: "	Regulatory Reporting
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Consolidation Instance Record	""	""	""
+"BQ"	BQ Consolidation Instance Record	Regulatory Report Type Content Requirements	"Description of the source content required for a report type"	String
+"BQ"	BQ Consolidation Instance Record	Source Business Unit/Employee Reference	"Reference to the source of production information being assembled"	Object
+"BQ"	BQ Consolidation Instance Record	Source ProductandService Reference	"Reference to the source service or product for content if appropriate"	Object
+"BQ"	BQ Consolidation Instance Record	Source Customer Reference	"Reference to the bank customer that is subject of the source content if appropriate"	Object
+"BQ"	BQ Consolidation Instance Record	Source Transaction Records	"The possibly extensive collection of production transaction records assembled for reporting"	String
+"BQ"	BQ Authoring Instance Record	""	""	""
+"BQ"	BQ Authoring Instance Record	Regulatory Report Type Compliance Reporting Requirements	"Details the production information/measurements required for reporting - includes reporting format"	String
+"BQ"	BQ Authoring Instance Record	Reporting Period	"The time period covered by a report"	String
+"BQ"	BQ Authoring Instance Record	Reporting Business Legal Entity Reference	"Refers to the company group or subsidiary covered by the regulatory report"	Object
+"BQ"	BQ Authoring Instance Record	Reporting Business Unit Reference	"Refers to the responsible reporting business units for the report"	Object
+"BQ"	BQ Authoring Instance Record	Regulatory Report Reference	"Refers to the regulatory report"	Object
+"BQ"	BQ Authoring Instance Record	Regulatory Report	"The regulatory report in any suitable format and media"	String
+"BQ"	BQ Authoring Instance Record	Regulatory Report Document Reference	"The document reference for the record of the report"	Object
+"BQ"	BQ Enquiries Instance Record	""	""	""
+"BQ"	BQ Enquiries Instance Record	Regulatory Enquiry	"The description of the requested information for the regulatory enquiry"	String
+"BQ"	BQ Enquiries Instance Record	Enquiry Business Unit Reference	"The business unit being assessed for enquiry if appropriate"	Object
+"BQ"	BQ Enquiries Instance Record	Enquiry ProductandService Reference	"The instances of products/services being assessed if appropriate"	Object
+"BQ"	BQ Enquiries Instance Record	Enquiry Customer Reference	"Reference to the customer being assessed if appropriate"	Object
+"BQ"	BQ Enquiries Instance Record	Enquiry Transaction Records	"The possibly extensive collection of production transaction records assembled for the enquiry"	String
+"BQ"	BQ Enquiries Instance Record	Regulatory Enquiry Work Products	"Work documentation, forms and schedules produced and referenced during the enquiry"	String
+"BQ"	BQ Enquiries Instance Record	Regulatory Enquiry Result	"The record or report that is the outcome/result of the enquiry"	String
+"BQ"	BQ Enquiries Instance Record	Regulatory Enquiry Document Reference	"The document reference for all classified/archived documents from the enquiry"	Object
+"CR"	CR Regulatory Compliance Administrative Plan Instance Record	""	""	""
+"CR"	CR Regulatory Compliance Administrative Plan Instance Record	Regulatory Authority Reference	"Reference to the interested regulatory reporting authority"	Object
+"CR"	CR Regulatory Compliance Administrative Plan Instance Record	Regulatory Reporting Schedule	"The details of all regulatory reporting requirements and scheduled reporting tasks"	String
+"CR"	CR Regulatory Compliance Administrative Plan Instance Record	Regulation Reference	"Reference to the regulation for which content is being collected"	Object
+"CR"	CR Regulatory Compliance Administrative Plan Instance Record	Regulatory Report Type	"The types of report, included in the reporting schedule"	String

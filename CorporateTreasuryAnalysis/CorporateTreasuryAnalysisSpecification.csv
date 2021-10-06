@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Treasury Analysis"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Group Treasury
+"Service Domain"	Corporate Treasury Analysis
+"Role Definition"	"Track the consolidated treasury positions for the Bank (includes liquidity and capital adequacy) and initiate interbank and market trades and hedging as needed to remain within desired boundaries"
+"Example of use"	"The Bank Treasury tracks the bank's consolidated liquidity position and initiates trading activity to remain within prudential limits"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	CorporateTreasury
+"Generic Artifact"	Analysis
+"Control Record"	CorporateTreasuryAnalysis
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Enterprise Tax Administration
+"Control Record Model for Enterprise Tax Administration is not defined"
+"POST"	"/enterprise-tax-administration/activation"
+"PUT"	"/enterprise-tax-administration/{sd-reference-id}/configuration"
+"PUT"	"/enterprise-tax-administration/{sd-reference-id}/feedback"

@@ -1,0 +1,205 @@
+"Service Operations for: "	Party Authentication
+""
+"POST"	"/party-authentication/activation"
+"PUT"	"/party-authentication/{sd-reference-id}/configuration"
+"PUT"	"/party-authentication/{sd-reference-id}/feedback"
+""
+"Post"	"/party-authentication/{sd-identifier}/party-authentication-assessment/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"inout"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""
+"Put"	"/party-authentication/{sd-identifier}/party-authentication-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"inout"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"inout"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"inout"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"inout"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""
+"Put"	"/party-authentication/{sd-identifier}/party-authentication-assessment/{crbq-identifier}/exchange"
+""
+"Put"	"/party-authentication/{sd-identifier}/party-authentication-assessment/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"inout"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""
+"Put"	"/party-authentication/{sd-identifier}/party-authentication-assessment/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"inout"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""
+"Put"	"/party-authentication/{sd-identifier}/party-authentication-assessment/{crbq-identifier}/grant"
+""
+"Get"	"/party-authentication/{sd-identifier}/party-authentication-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"out"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"out"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"out"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""
+"Post"	"/party-authentication/{sd-identifier}/password/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"in"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"inout"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"in"	"Authentication Reference Data Reference"	"BQ Password Instance Record"	Object
+""	8	"in"	"Authentication Reference Data Type"	"BQ Password Instance Record"	String
+""	9	"in"	"Authentication Reference Data Value"	"BQ Password Instance Record"	Object
+""	10	"in"	"Authentication Password Reference"	"BQ Password Instance Record"	Object
+""	11	"in"	"Authentication Password Template"	"BQ Password Instance Record"	String
+""	12	"in"	"Authentication Password Stored Value"	"BQ Password Instance Record"	String
+""	13	"in"	"Authentication Password Valid From/To Date"	"BQ Password Instance Record"	Date
+""	14	"in"	"Authentication Password Presented Value"	"BQ Password Instance Record"	String
+""	15	"out"	"Authentication Password Test Result"	"BQ Password Instance Record"	String
+""
+"Get"	"/party-authentication/{sd-identifier}/password/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"out"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"out"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"out"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"out"	"Authentication Reference Data Reference"	"BQ Password Instance Record"	Object
+""	8	"out"	"Authentication Reference Data Type"	"BQ Password Instance Record"	String
+""	9	"out"	"Authentication Reference Data Value"	"BQ Password Instance Record"	Object
+""	10	"out"	"Authentication Password Reference"	"BQ Password Instance Record"	Object
+""	11	"out"	"Authentication Password Template"	"BQ Password Instance Record"	String
+""	12	"out"	"Authentication Password Stored Value"	"BQ Password Instance Record"	String
+""	13	"out"	"Authentication Password Valid From/To Date"	"BQ Password Instance Record"	Date
+""	14	"out"	"Authentication Password Presented Value"	"BQ Password Instance Record"	String
+""	15	"out"	"Authentication Password Test Result"	"BQ Password Instance Record"	String
+""
+"Post"	"/party-authentication/{sd-identifier}/question/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"in"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"inout"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"in"	"Authentication Secret Question Reference"	"BQ Question Instance Record"	Object
+""	8	"in"	"Authentication Secret Question Template"	"BQ Question Instance Record"	String
+""	9	"in"	"Authentication Secret Question Value"	"BQ Question Instance Record"	String
+""	10	"out"	"Secret Question Test Result"	"BQ Question Instance Record"	String
+""
+"Get"	"/party-authentication/{sd-identifier}/question/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"out"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"out"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"out"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"out"	"Authentication Secret Question Reference"	"BQ Question Instance Record"	Object
+""	8	"out"	"Authentication Secret Question Template"	"BQ Question Instance Record"	String
+""	9	"out"	"Authentication Secret Question Value"	"BQ Question Instance Record"	String
+""	10	"out"	"Secret Question Test Result"	"BQ Question Instance Record"	String
+""
+"Post"	"/party-authentication/{sd-identifier}/document/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"in"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"inout"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"in"	"Authentication Document Reference"	"BQ Document Instance Record"	Object
+""	8	"in"	"Authentication Document Content"	"BQ Document Instance Record"	String
+""	9	"in"	"Document Directory Entry Instance Reference"	"BQ Document Instance Record"	Object
+""	10	"out"	"Authentication Document Comparison Test Result"	"BQ Document Instance Record"	String
+""
+"Get"	"/party-authentication/{sd-identifier}/document/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"out"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"out"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"out"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"out"	"Authentication Document Reference"	"BQ Document Instance Record"	Object
+""	8	"out"	"Authentication Document Content"	"BQ Document Instance Record"	String
+""	9	"out"	"Document Directory Entry Instance Reference"	"BQ Document Instance Record"	Object
+""	10	"out"	"Authentication Document Comparison Test Result"	"BQ Document Instance Record"	String
+""
+"Post"	"/party-authentication/{sd-identifier}/device/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"in"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"inout"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"in"	"Authentication Device Reference"	"BQ Device Instance Record"	Object
+""	8	"in"	"Authentication Device Property Value"	"BQ Device Instance Record"	String
+""	9	"in"	"Issued Device Instance Reference"	"BQ Device Instance Record"	Object
+""	10	"in"	"Issued Device Property Value"	"BQ Device Instance Record"	String
+""	11	"out"	"Device Test Result"	"BQ Device Instance Record"	String
+""
+"Get"	"/party-authentication/{sd-identifier}/device/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"out"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"out"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"out"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"out"	"Authentication Device Reference"	"BQ Device Instance Record"	Object
+""	8	"out"	"Authentication Device Property Value"	"BQ Device Instance Record"	String
+""	9	"out"	"Issued Device Instance Reference"	"BQ Device Instance Record"	Object
+""	10	"out"	"Issued Device Property Value"	"BQ Device Instance Record"	String
+""	11	"out"	"Device Test Result"	"BQ Device Instance Record"	String
+""
+"Post"	"/party-authentication/{sd-identifier}/biometric/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"in"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"inout"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"in"	"Authentication Biometric Type"	"BQ Biometric Instance Record"	String
+""	8	"in"	"Authentication Biometric Record"	"BQ Biometric Instance Record"	String
+""	9	"in"	"Registered Biometric Instance Reference"	"BQ Biometric Instance Record"	Object
+""	10	"out"	"Biometric Test Result"	"BQ Biometric Instance Record"	String
+""
+"Get"	"/party-authentication/{sd-identifier}/biometric/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"out"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"out"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"out"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"out"	"Authentication Biometric Type"	"BQ Biometric Instance Record"	String
+""	8	"out"	"Authentication Biometric Record"	"BQ Biometric Instance Record"	String
+""	9	"out"	"Registered Biometric Instance Reference"	"BQ Biometric Instance Record"	Object
+""	10	"out"	"Biometric Test Result"	"BQ Biometric Instance Record"	String
+""
+"Post"	"/party-authentication/{sd-identifier}/behavior/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"in"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"in"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"inout"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"inout"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"in"	"Authentication Behavioral Type"	"BQ Behavior Instance Record"	String
+""	8	"in"	"Authentication Behavioral Record"	"BQ Behavior Instance Record"	String
+""	9	"in"	"Registered Behavioral Instance Reference"	"BQ Behavior Instance Record"	Object
+""	10	"out"	"Behavioral Test Result"	"BQ Behavior Instance Record"	String
+""
+"Get"	"/party-authentication/{sd-identifier}/behavior/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Party Authentication Assessment Instance Record"	Object
+""	3	"out"	"Party Authentication Assessment Profile"	"CR Party Authentication Assessment Instance Record"	String
+""	4	"out"	"Authentication Type"	"CR Party Authentication Assessment Instance Record"	String
+""	5	"out"	"Party Authentication Consolidation Record"	"CR Party Authentication Assessment Instance Record"	String
+""	6	"out"	"Customer Contact Authentication Level"	"CR Party Authentication Assessment Instance Record"	String
+""	7	"out"	"Authentication Behavioral Type"	"BQ Behavior Instance Record"	String
+""	8	"out"	"Authentication Behavioral Record"	"BQ Behavior Instance Record"	String
+""	9	"out"	"Registered Behavioral Instance Reference"	"BQ Behavior Instance Record"	Object
+""	10	"out"	"Behavioral Test Result"	"BQ Behavior Instance Record"	String

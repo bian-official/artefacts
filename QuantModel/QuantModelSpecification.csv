@@ -1,0 +1,13 @@
+"Service Domain specification for Quant Model"
+"Business Area"	Business Development
+"Business Domain"	Models And Analytics
+"Service Domain"	Quant Model
+"Role Definition"	"Develop and maintain a portfolio of quantitative analysis (quant) models that can be applied in different contexts across the business."
+"Example of use"	"A investment manager uses quant models to evaluate a portfolio's holdings and determine an appropriate trading strategy in response to some impactful market event"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	QuantModel
+"Generic Artifact"	Specification
+"Control Record"	QuantModelSpecification
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Access Entitlement"
+"Business Area"	Channels
+"Business Domain"	Cross Channel
+"Service Domain"	Customer Access Entitlement
+"Role Definition"	"This profile is used for servicing and fulfillment controls covering products, services and channel/device usage entitlements. It is referenced for channel access control and utilization limits that may span multiple products. For example there can be a limit on total ATM withdrawals for a customer for all active products over a 24 hour period."
+"Example of use"	"A consumer customer contacts the call center and her access profile is used to determine what products and services can be accessed through this channel"
+"Executive Summary"	"This service domain maintains the details of the allowed channel/device based access to products and services that the customer has in place.  This profile is referenced in servicing and fulfillment activity and may include customer preferences and access limits/constraints that span multiple products."
+"Key Features"	"Maintain customers' channel/device access profiles (allowed uses and limits). Maintain customers' channel/device usage preferences. Check/confirm allowed access for customer contacts"
+"Functional Pattern"	Agree Terms
+"Asset Type"	CustomerAccessProfile
+"Generic Artifact"	Agreement
+"Control Record"	CustomerAccessProfileAgreement
+"Registration Status"	Registered

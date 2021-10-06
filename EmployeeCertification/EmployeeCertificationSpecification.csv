@@ -1,0 +1,13 @@
+"Service Domain specification for Employee Certification"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Employee Certification
+"Role Definition"	"Test, confirm and certify employees for recognized and qualitative skills, qualification and experience measures (e.g. education and industry qualifications, general skills, experience based inferred skills)"
+"Example of use"	"An employees qualifications are checked and added to the employees profile"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Assess
+"Asset Type"	EmployeeCertification
+"Generic Artifact"	Assessment
+"Control Record"	EmployeeCertificationAssessment
+"Registration Status"	Registered

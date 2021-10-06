@@ -1,0 +1,79 @@
+"Service Operations for: "	Investment Portfolio Planning
+""
+"POST"	"/investment-portfolio-planning/activation"
+"PUT"	"/investment-portfolio-planning/{sd-reference-id}/configuration"
+"PUT"	"/investment-portfolio-planning/{sd-reference-id}/feedback"
+""
+"Post"	"/investment-portfolio-planning/{sd-identifier}/managed-investment-portfolio-agreement/{crbq-identifier}/evaluation"
+""	1	"in"	"Customer Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	2	"in"	"Legal Entity Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	3	"in"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	4	"inout"	"Investment Portfolio Agreement Type"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	5	"inout"	"Investment Portfolio Agreement Jurisdiction"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	6	"inout"	"Investment Portfolio Agreement Valid From/To Date"	"CR Managed Investment Portfolio Agreement Instance Record"	Date
+""	7	"inout"	"Investment Portfolio Agreement Signatories/Responsible Parties"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	9	"in"	"Customer Agreement Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	10	"in"	"Party Relationship Procedure Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""
+"Put"	"/investment-portfolio-planning/{sd-identifier}/managed-investment-portfolio-agreement/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	2	"inout"	"Legal Entity Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	3	"inout"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	4	"inout"	"Investment Portfolio Agreement Type"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	5	"inout"	"Investment Portfolio Agreement Jurisdiction"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	6	"inout"	"Investment Portfolio Agreement Valid From/To Date"	"CR Managed Investment Portfolio Agreement Instance Record"	Date
+""	7	"inout"	"Investment Portfolio Agreement Signatories/Responsible Parties"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	9	"inout"	"Customer Agreement Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	10	"inout"	"Party Relationship Procedure Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""
+"Put"	"/investment-portfolio-planning/{sd-identifier}/managed-investment-portfolio-agreement/{crbq-identifier}/control"
+""
+"Put"	"/investment-portfolio-planning/{sd-identifier}/managed-investment-portfolio-agreement/{crbq-identifier}/exchange"
+""
+"Put"	"/investment-portfolio-planning/{sd-identifier}/managed-investment-portfolio-agreement/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	2	"in"	"Legal Entity Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	3	"in"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	4	"inout"	"Investment Portfolio Agreement Type"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	5	"inout"	"Investment Portfolio Agreement Jurisdiction"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	6	"inout"	"Investment Portfolio Agreement Valid From/To Date"	"CR Managed Investment Portfolio Agreement Instance Record"	Date
+""	7	"inout"	"Investment Portfolio Agreement Signatories/Responsible Parties"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	9	"in"	"Customer Agreement Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	10	"in"	"Party Relationship Procedure Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""
+"Put"	"/investment-portfolio-planning/{sd-identifier}/managed-investment-portfolio-agreement/{crbq-identifier}/grant"
+""
+"Get"	"/investment-portfolio-planning/{sd-identifier}/managed-investment-portfolio-agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	2	"out"	"Legal Entity Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	3	"out"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	4	"out"	"Investment Portfolio Agreement Type"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	5	"out"	"Investment Portfolio Agreement Jurisdiction"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	6	"out"	"Investment Portfolio Agreement Valid From/To Date"	"CR Managed Investment Portfolio Agreement Instance Record"	Date
+""	7	"out"	"Investment Portfolio Agreement Signatories/Responsible Parties"	"CR Managed Investment Portfolio Agreement Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	9	"out"	"Customer Agreement Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""	10	"out"	"Party Relationship Procedure Instance Reference"	"CR Managed Investment Portfolio Agreement Instance Record"	Object
+""
+"Post"	"/investment-portfolio-planning/{sd-identifier}/investment-terms/{crbq-identifier}/evaluation"
+""	1	"inout"	"Investment Portfolio Agreement Term Type"	"BQ Investment Terms Instance Record"	String
+""	2	"inout"	"Investment Portfolio Agreement Term Description"	"BQ Investment Terms Instance Record"	String
+""	3	"inout"	"Investment Portfolio Agreement Term Constraints"	"BQ Investment Terms Instance Record"	String
+""
+"Put"	"/investment-portfolio-planning/{sd-identifier}/investment-terms/{crbq-identifier}/update"
+""	1	"inout"	"Investment Portfolio Agreement Term Type"	"BQ Investment Terms Instance Record"	String
+""	2	"inout"	"Investment Portfolio Agreement Term Description"	"BQ Investment Terms Instance Record"	String
+""	3	"inout"	"Investment Portfolio Agreement Term Constraints"	"BQ Investment Terms Instance Record"	String
+""
+"Put"	"/investment-portfolio-planning/{sd-identifier}/investment-terms/{crbq-identifier}/requisition"
+""	1	"inout"	"Investment Portfolio Agreement Term Type"	"BQ Investment Terms Instance Record"	String
+""	2	"inout"	"Investment Portfolio Agreement Term Description"	"BQ Investment Terms Instance Record"	String
+""	3	"inout"	"Investment Portfolio Agreement Term Constraints"	"BQ Investment Terms Instance Record"	String
+""
+"Get"	"/investment-portfolio-planning/{sd-identifier}/investment-terms/{crbq-identifier}/retrieval"
+""	1	"out"	"Investment Portfolio Agreement Term Type"	"BQ Investment Terms Instance Record"	String
+""	2	"out"	"Investment Portfolio Agreement Term Description"	"BQ Investment Terms Instance Record"	String
+""	3	"out"	"Investment Portfolio Agreement Term Constraints"	"BQ Investment Terms Instance Record"	String

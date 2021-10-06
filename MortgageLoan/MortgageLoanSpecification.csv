@@ -1,0 +1,13 @@
+"Service Domain specification for Mortgage Loan"
+"Business Area"	Products
+"Business Domain"	Loans and Deposits
+"Service Domain"	Mortgage Loan
+"Role Definition"	"The service domain handles the fulfillment of a loan product intended for the purchase of a property. Title to the property is usually administered as collateral for the mortgage loan. Note several different financial arrangements can be supported (interest only, variable rate, repayment). Furthermore the administration of the collateral is delegated to the Collateral Administration Service Domain and overseen by this Service Domain"
+"Example of use"	"Example of use:. An established bank customer applies for a mortgage to purchase a home - the offer process is completed and the mortgage facility is established and funds disbursed to complete the purchase"
+"Executive Summary"	"Fulfillment of a loan product for  the purpose of property purchase. Note different servicing patterns can be applied to interest calculations and principle and interest repayments"
+"Key Features"	"Mortgage facility maintenance - fees, interest, reporting. Payments and withdrawals, liens and sweeps. Collateral tracking and oversight"
+"Functional Pattern"	Fulfill
+"Asset Type"	MortgageLoan
+"Generic Artifact"	Facility (rename)
+"Control Record"	MortgageLoanArrangement
+"Registration Status"	Registered

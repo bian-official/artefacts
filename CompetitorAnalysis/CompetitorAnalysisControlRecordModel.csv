@@ -1,0 +1,30 @@
+"Control Record Model for: "	Competitor Analysis
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Analysis Algorithm Instance Record	""	""	""
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Type	"Defines the type of algorithm/approach employed (e.g. competitor reviews, public domain research)"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Specification	"Description of the specific algorithms used and the approach taken to develop the competitor analysis"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Referenced Market Research Record	"The externally sourced general market research sources and any internal intelligence used in the competitor analysis"	Object
+"BQ"	BQ Analysis Algorithm Instance Record	Market Research Report Type Reference	"Reference to a specific type of predefined market research report or database"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Market Research Report Type Definition	"Describes the available market research report content (e.g. customer social network usage analysis)"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Market Research Report Version/Period	"Defines the version and period covered by the research"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Market Research Report	"Is the content of the report or database in any suitable form"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Request Record	"Request record for the competitor analysis algorithm/approach execution. Note this is defined in the general competitor analysis request and interpreted internally as the specific approach/algorithm is selected as necessary"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Request	"The specific details of the request"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Request Result	"The output from executing the algorithm"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Usage Record	"The record of the use of the specific competitor analysis algorithm/approach"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Usage	"A record of the usage of the algorithm"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Impact	"A record of reported impact/accuracy of the competitor analysis algorithm/approach"	String
+"CR"	CR Competitor Analysis Instance Record	""	""	""
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Type	"The type of research view provided by the research (e.g. pricing comparison)"	String
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Specification	"The definition of the specific competitor analysis"	String
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Guidance	"Guidance on usage and interpretation of the competitor analysis (e.g. qualifying the accuracy/confidence of any findings)"	String
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Algorithm Reference	"Reference to the algorithm/approach used to generate the analysis"	Object
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Request Record	"Request record for the competitor analysis"	String
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Request	"The specific details of the request"	String
+"CR"	CR Competitor Analysis Instance Record	Employee/Business Unit Reference	"The employee/business unit requesting the analysis"	Object
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Request Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Request Result	"The output from performing the analysis"	String
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Usage Record	"Usage record of the competitor analysis maintained/developed by the function"	String
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Usage	"A record of the usage of the analysis"	String
+"CR"	CR Competitor Analysis Instance Record	Competitor Analysis Impact	"A record of reported impact/accuracy of the competitor analysis"	String

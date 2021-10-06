@@ -1,0 +1,13 @@
+"Service Domain specification for Production Release"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Production Release
+"Role Definition"	"Maintain and apply a comprehensive portfolio of functional and non-functional test evaluation criteria and test utilities for pre-release and in-flight solution quality assurance of production IT systems"
+"Example of use"	"A major product or service upgrade is tested prior to deployment"
+"Executive Summary"	"Maintain and apply production release tests for new and updated systems"
+"Key Features"	"Functional testing (fit for purpose). Production risk tests. Business risk tests. Operational risk tests"
+"Functional Pattern"	Assess
+"Asset Type"	ProductionSystem
+"Generic Artifact"	Assessment
+"Control Record"	ProductionSystemAssessment
+"Registration Status"	Registered

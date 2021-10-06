@@ -1,0 +1,41 @@
+"Control Record Model for: "	Party Lifecycle Management
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Authentication Instance Record	""	""	""
+"BQ"	BQ Authentication Instance Record	Authentication Type	"The method used to authenticate (e.g. public directory, document, 3rd party service providers)"	String
+"BQ"	BQ Authentication Instance Record	Public Directory Reference	"Reference to an external verification source (e.g. for registered address/location verification)"	Object
+"BQ"	BQ Authentication Instance Record	Specialist Agency Service Reference	"Reference to an external verification service (e.g. to perform background verification checks)"	Object
+"BQ"	BQ Authentication Instance Record	Authentication Task Record	"The record of a specific verification task"	String
+"BQ"	BQ Authentication Instance Record	Authentication Task Description	"Description of the authentication procedure"	String
+"BQ"	BQ Authentication Instance Record	Specialist Agency Service Request Result	"Result from the authentication service request"	String
+"BQ"	BQ Authentication Instance Record	Document Directory Entry Instance Reference	"Reference to documents used for authentication"	Object
+"BQ"	BQ Authentication Instance Record	Authentication Task Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Authentication Instance Record	Authentication Task Result	"The outcome of the authentication workstep"	String
+"CR"	CR Party Relationship Procedure Instance Record	""	""	""
+"CR"	CR Party Relationship Procedure Instance Record	Customer Reference	"Reference to the associated customer (can currently be a person or a company)"	Object
+"CR"	CR Party Relationship Procedure Instance Record	Party Reference	"Reference to the legal entity (typically the customer)"	Object
+"CR"	CR Party Relationship Procedure Instance Record	Party Relationship Type	"Defines the nature of the bank association with the party (e.g. customer, supplier)"	String
+"CR"	CR Party Relationship Procedure Instance Record	Party Life-cycle Maintenance Schedule	"Defines scheduled update/review tasks covering all tracked properties"	String
+"CR"	CR Party Relationship Procedure Instance Record	Party Life-cycle Maintenance Task	"Tasks performed to maintain/verify the life-cycle status"	String
+"CR"	CR Party Relationship Procedure Instance Record	Party Life-cycle Maintenance Task Type	"The type of task performed (e.g. on-boarding check, periodic refresh)"	String
+"CR"	CR Party Relationship Procedure Instance Record	Party Life-cycle Maintenance Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"CR"	CR Party Relationship Procedure Instance Record	Party Life-cycle Maintenance Task Result	"The outcome of the task  (will be used to update the Status and Status Record)"	String
+"CR"	CR Party Relationship Procedure Instance Record	Customer Precedent Profile Update Log	""	String
+"BQ"	BQ Documentation Instance Record	""	""	""
+"BQ"	BQ Documentation Instance Record	Party Life-cycle Required Documentation	"Describes documents that need to be available and evaluated"	String
+"BQ"	BQ Documentation Instance Record	Party Life-cycle Document Schedule	"Describes and records timing required and actual for obtaining and evaluating documents"	String
+"BQ"	BQ Documentation Instance Record	Document Directory Entry Instance Reference	"Reference to specific documents used in the life-cycle check"	Object
+"BQ"	BQ Qualification Instance Record	""	""	""
+"BQ"	BQ Qualification Instance Record	Qualification Type	"The type of qualification check  (e.g. PEP/watch list checks, credit worthiness, legal jeopardy)"	String
+"BQ"	BQ Qualification Instance Record	Public Directory Reference	"Reference to an external verification source (e.g. for registered address/location verification)"	Object
+"BQ"	BQ Qualification Instance Record	Specialist Agency Service Reference	"Reference to an external verification service (e.g. to perform background verification checks)"	Object
+"BQ"	BQ Qualification Instance Record	Qualification Task Record	"The record of a specific qualification task"	String
+"BQ"	BQ Qualification Instance Record	Qualification Task Description	"Description of the approach taken"	String
+"BQ"	BQ Qualification Instance Record	Specialist Agency/Regulator Service Request Result	"Result from the qualification service request"	String
+"BQ"	BQ Qualification Instance Record	Document Directory Entry Instance Reference	"Reference to documents used for authentication"	Object
+"BQ"	BQ Qualification Instance Record	Qualification Task Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Qualification Instance Record	Qualification Task Result	"The outcome of the qualification workstep"	String
+"BQ"	BQ Precedents Instance Record	""	""	""
+"BQ"	BQ Precedents Instance Record	Precedent Type	"The type of party property tracked (e.g. residential status, marital status, military, in a disaster location, etc.)"	String
+"BQ"	BQ Precedents Instance Record	Customer Precedent Reference	"Reference to the tracked value"	Object
+"BQ"	BQ Precedents Instance Record	Customer Precedent Value	"Current (and historical) value of the precedent"	String
+"BQ"	BQ Precedents Instance Record	Customer Precedent Value Date	"The date when the value was last checked/confirmed"	Date

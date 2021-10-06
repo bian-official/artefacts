@@ -1,0 +1,111 @@
+"Service Operations for: "	Product Portfolio
+""
+"POST"	"/product-portfolio/activation"
+"PUT"	"/product-portfolio/{sd-reference-id}/configuration"
+"PUT"	"/product-portfolio/{sd-reference-id}/feedback"
+""
+"Post"	"/product-portfolio/{sd-identifier}/product-portfolio-analysis/{crbq-identifier}/evaluation"
+""	1	"inout"	"Product Portfolio Make-up"	"CR Product Portfolio Analysis Instance Record"	String
+""	2	"inout"	"Product Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	3	"inout"	"Product Type Definition"	"CR Product Portfolio Analysis Instance Record"	String
+""	4	"inout"	"Product Portfolio Performance Goals"	"CR Product Portfolio Analysis Instance Record"	String
+""	5	"inout"	"Product Portfolio Analysis Schedule"	"CR Product Portfolio Analysis Instance Record"	String
+""	6	"inout"	"Product Portfolio Analysis Report"	"CR Product Portfolio Analysis Instance Record"	String
+""	7	"inout"	"Product Analysis Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	8	"out"	"Product Analysis Result"	"CR Product Portfolio Analysis Instance Record"	String
+""	9	"inout"	"Product Analysis Reporting Date"	"CR Product Portfolio Analysis Instance Record"	Date
+""	10	"out"	"Document Directory Entry Instance Reference"	"CR Product Portfolio Analysis Instance Record"	Object
+""
+"Put"	"/product-portfolio/{sd-identifier}/product-portfolio-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Product Portfolio Make-up"	"CR Product Portfolio Analysis Instance Record"	String
+""	2	"inout"	"Product Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	3	"inout"	"Product Type Definition"	"CR Product Portfolio Analysis Instance Record"	String
+""	4	"inout"	"Product Portfolio Performance Goals"	"CR Product Portfolio Analysis Instance Record"	String
+""	5	"inout"	"Product Portfolio Analysis Schedule"	"CR Product Portfolio Analysis Instance Record"	String
+""	6	"inout"	"Product Portfolio Analysis Report"	"CR Product Portfolio Analysis Instance Record"	String
+""	7	"inout"	"Product Analysis Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	8	"inout"	"Product Analysis Result"	"CR Product Portfolio Analysis Instance Record"	String
+""	9	"inout"	"Product Analysis Reporting Date"	"CR Product Portfolio Analysis Instance Record"	Date
+""	10	"inout"	"Document Directory Entry Instance Reference"	"CR Product Portfolio Analysis Instance Record"	Object
+""
+"Put"	"/product-portfolio/{sd-identifier}/product-portfolio-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Portfolio Make-up"	"CR Product Portfolio Analysis Instance Record"	String
+""	2	"inout"	"Product Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	3	"inout"	"Product Type Definition"	"CR Product Portfolio Analysis Instance Record"	String
+""	4	"inout"	"Product Portfolio Performance Goals"	"CR Product Portfolio Analysis Instance Record"	String
+""	5	"inout"	"Product Portfolio Analysis Schedule"	"CR Product Portfolio Analysis Instance Record"	String
+""	6	"inout"	"Product Portfolio Analysis Report"	"CR Product Portfolio Analysis Instance Record"	String
+""	7	"inout"	"Product Analysis Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	8	"out"	"Product Analysis Result"	"CR Product Portfolio Analysis Instance Record"	String
+""	9	"inout"	"Product Analysis Reporting Date"	"CR Product Portfolio Analysis Instance Record"	Date
+""	10	"out"	"Document Directory Entry Instance Reference"	"CR Product Portfolio Analysis Instance Record"	Object
+""
+"Get"	"/product-portfolio/{sd-identifier}/product-portfolio-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Portfolio Make-up"	"CR Product Portfolio Analysis Instance Record"	String
+""	2	"out"	"Product Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	3	"out"	"Product Type Definition"	"CR Product Portfolio Analysis Instance Record"	String
+""	4	"out"	"Product Portfolio Performance Goals"	"CR Product Portfolio Analysis Instance Record"	String
+""	5	"out"	"Product Portfolio Analysis Schedule"	"CR Product Portfolio Analysis Instance Record"	String
+""	6	"out"	"Product Portfolio Analysis Report"	"CR Product Portfolio Analysis Instance Record"	String
+""	7	"out"	"Product Analysis Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	8	"out"	"Product Analysis Result"	"CR Product Portfolio Analysis Instance Record"	String
+""	9	"out"	"Product Analysis Reporting Date"	"CR Product Portfolio Analysis Instance Record"	Date
+""	10	"out"	"Document Directory Entry Instance Reference"	"CR Product Portfolio Analysis Instance Record"	Object
+""
+"Post"	"/product-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/evaluation"
+""	1	"inout"	"Product Portfolio Analysis Schedule"	"CR Product Portfolio Analysis Instance Record"	String
+""	2	"inout"	"Product Portfolio Analysis Report"	"CR Product Portfolio Analysis Instance Record"	String
+""	3	"inout"	"Product Analysis Type"	"CR Product Portfolio Analysis Instance Record"	String
+""	4	"inout"	"Product Analysis Result"	"CR Product Portfolio Analysis Instance Record"	String
+""	5	"inout"	"Product Analysis Reporting Date"	"CR Product Portfolio Analysis Instance Record"	Date
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Product Portfolio Analysis Instance Record"	Object
+""	7	"inout"	"Product Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	8	"inout"	"Product Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	9	"inout"	"Product Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	10	"inout"	"Product Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	11	"inout"	"Product Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	12	"inout"	"Product Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	13	"inout"	"Product Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	14	"out"	"Product Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Put"	"/product-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Product Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"inout"	"Product Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"inout"	"Product Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"inout"	"Product Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"inout"	"Product Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"inout"	"Product Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"inout"	"Product Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"inout"	"Product Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Put"	"/product-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/exchange"
+""
+"Put"	"/product-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Product Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"inout"	"Product Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"inout"	"Product Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"inout"	"Product Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"inout"	"Product Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"inout"	"Product Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"inout"	"Product Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"inout"	"Product Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Put"	"/product-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"inout"	"Product Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"inout"	"Product Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"inout"	"Product Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"inout"	"Product Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"inout"	"Product Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"inout"	"Product Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"inout"	"Product Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Get"	"/product-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"out"	"Product Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"out"	"Product Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"out"	"Product Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"out"	"Product Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"out"	"Product Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"out"	"Product Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"out"	"Product Performance Request Result"	"BQ Performance Analysis Instance Record"	String

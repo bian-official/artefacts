@@ -1,0 +1,68 @@
+"Service Operations for: "	Market Data Switch Operation
+""
+"POST"	"/market-data-switch-operation/activation"
+"PUT"	"/market-data-switch-operation/{sd-reference-id}/configuration"
+"PUT"	"/market-data-switch-operation/{sd-reference-id}/feedback"
+""
+"Post"	"/market-data-switch-operation/{sd-identifier}/information-feed-switch-operating-session/{crbq-identifier}/initiation"
+""	1	"in"	"Market Information Feed Service Reference"	"CR Information Feed Switch Operating Session Instance Record"	Object
+""	2	"in"	"Market Information Feed Service Profile"	"CR Information Feed Switch Operating Session Instance Record"	String
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/information-feed-switch-operating-session/{crbq-identifier}/update"
+""	1	"inout"	"Market Information Feed Service Reference"	"CR Information Feed Switch Operating Session Instance Record"	Object
+""	2	"inout"	"Market Information Feed Service Profile"	"CR Information Feed Switch Operating Session Instance Record"	String
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/information-feed-switch-operating-session/{crbq-identifier}/control"
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/information-feed-switch-operating-session/{crbq-identifier}/execution"
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/information-feed-switch-operating-session/{crbq-identifier}/requisition"
+""
+"Get"	"/market-data-switch-operation/{sd-identifier}/information-feed-switch-operating-session/{crbq-identifier}/retrieval"
+""	1	"out"	"Market Information Feed Service Reference"	"CR Information Feed Switch Operating Session Instance Record"	Object
+""	2	"out"	"Market Information Feed Service Profile"	"CR Information Feed Switch Operating Session Instance Record"	String
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/feed-upload/{crbq-identifier}/update"
+""	1	"inout"	"Market Information Feed Service Record Reference"	"BQ Feed Upload Instance Record"	Object
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/feed-upload/{crbq-identifier}/exchange"
+""
+"Get"	"/market-data-switch-operation/{sd-identifier}/feed-upload/{crbq-identifier}/retrieval"
+""	1	"out"	"Market Information Feed Service Record Reference"	"BQ Feed Upload Instance Record"	Object
+""
+"Post"	"/market-data-switch-operation/{sd-identifier}/internal-publication/{crbq-identifier}/initiation"
+""	1	"in"	"Internal Information Feed Service Reference"	"BQ Internal Publication Instance Record"	Object
+""	2	"in"	"Internal Information Feed Service Profile"	"BQ Internal Publication Instance Record"	String
+""	3	"in"	"Internal Information Feed Service Record Reference"	"BQ Internal Publication Instance Record"	Object
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/internal-publication/{crbq-identifier}/update"
+""	1	"inout"	"Internal Information Feed Service Reference"	"BQ Internal Publication Instance Record"	Object
+""	2	"inout"	"Internal Information Feed Service Profile"	"BQ Internal Publication Instance Record"	String
+""	3	"inout"	"Internal Information Feed Service Record Reference"	"BQ Internal Publication Instance Record"	Object
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/internal-publication/{crbq-identifier}/exchange"
+""
+"Get"	"/market-data-switch-operation/{sd-identifier}/internal-publication/{crbq-identifier}/retrieval"
+""	1	"out"	"Internal Information Feed Service Reference"	"BQ Internal Publication Instance Record"	Object
+""	2	"out"	"Internal Information Feed Service Profile"	"BQ Internal Publication Instance Record"	String
+""	3	"out"	"Internal Information Feed Service Record Reference"	"BQ Internal Publication Instance Record"	Object
+""
+"Post"	"/market-data-switch-operation/{sd-identifier}/distribution/{crbq-identifier}/initiation"
+""	1	"inout"	"Market Data Switch User Access Rights Record Reference"	"BQ Distribution Instance Record"	Object
+""	2	"inout"	"Market Data Switch Service User Session Record"	"BQ Distribution Instance Record"	String
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/distribution/{crbq-identifier}/update"
+""	1	"inout"	"Market Data Switch User Access Rights Record Reference"	"BQ Distribution Instance Record"	Object
+""	2	"inout"	"Market Data Switch Service User Session Record"	"BQ Distribution Instance Record"	String
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/distribution/{crbq-identifier}/execution"
+""	1	"inout"	"Market Data Switch User Access Rights Record Reference"	"BQ Distribution Instance Record"	Object
+""	2	"inout"	"Market Data Switch Service User Session Record"	"BQ Distribution Instance Record"	String
+""
+"Put"	"/market-data-switch-operation/{sd-identifier}/distribution/{crbq-identifier}/requisition"
+""	1	"inout"	"Market Data Switch User Access Rights Record Reference"	"BQ Distribution Instance Record"	Object
+""	2	"inout"	"Market Data Switch Service User Session Record"	"BQ Distribution Instance Record"	String
+""
+"Get"	"/market-data-switch-operation/{sd-identifier}/distribution/{crbq-identifier}/retrieval"
+""	1	"out"	"Market Data Switch User Access Rights Record Reference"	"BQ Distribution Instance Record"	Object
+""	2	"out"	"Market Data Switch Service User Session Record"	"BQ Distribution Instance Record"	String

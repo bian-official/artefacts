@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Action"
+"Business Area"	Products
+"Business Domain"	Market Operations
+"Service Domain"	Corporate Action
+"Role Definition"	"Administer the correct allocation of entitlements to a customer arising from corporate events (such as dividend and interest payments)"
+"Example of use"	"A regular function is performed to determine and apply the cash entitlement allocation for a managed customer investment portfolio"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	CorporateAction
+"Generic Artifact"	Procedure
+"Control Record"	CorporateActionProcedure
+"Registration Status"	Registered

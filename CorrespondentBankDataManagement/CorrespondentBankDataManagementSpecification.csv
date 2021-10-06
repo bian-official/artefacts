@@ -1,0 +1,13 @@
+"Service Domain specification for Correspondent Bank Data Management"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Correspondent Bank Data Management
+"Role Definition"	"This service domain maintains reference details specific to a correspondent banking partner covering payment terms and preferences and security keys. It also consolidates transactional activity as might be needed to track reciprocity with the correspondent bank. Any specific arrangements and terms (e.g. SSIs) that might override market directory details are maintained here as part of the data record."
+"Example of use"	"Correspondent bank (reciprocal) activity is consolidated to support periodic correspondent banking relationship reviews"
+"Executive Summary"	"This service domain maintains correspondent bank reference details. This includes correspondent bank payment parameters in particular bank limits and capturing transaction activity to track reciprocity"
+"Key Features"	"Maintain correspondent bank reference data. Maintain specific correspondent settlement instructions. Track correspondent bank's service reciprocity"
+"Functional Pattern"	Catalog
+"Asset Type"	CorrespondentBank
+"Generic Artifact"	DirectoryEntry
+"Control Record"	CorrespondentBankDirectoryEntry
+"Registration Status"	Registered

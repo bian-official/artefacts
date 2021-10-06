@@ -1,0 +1,197 @@
+"Service Operations for: "	Leasing Item Administration
+""
+"POST"	"/leasing-item-administration/activation"
+"PUT"	"/leasing-item-administration/{sd-reference-id}/configuration"
+"PUT"	"/leasing-item-administration/{sd-reference-id}/feedback"
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/assurance/{crbq-identifier}/capture"
+""	1	"inout"	"Assurance Preconditions"	"BQ Assurance Instance Record"	String
+""	2	"inout"	"Assurance Business Unit/Employee Reference"	"BQ Assurance Instance Record"	Object
+""	3	"inout"	"Assurance Work Schedule"	"BQ Assurance Instance Record"	String
+""	4	"inout"	"Collateral Item Assurance"	"BQ Assurance Instance Record"	Business Service
+""	5	"inout"	"Assurance Postconditions"	"BQ Assurance Instance Record"	String
+""	6	"inout"	"Assurance Collateral Item Assurance Service Type"	"BQ Assurance Instance Record"	String
+""	7	"inout"	"Assurance Collateral Item Assurance Service Description"	"BQ Assurance Instance Record"	String
+""	8	"inout"	"Assurance Collateral Item Assurance Service Inputs and Ouputs"	"BQ Assurance Instance Record"	String
+""	9	"inout"	"Assurance Collateral Item Assurance Service Work Product"	"BQ Assurance Instance Record"	String
+""	10	"inout"	"Assurance Collateral Item Assurance Service Name"	"BQ Assurance Instance Record"	String
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/registration/{crbq-identifier}/capture"
+""	1	"inout"	"Registration Preconditions"	"BQ Registration Instance Record"	String
+""	2	"inout"	"Registration Business Unit/Employee Reference"	"BQ Registration Instance Record"	Object
+""	3	"inout"	"Registration Work Schedule"	"BQ Registration Instance Record"	String
+""	4	"inout"	"Collateral Registration"	"BQ Registration Instance Record"	Business Service
+""	5	"inout"	"Registration Postconditions"	"BQ Registration Instance Record"	String
+""	6	"inout"	"Registration Collateral Registration Service Type"	"BQ Registration Instance Record"	String
+""	7	"inout"	"Registration Collateral Registration Service Description"	"BQ Registration Instance Record"	String
+""	8	"inout"	"Registration Collateral Registration Service Inputs and Ouputs"	"BQ Registration Instance Record"	String
+""	9	"inout"	"Registration Collateral Registration Service Work Product"	"BQ Registration Instance Record"	String
+""	10	"inout"	"Registration Collateral Registration Service Name"	"BQ Registration Instance Record"	String
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/valuation/{crbq-identifier}/capture"
+""	1	"inout"	"Valuation Preconditions"	"BQ Valuation Instance Record"	String
+""	2	"inout"	"Valuation Business Unit/Employee Reference"	"BQ Valuation Instance Record"	Object
+""	3	"inout"	"Valuation Work Schedule"	"BQ Valuation Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Valuation Instance Record"	Business Service
+""	5	"inout"	"Valuation Postconditions"	"BQ Valuation Instance Record"	String
+""	6	"inout"	"Valuation Service Type"	"BQ Valuation Instance Record"	String
+""	7	"inout"	"Valuation Service Description"	"BQ Valuation Instance Record"	String
+""	8	"inout"	"Valuation Service Inputs and Ouputs"	"BQ Valuation Instance Record"	String
+""	9	"inout"	"Valuation Service Work Product"	"BQ Valuation Instance Record"	String
+""	10	"inout"	"Valuation Service Name"	"BQ Valuation Instance Record"	String
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/leasing-item-administrative-plan/{crbq-identifier}/capture"
+""	1	"inout"	"Leasing Item Administrative Plan Budget Type"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	2	"inout"	"Leasing Item Administrative Plan Assignment"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	3	"inout"	"Leasing Item Administrative Plan Plan"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	4	"in"	"Leasing Item Administrative Plan Reference"	"CR Leasing Item Administrative Plan Instance Record"	Object
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/leasing-item-administrative-plan/{crbq-identifier}/control"
+""	1	"inout"	"Leasing Item Administrative Plan Budget Type"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	2	"inout"	"Leasing Item Administrative Plan Assignment"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	3	"inout"	"Leasing Item Administrative Plan Plan"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	4	"in"	"Leasing Item Administrative Plan Reference"	"CR Leasing Item Administrative Plan Instance Record"	Object
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/leasing-item-administrative-plan/{crbq-identifier}/exchange"
+""	1	"inout"	"Leasing Item Administrative Plan Budget Type"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	2	"inout"	"Leasing Item Administrative Plan Assignment"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	3	"inout"	"Leasing Item Administrative Plan Plan"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	4	"in"	"Leasing Item Administrative Plan Reference"	"CR Leasing Item Administrative Plan Instance Record"	Object
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/leasing-item-administrative-plan/{crbq-identifier}/grant"
+""	1	"inout"	"Leasing Item Administrative Plan Budget Type"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	2	"inout"	"Leasing Item Administrative Plan Assignment"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	3	"inout"	"Leasing Item Administrative Plan Plan"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	4	"in"	"Leasing Item Administrative Plan Reference"	"CR Leasing Item Administrative Plan Instance Record"	Object
+""
+"Post"	"/leasing-item-administration/{sd-identifier}/assurance/{crbq-identifier}/initiation"
+""	1	"inout"	"Assurance Preconditions"	"BQ Assurance Instance Record"	String
+""	2	"inout"	"Assurance Business Unit/Employee Reference"	"BQ Assurance Instance Record"	Object
+""	3	"inout"	"Assurance Work Schedule"	"BQ Assurance Instance Record"	String
+""	4	"inout"	"Collateral Item Assurance"	"BQ Assurance Instance Record"	Business Service
+""	5	"inout"	"Assurance Postconditions"	"BQ Assurance Instance Record"	String
+""	6	"inout"	"Assurance Collateral Item Assurance Service Type"	"BQ Assurance Instance Record"	String
+""	7	"inout"	"Assurance Collateral Item Assurance Service Description"	"BQ Assurance Instance Record"	String
+""	8	"inout"	"Assurance Collateral Item Assurance Service Inputs and Ouputs"	"BQ Assurance Instance Record"	String
+""	9	"inout"	"Assurance Collateral Item Assurance Service Work Product"	"BQ Assurance Instance Record"	String
+""	10	"inout"	"Assurance Collateral Item Assurance Service Name"	"BQ Assurance Instance Record"	String
+""
+"Post"	"/leasing-item-administration/{sd-identifier}/registration/{crbq-identifier}/initiation"
+""	1	"inout"	"Registration Preconditions"	"BQ Registration Instance Record"	String
+""	2	"inout"	"Registration Business Unit/Employee Reference"	"BQ Registration Instance Record"	Object
+""	3	"inout"	"Registration Work Schedule"	"BQ Registration Instance Record"	String
+""	4	"inout"	"Collateral Registration"	"BQ Registration Instance Record"	Business Service
+""	5	"inout"	"Registration Postconditions"	"BQ Registration Instance Record"	String
+""	6	"inout"	"Registration Collateral Registration Service Type"	"BQ Registration Instance Record"	String
+""	7	"inout"	"Registration Collateral Registration Service Description"	"BQ Registration Instance Record"	String
+""	8	"inout"	"Registration Collateral Registration Service Inputs and Ouputs"	"BQ Registration Instance Record"	String
+""	9	"inout"	"Registration Collateral Registration Service Work Product"	"BQ Registration Instance Record"	String
+""	10	"inout"	"Registration Collateral Registration Service Name"	"BQ Registration Instance Record"	String
+""
+"Post"	"/leasing-item-administration/{sd-identifier}/valuation/{crbq-identifier}/initiation"
+""	1	"inout"	"Valuation Preconditions"	"BQ Valuation Instance Record"	String
+""	2	"inout"	"Valuation Business Unit/Employee Reference"	"BQ Valuation Instance Record"	Object
+""	3	"inout"	"Valuation Work Schedule"	"BQ Valuation Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Valuation Instance Record"	Business Service
+""	5	"inout"	"Valuation Postconditions"	"BQ Valuation Instance Record"	String
+""	6	"inout"	"Valuation Service Type"	"BQ Valuation Instance Record"	String
+""	7	"inout"	"Valuation Service Description"	"BQ Valuation Instance Record"	String
+""	8	"inout"	"Valuation Service Inputs and Ouputs"	"BQ Valuation Instance Record"	String
+""	9	"inout"	"Valuation Service Work Product"	"BQ Valuation Instance Record"	String
+""	10	"inout"	"Valuation Service Name"	"BQ Valuation Instance Record"	String
+""
+"Post"	"/leasing-item-administration/{sd-identifier}/leasing-item-administrative-plan/{crbq-identifier}/initiation"
+""	1	"inout"	"Leasing Item Administrative Plan Budget Type"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	2	"inout"	"Leasing Item Administrative Plan Assignment"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	3	"inout"	"Leasing Item Administrative Plan Plan"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	4	"in"	"Leasing Item Administrative Plan Reference"	"CR Leasing Item Administrative Plan Instance Record"	Object
+""
+"Get"	"/leasing-item-administration/{sd-identifier}/assurance/{crbq-identifier}/retrieval"
+""	1	"out"	"Assurance Preconditions"	"BQ Assurance Instance Record"	String
+""	2	"out"	"Assurance Business Unit/Employee Reference"	"BQ Assurance Instance Record"	Object
+""	3	"out"	"Assurance Work Schedule"	"BQ Assurance Instance Record"	String
+""	4	"out"	"Collateral Item Assurance"	"BQ Assurance Instance Record"	Business Service
+""	5	"out"	"Assurance Postconditions"	"BQ Assurance Instance Record"	String
+""	6	"out"	"Assurance Collateral Item Assurance Service Type"	"BQ Assurance Instance Record"	String
+""	7	"out"	"Assurance Collateral Item Assurance Service Description"	"BQ Assurance Instance Record"	String
+""	8	"out"	"Assurance Collateral Item Assurance Service Inputs and Ouputs"	"BQ Assurance Instance Record"	String
+""	9	"out"	"Assurance Collateral Item Assurance Service Work Product"	"BQ Assurance Instance Record"	String
+""	10	"out"	"Assurance Collateral Item Assurance Service Name"	"BQ Assurance Instance Record"	String
+""
+"Get"	"/leasing-item-administration/{sd-identifier}/registration/{crbq-identifier}/retrieval"
+""	1	"out"	"Registration Preconditions"	"BQ Registration Instance Record"	String
+""	2	"out"	"Registration Business Unit/Employee Reference"	"BQ Registration Instance Record"	Object
+""	3	"out"	"Registration Work Schedule"	"BQ Registration Instance Record"	String
+""	4	"out"	"Collateral Registration"	"BQ Registration Instance Record"	Business Service
+""	5	"out"	"Registration Postconditions"	"BQ Registration Instance Record"	String
+""	6	"out"	"Registration Collateral Registration Service Type"	"BQ Registration Instance Record"	String
+""	7	"out"	"Registration Collateral Registration Service Description"	"BQ Registration Instance Record"	String
+""	8	"out"	"Registration Collateral Registration Service Inputs and Ouputs"	"BQ Registration Instance Record"	String
+""	9	"out"	"Registration Collateral Registration Service Work Product"	"BQ Registration Instance Record"	String
+""	10	"out"	"Registration Collateral Registration Service Name"	"BQ Registration Instance Record"	String
+""
+"Get"	"/leasing-item-administration/{sd-identifier}/valuation/{crbq-identifier}/retrieval"
+""	1	"out"	"Valuation Preconditions"	"BQ Valuation Instance Record"	String
+""	2	"out"	"Valuation Business Unit/Employee Reference"	"BQ Valuation Instance Record"	Object
+""	3	"out"	"Valuation Work Schedule"	"BQ Valuation Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Valuation Instance Record"	Business Service
+""	5	"out"	"Valuation Postconditions"	"BQ Valuation Instance Record"	String
+""	6	"out"	"Valuation Service Type"	"BQ Valuation Instance Record"	String
+""	7	"out"	"Valuation Service Description"	"BQ Valuation Instance Record"	String
+""	8	"out"	"Valuation Service Inputs and Ouputs"	"BQ Valuation Instance Record"	String
+""	9	"out"	"Valuation Service Work Product"	"BQ Valuation Instance Record"	String
+""	10	"out"	"Valuation Service Name"	"BQ Valuation Instance Record"	String
+""
+"Get"	"/leasing-item-administration/{sd-identifier}/leasing-item-administrative-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Leasing Item Administrative Plan Budget Type"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	2	"out"	"Leasing Item Administrative Plan Assignment"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	3	"out"	"Leasing Item Administrative Plan Plan"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	4	"out"	"Leasing Item Administrative Plan Reference"	"CR Leasing Item Administrative Plan Instance Record"	Object
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/leasing-item-administrative-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Leasing Item Administrative Plan Budget Type"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	2	"inout"	"Leasing Item Administrative Plan Assignment"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	3	"inout"	"Leasing Item Administrative Plan Plan"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	4	"in"	"Leasing Item Administrative Plan Reference"	"CR Leasing Item Administrative Plan Instance Record"	Object
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/assurance/{crbq-identifier}/update"
+""	1	"inout"	"Assurance Preconditions"	"BQ Assurance Instance Record"	String
+""	2	"inout"	"Assurance Business Unit/Employee Reference"	"BQ Assurance Instance Record"	Object
+""	3	"inout"	"Assurance Work Schedule"	"BQ Assurance Instance Record"	String
+""	4	"inout"	"Collateral Item Assurance"	"BQ Assurance Instance Record"	Business Service
+""	5	"inout"	"Assurance Postconditions"	"BQ Assurance Instance Record"	String
+""	6	"inout"	"Assurance Collateral Item Assurance Service Type"	"BQ Assurance Instance Record"	String
+""	7	"inout"	"Assurance Collateral Item Assurance Service Description"	"BQ Assurance Instance Record"	String
+""	8	"inout"	"Assurance Collateral Item Assurance Service Inputs and Ouputs"	"BQ Assurance Instance Record"	String
+""	9	"inout"	"Assurance Collateral Item Assurance Service Work Product"	"BQ Assurance Instance Record"	String
+""	10	"inout"	"Assurance Collateral Item Assurance Service Name"	"BQ Assurance Instance Record"	String
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/registration/{crbq-identifier}/update"
+""	1	"inout"	"Registration Preconditions"	"BQ Registration Instance Record"	String
+""	2	"inout"	"Registration Business Unit/Employee Reference"	"BQ Registration Instance Record"	Object
+""	3	"inout"	"Registration Work Schedule"	"BQ Registration Instance Record"	String
+""	4	"inout"	"Collateral Registration"	"BQ Registration Instance Record"	Business Service
+""	5	"inout"	"Registration Postconditions"	"BQ Registration Instance Record"	String
+""	6	"inout"	"Registration Collateral Registration Service Type"	"BQ Registration Instance Record"	String
+""	7	"inout"	"Registration Collateral Registration Service Description"	"BQ Registration Instance Record"	String
+""	8	"inout"	"Registration Collateral Registration Service Inputs and Ouputs"	"BQ Registration Instance Record"	String
+""	9	"inout"	"Registration Collateral Registration Service Work Product"	"BQ Registration Instance Record"	String
+""	10	"inout"	"Registration Collateral Registration Service Name"	"BQ Registration Instance Record"	String
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/valuation/{crbq-identifier}/update"
+""	1	"inout"	"Valuation Preconditions"	"BQ Valuation Instance Record"	String
+""	2	"inout"	"Valuation Business Unit/Employee Reference"	"BQ Valuation Instance Record"	Object
+""	3	"inout"	"Valuation Work Schedule"	"BQ Valuation Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Valuation Instance Record"	Business Service
+""	5	"inout"	"Valuation Postconditions"	"BQ Valuation Instance Record"	String
+""	6	"inout"	"Valuation Service Type"	"BQ Valuation Instance Record"	String
+""	7	"inout"	"Valuation Service Description"	"BQ Valuation Instance Record"	String
+""	8	"inout"	"Valuation Service Inputs and Ouputs"	"BQ Valuation Instance Record"	String
+""	9	"inout"	"Valuation Service Work Product"	"BQ Valuation Instance Record"	String
+""	10	"inout"	"Valuation Service Name"	"BQ Valuation Instance Record"	String
+""
+"Put"	"/leasing-item-administration/{sd-identifier}/leasing-item-administrative-plan/{crbq-identifier}/update"
+""	1	"inout"	"Leasing Item Administrative Plan Budget Type"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	2	"inout"	"Leasing Item Administrative Plan Assignment"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	3	"inout"	"Leasing Item Administrative Plan Plan"	"CR Leasing Item Administrative Plan Instance Record"	String
+""	4	"in"	"Leasing Item Administrative Plan Reference"	"CR Leasing Item Administrative Plan Instance Record"	Object

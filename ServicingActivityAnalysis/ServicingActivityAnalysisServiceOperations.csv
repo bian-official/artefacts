@@ -1,0 +1,81 @@
+"Service Operations for: "	Servicing Activity Analysis
+""
+"POST"	"/servicing-activity-analysis/activation"
+"PUT"	"/servicing-activity-analysis/{sd-reference-id}/configuration"
+"PUT"	"/servicing-activity-analysis/{sd-reference-id}/feedback"
+""
+"Post"	"/servicing-activity-analysis/{sd-identifier}/servicing-root-cause-analysis/{crbq-identifier}/initiation"
+""	1	"inout"	"Servicing Activity Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Servicing Activity Analysis Period"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Servicing Activity Analysis Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	4	"out"	"Servicing Activity Analysis Result"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	5	"out"	"Servicing Activity Analysis Determination"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	6	"out"	"Servicing Activity Analysis Recommendation"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	7	"inout"	"Servicing Activity History Report"	"CR Servicing Root Cause Analysis Instance Record"	String
+""
+"Put"	"/servicing-activity-analysis/{sd-identifier}/servicing-root-cause-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Servicing Activity Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Servicing Activity Analysis Period"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Servicing Activity Analysis Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	4	"inout"	"Servicing Activity Analysis Result"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	5	"inout"	"Servicing Activity Analysis Determination"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	6	"inout"	"Servicing Activity Analysis Recommendation"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	7	"inout"	"Servicing Activity History Report"	"CR Servicing Root Cause Analysis Instance Record"	String
+""
+"Put"	"/servicing-activity-analysis/{sd-identifier}/servicing-root-cause-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Servicing Activity Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Servicing Activity Analysis Period"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Servicing Activity Analysis Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	4	"out"	"Servicing Activity Analysis Result"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	5	"out"	"Servicing Activity Analysis Determination"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	6	"in"	"Servicing Activity Analysis Recommendation"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	7	"inout"	"Servicing Activity History Report"	"CR Servicing Root Cause Analysis Instance Record"	String
+""
+"Put"	"/servicing-activity-analysis/{sd-identifier}/servicing-root-cause-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Servicing Activity Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Servicing Activity Analysis Period"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Servicing Activity Analysis Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	4	"out"	"Servicing Activity Analysis Result"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	5	"out"	"Servicing Activity Analysis Determination"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	6	"in"	"Servicing Activity Analysis Recommendation"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	7	"inout"	"Servicing Activity History Report"	"CR Servicing Root Cause Analysis Instance Record"	String
+""
+"Get"	"/servicing-activity-analysis/{sd-identifier}/servicing-root-cause-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Servicing Activity Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	2	"out"	"Servicing Activity Analysis Period"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	3	"out"	"Servicing Activity Analysis Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	4	"out"	"Servicing Activity Analysis Result"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	5	"out"	"Servicing Activity Analysis Determination"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	6	"out"	"Servicing Activity Analysis Recommendation"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	7	"out"	"Servicing Activity History Report"	"CR Servicing Root Cause Analysis Instance Record"	String
+""
+"Post"	"/servicing-activity-analysis/{sd-identifier}/root-cause-algorithm/{crbq-identifier}/initiation"
+""	1	"inout"	"Servicing Activity Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	2	"inout"	"Servicing Activity Analysis Period"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	3	"inout"	"Servicing Activity Analysis Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	4	"inout"	"Servicing Activity Analysis Result"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	5	"inout"	"Servicing Activity History Report"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	6	"inout"	"Servicing Activity Root Cause Algorithm Specification"	"BQ Root Cause Algorithm Instance Record"	String
+""	7	"inout"	"Servicing Activity Root Cause Analysis Work Task Type"	"BQ Root Cause Algorithm Instance Record"	String
+""	8	"out"	"Servicing Activity Root Cause Analysis Work Task Work Products"	"BQ Root Cause Algorithm Instance Record"	String
+""	9	"out"	"Servicing Activity Root Cause Analysis Work Task Result"	"BQ Root Cause Algorithm Instance Record"	String
+""	10	"inout"	"Servicing Activity Root Cause Analysis Work Task Date-Time"	"BQ Root Cause Algorithm Instance Record"	Date
+""
+"Put"	"/servicing-activity-analysis/{sd-identifier}/root-cause-algorithm/{crbq-identifier}/requisition"
+""	1	"inout"	"Servicing Activity Root Cause Algorithm Specification"	"BQ Root Cause Algorithm Instance Record"	String
+""	2	"inout"	"Servicing Activity Root Cause Analysis Work Task Type"	"BQ Root Cause Algorithm Instance Record"	String
+""	3	"inout"	"Servicing Activity Root Cause Analysis Work Task Work Products"	"BQ Root Cause Algorithm Instance Record"	String
+""	4	"inout"	"Servicing Activity Root Cause Analysis Work Task Result"	"BQ Root Cause Algorithm Instance Record"	String
+""	5	"inout"	"Servicing Activity Root Cause Analysis Work Task Date-Time"	"BQ Root Cause Algorithm Instance Record"	Date
+""
+"Get"	"/servicing-activity-analysis/{sd-identifier}/root-cause-algorithm/{crbq-identifier}/retrieval"
+""	1	"out"	"Servicing Activity Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	2	"out"	"Servicing Activity Analysis Period"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	3	"out"	"Servicing Activity Analysis Type"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	4	"out"	"Servicing Activity Analysis Result"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	5	"out"	"Servicing Activity History Report"	"CR Servicing Root Cause Analysis Instance Record"	String
+""	6	"out"	"Servicing Activity Root Cause Algorithm Specification"	"BQ Root Cause Algorithm Instance Record"	String
+""	7	"out"	"Servicing Activity Root Cause Analysis Work Task Type"	"BQ Root Cause Algorithm Instance Record"	String
+""	8	"out"	"Servicing Activity Root Cause Analysis Work Task Work Products"	"BQ Root Cause Algorithm Instance Record"	String
+""	9	"out"	"Servicing Activity Root Cause Analysis Work Task Result"	"BQ Root Cause Algorithm Instance Record"	String
+""	10	"out"	"Servicing Activity Root Cause Analysis Work Task Date-Time"	"BQ Root Cause Algorithm Instance Record"	Date

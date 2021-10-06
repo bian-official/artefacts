@@ -1,0 +1,382 @@
+"Service Operations for: "	Customer Offer
+""
+"POST"	"/customer-offer/activation"
+"PUT"	"/customer-offer/{sd-reference-id}/configuration"
+"PUT"	"/customer-offer/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-offer/{sd-identifier}/customer-offer-procedure/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"in"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"in"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"in"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Product Option"	"BQ Facility Application Instance Record"	String
+""	11	"out"	"Product Option Description"	"BQ Facility Application Instance Record"	String
+""	12	"in"	"Product Option Selection"	"BQ Facility Application Instance Record"	String
+""	13	"out"	"Product Pricing"	"BQ Facility Application Instance Record"	String
+""	14	"out"	"Negotiation Guidelines/Rules"	"BQ Facility Application Instance Record"	String
+""	15	"out"	"Disclosure Type"	"BQ Disclosures Instance Record"	String
+""	16	"out"	"Disclosure Text/Description"	"BQ Disclosures Instance Record"	String
+""	17	"in"	"Customer Credit Rating"	"BQ Credit Instance Record"	String
+""	18	"in"	"Customer Income Statement"	"BQ Underwriting Instance Record"	String
+""	19	"in"	"Customer Debt Statement"	"BQ Underwriting Instance Record"	String
+""	20	"in"	"Customer Asset Statement"	"BQ Underwriting Instance Record"	String
+""	21	"in"	"Regulatory Compliance Check Type"	"BQ Compliance Instance Record"	String
+""	22	"in"	"Regulatory Compliance Check Requirement"	"BQ Compliance Instance Record"	String
+""	23	"in"	"Guideline Compliance Check Type"	"BQ Audit Instance Record"	String
+""	24	"in"	"Guideline Compliance Check Requirement"	"BQ Audit Instance Record"	String
+""	25	"in"	"Asset/Liability Type"	"BQ Booking Instance Record"	String
+""	26	"in"	"Amount"	"BQ Booking Instance Record"	String
+""	27	"in"	"Customer Offer Required Documents"	"BQ Correspondence and Documents Instance Record"	String
+""	28	"in"	"Customer Agreement Instance Reference"	"BQ Agreement Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/customer-offer-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"inout"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"inout"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/customer-offer-procedure/{crbq-identifier}/control"
+""
+"Put"	"/customer-offer/{sd-identifier}/customer-offer-procedure/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-offer/{sd-identifier}/customer-offer-procedure/{crbq-identifier}/execution"
+""	1	"in"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"in"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"in"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"in"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/customer-offer-procedure/{crbq-identifier}/requisition"
+""	1	"in"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"in"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"in"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"in"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"in"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""
+"Get"	"/customer-offer/{sd-identifier}/customer-offer-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/facility-application/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Product Option"	"BQ Facility Application Instance Record"	String
+""	8	"inout"	"Product Option Description"	"BQ Facility Application Instance Record"	String
+""	9	"inout"	"Product Option Selection"	"BQ Facility Application Instance Record"	String
+""	10	"inout"	"Product Pricing"	"BQ Facility Application Instance Record"	String
+""	11	"inout"	"Negotiation Guidelines/Rules"	"BQ Facility Application Instance Record"	String
+""	12	"inout"	"Agreed Pricing"	"BQ Facility Application Instance Record"	String
+""	13	"inout"	"Pricing Adjustments"	"BQ Facility Application Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/facility-application/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-offer/{sd-identifier}/facility-application/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Product Option"	"BQ Facility Application Instance Record"	String
+""	11	"out"	"Product Option Description"	"BQ Facility Application Instance Record"	String
+""	12	"out"	"Product Option Selection"	"BQ Facility Application Instance Record"	String
+""	13	"out"	"Product Pricing"	"BQ Facility Application Instance Record"	String
+""	14	"out"	"Negotiation Guidelines/Rules"	"BQ Facility Application Instance Record"	String
+""	15	"out"	"Agreed Pricing"	"BQ Facility Application Instance Record"	String
+""	16	"out"	"Pricing Adjustments"	"BQ Facility Application Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/disclosures/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Disclosure Type"	"BQ Disclosures Instance Record"	String
+""	8	"inout"	"Disclosure Text/Description"	"BQ Disclosures Instance Record"	String
+""	9	"inout"	"Customer Acceptance Indicator"	"BQ Disclosures Instance Record"	Boolean
+""	10	"inout"	"Document Reference (for customer signature/acceptance record)"	"BQ Disclosures Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/disclosures/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-offer/{sd-identifier}/disclosures/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Disclosure Type"	"BQ Disclosures Instance Record"	String
+""	11	"out"	"Disclosure Text/Description"	"BQ Disclosures Instance Record"	String
+""	12	"out"	"Customer Acceptance Indicator"	"BQ Disclosures Instance Record"	Boolean
+""	13	"out"	"Document Reference (for customer signature/acceptance record)"	"BQ Disclosures Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/credit/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Customer Credit Rating"	"BQ Credit Instance Record"	String
+""	8	"inout"	"Credit Authorization Decision Reference"	"BQ Credit Instance Record"	Object
+""
+"Get"	"/customer-offer/{sd-identifier}/credit/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Customer Credit Rating"	"BQ Credit Instance Record"	String
+""	11	"out"	"Credit Authorization Decision Reference"	"BQ Credit Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/underwriting/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Customer Income Statement"	"BQ Underwriting Instance Record"	String
+""	8	"inout"	"Customer Debt Statement"	"BQ Underwriting Instance Record"	String
+""	9	"inout"	"Customer Asset Statement"	"BQ Underwriting Instance Record"	String
+""	10	"inout"	"Underwriting Assessment Reference"	"BQ Underwriting Instance Record"	Object
+""
+"Get"	"/customer-offer/{sd-identifier}/underwriting/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Customer Income Statement"	"BQ Underwriting Instance Record"	String
+""	11	"out"	"Customer Debt Statement"	"BQ Underwriting Instance Record"	String
+""	12	"out"	"Customer Asset Statement"	"BQ Underwriting Instance Record"	String
+""	13	"out"	"Underwriting Assessment Reference"	"BQ Underwriting Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/compliance/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Regulatory Compliance Check Type"	"BQ Compliance Instance Record"	String
+""	8	"inout"	"Regulatory Compliance Check Requirement"	"BQ Compliance Instance Record"	String
+""	9	"inout"	"Regulatory Compliance Check Submission"	"BQ Compliance Instance Record"	String
+""	10	"inout"	"Regulatory Compliance Adjustment Requirement"	"BQ Compliance Instance Record"	String
+""	11	"inout"	"Regulatory Compliance Check Assessment"	"BQ Compliance Instance Record"	String
+""
+"Get"	"/customer-offer/{sd-identifier}/compliance/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Regulatory Compliance Check Type"	"BQ Compliance Instance Record"	String
+""	11	"out"	"Regulatory Compliance Check Requirement"	"BQ Compliance Instance Record"	String
+""	12	"out"	"Regulatory Compliance Check Submission"	"BQ Compliance Instance Record"	String
+""	13	"out"	"Regulatory Compliance Adjustment Requirement"	"BQ Compliance Instance Record"	String
+""	14	"out"	"Regulatory Compliance Check Assessment"	"BQ Compliance Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/audit/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Guideline Compliance Check Type"	"BQ Audit Instance Record"	String
+""	8	"inout"	"Guideline Compliance Check Requirement"	"BQ Audit Instance Record"	String
+""	9	"inout"	"Guideline Compliance Check Submission"	"BQ Audit Instance Record"	String
+""	10	"inout"	"Guideline Compliance Adjustment Requirement"	"BQ Audit Instance Record"	String
+""	11	"inout"	"Guideline Compliance Check Assessment"	"BQ Audit Instance Record"	String
+""
+"Get"	"/customer-offer/{sd-identifier}/audit/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Guideline Compliance Check Type"	"BQ Audit Instance Record"	String
+""	11	"out"	"Guideline Compliance Check Requirement"	"BQ Audit Instance Record"	String
+""	12	"out"	"Guideline Compliance Check Submission"	"BQ Audit Instance Record"	String
+""	13	"out"	"Guideline Compliance Adjustment Requirement"	"BQ Audit Instance Record"	String
+""	14	"out"	"Guideline Compliance Check Assessment"	"BQ Audit Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/collateral/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Collateral Requirement"	"BQ Collateral Instance Record"	String
+""	8	"inout"	"Collateral Earmark Reference"	"BQ Collateral Instance Record"	Object
+""	9	"inout"	"Collateral Asset Reference"	"BQ Collateral Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/collateral/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-offer/{sd-identifier}/collateral/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Collateral Requirement"	"BQ Collateral Instance Record"	String
+""	11	"out"	"Collateral Earmark Reference"	"BQ Collateral Instance Record"	Object
+""	12	"out"	"Collateral Asset Reference"	"BQ Collateral Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/booking/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Asset/Liability Type"	"BQ Booking Instance Record"	String
+""	8	"inout"	"Amount"	"BQ Booking Instance Record"	String
+""
+"Get"	"/customer-offer/{sd-identifier}/booking/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Asset/Liability Type"	"BQ Booking Instance Record"	String
+""	11	"out"	"Amount"	"BQ Booking Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/correspondence-and-documents/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Customer Offer Required Documents"	"BQ Correspondence and Documents Instance Record"	String
+""	8	"inout"	"Correspondence Instance Reference"	"BQ Correspondence and Documents Instance Record"	Object
+""	9	"inout"	"Correspondence Content"	"BQ Correspondence and Documents Instance Record"	String
+""	10	"inout"	"Document Directory Entry Instance Reference"	"BQ Correspondence and Documents Instance Record"	Object
+""	11	"inout"	"Document Content"	"BQ Correspondence and Documents Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/correspondence-and-documents/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-offer/{sd-identifier}/correspondence-and-documents/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Customer Offer Required Documents"	"BQ Correspondence and Documents Instance Record"	String
+""	11	"out"	"Correspondence Instance Reference"	"BQ Correspondence and Documents Instance Record"	Object
+""	12	"out"	"Correspondence Content"	"BQ Correspondence and Documents Instance Record"	String
+""	13	"out"	"Document Directory Entry Instance Reference"	"BQ Correspondence and Documents Instance Record"	Object
+""	14	"out"	"Document Content"	"BQ Correspondence and Documents Instance Record"	String
+""
+"Put"	"/customer-offer/{sd-identifier}/agreement/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Customer Agreement Instance Reference"	"BQ Agreement Instance Record"	Object
+""	8	"inout"	"Sales Product Agreement Instance Reference"	"BQ Agreement Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/agreement/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-offer/{sd-identifier}/agreement/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Customer Agreement Instance Reference"	"BQ Agreement Instance Record"	Object
+""	11	"out"	"Sales Product Agreement Instance Reference"	"BQ Agreement Instance Record"	Object
+""
+"Put"	"/customer-offer/{sd-identifier}/product-initialization/{crbq-identifier}/update"
+""	1	"inout"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	2	"inout"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	3	"inout"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	5	"inout"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"inout"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"inout"	"Product Instance Reference"	"BQ Product Initialization Instance Record"	Object
+""
+"Get"	"/customer-offer/{sd-identifier}/product-initialization/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	2	"out"	"Party Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	3	"out"	"Product/Service Type"	"CR Customer Offer Procedure Instance Record"	String
+""	4	"out"	"Customer Offer Processing Schedule"	"CR Customer Offer Procedure Instance Record"	String
+""	5	"out"	"Customer Offer Processing Task"	"CR Customer Offer Procedure Instance Record"	String
+""	6	"out"	"Customer Offer Processing Task Type"	"CR Customer Offer Procedure Instance Record"	String
+""	7	"out"	"Employee/Business Unit Reference"	"CR Customer Offer Procedure Instance Record"	Object
+""	8	"out"	"Customer Offer Processing Task Work Products"	"CR Customer Offer Procedure Instance Record"	String
+""	9	"out"	"Customer Offer Processing Task Result"	"CR Customer Offer Procedure Instance Record"	String
+""	10	"out"	"Product Instance Reference"	"BQ Product Initialization Instance Record"	Object

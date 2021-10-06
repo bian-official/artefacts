@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Relationship Management"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Relationship Management
+"Role Definition"	"This function handles managed customer relationships. There will typically be a customer development plan and budget/targets for higher value customers. The function may draw on external market insights as well as internal product and service fulfillment to track performance and trigger contact when appropriate. The function is a key source of business development providing product/service matching and awareness. As the primary point of contact the relationship manager can help in issue resolution and trouble shooting. Relationship management applies to corporate and high net-worth clients. Automated knowledge-based facilities may offer some relationship management functions at the consumer banking level in particular for sales and marketing"
+"Example of use"	"A corporate customer relationship manager reviews recent activity for a customer and notices that levels of activity are trending lower. Possible external (market) and internal (servicing/ fulfillment) activities are reviewed for possible causes. A meeting is scheduled to determine the reason and if any banking products/ services could help or are at further risk"
+"Executive Summary"	"This service domain develops and executes a customer plan to maintain and build a customer relationship. Activities include ongoing customer contact, tracking internal and external events and activity of interest and relevance, product and service matching and sales, processing ad-hoc queries, trouble shooting and issue resolution including the initial phases of troubled account recovery"
+"Key Features"	"Develop a customer relationship plan/targets. Liaise/advise customer, develop relationship. Match products and services to customer needs. Troubleshoot issues with customer"
+"Functional Pattern"	Manage
+"Asset Type"	CustomerRelationship
+"Generic Artifact"	ManagementPlan
+"Control Record"	CustomerRelationshipManagementPlan
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Letter of Credit
+"Control Record Model for Letter of Credit is not defined"
+"POST"	"/letter-of-credit/activation"
+"PUT"	"/letter-of-credit/{sd-reference-id}/configuration"
+"PUT"	"/letter-of-credit/{sd-reference-id}/feedback"

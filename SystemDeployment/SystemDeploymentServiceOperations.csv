@@ -1,0 +1,5 @@
+"Service Operations for: "	System Deployment
+"Control Record Model for System Deployment is not defined"
+"POST"	"/system-deployment/activation"
+"PUT"	"/system-deployment/{sd-reference-id}/configuration"
+"PUT"	"/system-deployment/{sd-reference-id}/feedback"

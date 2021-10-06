@@ -1,0 +1,166 @@
+"Service Operations for: "	Internal Audit
+""
+"POST"	"/internal-audit/activation"
+"PUT"	"/internal-audit/{sd-reference-id}/configuration"
+"PUT"	"/internal-audit/{sd-reference-id}/feedback"
+""
+"Put"	"/internal-audit/{sd-identifier}/audit/{crbq-identifier}/exchange"
+""	1	"inout"	"Audit Preconditions"	"BQ Audit Instance Record"	String
+""	2	"inout"	"Audit Analysis Schedule"	"BQ Audit Instance Record"	String
+""	3	"inout"	"Audit Version Number"	"BQ Audit Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Audit Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Audit Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Audit Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Audit Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Audit Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Audit Instance Record"	String
+""
+"Put"	"/internal-audit/{sd-identifier}/internal-audit-assessment/{crbq-identifier}/exchange"
+""	1	"inout"	"Internal Audit Assessment Parameter Type"	"CR Internal Audit Assessment Instance Record"	String
+""	2	"inout"	"Internal Audit Assessment Selected Option"	"CR Internal Audit Assessment Instance Record"	String
+""	3	"in"	"Internal Audit Assessment Type"	"CR Internal Audit Assessment Instance Record"	String
+""	4	"in"	"Internal Audit Assessment Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	5	"inout"	"Internal Audit Assessment Request"	"CR Internal Audit Assessment Instance Record"	String
+""	6	"in"	"Internal Audit Assessment Schedule"	"CR Internal Audit Assessment Instance Record"	String
+""	7	"in"	"Internal Audit Assessment Status"	"CR Internal Audit Assessment Instance Record"	String
+""	8	"in"	"Internal Audit Assessment Usage Log"	"CR Internal Audit Assessment Instance Record"	String
+""	9	"in"	"Internal Audit Assessment ServiceProvider Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	10	"in"	"Internal Audit Assessment Requester Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""
+"Put"	"/internal-audit/{sd-identifier}/audit/{crbq-identifier}/execution"
+""	1	"inout"	"Audit Preconditions"	"BQ Audit Instance Record"	String
+""	2	"inout"	"Audit Analysis Schedule"	"BQ Audit Instance Record"	String
+""	3	"inout"	"Audit Version Number"	"BQ Audit Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Audit Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Audit Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Audit Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Audit Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Audit Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Audit Instance Record"	String
+""
+"Put"	"/internal-audit/{sd-identifier}/internal-audit-assessment/{crbq-identifier}/execution"
+""	1	"inout"	"Internal Audit Assessment Parameter Type"	"CR Internal Audit Assessment Instance Record"	String
+""	2	"inout"	"Internal Audit Assessment Selected Option"	"CR Internal Audit Assessment Instance Record"	String
+""	3	"in"	"Internal Audit Assessment Type"	"CR Internal Audit Assessment Instance Record"	String
+""	4	"in"	"Internal Audit Assessment Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	5	"inout"	"Internal Audit Assessment Request"	"CR Internal Audit Assessment Instance Record"	String
+""	6	"in"	"Internal Audit Assessment Schedule"	"CR Internal Audit Assessment Instance Record"	String
+""	7	"in"	"Internal Audit Assessment Status"	"CR Internal Audit Assessment Instance Record"	String
+""	8	"in"	"Internal Audit Assessment Usage Log"	"CR Internal Audit Assessment Instance Record"	String
+""	9	"in"	"Internal Audit Assessment ServiceProvider Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	10	"in"	"Internal Audit Assessment Requester Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""
+"Put"	"/internal-audit/{sd-identifier}/audit/{crbq-identifier}/grant"
+""	1	"inout"	"Audit Preconditions"	"BQ Audit Instance Record"	String
+""	2	"inout"	"Audit Analysis Schedule"	"BQ Audit Instance Record"	String
+""	3	"inout"	"Audit Version Number"	"BQ Audit Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Audit Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Audit Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Audit Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Audit Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Audit Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Audit Instance Record"	String
+""
+"Put"	"/internal-audit/{sd-identifier}/internal-audit-assessment/{crbq-identifier}/grant"
+""	1	"inout"	"Internal Audit Assessment Parameter Type"	"CR Internal Audit Assessment Instance Record"	String
+""	2	"inout"	"Internal Audit Assessment Selected Option"	"CR Internal Audit Assessment Instance Record"	String
+""	3	"in"	"Internal Audit Assessment Type"	"CR Internal Audit Assessment Instance Record"	String
+""	4	"in"	"Internal Audit Assessment Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	5	"inout"	"Internal Audit Assessment Request"	"CR Internal Audit Assessment Instance Record"	String
+""	6	"in"	"Internal Audit Assessment Schedule"	"CR Internal Audit Assessment Instance Record"	String
+""	7	"in"	"Internal Audit Assessment Status"	"CR Internal Audit Assessment Instance Record"	String
+""	8	"in"	"Internal Audit Assessment Usage Log"	"CR Internal Audit Assessment Instance Record"	String
+""	9	"in"	"Internal Audit Assessment ServiceProvider Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	10	"in"	"Internal Audit Assessment Requester Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""
+"Post"	"/internal-audit/{sd-identifier}/audit/{crbq-identifier}/initiation"
+""	1	"inout"	"Audit Preconditions"	"BQ Audit Instance Record"	String
+""	2	"inout"	"Audit Analysis Schedule"	"BQ Audit Instance Record"	String
+""	3	"inout"	"Audit Version Number"	"BQ Audit Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Audit Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Audit Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Audit Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Audit Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Audit Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Audit Instance Record"	String
+""
+"Post"	"/internal-audit/{sd-identifier}/internal-audit-assessment/{crbq-identifier}/initiation"
+""	1	"inout"	"Internal Audit Assessment Parameter Type"	"CR Internal Audit Assessment Instance Record"	String
+""	2	"inout"	"Internal Audit Assessment Selected Option"	"CR Internal Audit Assessment Instance Record"	String
+""	3	"in"	"Internal Audit Assessment Type"	"CR Internal Audit Assessment Instance Record"	String
+""	4	"in"	"Internal Audit Assessment Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	5	"inout"	"Internal Audit Assessment Request"	"CR Internal Audit Assessment Instance Record"	String
+""	6	"in"	"Internal Audit Assessment Schedule"	"CR Internal Audit Assessment Instance Record"	String
+""	7	"in"	"Internal Audit Assessment Status"	"CR Internal Audit Assessment Instance Record"	String
+""	8	"in"	"Internal Audit Assessment Usage Log"	"CR Internal Audit Assessment Instance Record"	String
+""	9	"in"	"Internal Audit Assessment ServiceProvider Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	10	"in"	"Internal Audit Assessment Requester Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""
+"Get"	"/internal-audit/{sd-identifier}/audit/{crbq-identifier}/retrieval"
+""	1	"out"	"Audit Preconditions"	"BQ Audit Instance Record"	String
+""	2	"out"	"Audit Analysis Schedule"	"BQ Audit Instance Record"	String
+""	3	"out"	"Audit Version Number"	"BQ Audit Instance Record"	String
+""	4	"out"	"Business Service"	"BQ Audit Instance Record"	Business Service
+""	5	"out"	" Service Type"	"BQ Audit Instance Record"	String
+""	6	"out"	" Service Description"	"BQ Audit Instance Record"	String
+""	7	"out"	" Service Inputs and Ouputs"	"BQ Audit Instance Record"	String
+""	8	"out"	" Service Work Product"	"BQ Audit Instance Record"	String
+""	9	"out"	" Service Name"	"BQ Audit Instance Record"	String
+""
+"Get"	"/internal-audit/{sd-identifier}/internal-audit-assessment/{crbq-identifier}/retrieval"
+""	1	"out"	"Internal Audit Assessment Parameter Type"	"CR Internal Audit Assessment Instance Record"	String
+""	2	"out"	"Internal Audit Assessment Selected Option"	"CR Internal Audit Assessment Instance Record"	String
+""	3	"out"	"Internal Audit Assessment Type"	"CR Internal Audit Assessment Instance Record"	String
+""	4	"out"	"Internal Audit Assessment Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	5	"out"	"Internal Audit Assessment Request"	"CR Internal Audit Assessment Instance Record"	String
+""	6	"out"	"Internal Audit Assessment Schedule"	"CR Internal Audit Assessment Instance Record"	String
+""	7	"out"	"Internal Audit Assessment Status"	"CR Internal Audit Assessment Instance Record"	String
+""	8	"out"	"Internal Audit Assessment Usage Log"	"CR Internal Audit Assessment Instance Record"	String
+""	9	"out"	"Internal Audit Assessment ServiceProvider Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	10	"out"	"Internal Audit Assessment Requester Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""
+"Put"	"/internal-audit/{sd-identifier}/audit/{crbq-identifier}/requisition"
+""	1	"inout"	"Audit Preconditions"	"BQ Audit Instance Record"	String
+""	2	"inout"	"Audit Analysis Schedule"	"BQ Audit Instance Record"	String
+""	3	"inout"	"Audit Version Number"	"BQ Audit Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Audit Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Audit Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Audit Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Audit Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Audit Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Audit Instance Record"	String
+""
+"Put"	"/internal-audit/{sd-identifier}/internal-audit-assessment/{crbq-identifier}/requisition"
+""	1	"inout"	"Internal Audit Assessment Parameter Type"	"CR Internal Audit Assessment Instance Record"	String
+""	2	"inout"	"Internal Audit Assessment Selected Option"	"CR Internal Audit Assessment Instance Record"	String
+""	3	"in"	"Internal Audit Assessment Type"	"CR Internal Audit Assessment Instance Record"	String
+""	4	"in"	"Internal Audit Assessment Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	5	"inout"	"Internal Audit Assessment Request"	"CR Internal Audit Assessment Instance Record"	String
+""	6	"in"	"Internal Audit Assessment Schedule"	"CR Internal Audit Assessment Instance Record"	String
+""	7	"in"	"Internal Audit Assessment Status"	"CR Internal Audit Assessment Instance Record"	String
+""	8	"in"	"Internal Audit Assessment Usage Log"	"CR Internal Audit Assessment Instance Record"	String
+""	9	"in"	"Internal Audit Assessment ServiceProvider Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	10	"in"	"Internal Audit Assessment Requester Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""
+"Put"	"/internal-audit/{sd-identifier}/audit/{crbq-identifier}/update"
+""	1	"inout"	"Audit Preconditions"	"BQ Audit Instance Record"	String
+""	2	"inout"	"Audit Analysis Schedule"	"BQ Audit Instance Record"	String
+""	3	"inout"	"Audit Version Number"	"BQ Audit Instance Record"	String
+""	4	"inout"	"Business Service"	"BQ Audit Instance Record"	Business Service
+""	5	"inout"	" Service Type"	"BQ Audit Instance Record"	String
+""	6	"inout"	" Service Description"	"BQ Audit Instance Record"	String
+""	7	"inout"	" Service Inputs and Ouputs"	"BQ Audit Instance Record"	String
+""	8	"inout"	" Service Work Product"	"BQ Audit Instance Record"	String
+""	9	"inout"	" Service Name"	"BQ Audit Instance Record"	String
+""
+"Put"	"/internal-audit/{sd-identifier}/internal-audit-assessment/{crbq-identifier}/update"
+""	1	"inout"	"Internal Audit Assessment Parameter Type"	"CR Internal Audit Assessment Instance Record"	String
+""	2	"inout"	"Internal Audit Assessment Selected Option"	"CR Internal Audit Assessment Instance Record"	String
+""	3	"in"	"Internal Audit Assessment Type"	"CR Internal Audit Assessment Instance Record"	String
+""	4	"in"	"Internal Audit Assessment Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	5	"inout"	"Internal Audit Assessment Request"	"CR Internal Audit Assessment Instance Record"	String
+""	6	"in"	"Internal Audit Assessment Schedule"	"CR Internal Audit Assessment Instance Record"	String
+""	7	"in"	"Internal Audit Assessment Status"	"CR Internal Audit Assessment Instance Record"	String
+""	8	"in"	"Internal Audit Assessment Usage Log"	"CR Internal Audit Assessment Instance Record"	String
+""	9	"in"	"Internal Audit Assessment ServiceProvider Reference"	"CR Internal Audit Assessment Instance Record"	Object
+""	10	"in"	"Internal Audit Assessment Requester Reference"	"CR Internal Audit Assessment Instance Record"	Object

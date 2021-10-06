@@ -1,0 +1,13 @@
+"Service Domain specification for Utilities Administration"
+"Business Area"	Resource Management
+"Business Domain"	Buildings And Equipment
+"Service Domain"	Utilities Administration
+"Role Definition"	"Administer the sourcing, service agreements and delivery of site utilities (heat, cooling, water, power etc)"
+"Example of use"	"Utilities service disruption and recovery is handled at a location"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	Utilities
+"Generic Artifact"	AdministrativePlan
+"Control Record"	UtilitiesAdministrativePlan
+"Registration Status"	Registered

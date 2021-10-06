@@ -1,0 +1,105 @@
+"Service Operations for: "	Financial Market Analysis
+""
+"POST"	"/financial-market-analysis/activation"
+"PUT"	"/financial-market-analysis/{sd-reference-id}/configuration"
+"PUT"	"/financial-market-analysis/{sd-reference-id}/feedback"
+""
+"Put"	"/financial-market-analysis/{sd-identifier}/financial-market-insight/{crbq-identifier}/execution"
+""	1	"inout"	"Financial Market Insight Preconditions"	"BQ Financial Market Insight Instance Record"	String
+""	2	"inout"	"Financial Market Insight Analysis Schedule"	"BQ Financial Market Insight Instance Record"	String
+""	3	"inout"	"Financial Market Insight Version Number"	"BQ Financial Market Insight Instance Record"	String
+""	4	"inout"	"Financial Market Analysis"	"BQ Financial Market Insight Instance Record"	Business Service
+""	5	"inout"	"Financial Market Analysis Service Type"	"BQ Financial Market Insight Instance Record"	String
+""	6	"inout"	"Financial Market Analysis Service Description"	"BQ Financial Market Insight Instance Record"	String
+""	7	"inout"	"Financial Market Analysis Service Inputs and Ouputs"	"BQ Financial Market Insight Instance Record"	String
+""	8	"inout"	"Financial Market Analysis Service Work Product"	"BQ Financial Market Insight Instance Record"	String
+""	9	"inout"	"Financial Market Analysis Service Name"	"BQ Financial Market Insight Instance Record"	String
+""
+"Put"	"/financial-market-analysis/{sd-identifier}/financial-market-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Financial Market Analysis Parameter Type"	"CR Financial Market Analysis Instance Record"	String
+""	2	"inout"	"Financial Market Analysis Selected Option"	"CR Financial Market Analysis Instance Record"	String
+""	3	"inout"	"Financial Market Analysis Request"	"CR Financial Market Analysis Instance Record"	String
+""	4	"in"	"Financial Market Analysis Schedule"	"CR Financial Market Analysis Instance Record"	String
+""	5	"inout"	"Financial Market Analysis Status"	"CR Financial Market Analysis Instance Record"	String
+""	6	"inout"	"Financial Market Analysis Usage Log"	"CR Financial Market Analysis Instance Record"	String
+""	7	"in"	"Financial Market Analysis Requester Reference"	"CR Financial Market Analysis Instance Record"	Object
+""
+"Post"	"/financial-market-analysis/{sd-identifier}/financial-market-insight/{crbq-identifier}/initiation"
+""	1	"inout"	"Financial Market Insight Preconditions"	"BQ Financial Market Insight Instance Record"	String
+""	2	"inout"	"Financial Market Insight Analysis Schedule"	"BQ Financial Market Insight Instance Record"	String
+""	3	"inout"	"Financial Market Insight Version Number"	"BQ Financial Market Insight Instance Record"	String
+""	4	"inout"	"Financial Market Analysis"	"BQ Financial Market Insight Instance Record"	Business Service
+""	5	"inout"	"Financial Market Analysis Service Type"	"BQ Financial Market Insight Instance Record"	String
+""	6	"inout"	"Financial Market Analysis Service Description"	"BQ Financial Market Insight Instance Record"	String
+""	7	"inout"	"Financial Market Analysis Service Inputs and Ouputs"	"BQ Financial Market Insight Instance Record"	String
+""	8	"inout"	"Financial Market Analysis Service Work Product"	"BQ Financial Market Insight Instance Record"	String
+""	9	"inout"	"Financial Market Analysis Service Name"	"BQ Financial Market Insight Instance Record"	String
+""
+"Post"	"/financial-market-analysis/{sd-identifier}/financial-market-analysis/{crbq-identifier}/initiation"
+""	1	"inout"	"Financial Market Analysis Parameter Type"	"CR Financial Market Analysis Instance Record"	String
+""	2	"inout"	"Financial Market Analysis Selected Option"	"CR Financial Market Analysis Instance Record"	String
+""	3	"inout"	"Financial Market Analysis Request"	"CR Financial Market Analysis Instance Record"	String
+""	4	"in"	"Financial Market Analysis Schedule"	"CR Financial Market Analysis Instance Record"	String
+""	5	"inout"	"Financial Market Analysis Status"	"CR Financial Market Analysis Instance Record"	String
+""	6	"inout"	"Financial Market Analysis Usage Log"	"CR Financial Market Analysis Instance Record"	String
+""	7	"in"	"Financial Market Analysis Requester Reference"	"CR Financial Market Analysis Instance Record"	Object
+""
+"Get"	"/financial-market-analysis/{sd-identifier}/financial-market-insight/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Market Insight Preconditions"	"BQ Financial Market Insight Instance Record"	String
+""	2	"out"	"Financial Market Insight Analysis Schedule"	"BQ Financial Market Insight Instance Record"	String
+""	3	"out"	"Financial Market Insight Version Number"	"BQ Financial Market Insight Instance Record"	String
+""	4	"out"	"Financial Market Analysis"	"BQ Financial Market Insight Instance Record"	Business Service
+""	5	"out"	"Financial Market Analysis Service Type"	"BQ Financial Market Insight Instance Record"	String
+""	6	"out"	"Financial Market Analysis Service Description"	"BQ Financial Market Insight Instance Record"	String
+""	7	"out"	"Financial Market Analysis Service Inputs and Ouputs"	"BQ Financial Market Insight Instance Record"	String
+""	8	"out"	"Financial Market Analysis Service Work Product"	"BQ Financial Market Insight Instance Record"	String
+""	9	"out"	"Financial Market Analysis Service Name"	"BQ Financial Market Insight Instance Record"	String
+""
+"Get"	"/financial-market-analysis/{sd-identifier}/financial-market-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Financial Market Analysis Parameter Type"	"CR Financial Market Analysis Instance Record"	String
+""	2	"out"	"Financial Market Analysis Selected Option"	"CR Financial Market Analysis Instance Record"	String
+""	3	"out"	"Financial Market Analysis Request"	"CR Financial Market Analysis Instance Record"	String
+""	4	"out"	"Financial Market Analysis Schedule"	"CR Financial Market Analysis Instance Record"	String
+""	5	"out"	"Financial Market Analysis Status"	"CR Financial Market Analysis Instance Record"	String
+""	6	"out"	"Financial Market Analysis Usage Log"	"CR Financial Market Analysis Instance Record"	String
+""	7	"out"	"Financial Market Analysis Requester Reference"	"CR Financial Market Analysis Instance Record"	Object
+""
+"Put"	"/financial-market-analysis/{sd-identifier}/financial-market-insight/{crbq-identifier}/requisition"
+""	1	"inout"	"Financial Market Insight Preconditions"	"BQ Financial Market Insight Instance Record"	String
+""	2	"inout"	"Financial Market Insight Analysis Schedule"	"BQ Financial Market Insight Instance Record"	String
+""	3	"inout"	"Financial Market Insight Version Number"	"BQ Financial Market Insight Instance Record"	String
+""	4	"inout"	"Financial Market Analysis"	"BQ Financial Market Insight Instance Record"	Business Service
+""	5	"inout"	"Financial Market Analysis Service Type"	"BQ Financial Market Insight Instance Record"	String
+""	6	"inout"	"Financial Market Analysis Service Description"	"BQ Financial Market Insight Instance Record"	String
+""	7	"inout"	"Financial Market Analysis Service Inputs and Ouputs"	"BQ Financial Market Insight Instance Record"	String
+""	8	"inout"	"Financial Market Analysis Service Work Product"	"BQ Financial Market Insight Instance Record"	String
+""	9	"inout"	"Financial Market Analysis Service Name"	"BQ Financial Market Insight Instance Record"	String
+""
+"Put"	"/financial-market-analysis/{sd-identifier}/financial-market-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Financial Market Analysis Parameter Type"	"CR Financial Market Analysis Instance Record"	String
+""	2	"inout"	"Financial Market Analysis Selected Option"	"CR Financial Market Analysis Instance Record"	String
+""	3	"inout"	"Financial Market Analysis Request"	"CR Financial Market Analysis Instance Record"	String
+""	4	"in"	"Financial Market Analysis Schedule"	"CR Financial Market Analysis Instance Record"	String
+""	5	"inout"	"Financial Market Analysis Status"	"CR Financial Market Analysis Instance Record"	String
+""	6	"inout"	"Financial Market Analysis Usage Log"	"CR Financial Market Analysis Instance Record"	String
+""	7	"in"	"Financial Market Analysis Requester Reference"	"CR Financial Market Analysis Instance Record"	Object
+""
+"Put"	"/financial-market-analysis/{sd-identifier}/financial-market-insight/{crbq-identifier}/update"
+""	1	"inout"	"Financial Market Insight Preconditions"	"BQ Financial Market Insight Instance Record"	String
+""	2	"inout"	"Financial Market Insight Analysis Schedule"	"BQ Financial Market Insight Instance Record"	String
+""	3	"inout"	"Financial Market Insight Version Number"	"BQ Financial Market Insight Instance Record"	String
+""	4	"inout"	"Financial Market Analysis"	"BQ Financial Market Insight Instance Record"	Business Service
+""	5	"inout"	"Financial Market Analysis Service Type"	"BQ Financial Market Insight Instance Record"	String
+""	6	"inout"	"Financial Market Analysis Service Description"	"BQ Financial Market Insight Instance Record"	String
+""	7	"inout"	"Financial Market Analysis Service Inputs and Ouputs"	"BQ Financial Market Insight Instance Record"	String
+""	8	"inout"	"Financial Market Analysis Service Work Product"	"BQ Financial Market Insight Instance Record"	String
+""	9	"inout"	"Financial Market Analysis Service Name"	"BQ Financial Market Insight Instance Record"	String
+""
+"Put"	"/financial-market-analysis/{sd-identifier}/financial-market-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Financial Market Analysis Parameter Type"	"CR Financial Market Analysis Instance Record"	String
+""	2	"inout"	"Financial Market Analysis Selected Option"	"CR Financial Market Analysis Instance Record"	String
+""	3	"inout"	"Financial Market Analysis Request"	"CR Financial Market Analysis Instance Record"	String
+""	4	"in"	"Financial Market Analysis Schedule"	"CR Financial Market Analysis Instance Record"	String
+""	5	"inout"	"Financial Market Analysis Status"	"CR Financial Market Analysis Instance Record"	String
+""	6	"inout"	"Financial Market Analysis Usage Log"	"CR Financial Market Analysis Instance Record"	String
+""	7	"in"	"Financial Market Analysis Requester Reference"	"CR Financial Market Analysis Instance Record"	Object

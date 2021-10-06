@@ -1,0 +1,5 @@
+"Service Operations for: "	eTrading Workbench
+"Control Record Model for eTrading Workbench is not defined"
+"POST"	"/etrading-workbench/activation"
+"PUT"	"/etrading-workbench/{sd-reference-id}/configuration"
+"PUT"	"/etrading-workbench/{sd-reference-id}/feedback"

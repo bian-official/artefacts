@@ -1,0 +1,13 @@
+"Service Domain specification for Corporate Trust Services"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Corporate Trust Services
+"Role Definition"	"Provide the range of fee based trust services, typically offered to high net-worth customers"
+"Example of use"	"A high net worth client uses the bank to set up a tax optimized trust fund for his dependants"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	TrustServices
+"Generic Artifact"	Facility (rename)
+"Control Record"	TrustServicesArrangement
+"Registration Status"	Registered

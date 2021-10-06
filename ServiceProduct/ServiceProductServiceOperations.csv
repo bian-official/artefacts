@@ -1,0 +1,5 @@
+"Service Operations for: "	Service Product
+"Control Record Model for Service Product is not defined"
+"POST"	"/service-product/activation"
+"PUT"	"/service-product/{sd-reference-id}/configuration"
+"PUT"	"/service-product/{sd-reference-id}/feedback"

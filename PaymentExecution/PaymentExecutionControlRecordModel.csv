@@ -1,0 +1,26 @@
+"Control Record Model for: "	Payment Execution
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Payment Mechanism Instance Record	""	""	""
+"BQ"	BQ Payment Mechanism Instance Record	Payment Execution Task Result	"Details of the mechanism selection"	String
+"CR"	CR Payment Execution Procedure Instance Record	""	""	""
+"CR"	CR Payment Execution Procedure Instance Record	ACH Access Service Session Reference	"Reference to the ACH financial gateway service used to execute payments"	Object
+"CR"	CR Payment Execution Procedure Instance Record	ACH Access Schedule	"The published gateway service availability"	String
+"CR"	CR Payment Execution Procedure Instance Record	Correspondent Service Session Reference	"Reference to the SWIFT gateway service used to execute correspondent payments"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Correspondent Service Access Schedule	"The published gateway service availability"	String
+"CR"	CR Payment Execution Procedure Instance Record	Payment Transaction Initiator Reference	"Reference to the initiator of the transaction"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Payment Order Reference	"Reference to the payment order leading to the execution request"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Payer Reference	"Reference to the payer"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Payer Bank Reference	"Reference to the payer's bank"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Payer Product Instance Reference	"Reference to the payer's account (the source of funds)"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Payee Reference	"The target for the payment"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Payee Bank Reference	"Reference to the payee's bank"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Payee Product Instance Reference	"Reference to the payee's account (the target for the funds)"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Amount	"Key amounts included in the transaction"	String
+"CR"	CR Payment Execution Procedure Instance Record	Currency	"Currency for the amounts"	String
+"CR"	CR Payment Execution Procedure Instance Record	Date Type	"Key dates associated with the transaction (e.g. order, booking, execution, value date, interest bearing)"	String
+"CR"	CR Payment Execution Procedure Instance Record	Date	"…."	String
+"CR"	CR Payment Execution Procedure Instance Record	Wash Account Reference	"Reference to any internal accounts used in processing"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Intermediary Account Reference	"Reference to any external accounts used in processing"	Object
+"CR"	CR Payment Execution Procedure Instance Record	Payment Mechanism Type	"Requested and actual payment mechanism used"	String
+"BQ"	BQ Payment Execution Instance Record	""	""	""
+"BQ"	BQ Payment Execution Instance Record	Payment Execution Task Result	"Details of the execution transaction"	String

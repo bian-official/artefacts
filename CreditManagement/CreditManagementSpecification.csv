@@ -1,0 +1,13 @@
+"Service Domain specification for Credit Management"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Credit Risk
+"Service Domain"	Credit Management
+"Role Definition"	"This service domain supports a central bank credit management function that maintains an overarching credit perspective across all bank activity. Transactions can be re-priced to factor in this credit perspective"
+"Example of use"	"Example of use:. A corporate loan is presented for credit management pricing decisioning prior to completion of the offer process"
+"Executive Summary"	"This service domain provides a bank-wide/oversight function to qualify credit pricing for offered products and services to reflect the bank's appetite to write the business. This decision can override the standard product pricing procedure"
+"Key Features"	"Evaluate a proposed loan's fit to the bank's credit policies and priorities. Re-price major loans to align to bank policies and priorities"
+"Functional Pattern"	Assess
+"Asset Type"	CreditPricing
+"Generic Artifact"	Assessment
+"Control Record"	CreditPricingAssessment
+"Registration Status"	Registered

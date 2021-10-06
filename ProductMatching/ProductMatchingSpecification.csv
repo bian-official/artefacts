@@ -1,0 +1,13 @@
+"Service Domain specification for Product Matching"
+"Business Area"	Customers
+"Business Domain"	Sales
+"Service Domain"	Product Matching
+"Role Definition"	"The service domain implements a decision service (that might be interactive) to isolate the preferred product(s) for which a customer is eligible in a specific servicing situation. The product selection logic will balance factors including customer indicated desired product type/features, customer type/profile, solicitation/retention/enquiry servicing situation, prevailing campaigns/bank preferred products. The decision logic improves product selection to optimize the customer interaction and support business development"
+"Example of use"	"Example of use:. A customer servicing representative initiates a product matching dialogue after resolving a disputed payment in favor of the customer, hoping to leverage the positive contact situation to generate additional business opportunities"
+"Executive Summary"	"Capability used to match eligible product and product combinations to a customer based on prevailing conditions such as customer type, product interest, solicitation/retention, campaign alignment"
+"Key Features"	"Determine customer product interest. Isolate eligible products. Consider context to filter/prioritize products. Apply broader campaign/bank preferences"
+"Functional Pattern"	Assess
+"Asset Type"	Product/CustomerCombination
+"Generic Artifact"	Assessment
+"Control Record"	Product/CustomerCombinationAssessment
+"Registration Status"	Registered

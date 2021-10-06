@@ -1,0 +1,21 @@
+"Control Record Model for: "	Customer Portfolio
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Performance Analysis Instance Record	""	""	""
+"BQ"	BQ Performance Analysis Instance Record	Customer Segment Performance Analysis Type	"Defines the type of analysis/algorithm used to evaluate and compare the customer segment performance to prevailing market measures"	String
+"BQ"	BQ Performance Analysis Instance Record	Customer Segment Performance Analysis Task	"Record of a task to perform a selected type of performance analysis on a customer segment"	String
+"BQ"	BQ Performance Analysis Instance Record	Customer Segment Performance Request Specification	"The specific details of the performance analysis (can be a default/standard analysis or a specialist/ad-hoc request)"	String
+"BQ"	BQ Performance Analysis Instance Record	Customer Segment Performance Model Reference	"Reference to the performance analysis model used"	Object
+"BQ"	BQ Performance Analysis Instance Record	Customer Segment Performance ProductandService Activity Report	"The data file, report of customer related transaction details used in the analysis"	String
+"BQ"	BQ Performance Analysis Instance Record	Customer Segment Performance Financial Market Research Report	"The content of selected financial market research report or market transaction database in any suitable form used for comparisons when appropriate"	String
+"BQ"	BQ Performance Analysis Instance Record	Customer Segment Performance Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Performance Analysis Instance Record	Customer Segment Performance Request Result	"The output from executing the selected performance analysis"	String
+"CR"	CR Customer Segment Analysis Instance Record	""	""	""
+"CR"	CR Customer Segment Analysis Instance Record	Customer Segment Type	"The descriptive name of the bank defined customer segment"	String
+"CR"	CR Customer Segment Analysis Instance Record	Customer Segment Type Definition	"Detailed properties and characteristics that define the customer segment"	String
+"CR"	CR Customer Segment Analysis Instance Record	Customer Segment Performance Goals	"Definition of the performance goals for defined customer segments as defined by senior management functions (target/anticipated and actual as assessed)."	String
+"CR"	CR Customer Segment Analysis Instance Record	Customer Segment Analysis Schedule	"The schedule for performing customer segment analysis for the enterprise or division"	String
+"CR"	CR Customer Segment Analysis Instance Record	Customer Segment Analysis Report	"A consolidated report containing the results of performance analyses applied to the Customer Segment"	String
+"CR"	CR Customer Segment Analysis Instance Record	Customer Segment Analysis Type	"Defines a type of performance analysis performed (e.g. scheduled review, specialized analysis, sensitivity assessment/projection)"	String
+"CR"	CR Customer Segment Analysis Instance Record	Customer Segment Analysis Result	"The consolidated report of the performance evaluation and comparisons from the analysis"	String
+"CR"	CR Customer Segment Analysis Instance Record	Customer Segment Analysis Reporting Date	"The date/time the performance report was completed"	Date
+"CR"	CR Customer Segment Analysis Instance Record	Document Directory Entry Instance Reference	"Reference to associated performance analysis reporting documents"	Object

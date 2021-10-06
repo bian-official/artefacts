@@ -1,0 +1,5 @@
+"Service Operations for: "	Credit Card Position Keeping
+""
+"POST"	"/credit-card-position-keeping/activation"
+"PUT"	"/credit-card-position-keeping/{sd-reference-id}/configuration"
+"PUT"	"/credit-card-position-keeping/{sd-reference-id}/feedback"

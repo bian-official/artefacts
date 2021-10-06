@@ -1,0 +1,50 @@
+"Control Record Model for: "	Correspondent Bank
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Outbound Payments Instance Record	""	""	""
+"BQ"	BQ Outbound Payments Instance Record	Correspondent Transaction Record	"Outbound payment transaction details"	String
+"BQ"	BQ Outbound Payments Instance Record	SWIFT Transaction Reference	"…."	Object
+"BQ"	BQ Outbound Payments Instance Record	Payer Bank Reference	"The  primary correspondent bank"	Object
+"BQ"	BQ Outbound Payments Instance Record	Payer Reference	"Reference to the payer"	Object
+"BQ"	BQ Outbound Payments Instance Record	Corresponded Bank Reference	"Intermediary correspondents if needed"	Object
+"BQ"	BQ Outbound Payments Instance Record	Payer Product Instance Reference	"Payer account reference or number"	Object
+"BQ"	BQ Outbound Payments Instance Record	Payee Reference	"Reference to the payee"	Object
+"BQ"	BQ Outbound Payments Instance Record	Payee Product Instance Reference	"Reference to the payee account as source of funds"	Object
+"BQ"	BQ Outbound Payments Instance Record	Payee Bank Reference	"Refers to the payee's bank as the receiver of funds"	Object
+"BQ"	BQ Outbound Payments Instance Record	Special Instructions	"Transaction specific clearing and settlement instructions"	String
+"BQ"	BQ Outbound Payments Instance Record	Amount	"Key amounts of the transaction"	String
+"BQ"	BQ Outbound Payments Instance Record	Currency	"Currencies of the amounts"	String
+"BQ"	BQ Outbound Payments Instance Record	Date Type	"Transaction dates  (e.g. order, booking, execution, value date, interest bearing)"	String
+"BQ"	BQ Outbound Payments Instance Record	Date	"Specific date type value"	String
+"BQ"	BQ Inbound Payments Instance Record	""	""	""
+"BQ"	BQ Inbound Payments Instance Record	Correspondent Transaction Record	"Inbound payment transaction details"	String
+"BQ"	BQ Inbound Payments Instance Record	SWIFT Transaction Reference	"…."	Object
+"BQ"	BQ Inbound Payments Instance Record	Payer Bank Reference	"The  primary correspondent bank"	Object
+"BQ"	BQ Inbound Payments Instance Record	Payer Reference	"Reference to the payer"	Object
+"BQ"	BQ Inbound Payments Instance Record	Corresponded Bank Reference	"Intermediary correspondents if needed"	Object
+"BQ"	BQ Inbound Payments Instance Record	Payer Product Instance Reference	"Payer account reference or number"	Object
+"BQ"	BQ Inbound Payments Instance Record	Payee Reference	"Reference to the payee"	Object
+"BQ"	BQ Inbound Payments Instance Record	Payee Product Instance Reference	"Reference to the payee account as source of funds"	Object
+"BQ"	BQ Inbound Payments Instance Record	Payee Bank Reference	"Refers to the payee's bank as the receiver of funds"	Object
+"BQ"	BQ Inbound Payments Instance Record	Special Instructions	"Transaction specific clearing and settlement instructions"	String
+"BQ"	BQ Inbound Payments Instance Record	Amount	"Key amounts of the transaction"	String
+"BQ"	BQ Inbound Payments Instance Record	Currency	"Currencies of the amounts"	String
+"BQ"	BQ Inbound Payments Instance Record	Date Type	"Transaction dates  (e.g. order, booking, execution, value date, interest bearing)"	String
+"BQ"	BQ Inbound Payments Instance Record	Date	"Specific date type value"	String
+"BQ"	BQ Reconciliation Instance Record	""	""	""
+"BQ"	BQ Reconciliation Instance Record	Correspondent Bank Reconciliation Task Reference	"Reference to the correspondent reconciliation task"	Object
+"BQ"	BQ Reconciliation Instance Record	Correspondent Bank Reconciliation Task Work Products	"Work documentation, accounts and transaction details produced and referenced during the reconciliation"	String
+"BQ"	BQ Reconciliation Instance Record	Correspondent Bank Reconciliation Task Result	"Description of the resolution tasks agreed to reconcile"	String
+"BQ"	BQ Clearing and Settlement Instance Record	""	""	""
+"BQ"	BQ Clearing and Settlement Instance Record	Correspondent Bank Clearing Arrangement Reference	"The clearing arrangement between the bank and clearing house - includes schedule, limits"	Object
+"BQ"	BQ Clearing and Settlement Instance Record	Correspondent Bank Clearing Arrangement Clearing Instructions	"Customer specific default clearing instructions"	String
+"BQ"	BQ Clearing and Settlement Instance Record	Correspondent Bank Clearing Arrangement Settlement Instructions	"Customer specific default settlement instructions (e.g. to handle netting arrangements)"	String
+"BQ"	BQ Clearing and Settlement Instance Record	Mirror Nostro Account Reference	"Used for central bank clearing reconciliations"	Object
+"BQ"	BQ Clearing and Settlement Instance Record	Clearing Transaction	"A record of a clearing transaction"	String
+"BQ"	BQ Clearing and Settlement Instance Record	Settlement Transaction	"A record of a settlement transaction"	String
+"CR"	CR Correspondent Bank Arrangement Instance Record	""	""	""
+"CR"	CR Correspondent Bank Arrangement Instance Record	Correspondent Bank Arrangement Reference	"Reference to the bank arrangement (that will detail limits, fees, preferred payments mechanism)"	Object
+"CR"	CR Correspondent Bank Arrangement Instance Record	Correspondent Bank Arrangement	"The correspondent bank arrangement (details agreed limits, fees, preferred payments mechanism, etc.)"	String
+"CR"	CR Correspondent Bank Arrangement Instance Record	Correspondent Bank Servicing Schedule	"Details of the schedule for processing payments, clearing and settlement and reconciliations"	String
+"CR"	CR Correspondent Bank Arrangement Instance Record	Holiday/Time zone Schedule	"A reference to the bank calendar details for payment processing"	String
+"CR"	CR Correspondent Bank Arrangement Instance Record	Vostro Account Reference	"Reference to associated vostro account (your money at our bank)"	Object
+"CR"	CR Correspondent Bank Arrangement Instance Record	Nostro Mirror Account Reference	"Reference to associated nostro account (our money at your bank)"	Object

@@ -1,0 +1,5 @@
+"Service Operations for: "	Market Risk Models
+"Control Record Model for Market Risk Models is not defined"
+"POST"	"/market-risk-models/activation"
+"PUT"	"/market-risk-models/{sd-reference-id}/configuration"
+"PUT"	"/market-risk-models/{sd-reference-id}/feedback"

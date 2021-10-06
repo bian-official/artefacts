@@ -1,0 +1,13 @@
+"Service Domain specification for Lead and Opportunity Management"
+"Business Area"	Customers
+"Business Domain"	Sales
+"Service Domain"	Lead and Opportunity Management
+"Role Definition"	"This service domain captures, evaluates and progresses identified lead/opportunities that may arise during customer relationship development, sales, servicing and fulfillment interactions. It will clarify and confirm the customer's interest and check that the product is suitable and the customer eligible prior to initiating the formal offer process (see service domain Customer Offer)"
+"Example of use"	"A lead is identified during a customer servicing interaction and the lead captured for subsequent follow-up"
+"Executive Summary"	"This service domain captures, classifies and track sales lead/opportunities with established clients for additional products or services. It handles the processing of the opportunity through to the point of formal offer processing."
+"Key Features"	"Lead/opportunity classification and capture. Lead/opportunity evaluation and confirmation. Verify opportunity, initiate/schedule customer offer processing"
+"Functional Pattern"	Process
+"Asset Type"	LeadandOpportunity
+"Generic Artifact"	Procedure
+"Control Record"	LeadandOpportunityProcedure
+"Registration Status"	Registered

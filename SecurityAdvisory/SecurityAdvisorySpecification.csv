@@ -1,0 +1,13 @@
+"Service Domain specification for Security Advisory"
+"Business Area"	Business Management
+"Business Domain"	Corporate Services
+"Service Domain"	Security Advisory
+"Role Definition"	"Provide specialist security advice and guidance for line management and projects as needed to ensure security arrangements across the organization"
+"Example of use"	"Specialist security advice is sought for a major project"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	SecurityCompliance
+"Generic Artifact"	Procedure
+"Control Record"	SecurityComplianceProcedure
+"Registration Status"	Registered

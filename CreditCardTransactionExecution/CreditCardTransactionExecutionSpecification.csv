@@ -1,0 +1,13 @@
+"Service Domain specification for Credit Card Transaction Execution"
+"Business Area"	Products
+"Business Domain"	Cards
+"Service Domain"	Credit Card Transaction Execution
+"Role Definition"	"The Credit Card Transaction Execution Service Domain is responsible for the booking of the credit card transactions on the accounts in the cards world. It knows the different transaction types and the related booking sets. It will call Credit Card Position Keeping to create the debit and the credit bookings of a transaction. It will ensure that the bookings of a credit card transaction are executed completely or not at all (the latter in case of an exception)."
+"Example of use"	"During the clearing cycle of credit card transactions, the issuing bank does a number of final checks and if these are passed, the transaction is executed. The clearing process will invoke a Service Connection "Execute Cards Transaction" on Credit Card Transaction Execution, which will in turn invoke Service Connections on Credit Card Position Keeping to actually book the transaction in the cards world. Credit Card Transaction Execution will ensure that all operations of a credit card transaction are executed or none of them (1 transaction in terms of commitment control)."
+"Executive Summary"	"The Credit Card Transaction Execution Service Domain is responsible for the booking of the credit card transactions on the accounts in the cards world."
+"Key Features"	"- Record Booking Set. - Maintain Booking Sets. - Execute Card Transaction. - Report back to caller on Successful or Unsiuccessful Execution"
+"Functional Pattern"	Process
+"Asset Type"	CreditCardTransactionExecution
+"Generic Artifact"	Procedure
+"Control Record"	CreditCardTransactionExecutionProcedure
+"Registration Status"	Provisional

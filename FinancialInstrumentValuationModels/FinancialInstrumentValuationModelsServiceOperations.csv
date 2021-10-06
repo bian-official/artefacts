@@ -1,0 +1,5 @@
+"Service Operations for: "	Financial Instrument Valuation Models
+"Control Record Model for Financial Instrument Valuation Models is not defined"
+"POST"	"/financial-instrument-valuation-models/activation"
+"PUT"	"/financial-instrument-valuation-models/{sd-reference-id}/configuration"
+"PUT"	"/financial-instrument-valuation-models/{sd-reference-id}/feedback"

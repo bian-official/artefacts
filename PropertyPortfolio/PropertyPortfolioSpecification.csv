@@ -1,0 +1,13 @@
+"Service Domain specification for Property Portfolio"
+"Business Area"	Business Management
+"Business Domain"	Business Direction
+"Service Domain"	Property Portfolio
+"Role Definition"	"Manage and evaluate the fit to needs and effective utilization of the site/property portfolio for owned and leased properties. Optimize the allocation of business functions/divisions to the building and track and project capacity requirements"
+"Example of use"	"A new property is acquired and space allocated to business units based on demand"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	BuildingPortfolio
+"Generic Artifact"	Analysis
+"Control Record"	BuildingPortfolioAnalysis
+"Registration Status"	Registered

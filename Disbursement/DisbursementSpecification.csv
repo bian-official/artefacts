@@ -1,0 +1,13 @@
+"Service Domain specification for Disbursement"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Disbursement
+"Role Definition"	"This service domain handles the disbursement of funds typically for different loan facilities. Though typically a rather simple service it is modeled as a discrete service center as many banks handle disbursements from a specialist unit"
+"Example of use"	"A disbursement is processed at the closing of a new loan"
+"Executive Summary"	"This service domain handles the disbursement of funds to newly established loans/facilities as necessary"
+"Key Features"	"Handle disbursements for new loans. Report on disbursement activity/status"
+"Functional Pattern"	Transact
+"Asset Type"	Disbursement
+"Generic Artifact"	Transaction
+"Control Record"	DisbursementTransaction
+"Registration Status"	Registered

@@ -1,0 +1,13 @@
+"Service Domain specification for Employee and Contractor Contract"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Employee and Contractor Contract
+"Role Definition"	"Negotiate and maintain the employment contract for full, part time and contract workforce members"
+"Example of use"	"A new employees contract is set up"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Agree Terms
+"Asset Type"	Employee
+"Generic Artifact"	Agreement
+"Control Record"	EmployeeAgreement
+"Registration Status"	Registered

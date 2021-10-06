@@ -1,0 +1,36 @@
+"Control Record Model for: "	Document Library
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Document Directory Entry Instance Record	""	""	""
+"CR"	CR Document Directory Entry Instance Record	Document Name	"Descriptive name of the document"	String
+"CR"	CR Document Directory Entry Instance Record	Location Reference	"Location  within the bank  where the original document is created/captured"	Object
+"CR"	CR Document Directory Entry Instance Record	Business Unit/Employee Reference	"Reference of unit or employee responsible for creating or capturing the original"	Object
+"CR"	CR Document Directory Entry Instance Record	ProductandService Reference	"Reference to the associated product or service"	Object
+"CR"	CR Document Directory Entry Instance Record	ProductandService Action Reference	"Reference to the associated product or service activity (clarifies why the document was captured)"	Object
+"CR"	CR Document Directory Entry Instance Record	Document Creation Date	"The creation date of the original document"	Date
+"CR"	CR Document Directory Entry Instance Record	Document Capture Date/Time	"Date the document was first created/captured at the bank (can be the same as creation date for bank generated documents)"	Date
+"CR"	CR Document Directory Entry Instance Record	Document Type/Description	"General description of the type and outline content of the document"	String
+"CR"	CR Document Directory Entry Instance Record	Document Content	"Retrievable document content in any suitable media and format"	String
+"CR"	CR Document Directory Entry Instance Record	Document Provisioning History	"Tracks the movements of the document, from the original request for submission, through reference and access and eventual archiving"	String
+"CR"	CR Document Directory Entry Instance Record	Document Provisioning Request	"Details of the request to a holding party to provide access to a document"	String
+"CR"	CR Document Directory Entry Instance Record	Document Provisioning Schedule	"The planned and actual schedule for receipt and return as appropriate, including any time limits or deadlines"	String
+"CR"	CR Document Directory Entry Instance Record	Document Provisioning Result	"The result of the provisioning action (e.g. document received, document not provided in time)"	String
+"CR"	CR Document Directory Entry Instance Record	Document Version History	"Maintains links to earlier versions for a document with a replacement cycle"	String
+"CR"	CR Document Directory Entry Instance Record	Document Version	"The version with overview as needed"	String
+"CR"	CR Document Directory Entry Instance Record	Document Version Date	"The valid from-to dates for the version"	Date
+"CR"	CR Document Directory Entry Instance Record	Document Verification History	"Tracks any verification tasks performed against the document"	String
+"CR"	CR Document Directory Entry Instance Record	Document Verification Task Description	"A description of the actions taken to verify the document"	String
+"CR"	CR Document Directory Entry Instance Record	Document Verification Service Provider Reference	"Reference to an external agency used to perform a verification service"	Object
+"CR"	CR Document Directory Entry Instance Record	Document Verification Task Result	"The outcome of the verification assessment"	String
+"CR"	CR Document Directory Entry Instance Record	Document Amendment History	"Tracks any amendments or corrections made to the document"	String
+"CR"	CR Document Directory Entry Instance Record	Document Amendment Description	"Description of the amendment and the reason for the correction or change"	String
+"CR"	CR Document Directory Entry Instance Record	Document Amendment Result	"The outcome of the amendment in terms of changes made"	String
+"CR"	CR Document Directory Entry Instance Record	Document Update History	"Maintains an update log for a document with allowed updates"	String
+"CR"	CR Document Directory Entry Instance Record	Document Update Description	"Description of the update and reason for the change"	String
+"CR"	CR Document Directory Entry Instance Record	Document Update Result	"The outcome of the update in terms of changes made"	String
+"CR"	CR Document Directory Entry Instance Record	Document Archiving History	"Maintains a log of the physical and electronic archiving of a document including retrieval activity as appropriate"	String
+"CR"	CR Document Directory Entry Instance Record	Document Archiving Action	"Details of an action to archive or retrieve a document"	String
+"CR"	CR Document Directory Entry Instance Record	Document Archive Reference	"The archive storage reference for a document"	Object
+"CR"	CR Document Directory Entry Instance Record	Document Media/Format	"The available media and format for storing and retrieving the document"	String
+"CR"	CR Document Directory Entry Instance Record	Document Subject Reference	"Reference to associated parties  (e.g. source, custodian, subject, owner)"	Object
+"CR"	CR Document Directory Entry Instance Record	Document Location	"Tracked location of the physical document master version and any copies"	String
+"CR"	CR Document Directory Entry Instance Record	Document Status	"The status of the document  (e.g. on-file, authenticated, archived)"	String

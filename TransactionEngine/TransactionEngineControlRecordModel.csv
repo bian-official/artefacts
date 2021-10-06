@@ -1,0 +1,24 @@
+"Control Record Model for: "	Transaction Engine
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Transaction Schedule Arrangement Instance Record	""	""	""
+"CR"	CR Transaction Schedule Arrangement Instance Record	Product Instance Reference	"Reference to the product instance for which the transaction processing is being handled"	Object
+"CR"	CR Transaction Schedule Arrangement Instance Record	ProductandService Type	"The type or category of product or service that is being supported (e.g. mortgage, term loan)"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Fulfillment Schedule	"The processing schedule, covering reporting and financial transactions that are to be executed"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Work Task Record	"A record of an instance of the work tasks that can be performed by the service on behalf of the fulfillment product instance"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Work Task Type	"The type of work task (e.g. generate report/notification)"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Work Task Description	"Description of the task performed"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Work Task Work Products	"File of consolidated notes, forms and documents for the work task"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Work Task Result	"Details of the outcome or result of the work task"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Task Fee Transaction	"A record of an applied fee if applicable (this is charged to the parent product instance)"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Work Task Fee Transaction Description	"General description of the fee"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Work Task Fee Transaction Type	"The fee type applied"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Work Task Fee Transaction Charge	"The derived fee amount to be charged"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Financial Transaction	"Details of the financial transactions that are executed on behalf of the fulfillment product instance"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Financial Transaction Product Instance Reference	"Identifies the payment source of the transaction - usually a reference to the parent product instance"	Object
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Financial Transaction Type	"The sub-type of financial transaction"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Financial Transaction Description	"Any necessary details describing the purpose or reference properties of the transaction"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Transaction Schedule Financial Transaction Amount	"The volume or value of the transaction"	Amount
+"CR"	CR Transaction Schedule Arrangement Instance Record	Correspondence Instance Reference	"Reference to the correspondence generated for the transaction (e.g. confirmation note)"	Object
+"CR"	CR Transaction Schedule Arrangement Instance Record	Date Type	"Key dates and times associated with the transaction schedule financial transaction (e.g. initiation date, confirmation date)"	String
+"CR"	CR Transaction Schedule Arrangement Instance Record	Date	"Value of the date type"	String

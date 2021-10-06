@@ -1,0 +1,27 @@
+"Control Record Model for: "	Contact Center Operations
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Troubleshooting Instance Record	""	""	""
+"BQ"	BQ Troubleshooting Instance Record	Contact Center Production Issue Record	"A record of any production issues arising during the session (see Advanced Voice Channel Operations for detailed content)"	String
+"BQ"	BQ Troubleshooting Instance Record	Contact Center Issue Analysis And Recommended Response	"A record of the root cause analysis for recurring issues and suggested remedial action"	String
+"BQ"	BQ Peak Load Instance Record	""	""	""
+"BQ"	BQ Peak Load Instance Record	Contact Center Service Statistics	"Tracked activity and performance statistics used to manage the contact center resource assignments and menu configuration"	String
+"BQ"	BQ Peak Load Instance Record	Contact Center Service Statistic Type	"The type of activity that is tracked and analyze (e.g. wait time, average handle time, dropped call ratio, resolution rate)"	String
+"BQ"	BQ Peak Load Instance Record	Peak Load Response Task	"The task undertaken to address a detected peak load condition"	String
+"BQ"	BQ Peak Load Instance Record	Peak Load Response Task Type	"The type of response (e.g. staff reassignment)"	String
+"BQ"	BQ Peak Load Instance Record	Peak Load Response Description	"Description of the action taken and impact to service performance"	String
+"CR"	CR Contact Center Administrative Plan Instance Record	""	""	""
+"CR"	CR Contact Center Administrative Plan Instance Record	Contact Center Service Operating Configuration	"The default contact center operational configuration as defined by Contact Center Management (Note this can include some latitude for position assignment changes to be made during day to day operations by this service domain)"	String
+"CR"	CR Contact Center Administrative Plan Instance Record	Customer Servicing Representative Allocation Schedule	"Maintains the allocation records of available customer service representatives to the servicing positions defined in the contact center configuration. This includes past and future booking arrangements"	String
+"CR"	CR Contact Center Administrative Plan Instance Record	Customer Servicing Representative Reference	"Reference to a customer servicing representative"	Object
+"CR"	CR Contact Center Administrative Plan Instance Record	Customer Servicing Representative Record	"Details about a registered customer servicing representative"	String
+"CR"	CR Contact Center Administrative Plan Instance Record	Customer Servicing Representative Qualification Profile	"Details the qualification, expertise and level of experience of the servicing representative"	String
+"CR"	CR Contact Center Administrative Plan Instance Record	Customer Servicing Representative Location	"Reference to the locations the customer servicing representative can work from (can include remote working arrangements and time zone availability)"	String
+"CR"	CR Contact Center Administrative Plan Instance Record	Customer Servicing Representative Availability Schedule	"Details the time the customer servicing representative plans to be and is actually available for assignments which covers times for shift working and temporary/overtime assignments as may be necessary"	String
+"CR"	CR Contact Center Administrative Plan Instance Record	Customer Servicing Representative Status	"Tracks the current status indicating availability for assignment to a servicing position (where  the representative will coordinate with contact routing for customer contacts)"	String
+"CR"	CR Contact Center Administrative Plan Instance Record	Customer Servicing Representative Assignment Record	"Reference to a consolidated record of assignments. This is used to track utilization and performance"	String
+"BQ"	BQ Assignment Instance Record	""	""	""
+"BQ"	BQ Assignment Instance Record	Assignment Customer Servicing Representative	"Reference to the servicing representative"	String
+"BQ"	BQ Assignment Instance Record	Assignment Customer Servicing Position Reference	"Reference to the assigned servicing position/desk within the contact center"	Object
+"BQ"	BQ Assignment Instance Record	Assignment Customer Servicing Position Profile	"Details any specific properties for the assigned servicing position (e.g. type of product/service covered, required qualifications/certifications/experience)"	String
+"BQ"	BQ Assignment Instance Record	Assignment Customer Servicing Position Schedule	"Planned and actual servicing activity at the position during the session (records inbound contact details and allows for pre-assigned servicing actions e.g. outbound customer contacts for issue resolution/sales)"	String
+"BQ"	BQ Assignment Instance Record	Customer Contact Session Procedure Instance Reference	"Reference to the customer contact record for customer interactions during the servicing session"	Object

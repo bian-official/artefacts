@@ -1,0 +1,219 @@
+"Service Operations for: "	System Development
+""
+"POST"	"/system-development/activation"
+"PUT"	"/system-development/{sd-reference-id}/configuration"
+"PUT"	"/system-development/{sd-reference-id}/feedback"
+""
+"Post"	"/system-development/{sd-identifier}/it-system-development/{crbq-identifier}/creation"
+""	1	"inout"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"inout"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"inout"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"inout"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"inout"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"inout"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"inout"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"inout"	"Date Type"	"CR IT System Development Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/it-system-development/{crbq-identifier}/update"
+""	1	"inout"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"inout"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"inout"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"inout"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"inout"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"inout"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"inout"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"inout"	"Date Type"	"CR IT System Development Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/it-system-development/{crbq-identifier}/control"
+""
+"Put"	"/system-development/{sd-identifier}/it-system-development/{crbq-identifier}/exchange"
+""
+"Put"	"/system-development/{sd-identifier}/it-system-development/{crbq-identifier}/requisition"
+""	1	"inout"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"inout"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"inout"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"inout"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"inout"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"inout"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"inout"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"inout"	"Date Type"	"CR IT System Development Instance Record"	String
+""
+"Get"	"/system-development/{sd-identifier}/it-system-development/{crbq-identifier}/retrieval"
+""	1	"out"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"out"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"out"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"out"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"out"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"out"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"out"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"out"	"Date Type"	"CR IT System Development Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/functional-specification/{crbq-identifier}/update"
+""	1	"inout"	"Functional Specification Task Definition"	"BQ Functional Specification Instance Record"	String
+""	2	"inout"	"Functional Specification Task Work Products"	"BQ Functional Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Functional Specification Instance Record"	Object
+""	4	"inout"	"System Functional Specification"	"BQ Functional Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/functional-specification/{crbq-identifier}/exchange"
+""
+"Put"	"/system-development/{sd-identifier}/functional-specification/{crbq-identifier}/capture"
+""	1	"inout"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	2	"inout"	"Functional Specification Task Definition"	"BQ Functional Specification Instance Record"	String
+""	3	"inout"	"Functional Specification Task Work Products"	"BQ Functional Specification Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Functional Specification Instance Record"	Object
+""
+"Put"	"/system-development/{sd-identifier}/functional-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Functional Specification Task Definition"	"BQ Functional Specification Instance Record"	String
+""	2	"inout"	"Functional Specification Task Work Products"	"BQ Functional Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Functional Specification Instance Record"	Object
+""	4	"inout"	"System Functional Specification"	"BQ Functional Specification Instance Record"	String
+""
+"Get"	"/system-development/{sd-identifier}/functional-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"out"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"out"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"out"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"out"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"out"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"out"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"out"	"Date Type"	"CR IT System Development Instance Record"	String
+""	9	"out"	"Functional Specification Task Definition"	"BQ Functional Specification Instance Record"	String
+""	10	"out"	"Functional Specification Task Work Products"	"BQ Functional Specification Instance Record"	String
+""	11	"out"	"Document Directory Entry Instance Reference"	"BQ Functional Specification Instance Record"	Object
+""	12	"out"	"System Functional Specification"	"BQ Functional Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/technical-specification/{crbq-identifier}/update"
+""	1	"inout"	"Technical Specification Task Definition"	"BQ Technical Specification Instance Record"	String
+""	2	"inout"	"Technical Specification Task Work Products"	"BQ Technical Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Technical Specification Instance Record"	Object
+""	4	"inout"	"System Technical Specification"	"BQ Technical Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/technical-specification/{crbq-identifier}/exchange"
+""
+"Put"	"/system-development/{sd-identifier}/technical-specification/{crbq-identifier}/capture"
+""	1	"inout"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	2	"inout"	"Technical Specification Task Definition"	"BQ Technical Specification Instance Record"	String
+""	3	"inout"	"Technical Specification Task Work Products"	"BQ Technical Specification Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Technical Specification Instance Record"	Object
+""
+"Put"	"/system-development/{sd-identifier}/technical-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Technical Specification Task Definition"	"BQ Technical Specification Instance Record"	String
+""	2	"inout"	"Technical Specification Task Work Products"	"BQ Technical Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Technical Specification Instance Record"	Object
+""	4	"inout"	"System Technical Specification"	"BQ Technical Specification Instance Record"	String
+""
+"Get"	"/system-development/{sd-identifier}/technical-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"out"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"out"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"out"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"out"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"out"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"out"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"out"	"Date Type"	"CR IT System Development Instance Record"	String
+""	9	"out"	"Technical Specification Task Definition"	"BQ Technical Specification Instance Record"	String
+""	10	"out"	"Technical Specification Task Work Products"	"BQ Technical Specification Instance Record"	String
+""	11	"out"	"Document Directory Entry Instance Reference"	"BQ Technical Specification Instance Record"	Object
+""	12	"out"	"System Technical Specification"	"BQ Technical Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/software-and-data-specification/{crbq-identifier}/update"
+""	1	"inout"	"Software and Data Specification Task Definition"	"BQ Software and Data Specification Instance Record"	String
+""	2	"inout"	"Software and Data Specification Task Work Products"	"BQ Software and Data Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Software and Data Specification Instance Record"	Object
+""	4	"inout"	"System Software and Data Specification"	"BQ Software and Data Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/software-and-data-specification/{crbq-identifier}/exchange"
+""
+"Put"	"/system-development/{sd-identifier}/software-and-data-specification/{crbq-identifier}/capture"
+""	1	"inout"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	2	"inout"	"Software and Data Specification Task Definition"	"BQ Software and Data Specification Instance Record"	String
+""	3	"inout"	"Software and Data Specification Task Work Products"	"BQ Software and Data Specification Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Software and Data Specification Instance Record"	Object
+""
+"Put"	"/system-development/{sd-identifier}/software-and-data-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Software and Data Specification Task Definition"	"BQ Software and Data Specification Instance Record"	String
+""	2	"inout"	"Software and Data Specification Task Work Products"	"BQ Software and Data Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Software and Data Specification Instance Record"	Object
+""	4	"inout"	"System Software and Data Specification"	"BQ Software and Data Specification Instance Record"	String
+""
+"Get"	"/system-development/{sd-identifier}/software-and-data-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"out"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"out"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"out"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"out"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"out"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"out"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"out"	"Date Type"	"CR IT System Development Instance Record"	String
+""	9	"out"	"Software and Data Specification Task Definition"	"BQ Software and Data Specification Instance Record"	String
+""	10	"out"	"Software and Data Specification Task Work Products"	"BQ Software and Data Specification Instance Record"	String
+""	11	"out"	"Document Directory Entry Instance Reference"	"BQ Software and Data Specification Instance Record"	Object
+""	12	"out"	"System Software and Data Specification"	"BQ Software and Data Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/testing-specification/{crbq-identifier}/update"
+""	1	"inout"	"Testing Specification Task Definition"	"BQ Testing Specification Instance Record"	String
+""	2	"inout"	"Testing Specification Task Work Products"	"BQ Testing Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Testing Specification Instance Record"	Object
+""	4	"inout"	"System Testing Specification"	"BQ Testing Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/testing-specification/{crbq-identifier}/exchange"
+""
+"Put"	"/system-development/{sd-identifier}/testing-specification/{crbq-identifier}/capture"
+""	1	"inout"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	2	"inout"	"Testing Specification Task Definition"	"BQ Testing Specification Instance Record"	String
+""	3	"inout"	"Testing Specification Task Work Products"	"BQ Testing Specification Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Testing Specification Instance Record"	Object
+""
+"Put"	"/system-development/{sd-identifier}/testing-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Testing Specification Task Definition"	"BQ Testing Specification Instance Record"	String
+""	2	"inout"	"Testing Specification Task Work Products"	"BQ Testing Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Testing Specification Instance Record"	Object
+""	4	"inout"	"System Testing Specification"	"BQ Testing Specification Instance Record"	String
+""
+"Get"	"/system-development/{sd-identifier}/testing-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"out"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"out"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"out"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"out"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"out"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"out"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"out"	"Date Type"	"CR IT System Development Instance Record"	String
+""	9	"out"	"Testing Specification Task Definition"	"BQ Testing Specification Instance Record"	String
+""	10	"out"	"Testing Specification Task Work Products"	"BQ Testing Specification Instance Record"	String
+""	11	"out"	"Document Directory Entry Instance Reference"	"BQ Testing Specification Instance Record"	Object
+""	12	"out"	"System Testing Specification"	"BQ Testing Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/usage-specification/{crbq-identifier}/update"
+""	1	"inout"	"Usage Specification Task Definition"	"BQ Usage Specification Instance Record"	String
+""	2	"inout"	"Usage Specification Task Work Products"	"BQ Usage Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Usage Specification Instance Record"	Object
+""	4	"inout"	"System Functional Specification"	"BQ Usage Specification Instance Record"	String
+""
+"Put"	"/system-development/{sd-identifier}/usage-specification/{crbq-identifier}/exchange"
+""
+"Put"	"/system-development/{sd-identifier}/usage-specification/{crbq-identifier}/capture"
+""	1	"inout"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	2	"inout"	"Usage Specification Task Definition"	"BQ Usage Specification Instance Record"	String
+""	3	"inout"	"Usage Specification Task Work Products"	"BQ Usage Specification Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Usage Specification Instance Record"	Object
+""
+"Put"	"/system-development/{sd-identifier}/usage-specification/{crbq-identifier}/requisition"
+""	1	"inout"	"Usage Specification Task Definition"	"BQ Usage Specification Instance Record"	String
+""	2	"inout"	"Usage Specification Task Work Products"	"BQ Usage Specification Instance Record"	String
+""	3	"inout"	"Document Directory Entry Instance Reference"	"BQ Usage Specification Instance Record"	Object
+""	4	"inout"	"System Functional Specification"	"BQ Usage Specification Instance Record"	String
+""
+"Get"	"/system-development/{sd-identifier}/usage-specification/{crbq-identifier}/retrieval"
+""	1	"out"	"System Development Project Name"	"CR IT System Development Instance Record"	String
+""	2	"out"	"System Development Project Type"	"CR IT System Development Instance Record"	String
+""	3	"out"	"System Development Project Description"	"CR IT System Development Instance Record"	String
+""	4	"out"	"System Development Implementation Plan"	"CR IT System Development Instance Record"	String
+""	5	"out"	"System Development Budget"	"CR IT System Development Instance Record"	String
+""	6	"out"	"System Development Project Organization"	"CR IT System Development Instance Record"	String
+""	7	"out"	"System Development Project Schedule"	"CR IT System Development Instance Record"	String
+""	8	"out"	"Date Type"	"CR IT System Development Instance Record"	String
+""	9	"out"	"Usage Specification Task Definition"	"BQ Usage Specification Instance Record"	String
+""	10	"out"	"Usage Specification Task Work Products"	"BQ Usage Specification Instance Record"	String
+""	11	"out"	"Document Directory Entry Instance Reference"	"BQ Usage Specification Instance Record"	Object
+""	12	"out"	"System Functional Specification"	"BQ Usage Specification Instance Record"	String

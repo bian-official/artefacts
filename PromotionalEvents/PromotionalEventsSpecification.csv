@@ -1,0 +1,13 @@
+"Service Domain specification for Promotional Events"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Promotional Events
+"Role Definition"	"Develop and execute promotional events covering brand development and advertizing. This can include participation in sporting/entertainment events or more general promotional activity"
+"Example of use"	"Business development reviews market research to select promotional events to sponsor to support the bank brand and enhance market awareness"
+"Executive Summary"	"Develop the plan for and oversee promotional event activity, including budget and resource management"
+"Key Features"	"Track market/competitor activity in promotional events. Assess fit of promotional event sponsorship opportunities. Direct the participation in promotional events"
+"Functional Pattern"	Manage
+"Asset Type"	PromotionalEvent
+"Generic Artifact"	ManagementPlan
+"Control Record"	PromotionalEventManagementPlan
+"Registration Status"	Registered

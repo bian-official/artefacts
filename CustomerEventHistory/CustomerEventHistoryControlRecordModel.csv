@@ -1,0 +1,49 @@
+"Control Record Model for: "	Customer Event History
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Customer Event Log Instance Record	""	""	""
+"CR"	CR Customer Event Log Instance Record	Customer Reference	"Reference to the associated customer (can currently be a person or a company)"	Object
+"BQ"	BQ Servicing Instance Record	""	""	""
+"BQ"	BQ Servicing Instance Record	Customer Servicing Event Type	"The type of event (e.g. self-service, assisted)"	String
+"BQ"	BQ Servicing Instance Record	Customer Contact Record Reference	"Reference to a contact event log"	Object
+"BQ"	BQ Servicing Instance Record	Accessed ProductandService	"Reference to the types or instances of products/services being serviced if provided"	String
+"BQ"	BQ Servicing Instance Record	Channel/Device Type	"The channel and device used in the servicing event"	String
+"BQ"	BQ Servicing Instance Record	Contact Purpose	"The given purpose for the customer servicing action"	String
+"BQ"	BQ Servicing Instance Record	Contact Result	"The captured result of the servicing event"	String
+"BQ"	BQ Servicing Instance Record	Employee/Unit Reference	"Employees involved in recording the event"	Object
+"BQ"	BQ Servicing Instance Record	Customer Servicing Event Record	"The details of the event (in a suitable format)"	String
+"BQ"	BQ Servicing Instance Record	Date/Time/Location	"Date and time and the location the event was captured"	String
+"BQ"	BQ Sales Instance Record	""	""	""
+"BQ"	BQ Sales Instance Record	Customer Sales Event Type	"The type of event (e.g. campaign, unsolicited, solicited, development)"	String
+"BQ"	BQ Sales Instance Record	Employee/Unit Reference	"Employees involved in recording the event"	Object
+"BQ"	BQ Sales Instance Record	ProductandService Type	"The type of product or service being sold"	String
+"BQ"	BQ Sales Instance Record	Lead and Opportunity Reference	"Reference to the recorded lead/opportunity if sale progresses"	Object
+"BQ"	BQ Sales Instance Record	Customer Sales Event Record	"The details of the event (in a suitable format)"	String
+"BQ"	BQ Sales Instance Record	Commission Agreement Reference	"Reference to any commission agreement if appropriate"	Object
+"BQ"	BQ Sales Instance Record	Date/Time/Location	"Date and time and the location the event was captured"	String
+"BQ"	BQ Fraud Instance Record	""	""	""
+"BQ"	BQ Fraud Instance Record	Customer Fraud Case Event Type	"The type of event  (e.g. stolen card, disputed transaction)"	String
+"BQ"	BQ Fraud Instance Record	Customer Contact Record Reference	"Reference to a contact event log"	Object
+"BQ"	BQ Fraud Instance Record	Accessed ProductandService	"Reference to the types or instances of products/services being serviced if provided"	String
+"BQ"	BQ Fraud Instance Record	Employee/Unit Reference	"Employees involved in recording the fraud case"	Object
+"BQ"	BQ Fraud Instance Record	Fraud Case Reference	"Reference to the fraud case processing the analysis and response"	Object
+"BQ"	BQ Fraud Instance Record	Date/Time/Location	"Date and time and the location the event was captured"	String
+"BQ"	BQ Relationship Instance Record	""	""	""
+"BQ"	BQ Relationship Instance Record	Customer Relationship Event Type	""	String
+"BQ"	BQ Relationship Instance Record	Employee/Unit Reference	""	Object
+"BQ"	BQ Relationship Instance Record	Customer Relationship Event Record	""	String
+"BQ"	BQ Relationship Instance Record	Customer Relationship Event Action	""	String
+"BQ"	BQ Relationship Instance Record	Date/Time/Location	""	String
+"BQ"	BQ Life Instance Record	""	""	""
+"BQ"	BQ Life Instance Record	Customer Life Event Type	"The type of event  (e.g. marriage/divorce, relocation, birth, graduation)"	String
+"BQ"	BQ Life Instance Record	Customer Contact Record Reference	"Reference to a contact event log"	Object
+"BQ"	BQ Life Instance Record	Employee/Unit Reference	"Employees involved in capturing the event"	Object
+"BQ"	BQ Life Instance Record	Customer Life Event Record	"The details of the event (in a suitable format)"	String
+"BQ"	BQ Life Instance Record	Date/Time/Location	"Date and time and the location the event was captured"	String
+"BQ"	BQ Product Processing Instance Record	""	""	""
+"BQ"	BQ Product Processing Instance Record	Product Instance Reference	"Reference to the specific product instance being processed"	Object
+"BQ"	BQ Product Processing Instance Record	Product Action/Event Type	"The type of event (e.g. payment initiation, statement request)"	String
+"BQ"	BQ Product Processing Instance Record	Product Action/Event Description	"Details of the processing activity if available"	String
+"BQ"	BQ Product Processing Instance Record	Product Action/Event Result	"Outcome of the processing action if available"	String
+"BQ"	BQ Product Processing Instance Record	Employee/Unit Reference	"Employees involved in recording the event"	Object
+"BQ"	BQ Product Processing Instance Record	Customer ProductandService Event Record	"The details of the event (in a suitable format)"	String
+"BQ"	BQ Product Processing Instance Record	Date/Time/Location	"Date and time and the location the event was captured"	String

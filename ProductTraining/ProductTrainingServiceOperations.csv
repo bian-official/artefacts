@@ -1,0 +1,383 @@
+"Service Operations for: "	Product Training
+""
+"POST"	"/product-training/activation"
+"PUT"	"/product-training/{sd-reference-id}/configuration"
+"PUT"	"/product-training/{sd-reference-id}/feedback"
+""
+"Put"	"/product-training/{sd-identifier}/product-training-procedure/{crbq-identifier}/control"
+""	1	"inout"	"Product Training Procedure Parameter Type"	"CR Product Training Procedure Instance Record"	String
+""	2	"inout"	"Product Training Procedure Selected Option"	"CR Product Training Procedure Instance Record"	String
+""	3	"inout"	"Product Training Procedure Request"	"CR Product Training Procedure Instance Record"	String
+""	4	"inout"	"Product Training Procedure Schedule"	"CR Product Training Procedure Instance Record"	String
+""	5	"inout"	"Product Training Procedure Status"	"CR Product Training Procedure Instance Record"	String
+""	6	"in"	"Product Training Procedure Reference"	"CR Product Training Procedure Instance Record"	Object
+""	7	"in"	"Product Training Procedure Business Unit Reference"	"CR Product Training Procedure Instance Record"	Object
+""	8	"in"	"Product Training Procedure ServiceProvider Reference"	"CR Product Training Procedure Instance Record"	Object
+""	9	"in"	"Product Training Procedure Financial Facility Reference"	"CR Product Training Procedure Instance Record"	Object
+""	10	"in"	"Product Training Procedure Employee Reference"	"CR Product Training Procedure Instance Record"	Object
+""	11	"in"	"Product Training Procedure Customer Reference"	"CR Product Training Procedure Instance Record"	Object
+""	12	"in"	"Product Training Procedure Type"	"CR Product Training Procedure Instance Record"	String
+""	13	"in"	"Product Training Procedure Service Provider Schedule"	"CR Product Training Procedure Instance Record"	String
+""	14	"in"	"Product Training Procedure Service Type"	"CR Product Training Procedure Instance Record"	String
+""	15	"in"	"Product Training Procedure ProductandService Type"	"CR Product Training Procedure Instance Record"	String
+""	16	"in"	"Product Training Procedure ProductandService Instance"	"CR Product Training Procedure Instance Record"	String
+""	17	"in"	"Product Training Procedure Transaction Type"	"CR Product Training Procedure Instance Record"	String
+""	18	"in"	"Product Training Procedure Financial Transaction Arrangement"	"CR Product Training Procedure Instance Record"	String
+""	19	"in"	"Product Training Procedure Customer Agreement Reference"	"CR Product Training Procedure Instance Record"	Object
+""
+"Put"	"/product-training/{sd-identifier}/content-development/{crbq-identifier}/exchange"
+""	1	"inout"	"Content Development Preconditions"	"BQ Content Development Instance Record"	String
+""	2	"inout"	"Content Development Business Unit/Employee Reference"	"BQ Content Development Instance Record"	Object
+""	3	"inout"	"Content Development Work Schedule"	"BQ Content Development Instance Record"	String
+""	4	"inout"	"Content Development Postconditions"	"BQ Content Development Instance Record"	String
+""	5	"inout"	"Content Development Content Development Service Type"	"BQ Content Development Instance Record"	String
+""	6	"inout"	"Content Development Content Development Service Description"	"BQ Content Development Instance Record"	String
+""	7	"inout"	"Content Development Content Development Service Inputs and Ouputs"	"BQ Content Development Instance Record"	String
+""	8	"inout"	"Content Development Content Development Service Work Product"	"BQ Content Development Instance Record"	String
+""	9	"inout"	"Content Development Content Development Service Name"	"BQ Content Development Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-delivery/{crbq-identifier}/exchange"
+""	1	"inout"	"Service Delivery Preconditions"	"BQ Service Delivery Instance Record"	String
+""	2	"inout"	"Service Delivery Business Unit/Employee Reference"	"BQ Service Delivery Instance Record"	Object
+""	3	"inout"	"Service Delivery Work Schedule"	"BQ Service Delivery Instance Record"	String
+""	4	"inout"	"Service Delivery Postconditions"	"BQ Service Delivery Instance Record"	String
+""	5	"inout"	"Service Delivery Service Delivery Service Type"	"BQ Service Delivery Instance Record"	String
+""	6	"inout"	"Service Delivery Service Delivery Service Description"	"BQ Service Delivery Instance Record"	String
+""	7	"inout"	"Service Delivery Service Delivery Service Inputs and Ouputs"	"BQ Service Delivery Instance Record"	String
+""	8	"inout"	"Service Delivery Service Delivery Service Work Product"	"BQ Service Delivery Instance Record"	String
+""	9	"inout"	"Service Delivery Service Delivery Service Name"	"BQ Service Delivery Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-evaluation/{crbq-identifier}/exchange"
+""	1	"inout"	"Service Evaluation Preconditions"	"BQ Service Evaluation Instance Record"	String
+""	2	"inout"	"Service Evaluation Business Unit/Employee Reference"	"BQ Service Evaluation Instance Record"	Object
+""	3	"inout"	"Service Evaluation Work Schedule"	"BQ Service Evaluation Instance Record"	String
+""	4	"inout"	"Service Evaluation Postconditions"	"BQ Service Evaluation Instance Record"	String
+""	5	"inout"	"Service Evaluation Service Evaluation Service Type"	"BQ Service Evaluation Instance Record"	String
+""	6	"inout"	"Service Evaluation Service Evaluation Service Description"	"BQ Service Evaluation Instance Record"	String
+""	7	"inout"	"Service Evaluation Service Evaluation Service Inputs and Ouputs"	"BQ Service Evaluation Instance Record"	String
+""	8	"inout"	"Service Evaluation Service Evaluation Service Work Product"	"BQ Service Evaluation Instance Record"	String
+""	9	"inout"	"Service Evaluation Service Evaluation Service Name"	"BQ Service Evaluation Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-scheduling/{crbq-identifier}/exchange"
+""	1	"inout"	"Service Scheduling Preconditions"	"BQ Service Scheduling Instance Record"	String
+""	2	"inout"	"Service Scheduling Business Unit/Employee Reference"	"BQ Service Scheduling Instance Record"	Object
+""	3	"inout"	"Service Scheduling Work Schedule"	"BQ Service Scheduling Instance Record"	String
+""	4	"inout"	"Service Scheduling Postconditions"	"BQ Service Scheduling Instance Record"	String
+""	5	"inout"	"Service Scheduling Service Scheduling Service Type"	"BQ Service Scheduling Instance Record"	String
+""	6	"inout"	"Service Scheduling Service Scheduling Service Description"	"BQ Service Scheduling Instance Record"	String
+""	7	"inout"	"Service Scheduling Service Scheduling Service Inputs and Ouputs"	"BQ Service Scheduling Instance Record"	String
+""	8	"inout"	"Service Scheduling Service Scheduling Service Work Product"	"BQ Service Scheduling Instance Record"	String
+""	9	"inout"	"Service Scheduling Service Scheduling Service Name"	"BQ Service Scheduling Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/product-training-procedure/{crbq-identifier}/exchange"
+""	1	"inout"	"Product Training Procedure Parameter Type"	"CR Product Training Procedure Instance Record"	String
+""	2	"inout"	"Product Training Procedure Selected Option"	"CR Product Training Procedure Instance Record"	String
+""	3	"inout"	"Product Training Procedure Request"	"CR Product Training Procedure Instance Record"	String
+""	4	"inout"	"Product Training Procedure Schedule"	"CR Product Training Procedure Instance Record"	String
+""	5	"inout"	"Product Training Procedure Status"	"CR Product Training Procedure Instance Record"	String
+""	6	"in"	"Product Training Procedure Reference"	"CR Product Training Procedure Instance Record"	Object
+""	7	"in"	"Product Training Procedure Business Unit Reference"	"CR Product Training Procedure Instance Record"	Object
+""	8	"in"	"Product Training Procedure ServiceProvider Reference"	"CR Product Training Procedure Instance Record"	Object
+""	9	"in"	"Product Training Procedure Financial Facility Reference"	"CR Product Training Procedure Instance Record"	Object
+""	10	"in"	"Product Training Procedure Employee Reference"	"CR Product Training Procedure Instance Record"	Object
+""	11	"in"	"Product Training Procedure Customer Reference"	"CR Product Training Procedure Instance Record"	Object
+""	12	"in"	"Product Training Procedure Type"	"CR Product Training Procedure Instance Record"	String
+""	13	"in"	"Product Training Procedure Service Provider Schedule"	"CR Product Training Procedure Instance Record"	String
+""	14	"in"	"Product Training Procedure Service Type"	"CR Product Training Procedure Instance Record"	String
+""	15	"in"	"Product Training Procedure ProductandService Type"	"CR Product Training Procedure Instance Record"	String
+""	16	"in"	"Product Training Procedure ProductandService Instance"	"CR Product Training Procedure Instance Record"	String
+""	17	"in"	"Product Training Procedure Transaction Type"	"CR Product Training Procedure Instance Record"	String
+""	18	"in"	"Product Training Procedure Financial Transaction Arrangement"	"CR Product Training Procedure Instance Record"	String
+""	19	"in"	"Product Training Procedure Customer Agreement Reference"	"CR Product Training Procedure Instance Record"	Object
+""
+"Put"	"/product-training/{sd-identifier}/service-delivery/{crbq-identifier}/execution"
+""	1	"inout"	"Service Delivery Preconditions"	"BQ Service Delivery Instance Record"	String
+""	2	"inout"	"Service Delivery Business Unit/Employee Reference"	"BQ Service Delivery Instance Record"	Object
+""	3	"inout"	"Service Delivery Work Schedule"	"BQ Service Delivery Instance Record"	String
+""	4	"inout"	"Service Delivery Postconditions"	"BQ Service Delivery Instance Record"	String
+""	5	"inout"	"Service Delivery Service Delivery Service Type"	"BQ Service Delivery Instance Record"	String
+""	6	"inout"	"Service Delivery Service Delivery Service Description"	"BQ Service Delivery Instance Record"	String
+""	7	"inout"	"Service Delivery Service Delivery Service Inputs and Ouputs"	"BQ Service Delivery Instance Record"	String
+""	8	"inout"	"Service Delivery Service Delivery Service Work Product"	"BQ Service Delivery Instance Record"	String
+""	9	"inout"	"Service Delivery Service Delivery Service Name"	"BQ Service Delivery Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-scheduling/{crbq-identifier}/execution"
+""	1	"inout"	"Service Scheduling Preconditions"	"BQ Service Scheduling Instance Record"	String
+""	2	"inout"	"Service Scheduling Business Unit/Employee Reference"	"BQ Service Scheduling Instance Record"	Object
+""	3	"inout"	"Service Scheduling Work Schedule"	"BQ Service Scheduling Instance Record"	String
+""	4	"inout"	"Service Scheduling Postconditions"	"BQ Service Scheduling Instance Record"	String
+""	5	"inout"	"Service Scheduling Service Scheduling Service Type"	"BQ Service Scheduling Instance Record"	String
+""	6	"inout"	"Service Scheduling Service Scheduling Service Description"	"BQ Service Scheduling Instance Record"	String
+""	7	"inout"	"Service Scheduling Service Scheduling Service Inputs and Ouputs"	"BQ Service Scheduling Instance Record"	String
+""	8	"inout"	"Service Scheduling Service Scheduling Service Work Product"	"BQ Service Scheduling Instance Record"	String
+""	9	"inout"	"Service Scheduling Service Scheduling Service Name"	"BQ Service Scheduling Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/product-training-procedure/{crbq-identifier}/execution"
+""	1	"inout"	"Product Training Procedure Parameter Type"	"CR Product Training Procedure Instance Record"	String
+""	2	"inout"	"Product Training Procedure Selected Option"	"CR Product Training Procedure Instance Record"	String
+""	3	"inout"	"Product Training Procedure Request"	"CR Product Training Procedure Instance Record"	String
+""	4	"inout"	"Product Training Procedure Schedule"	"CR Product Training Procedure Instance Record"	String
+""	5	"inout"	"Product Training Procedure Status"	"CR Product Training Procedure Instance Record"	String
+""	6	"in"	"Product Training Procedure Reference"	"CR Product Training Procedure Instance Record"	Object
+""	7	"in"	"Product Training Procedure Business Unit Reference"	"CR Product Training Procedure Instance Record"	Object
+""	8	"in"	"Product Training Procedure ServiceProvider Reference"	"CR Product Training Procedure Instance Record"	Object
+""	9	"in"	"Product Training Procedure Financial Facility Reference"	"CR Product Training Procedure Instance Record"	Object
+""	10	"in"	"Product Training Procedure Employee Reference"	"CR Product Training Procedure Instance Record"	Object
+""	11	"in"	"Product Training Procedure Customer Reference"	"CR Product Training Procedure Instance Record"	Object
+""	12	"in"	"Product Training Procedure Type"	"CR Product Training Procedure Instance Record"	String
+""	13	"in"	"Product Training Procedure Service Provider Schedule"	"CR Product Training Procedure Instance Record"	String
+""	14	"in"	"Product Training Procedure Service Type"	"CR Product Training Procedure Instance Record"	String
+""	15	"in"	"Product Training Procedure ProductandService Type"	"CR Product Training Procedure Instance Record"	String
+""	16	"in"	"Product Training Procedure ProductandService Instance"	"CR Product Training Procedure Instance Record"	String
+""	17	"in"	"Product Training Procedure Transaction Type"	"CR Product Training Procedure Instance Record"	String
+""	18	"in"	"Product Training Procedure Financial Transaction Arrangement"	"CR Product Training Procedure Instance Record"	String
+""	19	"in"	"Product Training Procedure Customer Agreement Reference"	"CR Product Training Procedure Instance Record"	Object
+""
+"Post"	"/product-training/{sd-identifier}/content-development/{crbq-identifier}/initiation"
+""	1	"inout"	"Content Development Preconditions"	"BQ Content Development Instance Record"	String
+""	2	"inout"	"Content Development Business Unit/Employee Reference"	"BQ Content Development Instance Record"	Object
+""	3	"inout"	"Content Development Work Schedule"	"BQ Content Development Instance Record"	String
+""	4	"inout"	"Content Development Postconditions"	"BQ Content Development Instance Record"	String
+""	5	"inout"	"Content Development Content Development Service Type"	"BQ Content Development Instance Record"	String
+""	6	"inout"	"Content Development Content Development Service Description"	"BQ Content Development Instance Record"	String
+""	7	"inout"	"Content Development Content Development Service Inputs and Ouputs"	"BQ Content Development Instance Record"	String
+""	8	"inout"	"Content Development Content Development Service Work Product"	"BQ Content Development Instance Record"	String
+""	9	"inout"	"Content Development Content Development Service Name"	"BQ Content Development Instance Record"	String
+""
+"Post"	"/product-training/{sd-identifier}/service-delivery/{crbq-identifier}/initiation"
+""	1	"inout"	"Service Delivery Preconditions"	"BQ Service Delivery Instance Record"	String
+""	2	"inout"	"Service Delivery Business Unit/Employee Reference"	"BQ Service Delivery Instance Record"	Object
+""	3	"inout"	"Service Delivery Work Schedule"	"BQ Service Delivery Instance Record"	String
+""	4	"inout"	"Service Delivery Postconditions"	"BQ Service Delivery Instance Record"	String
+""	5	"inout"	"Service Delivery Service Delivery Service Type"	"BQ Service Delivery Instance Record"	String
+""	6	"inout"	"Service Delivery Service Delivery Service Description"	"BQ Service Delivery Instance Record"	String
+""	7	"inout"	"Service Delivery Service Delivery Service Inputs and Ouputs"	"BQ Service Delivery Instance Record"	String
+""	8	"inout"	"Service Delivery Service Delivery Service Work Product"	"BQ Service Delivery Instance Record"	String
+""	9	"inout"	"Service Delivery Service Delivery Service Name"	"BQ Service Delivery Instance Record"	String
+""
+"Post"	"/product-training/{sd-identifier}/service-scheduling/{crbq-identifier}/initiation"
+""	1	"inout"	"Service Scheduling Preconditions"	"BQ Service Scheduling Instance Record"	String
+""	2	"inout"	"Service Scheduling Business Unit/Employee Reference"	"BQ Service Scheduling Instance Record"	Object
+""	3	"inout"	"Service Scheduling Work Schedule"	"BQ Service Scheduling Instance Record"	String
+""	4	"inout"	"Service Scheduling Postconditions"	"BQ Service Scheduling Instance Record"	String
+""	5	"inout"	"Service Scheduling Service Scheduling Service Type"	"BQ Service Scheduling Instance Record"	String
+""	6	"inout"	"Service Scheduling Service Scheduling Service Description"	"BQ Service Scheduling Instance Record"	String
+""	7	"inout"	"Service Scheduling Service Scheduling Service Inputs and Ouputs"	"BQ Service Scheduling Instance Record"	String
+""	8	"inout"	"Service Scheduling Service Scheduling Service Work Product"	"BQ Service Scheduling Instance Record"	String
+""	9	"inout"	"Service Scheduling Service Scheduling Service Name"	"BQ Service Scheduling Instance Record"	String
+""
+"Post"	"/product-training/{sd-identifier}/product-training-procedure/{crbq-identifier}/initiation"
+""	1	"inout"	"Product Training Procedure Parameter Type"	"CR Product Training Procedure Instance Record"	String
+""	2	"inout"	"Product Training Procedure Selected Option"	"CR Product Training Procedure Instance Record"	String
+""	3	"inout"	"Product Training Procedure Request"	"CR Product Training Procedure Instance Record"	String
+""	4	"inout"	"Product Training Procedure Schedule"	"CR Product Training Procedure Instance Record"	String
+""	5	"inout"	"Product Training Procedure Status"	"CR Product Training Procedure Instance Record"	String
+""	6	"in"	"Product Training Procedure Reference"	"CR Product Training Procedure Instance Record"	Object
+""	7	"in"	"Product Training Procedure Business Unit Reference"	"CR Product Training Procedure Instance Record"	Object
+""	8	"in"	"Product Training Procedure ServiceProvider Reference"	"CR Product Training Procedure Instance Record"	Object
+""	9	"in"	"Product Training Procedure Financial Facility Reference"	"CR Product Training Procedure Instance Record"	Object
+""	10	"in"	"Product Training Procedure Employee Reference"	"CR Product Training Procedure Instance Record"	Object
+""	11	"in"	"Product Training Procedure Customer Reference"	"CR Product Training Procedure Instance Record"	Object
+""	12	"in"	"Product Training Procedure Type"	"CR Product Training Procedure Instance Record"	String
+""	13	"in"	"Product Training Procedure Service Provider Schedule"	"CR Product Training Procedure Instance Record"	String
+""	14	"in"	"Product Training Procedure Service Type"	"CR Product Training Procedure Instance Record"	String
+""	15	"in"	"Product Training Procedure ProductandService Type"	"CR Product Training Procedure Instance Record"	String
+""	16	"in"	"Product Training Procedure ProductandService Instance"	"CR Product Training Procedure Instance Record"	String
+""	17	"in"	"Product Training Procedure Transaction Type"	"CR Product Training Procedure Instance Record"	String
+""	18	"in"	"Product Training Procedure Financial Transaction Arrangement"	"CR Product Training Procedure Instance Record"	String
+""	19	"in"	"Product Training Procedure Customer Agreement Reference"	"CR Product Training Procedure Instance Record"	Object
+""
+"Get"	"/product-training/{sd-identifier}/content-development/{crbq-identifier}/retrieval"
+""	1	"out"	"Content Development Preconditions"	"BQ Content Development Instance Record"	String
+""	2	"out"	"Content Development Business Unit/Employee Reference"	"BQ Content Development Instance Record"	Object
+""	3	"out"	"Content Development Work Schedule"	"BQ Content Development Instance Record"	String
+""	4	"out"	"Content Development Postconditions"	"BQ Content Development Instance Record"	String
+""	5	"out"	"Content Development Content Development Service Type"	"BQ Content Development Instance Record"	String
+""	6	"out"	"Content Development Content Development Service Description"	"BQ Content Development Instance Record"	String
+""	7	"out"	"Content Development Content Development Service Inputs and Ouputs"	"BQ Content Development Instance Record"	String
+""	8	"out"	"Content Development Content Development Service Work Product"	"BQ Content Development Instance Record"	String
+""	9	"out"	"Content Development Content Development Service Name"	"BQ Content Development Instance Record"	String
+""
+"Get"	"/product-training/{sd-identifier}/service-delivery/{crbq-identifier}/retrieval"
+""	1	"out"	"Service Delivery Preconditions"	"BQ Service Delivery Instance Record"	String
+""	2	"out"	"Service Delivery Business Unit/Employee Reference"	"BQ Service Delivery Instance Record"	Object
+""	3	"out"	"Service Delivery Work Schedule"	"BQ Service Delivery Instance Record"	String
+""	4	"out"	"Service Delivery Postconditions"	"BQ Service Delivery Instance Record"	String
+""	5	"out"	"Service Delivery Service Delivery Service Type"	"BQ Service Delivery Instance Record"	String
+""	6	"out"	"Service Delivery Service Delivery Service Description"	"BQ Service Delivery Instance Record"	String
+""	7	"out"	"Service Delivery Service Delivery Service Inputs and Ouputs"	"BQ Service Delivery Instance Record"	String
+""	8	"out"	"Service Delivery Service Delivery Service Work Product"	"BQ Service Delivery Instance Record"	String
+""	9	"out"	"Service Delivery Service Delivery Service Name"	"BQ Service Delivery Instance Record"	String
+""
+"Get"	"/product-training/{sd-identifier}/service-evaluation/{crbq-identifier}/retrieval"
+""	1	"out"	"Service Evaluation Preconditions"	"BQ Service Evaluation Instance Record"	String
+""	2	"out"	"Service Evaluation Business Unit/Employee Reference"	"BQ Service Evaluation Instance Record"	Object
+""	3	"out"	"Service Evaluation Work Schedule"	"BQ Service Evaluation Instance Record"	String
+""	4	"out"	"Service Evaluation Postconditions"	"BQ Service Evaluation Instance Record"	String
+""	5	"out"	"Service Evaluation Service Evaluation Service Type"	"BQ Service Evaluation Instance Record"	String
+""	6	"out"	"Service Evaluation Service Evaluation Service Description"	"BQ Service Evaluation Instance Record"	String
+""	7	"out"	"Service Evaluation Service Evaluation Service Inputs and Ouputs"	"BQ Service Evaluation Instance Record"	String
+""	8	"out"	"Service Evaluation Service Evaluation Service Work Product"	"BQ Service Evaluation Instance Record"	String
+""	9	"out"	"Service Evaluation Service Evaluation Service Name"	"BQ Service Evaluation Instance Record"	String
+""
+"Get"	"/product-training/{sd-identifier}/service-scheduling/{crbq-identifier}/retrieval"
+""	1	"out"	"Service Scheduling Preconditions"	"BQ Service Scheduling Instance Record"	String
+""	2	"out"	"Service Scheduling Business Unit/Employee Reference"	"BQ Service Scheduling Instance Record"	Object
+""	3	"out"	"Service Scheduling Work Schedule"	"BQ Service Scheduling Instance Record"	String
+""	4	"out"	"Service Scheduling Postconditions"	"BQ Service Scheduling Instance Record"	String
+""	5	"out"	"Service Scheduling Service Scheduling Service Type"	"BQ Service Scheduling Instance Record"	String
+""	6	"out"	"Service Scheduling Service Scheduling Service Description"	"BQ Service Scheduling Instance Record"	String
+""	7	"out"	"Service Scheduling Service Scheduling Service Inputs and Ouputs"	"BQ Service Scheduling Instance Record"	String
+""	8	"out"	"Service Scheduling Service Scheduling Service Work Product"	"BQ Service Scheduling Instance Record"	String
+""	9	"out"	"Service Scheduling Service Scheduling Service Name"	"BQ Service Scheduling Instance Record"	String
+""
+"Get"	"/product-training/{sd-identifier}/product-training-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Training Procedure Parameter Type"	"CR Product Training Procedure Instance Record"	String
+""	2	"out"	"Product Training Procedure Selected Option"	"CR Product Training Procedure Instance Record"	String
+""	3	"out"	"Product Training Procedure Request"	"CR Product Training Procedure Instance Record"	String
+""	4	"out"	"Product Training Procedure Schedule"	"CR Product Training Procedure Instance Record"	String
+""	5	"out"	"Product Training Procedure Status"	"CR Product Training Procedure Instance Record"	String
+""	6	"out"	"Product Training Procedure Reference"	"CR Product Training Procedure Instance Record"	Object
+""	7	"out"	"Product Training Procedure Business Unit Reference"	"CR Product Training Procedure Instance Record"	Object
+""	8	"out"	"Product Training Procedure ServiceProvider Reference"	"CR Product Training Procedure Instance Record"	Object
+""	9	"out"	"Product Training Procedure Financial Facility Reference"	"CR Product Training Procedure Instance Record"	Object
+""	10	"out"	"Product Training Procedure Employee Reference"	"CR Product Training Procedure Instance Record"	Object
+""	11	"out"	"Product Training Procedure Customer Reference"	"CR Product Training Procedure Instance Record"	Object
+""	12	"out"	"Product Training Procedure Type"	"CR Product Training Procedure Instance Record"	String
+""	13	"out"	"Product Training Procedure Service Provider Schedule"	"CR Product Training Procedure Instance Record"	String
+""	14	"out"	"Product Training Procedure Service Type"	"CR Product Training Procedure Instance Record"	String
+""	15	"out"	"Product Training Procedure ProductandService Type"	"CR Product Training Procedure Instance Record"	String
+""	16	"out"	"Product Training Procedure ProductandService Instance"	"CR Product Training Procedure Instance Record"	String
+""	17	"out"	"Product Training Procedure Transaction Type"	"CR Product Training Procedure Instance Record"	String
+""	18	"out"	"Product Training Procedure Financial Transaction Arrangement"	"CR Product Training Procedure Instance Record"	String
+""	19	"out"	"Product Training Procedure Customer Agreement Reference"	"CR Product Training Procedure Instance Record"	Object
+""
+"Put"	"/product-training/{sd-identifier}/content-development/{crbq-identifier}/requisition"
+""	1	"inout"	"Content Development Preconditions"	"BQ Content Development Instance Record"	String
+""	2	"inout"	"Content Development Business Unit/Employee Reference"	"BQ Content Development Instance Record"	Object
+""	3	"inout"	"Content Development Work Schedule"	"BQ Content Development Instance Record"	String
+""	4	"inout"	"Content Development Postconditions"	"BQ Content Development Instance Record"	String
+""	5	"inout"	"Content Development Content Development Service Type"	"BQ Content Development Instance Record"	String
+""	6	"inout"	"Content Development Content Development Service Description"	"BQ Content Development Instance Record"	String
+""	7	"inout"	"Content Development Content Development Service Inputs and Ouputs"	"BQ Content Development Instance Record"	String
+""	8	"inout"	"Content Development Content Development Service Work Product"	"BQ Content Development Instance Record"	String
+""	9	"inout"	"Content Development Content Development Service Name"	"BQ Content Development Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-delivery/{crbq-identifier}/requisition"
+""	1	"inout"	"Service Delivery Preconditions"	"BQ Service Delivery Instance Record"	String
+""	2	"inout"	"Service Delivery Business Unit/Employee Reference"	"BQ Service Delivery Instance Record"	Object
+""	3	"inout"	"Service Delivery Work Schedule"	"BQ Service Delivery Instance Record"	String
+""	4	"inout"	"Service Delivery Postconditions"	"BQ Service Delivery Instance Record"	String
+""	5	"inout"	"Service Delivery Service Delivery Service Type"	"BQ Service Delivery Instance Record"	String
+""	6	"inout"	"Service Delivery Service Delivery Service Description"	"BQ Service Delivery Instance Record"	String
+""	7	"inout"	"Service Delivery Service Delivery Service Inputs and Ouputs"	"BQ Service Delivery Instance Record"	String
+""	8	"inout"	"Service Delivery Service Delivery Service Work Product"	"BQ Service Delivery Instance Record"	String
+""	9	"inout"	"Service Delivery Service Delivery Service Name"	"BQ Service Delivery Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-evaluation/{crbq-identifier}/requisition"
+""	1	"inout"	"Service Evaluation Preconditions"	"BQ Service Evaluation Instance Record"	String
+""	2	"inout"	"Service Evaluation Business Unit/Employee Reference"	"BQ Service Evaluation Instance Record"	Object
+""	3	"inout"	"Service Evaluation Work Schedule"	"BQ Service Evaluation Instance Record"	String
+""	4	"inout"	"Service Evaluation Postconditions"	"BQ Service Evaluation Instance Record"	String
+""	5	"inout"	"Service Evaluation Service Evaluation Service Type"	"BQ Service Evaluation Instance Record"	String
+""	6	"inout"	"Service Evaluation Service Evaluation Service Description"	"BQ Service Evaluation Instance Record"	String
+""	7	"inout"	"Service Evaluation Service Evaluation Service Inputs and Ouputs"	"BQ Service Evaluation Instance Record"	String
+""	8	"inout"	"Service Evaluation Service Evaluation Service Work Product"	"BQ Service Evaluation Instance Record"	String
+""	9	"inout"	"Service Evaluation Service Evaluation Service Name"	"BQ Service Evaluation Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-scheduling/{crbq-identifier}/requisition"
+""	1	"inout"	"Service Scheduling Preconditions"	"BQ Service Scheduling Instance Record"	String
+""	2	"inout"	"Service Scheduling Business Unit/Employee Reference"	"BQ Service Scheduling Instance Record"	Object
+""	3	"inout"	"Service Scheduling Work Schedule"	"BQ Service Scheduling Instance Record"	String
+""	4	"inout"	"Service Scheduling Postconditions"	"BQ Service Scheduling Instance Record"	String
+""	5	"inout"	"Service Scheduling Service Scheduling Service Type"	"BQ Service Scheduling Instance Record"	String
+""	6	"inout"	"Service Scheduling Service Scheduling Service Description"	"BQ Service Scheduling Instance Record"	String
+""	7	"inout"	"Service Scheduling Service Scheduling Service Inputs and Ouputs"	"BQ Service Scheduling Instance Record"	String
+""	8	"inout"	"Service Scheduling Service Scheduling Service Work Product"	"BQ Service Scheduling Instance Record"	String
+""	9	"inout"	"Service Scheduling Service Scheduling Service Name"	"BQ Service Scheduling Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/product-training-procedure/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Training Procedure Parameter Type"	"CR Product Training Procedure Instance Record"	String
+""	2	"inout"	"Product Training Procedure Selected Option"	"CR Product Training Procedure Instance Record"	String
+""	3	"inout"	"Product Training Procedure Request"	"CR Product Training Procedure Instance Record"	String
+""	4	"inout"	"Product Training Procedure Schedule"	"CR Product Training Procedure Instance Record"	String
+""	5	"inout"	"Product Training Procedure Status"	"CR Product Training Procedure Instance Record"	String
+""	6	"in"	"Product Training Procedure Reference"	"CR Product Training Procedure Instance Record"	Object
+""	7	"in"	"Product Training Procedure Business Unit Reference"	"CR Product Training Procedure Instance Record"	Object
+""	8	"in"	"Product Training Procedure ServiceProvider Reference"	"CR Product Training Procedure Instance Record"	Object
+""	9	"in"	"Product Training Procedure Financial Facility Reference"	"CR Product Training Procedure Instance Record"	Object
+""	10	"in"	"Product Training Procedure Employee Reference"	"CR Product Training Procedure Instance Record"	Object
+""	11	"in"	"Product Training Procedure Customer Reference"	"CR Product Training Procedure Instance Record"	Object
+""	12	"in"	"Product Training Procedure Type"	"CR Product Training Procedure Instance Record"	String
+""	13	"in"	"Product Training Procedure Service Provider Schedule"	"CR Product Training Procedure Instance Record"	String
+""	14	"in"	"Product Training Procedure Service Type"	"CR Product Training Procedure Instance Record"	String
+""	15	"in"	"Product Training Procedure ProductandService Type"	"CR Product Training Procedure Instance Record"	String
+""	16	"in"	"Product Training Procedure ProductandService Instance"	"CR Product Training Procedure Instance Record"	String
+""	17	"in"	"Product Training Procedure Transaction Type"	"CR Product Training Procedure Instance Record"	String
+""	18	"in"	"Product Training Procedure Financial Transaction Arrangement"	"CR Product Training Procedure Instance Record"	String
+""	19	"in"	"Product Training Procedure Customer Agreement Reference"	"CR Product Training Procedure Instance Record"	Object
+""
+"Put"	"/product-training/{sd-identifier}/content-development/{crbq-identifier}/update"
+""	1	"inout"	"Content Development Preconditions"	"BQ Content Development Instance Record"	String
+""	2	"inout"	"Content Development Business Unit/Employee Reference"	"BQ Content Development Instance Record"	Object
+""	3	"inout"	"Content Development Work Schedule"	"BQ Content Development Instance Record"	String
+""	4	"inout"	"Content Development Postconditions"	"BQ Content Development Instance Record"	String
+""	5	"inout"	"Content Development Content Development Service Type"	"BQ Content Development Instance Record"	String
+""	6	"inout"	"Content Development Content Development Service Description"	"BQ Content Development Instance Record"	String
+""	7	"inout"	"Content Development Content Development Service Inputs and Ouputs"	"BQ Content Development Instance Record"	String
+""	8	"inout"	"Content Development Content Development Service Work Product"	"BQ Content Development Instance Record"	String
+""	9	"inout"	"Content Development Content Development Service Name"	"BQ Content Development Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-delivery/{crbq-identifier}/update"
+""	1	"inout"	"Service Delivery Preconditions"	"BQ Service Delivery Instance Record"	String
+""	2	"inout"	"Service Delivery Business Unit/Employee Reference"	"BQ Service Delivery Instance Record"	Object
+""	3	"inout"	"Service Delivery Work Schedule"	"BQ Service Delivery Instance Record"	String
+""	4	"inout"	"Service Delivery Postconditions"	"BQ Service Delivery Instance Record"	String
+""	5	"inout"	"Service Delivery Service Delivery Service Type"	"BQ Service Delivery Instance Record"	String
+""	6	"inout"	"Service Delivery Service Delivery Service Description"	"BQ Service Delivery Instance Record"	String
+""	7	"inout"	"Service Delivery Service Delivery Service Inputs and Ouputs"	"BQ Service Delivery Instance Record"	String
+""	8	"inout"	"Service Delivery Service Delivery Service Work Product"	"BQ Service Delivery Instance Record"	String
+""	9	"inout"	"Service Delivery Service Delivery Service Name"	"BQ Service Delivery Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-evaluation/{crbq-identifier}/update"
+""	1	"inout"	"Service Evaluation Preconditions"	"BQ Service Evaluation Instance Record"	String
+""	2	"inout"	"Service Evaluation Business Unit/Employee Reference"	"BQ Service Evaluation Instance Record"	Object
+""	3	"inout"	"Service Evaluation Work Schedule"	"BQ Service Evaluation Instance Record"	String
+""	4	"inout"	"Service Evaluation Postconditions"	"BQ Service Evaluation Instance Record"	String
+""	5	"inout"	"Service Evaluation Service Evaluation Service Type"	"BQ Service Evaluation Instance Record"	String
+""	6	"inout"	"Service Evaluation Service Evaluation Service Description"	"BQ Service Evaluation Instance Record"	String
+""	7	"inout"	"Service Evaluation Service Evaluation Service Inputs and Ouputs"	"BQ Service Evaluation Instance Record"	String
+""	8	"inout"	"Service Evaluation Service Evaluation Service Work Product"	"BQ Service Evaluation Instance Record"	String
+""	9	"inout"	"Service Evaluation Service Evaluation Service Name"	"BQ Service Evaluation Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/service-scheduling/{crbq-identifier}/update"
+""	1	"inout"	"Service Scheduling Preconditions"	"BQ Service Scheduling Instance Record"	String
+""	2	"inout"	"Service Scheduling Business Unit/Employee Reference"	"BQ Service Scheduling Instance Record"	Object
+""	3	"inout"	"Service Scheduling Work Schedule"	"BQ Service Scheduling Instance Record"	String
+""	4	"inout"	"Service Scheduling Postconditions"	"BQ Service Scheduling Instance Record"	String
+""	5	"inout"	"Service Scheduling Service Scheduling Service Type"	"BQ Service Scheduling Instance Record"	String
+""	6	"inout"	"Service Scheduling Service Scheduling Service Description"	"BQ Service Scheduling Instance Record"	String
+""	7	"inout"	"Service Scheduling Service Scheduling Service Inputs and Ouputs"	"BQ Service Scheduling Instance Record"	String
+""	8	"inout"	"Service Scheduling Service Scheduling Service Work Product"	"BQ Service Scheduling Instance Record"	String
+""	9	"inout"	"Service Scheduling Service Scheduling Service Name"	"BQ Service Scheduling Instance Record"	String
+""
+"Put"	"/product-training/{sd-identifier}/product-training-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Product Training Procedure Parameter Type"	"CR Product Training Procedure Instance Record"	String
+""	2	"inout"	"Product Training Procedure Selected Option"	"CR Product Training Procedure Instance Record"	String
+""	3	"inout"	"Product Training Procedure Request"	"CR Product Training Procedure Instance Record"	String
+""	4	"inout"	"Product Training Procedure Schedule"	"CR Product Training Procedure Instance Record"	String
+""	5	"inout"	"Product Training Procedure Status"	"CR Product Training Procedure Instance Record"	String
+""	6	"in"	"Product Training Procedure Reference"	"CR Product Training Procedure Instance Record"	Object
+""	7	"in"	"Product Training Procedure Business Unit Reference"	"CR Product Training Procedure Instance Record"	Object
+""	8	"in"	"Product Training Procedure ServiceProvider Reference"	"CR Product Training Procedure Instance Record"	Object
+""	9	"in"	"Product Training Procedure Financial Facility Reference"	"CR Product Training Procedure Instance Record"	Object
+""	10	"in"	"Product Training Procedure Employee Reference"	"CR Product Training Procedure Instance Record"	Object
+""	11	"in"	"Product Training Procedure Customer Reference"	"CR Product Training Procedure Instance Record"	Object
+""	12	"in"	"Product Training Procedure Type"	"CR Product Training Procedure Instance Record"	String
+""	13	"in"	"Product Training Procedure Service Provider Schedule"	"CR Product Training Procedure Instance Record"	String
+""	14	"in"	"Product Training Procedure Service Type"	"CR Product Training Procedure Instance Record"	String
+""	15	"in"	"Product Training Procedure ProductandService Type"	"CR Product Training Procedure Instance Record"	String
+""	16	"in"	"Product Training Procedure ProductandService Instance"	"CR Product Training Procedure Instance Record"	String
+""	17	"in"	"Product Training Procedure Transaction Type"	"CR Product Training Procedure Instance Record"	String
+""	18	"in"	"Product Training Procedure Financial Transaction Arrangement"	"CR Product Training Procedure Instance Record"	String
+""	19	"in"	"Product Training Procedure Customer Agreement Reference"	"CR Product Training Procedure Instance Record"	Object

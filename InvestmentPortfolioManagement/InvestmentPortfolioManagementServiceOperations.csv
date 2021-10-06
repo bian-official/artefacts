@@ -1,0 +1,125 @@
+"Service Operations for: "	Investment Portfolio Management
+""
+"POST"	"/investment-portfolio-management/activation"
+"PUT"	"/investment-portfolio-management/{sd-reference-id}/configuration"
+"PUT"	"/investment-portfolio-management/{sd-reference-id}/feedback"
+""
+"Post"	"/investment-portfolio-management/{sd-identifier}/managed-investment-portfolio-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"in"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"in"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"inout"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"in"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"inout"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"inout"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"inout"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""
+"Put"	"/investment-portfolio-management/{sd-identifier}/managed-investment-portfolio-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"inout"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"inout"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"inout"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"inout"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"inout"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"inout"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"inout"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""
+"Put"	"/investment-portfolio-management/{sd-identifier}/managed-investment-portfolio-arrangement/{crbq-identifier}/control"
+""
+"Put"	"/investment-portfolio-management/{sd-identifier}/managed-investment-portfolio-arrangement/{crbq-identifier}/exchange"
+""
+"Put"	"/investment-portfolio-management/{sd-identifier}/managed-investment-portfolio-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"inout"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"inout"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"inout"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"in"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"inout"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"inout"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"inout"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""
+"Put"	"/investment-portfolio-management/{sd-identifier}/managed-investment-portfolio-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"inout"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"inout"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"inout"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"in"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"inout"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"inout"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"inout"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""
+"Get"	"/investment-portfolio-management/{sd-identifier}/managed-investment-portfolio-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"out"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"out"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"out"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"out"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"out"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"out"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"out"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""
+"Get"	"/investment-portfolio-management/{sd-identifier}/track/{crbq-identifier}/retrieval"
+""	1	"out"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"out"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"out"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"out"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"out"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"out"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"out"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"out"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	9	"out"	"Investment Portfolio Security Sensitivity"	"BQ Track Instance Record"	String
+""	10	"out"	"Projected Valuation"	"BQ Track Instance Record"	String
+""	11	"out"	"Projected Portfolio Impact"	"BQ Track Instance Record"	String
+""
+"Get"	"/investment-portfolio-management/{sd-identifier}/market-opportunities/{crbq-identifier}/retrieval"
+""	1	"out"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"out"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"out"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"out"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"out"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"out"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"out"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"out"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	9	"out"	"Market Opportunity Description"	"BQ Market Opportunities Instance Record"	String
+""	10	"out"	"Securities Comparison"	"BQ Market Opportunities Instance Record"	String
+""
+"Post"	"/investment-portfolio-management/{sd-identifier}/trade-initiation/{crbq-identifier}/initiation"
+""	1	"inout"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"in"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"in"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"inout"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"in"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"inout"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"inout"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"inout"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	9	"inout"	"Investment Portfolio Trade Request"	"BQ Trade Initiation Instance Record"	String
+""	10	"in"	"Investment Portfolio Trade Security Type"	"BQ Trade Initiation Instance Record"	String
+""	11	"inout"	"Investment Portfolio Trade Security Trade Description"	"BQ Trade Initiation Instance Record"	String
+""
+"Put"	"/investment-portfolio-management/{sd-identifier}/trade-initiation/{crbq-identifier}/update"
+""	1	"inout"	"Investment Portfolio Trade Request"	"BQ Trade Initiation Instance Record"	String
+""	2	"inout"	"Investment Portfolio Trade Security Type"	"BQ Trade Initiation Instance Record"	String
+""	3	"inout"	"Investment Portfolio Trade Security Trade Description"	"BQ Trade Initiation Instance Record"	String
+""
+"Put"	"/investment-portfolio-management/{sd-identifier}/trade-initiation/{crbq-identifier}/exchange"
+""	1	"inout"	"Investment Portfolio Trade Request"	"BQ Trade Initiation Instance Record"	String
+""	2	"inout"	"Investment Portfolio Trade Security Type"	"BQ Trade Initiation Instance Record"	String
+""	3	"inout"	"Investment Portfolio Trade Security Trade Description"	"BQ Trade Initiation Instance Record"	String
+""
+"Put"	"/investment-portfolio-management/{sd-identifier}/trade-initiation/{crbq-identifier}/requisition"
+""	1	"inout"	"Investment Portfolio Trade Request"	"BQ Trade Initiation Instance Record"	String
+""	2	"inout"	"Investment Portfolio Trade Security Type"	"BQ Trade Initiation Instance Record"	String
+""	3	"inout"	"Investment Portfolio Trade Security Trade Description"	"BQ Trade Initiation Instance Record"	String
+""
+"Get"	"/investment-portfolio-management/{sd-identifier}/trade-initiation/{crbq-identifier}/retrieval"
+""	1	"out"	"Investment Portfolio Trading Policies"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	2	"out"	"Investment Portfolio Policy Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	3	"out"	"Investment Portfolio Policy Description"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	4	"out"	"Investment Portfolio Policy Limits and Constraints"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	5	"out"	"Investment Portfolio Instance Reference"	"CR Managed Investment Portfolio Arrangement Instance Record"	Object
+""	6	"out"	"Investment Portfolio Holdings"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	7	"out"	"Investment Portfolio Security Type"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	8	"out"	"Investment Portfolio Security Holding"	"CR Managed Investment Portfolio Arrangement Instance Record"	String
+""	9	"out"	"Investment Portfolio Trade Request"	"BQ Trade Initiation Instance Record"	String
+""	10	"out"	"Investment Portfolio Trade Security Type"	"BQ Trade Initiation Instance Record"	String
+""	11	"out"	"Investment Portfolio Trade Security Trade Description"	"BQ Trade Initiation Instance Record"	String

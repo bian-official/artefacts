@@ -1,0 +1,82 @@
+"Service Operations for: "	Securities Position Keeping
+""
+"POST"	"/securities-position-keeping/activation"
+"PUT"	"/securities-position-keeping/{sd-reference-id}/configuration"
+"PUT"	"/securities-position-keeping/{sd-reference-id}/feedback"
+""
+"Post"	"/securities-position-keeping/{sd-identifier}/securities-position-log/{crbq-identifier}/initiation"
+""	1	"inout"	"Securities Transaction Log Type"	"CR Securities Position Log Instance Record"	String
+""	2	"in"	"Product Instance Reference"	"CR Securities Position Log Instance Record"	Object
+""	3	"in"	"Customer Reference"	"CR Securities Position Log Instance Record"	Object
+""	4	"in"	"Counterparty Reference"	"CR Securities Position Log Instance Record"	Object
+""	5	"inout"	"Securities Position Log Instrument Profile"	"CR Securities Position Log Instance Record"	String
+""	6	"inout"	"Securities Position Log Instrument Record"	"CR Securities Position Log Instance Record"	String
+""	7	"inout"	"Securities Instrument Type"	"CR Securities Position Log Instance Record"	String
+""	8	"inout"	"Securities Instrument Reference"	"CR Securities Position Log Instance Record"	Object
+""	9	"inout"	"Securities Position Limits"	"CR Securities Position Log Instance Record"	String
+""	10	"inout"	"Securities Position Limit Type"	"CR Securities Position Log Instance Record"	String
+""	11	"inout"	"Securities Position Limit Settings"	"CR Securities Position Log Instance Record"	String
+""	12	"out"	"Securities Position Limit Value"	"CR Securities Position Log Instance Record"	String
+""	13	"inout"	"Securities Amount Block"	"CR Securities Position Log Instance Record"	Amount
+""	14	"inout"	"Securities Amount Block Type"	"CR Securities Position Log Instance Record"	String
+""	15	"inout"	"Priority"	"CR Securities Position Log Instance Record"	String
+""	16	"inout"	"Date Type"	"CR Securities Position Log Instance Record"	String
+""	17	"inout"	"Initiation Date"	"CR Securities Position Log Instance Record"	Date
+""	18	"inout"	"Status"	"CR Securities Position Log Instance Record"	String
+""
+"Put"	"/securities-position-keeping/{sd-identifier}/securities-position-log/{crbq-identifier}/update"
+""	1	"inout"	"Securities Transaction Log Type"	"CR Securities Position Log Instance Record"	String
+""	2	"inout"	"Product Instance Reference"	"CR Securities Position Log Instance Record"	Object
+""	3	"inout"	"Customer Reference"	"CR Securities Position Log Instance Record"	Object
+""	4	"inout"	"Counterparty Reference"	"CR Securities Position Log Instance Record"	Object
+""	5	"inout"	"Securities Position Log Instrument Profile"	"CR Securities Position Log Instance Record"	String
+""	6	"inout"	"Securities Position Log Instrument Record"	"CR Securities Position Log Instance Record"	String
+""	7	"inout"	"Securities Instrument Type"	"CR Securities Position Log Instance Record"	String
+""	8	"inout"	"Securities Instrument Reference"	"CR Securities Position Log Instance Record"	Object
+""	9	"inout"	"Securities Position Limits"	"CR Securities Position Log Instance Record"	String
+""	10	"inout"	"Securities Position Limit Type"	"CR Securities Position Log Instance Record"	String
+""	11	"inout"	"Securities Position Limit Settings"	"CR Securities Position Log Instance Record"	String
+""	12	"inout"	"Securities Position Limit Value"	"CR Securities Position Log Instance Record"	String
+""	13	"inout"	"Securities Amount Block"	"CR Securities Position Log Instance Record"	Amount
+""	14	"inout"	"Securities Amount Block Type"	"CR Securities Position Log Instance Record"	String
+""	15	"inout"	"Priority"	"CR Securities Position Log Instance Record"	String
+""	16	"inout"	"Date Type"	"CR Securities Position Log Instance Record"	String
+""	17	"inout"	"Initiation Date"	"CR Securities Position Log Instance Record"	Date
+""	18	"inout"	"Status"	"CR Securities Position Log Instance Record"	String
+""
+"Put"	"/securities-position-keeping/{sd-identifier}/securities-position-log/{crbq-identifier}/control"
+""
+"Get"	"/securities-position-keeping/{sd-identifier}/securities-position-log/{crbq-identifier}/retrieval"
+""	1	"out"	"Securities Transaction Log Type"	"CR Securities Position Log Instance Record"	String
+""	2	"out"	"Product Instance Reference"	"CR Securities Position Log Instance Record"	Object
+""	3	"out"	"Customer Reference"	"CR Securities Position Log Instance Record"	Object
+""	4	"out"	"Counterparty Reference"	"CR Securities Position Log Instance Record"	Object
+""	5	"out"	"Securities Position Log Instrument Profile"	"CR Securities Position Log Instance Record"	String
+""	6	"out"	"Securities Position Log Instrument Record"	"CR Securities Position Log Instance Record"	String
+""	7	"out"	"Securities Instrument Type"	"CR Securities Position Log Instance Record"	String
+""	8	"out"	"Securities Instrument Reference"	"CR Securities Position Log Instance Record"	Object
+""	9	"out"	"Securities Position Limits"	"CR Securities Position Log Instance Record"	String
+""	10	"out"	"Securities Position Limit Type"	"CR Securities Position Log Instance Record"	String
+""	11	"out"	"Securities Position Limit Settings"	"CR Securities Position Log Instance Record"	String
+""	12	"out"	"Securities Position Limit Value"	"CR Securities Position Log Instance Record"	String
+""	13	"out"	"Securities Amount Block"	"CR Securities Position Log Instance Record"	Amount
+""	14	"out"	"Securities Amount Block Type"	"CR Securities Position Log Instance Record"	String
+""	15	"out"	"Priority"	"CR Securities Position Log Instance Record"	String
+""	16	"out"	"Date Type"	"CR Securities Position Log Instance Record"	String
+""	17	"out"	"Initiation Date"	"CR Securities Position Log Instance Record"	Date
+""	18	"out"	"Status"	"CR Securities Position Log Instance Record"	String
+""
+"Put"	"/securities-position-keeping/{sd-identifier}/securities-transaction-capture/{crbq-identifier}/update"
+""	1	"inout"	"Securities Posting Type"	"BQ Securities Transaction Capture Instance Record"	String
+""	2	"inout"	"Securities Posting Transaction"	"BQ Securities Transaction Capture Instance Record"	String
+""	3	"inout"	"Securities Posting Value Date"	"BQ Securities Transaction Capture Instance Record"	Date
+""
+"Put"	"/securities-position-keeping/{sd-identifier}/securities-transaction-capture/{crbq-identifier}/capture"
+""	1	"in"	"Securities Posting Type"	"BQ Securities Transaction Capture Instance Record"	String
+""	2	"in"	"Securities Posting Transaction"	"BQ Securities Transaction Capture Instance Record"	String
+""	3	"inout"	"Securities Posting Value Date"	"BQ Securities Transaction Capture Instance Record"	Date
+""
+"Get"	"/securities-position-keeping/{sd-identifier}/securities-transaction-capture/{crbq-identifier}/retrieval"
+""	1	"out"	"Securities Posting Type"	"BQ Securities Transaction Capture Instance Record"	String
+""	2	"out"	"Securities Posting Transaction"	"BQ Securities Transaction Capture Instance Record"	String
+""	3	"out"	"Securities Posting Value Date"	"BQ Securities Transaction Capture Instance Record"	Date

@@ -1,0 +1,13 @@
+"Control Record Model for: "	Financial Market Research
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Financial Market Research Directory Entry Instance Record	""	""	""
+"CR"	CR Financial Market Research Directory Entry Instance Record	Financial Market Research Viewpoint Type	"The type of financial market research view provided by the research (e.g. common stock comparison)"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Financial Market Research Viewpoint Description	"A description of the available market research consolidated for this maintained viewpoint"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Referenced Financial Market Research Record	"The externally sourced reports that are used to assemble the research viewpoint"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Financial Market Research Report Type Reference	"Reference to a specific type of predefined market research report or database"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Financial Market Research Report Type Definition	"Describes the available market research report content (e.g. customer social network usage analysis)"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Financial Market Research Report Version/Period	"Defines the version and period covered by the research"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Financial Market Research Report	"Is the content of the report or database in any suitable form"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Financial Market Research Viewpoint Usage	"Usage record of the research viewpoint"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Financial Market Research Report Request	"Details of the research request"	String
+"CR"	CR Financial Market Research Directory Entry Instance Record	Employee/Business Unit Reference	"The employee/business unit requesting the research"	Object

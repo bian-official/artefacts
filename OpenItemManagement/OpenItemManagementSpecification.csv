@@ -1,0 +1,13 @@
+"Service Domain specification for Open Item Management"
+"Business Area"	Operations
+"Business Domain"	Operational Services
+"Service Domain"	Open Item Management
+"Role Definition"	"This service domain handles open item processing against accounts typically for loans. It enables a unit to handle resolution across multiple accounts as a specialized/centralized administrative activity"
+"Example of use"	"Example of use:. Open items are cleared against an active loan facility"
+"Executive Summary"	"This service domain provides a service for handling the resolution of open items against accounts (such as overdue loan payments)"
+"Key Features"	"Register and classify open items for processing. Process/resolve open items. Report on open item resolution activity"
+"Functional Pattern"	Process
+"Asset Type"	OpenItem
+"Generic Artifact"	Procedure
+"Control Record"	OpenItemProcedure
+"Registration Status"	Registered

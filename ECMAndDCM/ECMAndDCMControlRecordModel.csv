@@ -1,0 +1,42 @@
+"Control Record Model for: "	ECM And DCM
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR ECM And DCM Arrangement Instance Record	""	""	""
+"CR"	CR ECM And DCM Arrangement Instance Record	Product Instance Reference	"Reference to the advisory service session"	Object
+"CR"	CR ECM And DCM Arrangement Instance Record	Customer Reference	"Reference to the customer receiving the financial advice"	Object
+"CR"	CR ECM And DCM Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the customer account/relationship for booking purposes"	Object
+"CR"	CR ECM And DCM Arrangement Instance Record	Business Unit Reference	"Business unit and or employee reference to the source of the financial advice"	Object
+"CR"	CR ECM And DCM Arrangement Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents such as disclosures and acceptance records"	Object
+"CR"	CR ECM And DCM Arrangement Instance Record	Associations	"Definition of the involved parties or associations to the issuance project"	String
+"CR"	CR ECM And DCM Arrangement Instance Record	Association Type	"The type of association (e.g. co-investor, legal)"	String
+"CR"	CR ECM And DCM Arrangement Instance Record	Association Obligation/Entitlement	"Description of the role, obligations or entitlements of the associated party"	String
+"CR"	CR ECM And DCM Arrangement Instance Record	Association Reference	"Reference to the associated party"	Object
+"CR"	CR ECM And DCM Arrangement Instance Record	ECM And DCM Fulfillment Schedule	"The schedule for work tasks performed and to be performed through the issuing process"	String
+"CR"	CR ECM And DCM Arrangement Instance Record	Date Type	"Key dates associated with the issuance process (e.g. engagement date, prospectus date, offering date)"	String
+"CR"	CR ECM And DCM Arrangement Instance Record	Date	"Value of the date type"	String
+"CR"	CR ECM And DCM Arrangement Instance Record	ECM And DCM Instrument Record	"The consolidated record of the developed investment vehicle. Combines the output of the development and issuance activities, participant details, investment transaction records as appropriate (details not included at this time)"	String
+"BQ"	BQ Placement Instance Record	""	""	""
+"BQ"	BQ Placement Instance Record	Employee/Business Unit Reference	"Business unit and or employee responsible for the placement road show and issuance transaction"	Object
+"BQ"	BQ Placement Instance Record	Prospect List	"List of target investors for private placement"	String
+"BQ"	BQ Placement Instance Record	Placement Road show Schedule	"The schedule and details of investor presentations"	String
+"BQ"	BQ Placement Instance Record	Placement Work Task Record	"A record of the work done to place the instrument in the private or public markets as appropriate"	String
+"BQ"	BQ Placement Instance Record	Placement Work Task Type	"The type of work task (e.g. prospect scheduling, presentation, negotiation)"	String
+"BQ"	BQ Placement Instance Record	Placement Work Task Description	"Description of the task performed"	String
+"BQ"	BQ Placement Instance Record	Placement Work Task Work Products	"File of consolidated notes, forms and documents used and generated through the work task"	String
+"BQ"	BQ Placement Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Placement Instance Record	Placement Transaction	"The consolidated details of the investments obtained for the issuance - details investor participation for private placement and primary market transaction references for public offerings"	String
+"BQ"	BQ Instrument Definition Instance Record	""	""	""
+"BQ"	BQ Instrument Definition Instance Record	Employee/Business Unit Reference	"Business unit and or employee responsible for the financial instrument specification - (includes financial engineers, legal/regulatory and tax specialists as appropriate)"	Object
+"BQ"	BQ Instrument Definition Instance Record	Instrument Definition Work Task Record	"A record of the work done to define and agree the structure of the equity or debt instrument"	String
+"BQ"	BQ Instrument Definition Instance Record	Instrument Definition Work Task Type	"The type of work task (e.g. financial engineering, tax optimization, regulatory compliance checks)"	String
+"BQ"	BQ Instrument Definition Instance Record	Instrument Definition Work Task Description	"Description of the task performed"	String
+"BQ"	BQ Instrument Definition Instance Record	Instrument Definition Work Task Work Products	"File of consolidated notes, algorithms, financial market research, forms and documents for the work task"	String
+"BQ"	BQ Instrument Definition Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Instrument Definition Instance Record	Instrument Definition Specification	"The specification of the developed ECM/DCM instrument"	String
+"BQ"	BQ Prospectus Instance Record	""	""	""
+"BQ"	BQ Prospectus Instance Record	Employee/Business Unit Reference	"Business unit and or employee responsible for the prospectus development"	Object
+"BQ"	BQ Prospectus Instance Record	Prospectus Work Task Record	"A record of the work done to develop the prospectus for the issuance (covers both private and public placements)"	String
+"BQ"	BQ Prospectus Instance Record	Prospectus Work Task Type	"The type of work task (e.g. financial analysis/comparison development, pricing negotiation, presentation development, legal/tax/compliance assurance)"	String
+"BQ"	BQ Prospectus Instance Record	Prospectus Work Task Description	"Description of the task performed"	String
+"BQ"	BQ Prospectus Instance Record	Prospectus Work Task Work Products	"File of consolidated notes, algorithms, financial market research, forms and documents for the work task"	String
+"BQ"	BQ Prospectus Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Prospectus Instance Record	Prospectus	"The developed prospectus for the ECM/DCM instrument, including agreed pricing strategy"	String

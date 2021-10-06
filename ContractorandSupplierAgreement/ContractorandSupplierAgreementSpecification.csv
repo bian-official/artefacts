@@ -1,0 +1,13 @@
+"Service Domain specification for Contractor and Supplier Agreement"
+"Business Area"	Operations
+"Business Domain"	External Agency
+"Service Domain"	Contractor and Supplier Agreement
+"Role Definition"	"Maintain and administer master and project/task specific contractor/supplier legal agreements. Confirm on-going compliance"
+"Example of use"	"The contractual arrangements with an established contractor/service provider are reviewed at year end"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Agree Terms
+"Asset Type"	Supplier
+"Generic Artifact"	Agreement
+"Control Record"	SupplierAgreement
+"Registration Status"	Registered

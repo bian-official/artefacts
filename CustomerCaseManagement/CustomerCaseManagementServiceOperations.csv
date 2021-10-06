@@ -1,0 +1,91 @@
+"Service Operations for: "	Customer Case Management
+""
+"POST"	"/customer-case-management/activation"
+"PUT"	"/customer-case-management/{sd-reference-id}/configuration"
+"PUT"	"/customer-case-management/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-case-management/{sd-identifier}/customer-case-management-plan/{crbq-identifier}/creation"
+""	1	"inout"	"Customer Case Management Plan Period"	"CR Customer Case Management Plan Instance Record"	String
+""	2	"inout"	"Customer Case Policies & Guidelines"	"CR Customer Case Management Plan Instance Record"	String
+""	3	"inout"	"Customer Case Service Performance Goals"	"CR Customer Case Management Plan Instance Record"	String
+""	4	"inout"	"Customer Case Service Schedule"	"CR Customer Case Management Plan Instance Record"	String
+""	5	"inout"	"Customer Case Service Operating Configuration"	"CR Customer Case Management Plan Instance Record"	String
+""	6	"inout"	"Customer Case Resource Plan"	"CR Customer Case Management Plan Instance Record"	String
+""	7	"inout"	"Customer Case Training Plan"	"CR Customer Case Management Plan Instance Record"	String
+""
+"Put"	"/customer-case-management/{sd-identifier}/customer-case-management-plan/{crbq-identifier}/update"
+""	1	"inout"	"Customer Case Management Plan Period"	"CR Customer Case Management Plan Instance Record"	String
+""	2	"inout"	"Customer Case Policies & Guidelines"	"CR Customer Case Management Plan Instance Record"	String
+""	3	"inout"	"Customer Case Service Performance Goals"	"CR Customer Case Management Plan Instance Record"	String
+""	4	"inout"	"Customer Case Service Schedule"	"CR Customer Case Management Plan Instance Record"	String
+""	5	"inout"	"Customer Case Service Operating Configuration"	"CR Customer Case Management Plan Instance Record"	String
+""	6	"inout"	"Customer Case Resource Plan"	"CR Customer Case Management Plan Instance Record"	String
+""	7	"inout"	"Customer Case Training Plan"	"CR Customer Case Management Plan Instance Record"	String
+""
+"Put"	"/customer-case-management/{sd-identifier}/customer-case-management-plan/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-case-management/{sd-identifier}/customer-case-management-plan/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Case Management Plan Period"	"CR Customer Case Management Plan Instance Record"	String
+""	2	"inout"	"Customer Case Policies & Guidelines"	"CR Customer Case Management Plan Instance Record"	String
+""	3	"inout"	"Customer Case Service Performance Goals"	"CR Customer Case Management Plan Instance Record"	String
+""	4	"inout"	"Customer Case Service Schedule"	"CR Customer Case Management Plan Instance Record"	String
+""	5	"inout"	"Customer Case Service Operating Configuration"	"CR Customer Case Management Plan Instance Record"	String
+""	6	"inout"	"Customer Case Resource Plan"	"CR Customer Case Management Plan Instance Record"	String
+""	7	"inout"	"Customer Case Training Plan"	"CR Customer Case Management Plan Instance Record"	String
+""
+"Get"	"/customer-case-management/{sd-identifier}/customer-case-management-plan/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Case Management Plan Period"	"CR Customer Case Management Plan Instance Record"	String
+""	2	"out"	"Customer Case Policies & Guidelines"	"CR Customer Case Management Plan Instance Record"	String
+""	3	"out"	"Customer Case Service Performance Goals"	"CR Customer Case Management Plan Instance Record"	String
+""	4	"out"	"Customer Case Service Schedule"	"CR Customer Case Management Plan Instance Record"	String
+""	5	"out"	"Customer Case Service Operating Configuration"	"CR Customer Case Management Plan Instance Record"	String
+""	6	"out"	"Customer Case Resource Plan"	"CR Customer Case Management Plan Instance Record"	String
+""	7	"out"	"Customer Case Training Plan"	"CR Customer Case Management Plan Instance Record"	String
+""
+"Put"	"/customer-case-management/{sd-identifier}/rules/{crbq-identifier}/update"
+""	1	"inout"	"Customer Case Decision Criterion"	"BQ Rules Instance Record"	String
+""	2	"inout"	"Customer Case Decision Criterion Definition"	"BQ Rules Instance Record"	String
+""	3	"inout"	"Customer Case Decision Criterion Rules"	"BQ Rules Instance Record"	String
+""	4	"inout"	"Customer Case Decision Criterion Analysis"	"BQ Rules Instance Record"	String
+""	5	"inout"	"Customer Case Decision Criterion History"	"BQ Rules Instance Record"	String
+""
+"Put"	"/customer-case-management/{sd-identifier}/rules/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Case Decision Criterion"	"BQ Rules Instance Record"	String
+""	2	"inout"	"Customer Case Decision Criterion Definition"	"BQ Rules Instance Record"	String
+""	3	"inout"	"Customer Case Decision Criterion Rules"	"BQ Rules Instance Record"	String
+""	4	"inout"	"Customer Case Decision Criterion Analysis"	"BQ Rules Instance Record"	String
+""	5	"inout"	"Customer Case Decision Criterion History"	"BQ Rules Instance Record"	String
+""
+"Get"	"/customer-case-management/{sd-identifier}/rules/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Case Decision Criterion"	"BQ Rules Instance Record"	String
+""	2	"out"	"Customer Case Decision Criterion Definition"	"BQ Rules Instance Record"	String
+""	3	"out"	"Customer Case Decision Criterion Rules"	"BQ Rules Instance Record"	String
+""	4	"out"	"Customer Case Decision Criterion Analysis"	"BQ Rules Instance Record"	String
+""	5	"out"	"Customer Case Decision Criterion History"	"BQ Rules Instance Record"	String
+""
+"Put"	"/customer-case-management/{sd-identifier}/performance/{crbq-identifier}/update"
+""	1	"inout"	"Customer Case Resource Utilization"	"BQ Performance Instance Record"	String
+""	2	"inout"	"Customer Case Loading Projections"	"BQ Performance Instance Record"	String
+""	3	"inout"	"Customer Case Resolution Service Statistics"	"BQ Performance Instance Record"	String
+""	4	"inout"	"Customer Case Service Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"inout"	"Customer Case Service Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"inout"	"Customer Case Service Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"inout"	"Customer Case Service Statistic Recommendation"	"BQ Performance Instance Record"	String
+""
+"Put"	"/customer-case-management/{sd-identifier}/performance/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Case Resource Utilization"	"BQ Performance Instance Record"	String
+""	2	"inout"	"Customer Case Loading Projections"	"BQ Performance Instance Record"	String
+""	3	"inout"	"Customer Case Resolution Service Statistics"	"BQ Performance Instance Record"	String
+""	4	"inout"	"Customer Case Service Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"inout"	"Customer Case Service Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"inout"	"Customer Case Service Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"inout"	"Customer Case Service Statistic Recommendation"	"BQ Performance Instance Record"	String
+""
+"Get"	"/customer-case-management/{sd-identifier}/performance/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Case Resource Utilization"	"BQ Performance Instance Record"	String
+""	2	"out"	"Customer Case Loading Projections"	"BQ Performance Instance Record"	String
+""	3	"out"	"Customer Case Resolution Service Statistics"	"BQ Performance Instance Record"	String
+""	4	"out"	"Customer Case Service Statistic Type"	"BQ Performance Instance Record"	String
+""	5	"out"	"Customer Case Service Statistic Value"	"BQ Performance Instance Record"	String
+""	6	"out"	"Customer Case Service Statistic Interpretation"	"BQ Performance Instance Record"	String
+""	7	"out"	"Customer Case Service Statistic Recommendation"	"BQ Performance Instance Record"	String

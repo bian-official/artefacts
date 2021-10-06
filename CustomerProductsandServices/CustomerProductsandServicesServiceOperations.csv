@@ -1,0 +1,5 @@
+"Service Operations for: "	Customer Products and Services
+""
+"POST"	"/customer-products-and-services/activation"
+"PUT"	"/customer-products-and-services/{sd-reference-id}/configuration"
+"PUT"	"/customer-products-and-services/{sd-reference-id}/feedback"

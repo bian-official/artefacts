@@ -1,0 +1,13 @@
+"Service Domain specification for Public Reference Data Management"
+"Business Area"	Channels
+"Business Domain"	Information Providers
+"Service Domain"	Public Reference Data Management
+"Role Definition"	"This service domain maintains and provides structured access to standard 'global' reference data and definitions associated with market activity such as currency, country and segment identifiers. These values will typically be externally sourced using market information feeds and distributed using whatever is the appropriate mechanism within the bank"
+"Example of use"	"Example of use:. The international ISO standard definitions are maintained and applied across production systems of the bank"
+"Executive Summary"	"Provide structured access to standard 'global' reference data and definitions associated with market activity such as currency, country and segment identifiers."
+"Key Features"	"Identify global data standards and sources. Arrange for access to external reference data sources. Import and disseminate public/global reference data"
+"Functional Pattern"	Design
+"Asset Type"	GlobalStandard
+"Generic Artifact"	Specification
+"Control Record"	GlobalStandardSpecification
+"Registration Status"	Registered

@@ -1,0 +1,184 @@
+"Service Operations for: "	Customer Surveys
+""
+"POST"	"/customer-surveys/activation"
+"PUT"	"/customer-surveys/{sd-reference-id}/configuration"
+"PUT"	"/customer-surveys/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-surveys/{sd-identifier}/customer-survey-procedure/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Survey Type"	"CR Customer Survey Procedure Instance Record"	String
+""	2	"inout"	"Customer Survey Description"	"CR Customer Survey Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Survey Procedure Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Set-up"	"CR Customer Survey Procedure Instance Record"	String
+""	5	"inout"	"Customer Survey Procedure Version Number"	"CR Customer Survey Procedure Instance Record"	String
+""	6	"inout"	"Customer Survey Schedule"	"CR Customer Survey Procedure Instance Record"	String
+""	7	"inout"	"Customer Survey Consumables Inventory"	"CR Customer Survey Procedure Instance Record"	String
+""	8	"inout"	"Customer Survey Consumable Type"	"CR Customer Survey Procedure Instance Record"	String
+""	9	"inout"	"Customer Survey Consumable Holding"	"CR Customer Survey Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Survey Procedure Instance Record"	String
+""	11	"out"	"Customer Survey Procedure Result"	"CR Customer Survey Procedure Instance Record"	String
+""
+"Put"	"/customer-surveys/{sd-identifier}/customer-survey-procedure/{crbq-identifier}/update"
+""	1	"inout"	"Customer Survey Type"	"CR Customer Survey Procedure Instance Record"	String
+""	2	"inout"	"Customer Survey Description"	"CR Customer Survey Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Survey Procedure Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Set-up"	"CR Customer Survey Procedure Instance Record"	String
+""	5	"inout"	"Customer Survey Procedure Version Number"	"CR Customer Survey Procedure Instance Record"	String
+""	6	"inout"	"Customer Survey Schedule"	"CR Customer Survey Procedure Instance Record"	String
+""	7	"inout"	"Customer Survey Consumables Inventory"	"CR Customer Survey Procedure Instance Record"	String
+""	8	"inout"	"Customer Survey Consumable Type"	"CR Customer Survey Procedure Instance Record"	String
+""	9	"inout"	"Customer Survey Consumable Holding"	"CR Customer Survey Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Survey Procedure Instance Record"	String
+""	11	"inout"	"Customer Survey Procedure Result"	"CR Customer Survey Procedure Instance Record"	String
+""
+"Put"	"/customer-surveys/{sd-identifier}/customer-survey-procedure/{crbq-identifier}/control"
+""
+"Put"	"/customer-surveys/{sd-identifier}/customer-survey-procedure/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Survey Type"	"CR Customer Survey Procedure Instance Record"	String
+""	2	"inout"	"Customer Survey Description"	"CR Customer Survey Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Survey Procedure Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Set-up"	"CR Customer Survey Procedure Instance Record"	String
+""	5	"inout"	"Customer Survey Procedure Version Number"	"CR Customer Survey Procedure Instance Record"	String
+""	6	"inout"	"Customer Survey Schedule"	"CR Customer Survey Procedure Instance Record"	String
+""	7	"inout"	"Customer Survey Consumables Inventory"	"CR Customer Survey Procedure Instance Record"	String
+""	8	"inout"	"Customer Survey Consumable Type"	"CR Customer Survey Procedure Instance Record"	String
+""	9	"inout"	"Customer Survey Consumable Holding"	"CR Customer Survey Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Survey Procedure Instance Record"	String
+""	11	"inout"	"Customer Survey Procedure Result"	"CR Customer Survey Procedure Instance Record"	String
+""
+"Get"	"/customer-surveys/{sd-identifier}/customer-survey-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Survey Type"	"CR Customer Survey Procedure Instance Record"	String
+""	2	"out"	"Customer Survey Description"	"CR Customer Survey Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Customer Survey Procedure Instance Record"	Object
+""	4	"out"	"Customer Survey Procedure Set-up"	"CR Customer Survey Procedure Instance Record"	String
+""	5	"out"	"Customer Survey Procedure Version Number"	"CR Customer Survey Procedure Instance Record"	String
+""	6	"out"	"Customer Survey Schedule"	"CR Customer Survey Procedure Instance Record"	String
+""	7	"out"	"Customer Survey Consumables Inventory"	"CR Customer Survey Procedure Instance Record"	String
+""	8	"out"	"Customer Survey Consumable Type"	"CR Customer Survey Procedure Instance Record"	String
+""	9	"out"	"Customer Survey Consumable Holding"	"CR Customer Survey Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Customer Survey Procedure Instance Record"	String
+""	11	"out"	"Customer Survey Procedure Result"	"CR Customer Survey Procedure Instance Record"	String
+""
+"Put"	"/customer-surveys/{sd-identifier}/definition/{crbq-identifier}/update"
+""	1	"inout"	"Customer Survey Type"	"CR Customer Survey Procedure Instance Record"	String
+""	2	"inout"	"Customer Survey Description"	"CR Customer Survey Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Survey Procedure Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Set-up"	"CR Customer Survey Procedure Instance Record"	String
+""	5	"inout"	"Customer Survey Procedure Version Number"	"CR Customer Survey Procedure Instance Record"	String
+""	6	"inout"	"Customer Survey Schedule"	"CR Customer Survey Procedure Instance Record"	String
+""	7	"inout"	"Date Type"	"CR Customer Survey Procedure Instance Record"	String
+""	8	"inout"	"Customer Survey Design Work Task Type"	"BQ Definition Instance Record"	String
+""	9	"inout"	"Customer Survey Design Work Task Description"	"BQ Definition Instance Record"	String
+""	10	"inout"	"Customer Survey Design Work Task Work Products"	"BQ Definition Instance Record"	String
+""	11	"inout"	"Customer Survey Design Work Task Result"	"BQ Definition Instance Record"	String
+""
+"Put"	"/customer-surveys/{sd-identifier}/definition/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-surveys/{sd-identifier}/definition/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Survey Type"	"CR Customer Survey Procedure Instance Record"	String
+""	2	"out"	"Customer Survey Description"	"CR Customer Survey Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Customer Survey Procedure Instance Record"	Object
+""	4	"out"	"Customer Survey Procedure Set-up"	"CR Customer Survey Procedure Instance Record"	String
+""	5	"out"	"Customer Survey Procedure Version Number"	"CR Customer Survey Procedure Instance Record"	String
+""	6	"out"	"Customer Survey Schedule"	"CR Customer Survey Procedure Instance Record"	String
+""	7	"out"	"Date Type"	"CR Customer Survey Procedure Instance Record"	String
+""	8	"out"	"Customer Survey Design Work Task Type"	"BQ Definition Instance Record"	String
+""	9	"out"	"Customer Survey Design Work Task Description"	"BQ Definition Instance Record"	String
+""	10	"out"	"Customer Survey Design Work Task Work Products"	"BQ Definition Instance Record"	String
+""	11	"out"	"Customer Survey Design Work Task Result"	"BQ Definition Instance Record"	String
+""
+"Put"	"/customer-surveys/{sd-identifier}/reviewer-selection/{crbq-identifier}/update"
+""	1	"inout"	"Customer Survey Selection Criteria"	"BQ Reviewer Selection Instance Record"	String
+""	2	"inout"	"Customer Survey Candidate Reference"	"BQ Reviewer Selection Instance Record"	Object
+""
+"Put"	"/customer-surveys/{sd-identifier}/reviewer-selection/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Survey Selection Criteria"	"BQ Reviewer Selection Instance Record"	String
+""	2	"inout"	"Customer Survey Candidate Reference"	"BQ Reviewer Selection Instance Record"	Object
+""
+"Get"	"/customer-surveys/{sd-identifier}/reviewer-selection/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Survey Selection Criteria"	"BQ Reviewer Selection Instance Record"	String
+""	2	"out"	"Customer Survey Candidate Reference"	"BQ Reviewer Selection Instance Record"	Object
+""
+"Post"	"/customer-surveys/{sd-identifier}/execution/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Survey Type"	"CR Customer Survey Procedure Instance Record"	String
+""	2	"inout"	"Customer Survey Description"	"CR Customer Survey Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Survey Procedure Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Set-up"	"CR Customer Survey Procedure Instance Record"	String
+""	5	"inout"	"Customer Survey Procedure Version Number"	"CR Customer Survey Procedure Instance Record"	String
+""	6	"inout"	"Customer Survey Schedule"	"CR Customer Survey Procedure Instance Record"	String
+""	7	"inout"	"Customer Survey Consumables Inventory"	"CR Customer Survey Procedure Instance Record"	String
+""	8	"inout"	"Customer Survey Consumable Type"	"CR Customer Survey Procedure Instance Record"	String
+""	9	"inout"	"Customer Survey Consumable Holding"	"CR Customer Survey Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Survey Procedure Instance Record"	String
+""	11	"inout"	"Customer Survey Procedure Result"	"CR Customer Survey Procedure Instance Record"	String
+""	12	"in"	"Customer Survey Candidate Reference"	"BQ Reviewer Selection Instance Record"	Object
+""	13	"inout"	"Customer Survey Execution Work Task Type"	"BQ Execution Instance Record"	String
+""	14	"inout"	"Customer Survey Execution Work Task Description"	"BQ Execution Instance Record"	String
+""	15	"inout"	"Customer Survey Execution Work Task Work Products"	"BQ Execution Instance Record"	String
+""	16	"out"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	17	"out"	"Customer Survey Execution Work Task Result"	"BQ Execution Instance Record"	String
+""	18	"inout"	"Customer Survey Execution Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Put"	"/customer-surveys/{sd-identifier}/execution/{crbq-identifier}/update"
+""	1	"inout"	"Customer Survey Candidate Reference"	"BQ Reviewer Selection Instance Record"	Object
+""	2	"inout"	"Customer Survey Execution Work Task Type"	"BQ Execution Instance Record"	String
+""	3	"inout"	"Customer Survey Execution Work Task Description"	"BQ Execution Instance Record"	String
+""	4	"inout"	"Customer Survey Execution Work Task Work Products"	"BQ Execution Instance Record"	String
+""	5	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	6	"inout"	"Customer Survey Execution Work Task Result"	"BQ Execution Instance Record"	String
+""	7	"inout"	"Customer Survey Execution Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Put"	"/customer-surveys/{sd-identifier}/execution/{crbq-identifier}/capture"
+""	1	"inout"	"Customer Survey Execution Work Task Type"	"BQ Execution Instance Record"	String
+""	2	"inout"	"Customer Survey Execution Work Task Description"	"BQ Execution Instance Record"	String
+""	3	"inout"	"Customer Survey Execution Work Task Work Products"	"BQ Execution Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	5	"inout"	"Customer Survey Execution Work Task Result"	"BQ Execution Instance Record"	String
+""	6	"inout"	"Customer Survey Execution Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Put"	"/customer-surveys/{sd-identifier}/execution/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Survey Execution Work Task Type"	"BQ Execution Instance Record"	String
+""	2	"inout"	"Customer Survey Execution Work Task Description"	"BQ Execution Instance Record"	String
+""	3	"inout"	"Customer Survey Execution Work Task Work Products"	"BQ Execution Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	5	"inout"	"Customer Survey Execution Work Task Result"	"BQ Execution Instance Record"	String
+""	6	"inout"	"Customer Survey Execution Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Put"	"/customer-surveys/{sd-identifier}/execution/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Survey Execution Work Task Type"	"BQ Execution Instance Record"	String
+""	2	"inout"	"Customer Survey Execution Work Task Description"	"BQ Execution Instance Record"	String
+""	3	"inout"	"Customer Survey Execution Work Task Work Products"	"BQ Execution Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	5	"inout"	"Customer Survey Execution Work Task Result"	"BQ Execution Instance Record"	String
+""	6	"inout"	"Customer Survey Execution Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Get"	"/customer-surveys/{sd-identifier}/execution/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Survey Candidate Reference"	"BQ Reviewer Selection Instance Record"	Object
+""	2	"out"	"Customer Survey Execution Work Task Type"	"BQ Execution Instance Record"	String
+""	3	"out"	"Customer Survey Execution Work Task Description"	"BQ Execution Instance Record"	String
+""	4	"out"	"Customer Survey Execution Work Task Work Products"	"BQ Execution Instance Record"	String
+""	5	"out"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	6	"out"	"Customer Survey Execution Work Task Result"	"BQ Execution Instance Record"	String
+""	7	"out"	"Customer Survey Execution Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Post"	"/customer-surveys/{sd-identifier}/survey-analysis/{crbq-identifier}/initiation"
+""	1	"inout"	"Customer Survey Type"	"CR Customer Survey Procedure Instance Record"	String
+""	2	"inout"	"Customer Survey Description"	"CR Customer Survey Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Customer Survey Procedure Instance Record"	Object
+""	4	"inout"	"Customer Survey Procedure Set-up"	"CR Customer Survey Procedure Instance Record"	String
+""	5	"inout"	"Customer Survey Procedure Version Number"	"CR Customer Survey Procedure Instance Record"	String
+""	6	"inout"	"Customer Survey Schedule"	"CR Customer Survey Procedure Instance Record"	String
+""	7	"inout"	"Customer Survey Consumables Inventory"	"CR Customer Survey Procedure Instance Record"	String
+""	8	"inout"	"Customer Survey Consumable Type"	"CR Customer Survey Procedure Instance Record"	String
+""	9	"inout"	"Customer Survey Consumable Holding"	"CR Customer Survey Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Customer Survey Procedure Instance Record"	String
+""	11	"inout"	"Customer Survey Procedure Result"	"CR Customer Survey Procedure Instance Record"	String
+""	12	"inout"	"Customer Survey Procedure Survey Analysis Result"	"BQ Survey Analysis Instance Record"	String
+""
+"Put"	"/customer-surveys/{sd-identifier}/survey-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Customer Survey Procedure Survey Analysis Result"	"BQ Survey Analysis Instance Record"	String
+""
+"Put"	"/customer-surveys/{sd-identifier}/survey-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Survey Procedure Survey Analysis Result"	"BQ Survey Analysis Instance Record"	String
+""
+"Get"	"/customer-surveys/{sd-identifier}/survey-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Survey Procedure Survey Analysis Result"	"BQ Survey Analysis Instance Record"	String

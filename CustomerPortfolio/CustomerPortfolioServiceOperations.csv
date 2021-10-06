@@ -1,0 +1,107 @@
+"Service Operations for: "	Customer Portfolio
+""
+"POST"	"/customer-portfolio/activation"
+"PUT"	"/customer-portfolio/{sd-reference-id}/configuration"
+"PUT"	"/customer-portfolio/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-portfolio/{sd-identifier}/customer-segment-analysis/{crbq-identifier}/evaluation"
+""	1	"inout"	"Customer Segment Type"	"CR Customer Segment Analysis Instance Record"	String
+""	2	"inout"	"Customer Segment Type Definition"	"CR Customer Segment Analysis Instance Record"	String
+""	3	"inout"	"Customer Segment Performance Goals"	"CR Customer Segment Analysis Instance Record"	String
+""	4	"inout"	"Customer Segment Analysis Schedule"	"CR Customer Segment Analysis Instance Record"	String
+""	5	"inout"	"Customer Segment Analysis Report"	"CR Customer Segment Analysis Instance Record"	String
+""	6	"inout"	"Customer Segment Analysis Type"	"CR Customer Segment Analysis Instance Record"	String
+""	7	"out"	"Customer Segment Analysis Result"	"CR Customer Segment Analysis Instance Record"	String
+""	8	"inout"	"Customer Segment Analysis Reporting Date"	"CR Customer Segment Analysis Instance Record"	Date
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Customer Segment Analysis Instance Record"	Object
+""
+"Put"	"/customer-portfolio/{sd-identifier}/customer-segment-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Customer Segment Type"	"CR Customer Segment Analysis Instance Record"	String
+""	2	"inout"	"Customer Segment Type Definition"	"CR Customer Segment Analysis Instance Record"	String
+""	3	"inout"	"Customer Segment Performance Goals"	"CR Customer Segment Analysis Instance Record"	String
+""	4	"inout"	"Customer Segment Analysis Schedule"	"CR Customer Segment Analysis Instance Record"	String
+""	5	"inout"	"Customer Segment Analysis Report"	"CR Customer Segment Analysis Instance Record"	String
+""	6	"inout"	"Customer Segment Analysis Type"	"CR Customer Segment Analysis Instance Record"	String
+""	7	"inout"	"Customer Segment Analysis Result"	"CR Customer Segment Analysis Instance Record"	String
+""	8	"inout"	"Customer Segment Analysis Reporting Date"	"CR Customer Segment Analysis Instance Record"	Date
+""	9	"inout"	"Document Directory Entry Instance Reference"	"CR Customer Segment Analysis Instance Record"	Object
+""
+"Put"	"/customer-portfolio/{sd-identifier}/customer-segment-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Segment Type"	"CR Customer Segment Analysis Instance Record"	String
+""	2	"inout"	"Customer Segment Type Definition"	"CR Customer Segment Analysis Instance Record"	String
+""	3	"inout"	"Customer Segment Performance Goals"	"CR Customer Segment Analysis Instance Record"	String
+""	4	"inout"	"Customer Segment Analysis Schedule"	"CR Customer Segment Analysis Instance Record"	String
+""	5	"inout"	"Customer Segment Analysis Report"	"CR Customer Segment Analysis Instance Record"	String
+""	6	"inout"	"Customer Segment Analysis Type"	"CR Customer Segment Analysis Instance Record"	String
+""	7	"out"	"Customer Segment Analysis Result"	"CR Customer Segment Analysis Instance Record"	String
+""	8	"inout"	"Customer Segment Analysis Reporting Date"	"CR Customer Segment Analysis Instance Record"	Date
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Customer Segment Analysis Instance Record"	Object
+""
+"Get"	"/customer-portfolio/{sd-identifier}/customer-segment-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Segment Type"	"CR Customer Segment Analysis Instance Record"	String
+""	2	"out"	"Customer Segment Type Definition"	"CR Customer Segment Analysis Instance Record"	String
+""	3	"out"	"Customer Segment Performance Goals"	"CR Customer Segment Analysis Instance Record"	String
+""	4	"out"	"Customer Segment Analysis Schedule"	"CR Customer Segment Analysis Instance Record"	String
+""	5	"out"	"Customer Segment Analysis Report"	"CR Customer Segment Analysis Instance Record"	String
+""	6	"out"	"Customer Segment Analysis Type"	"CR Customer Segment Analysis Instance Record"	String
+""	7	"out"	"Customer Segment Analysis Result"	"CR Customer Segment Analysis Instance Record"	String
+""	8	"out"	"Customer Segment Analysis Reporting Date"	"CR Customer Segment Analysis Instance Record"	Date
+""	9	"out"	"Document Directory Entry Instance Reference"	"CR Customer Segment Analysis Instance Record"	Object
+""
+"Post"	"/customer-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/evaluation"
+""	1	"inout"	"Customer Segment Analysis Schedule"	"CR Customer Segment Analysis Instance Record"	String
+""	2	"inout"	"Customer Segment Analysis Report"	"CR Customer Segment Analysis Instance Record"	String
+""	3	"inout"	"Customer Segment Analysis Type"	"CR Customer Segment Analysis Instance Record"	String
+""	4	"inout"	"Customer Segment Analysis Result"	"CR Customer Segment Analysis Instance Record"	String
+""	5	"inout"	"Customer Segment Analysis Reporting Date"	"CR Customer Segment Analysis Instance Record"	Date
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Customer Segment Analysis Instance Record"	Object
+""	7	"inout"	"Customer Segment Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	8	"inout"	"Customer Segment Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	9	"inout"	"Customer Segment Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	10	"inout"	"Customer Segment Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	11	"inout"	"Customer Segment Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	12	"inout"	"Customer Segment Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	13	"inout"	"Customer Segment Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	14	"out"	"Customer Segment Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Put"	"/customer-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/update"
+""	1	"inout"	"Customer Segment Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"inout"	"Customer Segment Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"inout"	"Customer Segment Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"inout"	"Customer Segment Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"inout"	"Customer Segment Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"inout"	"Customer Segment Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"inout"	"Customer Segment Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"inout"	"Customer Segment Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Put"	"/customer-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/exchange"
+""
+"Put"	"/customer-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/execution"
+""	1	"inout"	"Customer Segment Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"inout"	"Customer Segment Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"inout"	"Customer Segment Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"inout"	"Customer Segment Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"inout"	"Customer Segment Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"inout"	"Customer Segment Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"inout"	"Customer Segment Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"inout"	"Customer Segment Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Put"	"/customer-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/requisition"
+""	1	"inout"	"Customer Segment Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"inout"	"Customer Segment Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"inout"	"Customer Segment Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"inout"	"Customer Segment Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"inout"	"Customer Segment Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"inout"	"Customer Segment Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"inout"	"Customer Segment Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"inout"	"Customer Segment Performance Request Result"	"BQ Performance Analysis Instance Record"	String
+""
+"Get"	"/customer-portfolio/{sd-identifier}/performance-analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Segment Performance Analysis Type"	"BQ Performance Analysis Instance Record"	String
+""	2	"out"	"Customer Segment Performance Analysis Task"	"BQ Performance Analysis Instance Record"	String
+""	3	"out"	"Customer Segment Performance Request Specification"	"BQ Performance Analysis Instance Record"	String
+""	4	"out"	"Customer Segment Performance Model Reference"	"BQ Performance Analysis Instance Record"	Object
+""	5	"out"	"Customer Segment Performance Product/Service Activity Report"	"BQ Performance Analysis Instance Record"	String
+""	6	"out"	"Customer Segment Performance Financial Market Research Report"	"BQ Performance Analysis Instance Record"	String
+""	7	"out"	"Customer Segment Performance Work Products"	"BQ Performance Analysis Instance Record"	String
+""	8	"out"	"Customer Segment Performance Request Result"	"BQ Performance Analysis Instance Record"	String

@@ -1,0 +1,13 @@
+"Service Domain specification for Credit and Margin Management"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Market Risk
+"Service Domain"	Credit and Margin Management
+"Role Definition"	"Determine and refine credit and margin directives and policies to reflect the overall risk/reward appetite of the organization and govern credit decisioning"
+"Example of use"	"Senior policy makers interpret the financial and risk strategies of the bank to determine specific credit and margin rules and policies"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Direct
+"Asset Type"	CreditAndMargins
+"Generic Artifact"	Strategy
+"Control Record"	CreditAndMarginsStrategy
+"Registration Status"	Registered

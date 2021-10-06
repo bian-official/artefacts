@@ -1,0 +1,10 @@
+"Control Record Model for: "	Guideline Compliance
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Guideline Compliance Assessment Instance Record	""	""	""
+"CR"	CR Guideline Compliance Assessment Instance Record	Guideline Compliance Assessment Type	"The type and make-up of guideline compliance tests referenced in the assessment"	String
+"CR"	CR Guideline Compliance Assessment Instance Record	Business Unit Reference	"The business function or unit assessed for compliance if appropriate"	Object
+"CR"	CR Guideline Compliance Assessment Instance Record	ProductandService Reference	"The associated product/service being assessed if appropriate"	Object
+"CR"	CR Guideline Compliance Assessment Instance Record	Customer Reference	"Reference to the customer assessed if appropriate"	Object
+"CR"	CR Guideline Compliance Assessment Instance Record	Document Reference	"Reference to any documentation classified/archived as appropriate"	Object
+"CR"	CR Guideline Compliance Assessment Instance Record	Guideline Compliance Assessment Work Products	"Work documentation, forms and schedules produced and referenced during the assessment"	String
+"CR"	CR Guideline Compliance Assessment Instance Record	Guideline Compliance Assessment Result	"Outcome/result of the assessment, can include remedial actions"	String

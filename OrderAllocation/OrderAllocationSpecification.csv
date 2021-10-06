@@ -1,0 +1,13 @@
+"Service Domain specification for Order Allocation"
+"Business Area"	Operations
+"Business Domain"	Clearing And Settlement
+"Service Domain"	Order Allocation
+"Role Definition"	"Apply appropriate rules to allocated a completed order across counterparties"
+"Example of use"	"A large market order is partly fulfilled and the pricing and allocation of the constituent transactions is allocated across the counterparties"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Transact
+"Asset Type"	SecuritiesAllocation
+"Generic Artifact"	Transaction
+"Control Record"	SecuritiesAllocationTransaction
+"Registration Status"	Registered

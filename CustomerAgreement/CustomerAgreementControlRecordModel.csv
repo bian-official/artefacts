@@ -1,0 +1,24 @@
+"Control Record Model for: "	Customer Agreement
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Regulatory Terms Instance Record	""	""	""
+"BQ"	BQ Regulatory Terms Instance Record	Regulatory Authority	"The applicable regulatory authority"	String
+"BQ"	BQ Regulatory Terms Instance Record	Applicable Regulation Reference	"Reference to any regulatory requirements"	Object
+"BQ"	BQ Regulatory Terms Instance Record	Applicable Regulation Interpretation	"Explanation or interpretation of the regulation as applied"	String
+"CR"	CR Customer Agreement Instance Record	""	""	""
+"CR"	CR Customer Agreement Instance Record	Customer Reference	"Reference to the associated customer (can currently be a person or a company)"	Object
+"CR"	CR Customer Agreement Instance Record	Legal Entity Reference	"Reference to the legal entity that is the subject of the agreement"	Object
+"CR"	CR Customer Agreement Instance Record	Agreement Type	"The type of customer agreement (e.g. individual, corporate)"	String
+"CR"	CR Customer Agreement Instance Record	Agreement Jurisdiction	"The contractual jurisdiction or coverage of the agreement (e.g. "governed by State")"	String
+"CR"	CR Customer Agreement Instance Record	Agreement Valid From/To Date	"The term of the agreement"	Date
+"CR"	CR Customer Agreement Instance Record	Agreement Signatories/Responsible Parties	"Reference to signatories"	String
+"CR"	CR Customer Agreement Instance Record	Document Directory Entry Instance Reference	"Reference to any associated documents"	Object
+"CR"	CR Customer Agreement Instance Record	Sales Product Agreement Reference	"Reference to product specific T&Cs maintained elsewhere but subordinate to this agreement"	Object
+"CR"	CR Customer Agreement Instance Record	Party Life-cycle Management Reference	"Reference to KYC/Regulatory assessments maintained elsewhere for the customer"	Object
+"BQ"	BQ Legal Terms Instance Record	""	""	""
+"BQ"	BQ Legal Terms Instance Record	Jurisdiction	"The legal jurisdiction"	String
+"BQ"	BQ Legal Terms Instance Record	Applicable Law Reference	"Reference to any legal requirements"	Object
+"BQ"	BQ Legal Terms Instance Record	Applicable Law Interpretation	"Explanation or interpretation of the law as applied"	String
+"BQ"	BQ Policy Terms Instance Record	""	""	""
+"BQ"	BQ Policy Terms Instance Record	Bank Policy-Rule Type	"The type of bank policy referenced (e.g. staff certification)"	String
+"BQ"	BQ Policy Terms Instance Record	Applicable Bank Policy-Rule Reference	"Reference to the bank's policies or rules"	Object
+"BQ"	BQ Policy Terms Instance Record	Applicable Bank Policy- Rule Interpretation	"Explanation or interpretation of the policy or rule as applied"	String

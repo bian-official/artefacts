@@ -1,0 +1,32 @@
+"Control Record Model for: "	Market Analysis
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Analysis Algorithm Instance Record	""	""	""
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Type	"Defines the type of algorithm (e.g. regression)"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Specification	"The definition of the algorithm, in particular required inputs, the internal data, calculations and outputs"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Guidance	"Guidance on usage of the algorithm"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Referenced Market Research Record	"The externally sourced general market research and bank maintained research viewpoints used in the analysis"	Object
+"BQ"	BQ Analysis Algorithm Instance Record	Market Research Report Type Reference	"Reference to a specific type of predefined market research report or database"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Market Research Report Type Definition	"Describes the available market research report content (e.g. customer social network usage analysis)"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Market Research Report Version/Period	"Defines the version and period covered by the research"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Market Research Report	"Is the content of the report or database in any suitable form"	String
+"BQ"	BQ Analysis Algorithm Instance Record	General Market Research Directory Entry Instance Reference	"Reference to an internally maintained market research viewpoint"	Object
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Request Record	"Request record of the analysis algorithm execution"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Request	"The specific details of the request"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Request Result	"The output from executing the algorithm"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Usage Record	"The record of the use of general market research analysis algorithm"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Usage	"A record of the usage of the algorithm"	String
+"BQ"	BQ Analysis Algorithm Instance Record	Analysis Algorithm Impact	"A record of reported impact/accuracy of the algorithm"	String
+"CR"	CR General Market Research Analysis Instance Record	""	""	""
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Type	"The type of research view provided by the research (e.g. competitor analysis)"	String
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Specification	"The definition of the analysis"	String
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Guidance	"Guidance on usage and interpretation of the analysis"	String
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Algorithm Reference	"Reference to the algorithm used to generate the analysis"	Object
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Request Record	"Request record of the general market analysis"	String
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Request	"The specific details of the request"	String
+"CR"	CR General Market Research Analysis Instance Record	Employee/Business Unit Reference	"The employee/business unit requesting the analysis"	Object
+"CR"	CR General Market Research Analysis Instance Record	Market Analysis Request Work Products	"Work documentation, forms and schedules produced and referenced during the analysis"	String
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Request Result	"The output from performing the analysis"	String
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Usage Record	"Usage record of the general market analysis"	String
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Usage	"A record of the usage of the analysis"	String
+"CR"	CR General Market Research Analysis Instance Record	General Market Research Analysis Impact	"A record of reported impact/accuracy of the analysis"	String

@@ -1,0 +1,110 @@
+"Service Operations for: "	Customer Tax Handling
+""
+"POST"	"/customer-tax-handling/activation"
+"PUT"	"/customer-tax-handling/{sd-reference-id}/configuration"
+"PUT"	"/customer-tax-handling/{sd-reference-id}/feedback"
+""
+"Post"	"/customer-tax-handling/{sd-identifier}/customer-tax-obligation-arrangement/{crbq-identifier}/initiation"
+""	1	"in"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"in"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"in"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"in"	"Applicable Taxation Rule Definition"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	6	"in"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/customer-tax-obligation-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"inout"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"inout"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"inout"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/customer-tax-obligation-arrangement/{crbq-identifier}/control"
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/customer-tax-obligation-arrangement/{crbq-identifier}/execution"
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/customer-tax-obligation-arrangement/{crbq-identifier}/requisition"
+""
+"Get"	"/customer-tax-handling/{sd-identifier}/customer-tax-obligation-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"out"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"out"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"out"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"out"	"Applicable Taxation Rule Definition"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	6	"out"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/consolidation/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"inout"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"inout"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"out"	"Applicable Taxation Rule Definition"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	6	"inout"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	7	"inout"	"Product Instance Reference"	"BQ Consolidation Instance Record"	Object
+""	8	"inout"	"Product Fulfillment Arrangement Instance Report Type"	"BQ Consolidation Instance Record"	String
+""	9	"inout"	"Report Options/Selection Criteria"	"BQ Consolidation Instance Record"	String
+""	10	"inout"	"Report Period"	"BQ Consolidation Instance Record"	String
+""	11	"inout"	"Report Format/Template"	"BQ Consolidation Instance Record"	String
+""	12	"inout"	"Customer Tax Handling Consolidation Work Products"	"BQ Consolidation Instance Record"	String
+""
+"Get"	"/customer-tax-handling/{sd-identifier}/consolidation/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"out"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"out"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"out"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"out"	"Applicable Taxation Rule Definition"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	6	"out"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	7	"out"	"Product Instance Reference"	"BQ Consolidation Instance Record"	Object
+""	8	"out"	"Product Fulfillment Arrangement Instance Report Type"	"BQ Consolidation Instance Record"	String
+""	9	"out"	"Report Options/Selection Criteria"	"BQ Consolidation Instance Record"	String
+""	10	"out"	"Report Period"	"BQ Consolidation Instance Record"	String
+""	11	"out"	"Report Format/Template"	"BQ Consolidation Instance Record"	String
+""	12	"out"	"Customer Tax Handling Consolidation Work Products"	"BQ Consolidation Instance Record"	String
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/analysis/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"inout"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"inout"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"out"	"Applicable Taxation Rule Definition"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	6	"inout"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	7	"inout"	"Customer Tax Handling Analysis Work Products"	"BQ Analysis Instance Record"	String
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/analysis/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-tax-handling/{sd-identifier}/analysis/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"out"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"out"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"out"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"out"	"Applicable Taxation Rule Definition"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	6	"out"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	7	"out"	"Customer Tax Handling Analysis Work Products"	"BQ Analysis Instance Record"	String
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/reporting/{crbq-identifier}/update"
+""	1	"inout"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"inout"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"inout"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"out"	"Applicable Taxation Rule Definition"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	6	"inout"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	7	"inout"	"Customer Tax Report Instance Reference"	"BQ Reporting Instance Record"	Object
+""	8	"inout"	"Customer Tax Report Type"	"BQ Reporting Instance Record"	String
+""	9	"inout"	"Customer Tax Report Period"	"BQ Reporting Instance Record"	String
+""	10	"inout"	"Customer Tax Report Report"	"BQ Reporting Instance Record"	String
+""	11	"inout"	"Customer Tax Handling Reporting Work Products"	"BQ Reporting Instance Record"	String
+""
+"Put"	"/customer-tax-handling/{sd-identifier}/reporting/{crbq-identifier}/exchange"
+""
+"Get"	"/customer-tax-handling/{sd-identifier}/reporting/{crbq-identifier}/retrieval"
+""	1	"out"	"Customer Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	2	"out"	"Customer Tax Handling Arrangement Record"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	3	"out"	"Taxation Jurisdiction Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	4	"out"	"Applicable Taxation Rule Reference"	"CR Customer Tax Obligation Arrangement Instance Record"	Object
+""	5	"out"	"Applicable Taxation Rule Definition"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	6	"out"	"Customer Tax Reporting Schedule"	"CR Customer Tax Obligation Arrangement Instance Record"	String
+""	7	"out"	"Customer Tax Report Instance Reference"	"BQ Reporting Instance Record"	Object
+""	8	"out"	"Customer Tax Report Type"	"BQ Reporting Instance Record"	String
+""	9	"out"	"Customer Tax Report Period"	"BQ Reporting Instance Record"	String
+""	10	"out"	"Customer Tax Report Report"	"BQ Reporting Instance Record"	String
+""	11	"out"	"Customer Tax Handling Reporting Work Products"	"BQ Reporting Instance Record"	String

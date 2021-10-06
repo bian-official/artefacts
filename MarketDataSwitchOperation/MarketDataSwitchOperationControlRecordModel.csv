@@ -1,0 +1,17 @@
+"Control Record Model for: "	Market Data Switch Operation
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Distribution Instance Record	""	""	""
+"BQ"	BQ Distribution Instance Record	Market Data Switch User Access Rights Record Reference	"Reference to a user's switch service access rights"	Object
+"BQ"	BQ Distribution Instance Record	Market Data Switch User Access Rights Record	"The users are registered to access different services/information made available through the switch - it is used to control information distribution"	String
+"BQ"	BQ Distribution Instance Record	Market Data Switch Service User Session Record	"This tracks the switch service content that the user will receive for this session - reflecting their user access rights"	String
+"CR"	CR Information Feed Switch Operating Session Instance Record	""	""	""
+"CR"	CR Information Feed Switch Operating Session Instance Record	Market Information Feed Service Reference	"Refers to the market feed service - Note: the service operated by SD Information Provider Operation actually extracts the feed content"	Object
+"CR"	CR Information Feed Switch Operating Session Instance Record	Market Information Feed Service Profile	"Sets out the range of information services/pages available - possibly with some form of selection menu"	String
+"BQ"	BQ Feed Upload Instance Record	""	""	""
+"BQ"	BQ Feed Upload Instance Record	Market Information Feed Service Record Reference	"Reference to packets of information/records provided, perhaps with real-time updates"	Object
+"BQ"	BQ Feed Upload Instance Record	Market Information Feed Service Record	"This is the uploaded market information that is distributed over the switch - its content is updated dynamically during the operating session"	String
+"BQ"	BQ Internal Publication Instance Record	""	""	""
+"BQ"	BQ Internal Publication Instance Record	Internal Information Feed Service Reference	"Reference to internal sources of published information (e.g. bank rates)"	Object
+"BQ"	BQ Internal Publication Instance Record	Internal Information Feed Service Profile	"Defines the range of internally published information services/pages"	String
+"BQ"	BQ Internal Publication Instance Record	Internal Information Feed Service Record Reference	"Reference to 'live' internal pages of information that is published"	Object
+"BQ"	BQ Internal Publication Instance Record	Internal Information Feed Service Record	"This is the internally generated information that is distributed over the switch"	String

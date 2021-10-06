@@ -1,0 +1,5 @@
+"Service Operations for: "	Hedge Fund Administration
+"Control Record Model for Hedge Fund Administration is not defined"
+"POST"	"/hedge-fund-administration/activation"
+"PUT"	"/hedge-fund-administration/{sd-reference-id}/configuration"
+"PUT"	"/hedge-fund-administration/{sd-reference-id}/feedback"

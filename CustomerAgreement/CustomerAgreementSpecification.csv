@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Agreement"
+"Business Area"	Customers
+"Business Domain"	Relationship Management
+"Service Domain"	Customer Agreement
+"Role Definition"	"The Customer Agreement service domain captures and maintains the master legal terms of conditions in force for a customer (which as noted can be a complex multinational with many underlying product and service specific agreements)."
+"Example of use"	"An new customer's master agreement is established prior to negotiating and setting up the underlying product specific agreements"
+"Executive Summary"	"This service domain maintains the master customer agreement/legal contract. Note that a customer can be a complex corporate entity with many subsidiaries operating in different geopolitical areas. The customer agreement is linked to as many Sales Product Agreements as needed for all in-force products"
+"Key Features"	"Set-up and maintain the customer master agreement. Ensure legal, regulatory and corporate considerations are covered in agreement. Determine if proposed actions are covered by the agreement"
+"Functional Pattern"	Agree Terms
+"Asset Type"	Customer
+"Generic Artifact"	Agreement
+"Control Record"	CustomerAgreement
+"Registration Status"	Registered

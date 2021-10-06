@@ -1,0 +1,5 @@
+"Service Operations for: "	Economic Capital
+"Control Record Model for Economic Capital is not defined"
+"POST"	"/economic-capital/activation"
+"PUT"	"/economic-capital/{sd-reference-id}/configuration"
+"PUT"	"/economic-capital/{sd-reference-id}/feedback"

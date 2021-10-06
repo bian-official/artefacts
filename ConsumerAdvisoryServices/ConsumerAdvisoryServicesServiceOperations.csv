@@ -1,0 +1,166 @@
+"Service Operations for: "	Consumer Advisory Services
+""
+"POST"	"/consumer-advisory-services/activation"
+"PUT"	"/consumer-advisory-services/{sd-reference-id}/configuration"
+"PUT"	"/consumer-advisory-services/{sd-reference-id}/feedback"
+""
+"Post"	"/consumer-advisory-services/{sd-identifier}/consumer-advice-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Product Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	3	"in"	"Bank Branch/Location Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	4	"in"	"Employee/Business Unit Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	5	"out"	"Consumer Advice Work Products"	"CR Consumer Advice Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	7	"out"	"Consumer Advice Session Schedule"	"CR Consumer Advice Arrangement Instance Record"	String
+""	8	"inout"	"Consumer Advice Profile"	"CR Consumer Advice Arrangement Instance Record"	String
+""	9	"inout"	"Advice Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	10	"out"	"Consumer Advice Consolidation Record"	"CR Consumer Advice Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/consumer-advice-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	5	"inout"	"Consumer Advice Work Products"	"CR Consumer Advice Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	7	"inout"	"Consumer Advice Session Schedule"	"CR Consumer Advice Arrangement Instance Record"	String
+""	8	"inout"	"Consumer Advice Profile"	"CR Consumer Advice Arrangement Instance Record"	String
+""	9	"inout"	"Advice Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	10	"inout"	"Consumer Advice Consolidation Record"	"CR Consumer Advice Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/consumer-advice-arrangement/{crbq-identifier}/control"
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/consumer-advice-arrangement/{crbq-identifier}/requisition"
+""	1	"in"	"Product Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	5	"inout"	"Consumer Advice Work Products"	"CR Consumer Advice Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	7	"inout"	"Consumer Advice Session Schedule"	"CR Consumer Advice Arrangement Instance Record"	String
+""	8	"inout"	"Consumer Advice Profile"	"CR Consumer Advice Arrangement Instance Record"	String
+""	9	"inout"	"Advice Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	10	"out"	"Consumer Advice Consolidation Record"	"CR Consumer Advice Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""
+"Get"	"/consumer-advisory-services/{sd-identifier}/consumer-advice-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	3	"out"	"Bank Branch/Location Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	4	"out"	"Employee/Business Unit Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	5	"out"	"Consumer Advice Work Products"	"CR Consumer Advice Arrangement Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	7	"out"	"Consumer Advice Session Schedule"	"CR Consumer Advice Arrangement Instance Record"	String
+""	8	"out"	"Consumer Advice Profile"	"CR Consumer Advice Arrangement Instance Record"	String
+""	9	"out"	"Advice Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	10	"out"	"Consumer Advice Consolidation Record"	"CR Consumer Advice Arrangement Instance Record"	String
+""	11	"out"	"Date Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""
+"Post"	"/consumer-advisory-services/{sd-identifier}/financial-planning/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	5	"inout"	"Consumer Advice Work Products"	"CR Consumer Advice Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	7	"inout"	"Consumer Advice Session Schedule"	"CR Consumer Advice Arrangement Instance Record"	String
+""	8	"inout"	"Consumer Advice Profile"	"CR Consumer Advice Arrangement Instance Record"	String
+""	9	"inout"	"Advice Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	10	"out"	"Consumer Advice Consolidation Record"	"CR Consumer Advice Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	12	"in"	"Product/Service Reference"	"BQ Financial Planning Instance Record"	Object
+""	13	"out"	"Financial Planning Advice Result"	"BQ Financial Planning Instance Record"	String
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/financial-planning/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Reference"	"BQ Financial Planning Instance Record"	Object
+""	2	"inout"	"Financial Planning Advice Result"	"BQ Financial Planning Instance Record"	String
+""
+"Get"	"/consumer-advisory-services/{sd-identifier}/financial-planning/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Reference"	"BQ Financial Planning Instance Record"	Object
+""	2	"out"	"Financial Planning Advice Result"	"BQ Financial Planning Instance Record"	String
+""
+"Post"	"/consumer-advisory-services/{sd-identifier}/tax-optimization/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	5	"inout"	"Consumer Advice Work Products"	"CR Consumer Advice Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	7	"inout"	"Consumer Advice Session Schedule"	"CR Consumer Advice Arrangement Instance Record"	String
+""	8	"inout"	"Consumer Advice Profile"	"CR Consumer Advice Arrangement Instance Record"	String
+""	9	"inout"	"Advice Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	10	"out"	"Consumer Advice Consolidation Record"	"CR Consumer Advice Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	12	"in"	"Product/Service Reference"	"BQ Tax Optimization Instance Record"	Object
+""	13	"out"	"Tax Optimization Advice Result"	"BQ Tax Optimization Instance Record"	String
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/tax-optimization/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Reference"	"BQ Tax Optimization Instance Record"	Object
+""	2	"inout"	"Tax Optimization Advice Result"	"BQ Tax Optimization Instance Record"	String
+""
+"Get"	"/consumer-advisory-services/{sd-identifier}/tax-optimization/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Reference"	"BQ Tax Optimization Instance Record"	Object
+""	2	"out"	"Tax Optimization Advice Result"	"BQ Tax Optimization Instance Record"	String
+""
+"Post"	"/consumer-advisory-services/{sd-identifier}/product-guidance/{crbq-identifier}/initiation"
+""	1	"in"	"Product Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	4	"inout"	"Employee/Business Unit Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	5	"inout"	"Consumer Advice Work Products"	"CR Consumer Advice Arrangement Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"CR Consumer Advice Arrangement Instance Record"	Object
+""	7	"inout"	"Consumer Advice Session Schedule"	"CR Consumer Advice Arrangement Instance Record"	String
+""	8	"inout"	"Consumer Advice Profile"	"CR Consumer Advice Arrangement Instance Record"	String
+""	9	"inout"	"Advice Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	10	"out"	"Consumer Advice Consolidation Record"	"CR Consumer Advice Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR Consumer Advice Arrangement Instance Record"	String
+""	12	"in"	"Product/Service Reference"	"BQ Product Guidance Instance Record"	Object
+""	13	"inout"	"Specialist Support Task"	"BQ Product Guidance Instance Record"	String
+""	14	"inout"	"Specialist Employee/Business Unit Reference"	"BQ Product Guidance Instance Record"	Object
+""	15	"out"	"Specialist Advice Description"	"BQ Product Guidance Instance Record"	String
+""	16	"out"	"Specialist Advice Charge"	"BQ Product Guidance Instance Record"	String
+""	17	"out"	"Product Guidance Advice Result"	"BQ Product Guidance Instance Record"	String
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/product-guidance/{crbq-identifier}/update"
+""	1	"inout"	"Product/Service Reference"	"BQ Product Guidance Instance Record"	Object
+""	2	"inout"	"Specialist Support Task"	"BQ Product Guidance Instance Record"	String
+""	3	"inout"	"Specialist Employee/Business Unit Reference"	"BQ Product Guidance Instance Record"	Object
+""	4	"inout"	"Specialist Advice Description"	"BQ Product Guidance Instance Record"	String
+""	5	"inout"	"Specialist Advice Charge"	"BQ Product Guidance Instance Record"	String
+""	6	"inout"	"Product Guidance Advice Result"	"BQ Product Guidance Instance Record"	String
+""
+"Get"	"/consumer-advisory-services/{sd-identifier}/product-guidance/{crbq-identifier}/retrieval"
+""	1	"out"	"Product/Service Reference"	"BQ Product Guidance Instance Record"	Object
+""	2	"out"	"Specialist Support Task"	"BQ Product Guidance Instance Record"	String
+""	3	"out"	"Specialist Employee/Business Unit Reference"	"BQ Product Guidance Instance Record"	Object
+""	4	"out"	"Specialist Advice Description"	"BQ Product Guidance Instance Record"	String
+""	5	"out"	"Specialist Advice Charge"	"BQ Product Guidance Instance Record"	String
+""	6	"out"	"Product Guidance Advice Result"	"BQ Product Guidance Instance Record"	String
+""
+"Post"	"/consumer-advisory-services/{sd-identifier}/service-fees/{crbq-identifier}/initiation"
+""	1	"in"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/service-fees/{crbq-identifier}/update"
+""	1	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	2	"inout"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	3	"inout"	"Fee Transaction Description"	"BQ Service Fees Instance Record"	String
+""	4	"inout"	"Fee Transaction Type"	"BQ Service Fees Instance Record"	String
+""	5	"inout"	"Fee Transaction Charge"	"BQ Service Fees Instance Record"	String
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/service-fees/{crbq-identifier}/exchange"
+""
+"Put"	"/consumer-advisory-services/{sd-identifier}/service-fees/{crbq-identifier}/execution"
+""	1	"inout"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	2	"inout"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	3	"in"	"Fee Transaction Description"	"BQ Service Fees Instance Record"	String
+""	4	"inout"	"Fee Transaction Type"	"BQ Service Fees Instance Record"	String
+""	5	"in"	"Fee Transaction Charge"	"BQ Service Fees Instance Record"	String
+""
+"Get"	"/consumer-advisory-services/{sd-identifier}/service-fees/{crbq-identifier}/retrieval"
+""	1	"out"	"Fee Application Record"	"BQ Service Fees Instance Record"	String
+""	2	"out"	"Fee Transaction"	"BQ Service Fees Instance Record"	String
+""	3	"out"	"Fee Transaction Description"	"BQ Service Fees Instance Record"	String
+""	4	"out"	"Fee Transaction Type"	"BQ Service Fees Instance Record"	String
+""	5	"out"	"Fee Transaction Charge"	"BQ Service Fees Instance Record"	String

@@ -1,0 +1,13 @@
+"Service Domain specification for Trading Book Oversight"
+"Business Area"	Products
+"Business Domain"	Market Operations
+"Service Domain"	Trading Book Oversight
+"Role Definition"	"Define and track trading book activity against the established trading rules/entitlements and limits"
+"Example of use"	"End of day trade analysis consolidates and activity report that highlights trading activity that approaches or breaches position limits. The trades behind the exceptions are included as a basis for assessing the causes for unwanted activity. G"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Manage
+"Asset Type"	TradingPosition
+"Generic Artifact"	ManagementPlan
+"Control Record"	TradingPositionManagementPlan
+"Registration Status"	Registered

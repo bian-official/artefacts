@@ -1,0 +1,13 @@
+"Service Domain specification for Financial Statements"
+"Business Area"	Finance And Risk Management
+"Business Domain"	Financial Control
+"Service Domain"	Financial Statements
+"Role Definition"	"Consolidate and present the enterprise financial statements: this includes the balance sheet, statement of cash flows, statement of retained earnings and the income statement"
+"Example of use"	"The finance unit assembles the key financial statements for the enterprise for audit review and acceptance, tax and regulatory reporting"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Analyze
+"Asset Type"	FinancialStatements
+"Generic Artifact"	Analysis
+"Control Record"	FinancialStatementsAnalysis
+"Registration Status"	Registered

@@ -1,0 +1,231 @@
+"Service Operations for: "	Corporate Lease
+""
+"POST"	"/corporate-lease/activation"
+"PUT"	"/corporate-lease/{sd-reference-id}/configuration"
+"PUT"	"/corporate-lease/{sd-reference-id}/feedback"
+""
+"Put"	"/corporate-lease/{sd-identifier}/administer/{crbq-identifier}/control"
+""	1	"inout"	"Administer Preconditions"	"BQ Administer Instance Record"	String
+""	2	"inout"	"Administer Feature Schedule"	"BQ Administer Instance Record"	String
+""	3	"inout"	"Corporate Lease Administration"	"BQ Administer Instance Record"	Business Service
+""	4	"inout"	"Administer Postconditions"	"BQ Administer Instance Record"	String
+""	5	"inout"	"Administer Corporate Lease Administration Service Type"	"BQ Administer Instance Record"	String
+""	6	"inout"	"Administer Corporate Lease Administration Service Description"	"BQ Administer Instance Record"	String
+""	7	"inout"	"Administer Corporate Lease Administration Service Inputs and Ouputs"	"BQ Administer Instance Record"	String
+""	8	"inout"	"Administer Corporate Lease Administration Service Work Product"	"BQ Administer Instance Record"	String
+""	9	"inout"	"Administer Corporate Lease Administration Service Name"	"BQ Administer Instance Record"	String
+""
+"Put"	"/corporate-lease/{sd-identifier}/corporate-lease-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Corporate Lease Arrangement Parameter Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	2	"inout"	"Corporate Lease Arrangement Selected Option"	"CR Corporate Lease Arrangement Instance Record"	String
+""	3	"in"	"Corporate Lease Arrangement Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	4	"in"	"Corporate Lease Arrangement Reference"	"CR Corporate Lease Arrangement Instance Record"	"263069 not defined"
+""	5	"inout"	"Corporate Lease Arrangement Schedule"	"CR Corporate Lease Arrangement Instance Record"	String
+""	6	"inout"	"Corporate Lease Arrangement Status"	"CR Corporate Lease Arrangement Instance Record"	String
+""	7	"in"	"Corporate Lease Arrangement Currency"	"CR Corporate Lease Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Corporate Lease Arrangement Regulation Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""	9	"in"	"Corporate Lease Arrangement Regulation Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	10	"in"	"Corporate Lease Arrangement Jurisdiction"	"CR Corporate Lease Arrangement Instance Record"	String
+""	11	"in"	"Corporate Lease Arrangement Booking Location"	"CR Corporate Lease Arrangement Instance Record"	String
+""	12	"in"	"Corporate Lease Arrangement Account Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	13	"in"	"Corporate Lease Arrangement Account Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""
+"Put"	"/corporate-lease/{sd-identifier}/administer/{crbq-identifier}/exchange"
+""	1	"inout"	"Administer Preconditions"	"BQ Administer Instance Record"	String
+""	2	"inout"	"Administer Feature Schedule"	"BQ Administer Instance Record"	String
+""	3	"inout"	"Corporate Lease Administration"	"BQ Administer Instance Record"	Business Service
+""	4	"inout"	"Administer Postconditions"	"BQ Administer Instance Record"	String
+""	5	"inout"	"Administer Corporate Lease Administration Service Type"	"BQ Administer Instance Record"	String
+""	6	"inout"	"Administer Corporate Lease Administration Service Description"	"BQ Administer Instance Record"	String
+""	7	"inout"	"Administer Corporate Lease Administration Service Inputs and Ouputs"	"BQ Administer Instance Record"	String
+""	8	"inout"	"Administer Corporate Lease Administration Service Work Product"	"BQ Administer Instance Record"	String
+""	9	"inout"	"Administer Corporate Lease Administration Service Name"	"BQ Administer Instance Record"	String
+""
+"Put"	"/corporate-lease/{sd-identifier}/fulfill/{crbq-identifier}/exchange"
+""	1	"inout"	"Fulfill Preconditions"	"BQ Fulfill Instance Record"	String
+""	2	"inout"	"Fulfill Feature Schedule"	"BQ Fulfill Instance Record"	String
+""	3	"inout"	"Corporate Lease Fulfillment"	"BQ Fulfill Instance Record"	Business Service
+""	4	"inout"	"Fulfill Postconditions"	"BQ Fulfill Instance Record"	String
+""	5	"inout"	"Fulfill Corporate Lease Fulfillment Service Type"	"BQ Fulfill Instance Record"	String
+""	6	"inout"	"Fulfill Corporate Lease Fulfillment Service Description"	"BQ Fulfill Instance Record"	String
+""	7	"inout"	"Fulfill Corporate Lease Fulfillment Service Inputs and Ouputs"	"BQ Fulfill Instance Record"	String
+""	8	"inout"	"Fulfill Corporate Lease Fulfillment Service Work Product"	"BQ Fulfill Instance Record"	String
+""	9	"inout"	"Fulfill Corporate Lease Fulfillment Service Name"	"BQ Fulfill Instance Record"	String
+""
+"Put"	"/corporate-lease/{sd-identifier}/corporate-lease-arrangement/{crbq-identifier}/exchange"
+""	1	"inout"	"Corporate Lease Arrangement Parameter Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	2	"inout"	"Corporate Lease Arrangement Selected Option"	"CR Corporate Lease Arrangement Instance Record"	String
+""	3	"in"	"Corporate Lease Arrangement Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	4	"in"	"Corporate Lease Arrangement Reference"	"CR Corporate Lease Arrangement Instance Record"	"263069 not defined"
+""	5	"inout"	"Corporate Lease Arrangement Schedule"	"CR Corporate Lease Arrangement Instance Record"	String
+""	6	"inout"	"Corporate Lease Arrangement Status"	"CR Corporate Lease Arrangement Instance Record"	String
+""	7	"in"	"Corporate Lease Arrangement Currency"	"CR Corporate Lease Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Corporate Lease Arrangement Regulation Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""	9	"in"	"Corporate Lease Arrangement Regulation Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	10	"in"	"Corporate Lease Arrangement Jurisdiction"	"CR Corporate Lease Arrangement Instance Record"	String
+""	11	"in"	"Corporate Lease Arrangement Booking Location"	"CR Corporate Lease Arrangement Instance Record"	String
+""	12	"in"	"Corporate Lease Arrangement Account Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	13	"in"	"Corporate Lease Arrangement Account Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""
+"Put"	"/corporate-lease/{sd-identifier}/fulfill/{crbq-identifier}/execution"
+""	1	"inout"	"Fulfill Preconditions"	"BQ Fulfill Instance Record"	String
+""	2	"inout"	"Fulfill Feature Schedule"	"BQ Fulfill Instance Record"	String
+""	3	"inout"	"Corporate Lease Fulfillment"	"BQ Fulfill Instance Record"	Business Service
+""	4	"inout"	"Fulfill Postconditions"	"BQ Fulfill Instance Record"	String
+""	5	"inout"	"Fulfill Corporate Lease Fulfillment Service Type"	"BQ Fulfill Instance Record"	String
+""	6	"inout"	"Fulfill Corporate Lease Fulfillment Service Description"	"BQ Fulfill Instance Record"	String
+""	7	"inout"	"Fulfill Corporate Lease Fulfillment Service Inputs and Ouputs"	"BQ Fulfill Instance Record"	String
+""	8	"inout"	"Fulfill Corporate Lease Fulfillment Service Work Product"	"BQ Fulfill Instance Record"	String
+""	9	"inout"	"Fulfill Corporate Lease Fulfillment Service Name"	"BQ Fulfill Instance Record"	String
+""
+"Put"	"/corporate-lease/{sd-identifier}/corporate-lease-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Corporate Lease Arrangement Parameter Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	2	"inout"	"Corporate Lease Arrangement Selected Option"	"CR Corporate Lease Arrangement Instance Record"	String
+""	3	"in"	"Corporate Lease Arrangement Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	4	"in"	"Corporate Lease Arrangement Reference"	"CR Corporate Lease Arrangement Instance Record"	"263069 not defined"
+""	5	"inout"	"Corporate Lease Arrangement Schedule"	"CR Corporate Lease Arrangement Instance Record"	String
+""	6	"inout"	"Corporate Lease Arrangement Status"	"CR Corporate Lease Arrangement Instance Record"	String
+""	7	"in"	"Corporate Lease Arrangement Currency"	"CR Corporate Lease Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Corporate Lease Arrangement Regulation Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""	9	"in"	"Corporate Lease Arrangement Regulation Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	10	"in"	"Corporate Lease Arrangement Jurisdiction"	"CR Corporate Lease Arrangement Instance Record"	String
+""	11	"in"	"Corporate Lease Arrangement Booking Location"	"CR Corporate Lease Arrangement Instance Record"	String
+""	12	"in"	"Corporate Lease Arrangement Account Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	13	"in"	"Corporate Lease Arrangement Account Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""
+"Post"	"/corporate-lease/{sd-identifier}/fulfill/{crbq-identifier}/initiation"
+""	1	"inout"	"Fulfill Preconditions"	"BQ Fulfill Instance Record"	String
+""	2	"inout"	"Fulfill Feature Schedule"	"BQ Fulfill Instance Record"	String
+""	3	"inout"	"Corporate Lease Fulfillment"	"BQ Fulfill Instance Record"	Business Service
+""	4	"inout"	"Fulfill Postconditions"	"BQ Fulfill Instance Record"	String
+""	5	"inout"	"Fulfill Corporate Lease Fulfillment Service Type"	"BQ Fulfill Instance Record"	String
+""	6	"inout"	"Fulfill Corporate Lease Fulfillment Service Description"	"BQ Fulfill Instance Record"	String
+""	7	"inout"	"Fulfill Corporate Lease Fulfillment Service Inputs and Ouputs"	"BQ Fulfill Instance Record"	String
+""	8	"inout"	"Fulfill Corporate Lease Fulfillment Service Work Product"	"BQ Fulfill Instance Record"	String
+""	9	"inout"	"Fulfill Corporate Lease Fulfillment Service Name"	"BQ Fulfill Instance Record"	String
+""
+"Post"	"/corporate-lease/{sd-identifier}/corporate-lease-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Corporate Lease Arrangement Parameter Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	2	"inout"	"Corporate Lease Arrangement Selected Option"	"CR Corporate Lease Arrangement Instance Record"	String
+""	3	"in"	"Corporate Lease Arrangement Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	4	"in"	"Corporate Lease Arrangement Reference"	"CR Corporate Lease Arrangement Instance Record"	"263069 not defined"
+""	5	"inout"	"Corporate Lease Arrangement Schedule"	"CR Corporate Lease Arrangement Instance Record"	String
+""	6	"inout"	"Corporate Lease Arrangement Status"	"CR Corporate Lease Arrangement Instance Record"	String
+""	7	"in"	"Corporate Lease Arrangement Currency"	"CR Corporate Lease Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Corporate Lease Arrangement Regulation Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""	9	"in"	"Corporate Lease Arrangement Regulation Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	10	"in"	"Corporate Lease Arrangement Jurisdiction"	"CR Corporate Lease Arrangement Instance Record"	String
+""	11	"in"	"Corporate Lease Arrangement Booking Location"	"CR Corporate Lease Arrangement Instance Record"	String
+""	12	"in"	"Corporate Lease Arrangement Account Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	13	"in"	"Corporate Lease Arrangement Account Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""
+"Get"	"/corporate-lease/{sd-identifier}/administer/{crbq-identifier}/retrieval"
+""	1	"out"	"Administer Preconditions"	"BQ Administer Instance Record"	String
+""	2	"out"	"Administer Feature Schedule"	"BQ Administer Instance Record"	String
+""	3	"out"	"Corporate Lease Administration"	"BQ Administer Instance Record"	Business Service
+""	4	"out"	"Administer Postconditions"	"BQ Administer Instance Record"	String
+""	5	"out"	"Administer Corporate Lease Administration Service Type"	"BQ Administer Instance Record"	String
+""	6	"out"	"Administer Corporate Lease Administration Service Description"	"BQ Administer Instance Record"	String
+""	7	"out"	"Administer Corporate Lease Administration Service Inputs and Ouputs"	"BQ Administer Instance Record"	String
+""	8	"out"	"Administer Corporate Lease Administration Service Work Product"	"BQ Administer Instance Record"	String
+""	9	"out"	"Administer Corporate Lease Administration Service Name"	"BQ Administer Instance Record"	String
+""
+"Get"	"/corporate-lease/{sd-identifier}/fulfill/{crbq-identifier}/retrieval"
+""	1	"out"	"Fulfill Preconditions"	"BQ Fulfill Instance Record"	String
+""	2	"out"	"Fulfill Feature Schedule"	"BQ Fulfill Instance Record"	String
+""	3	"out"	"Corporate Lease Fulfillment"	"BQ Fulfill Instance Record"	Business Service
+""	4	"out"	"Fulfill Postconditions"	"BQ Fulfill Instance Record"	String
+""	5	"out"	"Fulfill Corporate Lease Fulfillment Service Type"	"BQ Fulfill Instance Record"	String
+""	6	"out"	"Fulfill Corporate Lease Fulfillment Service Description"	"BQ Fulfill Instance Record"	String
+""	7	"out"	"Fulfill Corporate Lease Fulfillment Service Inputs and Ouputs"	"BQ Fulfill Instance Record"	String
+""	8	"out"	"Fulfill Corporate Lease Fulfillment Service Work Product"	"BQ Fulfill Instance Record"	String
+""	9	"out"	"Fulfill Corporate Lease Fulfillment Service Name"	"BQ Fulfill Instance Record"	String
+""
+"Get"	"/corporate-lease/{sd-identifier}/corporate-lease-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Corporate Lease Arrangement Parameter Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	2	"out"	"Corporate Lease Arrangement Selected Option"	"CR Corporate Lease Arrangement Instance Record"	String
+""	3	"out"	"Corporate Lease Arrangement Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	4	"out"	"Corporate Lease Arrangement Reference"	"CR Corporate Lease Arrangement Instance Record"	"263069 not defined"
+""	5	"out"	"Corporate Lease Arrangement Schedule"	"CR Corporate Lease Arrangement Instance Record"	String
+""	6	"out"	"Corporate Lease Arrangement Status"	"CR Corporate Lease Arrangement Instance Record"	String
+""	7	"out"	"Corporate Lease Arrangement Currency"	"CR Corporate Lease Arrangement Instance Record"	CurrencyCode
+""	8	"out"	"Corporate Lease Arrangement Regulation Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""	9	"out"	"Corporate Lease Arrangement Regulation Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	10	"out"	"Corporate Lease Arrangement Jurisdiction"	"CR Corporate Lease Arrangement Instance Record"	String
+""	11	"out"	"Corporate Lease Arrangement Booking Location"	"CR Corporate Lease Arrangement Instance Record"	String
+""	12	"out"	"Corporate Lease Arrangement Account Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	13	"out"	"Corporate Lease Arrangement Account Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""
+"Put"	"/corporate-lease/{sd-identifier}/administer/{crbq-identifier}/requisition"
+""	1	"inout"	"Administer Preconditions"	"BQ Administer Instance Record"	String
+""	2	"inout"	"Administer Feature Schedule"	"BQ Administer Instance Record"	String
+""	3	"inout"	"Corporate Lease Administration"	"BQ Administer Instance Record"	Business Service
+""	4	"inout"	"Administer Postconditions"	"BQ Administer Instance Record"	String
+""	5	"inout"	"Administer Corporate Lease Administration Service Type"	"BQ Administer Instance Record"	String
+""	6	"inout"	"Administer Corporate Lease Administration Service Description"	"BQ Administer Instance Record"	String
+""	7	"inout"	"Administer Corporate Lease Administration Service Inputs and Ouputs"	"BQ Administer Instance Record"	String
+""	8	"inout"	"Administer Corporate Lease Administration Service Work Product"	"BQ Administer Instance Record"	String
+""	9	"inout"	"Administer Corporate Lease Administration Service Name"	"BQ Administer Instance Record"	String
+""
+"Put"	"/corporate-lease/{sd-identifier}/fulfill/{crbq-identifier}/requisition"
+""	1	"inout"	"Fulfill Preconditions"	"BQ Fulfill Instance Record"	String
+""	2	"inout"	"Fulfill Feature Schedule"	"BQ Fulfill Instance Record"	String
+""	3	"inout"	"Corporate Lease Fulfillment"	"BQ Fulfill Instance Record"	Business Service
+""	4	"inout"	"Fulfill Postconditions"	"BQ Fulfill Instance Record"	String
+""	5	"inout"	"Fulfill Corporate Lease Fulfillment Service Type"	"BQ Fulfill Instance Record"	String
+""	6	"inout"	"Fulfill Corporate Lease Fulfillment Service Description"	"BQ Fulfill Instance Record"	String
+""	7	"inout"	"Fulfill Corporate Lease Fulfillment Service Inputs and Ouputs"	"BQ Fulfill Instance Record"	String
+""	8	"inout"	"Fulfill Corporate Lease Fulfillment Service Work Product"	"BQ Fulfill Instance Record"	String
+""	9	"inout"	"Fulfill Corporate Lease Fulfillment Service Name"	"BQ Fulfill Instance Record"	String
+""
+"Put"	"/corporate-lease/{sd-identifier}/corporate-lease-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Corporate Lease Arrangement Parameter Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	2	"inout"	"Corporate Lease Arrangement Selected Option"	"CR Corporate Lease Arrangement Instance Record"	String
+""	3	"in"	"Corporate Lease Arrangement Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	4	"in"	"Corporate Lease Arrangement Reference"	"CR Corporate Lease Arrangement Instance Record"	"263069 not defined"
+""	5	"inout"	"Corporate Lease Arrangement Schedule"	"CR Corporate Lease Arrangement Instance Record"	String
+""	6	"inout"	"Corporate Lease Arrangement Status"	"CR Corporate Lease Arrangement Instance Record"	String
+""	7	"in"	"Corporate Lease Arrangement Currency"	"CR Corporate Lease Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Corporate Lease Arrangement Regulation Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""	9	"in"	"Corporate Lease Arrangement Regulation Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	10	"in"	"Corporate Lease Arrangement Jurisdiction"	"CR Corporate Lease Arrangement Instance Record"	String
+""	11	"in"	"Corporate Lease Arrangement Booking Location"	"CR Corporate Lease Arrangement Instance Record"	String
+""	12	"in"	"Corporate Lease Arrangement Account Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	13	"in"	"Corporate Lease Arrangement Account Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""
+"Put"	"/corporate-lease/{sd-identifier}/administer/{crbq-identifier}/update"
+""	1	"inout"	"Administer Preconditions"	"BQ Administer Instance Record"	String
+""	2	"inout"	"Administer Feature Schedule"	"BQ Administer Instance Record"	String
+""	3	"inout"	"Corporate Lease Administration"	"BQ Administer Instance Record"	Business Service
+""	4	"inout"	"Administer Postconditions"	"BQ Administer Instance Record"	String
+""	5	"inout"	"Administer Corporate Lease Administration Service Type"	"BQ Administer Instance Record"	String
+""	6	"inout"	"Administer Corporate Lease Administration Service Description"	"BQ Administer Instance Record"	String
+""	7	"inout"	"Administer Corporate Lease Administration Service Inputs and Ouputs"	"BQ Administer Instance Record"	String
+""	8	"inout"	"Administer Corporate Lease Administration Service Work Product"	"BQ Administer Instance Record"	String
+""	9	"inout"	"Administer Corporate Lease Administration Service Name"	"BQ Administer Instance Record"	String
+""
+"Put"	"/corporate-lease/{sd-identifier}/fulfill/{crbq-identifier}/update"
+""	1	"inout"	"Fulfill Preconditions"	"BQ Fulfill Instance Record"	String
+""	2	"inout"	"Fulfill Feature Schedule"	"BQ Fulfill Instance Record"	String
+""	3	"inout"	"Corporate Lease Fulfillment"	"BQ Fulfill Instance Record"	Business Service
+""	4	"inout"	"Fulfill Postconditions"	"BQ Fulfill Instance Record"	String
+""	5	"inout"	"Fulfill Corporate Lease Fulfillment Service Type"	"BQ Fulfill Instance Record"	String
+""	6	"inout"	"Fulfill Corporate Lease Fulfillment Service Description"	"BQ Fulfill Instance Record"	String
+""	7	"inout"	"Fulfill Corporate Lease Fulfillment Service Inputs and Ouputs"	"BQ Fulfill Instance Record"	String
+""	8	"inout"	"Fulfill Corporate Lease Fulfillment Service Work Product"	"BQ Fulfill Instance Record"	String
+""	9	"inout"	"Fulfill Corporate Lease Fulfillment Service Name"	"BQ Fulfill Instance Record"	String
+""
+"Put"	"/corporate-lease/{sd-identifier}/corporate-lease-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Corporate Lease Arrangement Parameter Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	2	"inout"	"Corporate Lease Arrangement Selected Option"	"CR Corporate Lease Arrangement Instance Record"	String
+""	3	"in"	"Corporate Lease Arrangement Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	4	"in"	"Corporate Lease Arrangement Reference"	"CR Corporate Lease Arrangement Instance Record"	"263069 not defined"
+""	5	"inout"	"Corporate Lease Arrangement Schedule"	"CR Corporate Lease Arrangement Instance Record"	String
+""	6	"inout"	"Corporate Lease Arrangement Status"	"CR Corporate Lease Arrangement Instance Record"	String
+""	7	"in"	"Corporate Lease Arrangement Currency"	"CR Corporate Lease Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Corporate Lease Arrangement Regulation Reference"	"CR Corporate Lease Arrangement Instance Record"	Object
+""	9	"in"	"Corporate Lease Arrangement Regulation Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	10	"in"	"Corporate Lease Arrangement Jurisdiction"	"CR Corporate Lease Arrangement Instance Record"	String
+""	11	"in"	"Corporate Lease Arrangement Booking Location"	"CR Corporate Lease Arrangement Instance Record"	String
+""	12	"in"	"Corporate Lease Arrangement Account Type"	"CR Corporate Lease Arrangement Instance Record"	String
+""	13	"in"	"Corporate Lease Arrangement Account Reference"	"CR Corporate Lease Arrangement Instance Record"	Object

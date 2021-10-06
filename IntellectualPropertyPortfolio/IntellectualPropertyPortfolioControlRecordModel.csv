@@ -1,0 +1,31 @@
+"Control Record Model for: "	Intellectual Property Portfolio
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"CR"	CR Intellectual Property Administrative Plan Instance Record	""	""	""
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Intellectual Property Asset Reference	"Reference to the intellectual property asset item"	Object
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Intellectual Property Asset Record	"The details maintained for the intellectual property asset"	String
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Intellectual Property Asset Type	"The type of asset (i.e. trade secrets, trademarks, copyrights, and patents.)"	String
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Intellectual Property Asset Description	"Description of significant details and properties of the intellectual property asset"	String
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Intellectual Property Asset Title	"Details of title ownership, including assigned usage rights"	String
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Intellectual Property Asset Jurisdiction	"Details of scope of coverage of the intellectual property asset (e.g. geographic coverage, allowed usage type coverage)"	String
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Intellectual Property Asset Creator	"Reference to the original source of the intellectual property"	String
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Intellectual Property Asset Valuation	"An indication or description of the commercial value of the intellectual property asset. This can combine a 'replacement' valuation and an licensing/assignment income assessment. The value can be an estimate and include actual realized income"	String
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Document Directory Entry Instance Reference	"Reference to associated specification documents"	Object
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Date Type	"Key dates and times associated with the intellectual property asset (e.g. creation date, assignment date, valid until/expiry date)"	String
+"CR"	CR Intellectual Property Administrative Plan Instance Record	Date	"Value of the date type"	String
+"BQ"	BQ Maintenance Instance Record	""	""	""
+"BQ"	BQ Maintenance Instance Record	Intellectual Property Asset Maintenance Schedule	"The schedule for maintenance tasks performed and to be performed (e.g. patent renewals)"	String
+"BQ"	BQ Maintenance Instance Record	Intellectual Property Asset Protection Reference	"Reference to the intellectual property protection mechanism employed (e.g. copyright, trademark or patent reference number)"	Object
+"BQ"	BQ Maintenance Instance Record	Intellectual Property Asset Registration Reference	"Reference to the registration entity for the intellectual property protection mechanism (e.g. U.S. Patent Office)"	Object
+"BQ"	BQ Maintenance Instance Record	Intellectual Property Asset Maintenance Task Record	"A record of payments and other actions taken to maintain the asset"	String
+"BQ"	BQ Maintenance Instance Record	Intellectual Property Asset Maintenance Task Type	"The type of maintenance task (e.g. annual renewal)"	String
+"BQ"	BQ Maintenance Instance Record	Intellectual Property Asset Maintenance Task Description	"Description of the task performed"	String
+"BQ"	BQ Maintenance Instance Record	Intellectual Property Asset Maintenance Task Work Products	"File of consolidated notes, forms and documents for the maintenance task"	String
+"BQ"	BQ Maintenance Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Maintenance Instance Record	Intellectual Property Asset Maintenance Transaction	"Details of any payments made as part of maintenance"	String
+"BQ"	BQ Assignment Instance Record	""	""	""
+"BQ"	BQ Assignment Instance Record	Intellectual Property Asset Assignment Schedule	"The schedule capturing assignments for use/deployment of the intellectual property asset. This can include internal use and external licensed agreements"	String
+"BQ"	BQ Assignment Instance Record	Intellectual Property Asset Assignment Record	"A record of assignments of the intellectual property both for internal use and for 3rd party licensing"	String
+"BQ"	BQ Assignment Instance Record	Intellectual Property Asset Assignment Type	"The type of assignment (e.g. internal, external license)"	String
+"BQ"	BQ Assignment Instance Record	Intellectual Property Asset Assignment Description	"Description of the assignment (e.g. allowed use, terms)"	String
+"BQ"	BQ Assignment Instance Record	Document Directory Entry Instance Reference	"Reference to associated documents"	Object
+"BQ"	BQ Assignment Instance Record	Intellectual Property Asset Assignment Transaction	"Details of any charges levied and payments received made from licensing"	String

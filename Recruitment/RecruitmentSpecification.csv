@@ -1,0 +1,13 @@
+"Service Domain specification for Recruitment"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Recruitment
+"Role Definition"	"Administer candidate identification, selection, evaluation and on-boarding of new employees in coordination with internal management and external recruitment and advisory agencies as necessary (e.g. for background checks)"
+"Example of use"	"The HR department organizes recruitment drive for open positions in an expanding business unit"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	Recruitment
+"Generic Artifact"	Procedure
+"Control Record"	RecruitmentProcedure
+"Registration Status"	Registered

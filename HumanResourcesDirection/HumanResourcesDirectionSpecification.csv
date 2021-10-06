@@ -1,0 +1,13 @@
+"Service Domain specification for Human Resources Direction"
+"Business Area"	Business Management
+"Business Domain"	Business Direction
+"Service Domain"	Human Resources Direction
+"Role Definition"	"Develop and enforce HR policies and the overall HR plan for the enterprise (in coordination with subsidiaries and divisions as necessary)"
+"Example of use"	"The HR division defines and oversees the adoption of the HR policies and guidelines for the enterprise."
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Direct
+"Asset Type"	HumanResources
+"Generic Artifact"	Strategy
+"Control Record"	HumanResourcesStrategy
+"Registration Status"	Registered

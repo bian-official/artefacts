@@ -1,0 +1,13 @@
+"Service Domain specification for Interactive Help"
+"Business Area"	Channels
+"Business Domain"	Servicing
+"Service Domain"	Interactive Help
+"Role Definition"	"Operate the automated facility that provides interactive help and guidance for servicing to employees and self-service customers. The facility automatically determines the context for the help request and selects stored guidance that is presented to the user. The initial selection can be dynamically refined by the user to focus in on specific requirements as necessary. User feedback as to the content and coverage of the guidance can be captured"
+"Example of use"	"A new customer servicing representative obtains guidance for a product fulfillment issue raised during a customer contact"
+"Executive Summary"	"Operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers"
+"Key Features"	"Maintain context specific guidance. Select and present context specific guidance. Refine guidance selection criteria. Capture feedback with regard to guidance coverage and usability/quality"
+"Functional Pattern"	Operate
+"Asset Type"	interactiveHelpService
+"Generic Artifact"	OperatingSession
+"Control Record"	InteractiveHelpServiceOperatingSession
+"Registration Status"	Registered

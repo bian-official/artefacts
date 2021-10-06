@@ -1,0 +1,5 @@
+"Service Operations for: "	Information Provider Administration
+"Control Record Model for Information Provider Administration is not defined"
+"POST"	"/information-provider-administration/activation"
+"PUT"	"/information-provider-administration/{sd-reference-id}/configuration"
+"PUT"	"/information-provider-administration/{sd-reference-id}/feedback"

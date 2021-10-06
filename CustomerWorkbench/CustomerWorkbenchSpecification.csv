@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Workbench"
+"Business Area"	Channels
+"Business Domain"	Cross Channel
+"Service Domain"	Customer Workbench
+"Role Definition"	"This service domain handles the distribution and operation of a client device based/resident facility to support local working and access to the banks different products and services. It allows for the customer to maintain information and configuration settings remotely to govern their own access environment as necessary. The service domain operates outside the bank but is included in the landscape as it may run application capabilities that are either provided by or certified for use by the bank."
+"Example of use"	"A customer downloads an end-user financial management application offered by the bank"
+"Executive Summary"	"This service domain represents customer side devices. Most commonly providing a customer access portal to the banks products and services through any suitable channel and device"
+"Key Features"	"Provide customer access to the bank's network. Maintain local bank applications and access capabilities. Support local financial data analysis and bank service matching"
+"Functional Pattern"	Operate
+"Asset Type"	CustomerWorkbench
+"Generic Artifact"	OperatingSession
+"Control Record"	CustomerWorkbenchOperatingSession
+"Registration Status"	Registered

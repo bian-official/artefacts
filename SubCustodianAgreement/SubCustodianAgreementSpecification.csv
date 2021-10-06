@@ -1,0 +1,13 @@
+"Service Domain specification for Sub Custodian Agreement"
+"Business Area"	Operations
+"Business Domain"	External Agency
+"Service Domain"	Sub Custodian Agreement
+"Role Definition"	"Maintain sub custodian agreement terms and track and report on sub custodian activity"
+"Example of use"	"An equity sale involves updating scrip maintained by a sub custodian"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Agree Terms
+"Asset Type"	SubCustodian
+"Generic Artifact"	Agreement
+"Control Record"	SubCustodianAgreement
+"Registration Status"	Registered

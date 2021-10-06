@@ -1,0 +1,147 @@
+"Service Operations for: "	ECM And DCM
+""
+"POST"	"/ecm-and-dcm/activation"
+"PUT"	"/ecm-and-dcm/{sd-reference-id}/configuration"
+"PUT"	"/ecm-and-dcm/{sd-reference-id}/feedback"
+""
+"Post"	"/ecm-and-dcm/{sd-identifier}/ecm-and-dcm-arrangement/{crbq-identifier}/initiation"
+""	1	"out"	"Product Instance Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	2	"in"	"Customer Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	3	"in"	"Bank Branch/Location Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	4	"in"	"Business Unit Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	5	"inout"	"Document Directory Entry Instance Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	6	"inout"	"Associations"	"CR ECM And DCM Arrangement Instance Record"	String
+""	7	"inout"	"Association Type"	"CR ECM And DCM Arrangement Instance Record"	String
+""	8	"inout"	"Association Obligation/Entitlement"	"CR ECM And DCM Arrangement Instance Record"	String
+""	9	"inout"	"Association Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	10	"inout"	"ECM/DCM Fulfillment Schedule"	"CR ECM And DCM Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR ECM And DCM Arrangement Instance Record"	String
+""	12	"inout"	"ECM/DCM Instrument Record"	"CR ECM And DCM Arrangement Instance Record"	String
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/ecm-and-dcm-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Product Instance Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	4	"inout"	"Business Unit Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	5	"inout"	"Document Directory Entry Instance Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	6	"inout"	"Associations"	"CR ECM And DCM Arrangement Instance Record"	String
+""	7	"inout"	"Association Type"	"CR ECM And DCM Arrangement Instance Record"	String
+""	8	"inout"	"Association Obligation/Entitlement"	"CR ECM And DCM Arrangement Instance Record"	String
+""	9	"inout"	"Association Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	10	"inout"	"ECM/DCM Fulfillment Schedule"	"CR ECM And DCM Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR ECM And DCM Arrangement Instance Record"	String
+""	12	"inout"	"ECM/DCM Instrument Record"	"CR ECM And DCM Arrangement Instance Record"	String
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/ecm-and-dcm-arrangement/{crbq-identifier}/exchange"
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/ecm-and-dcm-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Product Instance Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	2	"inout"	"Customer Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	3	"inout"	"Bank Branch/Location Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	4	"inout"	"Business Unit Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	5	"inout"	"Document Directory Entry Instance Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	6	"inout"	"Associations"	"CR ECM And DCM Arrangement Instance Record"	String
+""	7	"inout"	"Association Type"	"CR ECM And DCM Arrangement Instance Record"	String
+""	8	"inout"	"Association Obligation/Entitlement"	"CR ECM And DCM Arrangement Instance Record"	String
+""	9	"inout"	"Association Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	10	"inout"	"ECM/DCM Fulfillment Schedule"	"CR ECM And DCM Arrangement Instance Record"	String
+""	11	"inout"	"Date Type"	"CR ECM And DCM Arrangement Instance Record"	String
+""	12	"inout"	"ECM/DCM Instrument Record"	"CR ECM And DCM Arrangement Instance Record"	String
+""
+"Get"	"/ecm-and-dcm/{sd-identifier}/ecm-and-dcm-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Product Instance Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	2	"out"	"Customer Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	3	"out"	"Bank Branch/Location Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	4	"out"	"Business Unit Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	5	"out"	"Document Directory Entry Instance Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	6	"out"	"Associations"	"CR ECM And DCM Arrangement Instance Record"	String
+""	7	"out"	"Association Type"	"CR ECM And DCM Arrangement Instance Record"	String
+""	8	"out"	"Association Obligation/Entitlement"	"CR ECM And DCM Arrangement Instance Record"	String
+""	9	"out"	"Association Reference"	"CR ECM And DCM Arrangement Instance Record"	Object
+""	10	"out"	"ECM/DCM Fulfillment Schedule"	"CR ECM And DCM Arrangement Instance Record"	String
+""	11	"out"	"Date Type"	"CR ECM And DCM Arrangement Instance Record"	String
+""	12	"out"	"ECM/DCM Instrument Record"	"CR ECM And DCM Arrangement Instance Record"	String
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/instrument-definition/{crbq-identifier}/update"
+""	1	"inout"	"Employee/Business Unit Reference"	"BQ Instrument Definition Instance Record"	Object
+""	2	"inout"	"Instrument Definition Work Task Record"	"BQ Instrument Definition Instance Record"	String
+""	3	"inout"	"Instrument Definition Work Task Type"	"BQ Instrument Definition Instance Record"	String
+""	4	"inout"	"Instrument Definition Work Task Description"	"BQ Instrument Definition Instance Record"	String
+""	5	"inout"	"Instrument Definition Work Task Work Products"	"BQ Instrument Definition Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"BQ Instrument Definition Instance Record"	Object
+""	7	"inout"	"Instrument Definition Specification"	"BQ Instrument Definition Instance Record"	String
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/instrument-definition/{crbq-identifier}/requisition"
+""	1	"inout"	"Employee/Business Unit Reference"	"BQ Instrument Definition Instance Record"	Object
+""	2	"inout"	"Instrument Definition Work Task Record"	"BQ Instrument Definition Instance Record"	String
+""	3	"inout"	"Instrument Definition Work Task Type"	"BQ Instrument Definition Instance Record"	String
+""	4	"out"	"Instrument Definition Work Task Description"	"BQ Instrument Definition Instance Record"	String
+""	5	"inout"	"Instrument Definition Work Task Work Products"	"BQ Instrument Definition Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"BQ Instrument Definition Instance Record"	Object
+""	7	"out"	"Instrument Definition Specification"	"BQ Instrument Definition Instance Record"	String
+""
+"Get"	"/ecm-and-dcm/{sd-identifier}/instrument-definition/{crbq-identifier}/retrieval"
+""	1	"out"	"Employee/Business Unit Reference"	"BQ Instrument Definition Instance Record"	Object
+""	2	"out"	"Instrument Definition Work Task Record"	"BQ Instrument Definition Instance Record"	String
+""	3	"out"	"Instrument Definition Work Task Type"	"BQ Instrument Definition Instance Record"	String
+""	4	"out"	"Instrument Definition Work Task Description"	"BQ Instrument Definition Instance Record"	String
+""	5	"out"	"Instrument Definition Work Task Work Products"	"BQ Instrument Definition Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"BQ Instrument Definition Instance Record"	Object
+""	7	"out"	"Instrument Definition Specification"	"BQ Instrument Definition Instance Record"	String
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/prospectus/{crbq-identifier}/update"
+""	1	"inout"	"Employee/Business Unit Reference"	"BQ Prospectus Instance Record"	Object
+""	2	"inout"	"Prospectus Work Task Record"	"BQ Prospectus Instance Record"	String
+""	3	"inout"	"Prospectus Work Task Type"	"BQ Prospectus Instance Record"	String
+""	4	"inout"	"Prospectus Work Task Description"	"BQ Prospectus Instance Record"	String
+""	5	"inout"	"Prospectus Work Task Work Products"	"BQ Prospectus Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"BQ Prospectus Instance Record"	Object
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/prospectus/{crbq-identifier}/requisition"
+""	1	"inout"	"Employee/Business Unit Reference"	"BQ Prospectus Instance Record"	Object
+""	2	"inout"	"Prospectus Work Task Record"	"BQ Prospectus Instance Record"	String
+""	3	"inout"	"Prospectus Work Task Type"	"BQ Prospectus Instance Record"	String
+""	4	"out"	"Prospectus Work Task Description"	"BQ Prospectus Instance Record"	String
+""	5	"inout"	"Prospectus Work Task Work Products"	"BQ Prospectus Instance Record"	String
+""	6	"inout"	"Document Directory Entry Instance Reference"	"BQ Prospectus Instance Record"	Object
+""
+"Get"	"/ecm-and-dcm/{sd-identifier}/prospectus/{crbq-identifier}/retrieval"
+""	1	"out"	"Employee/Business Unit Reference"	"BQ Prospectus Instance Record"	Object
+""	2	"out"	"Prospectus Work Task Record"	"BQ Prospectus Instance Record"	String
+""	3	"out"	"Prospectus Work Task Type"	"BQ Prospectus Instance Record"	String
+""	4	"out"	"Prospectus Work Task Description"	"BQ Prospectus Instance Record"	String
+""	5	"out"	"Prospectus Work Task Work Products"	"BQ Prospectus Instance Record"	String
+""	6	"out"	"Document Directory Entry Instance Reference"	"BQ Prospectus Instance Record"	Object
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/placement/{crbq-identifier}/update"
+""	1	"inout"	"Employee/Business Unit Reference"	"BQ Placement Instance Record"	Object
+""	2	"inout"	"Prospect List"	"BQ Placement Instance Record"	String
+""	3	"inout"	"Placement Road show Schedule"	"BQ Placement Instance Record"	String
+""	4	"inout"	"Placement Work Task Record"	"BQ Placement Instance Record"	String
+""	5	"inout"	"Placement Work Task Type"	"BQ Placement Instance Record"	String
+""	6	"inout"	"Placement Work Task Description"	"BQ Placement Instance Record"	String
+""	7	"inout"	"Placement Work Task Work Products"	"BQ Placement Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Placement Instance Record"	Object
+""	9	"inout"	"Placement Transaction"	"BQ Placement Instance Record"	String
+""
+"Put"	"/ecm-and-dcm/{sd-identifier}/placement/{crbq-identifier}/requisition"
+""	1	"inout"	"Employee/Business Unit Reference"	"BQ Placement Instance Record"	Object
+""	2	"inout"	"Prospect List"	"BQ Placement Instance Record"	String
+""	3	"inout"	"Placement Road show Schedule"	"BQ Placement Instance Record"	String
+""	4	"inout"	"Placement Work Task Record"	"BQ Placement Instance Record"	String
+""	5	"inout"	"Placement Work Task Type"	"BQ Placement Instance Record"	String
+""	6	"out"	"Placement Work Task Description"	"BQ Placement Instance Record"	String
+""	7	"inout"	"Placement Work Task Work Products"	"BQ Placement Instance Record"	String
+""	8	"inout"	"Document Directory Entry Instance Reference"	"BQ Placement Instance Record"	Object
+""	9	"out"	"Placement Transaction"	"BQ Placement Instance Record"	String
+""
+"Get"	"/ecm-and-dcm/{sd-identifier}/placement/{crbq-identifier}/retrieval"
+""	1	"out"	"Employee/Business Unit Reference"	"BQ Placement Instance Record"	Object
+""	2	"out"	"Prospect List"	"BQ Placement Instance Record"	String
+""	3	"out"	"Placement Road show Schedule"	"BQ Placement Instance Record"	String
+""	4	"out"	"Placement Work Task Record"	"BQ Placement Instance Record"	String
+""	5	"out"	"Placement Work Task Type"	"BQ Placement Instance Record"	String
+""	6	"out"	"Placement Work Task Description"	"BQ Placement Instance Record"	String
+""	7	"out"	"Placement Work Task Work Products"	"BQ Placement Instance Record"	String
+""	8	"out"	"Document Directory Entry Instance Reference"	"BQ Placement Instance Record"	Object
+""	9	"out"	"Placement Transaction"	"BQ Placement Instance Record"	String

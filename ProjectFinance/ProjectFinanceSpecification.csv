@@ -1,0 +1,13 @@
+"Service Domain specification for Project Finance"
+"Business Area"	Products
+"Business Domain"	Corporate Banking
+"Service Domain"	Project Finance
+"Role Definition"	"Provide project financing facilities and associated services"
+"Example of use"	"A corporate customer is provided with project financing"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	ProjectFinance
+"Generic Artifact"	Facility (rename)
+"Control Record"	ProjectFinanceArrangement
+"Registration Status"	Registered

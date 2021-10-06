@@ -1,0 +1,5 @@
+"Service Operations for: "	Public Offering
+"Control Record Model for Public Offering is not defined"
+"POST"	"/public-offering/activation"
+"PUT"	"/public-offering/{sd-reference-id}/configuration"
+"PUT"	"/public-offering/{sd-reference-id}/feedback"

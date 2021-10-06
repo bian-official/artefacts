@@ -1,0 +1,26 @@
+"Control Record Model for: "	Corporate Tax Advisory
+"Record Type"	"Instance Record"	"Attribute"	"Description"	"Data Type"
+"BQ"	BQ Service Fees Instance Record	""	""	""
+"BQ"	BQ Service Fees Instance Record	Fee Application Record	"The record of applied fees for the specialist advice"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction	"A record of an applied fee"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction Description	"General description of the fee"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction Type	"The fee type applied"	String
+"BQ"	BQ Service Fees Instance Record	Fee Transaction Charge	"The derived fee amount to be charged"	String
+"BQ"	BQ Tax Optimization Instance Record	""	""	""
+"BQ"	BQ Tax Optimization Instance Record	ProductandService Reference	"Reference to the corporate tax advisory service (used to access guidance materials)"	Object
+"BQ"	BQ Tax Optimization Instance Record	Specialist Support Task	"A record of engaging a product tax specialist to liaise with the customer"	String
+"BQ"	BQ Tax Optimization Instance Record	Specialist Employee/Business Unit Reference	"Business unit and or employee reference for the product specialist engaged"	Object
+"BQ"	BQ Tax Optimization Instance Record	Specialist Advice Description	"General description of the product specialist advice provided"	String
+"BQ"	BQ Tax Optimization Instance Record	Specialist Advice Charge	"The service charge to be made to the customer for the specialist support"	String
+"BQ"	BQ Tax Optimization Instance Record	Tax Optimization Guidance Advice Result	"Summary recommendations arising from the advice that is added to the consolidated tax advice record"	String
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	""	""	""
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Product Instance Reference	"Reference to the collection of advisory service sessions underlying the service"	Object
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Customer Reference	"Reference to the customer receiving the financial advice"	Object
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Bank Branch/Location Reference	"Bank branch associated with the customer account/relationship for booking purposes"	Object
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Employee/Business Unit Reference	"Business unit and or employee reference to the source of the financial advice"	Object
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Corporate Tax Advisory Work Products	"File of consolidated notes, forms and documents for the advisory sessions"	String
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Document Directory Entry Instance Reference	"The document reference for associated documents such as disclosures and acceptance records"	Object
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Corporate Tax Advice Session Schedule	"Target and actual dates for tasks performed (includes any specialist sessions)"	String
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Corporate Tax Advice Consolidation Record	"The combination of the different tax advisory sessions and assessments provided to the customer"	String
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Date Type	"Key dates and times associated with the advisory sessions (e.g. booking date, start date/time)"	String
+"CR"	CR Corporate Tax Advisory Arrangement Instance Record	Date	"Value of the date type"	String

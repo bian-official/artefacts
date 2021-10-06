@@ -1,0 +1,13 @@
+"Service Domain specification for Equipment Administration"
+"Business Area"	Resource Management
+"Business Domain"	Buildings And Equipment
+"Service Domain"	Equipment Administration
+"Role Definition"	"Track the operational state and administer assignment, maintenance and movements/inventory of available office equipment (printers, NW, Faxes, Shredders, kitchen etc..)"
+"Example of use"	"A range of office equipment is replaced as better lease terms and performance are available from an alternate supplier"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	OfficeEquipment
+"Generic Artifact"	AdministrativePlan
+"Control Record"	OfficeEquipmentAdministrativePlan
+"Registration Status"	Registered

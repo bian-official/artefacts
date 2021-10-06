@@ -1,0 +1,5 @@
+"Service Operations for: "	Sales Planning
+"Control Record Model for Sales Planning is not defined"
+"POST"	"/sales-planning/activation"
+"PUT"	"/sales-planning/{sd-reference-id}/configuration"
+"PUT"	"/sales-planning/{sd-reference-id}/feedback"

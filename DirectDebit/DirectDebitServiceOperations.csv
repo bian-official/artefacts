@@ -1,0 +1,250 @@
+"Service Operations for: "	Direct Debit
+""
+"POST"	"/direct-debit/activation"
+"PUT"	"/direct-debit/{sd-reference-id}/configuration"
+"PUT"	"/direct-debit/{sd-reference-id}/feedback"
+""
+"Put"	"/direct-debit/{sd-identifier}/payment-tracking/{crbq-identifier}/control"
+""	1	"inout"	"Payment Tracking Preconditions"	"BQ Payment Tracking Instance Record"	String
+""	2	"inout"	"Payment Tracking Feature Schedule"	"BQ Payment Tracking Instance Record"	String
+""	3	"inout"	"Direct Debit Payment Tracking"	"BQ Payment Tracking Instance Record"	Business Service
+""	4	"inout"	"Payment Tracking Postconditions"	"BQ Payment Tracking Instance Record"	String
+""	5	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Type"	"BQ Payment Tracking Instance Record"	String
+""	6	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Description"	"BQ Payment Tracking Instance Record"	String
+""	7	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Inputs and Ouputs"	"BQ Payment Tracking Instance Record"	String
+""	8	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Work Product"	"BQ Payment Tracking Instance Record"	String
+""	9	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Name"	"BQ Payment Tracking Instance Record"	String
+""
+"Put"	"/direct-debit/{sd-identifier}/direct-debit-arrangement/{crbq-identifier}/control"
+""	1	"inout"	"Direct Debit Arrangement Parameter Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	2	"inout"	"Direct Debit Arrangement Selected Option"	"CR Direct Debit Arrangement Instance Record"	String
+""	3	"in"	"Direct Debit Arrangement Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	4	"in"	"Direct Debit Arrangement Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	5	"inout"	"Direct Debit Arrangement Schedule"	"CR Direct Debit Arrangement Instance Record"	String
+""	6	"inout"	"Direct Debit Arrangement Status"	"CR Direct Debit Arrangement Instance Record"	String
+""	7	"in"	"Direct Debit Arrangement Currency"	"CR Direct Debit Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Direct Debit Arrangement Regulation Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	9	"in"	"Direct Debit Arrangement Regulation Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	10	"in"	"Direct Debit Arrangement Jurisdiction"	"CR Direct Debit Arrangement Instance Record"	String
+""	11	"in"	"Direct Debit Arrangement Booking Location"	"CR Direct Debit Arrangement Instance Record"	String
+""	12	"in"	"Direct Debit Arrangement Account Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	13	"in"	"Direct Debit Arrangement Account Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""
+"Put"	"/direct-debit/{sd-identifier}/funds-available-check/{crbq-identifier}/execution"
+""	1	"inout"	"Funds Available Check Preconditions"	"BQ Funds Available Check Instance Record"	String
+""	2	"inout"	"Funds Available Check Feature Schedule"	"BQ Funds Available Check Instance Record"	String
+""	3	"inout"	"Funds Available Check Postconditions"	"BQ Funds Available Check Instance Record"	String
+""	4	"inout"	"Funds Available Check Funds Available Check Service Type"	"BQ Funds Available Check Instance Record"	String
+""	5	"inout"	"Funds Available Check Funds Available Check Service Description"	"BQ Funds Available Check Instance Record"	String
+""	6	"inout"	"Funds Available Check Funds Available Check Service Inputs and Ouputs"	"BQ Funds Available Check Instance Record"	String
+""	7	"inout"	"Funds Available Check Funds Available Check Service Work Product"	"BQ Funds Available Check Instance Record"	String
+""	8	"inout"	"Funds Available Check Funds Available Check Service Name"	"BQ Funds Available Check Instance Record"	String
+""
+"Put"	"/direct-debit/{sd-identifier}/payment-initiation/{crbq-identifier}/execution"
+""	1	"inout"	"Payment Initiation Preconditions"	"BQ Payment Initiation Instance Record"	String
+""	2	"inout"	"Payment Initiation Feature Schedule"	"BQ Payment Initiation Instance Record"	String
+""	3	"inout"	"Direct Debit Payment Initiation"	"BQ Payment Initiation Instance Record"	Business Service
+""	4	"inout"	"Payment Initiation Postconditions"	"BQ Payment Initiation Instance Record"	String
+""	5	"inout"	"Payment Initiation Direct Debit Payment Initiation Service Type"	"BQ Payment Initiation Instance Record"	String
+""	6	"inout"	"Payment Initiation Direct Debit Payment Initiation Service Description"	"BQ Payment Initiation Instance Record"	String
+""	7	"inout"	"Payment Initiation Direct Debit Payment Initiation Service Inputs and Ouputs"	"BQ Payment Initiation Instance Record"	String
+""	8	"inout"	"Payment Initiation Direct Debit Payment Initiation Service Work Product"	"BQ Payment Initiation Instance Record"	String
+""	9	"inout"	"Payment Initiation Direct Debit Payment Initiation Service Name"	"BQ Payment Initiation Instance Record"	String
+""
+"Put"	"/direct-debit/{sd-identifier}/verify-mandate/{crbq-identifier}/execution"
+""	1	"inout"	"Verify Mandate Preconditions"	"BQ Verify Mandate Instance Record"	String
+""	2	"inout"	"Verify Mandate Feature Schedule"	"BQ Verify Mandate Instance Record"	String
+""	3	"inout"	"Direct Debit Mandate Check"	"BQ Verify Mandate Instance Record"	Business Service
+""	4	"inout"	"Verify Mandate Postconditions"	"BQ Verify Mandate Instance Record"	String
+""	5	"inout"	"Verify Mandate Direct Debit Mandate Check Service Type"	"BQ Verify Mandate Instance Record"	String
+""	6	"inout"	"Verify Mandate Direct Debit Mandate Check Service Description"	"BQ Verify Mandate Instance Record"	String
+""	7	"inout"	"Verify Mandate Direct Debit Mandate Check Service Inputs and Ouputs"	"BQ Verify Mandate Instance Record"	String
+""	8	"inout"	"Verify Mandate Direct Debit Mandate Check Service Work Product"	"BQ Verify Mandate Instance Record"	String
+""	9	"inout"	"Verify Mandate Direct Debit Mandate Check Service Name"	"BQ Verify Mandate Instance Record"	String
+""
+"Put"	"/direct-debit/{sd-identifier}/direct-debit-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Direct Debit Arrangement Parameter Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	2	"inout"	"Direct Debit Arrangement Selected Option"	"CR Direct Debit Arrangement Instance Record"	String
+""	3	"in"	"Direct Debit Arrangement Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	4	"in"	"Direct Debit Arrangement Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	5	"inout"	"Direct Debit Arrangement Schedule"	"CR Direct Debit Arrangement Instance Record"	String
+""	6	"inout"	"Direct Debit Arrangement Status"	"CR Direct Debit Arrangement Instance Record"	String
+""	7	"in"	"Direct Debit Arrangement Currency"	"CR Direct Debit Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Direct Debit Arrangement Regulation Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	9	"in"	"Direct Debit Arrangement Regulation Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	10	"in"	"Direct Debit Arrangement Jurisdiction"	"CR Direct Debit Arrangement Instance Record"	String
+""	11	"in"	"Direct Debit Arrangement Booking Location"	"CR Direct Debit Arrangement Instance Record"	String
+""	12	"in"	"Direct Debit Arrangement Account Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	13	"in"	"Direct Debit Arrangement Account Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""
+"Put"	"/direct-debit/{sd-identifier}/payment-tracking/{crbq-identifier}/execution"
+""	1	"inout"	"Payment Tracking Preconditions"	"BQ Payment Tracking Instance Record"	String
+""	2	"inout"	"Payment Tracking Feature Schedule"	"BQ Payment Tracking Instance Record"	String
+""	3	"inout"	"Direct Debit Payment Tracking"	"BQ Payment Tracking Instance Record"	Business Service
+""	4	"inout"	"Payment Tracking Postconditions"	"BQ Payment Tracking Instance Record"	String
+""	5	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Type"	"BQ Payment Tracking Instance Record"	String
+""	6	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Description"	"BQ Payment Tracking Instance Record"	String
+""	7	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Inputs and Ouputs"	"BQ Payment Tracking Instance Record"	String
+""	8	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Work Product"	"BQ Payment Tracking Instance Record"	String
+""	9	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Name"	"BQ Payment Tracking Instance Record"	String
+""
+"Put"	"/direct-debit/{sd-identifier}/direct-debit-arrangement/{crbq-identifier}/execution"
+""	1	"inout"	"Direct Debit Arrangement Parameter Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	2	"inout"	"Direct Debit Arrangement Selected Option"	"CR Direct Debit Arrangement Instance Record"	String
+""	3	"in"	"Direct Debit Arrangement Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	4	"in"	"Direct Debit Arrangement Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	5	"inout"	"Direct Debit Arrangement Schedule"	"CR Direct Debit Arrangement Instance Record"	String
+""	6	"inout"	"Direct Debit Arrangement Status"	"CR Direct Debit Arrangement Instance Record"	String
+""	7	"in"	"Direct Debit Arrangement Currency"	"CR Direct Debit Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Direct Debit Arrangement Regulation Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	9	"in"	"Direct Debit Arrangement Regulation Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	10	"in"	"Direct Debit Arrangement Jurisdiction"	"CR Direct Debit Arrangement Instance Record"	String
+""	11	"in"	"Direct Debit Arrangement Booking Location"	"CR Direct Debit Arrangement Instance Record"	String
+""	12	"in"	"Direct Debit Arrangement Account Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	13	"in"	"Direct Debit Arrangement Account Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""
+"Post"	"/direct-debit/{sd-identifier}/payment-tracking/{crbq-identifier}/initiation"
+""	1	"inout"	"Payment Tracking Preconditions"	"BQ Payment Tracking Instance Record"	String
+""	2	"inout"	"Payment Tracking Feature Schedule"	"BQ Payment Tracking Instance Record"	String
+""	3	"inout"	"Direct Debit Payment Tracking"	"BQ Payment Tracking Instance Record"	Business Service
+""	4	"inout"	"Payment Tracking Postconditions"	"BQ Payment Tracking Instance Record"	String
+""	5	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Type"	"BQ Payment Tracking Instance Record"	String
+""	6	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Description"	"BQ Payment Tracking Instance Record"	String
+""	7	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Inputs and Ouputs"	"BQ Payment Tracking Instance Record"	String
+""	8	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Work Product"	"BQ Payment Tracking Instance Record"	String
+""	9	"inout"	"Payment Tracking Direct Debit Payment Tracking Service Name"	"BQ Payment Tracking Instance Record"	String
+""
+"Post"	"/direct-debit/{sd-identifier}/reporting/{crbq-identifier}/initiation"
+""	1	"inout"	"Reporting Preconditions"	"BQ Reporting Instance Record"	String
+""	2	"inout"	"Reporting Feature Schedule"	"BQ Reporting Instance Record"	String
+""	3	"inout"	"Business Service"	"BQ Reporting Instance Record"	Business Service
+""	4	"inout"	"Reporting Postconditions"	"BQ Reporting Instance Record"	String
+""	5	"inout"	"Reporting Service Type"	"BQ Reporting Instance Record"	String
+""	6	"inout"	"Reporting Service Description"	"BQ Reporting Instance Record"	String
+""	7	"inout"	"Reporting Service Inputs and Ouputs"	"BQ Reporting Instance Record"	String
+""	8	"inout"	"Reporting Service Work Product"	"BQ Reporting Instance Record"	String
+""	9	"inout"	"Reporting Service Name"	"BQ Reporting Instance Record"	String
+""
+"Post"	"/direct-debit/{sd-identifier}/direct-debit-arrangement/{crbq-identifier}/initiation"
+""	1	"inout"	"Direct Debit Arrangement Parameter Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	2	"inout"	"Direct Debit Arrangement Selected Option"	"CR Direct Debit Arrangement Instance Record"	String
+""	3	"in"	"Direct Debit Arrangement Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	4	"in"	"Direct Debit Arrangement Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	5	"inout"	"Direct Debit Arrangement Schedule"	"CR Direct Debit Arrangement Instance Record"	String
+""	6	"inout"	"Direct Debit Arrangement Status"	"CR Direct Debit Arrangement Instance Record"	String
+""	7	"in"	"Direct Debit Arrangement Currency"	"CR Direct Debit Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Direct Debit Arrangement Regulation Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	9	"in"	"Direct Debit Arrangement Regulation Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	10	"in"	"Direct Debit Arrangement Jurisdiction"	"CR Direct Debit Arrangement Instance Record"	String
+""	11	"in"	"Direct Debit Arrangement Booking Location"	"CR Direct Debit Arrangement Instance Record"	String
+""	12	"in"	"Direct Debit Arrangement Account Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	13	"in"	"Direct Debit Arrangement Account Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""
+"Get"	"/direct-debit/{sd-identifier}/funds-available-check/{crbq-identifier}/retrieval"
+""	1	"out"	"Funds Available Check Preconditions"	"BQ Funds Available Check Instance Record"	String
+""	2	"out"	"Funds Available Check Feature Schedule"	"BQ Funds Available Check Instance Record"	String
+""	3	"out"	"Funds Available Check Postconditions"	"BQ Funds Available Check Instance Record"	String
+""	4	"out"	"Funds Available Check Funds Available Check Service Type"	"BQ Funds Available Check Instance Record"	String
+""	5	"out"	"Funds Available Check Funds Available Check Service Description"	"BQ Funds Available Check Instance Record"	String
+""	6	"out"	"Funds Available Check Funds Available Check Service Inputs and Ouputs"	"BQ Funds Available Check Instance Record"	String
+""	7	"out"	"Funds Available Check Funds Available Check Service Work Product"	"BQ Funds Available Check Instance Record"	String
+""	8	"out"	"Funds Available Check Funds Available Check Service Name"	"BQ Funds Available Check Instance Record"	String
+""
+"Get"	"/direct-debit/{sd-identifier}/payment-initiation/{crbq-identifier}/retrieval"
+""	1	"out"	"Payment Initiation Preconditions"	"BQ Payment Initiation Instance Record"	String
+""	2	"out"	"Payment Initiation Feature Schedule"	"BQ Payment Initiation Instance Record"	String
+""	3	"out"	"Direct Debit Payment Initiation"	"BQ Payment Initiation Instance Record"	Business Service
+""	4	"out"	"Payment Initiation Postconditions"	"BQ Payment Initiation Instance Record"	String
+""	5	"out"	"Payment Initiation Direct Debit Payment Initiation Service Type"	"BQ Payment Initiation Instance Record"	String
+""	6	"out"	"Payment Initiation Direct Debit Payment Initiation Service Description"	"BQ Payment Initiation Instance Record"	String
+""	7	"out"	"Payment Initiation Direct Debit Payment Initiation Service Inputs and Ouputs"	"BQ Payment Initiation Instance Record"	String
+""	8	"out"	"Payment Initiation Direct Debit Payment Initiation Service Work Product"	"BQ Payment Initiation Instance Record"	String
+""	9	"out"	"Payment Initiation Direct Debit Payment Initiation Service Name"	"BQ Payment Initiation Instance Record"	String
+""
+"Get"	"/direct-debit/{sd-identifier}/payment-tracking/{crbq-identifier}/retrieval"
+""	1	"out"	"Payment Tracking Preconditions"	"BQ Payment Tracking Instance Record"	String
+""	2	"out"	"Payment Tracking Feature Schedule"	"BQ Payment Tracking Instance Record"	String
+""	3	"out"	"Direct Debit Payment Tracking"	"BQ Payment Tracking Instance Record"	Business Service
+""	4	"out"	"Payment Tracking Postconditions"	"BQ Payment Tracking Instance Record"	String
+""	5	"out"	"Payment Tracking Direct Debit Payment Tracking Service Type"	"BQ Payment Tracking Instance Record"	String
+""	6	"out"	"Payment Tracking Direct Debit Payment Tracking Service Description"	"BQ Payment Tracking Instance Record"	String
+""	7	"out"	"Payment Tracking Direct Debit Payment Tracking Service Inputs and Ouputs"	"BQ Payment Tracking Instance Record"	String
+""	8	"out"	"Payment Tracking Direct Debit Payment Tracking Service Work Product"	"BQ Payment Tracking Instance Record"	String
+""	9	"out"	"Payment Tracking Direct Debit Payment Tracking Service Name"	"BQ Payment Tracking Instance Record"	String
+""
+"Get"	"/direct-debit/{sd-identifier}/reporting/{crbq-identifier}/retrieval"
+""	1	"out"	"Reporting Preconditions"	"BQ Reporting Instance Record"	String
+""	2	"out"	"Reporting Feature Schedule"	"BQ Reporting Instance Record"	String
+""	3	"out"	"Business Service"	"BQ Reporting Instance Record"	Business Service
+""	4	"out"	"Reporting Postconditions"	"BQ Reporting Instance Record"	String
+""	5	"out"	"Reporting Service Type"	"BQ Reporting Instance Record"	String
+""	6	"out"	"Reporting Service Description"	"BQ Reporting Instance Record"	String
+""	7	"out"	"Reporting Service Inputs and Ouputs"	"BQ Reporting Instance Record"	String
+""	8	"out"	"Reporting Service Work Product"	"BQ Reporting Instance Record"	String
+""	9	"out"	"Reporting Service Name"	"BQ Reporting Instance Record"	String
+""
+"Get"	"/direct-debit/{sd-identifier}/verify-mandate/{crbq-identifier}/retrieval"
+""	1	"out"	"Verify Mandate Preconditions"	"BQ Verify Mandate Instance Record"	String
+""	2	"out"	"Verify Mandate Feature Schedule"	"BQ Verify Mandate Instance Record"	String
+""	3	"out"	"Direct Debit Mandate Check"	"BQ Verify Mandate Instance Record"	Business Service
+""	4	"out"	"Verify Mandate Postconditions"	"BQ Verify Mandate Instance Record"	String
+""	5	"out"	"Verify Mandate Direct Debit Mandate Check Service Type"	"BQ Verify Mandate Instance Record"	String
+""	6	"out"	"Verify Mandate Direct Debit Mandate Check Service Description"	"BQ Verify Mandate Instance Record"	String
+""	7	"out"	"Verify Mandate Direct Debit Mandate Check Service Inputs and Ouputs"	"BQ Verify Mandate Instance Record"	String
+""	8	"out"	"Verify Mandate Direct Debit Mandate Check Service Work Product"	"BQ Verify Mandate Instance Record"	String
+""	9	"out"	"Verify Mandate Direct Debit Mandate Check Service Name"	"BQ Verify Mandate Instance Record"	String
+""
+"Get"	"/direct-debit/{sd-identifier}/direct-debit-arrangement/{crbq-identifier}/retrieval"
+""	1	"out"	"Direct Debit Arrangement Parameter Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	2	"out"	"Direct Debit Arrangement Selected Option"	"CR Direct Debit Arrangement Instance Record"	String
+""	3	"out"	"Direct Debit Arrangement Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	4	"out"	"Direct Debit Arrangement Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	5	"out"	"Direct Debit Arrangement Schedule"	"CR Direct Debit Arrangement Instance Record"	String
+""	6	"out"	"Direct Debit Arrangement Status"	"CR Direct Debit Arrangement Instance Record"	String
+""	7	"out"	"Direct Debit Arrangement Currency"	"CR Direct Debit Arrangement Instance Record"	CurrencyCode
+""	8	"out"	"Direct Debit Arrangement Regulation Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	9	"out"	"Direct Debit Arrangement Regulation Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	10	"out"	"Direct Debit Arrangement Jurisdiction"	"CR Direct Debit Arrangement Instance Record"	String
+""	11	"out"	"Direct Debit Arrangement Booking Location"	"CR Direct Debit Arrangement Instance Record"	String
+""	12	"out"	"Direct Debit Arrangement Account Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	13	"out"	"Direct Debit Arrangement Account Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""
+"Put"	"/direct-debit/{sd-identifier}/funds-available-check/{crbq-identifier}/requisition"
+""	1	"inout"	"Funds Available Check Preconditions"	"BQ Funds Available Check Instance Record"	String
+""	2	"inout"	"Funds Available Check Feature Schedule"	"BQ Funds Available Check Instance Record"	String
+""	3	"inout"	"Funds Available Check Postconditions"	"BQ Funds Available Check Instance Record"	String
+""	4	"inout"	"Funds Available Check Funds Available Check Service Type"	"BQ Funds Available Check Instance Record"	String
+""	5	"inout"	"Funds Available Check Funds Available Check Service Description"	"BQ Funds Available Check Instance Record"	String
+""	6	"inout"	"Funds Available Check Funds Available Check Service Inputs and Ouputs"	"BQ Funds Available Check Instance Record"	String
+""	7	"inout"	"Funds Available Check Funds Available Check Service Work Product"	"BQ Funds Available Check Instance Record"	String
+""	8	"inout"	"Funds Available Check Funds Available Check Service Name"	"BQ Funds Available Check Instance Record"	String
+""
+"Put"	"/direct-debit/{sd-identifier}/direct-debit-arrangement/{crbq-identifier}/requisition"
+""	1	"inout"	"Direct Debit Arrangement Parameter Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	2	"inout"	"Direct Debit Arrangement Selected Option"	"CR Direct Debit Arrangement Instance Record"	String
+""	3	"in"	"Direct Debit Arrangement Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	4	"in"	"Direct Debit Arrangement Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	5	"inout"	"Direct Debit Arrangement Schedule"	"CR Direct Debit Arrangement Instance Record"	String
+""	6	"inout"	"Direct Debit Arrangement Status"	"CR Direct Debit Arrangement Instance Record"	String
+""	7	"in"	"Direct Debit Arrangement Currency"	"CR Direct Debit Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Direct Debit Arrangement Regulation Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	9	"in"	"Direct Debit Arrangement Regulation Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	10	"in"	"Direct Debit Arrangement Jurisdiction"	"CR Direct Debit Arrangement Instance Record"	String
+""	11	"in"	"Direct Debit Arrangement Booking Location"	"CR Direct Debit Arrangement Instance Record"	String
+""	12	"in"	"Direct Debit Arrangement Account Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	13	"in"	"Direct Debit Arrangement Account Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""
+"Put"	"/direct-debit/{sd-identifier}/direct-debit-arrangement/{crbq-identifier}/update"
+""	1	"inout"	"Direct Debit Arrangement Parameter Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	2	"inout"	"Direct Debit Arrangement Selected Option"	"CR Direct Debit Arrangement Instance Record"	String
+""	3	"in"	"Direct Debit Arrangement Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	4	"in"	"Direct Debit Arrangement Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	5	"inout"	"Direct Debit Arrangement Schedule"	"CR Direct Debit Arrangement Instance Record"	String
+""	6	"inout"	"Direct Debit Arrangement Status"	"CR Direct Debit Arrangement Instance Record"	String
+""	7	"in"	"Direct Debit Arrangement Currency"	"CR Direct Debit Arrangement Instance Record"	CurrencyCode
+""	8	"in"	"Direct Debit Arrangement Regulation Reference"	"CR Direct Debit Arrangement Instance Record"	Object
+""	9	"in"	"Direct Debit Arrangement Regulation Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	10	"in"	"Direct Debit Arrangement Jurisdiction"	"CR Direct Debit Arrangement Instance Record"	String
+""	11	"in"	"Direct Debit Arrangement Booking Location"	"CR Direct Debit Arrangement Instance Record"	String
+""	12	"in"	"Direct Debit Arrangement Account Type"	"CR Direct Debit Arrangement Instance Record"	String
+""	13	"in"	"Direct Debit Arrangement Account Reference"	"CR Direct Debit Arrangement Instance Record"	Object

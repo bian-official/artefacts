@@ -1,0 +1,13 @@
+"Service Domain specification for Site Administration"
+"Business Area"	Resource Management
+"Business Domain"	Buildings And Equipment
+"Service Domain"	Site Administration
+"Role Definition"	"Oversee the configuration and assignment of committed space and facilities to business units to optimize facility leverage and meet business space requirements. Manage the assignment of access rights and security tags etc. to staff as necessary for access control"
+"Example of use"	"A business unit moves into a new location requiring that space and equipment be configured and suitable access controls and space assignments made"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	Building
+"Generic Artifact"	AdministrativePlan
+"Control Record"	BuildingAdministrativePlan
+"Registration Status"	Registered

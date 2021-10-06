@@ -1,0 +1,13 @@
+"Service Domain specification for Document Library"
+"Business Area"	Operations
+"Business Domain"	Custody, Collateral And Documents
+"Service Domain"	Document Library
+"Role Definition"	"This service domain handles the status tracking, classification, recording/copying (for all media) storage and retrieval of all active documents of significance. It can include document services that retrieve documents from external sources on request. This can combine physical but more commonly electronic storage, retrieval and distribution of important and/or legally significant documentation. It delegates to the service domain Archive Services for longer term storage needs"
+"Example of use"	"A legal significant document is created during product fulfillment. It is classified and stored for subsequent reference as may be required"
+"Executive Summary"	"This service domain captures, classifies, stores, maintains and retrieves any material document in any media as appropriate. It includes both electronic and physical distribution services"
+"Key Features"	"Capture, classify and store documents. Arrange for the retrieval of requested documents. Verify/maintain documents. Provide access to documents. Archive and retrieve documents"
+"Functional Pattern"	Catalog
+"Asset Type"	Document
+"Generic Artifact"	DirectoryEntry
+"Control Record"	DocumentDirectoryEntry
+"Registration Status"	Registered

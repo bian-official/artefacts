@@ -1,0 +1,13 @@
+"Service Domain specification for Servicing Issue"
+"Business Area"	Channels
+"Business Domain"	Servicing
+"Service Domain"	Servicing Issue
+"Role Definition"	"Capture, track, resolve and report on customer servicing issues - note this excludes contacts that are resolved and cases that are raised. Issues are actions requiring some kind of follow-up by the contact service representative (CSR)"
+"Example of use"	"A customer requests that the CSR arranges for marketing materials to be sent out - an action for which no standard case processing is available"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	ServicingIssue
+"Generic Artifact"	Procedure
+"Control Record"	ServicingIssueProcedure
+"Registration Status"	Registered

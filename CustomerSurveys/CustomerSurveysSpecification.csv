@@ -1,0 +1,13 @@
+"Service Domain specification for Customer Surveys"
+"Business Area"	Business Development
+"Business Domain"	Marketing And Development
+"Service Domain"	Customer Surveys
+"Role Definition"	"Handle the deployment, execution and on-going refinement of customer surveys. This includes many types of survey including traditional mailshot questionnaires, in production review/feedback solicitation, review panels/focus groups. The survey execution process performs the survey definitions,  selection of reviewers, surveying and post survey analysis"
+"Example of use"	"A bank develops a customer questionnaire to obtain feedback from customers that make frequent use of the self-service contact center facility for service improvement suggestions"
+"Executive Summary"	"Define and execute and analyze customer surveys"
+"Key Features"	"Customer survey definition/refinement. Reviewer selection/identification. Customer survey execution. Customer survey analysis and feedback"
+"Functional Pattern"	Process
+"Asset Type"	CustomerSurveys
+"Generic Artifact"	Procedure
+"Control Record"	CustomerSurveyProcedure
+"Registration Status"	Registered

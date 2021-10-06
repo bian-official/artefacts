@@ -1,0 +1,13 @@
+"Service Domain specification for Market Risk Models"
+"Business Area"	Business Development
+"Business Domain"	Models And Analytics
+"Service Domain"	Market Risk Models
+"Role Definition"	"Develop and maintain a portfolio of market risk models including currency, interest rate, instrument quotes, indices, commodity prices and other market and macro-economic risk factors. Support the use of these models in trading and pricing activity"
+"Example of use"	"Financial engineers assess the coverage and currency of the portfolio of market risk models and update certain models accordingly"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	MarketRiskModel
+"Generic Artifact"	Specification
+"Control Record"	MarketRiskModelSpecification
+"Registration Status"	Registered

@@ -1,0 +1,5 @@
+"Service Operations for: "	Development Environment
+"Control Record Model for Development Environment is not defined"
+"POST"	"/development-environment/activation"
+"PUT"	"/development-environment/{sd-reference-id}/configuration"
+"PUT"	"/development-environment/{sd-reference-id}/feedback"

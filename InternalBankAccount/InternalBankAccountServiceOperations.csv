@@ -1,0 +1,5 @@
+"Service Operations for: "	Internal Bank Account
+""
+"POST"	"/internal-bank-account/activation"
+"PUT"	"/internal-bank-account/{sd-reference-id}/configuration"
+"PUT"	"/internal-bank-account/{sd-reference-id}/feedback"

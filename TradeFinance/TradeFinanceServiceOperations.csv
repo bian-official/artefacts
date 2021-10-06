@@ -1,0 +1,5 @@
+"Service Operations for: "	Trade Finance
+"Control Record Model for Trade Finance is not defined"
+"POST"	"/trade-finance/activation"
+"PUT"	"/trade-finance/{sd-reference-id}/configuration"
+"PUT"	"/trade-finance/{sd-reference-id}/feedback"

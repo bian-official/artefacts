@@ -1,0 +1,13 @@
+"Service Domain specification for Unit Trust Administration"
+"Business Area"	Products
+"Business Domain"	Corporate Finance
+"Service Domain"	Unit Trust Administration
+"Role Definition"	"Administer unit trusts, allocate and rebalance the trust in response to market activity and funds sales and disbursements"
+"Example of use"	"Changes in the unit trust holding and market conditions trigger trading requests to rebalance the trust"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	UnitTrust
+"Generic Artifact"	AdministrativePlan
+"Control Record"	UnitTrustAdministrativePlan
+"Registration Status"	Registered

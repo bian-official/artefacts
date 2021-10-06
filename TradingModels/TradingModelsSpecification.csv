@@ -1,0 +1,13 @@
+"Service Domain specification for Trading Models"
+"Business Area"	Business Development
+"Business Domain"	Models And Analytics
+"Service Domain"	Trading Models
+"Role Definition"	"Manage the development and deployment of trading models to support automatic executions"
+"Example of use"	"Automated trading activity is initiated"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Design
+"Asset Type"	TradingModel
+"Generic Artifact"	Specification
+"Control Record"	TradingModelSpecification
+"Registration Status"	Registered

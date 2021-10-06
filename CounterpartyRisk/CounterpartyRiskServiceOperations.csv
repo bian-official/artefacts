@@ -1,0 +1,5 @@
+"Service Operations for: "	Counterparty Risk
+"Control Record Model for Counterparty Risk is not defined"
+"POST"	"/counterparty-risk/activation"
+"PUT"	"/counterparty-risk/{sd-reference-id}/configuration"
+"PUT"	"/counterparty-risk/{sd-reference-id}/feedback"

@@ -1,0 +1,5 @@
+"Service Operations for: "	Procurement
+"Control Record Model for Procurement is not defined"
+"POST"	"/procurement/activation"
+"PUT"	"/procurement/{sd-reference-id}/configuration"
+"PUT"	"/procurement/{sd-reference-id}/feedback"

@@ -1,0 +1,13 @@
+"Service Domain specification for Syndicate Management"
+"Business Area"	Operations
+"Business Domain"	External Agency
+"Service Domain"	Syndicate Management
+"Role Definition"	"Manage the membership and administration of syndicates in compliance with the agreed charter and operating agreement"
+"Example of use"	"A project funding initiative assembles a syndicate of investors"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Enroll
+"Asset Type"	Syndicate
+"Generic Artifact"	Membership
+"Control Record"	SyndicateMembership
+"Registration Status"	Registered

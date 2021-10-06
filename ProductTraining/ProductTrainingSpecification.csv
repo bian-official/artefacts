@@ -1,0 +1,13 @@
+"Service Domain specification for Product Training"
+"Business Area"	Business Development
+"Business Domain"	Product Management
+"Service Domain"	Product Training
+"Role Definition"	"This service domain handles the development and delivery of product specific training across the workforce to schedule and as a requested service. This includes the use of all appropriate media and training mechanisms (on-line, self taught, classroom etc.)"
+"Example of use"	"Example of use:. A training program is developed and rolled out covering the servicing of an updated product for the customer servicing teams"
+"Executive Summary"	"Develop and provide product specific training across the workforce. This includes all media and training mechanisms (on-line, self taught, classroom etc.)"
+"Key Features"	"Training material assembly and formatting. Training session scheduling. Training execution. Training effectiveness evaluation"
+"Functional Pattern"	Process
+"Asset Type"	ProductTraining
+"Generic Artifact"	Procedure
+"Control Record"	ProductTrainingProcedure
+"Registration Status"	Registered

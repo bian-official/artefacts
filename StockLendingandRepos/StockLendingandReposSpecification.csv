@@ -1,0 +1,13 @@
+"Service Domain specification for Stock Lending and Repos"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Stock Lending and Repos
+"Role Definition"	"Orchestrate stock lending and repurchase agreement (repo) transactions"
+"Example of use"	"A bank lends stock under a repo transaction to cover a short position"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Transact
+"Asset Type"	Repo
+"Generic Artifact"	Transaction
+"Control Record"	RepoTransaction
+"Registration Status"	Registered

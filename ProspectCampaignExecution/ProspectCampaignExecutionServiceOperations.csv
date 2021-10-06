@@ -1,0 +1,197 @@
+"Service Operations for: "	Prospect Campaign Execution
+""
+"POST"	"/prospect-campaign-execution/activation"
+"PUT"	"/prospect-campaign-execution/{sd-reference-id}/configuration"
+"PUT"	"/prospect-campaign-execution/{sd-reference-id}/feedback"
+""
+"Post"	"/prospect-campaign-execution/{sd-identifier}/prospect-campaign-procedure/{crbq-identifier}/initiation"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"inout"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"inout"	"Prospect Campaign Consumables Inventory"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"in"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	9	"inout"	"Prospect Campaign Consumable Holding"	"CR Prospect Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	11	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Procedure Instance Record"	String
+""	12	"out"	"Prospect Campaign Procedure Prospect Identification"	"CR Prospect Campaign Procedure Instance Record"	String
+""	13	"out"	"Party Lifecycle Management Procedure Instance Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/prospect-campaign-procedure/{crbq-identifier}/update"
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/prospect-campaign-procedure/{crbq-identifier}/control"
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/prospect-campaign-procedure/{crbq-identifier}/exchange"
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/prospect-campaign-procedure/{crbq-identifier}/execution"
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/prospect-campaign-procedure/{crbq-identifier}/requisition"
+""
+"Get"	"/prospect-campaign-execution/{sd-identifier}/prospect-campaign-procedure/{crbq-identifier}/retrieval"
+""	1	"out"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"out"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"out"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"out"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"out"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"out"	"Prospect Campaign Consumables Inventory"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"out"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	9	"out"	"Prospect Campaign Consumable Holding"	"CR Prospect Campaign Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	11	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Procedure Instance Record"	String
+""	12	"out"	"Prospect Campaign Procedure Prospect Identification"	"CR Prospect Campaign Procedure Instance Record"	String
+""	13	"out"	"Party Lifecycle Management Procedure Instance Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/candidate-selection/{crbq-identifier}/update"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"inout"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"inout"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"inout"	"Prospect Campaign Selection Criteria"	"BQ Candidate Selection Instance Record"	String
+""	9	"inout"	"Prospect Campaign Candidate Employee/Business Unit Reference"	"BQ Candidate Selection Instance Record"	Object
+""	10	"inout"	"Prospect Campaign Candidate Reference"	"BQ Candidate Selection Instance Record"	Object
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/candidate-selection/{crbq-identifier}/exchange"
+""
+"Get"	"/prospect-campaign-execution/{sd-identifier}/candidate-selection/{crbq-identifier}/retrieval"
+""	1	"out"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"out"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"out"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"out"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"out"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"out"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"out"	"Prospect Campaign Selection Criteria"	"BQ Candidate Selection Instance Record"	String
+""	9	"out"	"Prospect Campaign Candidate Employee/Business Unit Reference"	"BQ Candidate Selection Instance Record"	Object
+""	10	"out"	"Prospect Campaign Candidate Reference"	"BQ Candidate Selection Instance Record"	Object
+""
+"Post"	"/prospect-campaign-execution/{sd-identifier}/execution/{crbq-identifier}/initiation"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"inout"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"inout"	"Prospect Campaign Consumables Inventory"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"in"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	9	"inout"	"Prospect Campaign Consumable Holding"	"CR Prospect Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	11	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Procedure Instance Record"	String
+""	12	"out"	"Prospect Campaign Procedure Prospect Identification"	"CR Prospect Campaign Procedure Instance Record"	String
+""	13	"out"	"Party Lifecycle Management Procedure Instance Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	14	"inout"	"Prospect Campaign Procedure Work Task Type"	"BQ Execution Instance Record"	String
+""	15	"out"	"Prospect Campaign Procedure Work Task Description"	"BQ Execution Instance Record"	String
+""	16	"out"	"Prospect Campaign Procedure Work Task Work Products"	"BQ Execution Instance Record"	String
+""	17	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	18	"out"	"Prospect Campaign Procedure Work Task Result"	"BQ Execution Instance Record"	String
+""	19	"out"	"Prospect Campaign Procedure Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/execution/{crbq-identifier}/update"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"inout"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"inout"	"Prospect Campaign Consumables Inventory"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"in"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	9	"inout"	"Prospect Campaign Consumable Holding"	"CR Prospect Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	11	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Procedure Instance Record"	String
+""	12	"out"	"Prospect Campaign Procedure Prospect Identification"	"CR Prospect Campaign Procedure Instance Record"	String
+""	13	"out"	"Party Lifecycle Management Procedure Instance Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	14	"inout"	"Prospect Campaign Procedure Work Task Type"	"BQ Execution Instance Record"	String
+""	15	"inout"	"Prospect Campaign Procedure Work Task Description"	"BQ Execution Instance Record"	String
+""	16	"inout"	"Prospect Campaign Procedure Work Task Work Products"	"BQ Execution Instance Record"	String
+""	17	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	18	"inout"	"Prospect Campaign Procedure Work Task Result"	"BQ Execution Instance Record"	String
+""	19	"inout"	"Prospect Campaign Procedure Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/execution/{crbq-identifier}/requisition"
+""	1	"inout"	"Prospect Campaign Procedure Work Task Type"	"BQ Execution Instance Record"	String
+""	2	"inout"	"Prospect Campaign Procedure Work Task Description"	"BQ Execution Instance Record"	String
+""	3	"inout"	"Prospect Campaign Procedure Work Task Work Products"	"BQ Execution Instance Record"	String
+""	4	"inout"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	5	"inout"	"Prospect Campaign Procedure Work Task Result"	"BQ Execution Instance Record"	String
+""	6	"inout"	"Prospect Campaign Procedure Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Get"	"/prospect-campaign-execution/{sd-identifier}/execution/{crbq-identifier}/retrieval"
+""	1	"out"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"out"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"out"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"out"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"out"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"out"	"Prospect Campaign Consumables Inventory"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"out"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	9	"out"	"Prospect Campaign Consumable Holding"	"CR Prospect Campaign Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	11	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Procedure Instance Record"	String
+""	12	"out"	"Prospect Campaign Procedure Prospect Identification"	"CR Prospect Campaign Procedure Instance Record"	String
+""	13	"out"	"Party Lifecycle Management Procedure Instance Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	14	"out"	"Prospect Campaign Procedure Work Task Type"	"BQ Execution Instance Record"	String
+""	15	"out"	"Prospect Campaign Procedure Work Task Description"	"BQ Execution Instance Record"	String
+""	16	"out"	"Prospect Campaign Procedure Work Task Work Products"	"BQ Execution Instance Record"	String
+""	17	"out"	"Document Directory Entry Instance Reference"	"BQ Execution Instance Record"	Object
+""	18	"out"	"Prospect Campaign Procedure Work Task Result"	"BQ Execution Instance Record"	String
+""	19	"out"	"Prospect Campaign Procedure Work Task Date-Time"	"BQ Execution Instance Record"	Date
+""
+"Post"	"/prospect-campaign-execution/{sd-identifier}/analysis-feedback/{crbq-identifier}/initiation"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"inout"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"inout"	"Prospect Campaign Consumables Inventory"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"in"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	9	"inout"	"Prospect Campaign Consumable Holding"	"CR Prospect Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	11	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Procedure Instance Record"	String
+""	12	"out"	"Prospect Campaign Procedure Prospect Identification"	"CR Prospect Campaign Procedure Instance Record"	String
+""	13	"out"	"Party Lifecycle Management Procedure Instance Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	14	"out"	"Prospect Campaign Procedure Analysis Result"	"BQ Analysis Feedback Instance Record"	String
+""	15	"inout"	"Prospect Campaign Procedure Analysis Feedback Result"	"BQ Analysis Feedback Instance Record"	String
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/analysis-feedback/{crbq-identifier}/update"
+""	1	"inout"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"inout"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"inout"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"inout"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"inout"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"inout"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"inout"	"Prospect Campaign Consumables Inventory"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"in"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	9	"inout"	"Prospect Campaign Consumable Holding"	"CR Prospect Campaign Procedure Instance Record"	String
+""	10	"inout"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	11	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Procedure Instance Record"	String
+""	12	"out"	"Prospect Campaign Procedure Prospect Identification"	"CR Prospect Campaign Procedure Instance Record"	String
+""	13	"out"	"Party Lifecycle Management Procedure Instance Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	14	"inout"	"Prospect Campaign Procedure Analysis Result"	"BQ Analysis Feedback Instance Record"	String
+""	15	"inout"	"Prospect Campaign Procedure Analysis Feedback Result"	"BQ Analysis Feedback Instance Record"	String
+""
+"Put"	"/prospect-campaign-execution/{sd-identifier}/analysis-feedback/{crbq-identifier}/requisition"
+""	1	"inout"	"Prospect Campaign Procedure Analysis Result"	"BQ Analysis Feedback Instance Record"	String
+""	2	"inout"	"Prospect Campaign Procedure Analysis Feedback Result"	"BQ Analysis Feedback Instance Record"	String
+""
+"Get"	"/prospect-campaign-execution/{sd-identifier}/analysis-feedback/{crbq-identifier}/retrieval"
+""	1	"out"	"Prospect Campaign Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	2	"out"	"Prospect Campaign Description"	"CR Prospect Campaign Procedure Instance Record"	String
+""	3	"out"	"Employee/Business Unit Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	4	"out"	"Prospect Campaign Procedure Set-up"	"CR Prospect Campaign Procedure Instance Record"	String
+""	5	"out"	"Prospect Campaign Procedure Version Number"	"CR Prospect Campaign Procedure Instance Record"	String
+""	6	"out"	"Prospect Campaign Schedule"	"CR Prospect Campaign Procedure Instance Record"	String
+""	7	"out"	"Prospect Campaign Consumables Inventory"	"CR Prospect Campaign Procedure Instance Record"	String
+""	8	"out"	"Prospect Campaign Consumable Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	9	"out"	"Prospect Campaign Consumable Holding"	"CR Prospect Campaign Procedure Instance Record"	String
+""	10	"out"	"Date Type"	"CR Prospect Campaign Procedure Instance Record"	String
+""	11	"out"	"Prospect Campaign Procedure Result"	"CR Prospect Campaign Procedure Instance Record"	String
+""	12	"out"	"Prospect Campaign Procedure Prospect Identification"	"CR Prospect Campaign Procedure Instance Record"	String
+""	13	"out"	"Party Lifecycle Management Procedure Instance Reference"	"CR Prospect Campaign Procedure Instance Record"	Object
+""	14	"out"	"Prospect Campaign Procedure Analysis Result"	"BQ Analysis Feedback Instance Record"	String
+""	15	"out"	"Prospect Campaign Procedure Analysis Feedback Result"	"BQ Analysis Feedback Instance Record"	String

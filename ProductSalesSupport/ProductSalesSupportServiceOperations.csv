@@ -1,0 +1,5 @@
+"Service Operations for: "	Product Sales Support
+"Control Record Model for Product Sales Support is not defined"
+"POST"	"/product-sales-support/activation"
+"PUT"	"/product-sales-support/{sd-reference-id}/configuration"
+"PUT"	"/product-sales-support/{sd-reference-id}/feedback"

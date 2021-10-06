@@ -1,0 +1,13 @@
+"Service Domain specification for Market Making"
+"Business Area"	Products
+"Business Domain"	Market Trading
+"Service Domain"	Market Making
+"Role Definition"	"Orchestrate the market making of a security (matching buy to sell orders typically through coordination with a stock exchange)"
+"Example of use"	"A financial institution acts as the market maker for a number of market assets/securities. Buy and sell trades are automatically captured and the pricing adjusted to maintain a limited net position by influencing buy/sell decisions"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Fulfill
+"Asset Type"	MarketMaking
+"Generic Artifact"	Facility (rename)
+"Control Record"	MarketMakingArrangement
+"Registration Status"	Registered

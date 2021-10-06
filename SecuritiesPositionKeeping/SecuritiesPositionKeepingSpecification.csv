@@ -1,0 +1,13 @@
+"Service Domain specification for Securities Position Keeping"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Securities Position Keeping
+"Role Definition"	"Maintain a log of securities transactions for investment account management information, tracking and reconciliation purposes. The facility simply maintains transaction activity details for a collection of instruments, which includes dividend and other corporate action related actions where appropriate. The transaction log is used to maintain the holding positions"
+"Example of use"	"Example of use:. An investment account is set up for a customer and the underlying securities position keeping facility is initialized to track subsequent transactions"
+"Executive Summary"	"This service domain maintains a securities transaction log to support securities investment activity"
+"Key Features"	"Configure the transaction log for recording services. Post securities transactions. Repair/update securities transactions. Maintain securities positions as configured . Support corporate actions as appropriate (e.g. dividend status). Provide transaction reporting and alert services"
+"Functional Pattern"	Track
+"Asset Type"	SecuritiesPosition
+"Generic Artifact"	Log
+"Control Record"	SecuritiesPositionLog
+"Registration Status"	Provisional

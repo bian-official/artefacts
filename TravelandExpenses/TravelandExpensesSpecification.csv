@@ -1,0 +1,13 @@
+"Service Domain specification for Travel and Expenses"
+"Business Area"	Resource Management
+"Business Domain"	Human Resources
+"Service Domain"	Travel and Expenses
+"Role Definition"	"Administer the authorization, booking, payment, recompense and accounting for travel and expenses incurred in the execution of employment activity"
+"Example of use"	"Monthly expense claims are processed for employees and approved reimbursements booked to payroll. "
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Administer
+"Asset Type"	EmployeeTravelAndExpenses
+"Generic Artifact"	AdministrativePlan
+"Control Record"	EmployeeTravelAndExpensesAdministrativePlan
+"Registration Status"	Registered

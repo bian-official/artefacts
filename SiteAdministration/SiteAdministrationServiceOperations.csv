@@ -1,0 +1,5 @@
+"Service Operations for: "	Site Administration
+"Control Record Model for Site Administration is not defined"
+"POST"	"/site-administration/activation"
+"PUT"	"/site-administration/{sd-reference-id}/configuration"
+"PUT"	"/site-administration/{sd-reference-id}/feedback"
