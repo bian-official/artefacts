@@ -1,0 +1,13 @@
+"Service Domain specification for Account Reconciliation"
+"Business Area"	Operations
+"Business Domain"	Accounting Services
+"Service Domain"	Account Reconciliation
+"Role Definition"	"Match, reconcile and resolve identified discrepancies between accounts. Includes nostro/vostro arrangements"
+"Example of use"	"A scheduled reconciliation task is performed for the nostro/vostro accounts and discrepancies identified and resolved"
+"Executive Summary"	""
+"Key Features"	""
+"Functional Pattern"	Process
+"Asset Type"	AccountReconciliation
+"Generic Artifact"	Procedure
+"Control Record"	AccountReconciliationProcedure
+"Registration Status"	Registered

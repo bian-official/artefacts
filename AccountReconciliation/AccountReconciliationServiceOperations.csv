@@ -1,0 +1,5 @@
+"Service Operations for: "	Account Reconciliation
+"Control Record Model for Account Reconciliation is not defined"
+"POST"	"/account-reconciliation/activation"
+"PUT"	"/account-reconciliation/{sd-reference-id}/configuration"
+"PUT"	"/account-reconciliation/{sd-reference-id}/feedback"
